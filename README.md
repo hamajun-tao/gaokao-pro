@@ -1,13 +1,23 @@
 # gaokao-pro
 
 Chinese 高考 college planner — from your terminal.
-[![npm](https://img.shields.io/npm/v/gaokao-pro.svg)](https://www.npmjs.com/package/gaokao-pro)
+
+## Install
 
 ```bash
-npx gaokao-pro@latest recommend \
+curl -fsSL https://raw.githubusercontent.com/HA7CH/gaokao-pro/main/install.sh | bash
+```
+
+Then:
+
+```bash
+gaokao-pro recommend \
   --score 660 --province henan --subjects 物理,化学,生物 \
   --985 --limit 5 --explain
 ```
+
+(npm release coming soon — `npx gaokao-pro@latest ...` will work once we
+finish wiring 2FA-bypass tokens on the publish account.)
 
 No signup, no token, no backend. Talks straight to
 `static-data.gaokao.cn` (the 中国教育在线 / 掌上高考 static JSON tier — no
