@@ -1,16 +1,22 @@
-// Loads docs/school-index.json — the local school corpus built by `probe`.
+// Loads cli/data/school-index.json.gz — the local school corpus built by `probe`.
 // Exposes filters by province / labels / level / type / belong.
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
+import { gunzipSync } from "node:zlib";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
-// In src: ../../docs ; in dist: ../../../docs (dist sits inside cli/dist).
-// Probe both locations.
 const SRC_DIR = dirname(__filename);
+// Look for the gzipped index first (npm-shipped), then the legacy uncompressed
+// docs path (dev convenience).
 const CANDIDATE_PATHS = [
-  resolve(SRC_DIR, "..", "..", "docs", "school-index.json"),     // running tsx from cli/src
-  resolve(SRC_DIR, "..", "..", "..", "docs", "school-index.json") // running compiled from cli/dist
+  // From src/ via tsx: cli/src/ → cli/data/
+  resolve(SRC_DIR, "..", "data", "school-index.json.gz"),
+  // From dist/ compiled: cli/dist/ → cli/data/
+  resolve(SRC_DIR, "..", "..", "data", "school-index.json.gz"),
+  // Legacy uncompressed paths
+  resolve(SRC_DIR, "..", "..", "docs", "school-index.json"),
+  resolve(SRC_DIR, "..", "..", "..", "docs", "school-index.json")
 ];
 
 export type SchoolRow = {
@@ -40,8 +46,10 @@ export function loadIndex(): SchoolIndex {
   if (cached) return cached;
   let lastErr: unknown = null;
   for (const path of CANDIDATE_PATHS) {
+    if (!existsSync(path)) continue;
     try {
-      const raw = readFileSync(path, "utf8");
+      const buf = readFileSync(path);
+      const raw = path.endsWith(".gz") ? gunzipSync(buf).toString("utf8") : buf.toString("utf8");
       cached = JSON.parse(raw) as SchoolIndex;
       return cached;
     } catch (e) {
@@ -49,7 +57,7 @@ export function loadIndex(): SchoolIndex {
     }
   }
   throw new Error(
-    `school-index.json not found in ${CANDIDATE_PATHS.join(" or ")}. ` +
+    `school-index not found in any of: ${CANDIDATE_PATHS.join(", ")}. ` +
       `Run \`pnpm probe\` to build it. Last error: ${lastErr}`
   );
 }

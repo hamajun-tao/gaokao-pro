@@ -1,8 +1,10 @@
 #!/usr/bin/env node
-import { getSchoolInfo, getAdmissionPlan, extractHistoricalScores } from "./gaokao-cn.js";
+import { getSchoolInfo, getAdmissionPlan, getAdmissionScores, extractHistoricalScores } from "./gaokao-cn.js";
 import { PROVINCES, TRACK_NAMES, resolveProvince, ALL_SUBJECTS, type Subject } from "./codes.js";
 import { recommend } from "./recommend.js";
 import { find } from "./find.js";
+import { top } from "./top.js";
+import { isTty, formatRecommend, formatTop } from "./format.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -33,6 +35,12 @@ function printJson(value: unknown): void {
   process.stdout.write(JSON.stringify(value, null, 2) + "\n");
 }
 
+function shouldTable(flags: Record<string, string | boolean>): boolean {
+  if (flags.format === "table") return true;
+  if (flags.format === "json") return false;
+  return isTty();
+}
+
 const HELP = `gaokao-pro v${VERSION}
 
 Usage:
@@ -51,11 +59,23 @@ Usage:
                        [--schools <id1,id2,...>] [--985] [--211] [--dual-class]
                        [--level <本科|专科>] [--type <综合类|理工类|...>]
                        [--belong <教育部|工信部|...>] [--limit <n>] [--rank <n>]
+                       [--explain] [--format table|json]
       Bucket schools into 冲 / 稳 / 保 based on the user's score vs each
       school's most-recent matching-track minimum. Without --schools, scans
       the full index (~2400 schools). All evaluation is local — no network.
       e.g. gaokao-pro recommend --score 660 --province henan \\
-                                --subjects 物理,化学,生物 --985 --limit 10
+                                --subjects 物理,化学,生物 --985 --limit 10 --explain
+
+  gaokao-pro top --score <n> --province <name|id> --subjects <list>
+                 [--985] [--211] [--dual-class] [--limit <n>]
+                 [--format table|json]
+      Best schools within reach of this score in this province, ranked by
+      historical baseline desc. Like recommend, but flat top-N list.
+      e.g. gaokao-pro top --score 650 --province henan --subjects 物理 --limit 15
+
+  gaokao-pro actual <schoolId> --year <year> --province <name|id>
+      Per-major actual admission outcomes (vs forward-looking 'plan'):
+      max/min/avg score, 录取人数, 最低位次. Use this for rank-based reasoning.
 
   gaokao-pro find <keyword> --province <name|id> --year <year>
                   [--985] [--211] [--dual-class] [--belong <name>] [--limit <n>]
@@ -189,7 +209,85 @@ const VERBS: Record<string, Verb> = {
       belong: typeof flags.belong === "string" ? flags.belong : undefined
     };
     const out = recommend({ score, provinceId, subjects, rank, schoolIds, filter, limit });
-    printJson({ ok: true, ...out });
+    if (shouldTable(flags)) {
+      process.stdout.write(formatRecommend(out, { explain: flags.explain === true }) + "\n");
+    } else {
+      printJson({ ok: true, ...out });
+    }
+  },
+
+  async top(args) {
+    const { flags } = parseFlags(args);
+    const score = Number(flags.score);
+    if (!Number.isFinite(score)) throw new Error("--score <n> is required");
+    if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
+    const provinceId = resolveProvince(flags.province);
+    if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
+    if (typeof flags.subjects !== "string") throw new Error("--subjects <list> is required");
+    const subjects = flags.subjects.split(",").map((s) => s.trim()) as Subject[];
+    for (const s of subjects) {
+      if (!ALL_SUBJECTS.includes(s)) throw new Error(`unknown subject: ${s} (valid: ${ALL_SUBJECTS.join(", ")})`);
+    }
+    const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
+    const filter = {
+      f985: flags["985"] === true ? true : undefined,
+      f211: flags["211"] === true ? true : undefined,
+      dualClass: flags["dual-class"] === true ? true : undefined
+    };
+    const out = top({ score, provinceId, subjects, limit, filter });
+    if (shouldTable(flags)) {
+      const rows = out.rows.map((r) => ({
+        schoolName: r.name,
+        baselineMinScore: r.baselineMinScore,
+        delta: r.delta,
+        baselineYear: r.baselineYear,
+        city: r.city,
+        tags: [r.is985 ? "985" : "", r.is211 && !r.is985 ? "211" : "", r.dualClass === "双一流" && !r.is985 && !r.is211 ? "双一流" : ""].filter(Boolean).join(" "),
+        belong: r.belong
+      }));
+      const header = `gaokao-pro top  score=${score}  province=${PROVINCES[provinceId].name}  subjects=${subjects.join("/")}  limit=${limit}\n`;
+      process.stdout.write(header + formatTop(rows) + "\n");
+    } else {
+      printJson({ ok: true, ...out });
+    }
+  },
+
+  async actual(args) {
+    const { positional, flags } = parseFlags(args);
+    const id = positional[0];
+    if (!id) throw new Error("missing schoolId");
+    const year = Number(flags.year);
+    if (!Number.isFinite(year)) throw new Error("--year <year> is required");
+    if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
+    const provinceId = resolveProvince(flags.province);
+    if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
+    const items = await getAdmissionScores(id, year, provinceId);
+    printJson({
+      ok: true,
+      query: { schoolId: id, year, province: { id: provinceId, name: PROVINCES[provinceId].name } },
+      count: items.length,
+      items: items.map((it) => ({
+        spcode: it.spcode || null,
+        sp_name: it.sp_name,
+        spname: it.spname,
+        max: it.max || null,
+        min: it.min || null,
+        average: it.average || null,
+        min_section: it.min_section && it.min_section !== "-" ? Number(it.min_section) : null,
+        lq_num: Number(it.lq_num) || 0,
+        diff: it.diff || null,
+        batch: it.local_batch_name,
+        zslx: it.zslx_name,
+        track: TRACK_NAMES[it.type] ?? it.type,
+        major_group: it.special_group !== "0" ? it.special_group : null,
+        xuanke: {
+          first: it.sp_fxk || it.sg_fxk || null,
+          reselect: it.sp_sxk || it.sg_sxk || null,
+          raw: it.sp_xuanke || it.sg_xuanke || null
+        },
+        info: it.info || it.remark || null
+      }))
+    });
   },
 
   async find(args) {

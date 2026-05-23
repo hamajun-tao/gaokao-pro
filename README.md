@@ -1,37 +1,74 @@
 # gaokao-pro
 
-China gaokao college planner — from your terminal.
+Chinese 高考 college planner — from your terminal.
+[![npm](https://img.shields.io/npm/v/gaokao-pro.svg)](https://www.npmjs.com/package/gaokao-pro)
 
 ```bash
-# Bucket schools into 冲/稳/保 for your score (no school IDs needed):
-npx gaokao-pro@latest recommend --score 660 --province henan \
-  --subjects 物理,化学,生物 --985 --limit 10
-
-# Find which 985 schools recruit "计算机" in 河南 for 2024:
-npx gaokao-pro@latest find "计算机" --province henan --year 2024 --985 --limit 20
-
-# Inspect one school:
-npx gaokao-pro@latest school 31                            # 北大 metadata
-npx gaokao-pro@latest plan 31 --year 2024 --province henan # admission plan
-npx gaokao-pro@latest scores 31 --province henan           # historical min scores
+npx gaokao-pro@latest recommend \
+  --score 660 --province henan --subjects 物理,化学,生物 \
+  --985 --limit 5 --explain
 ```
 
-No signup, no token, no backend. The CLI talks straight to
+No signup, no token, no backend. Talks straight to
 `static-data.gaokao.cn` (the 中国教育在线 / 掌上高考 static JSON tier — no
-auth, no sign, no rate limit observed) and prints JSON. Pipe it into
-`jq`, Claude Code, anything.
+auth, no sign, no rate limit observed). Ships with a built-in 2,400-school
+local index so `recommend` / `top` / `find` filters run offline.
 
-`recommend` is fully offline: it reads a 2,400-school local index
-(`docs/school-index.json`, ~10 MB, built by `pnpm probe`) and scores
-the user's input in milliseconds. Refresh annually after each year's
-admission data drops.
+## Verbs
 
-## Status
+| Verb        | What it does                                                              |
+|-------------|---------------------------------------------------------------------------|
+| `recommend` | 冲 / 稳 / 保 buckets for your score in a province (offline)                |
+| `top`       | Top-N best schools your score can reach (offline)                         |
+| `find`      | Search majors across schools — e.g. all 985 schools that recruit 计算机     |
+| `school`    | School metadata: 985/211/双一流/学科评估/校友会排名                         |
+| `plan`      | Forward-looking admission plan per (school, year, province)               |
+| `actual`    | Backward-looking actual admissions: 最低分 / 平均分 / 最低位次              |
+| `scores`    | Historical min-score time series for a (school, province) pair            |
+| `provinces` | List supported provinces with 新高考 reform regime                          |
 
-🚧 v0.0.1. Working verbs: `recommend` · `find` · `school` · `plan` ·
-`scores` · `provinces`. Coming: 31 省考试院 fallback adapters for
-一分一段表 (rank ↔ score), MCP server, Claude Code plugin, hosted
-landing at gaokao.ha7ch.com.
+See [cli/README.md](./cli/README.md) for the full CLI doc.
+
+## Repo
+
+```
+gaokao-pro/
+├── cli/                     # npm package `gaokao-pro`
+│   ├── src/
+│   │   ├── gaokao-cn.ts     # static-data.gaokao.cn client + types
+│   │   ├── recommend.ts     # 冲/稳/保 algorithm (offline, transparent)
+│   │   ├── top.ts           # top-N within reach
+│   │   ├── find.ts          # cross-school major search
+│   │   ├── format.ts        # TTY table rendering
+│   │   ├── index-loader.ts  # gunzip + cache the school index
+│   │   ├── probe.ts         # rebuild the school index
+│   │   └── codes.ts         # 31 province codes + 新高考 reform map
+│   ├── data/
+│   │   └── school-index.json.gz   # 2,422-school corpus (1 MB gzipped)
+│   └── test/smoke.ts        # live API smoke test
+└── docs/
+    ├── data-sources.md      # 50-agent feasibility scan (31 省 + national + competitors)
+    └── schema-gaokao-cn.md  # upstream JSON schema notes + gotchas
+```
+
+## Develop
+
+```bash
+pnpm install
+pnpm -C cli dev recommend --score 660 --province henan --subjects 物理,化学,生物 --985
+pnpm -C cli test                       # 8 smoke checks against live API
+pnpm -C cli probe                      # rebuild data/school-index.json.gz
+pnpm -C cli build                      # tsc → dist/
+```
+
+## Compliance
+
+This is a thin client over public CDN-served JSON. The CLI doesn't store any
+PII, doesn't make value judgments, doesn't replace a 志愿规划师. See
+[docs/data-sources.md](./docs/data-sources.md) for the compliance posture
+and provincial 教育考试院 fallback notes.
+
+Part of [HA7CH](https://ha7ch.com) — sibling of `job-pro` and `cv-pro`.
 
 ## Why
 

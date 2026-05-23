@@ -1,8 +1,10 @@
 // Smoke test — hits the live static-data.gaokao.cn API + exercises the local index.
 // Fails fast if the upstream contract changes or the index goes stale.
-import { getSchoolInfo, getAdmissionPlan, extractHistoricalScores } from "../src/gaokao-cn.js";
+import { getSchoolInfo, getAdmissionPlan, getAdmissionScores, extractHistoricalScores } from "../src/gaokao-cn.js";
 import { recommend } from "../src/recommend.js";
+import { top } from "../src/top.js";
 import { loadIndex } from "../src/index-loader.js";
+import { formatRecommend } from "../src/format.js";
 
 async function expect(name: string, fn: () => Promise<void>) {
   try {
@@ -57,6 +59,44 @@ async function main() {
     const total = out.buckets["冲"].length + out.buckets["稳"].length + out.buckets["保"].length;
     if (total === 0) throw new Error("expected at least one school across 冲/稳/保");
     if (out.query.track !== "2073") throw new Error(`expected track 2073, got ${out.query.track}`);
+  });
+
+  await expect("top 650 / 河南 / 物理 / 985 yields ≥5 schools", async () => {
+    const out = top({
+      score: 650,
+      provinceId: 41,
+      subjects: ["物理"],
+      limit: 10,
+      filter: { f985: true }
+    });
+    if (out.rows.length < 5) throw new Error(`expected ≥5 rows, got ${out.rows.length}`);
+    // Ranked descending by baseline.
+    for (let i = 1; i < out.rows.length; i++) {
+      if (out.rows[i].baselineMinScore > out.rows[i - 1].baselineMinScore) {
+        throw new Error("rows not sorted by baseline desc");
+      }
+    }
+  });
+
+  await expect("formatRecommend renders 冲/稳/保 sections", async () => {
+    const out = recommend({
+      score: 660,
+      provinceId: 41,
+      subjects: ["物理", "化学", "生物"],
+      filter: { f985: true },
+      limit: 3
+    });
+    const txt = formatRecommend(out);
+    if (!txt.includes("REACH") || !txt.includes("MATCH") || !txt.includes("SAFETY")) {
+      throw new Error("missing bucket headers");
+    }
+  });
+
+  await expect("actual 31 / 2024 / 广东 returns min_section for 新高考 entries", async () => {
+    const items = await getAdmissionScores(31, 2024, 44);
+    if (items.length === 0) throw new Error("empty actual");
+    const hasRank = items.some((it) => it.min_section && it.min_section !== "-");
+    if (!hasRank) throw new Error("no min_section/位次 found");
   });
 }
 

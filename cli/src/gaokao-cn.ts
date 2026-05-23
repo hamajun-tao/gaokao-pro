@@ -91,6 +91,60 @@ export type AdmissionPlanResponse = {
   };
 };
 
+// Backward-looking actual admission outcomes (per-major).
+// Distinct from AdmissionPlanItem (forward-looking — what's being offered).
+export type AdmissionScoreItem = {
+  school_id: string;
+  special_id: string;
+  province: string;
+  type: string;                // track code
+  zslx: string;
+  zslx_name: string;
+  batch: string;
+  local_batch_name: string;
+  spcode?: string;             // 6-digit 专业代码 (may be omitted/blank for 大类招生)
+  spname: string;
+  sp_name: string;
+  info: string;
+  remark: string;
+  level1_name: string;
+  level2_name: string;
+  level3_name: string;
+  special_group: string;
+  // Outcome fields:
+  max: number;                 // 最高分
+  min: number;                 // 最低分
+  average: number;             // 平均分
+  lq_num: string;              // 实际录取人数
+  min_section: string;         // 最低位次 (sometimes "-" for old-gaokao years)
+  min_range: string;           // 分数段范围
+  min_rank_range: string;      // 位次段范围
+  range_max_rank: string;
+  is_score_range: string;
+  diff: number;                // 分差 (vs batch line)
+  // Same xuanke / sg_* fields as plan items
+  first_km: string;
+  sp_type: string;
+  sp_fxk: string;
+  sp_sxk: string;
+  sp_info: string;
+  sp_xuanke: string;
+  sg_fxk: string;
+  sg_sxk: string;
+  sg_type: string;
+  sg_name: string;
+  sg_info: string;
+  sg_xuanke: string;
+};
+
+export type AdmissionScoreResponse = {
+  // Bucket keys here look like "<type>_<batch>_<groupId>" e.g. "2074_14_156551".
+  [bucket: string]: {
+    numFound: number;
+    item: AdmissionScoreItem[];
+  };
+};
+
 // ---- Client ----
 
 export async function getSchoolInfo(schoolId: number | string): Promise<SchoolInfo> {
@@ -106,6 +160,17 @@ export async function getAdmissionPlan(
     `/schoolspecialplan/${schoolId}/${year}/${provinceId}.json`
   );
   // Flatten all buckets into a single array.
+  return Object.values(raw).flatMap((bucket) => bucket?.item ?? []);
+}
+
+export async function getAdmissionScores(
+  schoolId: number | string,
+  year: number,
+  provinceId: number | string
+): Promise<AdmissionScoreItem[]> {
+  const raw = await fetchJson<AdmissionScoreResponse>(
+    `/schoolspecialscore/${schoolId}/${year}/${provinceId}.json`
+  );
   return Object.values(raw).flatMap((bucket) => bucket?.item ?? []);
 }
 
