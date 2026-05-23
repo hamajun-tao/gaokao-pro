@@ -1,5 +1,5 @@
-// recommend — given (score, province, subjects, candidate schools),
-// bucket each candidate into 冲 / 稳 / 保 based on historical minimum-score deltas.
+// recommend — given (score, province, subjects), bucket schools into 冲 / 稳 / 保
+// based on each school's most-recent matching-track minimum score in that province.
 //
 // Algorithm is intentionally transparent (no opaque model):
 //   delta = userScore - schoolMinScore(latest matching year)
@@ -9,11 +9,13 @@
 //     -25 <= delta < -5 → '冲'  (reach)
 //     delta < -25 → out of range
 //
-// The reach/match/safety thresholds are heuristics — adjust later from
-// real outcome data. For now we surface the raw delta so the caller can
-// override.
-import { getSchoolInfo, extractHistoricalScores, type SchoolInfo } from "./gaokao-cn.js";
+// Reach/match/safety thresholds are heuristics — adjustable. The raw `delta`
+// is surfaced so callers can override.
+//
+// Data source: docs/school-index.json (built by `probe`). All evaluation is
+// local — no network calls — so 2700+ schools score in milliseconds.
 import { PROVINCES, TRACK_NAMES, type ProvinceId, type Subject } from "./codes.js";
+import { loadIndex, filterIndex, type SchoolRow, type IndexFilter } from "./index-loader.js";
 
 export type Bucket = "保" | "稳" | "冲" | "out";
 
@@ -22,13 +24,17 @@ export type RecommendInput = {
   provinceId: ProvinceId;
   subjects: Subject[];
   rank?: number;
-  schoolIds: Array<number | string>;
+  schoolIds?: Array<number | string>;  // optional: restrict to these schools
+  filter?: IndexFilter;                // optional: filter via labels (985/211/etc.)
+  limit?: number;                      // optional: cap per bucket
 };
 
 export type RecommendCandidate = {
-  schoolId: string;
+  schoolId: number;
   zsCode: string;
   name: string;
+  province: string;
+  city: string;
   belong: string;
   is985: boolean;
   is211: boolean;
@@ -39,7 +45,6 @@ export type RecommendCandidate = {
   baselineTrackName: string;
   delta: number;
   bucket: Bucket;
-  series: Array<{ year: number; track: string; trackName: string; minScore: number }>;
 };
 
 export type RecommendOutput = {
@@ -51,16 +56,16 @@ export type RecommendOutput = {
     trackName: string;
     rank?: number;
   };
+  evaluated: number;
   buckets: {
     "保": RecommendCandidate[];
     "稳": RecommendCandidate[];
     "冲": RecommendCandidate[];
     out: RecommendCandidate[];
-    skipped: Array<{ schoolId: string; reason: string }>;
+    skipped: number;
   };
 };
 
-// Map a (province reform, subjects) combo to the gaokao.cn `type` track code.
 export function inferTrack(provinceId: ProvinceId, subjects: Subject[]): string {
   const reform = PROVINCES[provinceId].reform;
   if (reform === "3+3") return "3";
@@ -69,7 +74,6 @@ export function inferTrack(provinceId: ProvinceId, subjects: Subject[]): string 
     if (subjects.includes("历史")) return "2074";
     throw new Error("3+1+2 provinces require either 物理 or 历史 in --subjects");
   }
-  // Old gaokao: subjects 物理/化学/生物 → 理 (1); 历史/政治/地理 → 文 (2).
   const sciCount = subjects.filter((s) => ["物理", "化学", "生物"].includes(s)).length;
   const libCount = subjects.filter((s) => ["历史", "政治", "地理"].includes(s)).length;
   return sciCount >= libCount ? "1" : "2";
@@ -82,75 +86,83 @@ function bucketOf(delta: number): Bucket {
   return "out";
 }
 
-function evaluate(
-  info: SchoolInfo,
+function evaluateRow(
+  row: SchoolRow,
   provinceId: ProvinceId,
   track: string,
   userScore: number
-): { candidate?: RecommendCandidate; skipped?: { schoolId: string; reason: string } } {
-  const series = extractHistoricalScores(info, provinceId);
-  const matching = series.filter((s) => s.track === track);
-  if (matching.length === 0) {
+): RecommendCandidate | null {
+  const entries = row.pro_type_min?.[String(provinceId)] ?? [];
+  if (entries.length === 0) return null;
+  // Find the most recent year with a score for the target track.
+  // Years are not guaranteed sorted, so sort descending here.
+  const sortedYears = [...entries].sort((a, b) => b.year - a.year);
+  for (const entry of sortedYears) {
+    const score = entry.type?.[track];
+    if (!score) continue;
+    const min = Number(score);
+    if (!Number.isFinite(min) || min <= 0) continue;
+    const delta = userScore - min;
     return {
-      skipped: {
-        schoolId: info.school_id,
-        reason: `no historical data for track ${track} (${TRACK_NAMES[track] ?? track}) in province ${provinceId}`
-      }
+      schoolId: row.gaokao_cn_id,
+      zsCode: row.zs_code,
+      name: row.name,
+      province: row.province,
+      city: row.city,
+      belong: row.belong,
+      is985: row.f985,
+      is211: row.f211,
+      dualClass: row.dual_class,
+      baselineYear: entry.year,
+      baselineMinScore: min,
+      baselineTrack: track,
+      baselineTrackName: TRACK_NAMES[track] ?? track,
+      delta,
+      bucket: bucketOf(delta)
     };
   }
-  const baseline = matching[0]; // most recent year (series is sorted desc)
-  const delta = userScore - baseline.minScore;
-  return {
-    candidate: {
-      schoolId: info.school_id,
-      zsCode: info.zs_code,
-      name: info.name,
-      belong: info.belong,
-      is985: info.f985 === "1",
-      is211: info.f211 === "1",
-      dualClass: info.dual_class_name,
-      baselineYear: baseline.year,
-      baselineMinScore: baseline.minScore,
-      baselineTrack: baseline.track,
-      baselineTrackName: TRACK_NAMES[baseline.track] ?? baseline.track,
-      delta,
-      bucket: bucketOf(delta),
-      series: series.map((s) => ({ ...s, trackName: TRACK_NAMES[s.track] ?? s.track }))
-    }
-  };
+  return null;
 }
 
-export async function recommend(input: RecommendInput): Promise<RecommendOutput> {
+export function recommend(input: RecommendInput): RecommendOutput {
+  const index = loadIndex();
+  let rows: SchoolRow[] = index.rows;
+
+  if (input.schoolIds && input.schoolIds.length > 0) {
+    const wanted = new Set(input.schoolIds.map((s) => Number(s)));
+    rows = rows.filter((r) => wanted.has(r.gaokao_cn_id));
+  }
+  if (input.filter) {
+    rows = filterIndex({ generated_at: index.generated_at, rows }, input.filter);
+  }
+
   const track = inferTrack(input.provinceId, input.subjects);
   const province = PROVINCES[input.provinceId];
 
-  const results = await Promise.all(
-    input.schoolIds.map(async (id) => {
-      try {
-        const info = await getSchoolInfo(id);
-        return evaluate(info, input.provinceId, track, input.score);
-      } catch (err) {
-        return {
-          skipped: {
-            schoolId: String(id),
-            reason: err instanceof Error ? err.message : String(err)
-          }
-        };
-      }
-    })
-  );
-
-  const buckets = { "保": [], "稳": [], "冲": [], out: [] } as Record<Bucket, RecommendCandidate[]>;
-  const skipped: Array<{ schoolId: string; reason: string }> = [];
-  for (const r of results) {
-    if (r.candidate) buckets[r.candidate.bucket].push(r.candidate);
-    if (r.skipped) skipped.push(r.skipped);
+  const buckets: Record<Bucket, RecommendCandidate[]> = { "保": [], "稳": [], "冲": [], out: [] };
+  let skipped = 0;
+  for (const row of rows) {
+    const c = evaluateRow(row, input.provinceId, track, input.score);
+    if (!c) {
+      skipped++;
+      continue;
+    }
+    buckets[c.bucket].push(c);
   }
-  // Sort each bucket by delta — for 冲 ascending (closest first), others descending.
-  buckets["冲"].sort((a, b) => b.delta - a.delta);
-  buckets["稳"].sort((a, b) => b.delta - a.delta);
-  buckets["保"].sort((a, b) => b.delta - a.delta);
+
+  // Sort each bucket by absolute delta (closest to threshold first for 冲,
+  // largest cushion first for 稳/保).
+  buckets["冲"].sort((a, b) => b.delta - a.delta);   // least-reach first
+  buckets["稳"].sort((a, b) => a.delta - b.delta);   // tightest match first (interesting)
+  buckets["保"].sort((a, b) => a.delta - b.delta);   // tightest safety first
   buckets.out.sort((a, b) => b.delta - a.delta);
+
+  if (input.limit && input.limit > 0) {
+    buckets["冲"] = buckets["冲"].slice(0, input.limit);
+    buckets["稳"] = buckets["稳"].slice(0, input.limit);
+    buckets["保"] = buckets["保"].slice(0, input.limit);
+    buckets.out = buckets.out.slice(0, input.limit);
+  }
 
   return {
     query: {
@@ -161,6 +173,7 @@ export async function recommend(input: RecommendInput): Promise<RecommendOutput>
       trackName: TRACK_NAMES[track] ?? track,
       rank: input.rank
     },
+    evaluated: rows.length,
     buckets: { ...buckets, skipped }
   };
 }

@@ -2,6 +2,7 @@
 import { getSchoolInfo, getAdmissionPlan, extractHistoricalScores } from "./gaokao-cn.js";
 import { PROVINCES, TRACK_NAMES, resolveProvince, ALL_SUBJECTS, type Subject } from "./codes.js";
 import { recommend } from "./recommend.js";
+import { find } from "./find.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -47,11 +48,19 @@ Usage:
       Historical min scores for a (school, province) pair across all years/tracks.
 
   gaokao-pro recommend --score <n> --province <name|id> --subjects <list>
-                       --schools <id1,id2,...> [--rank <n>]
-      Bucket the given candidate schools into 冲 / 稳 / 保 based on the user's
-      score vs each school's most-recent matching-track minimum.
+                       [--schools <id1,id2,...>] [--985] [--211] [--dual-class]
+                       [--level <本科|专科>] [--type <综合类|理工类|...>]
+                       [--belong <教育部|工信部|...>] [--limit <n>] [--rank <n>]
+      Bucket schools into 冲 / 稳 / 保 based on the user's score vs each
+      school's most-recent matching-track minimum. Without --schools, scans
+      the full index (~2400 schools). All evaluation is local — no network.
       e.g. gaokao-pro recommend --score 660 --province henan \\
-                                --subjects 物理,化学,生物 --schools 31,30,34
+                                --subjects 物理,化学,生物 --985 --limit 10
+
+  gaokao-pro find <keyword> --province <name|id> --year <year>
+                  [--985] [--211] [--dual-class] [--belong <name>] [--limit <n>]
+      Search for a major keyword across schools recruiting in a province.
+      e.g. gaokao-pro find "计算机" --province henan --year 2024 --985 --limit 20
 
   gaokao-pro provinces
       List supported provinces with their ids and 新高考 reform mode.
@@ -166,11 +175,40 @@ const VERBS: Record<string, Verb> = {
     for (const s of subjects) {
       if (!ALL_SUBJECTS.includes(s)) throw new Error(`unknown subject: ${s} (valid: ${ALL_SUBJECTS.join(", ")})`);
     }
-    if (typeof flags.schools !== "string") throw new Error("--schools <id1,id2,...> is required");
-    const schoolIds = flags.schools.split(",").map((s) => s.trim()).filter(Boolean);
-    if (schoolIds.length === 0) throw new Error("--schools must contain at least one id");
+    const schoolIds = typeof flags.schools === "string"
+      ? flags.schools.split(",").map((s) => s.trim()).filter(Boolean)
+      : undefined;
     const rank = flags.rank !== undefined ? Number(flags.rank) : undefined;
-    const out = await recommend({ score, provinceId, subjects, rank, schoolIds });
+    const limit = flags.limit !== undefined ? Number(flags.limit) : undefined;
+    const filter = {
+      f985: flags["985"] === true ? true : undefined,
+      f211: flags["211"] === true ? true : undefined,
+      dualClass: flags["dual-class"] === true ? true : undefined,
+      level: typeof flags.level === "string" ? flags.level : undefined,
+      type: typeof flags.type === "string" ? flags.type : undefined,
+      belong: typeof flags.belong === "string" ? flags.belong : undefined
+    };
+    const out = recommend({ score, provinceId, subjects, rank, schoolIds, filter, limit });
+    printJson({ ok: true, ...out });
+  },
+
+  async find(args) {
+    const { positional, flags } = parseFlags(args);
+    const keyword = positional[0];
+    if (!keyword) throw new Error("missing keyword. e.g. `gaokao-pro find \"计算机\" --province henan --year 2024`");
+    if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
+    const provinceId = resolveProvince(flags.province);
+    if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
+    const year = Number(flags.year);
+    if (!Number.isFinite(year)) throw new Error("--year <year> is required");
+    const limit = flags.limit !== undefined ? Number(flags.limit) : undefined;
+    const filter = {
+      f985: flags["985"] === true ? true : undefined,
+      f211: flags["211"] === true ? true : undefined,
+      dualClass: flags["dual-class"] === true ? true : undefined,
+      belong: typeof flags.belong === "string" ? flags.belong : undefined
+    };
+    const out = await find({ keyword, provinceId, year, filter, limit });
     printJson({ ok: true, ...out });
   },
 

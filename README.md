@@ -3,20 +3,35 @@
 China gaokao college planner — from your terminal.
 
 ```bash
-npx gaokao-pro@latest school 31
-npx gaokao-pro@latest plan 31 --year 2024 --province henan
-npx gaokao-pro@latest scores 31 --province henan
+# Bucket schools into 冲/稳/保 for your score (no school IDs needed):
+npx gaokao-pro@latest recommend --score 660 --province henan \
+  --subjects 物理,化学,生物 --985 --limit 10
+
+# Find which 985 schools recruit "计算机" in 河南 for 2024:
+npx gaokao-pro@latest find "计算机" --province henan --year 2024 --985 --limit 20
+
+# Inspect one school:
+npx gaokao-pro@latest school 31                            # 北大 metadata
+npx gaokao-pro@latest plan 31 --year 2024 --province henan # admission plan
+npx gaokao-pro@latest scores 31 --province henan           # historical min scores
 ```
 
 No signup, no token, no backend. The CLI talks straight to
-`static-data.gaokao.cn` (the 中国教育在线 / 掌上高考 static JSON tier) and
-prints JSON. Pipe it into `jq`, Claude Code, anything.
+`static-data.gaokao.cn` (the 中国教育在线 / 掌上高考 static JSON tier — no
+auth, no sign, no rate limit observed) and prints JSON. Pipe it into
+`jq`, Claude Code, anything.
+
+`recommend` is fully offline: it reads a 2,400-school local index
+(`docs/school-index.json`, ~10 MB, built by `pnpm probe`) and scores
+the user's input in milliseconds. Refresh annually after each year's
+admission data drops.
 
 ## Status
 
-🚧 v0.0.1 — early scaffold. Working verbs: `school` · `plan` · `scores` · `provinces`.
-Coming: `recommend` (score+province+subjects → 冲稳保 list), 31 省考试院
-fallback adapters for 一分一段表, MCP server, Claude Code plugin.
+🚧 v0.0.1. Working verbs: `recommend` · `find` · `school` · `plan` ·
+`scores` · `provinces`. Coming: 31 省考试院 fallback adapters for
+一分一段表 (rank ↔ score), MCP server, Claude Code plugin, hosted
+landing at gaokao.ha7ch.com.
 
 ## Why
 

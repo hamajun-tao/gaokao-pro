@@ -1,6 +1,8 @@
-// Smoke test — hits the live static-data.gaokao.cn API.
-// Fails fast if the upstream contract changes.
+// Smoke test — hits the live static-data.gaokao.cn API + exercises the local index.
+// Fails fast if the upstream contract changes or the index goes stale.
 import { getSchoolInfo, getAdmissionPlan, extractHistoricalScores } from "../src/gaokao-cn.js";
+import { recommend } from "../src/recommend.js";
+import { loadIndex } from "../src/index-loader.js";
 
 async function expect(name: string, fn: () => Promise<void>) {
   try {
@@ -36,6 +38,25 @@ async function main() {
     if (items.length === 0) throw new Error("empty plan");
     const hasSpcode = items.some((it) => /^\d{6}[A-Z]?$/.test(it.spcode));
     if (!hasSpcode) throw new Error("no valid 专业代码 found");
+  });
+
+  await expect("local index loads with ≥1000 schools", async () => {
+    const idx = loadIndex();
+    if (idx.rows.length < 1000) {
+      throw new Error(`expected ≥1000 schools in index, got ${idx.rows.length}`);
+    }
+  });
+
+  await expect("recommend 660 / 河南 / 物化生 / 985 buckets non-empty", async () => {
+    const out = recommend({
+      score: 660,
+      provinceId: 41,
+      subjects: ["物理", "化学", "生物"],
+      filter: { f985: true }
+    });
+    const total = out.buckets["冲"].length + out.buckets["稳"].length + out.buckets["保"].length;
+    if (total === 0) throw new Error("expected at least one school across 冲/稳/保");
+    if (out.query.track !== "2073") throw new Error(`expected track 2073, got ${out.query.track}`);
   });
 }
 

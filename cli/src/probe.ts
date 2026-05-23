@@ -17,8 +17,8 @@ function parseRange(): { start: number; end: number; concurrency: number } {
   };
   return {
     start: get("--start", 1),
-    end: get("--end", 50),
-    concurrency: get("--concurrency", 5)
+    end: get("--end", 3000),
+    concurrency: get("--concurrency", 25)
   };
 }
 
@@ -29,9 +29,16 @@ type IndexRow = {
   province: string;
   city: string;
   level: string;
+  type: string;          // 综合类 / 理工类 / 师范类 / ...
+  nature: string;        // 公办 / 民办 / 中外合作办学
+  belong: string;        // 教育部 / 工信部 / 省属 / ...
   f985: boolean;
   f211: boolean;
   dual_class: string;
+  // Score corpus — `pro_type_min` from info.json verbatim. Keyed by
+  // province_id; entries are { year, type: { trackCode: minScore } }.
+  // Letting recommend read this without re-hitting the network.
+  pro_type_min: Record<string, Array<{ year: number; type: Record<string, string> }>>;
 };
 
 async function probeOne(id: number): Promise<IndexRow | null> {
@@ -44,9 +51,13 @@ async function probeOne(id: number): Promise<IndexRow | null> {
       province: info.province_name,
       city: info.city_name,
       level: info.level_name,
+      type: info.type_name,
+      nature: info.nature_name,
+      belong: info.belong,
       f985: info.f985 === "1",
       f211: info.f211 === "1",
-      dual_class: info.dual_class_name
+      dual_class: info.dual_class_name,
+      pro_type_min: info.pro_type_min ?? {}
     };
   } catch (e) {
     return null;
