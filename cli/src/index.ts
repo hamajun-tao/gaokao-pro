@@ -7,6 +7,16 @@ import { top } from "./top.js";
 import { isTty, formatRecommend, formatTop } from "./format.js";
 import { runMcpServer } from "./mcp.js";
 import { loadRankTable, listRankTables, scoreToRank, rankToScore, inferDefaultTrack } from "./rank-table.js";
+import { decodeXuanke } from "./xuanke.js";
+import {
+  loadMemory,
+  setPrefs,
+  addWatched,
+  logEvent,
+  clearMemory,
+  memoryPath
+} from "./memory.js";
+import { runSelftest } from "./selftest.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -94,6 +104,21 @@ Usage:
   gaokao-pro rank-tables
       List all (province, year, track) tuples with ingested 一分一段 data.
 
+  gaokao-pro xuanke <raw>
+      Decode a gaokao.cn selected-subject string (e.g. "70001_70002^70001_70003").
+      Returns the human-readable combinations: 物理+化学 或 物理+生物.
+
+  gaokao-pro memory list
+  gaokao-pro memory set <k=v> [<k=v>...]
+  gaokao-pro memory watch <schoolId> [--name <name>] [--note <text>]
+  gaokao-pro memory event <type> <detail>
+  gaokao-pro memory clear
+      Local persistent state at ~/.gaokaopro/memory.json — prefs / watched
+      schools / event log so Claude can resume across sessions.
+
+  gaokao-pro selftest
+      3-stage end-to-end smoke: upstream API, local index, 一分一段.
+
   gaokao-pro provinces
       List supported provinces with their ids and 新高考 reform mode.
 
@@ -177,6 +202,71 @@ const VERBS: Record<string, Verb> = {
   async "rank-tables"() {
     const items = listRankTables();
     printJson({ ok: true, count: items.length, tables: items });
+  },
+
+  async xuanke(args) {
+    const { positional } = parseFlags(args);
+    const raw = positional[0];
+    if (!raw) throw new Error("missing raw xuanke string. e.g. `gaokao-pro xuanke 70001_70002`");
+    printJson({ ok: true, ...decodeXuanke(raw) });
+  },
+
+  async memory(args) {
+    const { positional, flags } = parseFlags(args);
+    const sub = positional[0] ?? "list";
+    if (sub === "list") {
+      const state = loadMemory();
+      printJson({ ok: true, path: memoryPath(), ...state });
+      return;
+    }
+    if (sub === "set") {
+      const pairs: Record<string, string> = {};
+      for (const arg of positional.slice(1)) {
+        const idx = arg.indexOf("=");
+        if (idx < 0) throw new Error(`bad k=v pair: ${arg}`);
+        pairs[arg.slice(0, idx)] = arg.slice(idx + 1);
+      }
+      if (Object.keys(pairs).length === 0) throw new Error("memory set needs at least one k=v");
+      const state = setPrefs(pairs);
+      printJson({ ok: true, prefs: state.prefs });
+      return;
+    }
+    if (sub === "watch") {
+      const id = Number(positional[1]);
+      if (!Number.isFinite(id)) throw new Error("memory watch needs <schoolId> as a number");
+      const state = addWatched(
+        id,
+        typeof flags.name === "string" ? flags.name : undefined,
+        typeof flags.note === "string" ? flags.note : undefined
+      );
+      printJson({ ok: true, watched: state.watched_schools });
+      return;
+    }
+    if (sub === "event") {
+      const type = positional[1];
+      const detail = positional.slice(2).join(" ");
+      if (!type) throw new Error("memory event needs <type> <detail>");
+      const state = logEvent(type, detail);
+      printJson({ ok: true, last_event: state.events[state.events.length - 1] });
+      return;
+    }
+    if (sub === "clear") {
+      clearMemory();
+      printJson({ ok: true, cleared: true });
+      return;
+    }
+    throw new Error(`unknown memory subcommand: ${sub}. valid: list/set/watch/event/clear`);
+  },
+
+  async selftest() {
+    const out = await runSelftest();
+    for (const r of out.results) {
+      const tag = r.ok ? "ok  " : "FAIL";
+      const ms = r.ms !== undefined ? ` (${r.ms}ms)` : "";
+      const reason = r.reason ? `: ${r.reason}` : "";
+      process.stdout.write(`  ${tag} ${r.stage}${ms}${reason}\n`);
+    }
+    process.exit(out.ok ? 0 : 1);
   },
 
   async provinces() {

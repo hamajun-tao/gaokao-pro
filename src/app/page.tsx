@@ -35,7 +35,7 @@ const PROVINCES: Row[] = [
   { name: "山东", reform: "3+3",   plan: "live", scores: "live", rank: "building", actual: "live" },
   { name: "河南", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live" },
   { name: "湖北", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live" },
-  { name: "湖南", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live" },
+  { name: "湖南", reform: "3+1+2", plan: "live", scores: "live", rank: "live", actual: "live" },
   { name: "广东", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live" },
   { name: "广西", reform: "3+1+2", plan: "live", scores: "live", rank: "building", actual: "live" },
   { name: "海南", reform: "3+3",   plan: "live", scores: "live", rank: "building", actual: "live" },

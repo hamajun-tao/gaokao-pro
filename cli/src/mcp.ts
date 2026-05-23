@@ -31,6 +31,7 @@ import {
   rankToScore,
   inferDefaultTrack
 } from "./rank-table.js";
+import { decodeXuanke } from "./xuanke.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -201,6 +202,18 @@ const TOOLS = [
     name: "rank_tables",
     description: "List the (province, year, track) tuples for which we have ingested 一分一段 data. Call this before `rank` to confirm coverage. Beijing is the proof-of-concept; other provinces are being added incrementally.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false }
+  },
+  {
+    name: "xuanke",
+    description: "Decode a gaokao.cn selected-subject requirement string (e.g. '70001_70002^70001_70003') into Chinese subject names. Use this whenever you encounter `sp_xuanke` / `sg_xuanke` fields in plan / actual responses.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        raw: { type: "string", description: "Raw xuanke string from gaokao.cn payload, e.g. '70001_70002' (physics AND chemistry) or '70008' (no requirement)." }
+      },
+      required: ["raw"],
+      additionalProperties: false
+    }
   }
 ];
 
@@ -363,6 +376,9 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
     }
     case "rank_tables": {
       return listRankTables();
+    }
+    case "xuanke": {
+      return decodeXuanke(getStr(args, "raw"));
     }
     default:
       throw new Error(`unknown tool: ${name}`);

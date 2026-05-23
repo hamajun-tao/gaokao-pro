@@ -6,6 +6,8 @@ import { top } from "../src/top.js";
 import { loadIndex } from "../src/index-loader.js";
 import { formatRecommend } from "../src/format.js";
 import { listRankTables, loadRankTable, scoreToRank, rankToScore } from "../src/rank-table.js";
+import { decodeXuanke } from "../src/xuanke.js";
+import { runSelftest } from "../src/selftest.js";
 
 async function expect(name: string, fn: () => Promise<void>) {
   try {
@@ -104,6 +106,31 @@ async function main() {
     const tables = listRankTables();
     const has = tables.some((t) => t.province === "beijing" && t.year === 2024);
     if (!has) throw new Error(`beijing 2024 missing from rank-tables (have: ${JSON.stringify(tables)})`);
+  });
+
+  await expect("hunan 2024 history 一分一段 ingested", () => {
+    const table = loadRankTable(43, 2024, "history");
+    if (!table) throw new Error("hunan history table missing");
+    if (table.rows.length < 50) throw new Error(`only ${table.rows.length} rows`);
+  });
+
+  await expect("decodeXuanke handles AND/OR + 不限", () => {
+    const a = decodeXuanke("70001_70002");
+    if (a.display !== "物理+化学") throw new Error(`expected '物理+化学', got '${a.display}'`);
+    const b = decodeXuanke("70001_70002^70001_70003");
+    if (!b.display.includes("物理+化学") || !b.display.includes("物理+生物")) {
+      throw new Error(`bad OR decode: ${b.display}`);
+    }
+    const c = decodeXuanke("70008");
+    if (!c.unrestricted) throw new Error("70008 should be unrestricted");
+  });
+
+  await expect("selftest reports all stages green", async () => {
+    const out = await runSelftest();
+    if (!out.ok) {
+      const failures = out.results.filter((r) => !r.ok).map((r) => `${r.stage}: ${r.reason}`);
+      throw new Error(`selftest failed: ${failures.join("; ")}`);
+    }
   });
 
   await expect("beijing 2024 一分一段: 650 → rank ~3176", () => {
