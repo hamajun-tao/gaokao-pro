@@ -22,6 +22,13 @@ import { recommendMajor } from "./recommend-major.js";
 import { chartCheck } from "./chart-check.js";
 import { readFileSync, existsSync } from "node:fs";
 import type { ProvinceId } from "./codes.js";
+import {
+  findSchoolAdapter,
+  listSchoolsOfferingProgram,
+  findProvinceSpecialty,
+  listProvinceKeys,
+  getCrossProvincePrograms
+} from "./datasets.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -125,6 +132,21 @@ Usage:
   gaokao-pro chart-check --profile profile.json
       Sanity-check a profile: score range, subject combo for the province's
       新高考 reform, rank↔score consistency (if 一分一段 exists). 0-100 score.
+
+  gaokao-pro adapter <name|zs_code>
+      Look up one school's 招生网 URL + special-program offer flags + contact.
+      Reads cli/data/datasets/schools-adapters-2024.json (80+ schools curated).
+      e.g. gaokao-pro adapter 清华 · gaokao-pro adapter 10003
+
+  gaokao-pro program <type>
+      List schools offering a specific program type. Type one of:
+        qiangji · zonghepingjia · zhongwai_hezuo · guojia_zhuanxiang ·
+        gaoxiao_zhuanxiang · minzu_ban · yuke_ban · gao_shui_yundong · high_art
+
+  gaokao-pro tiqian <province>
+      Per-province 提前批 + 强基/综评 in-province implementing schools.
+      Available: tianjin · zhejiang · hunan · shandong · guangdong (verified).
+      Pass 'all' to list cross-province programs (国家/高校/地方专项 + 港澳台联招).
 
   gaokao-pro xuanke <raw>
       Decode a gaokao.cn selected-subject string (e.g. "70001_70002^70001_70003").
@@ -303,6 +325,49 @@ const VERBS: Record<string, Verb> = {
     }
     const out = chartCheck({ ...p, province_id });
     printJson(out);
+  },
+
+  async adapter(args) {
+    const { positional } = parseFlags(args);
+    const query = positional[0];
+    if (!query) throw new Error("missing <name|zs_code>. e.g. `gaokao-pro adapter 清华` or `gaokao-pro adapter 10003`");
+    const adapter = findSchoolAdapter(query);
+    if (!adapter) throw new Error(`no adapter for "${query}". Try a different name or zs_code, or check the dataset.`);
+    printJson({ ok: true, adapter });
+  },
+
+  async program(args) {
+    const { positional } = parseFlags(args);
+    const type = positional[0];
+    const valid = ["qiangji", "zonghepingjia", "zhongwai_hezuo", "guojia_zhuanxiang", "gaoxiao_zhuanxiang", "minzu_ban", "yuke_ban", "gao_shui_yundong", "high_art"];
+    if (!type || !valid.includes(type)) {
+      throw new Error(`type must be one of: ${valid.join(", ")}`);
+    }
+    const schools = listSchoolsOfferingProgram(type as Parameters<typeof listSchoolsOfferingProgram>[0]);
+    printJson({
+      ok: true,
+      program: type,
+      count: schools.length,
+      schools: schools.map((s) => ({
+        name: s.name,
+        zs_code: s.zs_code,
+        zsw_url: s.zsw_url,
+        detail: type === "gaoxiao_zhuanxiang" ? s.programs.gaoxiao_zhuanxiang : (s.programs[type as keyof typeof s.programs] as unknown)
+      }))
+    });
+  },
+
+  async tiqian(args) {
+    const { positional } = parseFlags(args);
+    const province = positional[0];
+    if (!province) throw new Error("missing <province>. Try one of: " + listProvinceKeys().join(", ") + " (or 'all')");
+    if (province === "all") {
+      printJson({ ok: true, cross_province_programs: getCrossProvincePrograms() });
+      return;
+    }
+    const data = findProvinceSpecialty(province);
+    if (!data) throw new Error(`no specialty plan ingested for ${province}. Available: ${listProvinceKeys().join(", ")}`);
+    printJson({ ok: true, ...data });
   },
 
   async xuanke(args) {
