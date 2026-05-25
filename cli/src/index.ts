@@ -32,6 +32,7 @@ import {
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
+import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -154,6 +155,20 @@ Usage:
 
   gaokao-pro employment-list
       List schools with 就业报告 data in this build.
+
+  gaokao-pro manifest <province> <year>
+      Look up the authoritative 一分一段表 source URL for a given
+      (province, year). 62 records ingested (31 省 × 2024/2025), with
+      year_verified_from flag (url|title|body|pdf_filename|unverified).
+      Useful when you want to verify rank-from-score against the official
+      table, or grab a PDF to OCR.
+      e.g. gaokao-pro manifest 河南 2025
+           gaokao-pro manifest henan 2024
+           gaokao-pro manifest 41 2025
+
+  gaokao-pro manifest-list [--year <year>]
+      List all (province, year) records, optionally filtered by year.
+      Returns coverage stats (total / year_verified / unverified).
 
   gaokao-pro adapter <name|zs_code>
       Look up one school's 招生网 URL + special-program offer flags + contact.
@@ -384,6 +399,26 @@ const VERBS: Record<string, Verb> = {
   async "employment-list"() {
     const list = listEmploymentCoverage();
     printJson({ ok: true, count: list.length, schools: list });
+  },
+
+  async manifest(args) {
+    const { positional } = parseFlags(args);
+    const provinceArg = positional[0];
+    const yearArg = positional[1];
+    if (!provinceArg || !yearArg) throw new Error("usage: manifest <province> <year>. e.g. `gaokao-pro manifest 河南 2025`");
+    const year = Number(yearArg);
+    if (!Number.isInteger(year)) throw new Error(`year must be an integer, got: ${yearArg}`);
+    const rec = findManifest(provinceArg, year);
+    if (!rec) throw new Error(`no manifest record for province="${provinceArg}" year=${year}. Try \`gaokao-pro manifest-list --year ${year}\` to see options.`);
+    printJson({ ok: true, ...rec });
+  },
+
+  async "manifest-list"(args) {
+    const { flags } = parseFlags(args);
+    const year = typeof flags.year !== "undefined" ? Number(flags.year) : undefined;
+    const records = listManifestProvinces(year);
+    const stats = manifestStats();
+    printJson({ ok: true, stats, count: records.length, records });
   },
 
   async adapter(args) {

@@ -38,6 +38,7 @@ import { chartCheck } from "./chart-check.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
+import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -319,6 +320,28 @@ const TOOLS = [
     inputSchema: { type: "object", properties: {}, additionalProperties: false }
   },
   {
+    name: "manifest",
+    description: "Look up the authoritative 一分一段表 source URL for a (province, year). 62 records ingested covering 31 省 × {2024, 2025}, with year_verified_from flag showing how the year was checked from the source document. Returns regime (3+3 / 3+1+2 / old), tracks, source_url, source_org, format (html_table | pdf | image | not_published etc.), and notes. Use this when you need the official table URL to verify rank-from-score or grab a PDF.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "Province name (中文 河南), pinyin (henan), or GB code (41)" },
+        year: { type: "number", description: "Year, e.g. 2024 or 2025" }
+      },
+      required: ["province", "year"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "manifest_list",
+    description: "List all (province, year) 一分一段 manifest records. Optionally filter by year. Returns coverage stats + the records.",
+    inputSchema: {
+      type: "object",
+      properties: { year: { type: "number", description: "Optional year filter" } },
+      additionalProperties: false
+    }
+  },
+  {
     name: "xuanke",
     description: "Decode a gaokao.cn selected-subject requirement string (e.g. '70001_70002^70001_70003') into Chinese subject names. Use this whenever you encounter `sp_xuanke` / `sg_xuanke` fields in plan / actual responses.",
     inputSchema: {
@@ -513,6 +536,19 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
     case "employment_list": {
       const list = listEmploymentCoverage();
       return { ok: true, count: list.length, schools: list };
+    }
+    case "manifest": {
+      const province = getStr(args, "province");
+      const year = Number((args as Record<string, unknown>).year);
+      const rec = findManifest(province, year);
+      if (!rec) return { ok: false, error: `no manifest record for province="${province}" year=${year}` };
+      return { ok: true, ...rec };
+    }
+    case "manifest_list": {
+      const year = typeof (args as Record<string, unknown>).year !== "undefined" ? Number((args as Record<string, unknown>).year) : undefined;
+      const records = listManifestProvinces(year);
+      const stats = manifestStats();
+      return { ok: true, stats, count: records.length, records };
     }
     case "match": {
       return match({
