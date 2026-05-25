@@ -271,6 +271,20 @@ h1 .accent { color: var(--accent); }
 .parent-note a:hover {
   border-bottom-color: var(--accent);
 }
+.parent-note-thesis {
+  margin-top: 4px !important;
+  padding: 18px 20px !important;
+  background: linear-gradient(180deg, #fbf2dd 0%, #f7ead0 100%);
+  border-radius: 6px;
+  border-left: 3px solid var(--accent);
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+  color: #2a1d1d !important;
+}
+.parent-note-thesis strong {
+  font-weight: 700;
+  letter-spacing: 0.005em;
+}
 .parent-note-sign {
   margin-top: 18px;
   padding-top: 16px;
@@ -358,10 +372,26 @@ h1 .accent { color: var(--accent); }
   font-weight: 400;
 }
 
-.status-cell { text-align: center; }
-.status-cell.live { color: var(--live); }
-.status-cell.building { color: var(--building); }
-.status-cell.none { color: var(--none); }
+.status-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.status-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.status-emoji {
+  font-size: 16px;
+  line-height: 1;
+  display: inline-block;
+  filter: saturate(0.85);
+}
+.status-cell.status-live { color: var(--live); }
+.status-cell.status-building { color: var(--building); }
+.status-cell.status-none { color: var(--none); }
 
 .link-row {
   display: flex;
@@ -636,6 +666,7 @@ h1 .accent { color: var(--accent); }
   .parent-note { padding: 20px 20px 22px; margin-bottom: 28px; }
   .parent-note h2 { font-size: 15.5px; letter-spacing: 0.14em; margin-bottom: 14px; }
   .parent-note p { font-size: 13.5px; line-height: 1.85; }
+  .parent-note-thesis { padding: 14px 16px !important; font-size: 14px !important; line-height: 1.85 !important; }
   .parent-note-sign { font-size: 13px !important; margin-top: 14px; padding-top: 12px; }
 
   .install {

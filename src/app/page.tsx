@@ -152,10 +152,31 @@ const ASPIRATIONS = [
   "想去香港读书", "想做投行", "喜欢做研究不爱社交", "家里能承担留学", "想读 211 的王牌专业"
 ];
 
+// Material Symbols Rounded (filled) — same icon pattern as job.pro for consistency
 function StatusDot({ kind }: { kind: Status }) {
-  if (kind === "live") return <span className="status-cell live" aria-label="ready">●</span>;
-  if (kind === "building") return <span className="status-cell building" aria-label="building">◐</span>;
-  return <span className="status-cell none" aria-label="not yet">○</span>;
+  if (kind === "live") {
+    return (
+      <span className="status-cell status-live" aria-label="ready">
+        <svg viewBox="0 0 24 24" className="status-icon" aria-hidden focusable="false">
+          <path fill="currentColor" d="m10.6 13.8l-2.15-2.15q-.275-.275-.7-.275t-.7.275t-.275.7t.275.7L9.9 15.9q.3.3.7.3t.7-.3l5.65-5.65q.275-.275.275-.7t-.275-.7t-.7-.275t-.7.275zM12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/>
+        </svg>
+      </span>
+    );
+  }
+  if (kind === "building") {
+    return (
+      <span className="status-cell status-building" aria-label="building">
+        <span className="status-emoji" role="img" aria-label="施工中">🚧</span>
+      </span>
+    );
+  }
+  return (
+    <span className="status-cell status-none" aria-label="not yet">
+      <svg viewBox="0 0 24 24" className="status-icon" aria-hidden focusable="false">
+        <path fill="currentColor" d="m12 13.4l2.9 2.9q.275.275.7.275t.7-.275t.275-.7t-.275-.7L13.4 12l2.9-2.9q.275-.275.275-.7t-.275-.7t-.7-.275t-.7.275L12 10.6L9.1 7.7q-.275-.275-.7-.275t-.7.275t-.275.7t.275.7l2.9 2.9l-2.9 2.9q-.275.275-.275.7t.275.7t.7.275t.7-.275zm0 8.6q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.138T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/>
+      </svg>
+    </span>
+  );
 }
 
 function InfoTip({ text }: { text: string }) {
@@ -264,21 +285,21 @@ export default function Home() {
           的直播间让他帮你看一眼。
         </p>
         <p>
-          倒不是说这个工具本身有多重要——重要的是 AI 这一关，孩子未来三十年都要过。
-          这场革命已经发生了：你正在看的这个网站、背后的命令行工具、那几千行代码，
+          这场革命已经发生了。你正在看的这个网站、背后的命令行工具、那几千行代码，
           绝大部分是 AI 一行行写出来的，人只是把需求和判断给到它。
-          越来越多的公司，已经在用这种方式做事。
+          越来越多的公司，也已经在这样做事。
         </p>
         <p>
-          报志愿之前，请抽一晚上去看看现在的市场——大模型今天能干哪些活、
+          所以报志愿之前，请抽一晚上去看看现在的市场——大模型今天能干哪些活、
           哪些岗位过去一两年被压缩了、哪些公司今年只招会用 AI 的人。
-          今天看着稳的专业，四年后可能被 AI 重新洗牌；今天看着冷门的方向，
-          可能恰好是新生产力的入口。报志愿别再单凭十年前的印象。
+          今天看着稳的专业，四年后可能被重新洗牌；今天看着冷门的方向，
+          可能正是入口。心里有一杆自己的秤，比靠亲戚邻居转述的旧地图靠谱。
         </p>
-        <p>
-          跑完之后，把 AI 当朋友继续聊下去。让它讲讲每个专业五年、十年后的样子，
-          让它说清楚自动化会冲掉哪些岗位、又会冒出哪些新岗位。
-          心里有一杆自己的秤，比靠亲戚邻居转述的旧地图靠谱。
+        <p className="parent-note-thesis">
+          <strong>说到这儿，得讲一句真心话。我们做这个工具，并不是为了让 AI 替你拍板冲、稳、保——那只是个由头。
+          真正想让你借这次机会看见的，是 AI 现在已经能干到什么程度、又在重塑哪些行业。
+          报志愿是人生里少数几个会逼你和孩子认真想「未来三十年靠什么吃饭」的时刻，
+          错过太可惜。一份冲稳保名单，远远没有这件事重要。</strong>
         </p>
         <p className="parent-note-sign">孩子的人生路口，多花点时间是值得的。</p>
       </aside>
@@ -286,7 +307,7 @@ export default function Home() {
       <section className="province-table" aria-labelledby="provinces-title">
         <h2 id="provinces-title" className="section-title">
           省份覆盖
-          <InfoTip text="● 已就绪 · ◐ 数据建设中 · ○ 暂未支持。每个省份名后的 ⓘ 写了该省的录取规则。" />
+          <InfoTip text="✓ 已就绪 · 🚧 数据建设中 · ✕ 暂未支持。每个省份名后的 ⓘ 写了该省的录取规则。" />
         </h2>
         <div className="province-row header" aria-hidden>
           <span>省份</span>
