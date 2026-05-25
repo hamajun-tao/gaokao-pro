@@ -20,11 +20,17 @@ exists for my province. Always reply to me in Chinese.
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/HA7CH/gaokao-pro/main/install.sh | bash
+npx gaokao-pro@latest help
 ```
 
-npm release coming — `npx gaokao-pro@latest` will Just Work once we
-finish wiring 2FA-bypass tokens on the publish account.
+Or globally:
+
+```bash
+npm install -g gaokao-pro
+```
+
+(Curl|bash installer is also still available:
+`curl -fsSL https://raw.githubusercontent.com/HA7CH/gaokao-pro/main/install.sh | bash`)
 
 ## How it works
 
