@@ -46,19 +46,8 @@
   --radius: 0.625rem;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
 html {
   height: 100%;
-  background: var(--background);
-  color: var(--foreground);
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -67,34 +56,9 @@ html {
 
 body {
   min-height: 100%;
-  background: var(--background);
-  color: var(--foreground);
-  font-family:
-    var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-button {
-  font: inherit;
-  background: transparent;
-  cursor: pointer;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
 }
