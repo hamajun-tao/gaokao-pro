@@ -31,6 +31,7 @@ import {
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
+import { findEmployment, listEmploymentCoverage } from "./employment.js";
 
 type Verb = (args: string[]) => Promise<void>;
 
@@ -144,6 +145,15 @@ Usage:
       Aggregate rankings: 软科 / 校友会 / QS / US News / 泰晤士中国 +
       第四轮学科评估 (A+/A/A- counts) + 第五轮已披露 A+ 学科 (if any).
       e.g. gaokao-pro paiming 清华大学
+
+  gaokao-pro employment <school>
+      2024届毕业生就业质量报告 关键统计：本科就业率 / 升学率 / 出国率 /
+      平均月薪 / top 行业 / top 地域 / top 雇主 + 官方报告 URL。
+      首批 15 所 985 已入库；缺值表示该校未公开。
+      e.g. gaokao-pro employment 清华
+
+  gaokao-pro employment-list
+      List schools with 就业报告 data in this build.
 
   gaokao-pro adapter <name|zs_code>
       Look up one school's 招生网 URL + special-program offer flags + contact.
@@ -357,6 +367,23 @@ const VERBS: Record<string, Verb> = {
     if (!q) throw new Error("usage: paiming <name|zs_code|schoolId>");
     const out = await paiming(q);
     printJson({ ok: true, ...out });
+  },
+
+  async employment(args) {
+    const { positional } = parseFlags(args);
+    const q = positional[0];
+    if (!q) throw new Error("usage: employment <school>. e.g. `gaokao-pro employment 清华` 或 `gaokao-pro employment 10003`");
+    const rec = findEmployment(q);
+    if (!rec) {
+      const hint = listEmploymentCoverage().map((c) => c.school).join(", ");
+      throw new Error(`no employment data for "${q}". Available: ${hint}`);
+    }
+    printJson({ ok: true, ...rec });
+  },
+
+  async "employment-list"() {
+    const list = listEmploymentCoverage();
+    printJson({ ok: true, count: list.length, schools: list });
   },
 
   async adapter(args) {

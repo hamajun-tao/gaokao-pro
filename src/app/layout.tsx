@@ -1,19 +1,27 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Playfair_Display, Noto_Serif_SC } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
+import { Noto_Serif_SC, Noto_Sans_SC, ZCOOL_XiaoWei } from "next/font/google";
 import "./globals.css";
 
-const geist = Geist({ subsets: ["latin"], variable: "--font-sans" });
-const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
-const playfair = Playfair_Display({
+const serif = Noto_Serif_SC({
   subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-cjk-serif",
+  display: "swap",
+  preload: false
 });
-const notoSerifSC = Noto_Serif_SC({
-  weight: ["400", "700"],
-  variable: "--font-noto-serif-sc",
-  preload: false,
+const sans = Noto_Sans_SC({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-cjk-sans",
+  display: "swap",
+  preload: false
+});
+const brush = ZCOOL_XiaoWei({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-cjk-brush",
+  display: "swap",
+  preload: false
 });
 
 export const metadata: Metadata = {
@@ -39,14 +47,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="zh-CN"
-      className={`${geist.variable} ${geistMono.variable} ${playfair.variable} ${notoSerifSC.variable}`}
-    >
-      <body>
-        {children}
-        <Analytics />
-      </body>
+    <html lang="zh-CN" className={`${serif.variable} ${sans.variable} ${brush.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }

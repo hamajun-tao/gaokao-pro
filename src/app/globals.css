@@ -1,29 +1,10 @@
 @import "tailwindcss";
 
-@theme inline {
-  --font-sans: var(--font-sans);
-  --font-serif: var(--font-playfair), var(--font-noto-serif-sc);
-  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
-
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-success: var(--success);
-  --color-warning: var(--warning);
-  --color-border: var(--border);
-  --color-ring: var(--ring);
-
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
-  --radius-lg: var(--radius);
+  --font-sans: var(--font-cjk-sans), ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-serif: var(--font-cjk-serif), ui-serif, Georgia, "Songti SC", "STSong", serif;
+  --font-brush: var(--font-cjk-brush), var(--font-cjk-serif), "Songti SC", serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 
 :root {
@@ -61,4 +42,446 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 100ms ease;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+main.page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 72px 24px 88px;
+}
+
+h1 {
+  font-family: var(--font-serif);
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  margin-bottom: 16px;
+}
+h1 .accent { color: var(--accent); }
+
+.lede {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--fg-muted);
+  margin-bottom: 36px;
+}
+.lede-prefix { color: var(--fg-dim); user-select: none; margin-right: 8px; }
+
+.prompt-card {
+  background: var(--code-bg);
+  color: var(--code-fg);
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 28px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04), 0 12px 32px -16px rgba(0, 0, 0, 0.25);
+}
+.prompt-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  font-family: var(--font-sans);
+}
+.prompt-head-label {
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(240, 230, 210, 0.6);
+}
+.prompt-copy {
+  background: transparent;
+  color: var(--code-accent);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+}
+.prompt-copy:hover {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: rgba(212, 175, 55, 0.5);
+}
+.prompt-body {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  line-height: 1.65;
+  padding: 18px 22px 22px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--code-fg);
+}
+
+.install {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--fg-muted);
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 40px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.install-label {
+  color: var(--fg-dim);
+  text-transform: uppercase;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  margin-right: 10px;
+}
+
+.companion {
+  font-size: 14px;
+  color: var(--fg-muted);
+  margin-bottom: 36px;
+}
+
+.province-table {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  margin: 40px 0;
+  /* overflow stays visible so the tooltip bubbles in the header can escape
+     above the table boundary without being clipped. */
+}
+.province-row:first-of-type {
+  border-radius: 12px 12px 0 0;
+}
+.province-row:last-of-type {
+  border-radius: 0 0 12px 12px;
+  border-bottom: 0;
+}
+
+.province-row {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr;
+  padding: 12px 22px;
+  border-bottom: 1px solid var(--card-border);
+  font-size: 14px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--fg);
+  transition: background 80ms ease;
+}
+.province-row.header {
+  padding: 14px 22px;
+}
+.province-row:last-child { border-bottom: 0; }
+.province-row:hover { background: var(--row-hover); border-bottom-color: var(--card-border); }
+.province-row.header {
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  background: rgba(0, 0, 0, 0.015);
+}
+.province-row.header:hover { background: rgba(0, 0, 0, 0.015); }
+.province-name { font-weight: 500; }
+.province-name .reform {
+  font-size: 11px;
+  color: var(--fg-dim);
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+.status-cell { text-align: center; }
+.status-cell.live { color: var(--live); }
+.status-cell.building { color: var(--building); }
+.status-cell.none { color: var(--none); }
+
+.link-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: var(--fg-muted);
+}
+.link-row .link-right { margin-left: auto; }
+.link-icon {
+  display: inline-flex;
+  align-items: center;
+  color: var(--fg);
+}
+.link-icon svg { width: 18px; height: 18px; }
+.link-icon:hover { color: var(--accent); }
+
+/* --- Three horizontal scrolling reels (学校 / 专业 / 诉求). Box-less:
+       top/bottom hairlines + dashed dividers between reels. All grayscale.
+       School chips bigger + serif + 印章-style badge. */
+.reels {
+  margin: 24px 0 40px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  overflow: hidden;
+}
+.reels::before,
+.reels::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90px;
+  z-index: 2;
+  pointer-events: none;
+}
+.reels::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--bg) 0%, transparent 100%);
+}
+.reels::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--bg) 0%, transparent 100%);
+}
+
+.reel {
+  overflow: hidden;
+  display: flex;
+  padding: 14px 0;
+}
+.reel + .reel { border-top: 1px dashed #ececec; }
+
+.reel-row {
+  display: inline-flex;
+  gap: 14px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 16px;
+  animation: marquee-left linear infinite;
+  will-change: transform;
+}
+.reel-row.reverse { animation-name: marquee-right; }
+.reels:hover .reel-row { animation-play-state: paused; }
+
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 学校：印刷宋体加粗 (Noto Serif SC 600), 端庄印刷感; 无印章. */
+.reel-school .chip.school-chip {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f1f1f;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  padding: 12px 22px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+}
+.reel-school .chip.school-chip + .chip.school-chip {
+  border-left: 1px solid #d8d8d8;
+}
+
+/* 专业：中性 sans 圆角. */
+.reel-major .chip.major-chip {
+  height: 28px;
+  padding: 0 14px;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #444;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 999px;
+}
+
+/* 诉求：sans 斜体, 引号包裹，更弱. */
+.reel-aspiration .chip.voice-chip {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  color: #707070;
+  padding: 4px 6px;
+}
+.reel-aspiration .chip.voice-chip::before {
+  content: "「";
+  margin-right: 2px;
+  color: var(--fg-dim);
+  font-style: normal;
+}
+.reel-aspiration .chip.voice-chip::after {
+  content: "」";
+  margin-left: 2px;
+  color: var(--fg-dim);
+  font-style: normal;
+}
+
+/* --- Info tooltip (the "?" circle) used on the province-table headers */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--fg);
+  margin: 8px 0 18px;
+  padding: 0 4px;
+}
+.info-tip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6px;
+  cursor: help;
+  outline: none;
+}
+.info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--fg-dim);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  user-select: none;
+}
+.info-tip:hover .info-icon,
+.info-tip:focus .info-icon {
+  background: var(--accent);
+}
+.info-bubble {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--fg);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+  width: max-content;
+  max-width: 320px;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+  z-index: 50;
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+.info-bubble::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: var(--fg);
+}
+.info-tip:hover .info-bubble,
+.info-tip:focus .info-bubble {
+  visibility: visible;
+  opacity: 1;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* province-row 头里的 info-tip 居左对齐, 自身列内置中保留 */
+.province-row.header > * {
+  display: inline-flex;
+  align-items: center;
+  justify-content: inherit;
+}
+.province-row.header .status-cell {
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  main.page { padding: 32px 16px 56px; }
+  h1 { font-size: 34px; line-height: 1.15; }
+  .lede { font-size: 13.5px; margin-bottom: 24px; }
+
+  .reels { margin: 18px -16px 28px; border-left: none; border-right: none; }
+  .reels::before, .reels::after { width: 36px; }
+  .reel { padding: 10px 0; }
+
+  .reel-school .chip.school-chip {
+    font-size: 17px;
+    padding: 8px 14px;
+    letter-spacing: 1px;
+  }
+  .reel-major .chip.major-chip {
+    height: 24px; padding: 0 11px; font-size: 12.5px;
+  }
+  .reel-aspiration .chip.voice-chip { font-size: 12px; padding: 3px 5px; }
+
+  .prompt-card { margin-bottom: 22px; }
+  .prompt-head { padding: 10px 14px; }
+  .prompt-head-label { font-size: 11.5px; }
+  .prompt-body {
+    font-size: 12.5px;
+    padding: 14px 16px 18px;
+    line-height: 1.7;
+  }
+
+  .install {
+    font-size: 12px;
+    white-space: normal;
+    word-break: break-all;
+  }
+
+  .section-title { font-size: 16px; margin-bottom: 10px; }
+  .province-row {
+    grid-template-columns: 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr;
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  .province-row.header { font-size: 10.5px; padding: 9px 12px; }
+  .province-name .reform { display: none; }
+  .info-bubble { max-width: 220px; font-size: 11.5px; padding: 8px 11px; }
+
+  .link-row { font-size: 13px; gap: 14px; flex-wrap: wrap; }
+  .link-row .link-right { margin-left: 0; }
+}
+
+@media (max-width: 420px) {
+  h1 { font-size: 28px; }
+  .reel-school .chip.school-chip { font-size: 15px; padding: 7px 12px; letter-spacing: 0.5px; }
+  .province-row { padding: 9px 10px; font-size: 12.5px; }
+  .info-icon { width: 12px; height: 12px; font-size: 9px; }
 }

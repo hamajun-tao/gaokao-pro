@@ -37,6 +37,7 @@ import { recommendMajor } from "./recommend-major.js";
 import { chartCheck } from "./chart-check.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
+import { findEmployment, listEmploymentCoverage } from "./employment.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: "0.0.2" };
 const PROTOCOL_VERSION = "2025-06-18";
@@ -301,6 +302,23 @@ const TOOLS = [
     }
   },
   {
+    name: "employment",
+    description: "2024届毕业生就业质量报告 关键统计 (本科): 总数, 就业率, 升学率, 国内读研/出国比例, 直接就业率, 平均月薪, top 行业/地域/雇主, 加官方报告 URL. null = 该校未公开. 首批 15 所 985 已入库 (清华/北大/复旦/上交/浙大/南大/中科大/哈工/西交/人大/武大/华科/中山/同济/北航). Use this when the user asks 就业 / 出路 / 升学率 / 薪资 / 去哪了.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        school: { type: "string", description: "School name, alias, or zs_code" }
+      },
+      required: ["school"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "employment_list",
+    description: "List schools with 就业报告 data in this build (returns name + zs_code + year). Use this if employment(school) returns 'no data' — pick from the available list.",
+    inputSchema: { type: "object", properties: {}, additionalProperties: false }
+  },
+  {
     name: "xuanke",
     description: "Decode a gaokao.cn selected-subject requirement string (e.g. '70001_70002^70001_70003') into Chinese subject names. Use this whenever you encounter `sp_xuanke` / `sg_xuanke` fields in plan / actual responses.",
     inputSchema: {
@@ -483,6 +501,18 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
     }
     case "paiming": {
       return await paiming(getStr(args, "school"));
+    }
+    case "employment": {
+      const rec = findEmployment(getStr(args, "school"));
+      if (!rec) {
+        const hint = listEmploymentCoverage().map((c) => c.school).join(", ");
+        return { ok: false, error: `no employment data for "${getStr(args, "school")}". Available: ${hint}` };
+      }
+      return { ok: true, ...rec };
+    }
+    case "employment_list": {
+      const list = listEmploymentCoverage();
+      return { ok: true, count: list.length, schools: list };
     }
     case "match": {
       return match({
