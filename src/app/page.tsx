@@ -255,7 +255,7 @@ export default function Home() {
       <h1>
         用 <span className="accent">AI</span> 高考填报志愿
       </h1>
-      <p className="lede"><span className="lede-prefix">$</span>开源免费 · 覆盖 31 省 · 3000+ 院校</p>
+      <p className="lede"><span className="lede-prefix">$</span>永久免费 · 代码开源 · 覆盖 31 省 · 3000+ 院校</p>
 
       <section className="reels" aria-label="数据维度">
         <SlotReel items={SCHOOLS} dir="left"  speed={70} kind="school" />
