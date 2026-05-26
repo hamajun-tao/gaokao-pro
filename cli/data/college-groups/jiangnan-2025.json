@@ -1,0 +1,5821 @@
+{
+  "_kind": "江南大学 2025 院校专业组招生计划",
+  "_university": "江南大学",
+  "_code_enroll": "1289",
+  "_school_id_eolcn": 86,
+  "_year": 2025,
+  "_provinces_covered": [
+    "河南",
+    "江苏",
+    "广东",
+    "湖北",
+    "福建",
+    "山东",
+    "河北"
+  ],
+  "_sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/86/2025/{41,32,44,42,35,37,13}.json (eol.cn 静态接口, 2025 招生计划)",
+    "https://static-data.gaokao.cn/www/2.0/school/86/info.json (pro_type_min — 2025 投档最低分)",
+    "https://zs.jiangnan.edu.cn/ (江南大学本科招生网)",
+    "https://gaokao.cn/school/86 (gaokao.cn 院校页)"
+  ],
+  "_notes": [
+    "山东 (37) 为 3+3 综合改革 (type=3)；其余 6 省均为 3+1+2 新高考，按物理类 (2073) / 历史类 (2074) 双轨投档。",
+    "新高考省份按官方公布的院校专业组划分，每组含选科要求 + 一组本科专业，投档单位为组。",
+    "山东 eol.cn 数据源未提供 special_group_id；按 (选考要求, 招生类型) 聚合展示为招生单元，group_code 为 \"—\"。",
+    "本数据覆盖 batch=14 (本科批)、batch=1570/1571 (山东一段/二段)、batch=4070/4862 (高校专项/国家专项) 等模块。",
+    "同一 (special_group, type, batch) 多条记录已合并，相同 (spcode,name,num,info) 去重。",
+    "min_admission_2025 来自 pro_type_min 字段，对应各省该 track 的投档最低分 (普通组主分)；分组明细投档线请以省考试院公告为准。",
+    "province_cutoff_2025_ref 为各省 2025 本科批/一段控制线 (公开口径)，仅作位次参考。",
+    "info 字段保留办学地点 / 包含专业 / 备注。",
+    "xuanke_detail 为选考要求的人类可读译码 (如 \"物+化+生 或 物+化+政 或 物+化+地\")。"
+  ],
+  "_extracted_at": "2026-05-26",
+  "_total_plan_covered": 2108,
+  "_total_groups_covered": 136,
+  "_stats": "江南大学(211/双一流/教育部直属/无锡)2025年覆盖7省136组2108人。河南35组231人[物629/史615]；江苏36组937人[物617/史602]；广东13组68人[物599/史592]；湖北31组180人[物601/史596]；福建8组118人[物597/史593]；山东5组344人[综579]；河北8组230人[物590/史615]。食品/轻工/设计为强势学科；江苏为生源大省;山东3+3其余6省3+1+2。",
+  "provinces": [
+    {
+      "province": "henan",
+      "province_cn": "河南",
+      "province_id": 41,
+      "uses_college_groups": true,
+      "group_count": 35,
+      "total_plan": 231,
+      "min_admission_2025": {
+        "物理类": 629,
+        "历史类": 615
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 432,
+        "历史类": 502
+      },
+      "groups": [
+        {
+          "group_code": "101",
+          "special_group_id": "368525",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（食品AI卓越创新班）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（食品AI卓越创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "102",
+          "special_group_id": "368524",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082702",
+              "name": "食品质量与安全",
+              "full_name": "食品质量与安全",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "name": "食品营养与健康",
+              "full_name": "食品营养与健康",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "103",
+          "special_group_id": "368523",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082705",
+              "name": "酿酒工程",
+              "full_name": "酿酒工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": ""
+            },
+            {
+              "spcode": "083003T",
+              "name": "合成生物学",
+              "full_name": "合成生物学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "104",
+          "special_group_id": "368522",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（国家生命科学与技术人才培养基地班）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（国家生命科学与技术人才培养基地班）"
+            }
+          ]
+        },
+        {
+          "group_code": "105",
+          "special_group_id": "368521",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（生物AI卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（生物AI卓越创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "106",
+          "special_group_id": "368520",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "full_name": "工业设计（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江阴校区）"
+            },
+            {
+              "spcode": "080218T",
+              "name": "智能交互设计",
+              "full_name": "智能交互设计（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "107",
+          "special_group_id": "368519",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": ""
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（先进纺织卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（先进纺织卓越创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "108",
+          "special_group_id": "368518",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "109",
+          "special_group_id": "368517",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080407",
+              "name": "高分子材料与工程",
+              "full_name": "高分子材料与工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "full_name": "应用化学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "110",
+          "special_group_id": "368516",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "full_name": "物联网工程",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（数字智能卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（数字智能卓越创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "111",
+          "special_group_id": "368515",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "full_name": "微电子科学与工程（办学地点：江阴校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "112",
+          "special_group_id": "368514",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            },
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "113",
+          "special_group_id": "368513",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "114",
+          "special_group_id": "368512",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程（办学地点：江阴校区）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（办学地点：江阴校区）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（君远新工科卓越创新班）（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（君远新工科卓越创新班）（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "115",
+          "special_group_id": "368511",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081302",
+              "name": "制药工程",
+              "full_name": "制药工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "116",
+          "special_group_id": "368510",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（卓越医师创新班）",
+              "num": 1,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（卓越医师创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "117",
+          "special_group_id": "368509",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学",
+              "num": 4,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "118",
+          "special_group_id": "368508",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "full_name": "信息与计算科学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "119",
+          "special_group_id": "368507",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "120",
+          "special_group_id": "368506",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（申威卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（申威卓越创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "121",
+          "special_group_id": "368505",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082002",
+              "name": "飞行器设计与工程",
+              "full_name": "飞行器设计与工程（办学地点：江阴校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "122",
+          "special_group_id": "368504",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "123",
+          "special_group_id": "368503",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "040104",
+              "name": "教育技术学",
+              "full_name": "教育技术学（师范）（智能教育卓越创新班）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（师范）（智能教育卓越创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "301",
+          "special_group_id": "368537",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（国家专项）（国家专项）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（国家专项）（国家专项）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程（国家专项）（国家专项）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（国家专项）（国家专项）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（国家专项）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）（国家专项）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（国家专项）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "full_name": "应用化学（国家专项）（国家专项）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（国家专项）（国家专项）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（国家专项）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）（国家专项）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（国家专项）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "302",
+          "special_group_id": "368536",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "040104",
+              "name": "教育技术学",
+              "full_name": "教育技术学（国家专项）（师范）（智能教育卓越创新班）（国家专项）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（国家专项）（师范）（智能教育卓越创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "303",
+          "special_group_id": "368535",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选生物",
+          "xuanke_detail": "物+化+生 或 物+生+政 或 物+生+地",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（国家专项）（国家专项）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_code": "201",
+          "special_group_id": "368502",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（中外合作办学）（合作方：新西兰梅西大学；第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）（中外合作）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（中外合作办学）（合作方：新西兰梅西大学；第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）"
+            }
+          ]
+        },
+        {
+          "group_code": "202",
+          "special_group_id": "368501",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（中外合作办学）（合作方：澳大利亚莫纳什大学；第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（中外合作）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（中外合作办学）（合作方：澳大利亚莫纳什大学；第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）"
+            }
+          ]
+        },
+        {
+          "group_code": "203",
+          "special_group_id": "368500",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（中外合作办学）（合作方：澳大利亚莫纳什大学；第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（中外合作）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（中外合作办学）（合作方：澳大利亚莫纳什大学；第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）"
+            }
+          ]
+        },
+        {
+          "group_code": "124",
+          "special_group_id": "368563",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "125",
+          "special_group_id": "368562",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "126",
+          "special_group_id": "368561",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "127",
+          "special_group_id": "368560",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（涉外法治人才卓越创新班）（只招英语语种的考生）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（只招英语语种的考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "128",
+          "special_group_id": "368559",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "204",
+          "special_group_id": "368558",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（中外合作办学）（合作方：澳大利亚莫纳什大学；第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（中外合作办学）（合作方：澳大利亚莫纳什大学；第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "jiangsu",
+      "province_cn": "江苏",
+      "province_id": 32,
+      "uses_college_groups": true,
+      "group_count": 36,
+      "total_plan": 937,
+      "min_admission_2025": {
+        "物理类": 617,
+        "历史类": 602
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 478,
+        "历史类": 480
+      },
+      "groups": [
+        {
+          "group_code": "09",
+          "special_group_id": "426133",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学（在蠡湖校区学习）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "10",
+          "special_group_id": "426132",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（涉外法治人才卓越创新班）（只招英语考生）（在蠡湖校区学习）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（只招英语考生）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "11",
+          "special_group_id": "426131",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（在蠡湖校区学习）",
+              "num": 30,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学（在蠡湖校区学习）",
+              "num": 19,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济（在蠡湖校区学习）",
+              "num": 9,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "12",
+          "special_group_id": "426130",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "13",
+          "special_group_id": "426129",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "14",
+          "special_group_id": "426128",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "full_name": "物联网工程（在蠡湖校区学习）",
+              "num": 61,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（在蠡湖校区学习）",
+              "num": 50,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化（在蠡湖校区学习）",
+              "num": 34,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（数字智能卓越创新班）（在蠡湖校区学习）",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（数字智能卓越创新班）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "15",
+          "special_group_id": "426127",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（在蠡湖校区学习）",
+              "num": 38,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能（在蠡湖校区学习）",
+              "num": 32,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（申威卓越创新班）（在蠡湖校区学习）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（申威卓越创新班）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "16",
+          "special_group_id": "426126",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（食品AI卓越创新班）（在蠡湖校区学习）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（食品AI卓越创新班）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "17",
+          "special_group_id": "426125",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（在蠡湖校区学习）",
+              "num": 28,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "082702",
+              "name": "食品质量与安全",
+              "full_name": "食品质量与安全（在蠡湖校区学习）",
+              "num": 22,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "082710T",
+              "name": "食品营养与健康",
+              "full_name": "食品营养与健康（在蠡湖校区学习）",
+              "num": 16,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "18",
+          "special_group_id": "426124",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（国家生命科学与技术人才培养基地班）（在蠡湖校区学习）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（国家生命科学与技术人才培养基地班）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "19",
+          "special_group_id": "426123",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（生物AI卓越创新班）（在蠡湖校区学习）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（生物AI卓越创新班）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "20",
+          "special_group_id": "426122",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "083003T",
+              "name": "合成生物学",
+              "full_name": "合成生物学（在蠡湖校区学习）",
+              "num": 12,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "082705",
+              "name": "酿酒工程",
+              "full_name": "酿酒工程（在蠡湖校区学习）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（在蠡湖校区学习）",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（在蠡湖校区学习）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "21",
+          "special_group_id": "426121",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "full_name": "微电子科学与工程（在江阴校区学习）",
+              "num": 25,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（在江阴校区学习）"
+            },
+            {
+              "spcode": "080709T",
+              "name": "电子封装技术",
+              "full_name": "电子封装技术（在江阴校区学习）",
+              "num": 14,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（在江阴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "22",
+          "special_group_id": "426120",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（在蠡湖校区学习）",
+              "num": 37,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程（在蠡湖校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "23",
+          "special_group_id": "426119",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080218T",
+              "name": "智能交互设计",
+              "full_name": "智能交互设计（在江阴校区学习）",
+              "num": 13,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（在江阴校区学习）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "full_name": "工业设计（在江阴校区学习）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（在江阴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "24",
+          "special_group_id": "426118",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程（在江阴校区学习）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（在江阴校区学习）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（在江阴校区学习）",
+              "num": 13,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（在江阴校区学习）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（君远新工科卓越创新班）（在江阴校区学习）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（君远新工科卓越创新班）（在江阴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "25",
+          "special_group_id": "426117",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程（在蠡湖校区学习）",
+              "num": 35,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "26",
+          "special_group_id": "426116",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "full_name": "信息与计算科学（在蠡湖校区学习）",
+              "num": 20,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "27",
+          "special_group_id": "426115",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（卓越医师创新班）（在蠡湖校区学习）",
+              "num": 8,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（卓越医师创新班）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "28",
+          "special_group_id": "426114",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（在蠡湖校区学习）",
+              "num": 20,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "29",
+          "special_group_id": "426113",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（在蠡湖校区学习）",
+              "num": 8,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "30",
+          "special_group_id": "426112",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）",
+              "num": 18,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "31",
+          "special_group_id": "426111",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（在蠡湖校区学习）",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "081302",
+              "name": "制药工程",
+              "full_name": "制药工程（在蠡湖校区学习）",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "32",
+          "special_group_id": "426110",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082002",
+              "name": "飞行器设计与工程",
+              "full_name": "飞行器设计与工程（在江阴校区学习）",
+              "num": 14,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "（在江阴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "33",
+          "special_group_id": "426109",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（先进纺织卓越创新班）（在蠡湖校区学习）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（先进纺织卓越创新班）（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（在蠡湖校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "34",
+          "special_group_id": "426108",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080407",
+              "name": "高分子材料与工程",
+              "full_name": "高分子材料与工程（在蠡湖校区学习）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（在蠡湖校区学习）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "full_name": "应用化学（在蠡湖校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "35",
+          "special_group_id": "426107",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（在蠡湖校区学习）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "36",
+          "special_group_id": "426106",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "01",
+          "special_group_id": "426073",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学（在蠡湖校区学习）",
+              "num": 18,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "02",
+          "special_group_id": "426072",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（只招英语考生）（在蠡湖校区学习）",
+              "num": 13,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（涉外法治人才卓越创新班）（只招英语考生）（在蠡湖校区学习）",
+              "num": 11,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（只招英语考生）（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（只招英语考生）（在蠡湖校区学习）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（涉外法治人才卓越创新班）（只招英语考生）（在蠡湖校区学习）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（只招英语考生）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "03",
+          "special_group_id": "426071",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（在蠡湖校区学习）",
+              "num": 50,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "426070",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学（在蠡湖校区学习）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学（在蠡湖校区学习）",
+              "num": 17,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（在蠡湖校区学习）"
+            },
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（在蠡湖校区学习）",
+              "num": 13,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "426069",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "040107",
+              "name": "小学教育",
+              "full_name": "小学教育（师范）（在蠡湖校区学习）",
+              "num": 14,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（师范）（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "426068",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作（在蠡湖校区学习）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "07",
+          "special_group_id": "426067",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（在蠡湖校区学习）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "08",
+          "special_group_id": "426066",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（在蠡湖校区学习）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（在蠡湖校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "guangdong",
+      "province_cn": "广东",
+      "province_id": 44,
+      "uses_college_groups": true,
+      "group_count": 13,
+      "total_plan": 68,
+      "min_admission_2025": {
+        "物理类": 599,
+        "历史类": 592
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 444,
+        "历史类": 449
+      },
+      "groups": [
+        {
+          "group_code": "702",
+          "special_group_id": "258715",
+          "track": "物理类",
+          "batch": "批次90",
+          "zslx": "高校专项计划",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（特殊类型招生）（住宿费：待定）（办学地点：蠡湖校区）（招生种类：高校专项计划）（不招色盲色弱且不招单色识别不全者）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（特殊类型招生）（住宿费：待定）（办学地点：蠡湖校区）（招生种类：高校专项计划）（不招色盲色弱且不招单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "217",
+          "special_group_id": "431769",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "040107",
+              "name": "小学教育",
+              "full_name": "小学教育（师范）（未来科学与工程教育创新班；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（师范）（未来科学与工程教育创新班；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "218",
+          "special_group_id": "431768",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济（特征要求：不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（特征要求：不招单色识别不全者；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "219",
+          "special_group_id": "431767",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（中外合作办学）（与澳大利亚莫纳什大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（中外合作办学）（与澳大利亚莫纳什大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招单色识别不全者；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "220",
+          "special_group_id": "431766",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "full_name": "微电子科学与工程（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江阴校区）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "full_name": "工业设计（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江阴校区）"
+            },
+            {
+              "spcode": "082702",
+              "name": "食品质量与安全",
+              "full_name": "食品质量与安全（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "082710T",
+              "name": "食品营养与健康",
+              "full_name": "食品营养与健康（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "080218T",
+              "name": "智能交互设计",
+              "full_name": "智能交互设计（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "221",
+          "special_group_id": "431765",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080407",
+              "name": "高分子材料与工程",
+              "full_name": "高分子材料与工程（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "full_name": "应用化学（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "222",
+          "special_group_id": "431764",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（中外合作办学）（与新西兰梅西大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（中外合作办学）（与新西兰梅西大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招色盲色弱，不招单色识别不全者；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "223",
+          "special_group_id": "431763",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（办学地点：蠡湖校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "224",
+          "special_group_id": "431762",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（特征要求：不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（特征要求：不招单色识别不全者；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "213",
+          "special_group_id": "431742",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（外语语种：英语；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种：英语；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（涉外法治人才卓越创新班）（外语语种：英语；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（外语语种：英语；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（外语语种：英语；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种：英语；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（涉外法治人才卓越创新班）（外语语种：英语；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（外语语种：英语；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "214",
+          "special_group_id": "431741",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（办学地点：蠡湖校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "215",
+          "special_group_id": "431740",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（中外合作办学）（与澳大利亚莫纳什大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招单色识别不全者；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（中外合作办学）（与澳大利亚莫纳什大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招单色识别不全者；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "216",
+          "special_group_id": "431739",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "hubei",
+      "province_cn": "湖北",
+      "province_id": 42,
+      "uses_college_groups": true,
+      "group_count": 31,
+      "total_plan": 180,
+      "min_admission_2025": {
+        "物理类": 601,
+        "历史类": 596
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 437,
+        "历史类": 432
+      },
+      "groups": [
+        {
+          "group_code": "08",
+          "special_group_id": "290978",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济（办学地点：蠡湖校区）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学（办学地点：蠡湖校区）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "09",
+          "special_group_id": "290977",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（涉外法治人才卓越创新班；外语语种：英语；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班；外语语种：英语；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "10",
+          "special_group_id": "290976",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "082710T",
+              "name": "食品营养与健康",
+              "full_name": "食品营养与健康（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "11",
+          "special_group_id": "290975",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082705",
+              "name": "酿酒工程",
+              "full_name": "酿酒工程（办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（办学地点：蠡湖校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "083003T",
+              "name": "合成生物学",
+              "full_name": "合成生物学（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "12",
+          "special_group_id": "290974",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（国家生命科学与技术人才培养基地班；办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（国家生命科学与技术人才培养基地班；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "13",
+          "special_group_id": "290973",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（生物AI卓越创新班；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（生物AI卓越创新班；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "14",
+          "special_group_id": "290972",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "full_name": "工业设计（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江阴校区）"
+            },
+            {
+              "spcode": "080218T",
+              "name": "智能交互设计",
+              "full_name": "智能交互设计（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "15",
+          "special_group_id": "290971",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "16",
+          "special_group_id": "290970",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "17",
+          "special_group_id": "290969",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "080407",
+              "name": "高分子材料与工程",
+              "full_name": "高分子材料与工程（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "full_name": "应用化学（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "18",
+          "special_group_id": "290968",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "19",
+          "special_group_id": "290967",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080709T",
+              "name": "电子封装技术",
+              "full_name": "电子封装技术（办学地点：江阴校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江阴校区）"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "full_name": "微电子科学与工程（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "20",
+          "special_group_id": "290966",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            },
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（智慧环境卓越创新班；第、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（智慧环境卓越创新班；第、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "21",
+          "special_group_id": "290965",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（办学地点：蠡湖校区）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "22",
+          "special_group_id": "290964",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程（办学地点：江阴校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（办学地点：江阴校区）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（君远新工科卓越创新班；办学地点：江阴校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（君远新工科卓越创新班；办学地点：江阴校区）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（办学地点：江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "23",
+          "special_group_id": "290963",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081302",
+              "name": "制药工程",
+              "full_name": "制药工程（办学地点：蠡湖校区）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "24",
+          "special_group_id": "290962",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（卓越医师创新班；办学地点：蠡湖校区；学制：五年）",
+              "num": 1,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（卓越医师创新班；办学地点：蠡湖校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_code": "25",
+          "special_group_id": "290961",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（办学地点：蠡湖校区；学制：五年）",
+              "num": 4,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（办学地点：蠡湖校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_code": "26",
+          "special_group_id": "290960",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（办学地点：蠡湖校区；学制：五年）",
+              "num": 2,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（办学地点：蠡湖校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_code": "27",
+          "special_group_id": "290959",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "full_name": "信息与计算科学（办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "28",
+          "special_group_id": "290958",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程（办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "29",
+          "special_group_id": "290957",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能（办学地点：蠡湖校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（申威卓越创新班；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（申威卓越创新班；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "30",
+          "special_group_id": "290956",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082002",
+              "name": "飞行器设计与工程",
+              "full_name": "飞行器设计与工程（办学地点：江阴校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "（办学地点：江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "32",
+          "special_group_id": "291004",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）（国家专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（办学地点：蠡湖校区）（国家专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（办学地点：蠡湖校区）（国家专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（办学地点：蠡湖校区）（国家专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程（办学地点：蠡湖校区）（国家专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "31",
+          "special_group_id": "290955",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行；办学地点：蠡湖校区）（中外合作）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "02",
+          "special_group_id": "290998",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学（办学地点：蠡湖校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "03",
+          "special_group_id": "290997",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（办学地点：蠡湖校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "290996",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（外语语种：英语；办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种：英语；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（外语语种：英语；办学地点：蠡湖校区）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种：英语；办学地点：蠡湖校区）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（涉外法治人才卓越创新班；外语语种：英语；办学地点：蠡湖校区）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班；外语语种：英语；办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "290995",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作（办学地点：蠡湖校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "290994",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（办学地点：蠡湖校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（办学地点：蠡湖校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "07",
+          "special_group_id": "290993",
+          "track": "历史类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行；办学地点：蠡湖校区）（中外合作）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行；办学地点：蠡湖校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "fujian",
+      "province_cn": "福建",
+      "province_id": 35,
+      "uses_college_groups": true,
+      "group_count": 8,
+      "total_plan": 118,
+      "min_admission_2025": {
+        "物理类": 597,
+        "历史类": 593
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 449,
+        "历史类": 451
+      },
+      "groups": [
+        {
+          "group_code": "500",
+          "special_group_id": "393024",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "物化组（1）",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（物化组1）（物化组（1））",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（物化组1）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（物化组1）（先进纺织卓越创新班）（物化组（1））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（物化组1）（先进纺织卓越创新班）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（物化组1）（物化组（1））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（物化组1）"
+            },
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（物化组1）（物化组（1））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（物化组1）"
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（物化组1）（物化组（1））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（物化组1）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（物化组1）（物化组（1））",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（物化组1）"
+            },
+            {
+              "spcode": "082710T",
+              "name": "食品营养与健康",
+              "full_name": "食品营养与健康（物化组1）（物化组（1））",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（物化组1）"
+            },
+            {
+              "spcode": "083003T",
+              "name": "合成生物学",
+              "full_name": "合成生物学（物化组1）（物化组（1））",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（物化组1）"
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393023",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "物化组（2）",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（物化组2）（物化组（2））",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能（物化组2）（物化组（2））",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "082002",
+              "name": "飞行器设计与工程",
+              "full_name": "飞行器设计与工程（物化组2）（物化组（2））",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "full_name": "信息与计算科学（物化组2）（物化组（2））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "full_name": "物联网工程（物化组2）（物化组（2））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化（物化组2）（物化组（2））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（物化组2）（物化组（2））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程（物化组2）（物化组（2））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（物化组2）（物化组（2））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080709T",
+              "name": "电子封装技术",
+              "full_name": "电子封装技术（物化组2）（物化组（2））",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（物化组2）（物化组（2））",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "full_name": "微电子科学与工程（物化组2）（物化组（2））",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "full_name": "工业设计（物化组2）（物化组（2））",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（物化组2）"
+            },
+            {
+              "spcode": "080218T",
+              "name": "智能交互设计",
+              "full_name": "智能交互设计（物化组2）（物化组（2））",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（物化组2）"
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393025",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "临床医学",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（临床医学）（临床医学）",
+              "num": 2,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（临床医学）"
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "393026",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（涉外法治人才卓越创新班）（语种：英语）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（语种：英语）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393021",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（中外合作办学）（第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）（中外合作）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（中外合作办学）（第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）"
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "393022",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国）（中外合作）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国）"
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "466924",
+          "track": "物理类",
+          "batch": "本科批(国家专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "70000",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "392982",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "70004",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（语种：英语）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（涉外法治人才卓越创新班）（语种：英语）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（语种：英语）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（语种：英语）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（语种：英语）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "shandong",
+      "province_cn": "山东",
+      "province_id": 37,
+      "uses_college_groups": true,
+      "group_count": 5,
+      "total_plan": 344,
+      "min_admission_2025": {
+        "综合改革": 579
+      },
+      "province_cutoff_2025_ref": {
+        "综合改革": 462
+      },
+      "groups": [
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "物理、化学(2科必选)",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程",
+              "num": 18,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化",
+              "num": 14,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "full_name": "物联网工程",
+              "num": 13,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "name": "制药工程",
+              "full_name": "制药工程",
+              "num": 12,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（中外合作办学）（第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）（中外合作办学）",
+              "num": 10,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（中外合作办学）（第四学年赴新西兰梅西大学学习，国外学习阶段学费按协议执行）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": ""
+            },
+            {
+              "spcode": "080407",
+              "name": "高分子材料与工程",
+              "full_name": "高分子材料与工程",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能",
+              "num": 9,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "full_name": "信息与计算科学",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "full_name": "应用化学",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学",
+              "num": 8,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（江阴校区）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（江阴校区）"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "name": "食品质量与安全",
+              "full_name": "食品质量与安全",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": ""
+            },
+            {
+              "spcode": "080709T",
+              "name": "电子封装技术",
+              "full_name": "电子封装技术（江阴校区）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（江阴校区）"
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（国家生命科学与技术人才培养基地班）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（国家生命科学与技术人才培养基地班）"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程（江阴校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（江阴校区）"
+            },
+            {
+              "spcode": "082002",
+              "name": "飞行器设计与工程",
+              "full_name": "飞行器设计与工程（江阴校区）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "（江阴校区）"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "full_name": "微电子科学与工程（江阴校区）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（江阴校区）"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "082705",
+              "name": "酿酒工程",
+              "full_name": "酿酒工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": ""
+            },
+            {
+              "spcode": "083003T",
+              "name": "合成生物学",
+              "full_name": "合成生物学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（申威卓越创新班）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（申威卓越创新班）"
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": ""
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": ""
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（先进纺织卓越创新班）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（先进纺织卓越创新班）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（食品AI卓越创新班）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（食品AI卓越创新班）"
+            },
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（君远新工科卓越创新班）（江阴校区）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（君远新工科卓越创新班）（江阴校区）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "full_name": "工业设计（江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（江阴校区）"
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（生物AI卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（生物AI卓越创新班）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（数字智能卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（数字智能卓越创新班）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学",
+              "num": 2,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "name": "食品营养与健康",
+              "full_name": "食品营养与健康",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "name": "智能交互设计",
+              "full_name": "智能交互设计（江阴校区）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（江阴校区）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "不限",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 物+政+史 或 物+史+地 或 物+史+技 或 物+政+地 或 物+政+技 或 物+地+技 或 化+生+史 或 化+生+政 或 化+生+地 或 化+生+技 或 化+政+史 或 化+史+地 或 化+史+技 或 化+政+地 或 化+政+技 或 化+地+技 或 生+政+史 或 生+史+地 或 生+史+技 或 生+政+地 或 生+政+技 或 生+地+技 或 政+史+地 或 政+史+技 或 史+地+技 或 政+地+技",
+          "majors": [
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（中外合作办学）",
+              "num": 12,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）"
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学",
+              "num": 9,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（涉外法治人才卓越创新班）（外语语种为英语）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（外语语种为英语）"
+            },
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（外语语种为英语）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种为英语）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（涉外法治人才卓越创新班）（外语语种为英语）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（涉外法治人才卓越创新班）（外语语种为英语）"
+            },
+            {
+              "spcode": "040107",
+              "name": "小学教育",
+              "full_name": "小学教育（师范类）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（外语语种为英语）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种为英语）"
+            },
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "物理必选",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 物+政+史 或 物+史+地 或 物+史+技 或 物+政+地 或 物+政+技 或 物+地+技",
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）（中外合作办学）",
+              "num": 9,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行）"
+            },
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": ""
+            },
+            {
+              "spcode": "040104",
+              "name": "教育技术学",
+              "full_name": "教育技术学（师范类，智能教育卓越创新班）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（师范类，智能教育卓越创新班）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "思想政治必选",
+          "xuanke_detail": "物+化+政 或 物+生+政 或 物+政+史 或 物+政+地 或 物+政+技 或 化+生+政 或 化+政+史 或 化+政+地 或 化+政+技 或 生+政+史 或 生+政+地 或 生+政+技 或 政+史+地 或 政+史+技 或 政+地+技",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "特殊类型批(高校专项)",
+          "zslx": "高校专项计划",
+          "shouxuan": "",
+          "xuanke": "物理、化学(2科必选)",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（高校专项计划）（高校专项计划）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）（高校专项计划）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "082702",
+              "name": "食品质量与安全",
+              "full_name": "食品质量与安全（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "hebei",
+      "province_cn": "河北",
+      "province_id": 13,
+      "uses_college_groups": true,
+      "group_count": 8,
+      "total_plan": 230,
+      "min_admission_2025": {
+        "历史类": 615,
+        "物理类": 590
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 451,
+        "历史类": 460
+      },
+      "groups": [
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "批次37",
+          "zslx": "国家专项计划",
+          "shouxuan": "",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（国家专项计划）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习；色弱或者色盲不予录取；单色不能识别不予录取）（国家专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（国家专项计划）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习；色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（国家专项计划）（国家专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "批次37",
+          "zslx": "国家专项计划",
+          "shouxuan": "",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "040107",
+              "name": "小学教育",
+              "full_name": "小学教育（国家专项计划）（师范）（国家专项计划）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（国家专项计划）（师范）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "批次37",
+          "zslx": "国家专项计划",
+          "shouxuan": "",
+          "xuanke": "首选物理，再选生物",
+          "xuanke_detail": "物+化+生 或 物+生+政 或 物+生+地",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（国家专项计划）（国家专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "批次86",
+          "zslx": "高校专项计划",
+          "shouxuan": "",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程（无锡市）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（无锡市）（高校专项计划）"
+            },
+            {
+              "spcode": "082705",
+              "name": "酿酒工程",
+              "full_name": "酿酒工程（无锡市）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（无锡市）（高校专项计划）"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（无锡市）（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（无锡市）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（无锡市）",
+              "num": 14,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（无锡市）（单色不能识别不予录取）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（无锡市）（单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（无锡市）",
+              "num": 8,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程（无锡市）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "081302",
+              "name": "制药工程",
+              "full_name": "制药工程（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（无锡市）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080407",
+              "name": "高分子材料与工程",
+              "full_name": "高分子材料与工程（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 7,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "full_name": "应用化学（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能（无锡市）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（无锡市）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "080905",
+              "name": "物联网工程",
+              "full_name": "物联网工程（无锡市）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（无锡市）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习；色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（无锡市）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习；色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程（无锡市）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "full_name": "信息与计算科学（无锡市）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "082705",
+              "name": "酿酒工程",
+              "full_name": "酿酒工程（无锡市）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "082710T",
+              "name": "食品营养与健康",
+              "full_name": "食品营养与健康（无锡市）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "083003T",
+              "name": "合成生物学",
+              "full_name": "合成生物学（无锡市）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "082002",
+              "name": "飞行器设计与工程",
+              "full_name": "飞行器设计与工程（无锡市）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "航空航天类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "full_name": "微电子科学与工程（无锡市）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "082701",
+              "name": "食品科学与工程",
+              "full_name": "食品科学与工程（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 3,
+              "length": "五年",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（无锡市）（君远新工科卓越创新班）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（无锡市）（君远新工科卓越创新班）"
+            },
+            {
+              "spcode": "080709T",
+              "name": "电子封装技术",
+              "full_name": "电子封装技术（无锡市）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（无锡市）（申威卓越创新班）（单色不能识别不予录取）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（无锡市）（申威卓越创新班）（单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "full_name": "工业设计（无锡市）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "081702",
+              "name": "包装工程",
+              "full_name": "包装工程（无锡市）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（无锡市）（先进纺织卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（无锡市）（先进纺织卓越创新班）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（无锡市）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "full_name": "自动化（无锡市）（数字智能卓越创新班）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（无锡市）（数字智能卓越创新班）"
+            },
+            {
+              "spcode": "082702",
+              "name": "食品质量与安全",
+              "full_name": "食品质量与安全（无锡市）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "食品科学与工程类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "083001",
+              "name": "生物工程",
+              "full_name": "生物工程（无锡市）（国家生命科学与技术人才培养基地班）（色弱或者色盲不予录取；单色不能识别不予录取）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（无锡市）（国家生命科学与技术人才培养基地班）（色弱或者色盲不予录取；单色不能识别不予录取）"
+            },
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（无锡市）（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（无锡市）（智慧环境卓越创新班）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            },
+            {
+              "spcode": "082503",
+              "name": "环境科学",
+              "full_name": "环境科学（无锡市）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（无锡市）（第一、二学年在蠡湖校区学习，第三、四学年在宜兴校区学习）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济（无锡市）（单色不能识别不予录取）",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": "（无锡市）（单色不能识别不予录取）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学（无锡市）（单色不能识别不予录取）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（无锡市）（单色不能识别不予录取）"
+            },
+            {
+              "spcode": "040107",
+              "name": "小学教育",
+              "full_name": "小学教育（无锡市）（师范、未来科学与工程教育创新班）（师范类）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（无锡市）（师范、未来科学与工程教育创新班）（师范类）"
+            },
+            {
+              "spcode": "040104",
+              "name": "教育技术学",
+              "full_name": "教育技术学（无锡市）（师范、智能教育卓越创新班）（师范类）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（无锡市）（师范、智能教育卓越创新班）（师范类）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（无锡市）（单色不能识别不予录取）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（无锡市）（单色不能识别不予录取）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（无锡市）（只招英语语种考生）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（无锡市）（只招英语语种考生）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（无锡市）（涉外法治人才卓越创新班）（只招英语语种考生）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（无锡市）（涉外法治人才卓越创新班）（只招英语语种考生）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "full_name": "大数据管理与应用（无锡市）（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行；单色不能识别不予录取）",
+              "num": 2,
+              "length": "四年",
+              "tuition": "26400",
+              "category": "管理学",
+              "subcategory": "管理科学与工程类",
+              "info": "（无锡市）（中外合作办学）（第四学年赴澳大利亚莫纳什大学学习，国外学习阶段学费按协议执行；单色不能识别不予录取）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（无锡市）",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学（无锡市）",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学（无锡市）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": "（无锡市）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学（无锡市）（单色不能识别不予录取）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（无锡市）（单色不能识别不予录取）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（无锡市）（只招英语语种考生）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（无锡市）（只招英语语种考生）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（无锡市）（涉外法治人才卓越创新班）（只招英语语种考生）",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（无锡市）（涉外法治人才卓越创新班）（只招英语语种考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "—",
+          "special_group_id": null,
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（无锡市）",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（无锡市）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

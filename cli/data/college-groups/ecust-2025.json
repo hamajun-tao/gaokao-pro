@@ -1,171 +1,4443 @@
 {
-  "_kind": "Per-university × per-province 院校专业组 (college-major groups) for 2025 投档",
+  "_kind": "Per-university × per-province 院校专业组 (2025 投档)",
   "_year": 2025,
   "_university": "华东理工大学",
-  "_university_code": "1257",
-  "_zs_code_note": "1257 is the user-supplied provincial 招生院校代码; verify per province. ECUST 国标代码=10251. Jiangsu uses 2104 in the 2025 投档线 PDF (江苏省教育考试院).",
-  "_sources": [
-    "https://zsb.ecust.edu.cn/",
-    "https://zsb.ecust.edu.cn/2025/0620/c2305a180121/page.htm",
-    "https://zsb.ecust.edu.cn/2025/0530/c2307a179322/page.htm",
-    "https://xxgk.ecust.edu.cn/2025/0620/c9670a180103/page.htm",
-    "https://bkzsdata.ecust.edu.cn/zsdata/lqxx/",
-    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf",
-    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-5302461102655621.pdf",
-    "https://eea.gd.gov.cn/attachment/0/585/585886/4746786.pdf",
-    "https://www.dakao100.com/article_64972114998.html",
-    "https://www.dakao100.com/article_17330775817.html",
-    "https://www.dakao100.com/article_54004794041.html",
-    "https://www.dakao100.com/article_39140329208.html",
-    "https://www.6617.com/p_2801184144.html",
-    "https://www.xinshinet.com/qzgl/13541.html",
-    "https://www.gaokao.cn/school/133/provinceline",
-    "https://www.eol.cn/e_html/gk/gktoudang/index.shtml"
-  ],
-  "_data_quality": "jiangsu=verified group-level from jseea.cn PDFs (院校代号 2104); guangdong=verified physics group-level from eea.gd PDF (4 groups: 208/209/210/211); guangdong history=aggregate (207组 ≈600); hubei/fujian=group-level from dakao100; henan=aggregate group min scores from secondary aggregators (101/301/302 groups); shandong=per-major (96 平行志愿, no traditional group); hebei=per-major (96 平行志愿).",
+  "_school_id": 133,
+  "_zs_code_guobiao": "10251",
   "_collected_at": "2026-05-26",
+  "_sources": [
+    "static-data.gaokao.cn/www/2.0/schoolspecialplan/133/2025/{41,32,44,42,35,37,13}.json (招生计划-含分组/专业/计划数/学费)",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf (江苏 jseea 物理类投档)",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-5302461102655621.pdf (江苏 jseea 历史类投档)",
+    "https://eea.gd.gov.cn/attachment/0/585/585886/4746786.pdf (广东 2025 物理类投档)",
+    "https://zsb.ecust.edu.cn/2025/0620/c2305a180121/page.htm (华东理工 2025 各省录取)",
+    "https://www.gaokao.cn/school/133/provinceline (gaokao.cn 校线汇总)",
+    "https://www.dakao100.com/article_64972114998.html (各省院校专业组投档汇总)"
+  ],
+  "_data_quality": "招生计划/分组/专业/学费=已抓取并验证(API); 组级 min_score/min_rank=从既有研究合并(江苏/广东物理/湖北/福建已校验, 河南为汇总, 山东/河北为按专业映射)",
+  "_notes": "每个 group 内 majors 包含 name+plan+min_score+min_rank; 大多数省份只发布组级投档线, 因此专业级 min_score/min_rank 仅在山东/河北等按专业平行志愿省份可填(其余为 null)。",
   "university": {
     "name": "华东理工大学",
-    "code": "1257",
+    "school_id": 133,
     "moe_zs_code": "10251",
+    "province_zs_codes": {
+      "江苏": "2104"
+    },
     "city": "上海",
-    "tags": ["211", "双一流", "教育部直属", "化工四大"]
+    "tags": [
+      "211",
+      "双一流",
+      "教育部直属",
+      "化工四大"
+    ]
   },
-  "provinces": [
-    {
-      "province": "河南",
+  "provinces": {
+    "41": {
+      "province_name": "河南",
       "province_id": 41,
-      "regime": "3+文综/理综 (传统高考-2025)",
-      "data_quality": "aggregate_group",
+      "regime": "3+1+2 (2025 改革第2年)",
       "groups": [
-        { "group_code": "101", "track": "物理类(理工)", "首选": "物理", "再选": null, "投档分": 637, "最低位次": null, "示例专业": ["计算机类", "机械类(机械智能化实验班)", "工科试验班(智能与机器人)", "电子信息类", "材料类(新材料实验班)", "化学工程与工艺", "生物工程类", "药学", "应用化学", "数学类", "能源与动力工程"], "tuition": null, "notes": "本科一批理工类主组; 2025 在豫共招 211 人/33 专业" },
-        { "group_code": "301", "track": "物理类(理工)", "首选": "物理", "再选": null, "投档分": 635, "最低位次": null, "示例专业": ["机械设计制造及其自动化", "自动化", "过程装备与控制工程"], "tuition": null, "notes": "国家专项计划" },
-        { "group_code": "302", "track": "物理类(理工)", "首选": "物理", "再选": null, "投档分": 597, "最低位次": null, "示例专业": null, "tuition": null, "notes": "国家专项计划(其他)" },
-        { "group_code": "101-文", "track": "历史类(文史)", "首选": "历史", "再选": null, "投档分": 607, "最低位次": null, "示例专业": ["经济学类", "法学", "工商管理类", "外国语言文学类", "公共管理类", "社会工作", "日语", "德语", "英语", "风景园林", "公共事业管理"], "tuition": null, "notes": "本科一批文史类" },
-        { "group_code": "301-文", "track": "历史类(文史)", "首选": "历史", "再选": null, "投档分": 587, "最低位次": null, "示例专业": ["英语", "日语"], "tuition": null, "notes": "国家专项计划-文" }
+        {
+          "group_code": "101",
+          "group_name": "（101）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 637,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "材料类",
+              "plan": 26,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（包含专业：电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "机械类",
+              "plan": 25,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（包含专业：机械设计制造及其自动化、过程装备与控制工程、智能制造工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 17,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工）（包含专业：化学工程与工艺、油气储运工程、资源循环科学与工程、轻化工程；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 13,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（包含专业：生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "药学",
+              "plan": 10,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "数学类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（包含专业：数学与应用数学、信息与计算科学；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（包含专业：人工智能、机器人工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（包含专业：化学、材料化学（绿色与能源催化方向）；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（包含专业：能源与动力工程、环境工程、储能科学与工程；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "环境工程",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082502",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；环境工程和社会学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；应用化学和生物科学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（中外合作办学）（精英班）（办学地点：奉贤校区和徐汇校区；合作方：FGL联盟学校（法国19所专长于化学化工领域的顶尖高等工程师院校）；只录取有专业志愿的考生。不招色弱、色盲、嗅觉迟钝者。学费标准拟调整至不超过40000元/学年（以批复为准））"
+            },
+            {
+              "name": "物理学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（包含专业：应用物理学、光电信息科学与工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班）（包含专业：应用化学、精细化工（光电信息材料方向）；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（包含专业：生物工程、制药工程；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（包含专业：自动化、电气工程及其自动化、信息工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "工业设计",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080205",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；计算机科学与技术和金融学双学士学位项目。不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；化学工程与工艺和工程管理双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（包含专业：计算机科学与技术、软件工程；办学地点：奉贤校区和徐汇校区；不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（包含专业：物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理）；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "材料类",
+              "plan": 26,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（包含专业：电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "机械类",
+              "plan": 25,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（包含专业：机械设计制造及其自动化、过程装备与控制工程、智能制造工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 17,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工）（包含专业：化学工程与工艺、油气储运工程、资源循环科学与工程、轻化工程；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 13,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（包含专业：生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "药学",
+              "plan": 10,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "数学类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（包含专业：数学与应用数学、信息与计算科学；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（包含专业：人工智能、机器人工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（包含专业：化学、材料化学（绿色与能源催化方向）；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（包含专业：能源与动力工程、环境工程、储能科学与工程；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "环境工程",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082502",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；环境工程和社会学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；应用化学和生物科学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（中外合作办学）（精英班）（办学地点：奉贤校区和徐汇校区；合作方：FGL联盟学校（法国19所专长于化学化工领域的顶尖高等工程师院校）；只录取有专业志愿的考生。不招色弱、色盲、嗅觉迟钝者。学费标准拟调整至不超过40000元/学年（以批复为准））"
+            },
+            {
+              "name": "物理学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（包含专业：应用物理学、光电信息科学与工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班）（包含专业：应用化学、精细化工（光电信息材料方向）；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（包含专业：生物工程、制药工程；办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（包含专业：自动化、电气工程及其自动化、信息工程；办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "工业设计",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080205",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；计算机科学与技术和金融学双学士学位项目。不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（双学士学位项目）（办学地点：奉贤校区和徐汇校区；化学工程与工艺和工程管理双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（包含专业：计算机科学与技术、软件工程；办学地点：奉贤校区和徐汇校区；不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（包含专业：物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理）；办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "本科一批理工类主组; 2025 在豫共招 211 人/33 专业"
+        },
+        {
+          "group_code": "101",
+          "group_name": "（101）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 637,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "公共管理类",
+              "plan": 17,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（包含专业：社会学，社会工作、公共事业管理、行政管理；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（未来人居环境方向）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（包含专业：英语、德语、日语：办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语，日语，德语语种的考生）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（包含专业：工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务）；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（包含专业：经济学、金融学；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "法学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "公共管理类",
+              "plan": 17,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（包含专业：社会学，社会工作、公共事业管理、行政管理；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（未来人居环境方向）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（包含专业：英语、德语、日语：办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语，日语，德语语种的考生）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（包含专业：工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务）；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（包含专业：经济学、金融学；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "法学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "本科一批理工类主组; 2025 在豫共招 211 人/33 专业"
+        },
+        {
+          "group_code": "301",
+          "group_name": "（301）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "国家专项",
+          "batch": "本科批",
+          "min_score": 635,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "过程装备与控制工程",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080206",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "工业设计",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080205",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            },
+            {
+              "name": "自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080801",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "精细化工",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081308T",
+              "info": "（国家专项）（光电信息材料方向）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "过程装备与控制工程",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080206",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "工业设计",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080205",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            },
+            {
+              "name": "自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080801",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色盲者）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（国家专项）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "精细化工",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081308T",
+              "info": "（国家专项）（光电信息材料方向）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲、嗅觉迟钝者）"
+            }
+          ],
+          "note": "国家专项计划"
+        },
+        {
+          "group_code": "301",
+          "group_name": "（301）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "国家专项计划",
+          "batch": "本科批",
+          "min_score": 635,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "日语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050207",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语，日语语种的考生）"
+            },
+            {
+              "name": "德语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050203",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语，德语语种的考生）"
+            },
+            {
+              "name": "英语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050201",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语语种的考生）"
+            },
+            {
+              "name": "社会工作",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030302",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "公共事业管理",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120401",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "日语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050207",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语，日语语种的考生）"
+            },
+            {
+              "name": "德语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050203",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语，德语语种的考生）"
+            },
+            {
+              "name": "英语",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050201",
+              "info": "（办学地点：奉贤校区和徐汇校区；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；只招英语语种的考生）"
+            },
+            {
+              "name": "社会工作",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030302",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "公共事业管理",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120401",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "国家专项计划"
+        },
+        {
+          "group_code": "302",
+          "group_name": "（302）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "国家专项",
+          "batch": "本科批",
+          "min_score": 597,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "市场营销",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120202",
+              "info": "（国家专项）（大数据营销）（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（国家专项）（未来人居环境方向）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            },
+            {
+              "name": "市场营销",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120202",
+              "info": "（国家专项）（大数据营销）（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（国家专项）（未来人居环境方向）（办学地点：奉贤校区和徐汇校区；不招色弱、色盲者）"
+            }
+          ],
+          "note": "国家专项计划(其他)"
+        },
+        {
+          "group_code": "102",
+          "group_name": "（102）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "工商管理类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（包含专业：工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务）；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（包含专业：工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务）；办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": null
+        }
       ]
     },
-    {
-      "province": "江苏",
+    "32": {
+      "province_name": "江苏",
       "province_id": 32,
       "regime": "3+1+2",
-      "data_quality": "verified",
       "groups": [
-        { "group_code": "2104-01", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 595, "最低位次": null, "示例专业": ["经济学类", "法学", "工商管理类", "外国语言文学类", "公共管理类"], "tuition": null, "notes": "江苏 jseea 2025 历史类本科批 PDF; 院校代号 2104" },
-        { "group_code": "2104-02", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 620, "最低位次": null, "示例专业": ["数学类", "经济学类(物理)", "工商管理类(物理)"], "tuition": null, "notes": "物理不限组" },
-        { "group_code": "2104-03", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 625, "最低位次": null, "示例专业": ["化学工程与工艺", "工科试验班", "材料类", "应用化学", "生物工程类", "能源与动力工程", "计算机类", "电子信息类", "机械类", "药学"], "tuition": null, "notes": "物理+化学组(本校主组)" }
+        {
+          "group_code": "01",
+          "group_name": "（01）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "外国语言文学类",
+              "plan": 24,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（只招英语或日语或德语考生）（报考该专业须查阅院校招生章程）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "公共管理类",
+              "plan": 23,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（报考该专业有色觉要求，须查阅院校招生章程）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "法学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 24,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（只招英语或日语或德语考生）（报考该专业须查阅院校招生章程）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "公共管理类",
+              "plan": 23,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（报考该专业有色觉要求，须查阅院校招生章程）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "法学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            }
+          ],
+          "note": null
+        },
+        {
+          "group_code": "02",
+          "group_name": "（02）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "风景园林",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（报考该专业有色觉要求，须查阅院校招生章程）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（报考该专业有色觉要求，须查阅院校招生章程）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区）"
+            }
+          ],
+          "note": null
+        },
+        {
+          "group_code": "03",
+          "group_name": "（03）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "材料类",
+              "plan": 33,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 26,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 20,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "机械类",
+              "plan": 19,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 14,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "化学类",
+              "plan": 8,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "药学",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工业设计",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080205",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（精英班）（只录取有专业志愿的考生，学费拟调整至不超过40000元/年（以批复为准））（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）（中外合作办学）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（精英班）（只录取有专业志愿的考生，学费拟调整至不超过40000元/年（以批复为准））（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）（中外合作办学）"
+            },
+            {
+              "name": "化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（拔尖学生培养基地）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（计算机科学与技术+金融学）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（应用化学+生物科学）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（化学工程与工艺+工程管理）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "化学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（能源与动力工程+经济学）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "数学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "材料类",
+              "plan": 33,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 26,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 20,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "机械类",
+              "plan": 19,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 14,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "化学类",
+              "plan": 8,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "药学",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "工业设计",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080205",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（精英班）（只录取有专业志愿的考生，学费拟调整至不超过40000元/年（以批复为准））（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）（中外合作办学）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（精英班）（只录取有专业志愿的考生，学费拟调整至不超过40000元/年（以批复为准））（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）（中外合作办学）"
+            },
+            {
+              "name": "化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（拔尖学生培养基地）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（计算机科学与技术+金融学）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（应用化学+生物科学）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（化学工程与工艺+工程管理）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "化学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（能源与动力工程+经济学）（双学士学位培养项目）（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "数学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（在奉贤校区和徐汇校区学习，新生入校后首先进入奉贤校区就读，后续阶段根据学校发展规划及专业特点，适时调整就读校区。报考该专业组部分专业有色觉等要求，具体请查阅院校招生章程）"
+            }
+          ],
+          "note": null
+        }
       ]
     },
-    {
-      "province": "广东",
+    "44": {
+      "province_name": "广东",
       "province_id": 44,
       "regime": "3+1+2",
-      "data_quality": "verified_physics_aggregate_history",
       "groups": [
-        { "group_code": "207", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 600, "最低位次": null, "示例专业": ["经济学类", "工商管理类", "外国语言文学类", "公共管理类", "法学"], "tuition": null, "notes": "广东历史类本科批 207 组" },
-        { "group_code": "208", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 611, "最低位次": 19321, "示例专业": ["数学类", "经济学类(物理)", "工商管理类(物理)"], "tuition": null, "notes": "物理不限组; 计划/投档 4 人 (eea.gd PDF)" },
-        { "group_code": "209", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 610, "最低位次": 19506, "示例专业": ["化学工程与工艺", "应用化学", "材料类", "生物工程类", "药学", "环境工程", "能源与动力工程"], "tuition": null, "notes": "物理+化学主组; 38 人(eea.gd PDF)" },
-        { "group_code": "210", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 619, "最低位次": 14423, "示例专业": ["计算机类", "电子信息类", "机械类", "工科试验班"], "tuition": null, "notes": "物理+化学(信息工科组); 12 人" },
-        { "group_code": "211", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 625, "最低位次": 11885, "示例专业": ["工科试验班(国豪/创新班)"], "tuition": null, "notes": "物理类最高组; 2 人" }
+        {
+          "group_code": "211",
+          "group_name": "（211）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 625,
+          "min_rank": 11885,
+          "majors": [
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（含计算机科学与技术、软件工程专业；特征要求：不招单色识别不全者；办学地点：上海市）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（含计算机科学与技术、软件工程专业；特征要求：不招单色识别不全者；办学地点：上海市）"
+            }
+          ],
+          "note": "物理类最高组; 2 人"
+        },
+        {
+          "group_code": "210",
+          "group_name": "（210）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 619,
+          "min_rank": 14423,
+          "majors": [
+            {
+              "name": "机械类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（含机械设计制造及其自动化、过程装备与控制工程、智能制造工程专业；特征要求：不招色盲；办学地点：上海市）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（含人工智能、机器人工程专业；特征要求：不招色盲；办学地点：上海市）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（含应用物理学、光电信息科学与工程专业；特征要求：不招色盲；办学地点：上海市）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（含自动化、电气工程及其自动化、信息工程专业；特征要求：不招色盲；办学地点：上海市）"
+            },
+            {
+              "name": "机械类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（含机械设计制造及其自动化、过程装备与控制工程、智能制造工程专业；特征要求：不招色盲；办学地点：上海市）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（含人工智能、机器人工程专业；特征要求：不招色盲；办学地点：上海市）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（含应用物理学、光电信息科学与工程专业；特征要求：不招色盲；办学地点：上海市）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（含自动化、电气工程及其自动化、信息工程专业；特征要求：不招色盲；办学地点：上海市）"
+            }
+          ],
+          "note": "物理+化学(信息工科组); 12 人"
+        },
+        {
+          "group_code": "208",
+          "group_name": "（208）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 611,
+          "min_rank": 19321,
+          "majors": [
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（含经济学、金融学专业；办学地点：上海市）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（含工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务）专业；办学地点：上海市）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（含经济学、金融学专业；办学地点：上海市）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（含工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务）专业；办学地点：上海市）"
+            }
+          ],
+          "note": "物理不限组; 计划/投档 4 人 (eea.gd PDF)"
+        },
+        {
+          "group_code": "209",
+          "group_name": "（209）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 610,
+          "min_rank": 19506,
+          "majors": [
+            {
+              "name": "材料类",
+              "plan": 8,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（含电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿考生与法国化学工程师院校联盟（FGL联盟）合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）（学费：待定）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿考生与法国化学工程师院校联盟（FGL联盟）合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）（学费：待定）"
+            },
+            {
+              "name": "药学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（含生物工程、制药工程专业卓越工程师培养计划；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（含能源与动力工程、环境工程、储能科学与工程专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "化学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（教育部拔尖基地班）（“化学拔尖学生培养基地”（教育部基础学科拔尖学生培养计划2.0基地）；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（含“能源与动力工程+经济学”双学位；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（含“应用化学+生物科学”双学位；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（含化学、材料化学（绿色与能源催化）专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（含生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "材料类",
+              "plan": 8,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（含电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿考生与法国化学工程师院校联盟（FGL联盟）合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）（学费：待定）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿考生与法国化学工程师院校联盟（FGL联盟）合作办学项目，具体培养模式和学习费用请查看学校网站；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）（学费：待定）"
+            },
+            {
+              "name": "药学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（含生物工程、制药工程专业卓越工程师培养计划；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（含能源与动力工程、环境工程、储能科学与工程专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "化学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（教育部拔尖基地班）（“化学拔尖学生培养基地”（教育部基础学科拔尖学生培养计划2.0基地）；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（含“能源与动力工程+经济学”双学位；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（含“应用化学+生物科学”双学位；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（含化学、材料化学（绿色与能源催化）专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（含生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全专业；特征要求：不招色盲色弱；办学地点：上海市；备注；不招嗅觉迟钝者）"
+            }
+          ],
+          "note": "物理+化学主组; 38 人(eea.gd PDF)"
+        },
+        {
+          "group_code": "207",
+          "group_name": "（207）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 600,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "公共管理类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（含社会学、社会工作、公共事业管理、行政管理专业；办学地点：上海市）"
+            },
+            {
+              "name": "法学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": "（办学地点：上海市）"
+            },
+            {
+              "name": "公共管理类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（含社会学、社会工作、公共事业管理、行政管理专业；办学地点：上海市）"
+            },
+            {
+              "name": "法学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": "（办学地点：上海市）"
+            }
+          ],
+          "note": "广东历史类本科批 207 组"
+        },
+        {
+          "group_code": "703",
+          "group_name": "（703）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "高校专项计划",
+          "batch": "特殊类型招生批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "信息与计算科学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070102",
+              "info": "（特殊类型招生）（住宿费：待定）（办学地点：上海市）（招生种类：高校专项计划）"
+            },
+            {
+              "name": "信息与计算科学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070102",
+              "info": "（特殊类型招生）（住宿费：待定）（办学地点：上海市）（招生种类：高校专项计划）"
+            }
+          ],
+          "note": null
+        },
+        {
+          "group_code": "704",
+          "group_name": "（704）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "高校专项计划",
+          "batch": "特殊类型招生批",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "name": "生物工程",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "083001",
+              "info": "（特殊类型招生）（住宿费：待定）（办学地点：上海市）（招生种类：高校专项计划）（不招色盲色弱）（请嗅觉迟钝的考生慎重报考）"
+            },
+            {
+              "name": "生物工程",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "083001",
+              "info": "（特殊类型招生）（住宿费：待定）（办学地点：上海市）（招生种类：高校专项计划）（不招色盲色弱）（请嗅觉迟钝的考生慎重报考）"
+            }
+          ],
+          "note": null
+        }
       ]
     },
-    {
-      "province": "湖北",
+    "42": {
+      "province_name": "湖北",
       "province_id": 42,
       "regime": "3+1+2",
-      "data_quality": "verified_group",
       "groups": [
-        { "group_code": "02", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 597, "最低位次": 3621, "示例专业": ["经济学类", "法学", "工商管理类", "外国语言文学类", "公共管理类"], "tuition": null, "notes": "历史类普通组" },
-        { "group_code": "03", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 597, "最低位次": 3621, "示例专业": ["少数民族预科班相关专业"], "tuition": null, "notes": "民族班" },
-        { "group_code": "04", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 606, "最低位次": 11838, "示例专业": ["化学工程与工艺", "材料类", "应用化学", "生物工程类", "药学", "机械类", "计算机类", "电子信息类", "数学类", "能源与动力工程"], "tuition": null, "notes": "物理类普通组(本校主组)" },
-        { "group_code": "05", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 603, "最低位次": 13014, "示例专业": ["少数民族预科班/民族班专业"], "tuition": null, "notes": "民族班" },
-        { "group_code": "06", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 594, "最低位次": 16966, "示例专业": null, "tuition": null, "notes": "国家专项计划组" },
-        { "group_code": "07", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 601, "最低位次": 13848, "示例专业": null, "tuition": null, "notes": "国家专项计划组(另)" }
+        {
+          "group_code": "04",
+          "group_name": "（04）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 606,
+          "min_rank": 11838,
+          "majors": [
+            {
+              "name": "材料类",
+              "plan": 15,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班；电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "机械类",
+              "plan": 12,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班；机械设计制造及其自动化、过程装备与控制工程、智能制造工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班；化学、材料化学（绿色与能源催化方向）；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工；化学工程与工艺、油气储运工程、资源循环科学与工程、轻化工程；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境；能源与动力工程、环境工程、储能科学与工程；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学类",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班；应用化学、精细化工（光电信息材料方向）；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人；人工智能、机器人工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药；生物工程、制药工程；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（双学士学位项目；能源与动力工程和经济学双学士学位项目。不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（双学士学位项目；化学工程与工艺和工程管理双学士学位项目。不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "数学类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（数学与应用数学、信息与计算科学；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（自动化、电气工程及其自动化、信息工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "药学",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（教育部拔尖基地班；不招色弱、色盲、嗅觉迟钝者。“化学拔尖学生培养基地”（教育部基础学科拔尖学生培养计划2.0基地）；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（双学士学位项目；计算机科学与技术和金融学双学士学位项目。不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（应用物理学、光电信息科学与工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（计算机科学与技术、软件工程；不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理）；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "材料类",
+              "plan": 15,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班；电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "机械类",
+              "plan": 12,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班；机械设计制造及其自动化、过程装备与控制工程、智能制造工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班；化学、材料化学（绿色与能源催化方向）；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 7,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工；化学工程与工艺、油气储运工程、资源循环科学与工程、轻化工程；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境；能源与动力工程、环境工程、储能科学与工程；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学类",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班；应用化学、精细化工（光电信息材料方向）；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人；人工智能、机器人工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药；生物工程、制药工程；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（双学士学位项目；能源与动力工程和经济学双学士学位项目。不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（双学士学位项目；化学工程与工艺和工程管理双学士学位项目。不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "数学类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（数学与应用数学、信息与计算科学；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（自动化、电气工程及其自动化、信息工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "药学",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "化学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（教育部拔尖基地班；不招色弱、色盲、嗅觉迟钝者。“化学拔尖学生培养基地”（教育部基础学科拔尖学生培养计划2.0基地）；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（双学士学位项目；计算机科学与技术和金融学双学士学位项目。不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（应用物理学、光电信息科学与工程；不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（计算机科学与技术、软件工程；不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理）；办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "物理类普通组(本校主组)"
+        },
+        {
+          "group_code": "05",
+          "group_name": "（05）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "民族班",
+          "batch": "本科批",
+          "min_score": 603,
+          "min_rank": 13014,
+          "majors": [
+            {
+              "name": "化学工程与工艺",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（民族班；不招色弱、色盲、嗅觉迟钝者。第一学年学费为7000元；办学地点：奉贤校区和徐汇校区）（代号）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（民族班；不招色弱、色盲、嗅觉迟钝者。第一学年学费为7000元；办学地点：奉贤校区和徐汇校区）（代号）"
+            }
+          ],
+          "note": "民族班"
+        },
+        {
+          "group_code": "07",
+          "group_name": "（07）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "国家专项计划",
+          "batch": "本科批",
+          "min_score": 601,
+          "min_rank": 13848,
+          "majors": [
+            {
+              "name": "软件工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080902",
+              "info": "（不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "光电信息科学与工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080705",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "信息管理与信息系统",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120102",
+              "info": "（数据智能与智慧管理；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080801",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "过程装备与控制工程",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080206",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "数学与应用数学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070101",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "精细化工",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081308T",
+              "info": "（光电信息材料方向；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "软件工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080902",
+              "info": "（不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "光电信息科学与工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080705",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "信息管理与信息系统",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120102",
+              "info": "（数据智能与智慧管理；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080801",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "过程装备与控制工程",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080206",
+              "info": "（不招色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "数学与应用数学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070101",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "精细化工",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081308T",
+              "info": "（光电信息材料方向；不招色弱、色盲、嗅觉迟钝者；办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "国家专项计划组(另)"
+        },
+        {
+          "group_code": "02",
+          "group_name": "（02）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 597,
+          "min_rank": 3621,
+          "majors": [
+            {
+              "name": "风景园林",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（未来人居环境方向；不招色弱、色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（英语、德语、日语；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；外语语种：英语，日语，德语；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（未来人居环境方向；不招色弱、色盲者；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（英语、德语、日语；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者；外语语种：英语，日语，德语；办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "历史类普通组"
+        },
+        {
+          "group_code": "03",
+          "group_name": "（03）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "民族班",
+          "batch": "本科批",
+          "min_score": 597,
+          "min_rank": 3621,
+          "majors": [
+            {
+              "name": "金融学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "020301K",
+              "info": "（民族班；办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "金融学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "020301K",
+              "info": "（民族班；办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "民族班"
+        },
+        {
+          "group_code": "06",
+          "group_name": "（06）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "国家专项计划",
+          "batch": "本科批",
+          "min_score": 594,
+          "min_rank": 16966,
+          "majors": [
+            {
+              "name": "金融学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "020301K",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            },
+            {
+              "name": "金融学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "020301K",
+              "info": "（办学地点：奉贤校区和徐汇校区）"
+            }
+          ],
+          "note": "国家专项计划组"
+        }
       ]
     },
-    {
-      "province": "福建",
+    "35": {
+      "province_name": "福建",
       "province_id": 35,
       "regime": "3+1+2",
-      "data_quality": "verified_group",
       "groups": [
-        { "group_code": "999", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 592, "最低位次": 2338, "示例专业": ["经济学类", "法学", "工商管理类", "外国语言文学类", "公共管理类"], "tuition": null, "notes": "历史类普通组(不限再选)" },
-        { "group_code": "500", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 612, "最低位次": 9021, "示例专业": ["化学工程与工艺", "工科试验班", "应用化学", "材料类", "生物工程类", "药学", "计算机类", "电子信息类", "机械类", "能源与动力工程"], "tuition": null, "notes": "物理+化学(本校主组)" },
-        { "group_code": "999-物", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 610, "最低位次": 9599, "示例专业": ["数学类", "经济学类(物理)", "工商管理类(物理)"], "tuition": null, "notes": "物理不限再选组" }
+        {
+          "group_code": "500",
+          "group_name": "（500）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "化学",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 612,
+          "min_rank": 9021,
+          "majors": [
+            {
+              "name": "机械类",
+              "plan": 15,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（含机械设计制造及其自动化、过程装备与控制工程、智能制造工程。不招色盲者）"
+            },
+            {
+              "name": "材料类",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（含电子信息材料、高分子材料与工程、无机非金属象材料工程、复合材料与工程、新能源材料与器件。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（含生物工程、生物科学、生物技术、食品2）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（含自动化、电气工程及其自动化、信息工程。不招色盲者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工）（含化学工程与工艺、油气储运工程、资源）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿的考生。外方学校：FGL联盟学校（法国19所专长于化学化工领域的顶尖高等工程师院校）。不招色弱、色盲、嗅觉迟钝者，学费不超过40000元/学年（以批复的为准））"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（含生物工程、制药工程。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（双学士学位项目）（化学工程与工艺和工程管理双学土学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（教育部拔尖基地班）（不招色弱、色盲、嗅觉迟钝者。“化学拔尖）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿的考生。外方学校：FGL联盟学校（法国19所专长于化学化工领域的顶尖高等工程师院校）。不招1f弱、色盲、嗅觉迟钝者，学费不超过40000元/学年（以批复的为准））"
+            },
+            {
+              "name": "计算机类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（含计算机科学与技术、软件工程。不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（含化学、材料化学（绿色与能源催化方向）。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "药学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（含能源与动力工程、环境工程、储能科学与工程。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（双学士学位项目）（能源与动力工程和经济学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班）（含应用化学、精细化工（光电信息材料方向）。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（含人工智能、机器人工程。不招色盲者）"
+            },
+            {
+              "name": "数学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（含物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理））"
+            },
+            {
+              "name": "机械类",
+              "plan": 15,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（含机械设计制造及其自动化、过程装备与控制工程、智能制造工程。不招色盲者）"
+            },
+            {
+              "name": "材料类",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（含电子信息材料、高分子材料与工程、无机非金属象材料工程、复合材料与工程、新能源材料与器件。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 11,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（含生物工程、生物科学、生物技术、食品2）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（含自动化、电气工程及其自动化、信息工程。不招色盲者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 9,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工）（含化学工程与工艺、油气储运工程、资源）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿的考生。外方学校：FGL联盟学校（法国19所专长于化学化工领域的顶尖高等工程师院校）。不招色弱、色盲、嗅觉迟钝者，学费不超过40000元/学年（以批复的为准））"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（含生物工程、制药工程。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（双学士学位项目）（化学工程与工艺和工程管理双学土学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（教育部拔尖基地班）（不招色弱、色盲、嗅觉迟钝者。“化学拔尖）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": "",
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（中外合作办学）（精英班）（只录取有专业志愿的考生。外方学校：FGL联盟学校（法国19所专长于化学化工领域的顶尖高等工程师院校）。不招1f弱、色盲、嗅觉迟钝者，学费不超过40000元/学年（以批复的为准））"
+            },
+            {
+              "name": "计算机类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（含计算机科学与技术、软件工程。不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（含化学、材料化学（绿色与能源催化方向）。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "药学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（含能源与动力工程、环境工程、储能科学与工程。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（双学士学位项目）（能源与动力工程和经济学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班）（含应用化学、精细化工（光电信息材料方向）。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 3,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（含人工智能、机器人工程。不招色盲者）"
+            },
+            {
+              "name": "数学类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（含物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理））"
+            },
+            {
+              "name": "信息工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080706",
+              "info": "（不招色盲者。）（高校专项计划）"
+            },
+            {
+              "name": "数学与应用数学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070101",
+              "info": "（高校专项计划）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（不招色盲、色弱、嗅觉迟钝者。第一学年学费为7000元。）（高校专项计划）"
+            },
+            {
+              "name": "新能源材料与器件",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080414T",
+              "info": "（不招色盲、色弱、嗅觉迟钝者。）（高校专项计划）"
+            },
+            {
+              "name": "精细化工",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081308T",
+              "info": "（光电信息材料方向）（不招色盲、色弱、嗅觉迟钝者。）（高校专项计划）"
+            },
+            {
+              "name": "信息管理与信息系统",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120102",
+              "info": "（数据智能与智慧管理）（高校专项计划）"
+            },
+            {
+              "name": "信息工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080706",
+              "info": "（不招色盲者。）（高校专项计划）"
+            },
+            {
+              "name": "数学与应用数学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070101",
+              "info": "（高校专项计划）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（不招色盲、色弱、嗅觉迟钝者。第一学年学费为7000元。）（高校专项计划）"
+            },
+            {
+              "name": "新能源材料与器件",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080414T",
+              "info": "（不招色盲、色弱、嗅觉迟钝者。）（高校专项计划）"
+            },
+            {
+              "name": "精细化工",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081308T",
+              "info": "（光电信息材料方向）（不招色盲、色弱、嗅觉迟钝者。）（高校专项计划）"
+            },
+            {
+              "name": "信息管理与信息系统",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120102",
+              "info": "（数据智能与智慧管理）（高校专项计划）"
+            }
+          ],
+          "note": "物理+化学(本校主组)"
+        },
+        {
+          "group_code": "999",
+          "group_name": "（999）",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 592,
+          "min_rank": 2338,
+          "majors": [
+            {
+              "name": "外国语言文学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（语种：英语、日语、德语。含英语、德语、日语。不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者）"
+            },
+            {
+              "name": "法学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": null
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（语种：英语、日语、德语。含英语、德语、日语。不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者）"
+            },
+            {
+              "name": "法学",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": null
+            }
+          ],
+          "note": "历史类普通组(不限再选)"
+        },
+        {
+          "group_code": "999",
+          "group_name": "（999）",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": "不限",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 592,
+          "min_rank": 2338,
+          "majors": [
+            {
+              "name": "经济学类",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（含经济学、金融学）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（含工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务））"
+            },
+            {
+              "name": "经济学类",
+              "plan": 5,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（含经济学、金融学）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（含工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务））"
+            }
+          ],
+          "note": "历史类普通组(不限再选)"
+        }
       ]
     },
-    {
-      "province": "山东",
+    "37": {
+      "province_name": "山东",
       "province_id": 37,
-      "regime": "3+3 (综合改革, 96 平行志愿)",
-      "data_quality": "per_major",
-      "notes": "山东实行 96 个专业(专业类)+学校 平行志愿, 不设传统'院校专业组'概念。下列以专业为单位,group_code 用 '专业名'。",
+      "regime": "3+3 综合改革 (96 平行志愿)",
       "groups": [
-        { "group_code": "外国语言文学类", "track": "综合", "首选": null, "再选": null, "投档分": 599, "最低位次": 23201, "示例专业": ["外国语言文学类"], "tuition": null, "notes": null },
-        { "group_code": "公共管理类", "track": "综合", "首选": null, "再选": null, "投档分": 600, "最低位次": 22548, "示例专业": ["公共管理类"], "tuition": null },
-        { "group_code": "生物工程类", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 600, "最低位次": 22548, "示例专业": ["生物工程类"], "tuition": null },
-        { "group_code": "化学类", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 602, "最低位次": 21199, "示例专业": ["化学类"], "tuition": null },
-        { "group_code": "工科试验班(01)", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 602, "最低位次": 21199, "示例专业": ["工科试验班"], "tuition": null },
-        { "group_code": "药学", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 603, "最低位次": 20568, "示例专业": ["药学"], "tuition": null },
-        { "group_code": "工业设计", "track": "综合", "首选": "物理", "再选": null, "投档分": 605, "最低位次": 19289, "示例专业": ["工业设计"], "tuition": null },
-        { "group_code": "材料类", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 605, "最低位次": 19289, "示例专业": ["材料类"], "tuition": null },
-        { "group_code": "工商管理类", "track": "综合", "首选": null, "再选": null, "投档分": 606, "最低位次": 18713, "示例专业": ["工商管理类"], "tuition": null },
-        { "group_code": "管理科学与工程类", "track": "综合", "首选": "物理", "再选": null, "投档分": 607, "最低位次": 18158, "示例专业": ["管理科学与工程类"], "tuition": null },
-        { "group_code": "机械类", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 610, "最低位次": 16515, "示例专业": ["机械类"], "tuition": null },
-        { "group_code": "物理学类", "track": "综合", "首选": "物理", "再选": null, "投档分": 611, "最低位次": 16013, "示例专业": ["物理学类"], "tuition": null },
-        { "group_code": "经济学类", "track": "综合", "首选": null, "再选": null, "投档分": 612, "最低位次": 15500, "示例专业": ["经济学类"], "tuition": null },
-        { "group_code": "工科试验班(02)", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 612, "最低位次": 15500, "示例专业": ["工科试验班"], "tuition": null },
-        { "group_code": "工科试验班(03)", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 613, "最低位次": 15000, "示例专业": ["工科试验班"], "tuition": null },
-        { "group_code": "能源与动力工程", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 615, "最低位次": 14095, "示例专业": ["能源与动力工程"], "tuition": null },
-        { "group_code": "应用化学", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 615, "最低位次": 14095, "示例专业": ["应用化学"], "tuition": null },
-        { "group_code": "法学", "track": "综合", "首选": null, "再选": null, "投档分": 615, "最低位次": 14095, "示例专业": ["法学"], "tuition": null },
-        { "group_code": "化学工程与工艺", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 619, "最低位次": 12315, "示例专业": ["化学工程与工艺"], "tuition": null },
-        { "group_code": "工科试验班(04)", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 619, "最低位次": 12315, "示例专业": ["工科试验班"], "tuition": null },
-        { "group_code": "电子信息类", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 620, "最低位次": 11875, "示例专业": ["电子信息类"], "tuition": null },
-        { "group_code": "数学类", "track": "综合", "首选": "物理", "再选": null, "投档分": 621, "最低位次": 11469, "示例专业": ["数学类"], "tuition": null },
-        { "group_code": "计算机类", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 626, "最低位次": 9572, "示例专业": ["计算机类"], "tuition": null },
-        { "group_code": "计算机科学与技术", "track": "综合", "首选": "物理", "再选": "化学", "投档分": 627, "最低位次": 9207, "示例专业": ["计算机科学与技术"], "tuition": null }
+        {
+          "group_code": null,
+          "group_name": "综合高校专项计划(特殊类型批)",
+          "track": "综合",
+          "first_subject": null,
+          "second_subject": null,
+          "zslx": "高校专项计划",
+          "batch": "特殊类型批",
+          "min_score": 603,
+          "min_rank": 20568,
+          "majors": [
+            {
+              "name": "软件工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080902",
+              "info": "（不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）（高校专项计划）"
+            },
+            {
+              "name": "化学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            },
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（不招色盲者）（高校专项计划）"
+            },
+            {
+              "name": "数学与应用数学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070101",
+              "info": "（高校专项计划）"
+            },
+            {
+              "name": "应用物理学",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070202",
+              "info": "（不招色盲者）（高校专项计划）"
+            },
+            {
+              "name": "物流管理",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "120601",
+              "info": "（供应链方向）（高校专项计划）"
+            },
+            {
+              "name": "食品科学与工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082701",
+              "info": "（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 2,
+              "min_score": 619,
+              "min_rank": 12315,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（不招色弱、色盲、嗅觉迟钝者。第一学年学费为7000元）（高校专项计划）"
+            },
+            {
+              "name": "自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080801",
+              "info": "（不招色盲者）（高校专项计划）"
+            },
+            {
+              "name": "智能制造工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080213T",
+              "info": "（不招色盲者）（高校专项计划）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 1,
+              "min_score": 615,
+              "min_rank": 14095,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            },
+            {
+              "name": "药学",
+              "plan": 1,
+              "min_score": 603,
+              "min_rank": 20568,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            }
+          ],
+          "note": "该省采用 96 平行志愿(专业+学校)，无传统院校专业组；按 track+招生类型 聚合"
+        },
+        {
+          "group_code": null,
+          "group_name": "综合普通类(普通类一段)",
+          "track": "综合",
+          "first_subject": null,
+          "second_subject": null,
+          "zslx": "普通类",
+          "batch": "普通类一段",
+          "min_score": 599,
+          "min_rank": 23201,
+          "majors": [
+            {
+              "name": "机械类",
+              "plan": 32,
+              "min_score": 610,
+              "min_rank": 16515,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（机械智能化实验班）（机械设计制造及其自动化、过程装备与控制工程、智能制造工程）（不招色盲者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 25,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智慧化工）（化学工程与工艺、油气储运工程、资源循环科学与工程、轻化工程）（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 18,
+              "min_score": 600,
+              "min_rank": 22548,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全）（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "材料类",
+              "plan": 16,
+              "min_score": 605,
+              "min_rank": 19289,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（新材料实验班）（电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件）（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "化学类",
+              "plan": 15,
+              "min_score": 602,
+              "min_rank": 21199,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（智创化学实验班）（化学、材料化学（绿色与能源催化方向））（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 12,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（智能与机器人）（人工智能、机器人工程）（不招色盲考生；优秀学生可申请拔尖创新人才培养计划）（3+1+X）代号院校、专业（类）（名称及备注）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 11,
+              "min_score": 620,
+              "min_rank": 11875,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（自动化、电气工程及其自动化、信息工程）（不招色盲者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 10,
+              "min_score": 619,
+              "min_rank": 12315,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（双学士学位项目）（化学工程与工艺和工程管理双学士学位项目；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "药学",
+              "plan": 10,
+              "min_score": 603,
+              "min_rank": 20568,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（创新实验班）（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 10,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（生物医药）（生物工程、制药工程）（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X）、卓越工程师培养计划）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 7,
+              "min_score": 611,
+              "min_rank": 16013,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（应用物理学、光电信息科学与工程）（不招色盲考生；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "工业设计",
+              "plan": 6,
+              "min_score": 605,
+              "min_rank": 19289,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080205",
+              "info": "（不招色弱、色盲者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（能源与环境）（能源与动力工程、环境工程、储能科学与工程）（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 5,
+              "min_score": 615,
+              "min_rank": 14095,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（双学士学位项目）（能源与动力工程和经济学双学士学位项目；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 5,
+              "min_score": 606,
+              "min_rank": 18713,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务））（优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "化学类",
+              "plan": 5,
+              "min_score": 602,
+              "min_rank": 21199,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（新工科化学实验班）（应用化学、精细化工（光电信息材料方向））（不招色弱、色盲、嗅觉迟钝者；优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "化学",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070301",
+              "info": "（教育部拔尖基地班）（不招色弱、色盲、嗅觉迟钝者；“化学拔尖学生培养基地”（教育部基础学科拔尖学生培养计划2.0基地））"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 4,
+              "min_score": 627,
+              "min_rank": 9207,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（双学士学位项目）（计算机科学与技术和金融学双学士学位项目；不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "数学类",
+              "plan": 4,
+              "min_score": 621,
+              "min_rank": 11469,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（数学与应用数学、信息与计算科学）（优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "计算机类",
+              "plan": 4,
+              "min_score": 626,
+              "min_rank": 9572,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（计算机科学与技术、软件工程）（不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者。优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 4,
+              "min_score": 607,
+              "min_rank": 18158,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理））（优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "法学",
+              "plan": 3,
+              "min_score": 615,
+              "min_rank": 14095,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": null
+            },
+            {
+              "name": "公共管理类",
+              "plan": 3,
+              "min_score": 600,
+              "min_rank": 22548,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（社会学、社会工作、公共事业管理、行政管理）（优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "应用化学",
+              "plan": 2,
+              "min_score": 615,
+              "min_rank": 14095,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（双学士学位项目）（应用化学和生物科学双学士学位项目；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": 612,
+              "min_rank": 15500,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（经济学、金融学）（优秀学生可申请拔尖创新人才培养计划（3+1+X））"
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 2,
+              "min_score": 599,
+              "min_rank": 23201,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（英语、德语、日语）（外语语种为英语、日语、德语；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者）"
+            }
+          ],
+          "note": "该省采用 96 平行志愿(专业+学校)，无传统院校专业组；按 track+招生类型 聚合"
+        }
       ]
     },
-    {
-      "province": "河北",
+    "13": {
+      "province_name": "河北",
       "province_id": 13,
       "regime": "3+1+2 (96 平行志愿)",
-      "data_quality": "per_major",
-      "notes": "河北 96 个专业+学校 平行志愿, 无传统'院校专业组'概念。下列以专业为单位。",
       "groups": [
-        { "group_code": "日语-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 594, "最低位次": 5269, "示例专业": ["日语"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "德语-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 597, "最低位次": 4770, "示例专业": ["德语"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "社会学-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 612, "最低位次": 2764, "示例专业": ["社会学"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "风景园林-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 604, "最低位次": 3741, "示例专业": ["风景园林"], "tuition": null },
-        { "group_code": "公共管理类-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 607, "最低位次": 3368, "示例专业": ["公共管理类"], "tuition": null },
-        { "group_code": "外国语言文学类-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 611, "最低位次": 2882, "示例专业": ["外国语言文学类"], "tuition": null },
-        { "group_code": "工商管理类-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 617, "最低位次": 2189, "示例专业": ["工商管理类"], "tuition": null },
-        { "group_code": "经济学类-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 623, "最低位次": 1641, "示例专业": ["经济学类"], "tuition": null },
-        { "group_code": "法学-文", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 625, "最低位次": 1474, "示例专业": ["法学"], "tuition": null },
-        { "group_code": "轻化工程", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 593, "最低位次": 19893, "示例专业": ["轻化工程"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "环境工程", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 599, "最低位次": 16453, "示例专业": ["环境工程"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "高分子材料与工程", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 601, "最低位次": 15387, "示例专业": ["高分子材料与工程"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "化学", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 603, "最低位次": 14334, "示例专业": ["化学"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "能源与动力工程-提前", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 613, "最低位次": 9908, "示例专业": ["能源与动力工程"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "数学与应用数学", "track": "物理类", "首选": "物理", "再选": null, "投档分": 617, "最低位次": 8409, "示例专业": ["数学与应用数学"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "计算机科学与技术-提前", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 621, "最低位次": 7068, "示例专业": ["计算机科学与技术"], "tuition": null, "notes": "提前批B段" },
-        { "group_code": "工商管理类-物", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 603, "最低位次": 14334, "示例专业": ["工商管理类"], "tuition": null },
-        { "group_code": "化学类", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 605, "最低位次": 13385, "示例专业": ["化学类"], "tuition": null },
-        { "group_code": "药学", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 606, "最低位次": 12898, "示例专业": ["药学"], "tuition": null },
-        { "group_code": "管理科学与工程类", "track": "物理类", "首选": "物理", "再选": null, "投档分": 607, "最低位次": 12449, "示例专业": ["管理科学与工程类"], "tuition": null },
-        { "group_code": "生物工程类", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 607, "最低位次": 12449, "示例专业": ["生物工程类"], "tuition": null },
-        { "group_code": "工科试验班-低", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 607, "最低位次": 12449, "示例专业": ["工科试验班"], "tuition": null },
-        { "group_code": "经济学类-物", "track": "物理类", "首选": "物理", "再选": null, "投档分": 608, "最低位次": 12000, "示例专业": ["经济学类"], "tuition": null },
-        { "group_code": "材料类", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 610, "最低位次": 11140, "示例专业": ["材料类"], "tuition": null },
-        { "group_code": "机械类", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 615, "最低位次": 9146, "示例专业": ["机械类"], "tuition": null },
-        { "group_code": "物理学类", "track": "物理类", "首选": "物理", "再选": null, "投档分": 615, "最低位次": 9146, "示例专业": ["物理学类"], "tuition": null },
-        { "group_code": "应用化学", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 616, "最低位次": 8750, "示例专业": ["应用化学"], "tuition": null },
-        { "group_code": "数学类", "track": "物理类", "首选": "物理", "再选": null, "投档分": 618, "最低位次": 8071, "示例专业": ["数学类"], "tuition": null },
-        { "group_code": "工科试验班-高", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 623, "最低位次": 6477, "示例专业": ["工科试验班"], "tuition": null },
-        { "group_code": "电子信息类", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 624, "最低位次": 6190, "示例专业": ["电子信息类"], "tuition": null },
-        { "group_code": "计算机类", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 626, "最低位次": 5657, "示例专业": ["计算机类"], "tuition": null }
+        {
+          "group_code": null,
+          "group_name": "物理普通类(本科批)",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": null,
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 605,
+          "min_rank": 13385,
+          "majors": [
+            {
+              "name": "机械类",
+              "plan": 18,
+              "min_score": 615,
+              "min_rank": 9146,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0802",
+              "info": "（上海市）（机械智能化实验班）（含机械设计制造及其自动化、过程装备与控制工程、智能制造工程专业；不招色盲者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 17,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（上海市）（智慧化工）（含化学工程与工艺、油气储运工程、资源循环科学与工程、轻化工程专业；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 10,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（上海市）（能源与环境）（含能源与动力工程、环境工程、储能科学与工程专业；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "材料类",
+              "plan": 9,
+              "min_score": 610,
+              "min_rank": 11140,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0804",
+              "info": "（上海市）（新材料实验班）（含电子信息材料、高分子材料与工程、无机非金属材料工程、复合材料与工程、新能源材料与器件专业；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "应用化学",
+              "plan": 6,
+              "min_score": 616,
+              "min_rank": 8750,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "070302",
+              "info": "（上海市）（双学士学位项目）（应用化学和生物科学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "物理学类",
+              "plan": 6,
+              "min_score": 615,
+              "min_rank": 9146,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0702",
+              "info": "（上海市）（含应用物理学、光电信息科学与工程专业；不招色盲者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 6,
+              "min_score": 605,
+              "min_rank": 13385,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（上海市）（智创化学实验班）（含化学、材料化学（绿色与能源催化方向）专业；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "生物工程类",
+              "plan": 6,
+              "min_score": 607,
+              "min_rank": 12449,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0830",
+              "info": "（上海市）（含生物工程、生物科学、生物技术、食品科学与工程、食品质量与安全专业；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（上海市）（智能与机器人）（含人工智能、机器人工程专业；不招色盲者）"
+            },
+            {
+              "name": "工科试验班",
+              "plan": 6,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0",
+              "info": "（上海市）（生物医药）（含生物工程、制药工程专业；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "数学类",
+              "plan": 5,
+              "min_score": 618,
+              "min_rank": 8071,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0701",
+              "info": "（上海市）（含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "name": "电子信息类",
+              "plan": 5,
+              "min_score": 624,
+              "min_rank": 6190,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0807",
+              "info": "（上海市）（含自动化、电气工程及其自动化、信息工程专业；不招色盲者）"
+            },
+            {
+              "name": "计算机类",
+              "plan": 5,
+              "min_score": 626,
+              "min_rank": 5657,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "0809",
+              "info": "（上海市）（含计算机科学与技术、软件工程专业；不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "药学",
+              "plan": 5,
+              "min_score": 606,
+              "min_rank": 12898,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "100701",
+              "info": "（上海市）（创新实验班）（不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "能源与动力工程",
+              "plan": 4,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（上海市）（双学士学位项目）（能源与动力工程和经济学双学士学位项目。不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "化学类",
+              "plan": 4,
+              "min_score": 605,
+              "min_rank": 13385,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "0703",
+              "info": "（上海市）（新工科化学实验班）（含应用化学、精细化工（光电信息材料方向）专业；不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": 608,
+              "min_rank": 12000,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（上海市）（含经济学、金融学专业）"
+            },
+            {
+              "name": "管理科学与工程类",
+              "plan": 2,
+              "min_score": 607,
+              "min_rank": 12449,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1201",
+              "info": "（上海市）（含物流管理（供应链方向）、信息管理与信息系统（数据智能与智慧管理）专业）"
+            }
+          ],
+          "note": "该省采用 96 平行志愿(专业+学校)，无传统院校专业组；按 track+招生类型 聚合"
+        },
+        {
+          "group_code": null,
+          "group_name": "历史普通类(本科批)",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": null,
+          "zslx": "普通类",
+          "batch": "本科批",
+          "min_score": 604,
+          "min_rank": 3741,
+          "majors": [
+            {
+              "name": "公共管理类",
+              "plan": 10,
+              "min_score": 607,
+              "min_rank": 3368,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1204",
+              "info": "（上海市）（含社会学、社会工作、公共事业管理、行政管理专业）"
+            },
+            {
+              "name": "工商管理类",
+              "plan": 6,
+              "min_score": 617,
+              "min_rank": 2189,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "1202",
+              "info": "（上海市）（含工商管理（商务分析）、市场营销（大数据营销）、会计学（大数据会计）、财务管理（智能财务）专业）"
+            },
+            {
+              "name": "法学",
+              "plan": 2,
+              "min_score": 625,
+              "min_rank": 1474,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030101K",
+              "info": "（上海市）"
+            },
+            {
+              "name": "风景园林",
+              "plan": 2,
+              "min_score": 604,
+              "min_rank": 3741,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082803",
+              "info": "（上海市）（未来人居环境方向）（不招色弱、色盲者）"
+            },
+            {
+              "name": "经济学类",
+              "plan": 2,
+              "min_score": 623,
+              "min_rank": 1641,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0201",
+              "info": "（上海市）（含经济学、金融学专业）"
+            },
+            {
+              "name": "外国语言文学类",
+              "plan": 2,
+              "min_score": 611,
+              "min_rank": 2882,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "0502",
+              "info": "（上海市）（含英语、德语、日语专业；只招英语、日语、德语语种考生；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者）"
+            }
+          ],
+          "note": "该省采用 96 平行志愿(专业+学校)，无传统院校专业组；按 track+招生类型 聚合"
+        },
+        {
+          "group_code": null,
+          "group_name": "物理高校专项计划(本科提前批C段)",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": null,
+          "zslx": "高校专项计划",
+          "batch": "本科提前批C段",
+          "min_score": 599,
+          "min_rank": 16453,
+          "majors": [
+            {
+              "name": "信息工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080706",
+              "info": "（上海市）（不招色盲者）（高校专项计划）"
+            },
+            {
+              "name": "机械设计制造及其自动化",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080202",
+              "info": "（上海市）（不招色盲者）（高校专项计划）"
+            },
+            {
+              "name": "环境工程",
+              "plan": 2,
+              "min_score": 599,
+              "min_rank": 16453,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082502",
+              "info": "（上海市）（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            },
+            {
+              "name": "化学工程与工艺",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081301",
+              "info": "（上海市）（不招色弱、色盲、嗅觉迟钝者。第一学年学费为7000元）（高校专项计划）"
+            },
+            {
+              "name": "精细化工",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "081308T",
+              "info": "（上海市）（光电信息材料方向）（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            },
+            {
+              "name": "生物技术",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "071002",
+              "info": "（上海市）（不招色弱、色盲、嗅觉迟钝者）（高校专项计划）"
+            },
+            {
+              "name": "智能制造工程",
+              "plan": 1,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080213T",
+              "info": "（上海市）（不招色盲者）（高校专项计划）"
+            }
+          ],
+          "note": "该省采用 96 平行志愿(专业+学校)，无传统院校专业组；按 track+招生类型 聚合"
+        },
+        {
+          "group_code": null,
+          "group_name": "历史国家专项计划(本科提前批B段)",
+          "track": "历史",
+          "first_subject": "历史",
+          "second_subject": null,
+          "zslx": "国家专项计划",
+          "batch": "本科提前批B段",
+          "min_score": 594,
+          "min_rank": 5269,
+          "majors": [
+            {
+              "name": "社会学",
+              "plan": 1,
+              "min_score": 612,
+              "min_rank": 2764,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "030301",
+              "info": "（上海市）（国家专项计划）"
+            },
+            {
+              "name": "日语",
+              "plan": 1,
+              "min_score": 594,
+              "min_rank": 5269,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050207",
+              "info": "（上海市）（国家专项计划）（只招英语、日语语种考生；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者）"
+            },
+            {
+              "name": "德语",
+              "plan": 1,
+              "min_score": 597,
+              "min_rank": 4770,
+              "tuition": 6500,
+              "length": "四年",
+              "spcode": "050203",
+              "info": "（上海市）（国家专项计划）（只招英语、德语语种考生；不招口吃、听力障碍（两耳听力均在3米以内，或一耳听力在5米另一耳全聋）者）"
+            }
+          ],
+          "note": "该省采用 96 平行志愿(专业+学校)，无传统院校专业组；按 track+招生类型 聚合"
+        },
+        {
+          "group_code": null,
+          "group_name": "物理国家专项计划(本科提前批B段)",
+          "track": "物理",
+          "first_subject": "物理",
+          "second_subject": null,
+          "zslx": "国家专项计划",
+          "batch": "本科提前批B段",
+          "min_score": 593,
+          "min_rank": 19893,
+          "majors": [
+            {
+              "name": "能源与动力工程",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080501",
+              "info": "（上海市）（国家专项计划）（不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "高分子材料与工程",
+              "plan": 2,
+              "min_score": 601,
+              "min_rank": 15387,
+              "tuition": 7700,
+              "length": "四年",
+              "spcode": "080407",
+              "info": "（上海市）（国家专项计划）（不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "计算机科学与技术",
+              "plan": 2,
+              "min_score": null,
+              "min_rank": null,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "080901",
+              "info": "（上海市）（国家专项计划）（不招不能准确在显示器上识别红、黄、绿、蓝、紫各颜色中任何一种颜色的数码、字母者）"
+            },
+            {
+              "name": "数学与应用数学",
+              "plan": 1,
+              "min_score": 617,
+              "min_rank": 8409,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "070101",
+              "info": "（上海市）（国家专项计划）"
+            },
+            {
+              "name": "环境工程",
+              "plan": 1,
+              "min_score": 599,
+              "min_rank": 16453,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "082502",
+              "info": "（上海市）（国家专项计划）（不招色弱、色盲、嗅觉迟钝者）"
+            },
+            {
+              "name": "轻化工程",
+              "plan": 1,
+              "min_score": 593,
+              "min_rank": 19893,
+              "tuition": 7000,
+              "length": "四年",
+              "spcode": "081701",
+              "info": "（上海市）（国家专项计划）（不招色弱、色盲、嗅觉迟钝者）"
+            }
+          ],
+          "note": "该省采用 96 平行志愿(专业+学校)，无传统院校专业组；按 track+招生类型 聚合"
+        }
       ]
     }
-  ]
+  }
 }

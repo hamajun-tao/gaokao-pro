@@ -2,121 +2,6233 @@
   "_kind": "Per-university × per-province 院校专业组 (college-major groups) for 2025 投档",
   "_year": 2025,
   "_university": "暨南大学",
-  "_university_code": "1560",
-  "_zs_code_note": "1560 is the provincial 招生院校代码 (Guangdong-side; some provinces use the 4-digit MoE 招生计划 code 10559 or a local 4-digit code). Verify against each province's 招生计划手册.",
+  "_university_code": "106",
+  "_zs_code_note": "school_id=106 on gaokao.cn; 招生代码 1560 (Guangdong) / 10559 (MoE)",
   "_sources": [
-    "https://zsb.jnu.edu.cn/2025/0625/c40320a839249/page.htm",
-    "https://zsb.jnu.edu.cn/2025/0624/c4288a839132/page.psp",
-    "https://zsb.jnu.edu.cn/2025/0530/c40320a837360/page.htm",
-    "https://app.gaokaozhitongche.com/newsguide/h/0NeRDKwX",
-    "https://www.sohu.com/a/915540180_121956425",
-    "https://www.gk100.com/read_941722937195.htm",
-    "https://news.qq.com/rain/a/20250621A04JCL00",
-    "https://guangdong.eol.cn/gdgd/202506/t20250621_2676110.shtml",
-    "https://m.zh.bendibao.com/edu/gkfenshuxian/school.php?id=3348",
-    "https://www.gaokao.cn/school/106/provinceline",
-    "https://zhaosheng.szpu.edu.cn (广东省 2025 本科普通类投档情况 PDF)"
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/{province_id}.json"
   ],
-  "_data_quality": "guangdong=aggregate min + partial group codes (15 物理 / 9 历史 组, 总投档最低 物理 591 / 历史 603 已核; 单组代码×投档分官方表未公开 machine-readable); 其余省 aggregate_only. To upgrade: pull each provincial 教育考试院 2025 投档线公告 PDF.",
+  "_data_quality": "majors+plan from gaokao.cn schoolspecialplan API (2025 plan); 投档分/位次 not in this endpoint and left null for downstream merge",
   "_collected_at": "2026-05-26",
   "university": {
     "name": "暨南大学",
     "code": "1560",
     "moe_zs_code": "10559",
+    "gaokao_cn_id": "106",
     "city": "广州",
-    "tags": ["211", "双一流", "中央统战部直属", "华侨最高学府"]
+    "tags": [
+      "211",
+      "双一流",
+      "中央统战部直属",
+      "华侨最高学府"
+    ]
   },
   "provinces": [
     {
       "province": "广东",
       "province_id": 44,
       "regime": "3+1+2",
-      "data_quality": "partial",
-      "_meta": {
-        "plan_total": 2388,
-        "group_count_物理": 15,
-        "group_count_历史": 9,
-        "投档最低_物理": 591,
-        "投档最低_历史": 598,
-        "最低位次_物理": 34231,
-        "最低位次_历史": 4615,
-        "filing_note": "2025 普通批 7/19 投档; 历史类 603 一说为含再选限制组的最低, 598 为含中外合作的全口径最低"
-      },
+      "data_quality": "majors_from_gaokao_cn_api",
+      "_source_api": "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/44.json",
+      "_group_count": 24,
+      "_major_count": 282,
+      "_plan_total": 4676,
       "groups": [
-        { "group_code": "201", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 603, "最低位次": 4615, "示例专业": ["汉语言文学", "新闻学", "法学", "经济学类"], "tuition": null, "notes": "历史类普通组(组代码与组内专业为按往年结构推测; 投档分为 2025 历史类汇总最低)" },
-        { "group_code": "202", "track": "历史类", "首选": "历史", "再选": "政治", "投档分": null, "最低位次": null, "示例专业": ["国际政治", "思想政治教育"], "tuition": null, "notes": "政治再选组(结构推测)" },
-        { "group_code": "211", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 591, "最低位次": 34231, "示例专业": ["计算机类", "电子信息类", "数学类", "经济学类(理)"], "tuition": null, "notes": "物理类普通主组(投档分为 2025 物理类汇总最低)" },
-        { "group_code": "212", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": null, "最低位次": null, "示例专业": ["化学类", "材料类", "药学类"], "tuition": null, "notes": "化学必选组(结构推测)" },
-        { "group_code": "213", "track": "物理类", "首选": "物理", "再选": "化学+生物", "投档分": null, "最低位次": null, "示例专业": ["临床医学", "口腔医学", "中医学"], "tuition": null, "notes": "医学组(化生双选, 结构推测)" },
-        { "group_code": "214", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 584, "最低位次": null, "示例专业": ["中外合作办学项目"], "tuition": 75000, "notes": "中外合作组(参考公开聚合源 584 一档)" },
-        { "group_code": "215", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 583, "最低位次": null, "示例专业": ["中外合作办学项目"], "tuition": 75000, "notes": "中外合作组(参考公开聚合源 583 一档)" }
-      ],
-      "_groups_note": "广东实际 物理类 15 组 + 历史类 9 组; 完整组代码×投档分须查《广东省 2025 普通高校招生本科批次投档情况》(zhaosheng.szpu.edu.cn 全表 PDF)."
+        {
+          "group_code": "209",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 30,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（涉外法治特色班；办学地点：广州番禺校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "知识产权（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030102T",
+              "category": "法学"
+            },
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 30,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（涉外法治特色班；办学地点：广州番禺校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "知识产权（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030102T",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 132
+        },
+        {
+          "group_code": "206",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "汉语言文学（办学地点：珠海校区）",
+              "plan": 49,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（办学地点：广州石牌校区）",
+              "plan": 33,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "历史学（炳松班；办学地点：广州石牌校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "汉语言文学（振铎班；办学地点：广州石牌校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语国际教育（办学地点：广州广园东校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050103",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言（办学地点：广州广园东校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050102",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（办学地点：珠海校区）",
+              "plan": 49,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（办学地点：广州石牌校区）",
+              "plan": 33,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "历史学（炳松班；办学地点：广州石牌校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "汉语言文学（振铎班；办学地点：广州石牌校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语国际教育（办学地点：广州广园东校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050103",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言（办学地点：广州广园东校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050102",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 254
+        },
+        {
+          "group_code": "204",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "会计学（办学地点：广州番禺校区）",
+              "plan": 18,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：广州番禺校区）",
+              "plan": 17,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（培养注册会计师人才；办学地点：广州番禺校区）",
+              "plan": 15,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（数智会计创新班；办学地点：广州番禺校区）",
+              "plan": 13,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "市场营销（数智营销创新班；办学地点：广州番禺校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120202",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：珠海校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（全英教学；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 18000,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "行政管理（办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（办学地点：广州番禺校区）",
+              "plan": 18,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：广州番禺校区）",
+              "plan": 17,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（培养注册会计师人才；办学地点：广州番禺校区）",
+              "plan": 15,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（数智会计创新班；办学地点：广州番禺校区）",
+              "plan": 13,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "市场营销（数智营销创新班；办学地点：广州番禺校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120202",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：珠海校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（全英教学；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 18000,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "行政管理（办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 186
+        },
+        {
+          "group_code": "205",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            },
+            {
+              "name": "国际新闻与传播（全英教学；办学地点：广州番禺校区）",
+              "plan": 11,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "050309T",
+              "category": "文学"
+            },
+            {
+              "name": "广播电视学（视听传播创新班；办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050302",
+              "category": "文学"
+            },
+            {
+              "name": "广告学（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050303",
+              "category": "文学"
+            },
+            {
+              "name": "网络与新媒体（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050306T",
+              "category": "文学"
+            },
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            },
+            {
+              "name": "国际新闻与传播（全英教学；办学地点：广州番禺校区）",
+              "plan": 11,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "050309T",
+              "category": "文学"
+            },
+            {
+              "name": "广播电视学（视听传播创新班；办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050302",
+              "category": "文学"
+            },
+            {
+              "name": "广告学（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050303",
+              "category": "文学"
+            },
+            {
+              "name": "网络与新媒体（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050306T",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 102
+        },
+        {
+          "group_code": "207",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "国际商务（办学地点：珠海校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "经济学（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（未来金融家实验班；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（拔尖创新班；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "税收学（办学地点：广州番禺校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020202",
+              "category": "经济学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区；国际班）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "财政学（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020201K",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（全英教学；办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（全英教学；办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "经济学（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（未来金融家实验班；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（拔尖创新班；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "税收学（办学地点：广州番禺校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020202",
+              "category": "经济学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区；国际班）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "财政学（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020201K",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（全英教学；办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（全英教学；办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 154
+        },
+        {
+          "group_code": "203",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "翻译（办学地点：珠海校区）",
+              "plan": 10,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050261",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（国际班；办学地点：广州番禺校区）",
+              "plan": 6,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "英语（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050201",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "翻译（办学地点：珠海校区）",
+              "plan": 10,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050261",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（国际班；办学地点：广州番禺校区）",
+              "plan": 6,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "英语（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050201",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 52
+        },
+        {
+          "group_code": "208",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "思想政治",
+          "sg_info": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "国际政治（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030202",
+              "category": "法学"
+            },
+            {
+              "name": "国际事务与国际关系（区域国别创新班；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "马克思主义理论（办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            },
+            {
+              "name": "国际政治（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030202",
+              "category": "法学"
+            },
+            {
+              "name": "国际事务与国际关系（区域国别创新班；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "马克思主义理论（办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 42
+        },
+        {
+          "group_code": "201",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "中医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            },
+            {
+              "name": "中医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 12
+        },
+        {
+          "group_code": "202",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "戏剧影视文学（办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 10000,
+              "length": "四年",
+              "spcode": "130304",
+              "category": "艺术学"
+            },
+            {
+              "name": "戏剧影视文学（办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 10000,
+              "length": "四年",
+              "spcode": "130304",
+              "category": "艺术学"
+            }
+          ],
+          "plan_total": 10
+        },
+        {
+          "group_code": "224",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "信息与计算科学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 31,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 31,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "信息与计算科学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 31,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 31,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            }
+          ],
+          "plan_total": 124
+        },
+        {
+          "group_code": "218",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "电气工程及其自动化（办学地点：珠海校区）",
+              "plan": 69,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "人工智能（办学地点：珠海校区）",
+              "plan": 68,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "电子信息工程（办学地点：广州番禺校区）",
+              "plan": 66,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080701",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（办学地点：广州石牌校区）",
+              "plan": 66,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "自动化（办学地点：珠海校区）",
+              "plan": 53,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080801",
+              "category": "工学"
+            },
+            {
+              "name": "应用物理学（办学地点：广州石牌校区）",
+              "plan": 47,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070202",
+              "category": "理学"
+            },
+            {
+              "name": "物联网工程（办学地点：珠海校区）",
+              "plan": 46,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "电子科学与技术（办学地点：广州番禺校区）",
+              "plan": 39,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080702",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（办学地点：广州番禺校区；创新班）",
+              "plan": 26,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "工程力学（钱伟长创新班；办学地点：广州石牌校区）",
+              "plan": 18,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080102",
+              "category": "工学"
+            },
+            {
+              "name": "包装工程（办学地点：珠海校区；绿色智造卓越班）",
+              "plan": 10,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（智能运维创新班；办学地点：广州石牌校区）",
+              "plan": 8,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（城市更新创新班；办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "电气工程及其自动化（办学地点：珠海校区）",
+              "plan": 69,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "人工智能（办学地点：珠海校区）",
+              "plan": 68,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "电子信息工程（办学地点：广州番禺校区）",
+              "plan": 66,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080701",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（办学地点：广州石牌校区）",
+              "plan": 66,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "自动化（办学地点：珠海校区）",
+              "plan": 53,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080801",
+              "category": "工学"
+            },
+            {
+              "name": "应用物理学（办学地点：广州石牌校区）",
+              "plan": 47,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070202",
+              "category": "理学"
+            },
+            {
+              "name": "物联网工程（办学地点：珠海校区）",
+              "plan": 46,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "电子科学与技术（办学地点：广州番禺校区）",
+              "plan": 39,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080702",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（办学地点：广州番禺校区；创新班）",
+              "plan": 26,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "工程力学（钱伟长创新班；办学地点：广州石牌校区）",
+              "plan": 18,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080102",
+              "category": "工学"
+            },
+            {
+              "name": "包装工程（办学地点：珠海校区；绿色智造卓越班）",
+              "plan": 10,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（智能运维创新班；办学地点：广州石牌校区）",
+              "plan": 8,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（城市更新创新班；办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 1044
+        },
+        {
+          "group_code": "222",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "计算机科学与技术（办学地点：广州番禺校区）",
+              "plan": 62,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "网络空间安全（办学地点：广州番禺校区）",
+              "plan": 55,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            },
+            {
+              "name": "数学与应用数学（办学地点：广州番禺校区）",
+              "plan": 43,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "软件工程（办学地点：广州番禺校区）",
+              "plan": 42,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080902",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（全英教学；办学地点：广州番禺校区）",
+              "plan": 24,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "信息与计算科学（办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "密码科学与技术（图灵密码创新班；办学地点：广州番禺校区）",
+              "plan": 19,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080918TK",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（办学地点：广州番禺校区）",
+              "plan": 62,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "网络空间安全（办学地点：广州番禺校区）",
+              "plan": 55,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            },
+            {
+              "name": "数学与应用数学（办学地点：广州番禺校区）",
+              "plan": 43,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "软件工程（办学地点：广州番禺校区）",
+              "plan": 42,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080902",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（全英教学；办学地点：广州番禺校区）",
+              "plan": 24,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "信息与计算科学（办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "密码科学与技术（图灵密码创新班；办学地点：广州番禺校区）",
+              "plan": 19,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080918TK",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 530
+        },
+        {
+          "group_code": "220",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "食品科学与工程（办学地点：广州石牌校区）",
+              "plan": 35,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082701",
+              "category": "工学"
+            },
+            {
+              "name": "生物技术（办学地点：广州石牌校区）",
+              "plan": 23,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071002",
+              "category": "理学"
+            },
+            {
+              "name": "生物科学（生物前沿领航班；办学地点：广州石牌校区）",
+              "plan": 22,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "生物医学工程（办学地点：广州石牌校区）",
+              "plan": 21,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082601",
+              "category": "工学"
+            },
+            {
+              "name": "生物科学（办学地点：广州石牌校区）",
+              "plan": 19,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "生态学（办学地点：广州石牌校区）",
+              "plan": 16,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071004",
+              "category": "理学"
+            },
+            {
+              "name": "食品营养与健康（全英教学；办学地点：广州石牌校区）",
+              "plan": 10,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "082710T",
+              "category": "工学"
+            },
+            {
+              "name": "食品科学与工程（办学地点：广州石牌校区）",
+              "plan": 35,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082701",
+              "category": "工学"
+            },
+            {
+              "name": "生物技术（办学地点：广州石牌校区）",
+              "plan": 23,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071002",
+              "category": "理学"
+            },
+            {
+              "name": "生物科学（生物前沿领航班；办学地点：广州石牌校区）",
+              "plan": 22,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "生物医学工程（办学地点：广州石牌校区）",
+              "plan": 21,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082601",
+              "category": "工学"
+            },
+            {
+              "name": "生物科学（办学地点：广州石牌校区）",
+              "plan": 19,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "生态学（办学地点：广州石牌校区）",
+              "plan": 16,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071004",
+              "category": "理学"
+            },
+            {
+              "name": "食品营养与健康（全英教学；办学地点：广州石牌校区）",
+              "plan": 10,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "082710T",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 292
+        },
+        {
+          "group_code": "215",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "金融工程（办学地点：珠海校区）",
+              "plan": 34,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（办学地点：广州番禺校区）",
+              "plan": 23,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（办学地点：广州石牌校区国际化创新班）",
+              "plan": 22,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（办学地点：广州番禺校区）",
+              "plan": 13,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（拔尖创新班；办学地点：广州番禺校区）",
+              "plan": 11,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区；国际班）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "金融学（未来金融家实验班；办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "电子商务（办学地点：深圳校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            },
+            {
+              "name": "国际经济与贸易（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "税收学（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020202",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（全英教学；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（全英教学；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "财政学（办学地点：广州番禺校区）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020201K",
+              "category": "经济学"
+            },
+            {
+              "name": "金融工程（办学地点：珠海校区）",
+              "plan": 34,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（办学地点：广州番禺校区）",
+              "plan": 23,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（办学地点：广州石牌校区国际化创新班）",
+              "plan": 22,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（办学地点：广州番禺校区）",
+              "plan": 13,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（拔尖创新班；办学地点：广州番禺校区）",
+              "plan": 11,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区；国际班）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "金融学（未来金融家实验班；办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "电子商务（办学地点：深圳校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            },
+            {
+              "name": "国际经济与贸易（办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "税收学（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020202",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（全英教学；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（全英教学；办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "财政学（办学地点：广州番禺校区）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020201K",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 362
+        },
+        {
+          "group_code": "219",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "环境科学与工程（智慧环境创新班；办学地点：广州番禺校区）",
+              "plan": 33,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082501",
+              "category": "工学"
+            },
+            {
+              "name": "材料科学与工程（办学地点：广州番禺校区）",
+              "plan": 25,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080401",
+              "category": "工学"
+            },
+            {
+              "name": "应用化学（办学地点：广州番禺校区）",
+              "plan": 22,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070302",
+              "category": "理学"
+            },
+            {
+              "name": "化学（办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "化学（院士领航化学班；办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "环境科学与工程（智慧环境创新班；办学地点：广州番禺校区）",
+              "plan": 33,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082501",
+              "category": "工学"
+            },
+            {
+              "name": "材料科学与工程（办学地点：广州番禺校区）",
+              "plan": 25,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080401",
+              "category": "工学"
+            },
+            {
+              "name": "应用化学（办学地点：广州番禺校区）",
+              "plan": 22,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070302",
+              "category": "理学"
+            },
+            {
+              "name": "化学（办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "化学（院士领航化学班；办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            }
+          ],
+          "plan_total": 240
+        },
+        {
+          "group_code": "217",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 30,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（涉外法治特色班；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "知识产权（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030102T",
+              "category": "法学"
+            },
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 30,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（办学地点：广州番禺校区）",
+              "plan": 20,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（涉外法治特色班；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "知识产权（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030102T",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 126
+        },
+        {
+          "group_code": "223",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "经济学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 30,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 30,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 30,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（与英国伯明翰大学中外合作办学项目；办学地点：广州番禺校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "plan": 30,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 120
+        },
+        {
+          "group_code": "221",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "口腔医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 25,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（校本部班；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 20,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "药学（办学地点：广州番禺校区；特征要求：不招色盲色弱）",
+              "plan": 16,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（深圳班；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 15,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "药学（办学地点：广州番禺校区；笃行精药班；特征要求：不招色盲色弱）",
+              "plan": 12,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（省二医班；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 12,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "药学（办学地点：广州番禺校区；全英教学；特征要求：不招色盲色弱）",
+              "plan": 10,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "预防医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 9,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100401K",
+              "category": "医学"
+            },
+            {
+              "name": "生物制药（办学地点：广州番禺校区；特征要求：不招色盲色弱）",
+              "plan": 8,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "083002T",
+              "category": "工学"
+            },
+            {
+              "name": "中药学（办学地点：广州番禺校区；特征要求：不招色盲色弱）",
+              "plan": 5,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100801",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（全英教学；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 16000,
+              "length": "六年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "护理学（仅招收填报有该志愿的考生，入学后不允许转专业；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "101101K",
+              "category": "医学"
+            },
+            {
+              "name": "口腔医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 25,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（校本部班；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 20,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "药学（办学地点：广州番禺校区；特征要求：不招色盲色弱）",
+              "plan": 16,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（深圳班；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 15,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "药学（办学地点：广州番禺校区；笃行精药班；特征要求：不招色盲色弱）",
+              "plan": 12,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（省二医班；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 12,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "药学（办学地点：广州番禺校区；全英教学；特征要求：不招色盲色弱）",
+              "plan": 10,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "预防医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 9,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100401K",
+              "category": "医学"
+            },
+            {
+              "name": "生物制药（办学地点：广州番禺校区；特征要求：不招色盲色弱）",
+              "plan": 8,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "083002T",
+              "category": "工学"
+            },
+            {
+              "name": "中药学（办学地点：广州番禺校区；特征要求：不招色盲色弱）",
+              "plan": 5,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100801",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（全英教学；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 16000,
+              "length": "六年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "护理学（仅招收填报有该志愿的考生，入学后不允许转专业；特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "101101K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 278
+        },
+        {
+          "group_code": "211",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "会计学（办学地点：广州番禺校区）",
+              "plan": 22,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "工业工程（办学地点：珠海校区）",
+              "plan": 18,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120701",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（数智会计创新班；办学地点：广州番禺校区）",
+              "plan": 17,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "旅游管理（办学地点：深圳校区；国际班）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（培养注册会计师人才；办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "信息管理与信息系统（办学地点：广州番禺校区）",
+              "plan": 15,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120102",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：广州番禺校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "市场营销（数智营销创新班；办学地点：广州番禺校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120202",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（全英教学；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 18000,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "应急管理（办学地点：广州石牌校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：珠海校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "行政管理（办学地点：广州石牌校区）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（办学地点：广州番禺校区）",
+              "plan": 22,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "工业工程（办学地点：珠海校区）",
+              "plan": 18,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120701",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（数智会计创新班；办学地点：广州番禺校区）",
+              "plan": 17,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "旅游管理（办学地点：深圳校区；国际班）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（培养注册会计师人才；办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "信息管理与信息系统（办学地点：广州番禺校区）",
+              "plan": 15,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120102",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：广州番禺校区）",
+              "plan": 12,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "市场营销（数智营销创新班；办学地点：广州番禺校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120202",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（全英教学；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 18000,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "应急管理（办学地点：广州石牌校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：珠海校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "行政管理（办学地点：广州石牌校区）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 306
+        },
+        {
+          "group_code": "210",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "中医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 20,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            },
+            {
+              "name": "中医学（特征要求：不招色盲色弱；办学地点：广州石牌校区）",
+              "plan": 20,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 40
+        },
+        {
+          "group_code": "212",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "网络与新媒体（办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050306T",
+              "category": "文学"
+            },
+            {
+              "name": "国际新闻与传播（全英教学；办学地点：广州番禺校区）",
+              "plan": 12,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "050309T",
+              "category": "文学"
+            },
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            },
+            {
+              "name": "广告学（办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050303",
+              "category": "文学"
+            },
+            {
+              "name": "广播电视学（视听传播创新班；办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050302",
+              "category": "文学"
+            },
+            {
+              "name": "网络与新媒体（办学地点：广州番禺校区）",
+              "plan": 16,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050306T",
+              "category": "文学"
+            },
+            {
+              "name": "国际新闻与传播（全英教学；办学地点：广州番禺校区）",
+              "plan": 12,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "050309T",
+              "category": "文学"
+            },
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            },
+            {
+              "name": "广告学（办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050303",
+              "category": "文学"
+            },
+            {
+              "name": "广播电视学（视听传播创新班；办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050302",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 112
+        },
+        {
+          "group_code": "214",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "汉语言文学（办学地点：珠海校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "历史学（炳松班；办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "汉语言文学（办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语国际教育（办学地点：广州广园东校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050103",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言（办学地点：广州广园东校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050102",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（振铎班；办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（办学地点：珠海校区）",
+              "plan": 10,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "历史学（炳松班；办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "汉语言文学（办学地点：广州石牌校区）",
+              "plan": 6,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语国际教育（办学地点：广州广园东校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050103",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言（办学地点：广州广园东校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050102",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（振铎班；办学地点：广州石牌校区）",
+              "plan": 5,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 74
+        },
+        {
+          "group_code": "213",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "英语（办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050201",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（国际班；办学地点：广州番禺校区）",
+              "plan": 6,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "翻译（办学地点：珠海校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050261",
+              "category": "文学"
+            },
+            {
+              "name": "英语（办学地点：广州番禺校区）",
+              "plan": 9,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050201",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（国际班；办学地点：广州番禺校区）",
+              "plan": 6,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "翻译（办学地点：珠海校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050261",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 50
+        },
+        {
+          "group_code": "216",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "思想政治",
+          "sg_info": "首选物理，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "国际事务与国际关系（区域国别创新班；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "国际政治（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030202",
+              "category": "法学"
+            },
+            {
+              "name": "马克思主义理论（办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            },
+            {
+              "name": "国际事务与国际关系（区域国别创新班；办学地点：广州番禺校区）",
+              "plan": 8,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "国际政治（办学地点：广州番禺校区）",
+              "plan": 7,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030202",
+              "category": "法学"
+            },
+            {
+              "name": "马克思主义理论（办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 34
+        }
+      ]
     },
     {
       "province": "河南",
       "province_id": 41,
       "regime": "3+1+2",
-      "data_quality": "aggregate_only",
+      "data_quality": "majors_from_gaokao_cn_api",
+      "_source_api": "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/41.json",
+      "_group_count": 17,
+      "_major_count": 100,
+      "_plan_total": 282,
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 607, "最低位次": null, "示例专业": null, "notes": "河南 2025 首届 3+1+2; 物理类组区间 607~638, 最低组 607" },
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 638, "最低位次": null, "示例专业": null, "notes": "物理类最高组 638(医学/王牌专业)" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 601, "最低位次": null, "示例专业": null, "notes": "历史类组区间 601~619" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 619, "最低位次": null, "示例专业": null, "notes": "历史类最高组 619" }
+        {
+          "group_code": "202",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "信息与计算科学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "信息与计算科学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            }
+          ],
+          "plan_total": 20
+        },
+        {
+          "group_code": "201",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "经济学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（办学地点：广州番禺校区；合作方：英国伯明翰大学）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 20
+        },
+        {
+          "group_code": "106",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "网络空间安全（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            },
+            {
+              "name": "电子信息工程（办学地点：广州番禺校区）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080701",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "数学与应用数学（办学地点：广州番禺校区）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "物联网工程（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "电气工程及其自动化（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（城市更新创新班）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "人工智能（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "网络空间安全（办学地点：广州番禺校区）",
+              "plan": 5,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            },
+            {
+              "name": "电子信息工程（办学地点：广州番禺校区）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080701",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "数学与应用数学（办学地点：广州番禺校区）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "物联网工程（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "电气工程及其自动化（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（城市更新创新班）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "人工智能（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 64
+        },
+        {
+          "group_code": "303",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "工业工程（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120701",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "工业工程（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120701",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 14
+        },
+        {
+          "group_code": "304",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "包装工程（国家专项）（绿色智造卓越班）（办学地点：珠海校区）（国家专项）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "工程力学（国家专项）（钱伟长创新班）（国家专项）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080102",
+              "category": "工学"
+            },
+            {
+              "name": "人工智能（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "电气工程及其自动化（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "包装工程（国家专项）（绿色智造卓越班）（办学地点：珠海校区）（国家专项）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "工程力学（国家专项）（钱伟长创新班）（国家专项）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080102",
+              "category": "工学"
+            },
+            {
+              "name": "人工智能（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "电气工程及其自动化（国家专项）（办学地点：珠海校区）（国家专项）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 22
+        },
+        {
+          "group_code": "105",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            },
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "商务英语（办学地点：深圳校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            },
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "商务英语（办学地点：深圳校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 14
+        },
+        {
+          "group_code": "107",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "食品科学与工程",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082701",
+              "category": "工学"
+            },
+            {
+              "name": "生物医学工程",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082601",
+              "category": "工学"
+            },
+            {
+              "name": "化学（院士领航化学班）（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "应用化学（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070302",
+              "category": "理学"
+            },
+            {
+              "name": "生物制药（办学地点：广州番禺校区；不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "083002T",
+              "category": "工学"
+            },
+            {
+              "name": "药学（全英语教学）（办学地点：广州番禺校区；不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "生物科学（生物前沿领航班）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "环境科学与工程（智慧环境创新班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082501",
+              "category": "工学"
+            },
+            {
+              "name": "食品科学与工程",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082701",
+              "category": "工学"
+            },
+            {
+              "name": "生物医学工程",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082601",
+              "category": "工学"
+            },
+            {
+              "name": "化学（院士领航化学班）（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "应用化学（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070302",
+              "category": "理学"
+            },
+            {
+              "name": "生物制药（办学地点：广州番禺校区；不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "083002T",
+              "category": "工学"
+            },
+            {
+              "name": "药学（全英语教学）（办学地点：广州番禺校区；不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "生物科学（生物前沿领航班）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "环境科学与工程（智慧环境创新班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082501",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 38
+        },
+        {
+          "group_code": "104",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国际班",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "旅游管理（国际班）（办学地点：深圳校区）（国际班）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "旅游管理（国际班）（办学地点：深圳校区）（国际班）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 6
+        },
+        {
+          "group_code": "104",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "经济学（拔尖创新班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（未来金融家实验班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "会计学（注册会计师）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "应急管理",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            },
+            {
+              "name": "经济学（拔尖创新班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "金融学（未来金融家实验班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "会计学（注册会计师）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "应急管理",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 20
+        },
+        {
+          "group_code": "108",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "临床医学（省二医班）（不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（省二医班）（不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "302",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "思想政治",
+          "sg_info": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "马克思主义理论（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            },
+            {
+              "name": "马克思主义理论（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "301",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "电子商务（办学地点：深圳校区）（国家专项计划）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：珠海校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "汉语言文学（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "电子商务（办学地点：深圳校区）（国家专项计划）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            },
+            {
+              "name": "工商管理（办学地点：珠海校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "汉语言文学（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 16
+        },
+        {
+          "group_code": "103",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "历史学（炳松班）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "法学（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "历史学（炳松班）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "国际商务（办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 14
+        },
+        {
+          "group_code": "101",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "行政管理",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "酒店管理（办学地点：深圳校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120902",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（注册会计师）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "行政管理",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "酒店管理（办学地点：深圳校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120902",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（注册会计师）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 14
+        },
+        {
+          "group_code": "102",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "思想政治",
+          "sg_info": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "国际事务与国际关系（区域国别创新班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "国际事务与国际关系（区域国别创新班）（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "109",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "中医学（不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            },
+            {
+              "name": "中医学（不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "501",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "戏剧影视文学",
+              "plan": 2,
+              "tuition": 10000,
+              "length": "四年",
+              "spcode": "130304",
+              "category": "艺术学"
+            },
+            {
+              "name": "戏剧影视文学",
+              "plan": 2,
+              "tuition": 10000,
+              "length": "四年",
+              "spcode": "130304",
+              "category": "艺术学"
+            }
+          ],
+          "plan_total": 4
+        }
       ]
     },
     {
       "province": "江苏",
       "province_id": 32,
       "regime": "3+1+2",
-      "data_quality": "aggregate_only",
+      "data_quality": "majors_from_gaokao_cn_api",
+      "_source_api": "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/32.json",
+      "_group_count": 5,
+      "_major_count": 54,
+      "_plan_total": 138,
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "JNU 在苏通常分 6-8 组(化学必选 / 化生组 / 不限 / 政治组); 2024 物理 588 历史 589 为参考, 2025 公开聚合源未单列江苏" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "待补 江苏省 2025 投档情况表" }
+        {
+          "group_code": "01",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "英语（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050201",
+              "category": "文学"
+            },
+            {
+              "name": "日语（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050207",
+              "category": "文学"
+            },
+            {
+              "name": "法学（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "历史学（炳松班）（广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "广告学（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050303",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（国际班）（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（振铎班）（广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "英语（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050201",
+              "category": "文学"
+            },
+            {
+              "name": "日语（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050207",
+              "category": "文学"
+            },
+            {
+              "name": "法学（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "历史学（炳松班）（广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "广告学（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050303",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（国际班）（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（振铎班）（广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 32
+        },
+        {
+          "group_code": "05",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "口腔医学（广州石牌校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（深圳班）（第一至三学年在广州石牌校区学习，第四学年起在深圳学习）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "口腔医学（广州石牌校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（深圳班）（第一至三学年在广州石牌校区学习，第四学年起在深圳学习）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 8
+        },
+        {
+          "group_code": "03",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "光电信息科学与工程（在广州石牌校区学习）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "包装工程（绿色智造卓越班）（珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "物联网工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "食品科学与工程（在广州石牌校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082701",
+              "category": "工学"
+            },
+            {
+              "name": "化学（院士领航化学班）（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "生物科学（生物前沿领航班）（在广州石牌校区学习）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "人工智能（珠海校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（在广州石牌校区学习）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "包装工程（绿色智造卓越班）（珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "物联网工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "食品科学与工程（在广州石牌校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082701",
+              "category": "工学"
+            },
+            {
+              "name": "化学（院士领航化学班）（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "生物科学（生物前沿领航班）（在广州石牌校区学习）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "人工智能（珠海校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 40
+        },
+        {
+          "group_code": "04",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "应用物理学（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070202",
+              "category": "理学"
+            },
+            {
+              "name": "信息与计算科学（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "计算机科学与技术（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "密码科学与技术（图灵密码创新班）（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080918TK",
+              "category": "工学"
+            },
+            {
+              "name": "应用物理学（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070202",
+              "category": "理学"
+            },
+            {
+              "name": "信息与计算科学（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "计算机科学与技术（在广州番禺校区学习）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "密码科学与技术（图灵密码创新班）（在广州番禺校区学习）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080918TK",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 22
+        },
+        {
+          "group_code": "02",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "工商管理（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "旅游管理（深圳校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "应急管理（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            },
+            {
+              "name": "国际商务（国际班）（珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（注册会计师）（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "国际新闻与传播（广州番禺校区）（全英语教学）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "050309T",
+              "category": "文学"
+            },
+            {
+              "name": "工商管理（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "旅游管理（深圳校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "应急管理（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            },
+            {
+              "name": "国际商务（国际班）（珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（注册会计师）（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "国际新闻与传播（广州番禺校区）（全英语教学）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "050309T",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 36
+        }
       ]
     },
     {
       "province": "湖北",
       "province_id": 42,
       "regime": "3+1+2",
-      "data_quality": "aggregate_only",
+      "data_quality": "majors_from_gaokao_cn_api",
+      "_source_api": "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/42.json",
+      "_group_count": 14,
+      "_major_count": 66,
+      "_plan_total": 162,
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 600, "最低位次": null, "示例专业": null, "notes": "湖北 2025 JNU 物理类组区间约 600~622" },
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 622, "最低位次": null, "示例专业": null, "notes": "物理类最高组 622" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "历史类组代码与投档分待补湖北省考试院" }
+        {
+          "group_code": "11",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "信息与计算科学（中外合作办学）（办学地点：广州番禺校区）（中外合作）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（办学地点：广州番禺校区）（中外合作）",
+              "plan": 2,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "信息与计算科学（中外合作办学）（办学地点：广州番禺校区）（中外合作）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（办学地点：广州番禺校区）（中外合作）",
+              "plan": 2,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            }
+          ],
+          "plan_total": 10
+        },
+        {
+          "group_code": "13",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "电子信息工程（办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080701",
+              "category": "工学"
+            },
+            {
+              "name": "应用物理学（办学地点：广州石牌校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070202",
+              "category": "理学"
+            },
+            {
+              "name": "材料科学与工程（办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080401",
+              "category": "工学"
+            },
+            {
+              "name": "生物制药（不招收色盲色弱考生；办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "083002T",
+              "category": "工学"
+            },
+            {
+              "name": "电子信息工程（办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080701",
+              "category": "工学"
+            },
+            {
+              "name": "应用物理学（办学地点：广州石牌校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070202",
+              "category": "理学"
+            },
+            {
+              "name": "材料科学与工程（办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080401",
+              "category": "工学"
+            },
+            {
+              "name": "生物制药（不招收色盲色弱考生；办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "083002T",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 22
+        },
+        {
+          "group_code": "08",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "应用化学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070302",
+              "category": "理学"
+            },
+            {
+              "name": "生物技术（办学地点：广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071002",
+              "category": "理学"
+            },
+            {
+              "name": "中药学（不招收色盲色弱考生；办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100801",
+              "category": "医学"
+            },
+            {
+              "name": "应用化学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070302",
+              "category": "理学"
+            },
+            {
+              "name": "生物技术（办学地点：广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071002",
+              "category": "理学"
+            },
+            {
+              "name": "中药学（不招收色盲色弱考生；办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100801",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 18
+        },
+        {
+          "group_code": "07",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "电气工程及其自动化（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "包装工程（绿色智造卓越班；办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（城市更新创新班；办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "网络空间安全（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            },
+            {
+              "name": "电气工程及其自动化（办学地点：珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "包装工程（绿色智造卓越班；办学地点：珠海校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "土木工程（城市更新创新班；办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "网络空间安全（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 28
+        },
+        {
+          "group_code": "10",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "经济统计学（中外合作办学）（办学地点：广州番禺校区）（中外合作）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（中外合作办学）（办学地点：厂州番禺校区）（中外合作）",
+              "plan": 2,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（办学地点：广州番禺校区）（中外合作）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（中外合作办学）（办学地点：厂州番禺校区）（中外合作）",
+              "plan": 2,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 10
+        },
+        {
+          "group_code": "06",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "法学（涉外法治特色班；办学地点：厂州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "法学（涉外法治特色班；办学地点：厂州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "12",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "电子商务（办学地点：深圳校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            },
+            {
+              "name": "电子商务（办学地点：深圳校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "09",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "临床医学（深圳班；不招收色盲色弱考生；办学地点：广州石牌校区；学制：五年）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（深圳班；不招收色盲色弱考生；办学地点：广州石牌校区；学制：五年）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100201K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "04",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "思想政治",
+          "sg_info": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "国际事务与国际关系（区域国别创新班；办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "国际政治（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030202",
+              "category": "法学"
+            },
+            {
+              "name": "国际事务与国际关系（区域国别创新班；办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "国际政治（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030202",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 8
+        },
+        {
+          "group_code": "02",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "知识产权（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030102T",
+              "category": "法学"
+            },
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            },
+            {
+              "name": "知识产权（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030102T",
+              "category": "法学"
+            },
+            {
+              "name": "新闻学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050301",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 12
+        },
+        {
+          "group_code": "01",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "会计学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "行政管理（办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "金融学（未来金融家实验班；办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "会计学（办学地点：广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "行政管理（办学地点：广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "金融学（未来金融家实验班；办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "国际经济与贸易（办学地点：广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 18
+        },
+        {
+          "group_code": "05",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "汉语言文学（办学地点：珠海校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "西班牙语（办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050205",
+              "category": "文学"
+            },
+            {
+              "name": "翻译（办学地点：珠海校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050261",
+              "category": "文学"
+            },
+            {
+              "name": "汉语言文学（办学地点：珠海校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "西班牙语（办学地点：广州番禺校区）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050205",
+              "category": "文学"
+            },
+            {
+              "name": "翻译（办学地点：珠海校区）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050261",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 16
+        },
+        {
+          "group_code": "03",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "中医学（不招收色盲色弱考生；办学地点：广州石牌校区；学制：五年）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            },
+            {
+              "name": "中医学（不招收色盲色弱考生；办学地点：广州石牌校区；学制：五年）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100501K",
+              "category": "医学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "01",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "国际班",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "国际商务（国际班；办学地点：珠海校区）（国际班）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "国际商务（国际班；办学地点：珠海校区）（国际班）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 4
+        }
       ]
     },
     {
       "province": "福建",
       "province_id": 35,
       "regime": "3+1+2",
-      "data_quality": "aggregate_only",
+      "data_quality": "majors_from_gaokao_cn_api",
+      "_source_api": "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/35.json",
+      "_group_count": 6,
+      "_major_count": 54,
+      "_plan_total": 158,
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 596, "最低位次": null, "示例专业": null, "notes": "福建 2025 物理类组区间 596~599" },
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 599, "最低位次": null, "示例专业": null, "notes": "物理类最高组 599" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 600, "最低位次": null, "示例专业": null, "notes": "历史类约 600" }
+        {
+          "group_code": "700",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "思想政治",
+          "sg_info": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "马克思主义理论（广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            },
+            {
+              "name": "马克思主义理论（广州石牌校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            }
+          ],
+          "plan_total": 4
+        },
+        {
+          "group_code": "999",
+          "track": "历史类",
+          "首选": "历史",
+          "再选": "不限",
+          "sg_info": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "汉语国际教育（广州广园东校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050103",
+              "category": "文学"
+            },
+            {
+              "name": "日语（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050207",
+              "category": "文学"
+            },
+            {
+              "name": "西班牙语（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050205",
+              "category": "文学"
+            },
+            {
+              "name": "法学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "金融学（全英语教学）（广州番禺校区）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "会计学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "汉语言文学（珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "汉语国际教育（广州广园东校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050103",
+              "category": "文学"
+            },
+            {
+              "name": "日语（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050207",
+              "category": "文学"
+            },
+            {
+              "name": "西班牙语（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050205",
+              "category": "文学"
+            },
+            {
+              "name": "法学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "金融学（全英语教学）（广州番禺校区）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "会计学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "汉语言文学（珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 34
+        },
+        {
+          "group_code": "500",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "数学与应用数学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "信息与计算科学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 4,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "信息与计算科学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 4,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            }
+          ],
+          "plan_total": 18
+        },
+        {
+          "group_code": "999",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "经济学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 4,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（广州番禺校区）（中外合作）",
+              "plan": 4,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 18
+        },
+        {
+          "group_code": "500",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "化学",
+          "sg_info": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "自动化（珠海校区）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080801",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "药学（广州番禺校区；不招收色盲、色弱考生）",
+              "plan": 3,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "生态学（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071004",
+              "category": "理学"
+            },
+            {
+              "name": "口腔医学（广州石牌校区；不招收色盲、色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（全英语教学）（广州石牌校区；不招收色盲、色弱考生）",
+              "plan": 2,
+              "tuition": 16000,
+              "length": "六年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "食品营养与健康（全英语教学）（广州石牌校区）",
+              "plan": 2,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "082710T",
+              "category": "工学"
+            },
+            {
+              "name": "自动化（珠海校区）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080801",
+              "category": "工学"
+            },
+            {
+              "name": "光电信息科学与工程（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "药学（广州番禺校区；不招收色盲、色弱考生）",
+              "plan": 3,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "生态学（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071004",
+              "category": "理学"
+            },
+            {
+              "name": "口腔医学（广州石牌校区；不招收色盲、色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "临床医学（全英语教学）（广州石牌校区；不招收色盲、色弱考生）",
+              "plan": 2,
+              "tuition": 16000,
+              "length": "六年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "食品营养与健康（全英语教学）（广州石牌校区）",
+              "plan": 2,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "082710T",
+              "category": "工学"
+            }
+          ],
+          "plan_total": 38
+        },
+        {
+          "group_code": "999",
+          "track": "物理类",
+          "首选": "物理",
+          "再选": "不限",
+          "sg_info": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "经济学（国际化创新班）（广州石牌校区）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "网络与新媒体（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050306T",
+              "category": "文学"
+            },
+            {
+              "name": "行政管理（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "经济统计学（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "旅游管理（深圳校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "财政学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020201K",
+              "category": "经济学"
+            },
+            {
+              "name": "会计学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "经济学（国际化创新班）（广州石牌校区）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "网络与新媒体（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050306T",
+              "category": "文学"
+            },
+            {
+              "name": "行政管理（广州石牌校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120402",
+              "category": "管理学"
+            },
+            {
+              "name": "经济统计学（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "旅游管理（深圳校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "金融工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "财政学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020201K",
+              "category": "经济学"
+            },
+            {
+              "name": "会计学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 46
+        }
       ]
     },
     {
       "province": "山东",
       "province_id": 37,
       "regime": "3+3",
-      "data_quality": "aggregate_only",
+      "data_quality": "majors_from_gaokao_cn_api",
+      "_source_api": "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/37.json",
+      "_group_count": 2,
+      "_major_count": 41,
+      "_plan_total": 114,
       "groups": [
-        { "group_code": "115", "track": "综合改革", "首选": null, "再选": null, "投档分": 622, "最低位次": null, "示例专业": null, "notes": "山东 3+3 模式下用「学校+专业(组)」; JNU 115 组最低 622 (主流组)" },
-        { "group_code": "502", "track": "综合改革", "首选": null, "再选": null, "投档分": 574, "最低位次": null, "示例专业": ["中外合作办学项目"], "notes": "中外合作组 502 最低 574; 2025 山东 JNU 各组区间 574~622" }
+        {
+          "group_code": null,
+          "track": "综合改革",
+          "首选": null,
+          "再选": null,
+          "sg_info": null,
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "经济学（中外合作办学）（与英国伯明翰大学合作；广州番禺校区）（中外合作办学）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "信息与计算科学（中外合作办学）（与英国伯明翰大学合作；广州番禺校区）（中外合作办学）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（与英国伯明翰大学合作；广州番禺校区）（中外合作办学）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（与英国伯明翰大学合作；广州番禺校区）（中外合作办学）",
+              "plan": 5,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            }
+          ],
+          "plan_total": 20
+        },
+        {
+          "group_code": null,
+          "track": "综合改革",
+          "首选": null,
+          "再选": null,
+          "sg_info": null,
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "生物科学",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071001",
+              "category": "理学"
+            },
+            {
+              "name": "网络空间安全",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            },
+            {
+              "name": "人工智能（珠海校区）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "工业工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120701",
+              "category": "管理学"
+            },
+            {
+              "name": "电子信息工程（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080701",
+              "category": "工学"
+            },
+            {
+              "name": "软件工程（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080902",
+              "category": "工学"
+            },
+            {
+              "name": "法学（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "信息管理与信息系统（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "120102",
+              "category": "管理学"
+            },
+            {
+              "name": "电气工程及其自动化（珠海校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080601",
+              "category": "工学"
+            },
+            {
+              "name": "戏剧影视文学",
+              "plan": 3,
+              "tuition": 10000,
+              "length": "四年",
+              "spcode": "130304",
+              "category": "艺术学"
+            },
+            {
+              "name": "网络与新媒体（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050306T",
+              "category": "文学"
+            },
+            {
+              "name": "经济学（国际化创新班）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "药学（全英语教学）（不招色盲、色弱考生；广州番禺校区）",
+              "plan": 3,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "100701",
+              "category": "医学"
+            },
+            {
+              "name": "国际政治（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030202",
+              "category": "法学"
+            },
+            {
+              "name": "数学与应用数学（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "密码科学与技术（图灵密码创新班）（广州番禺校区）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080918TK",
+              "category": "工学"
+            },
+            {
+              "name": "金融工程（珠海校区）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            },
+            {
+              "name": "汉语国际教育（广州广园东校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050103",
+              "category": "文学"
+            },
+            {
+              "name": "物联网工程（珠海校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "工商管理（珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "国际事务与国际关系（区域国别创新班）（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030204T",
+              "category": "法学"
+            },
+            {
+              "name": "知识产权（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030102T",
+              "category": "法学"
+            },
+            {
+              "name": "口腔医学（不招色盲、色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "英语（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050201",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（国际班）（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（深圳校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "文化产业管理（珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120210",
+              "category": "管理学"
+            },
+            {
+              "name": "财政学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020201K",
+              "category": "经济学"
+            },
+            {
+              "name": "国际商务（国际班）（珠海校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "中药学（不招色盲、色弱考生；广州番禺校区）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100801",
+              "category": "医学"
+            },
+            {
+              "name": "翻译（珠海校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050261",
+              "category": "文学"
+            },
+            {
+              "name": "电子商务（深圳校区）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            },
+            {
+              "name": "国际经济与贸易（全英语教学）（广州番禺校区）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "临床医学（全英语教学）（不招色盲、色弱考生）代号院校、专业（类）（名称及备注）",
+              "plan": 2,
+              "tuition": 16000,
+              "length": "六年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "汉语言文学",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "化学（广州番禺校区）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "应急管理",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            }
+          ],
+          "plan_total": 94
+        }
       ]
     },
     {
       "province": "河北",
       "province_id": 13,
       "regime": "3+1+2",
-      "data_quality": "verified_aggregate",
+      "data_quality": "majors_from_gaokao_cn_api",
+      "_source_api": "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/106/2025/13.json",
+      "_group_count": 2,
+      "_major_count": 46,
+      "_plan_total": 122,
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 595, "最低位次": 30996, "示例专业": null, "notes": "河北本科批 物理类最低 595 / 位次 30996" },
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 605, "最低位次": 23383, "示例专业": null, "notes": "本科提前批 B 段 物理 605 / 位次 23383" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 615, "最低位次": 3215, "示例专业": null, "notes": "河北本科批 历史类最低 615 / 位次 3215" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 617, "最低位次": 2906, "示例专业": null, "notes": "本科提前批 B 段 历史 617 / 位次 2906" }
+        {
+          "group_code": null,
+          "track": "综合改革",
+          "首选": null,
+          "再选": null,
+          "sg_info": null,
+          "batch": "本科批",
+          "zslx": "普通类",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "包装工程（绿色智造卓越班）（在珠海校区就读）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081702",
+              "category": "工学"
+            },
+            {
+              "name": "工程力学（钱伟长创新班）（在广州石牌校区就读）",
+              "plan": 4,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080102",
+              "category": "工学"
+            },
+            {
+              "name": "物联网工程（在珠海校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080905",
+              "category": "工学"
+            },
+            {
+              "name": "应用物理学（在广州石牌校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070202",
+              "category": "理学"
+            },
+            {
+              "name": "应用化学（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070302",
+              "category": "理学"
+            },
+            {
+              "name": "自动化（在珠海校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080801",
+              "category": "工学"
+            },
+            {
+              "name": "经济学（中外合作办学）（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "信息与计算科学（中外合作办学）（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070102",
+              "category": "理学"
+            },
+            {
+              "name": "经济统计学（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "经济统计学（中外合作办学）（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "020102",
+              "category": "经济学"
+            },
+            {
+              "name": "光电信息科学与工程（在广州石牌校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "计算机科学与技术（全英语教学）（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 14000,
+              "length": "四年",
+              "spcode": "080901",
+              "category": "工学"
+            },
+            {
+              "name": "数学与应用数学（中外合作办学）（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 100000,
+              "length": "四年",
+              "spcode": "070101",
+              "category": "理学"
+            },
+            {
+              "name": "生物医学工程（在广州石牌校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082601",
+              "category": "工学"
+            },
+            {
+              "name": "生态学（在广州石牌校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "071004",
+              "category": "理学"
+            },
+            {
+              "name": "电子商务（在深圳校区就读）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120801",
+              "category": "管理学"
+            },
+            {
+              "name": "网络空间安全（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080911TK",
+              "category": "工学"
+            },
+            {
+              "name": "应急管理（在广州石牌校区就读）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120111T",
+              "category": "管理学"
+            },
+            {
+              "name": "环境科学与工程（智慧环境创新班）（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "082501",
+              "category": "工学"
+            },
+            {
+              "name": "口腔医学（在广州石牌校区就读；不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "五年",
+              "spcode": "100301K",
+              "category": "医学"
+            },
+            {
+              "name": "土木工程（城市更新创新班）（在广州石牌校区就读）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "081001",
+              "category": "工学"
+            },
+            {
+              "name": "金融学（全英语教学）（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020301K",
+              "category": "经济学"
+            },
+            {
+              "name": "中药学（在广州番禺校区就读；不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 7660,
+              "length": "四年",
+              "spcode": "100801",
+              "category": "医学"
+            },
+            {
+              "name": "电子科学与技术（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080702",
+              "category": "工学"
+            },
+            {
+              "name": "国际经济与贸易（全英语教学）（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "020401",
+              "category": "经济学"
+            },
+            {
+              "name": "临床医学（全英语教学）（在广州石牌校区就读；不招收色盲色弱考生）",
+              "plan": 2,
+              "tuition": 16000,
+              "length": "六年",
+              "spcode": "100201K",
+              "category": "医学"
+            },
+            {
+              "name": "人工智能（在珠海校区就读）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080717T",
+              "category": "工学"
+            },
+            {
+              "name": "化学（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "070301",
+              "category": "理学"
+            },
+            {
+              "name": "汉语言文学（在珠海校区就读）",
+              "plan": 4,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "工商管理（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120201K",
+              "category": "管理学"
+            },
+            {
+              "name": "法学（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030101K",
+              "category": "法学"
+            },
+            {
+              "name": "国际商务（在珠海校区就读）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "法语（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050204",
+              "category": "文学"
+            },
+            {
+              "name": "日语（在广州番禺校区就读）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050207",
+              "category": "文学"
+            },
+            {
+              "name": "历史学（炳松班）（在广州石牌校区就读）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "060101",
+              "category": "历史学"
+            },
+            {
+              "name": "广告学（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050303",
+              "category": "文学"
+            },
+            {
+              "name": "商务英语（在深圳校区就读）",
+              "plan": 2,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "050262",
+              "category": "文学"
+            },
+            {
+              "name": "经济学（拔尖创新班）（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020101",
+              "category": "经济学"
+            },
+            {
+              "name": "国际商务（国际班）（在珠海校区就读）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120205",
+              "category": "管理学"
+            },
+            {
+              "name": "旅游管理（在深圳校区就读）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120901K",
+              "category": "管理学"
+            },
+            {
+              "name": "会计学（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "120203K",
+              "category": "管理学"
+            },
+            {
+              "name": "国际新闻与传播（全英语教学）（在广州番禺校区就读）",
+              "plan": 2,
+              "tuition": 12000,
+              "length": "四年",
+              "spcode": "050309T",
+              "category": "文学"
+            }
+          ],
+          "plan_total": 112
+        },
+        {
+          "group_code": null,
+          "track": "综合改革",
+          "首选": null,
+          "再选": null,
+          "sg_info": null,
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "投档分": null,
+          "最低位次": null,
+          "majors": [
+            {
+              "name": "汉语言文学（国家专项计划）（在珠海校区就读）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "050101",
+              "category": "文学"
+            },
+            {
+              "name": "马克思主义理论（国家专项计划）（在广州石牌校区就读）（国家专项计划）",
+              "plan": 2,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "030504T",
+              "category": "法学"
+            },
+            {
+              "name": "光电信息科学与工程（国家专项计划）（在广州石牌校区就读）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6850,
+              "length": "四年",
+              "spcode": "080705",
+              "category": "工学"
+            },
+            {
+              "name": "金融工程（国家专项计划）（在珠海校区就读）（国家专项计划）",
+              "plan": 3,
+              "tuition": 6060,
+              "length": "四年",
+              "spcode": "020302",
+              "category": "经济学"
+            }
+          ],
+          "plan_total": 10
+        }
       ]
     }
   ]

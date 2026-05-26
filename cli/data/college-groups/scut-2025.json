@@ -1,108 +1,3504 @@
 {
-  "_kind": "Per-university × per-province 院校专业组 (college-major groups) for 2025 投档",
-  "_year": 2025,
+  "_kind": "华南理工大学 2025 院校专业组招生计划",
   "_university": "华南理工大学",
-  "_university_code": "1572",
-  "_zs_code_note": "1572 is the user-supplied provincial 招生院校代码; verify per province. SCUT 国标代码=10561. Jiangsu uses 5402 in the 2025 投档线 PDF (江苏省教育考试院).",
-  "_sources": [
-    "https://admission.scut.edu.cn/",
-    "https://admission.scut.edu.cn/30821/list.htm",
-    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-5302461102655621.pdf",
-    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf",
-    "https://www.jseea.cn/webfile/index/index_zkxx/2025-07-18/7351781448019349504.html",
-    "https://www.6617.com/p_163810984431.html",
-    "https://gz.bendibao.com/edu/2025723/edu360875.shtml",
-    "https://www.gk100.com/read_64183.htm",
-    "https://www.zizzs.com/gk/gaokao/216363.html",
-    "https://www.gaokao.cn/school/105/provinceline",
-    "https://www.eol.cn/e_html/gk/gktoudang/index.shtml"
+  "_code_enroll": "1572",
+  "_code_enroll_guobiao": "10561",
+  "_school_id_eolcn": 105,
+  "_year": 2025,
+  "_provinces_covered": [
+    "河南",
+    "江苏",
+    "广东",
+    "湖北",
+    "福建",
+    "山东",
+    "河北"
   ],
-  "_data_quality": "jiangsu=verified group-level from jseea.cn PDF; guangdong=partial group-level (212,215,211 known); henan/hubei/fujian/shandong/hebei=aggregate min scores from secondary aggregators. Hebei has per-major data (no traditional group concept under 96 平行志愿).",
-  "_collected_at": "2026-05-25",
-  "university": {
-    "name": "华南理工大学",
-    "code": "1572",
-    "moe_zs_code": "10561",
-    "city": "广州",
-    "tags": ["985", "211", "双一流", "教育部直属", "建筑老八校", "四大工学院"]
-  },
+  "_sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/105/2025/{41,32,44,42,35,37,13}.json (eol.cn 静态接口, 2025 招生计划)",
+    "https://static-data.gaokao.cn/www/2.0/school/105/info.json (province_score_min — 2025 投档最低分)",
+    "https://admission.scut.edu.cn (华南理工大学本科招生网)",
+    "https://www.gaokao.cn/school/105 (中国教育在线 院校页)"
+  ],
+  "_notes": [
+    "1572 为华南理工大学在多数省份的招生代号; 国标码 10561; eol.cn school_id=105。",
+    "山东 (37) 为 3+3 综合改革 (type=3, track=综合改革); 河北 (13) 与其余 5 省为 3+1+2 新高考, 按物理类(2073)/历史类(2074) 双轨投档。",
+    "新高考省份按官方公布的院校专业组(三位组号或带后缀)划分,每组含选科要求 + 一组本科专业, 投档单位为组。",
+    "山东与河北在 eol.cn 数据中 special_group=0, 按 (batch+zslx+track) 拆为合成组, group_code 以 `<pid>_<type>_<zslx>_<batch>` 形式编码以保证唯一。",
+    "去重策略: 当 eol.cn 同时给出 special_group='0' 聚合记录和分组记录时, 保留分组记录, 防止专业被重复计入 (同 (type,zslx,batch) 维度)。",
+    "min_admission_2025 来自 info.json province_score_min, 对应该省该 track 的投档最低分(主投档组); 分组明细投档线请以省考试院公告为准。",
+    "华南理工大学为教育部直属'985/211/双一流'高校,建筑老八校与四大工学院之一; 本表含普通类/中外合作/国家专项/高校专项等分组(以省/年度计划为准)。",
+    "majors[].name 为专业名(sp_name), plan 为该专业在该组内的招生计划数; note 字段保留办学地点、包含专业、单科要求等关键备注; category 为专业大类 (level3_name)。"
+  ],
+  "_extracted_at": "2026-05-26",
   "provinces": [
     {
-      "province": "广东",
-      "province_id": 44,
-      "regime": "3+1+2",
-      "data_quality": "partial_group",
-      "groups": [
-        { "group_code": "211", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 615, "最低位次": null, "示例专业": ["工商管理类", "会计学", "行政管理", "商务英语", "新闻传播学类"], "tuition": null, "notes": "历史类最低组" },
-        { "group_code": "212", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 640, "最低位次": 6278, "示例专业": ["工科试验班(国豪/创新班)"], "tuition": null, "notes": "物理类最高组" },
-        { "group_code": "215", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 622, "最低位次": null, "示例专业": ["工科试验班", "建筑类", "城乡规划", "自动化", "数学类"], "tuition": null, "notes": "物理类最低组; 全省 2025 共录 3516 人(物理 2793/历史 220 + 其他批次)" }
-      ]
-    },
-    {
-      "province": "江苏",
-      "province_id": 32,
-      "regime": "3+1+2",
-      "data_quality": "verified",
-      "groups": [
-        { "group_code": "5402-01", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 624, "最低位次": null, "示例专业": null, "tuition": null, "notes": "江苏 jseea 2025 历史类本科批投档线 PDF" },
-        { "group_code": "5402-03", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 648, "最低位次": null, "示例专业": null, "tuition": null },
-        { "group_code": "5402-04", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 644, "最低位次": null, "示例专业": null, "tuition": null, "notes": "本校物理类最低组" },
-        { "group_code": "5402-05", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 652, "最低位次": null, "示例专业": null, "tuition": null, "notes": "本校物理类最高组" },
-        { "group_code": "5402-06", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 649, "最低位次": null, "示例专业": null, "tuition": null }
-      ]
-    },
-    {
-      "province": "河南",
+      "province": "henan",
+      "province_cn": "河南",
       "province_id": 41,
-      "regime": "3+1+2",
-      "data_quality": "aggregate_only",
+      "regime": "新高考3+1+2",
+      "uses_college_groups": true,
+      "group_count": 10,
+      "total_plan": 188,
+      "plan_by_track": {
+        "物理类": 165,
+        "历史类": 23
+      },
+      "min_admission_2025": {
+        "物理类": 644
+      },
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 662, "最低位次": null, "示例专业": null, "notes": "河南 2025 首届 3+1+2; SCUT 物理类最低 662 (聚合源); 组代码需查《河南省 2025 普通高校招生计划》" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "公开聚合源未给出具体分; 历史类建议 4000 名以内" }
+        {
+          "group_code": "101",
+          "special_group_id": "368657",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（101）",
+          "total_plan": 13,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（卓越人才班）（包含专业：电气工程及其自动化（卓越班）、能源与动力工程（低碳与智慧能源卓越班）软件工程（卓越班）、软件工程（工业软件卓越班）、电子科学与技术（卓越班）食品科学与工程（未来食品卓越班）；软件工程专业第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI先进技术拔尖班）（包含专业：计算机科学与技术（拔尖基地班）、信息工程（拔尖班）、自动化（拔尖班））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（院士特色班）（包含专业：机械类（院士特色班）材料类（院士特色班）、建筑类（院士特色班）、智能建造（院士特色班））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（理工交叉创新班）（包含专业：应用化学（拔尖基地班）、应用物理学（严济慈英才班）、工程力学（创新班））"
+            }
+          ]
+        },
+        {
+          "group_code": "102",
+          "special_group_id": "368656",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（102）",
+          "total_plan": 41,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 9,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造）（包含专业：机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程）"
+            },
+            {
+              "spcode": "0806",
+              "name": "电气类",
+              "plan": 7,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电气类",
+              "note": "（包含专业：电气工程及其自动化、能源与动力工程；不招单色识别不全者）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料）（包含专业：高分子材料与工程、材料科学与工程、功能材料、生物材料；不招色盲考生）"
+            },
+            {
+              "spcode": "080706",
+              "name": "信息工程",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（包含专业：计算机科学与技术、网络工程、信息安全）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程）（包含专业：应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程；不招色盲考生）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "082802",
+              "name": "城乡规划",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（双学士学位复合型人才培养项目）（“城乡规划+大数据管理与应用”双学士学位复合型人才培养项目）"
+            }
+          ]
+        },
+        {
+          "group_code": "103",
+          "special_group_id": "368655",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（103）",
+          "total_plan": 28,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造）（包含专业：智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": "（双学士学位复合型人才培养项目）（“自动化+工商管理”双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "物理学类",
+              "note": "（包含专业：应用物理学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程）（包含专业：食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术；不招色盲考生）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "数学类",
+              "note": "（包含专业：数学与应用数学、信息与计算科学、统计学）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI与低空技术）（包含专业：智能科学与技术、低空技术与工程）"
+            }
+          ]
+        },
+        {
+          "group_code": "104",
+          "special_group_id": "368654",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "sg_name": "（104）",
+          "total_plan": 5,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "管理科学与工程类",
+              "note": ""
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "group_code": "201",
+          "special_group_id": "368653",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（201）",
+          "total_plan": 5,
+          "majors": [
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "68000",
+              "category": "机械类",
+              "note": "（中外合作办学）（合作方：日本千叶大学；不招色盲考生。“4+0”培养模式，具体培养模式和学习费用请查看学校网站。非英语、日语语种考生谨慎报考。入学后不可转专业）"
+            }
+          ]
+        },
+        {
+          "group_code": "301",
+          "special_group_id": "368675",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（301）",
+          "total_plan": 34,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 10,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项）（智慧化工与低碳工程）（包含专业：应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程；不招色盲考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项）（生命科学与健康工程）（包含专业：食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术；不招色盲考生）"
+            },
+            {
+              "spcode": "081901",
+              "name": "船舶与海洋工程",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "海洋工程类",
+              "note": "（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项）（先进材料）（包含专业：高分子材料与工程、材料科学与工程、功能材料、生物材料；不招色盲考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项）（智能装备与先进制造）（包含专业：机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（国家专项）（包含专业：建筑学、城乡规划、风景园林；其中建筑学专业学制5年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项）（智能交通与数字建造）（包含专业：智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7660",
+              "category": "临床医学类",
+              "note": "（国家专项）（包含专业：临床医学、医学影像学；不招色盲、色弱考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "302",
+          "special_group_id": "368674",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "sg_name": "（302）",
+          "total_plan": 16,
+          "majors": [
+            {
+              "spcode": "050262",
+              "name": "商务英语",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "外国语言文学类",
+              "note": "（国家专项）"
+            },
+            {
+              "spcode": "120901K",
+              "name": "旅游管理",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "旅游管理类",
+              "note": "（国家专项）（双学士学位复合型人才培养项目）（“旅游管理+计算机科学与技术”双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "公共管理类",
+              "note": "（国家专项）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "管理科学与工程类",
+              "note": "（国家专项）"
+            },
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（国家专项）（包含专业：新闻学、传播学、广告学）"
+            }
+          ]
+        },
+        {
+          "group_code": "不限",
+          "special_group_id": "471888",
+          "track": "物理类",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "sg_name": "（不限）",
+          "total_plan": 6,
+          "majors": [
+            {
+              "spcode": "050262",
+              "name": "商务英语",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "外国语言文学类",
+              "note": ""
+            },
+            {
+              "spcode": "120901K",
+              "name": "旅游管理",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "旅游管理类",
+              "note": ""
+            },
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（050301-新闻学;050304-传播学;050303-广告学）"
+            }
+          ]
+        },
+        {
+          "group_code": "物化",
+          "special_group_id": "471887",
+          "track": "物理类",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（物化）",
+          "total_plan": 17,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程，070302-应用化学;081301-化学工程与工艺;081304-能源化学工程;081302-制药工程;081701-轻化工程;082506-资源环境科学;082502-环境工程;082501-环境科学与工程，不招色盲考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造，081811-智慧交通;081008-智能建造;081001-土木工程;081104-水务工程;120103-工程管理;080102-工程力学）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程，082701-食品科学与工程;082702-食品质量与安全;083001-生物工程;083002-生物制药;071002-生物技术，不招色盲考生）"
+            },
+            {
+              "spcode": "081901",
+              "name": "船舶与海洋工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "海洋工程类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料，080407-高分子材料与工程;080401-材料科学与工程;080412-功能材料;080419-生物材料，不招色盲考生）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（082801-建筑学;082802-城乡规划;082803-风景园林，其中建筑学专业学制5年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造，080201-机械工程;080204-机械电子工程;080214-智能车辆工程;080206-过程装备与控制工程;080203-材料成型及控制工程）"
+            }
+          ]
+        },
+        {
+          "group_code": "105",
+          "special_group_id": "368700",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "历史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "sg_name": "（105）",
+          "total_plan": 23,
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（包含专业：工商管理、财务管理）"
+            },
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（包含专业：新闻学、传播学、广告学）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（包含专业：法学、知识产权）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（包含专业：经济学、金融学）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": ""
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "公共管理类",
+              "note": ""
+            },
+            {
+              "spcode": "050262",
+              "name": "商务英语",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "外国语言文学类",
+              "note": ""
+            },
+            {
+              "spcode": "020101",
+              "name": "经济学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（创新班）"
+            }
+          ]
+        }
       ]
     },
     {
-      "province": "湖北",
+      "province": "jiangsu",
+      "province_cn": "江苏",
+      "province_id": 32,
+      "regime": "新高考3+1+2",
+      "uses_college_groups": true,
+      "group_count": 8,
+      "total_plan": 135,
+      "plan_by_track": {
+        "历史类": 12,
+        "物理类": 123
+      },
+      "min_admission_2025": {
+        "物理类": 648
+      },
+      "groups": [
+        {
+          "group_code": "02",
+          "special_group_id": "471230",
+          "track": "物理类",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（02）",
+          "total_plan": 68,
+          "majors": [
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "plan": 13,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "plan": 11,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "080422T",
+              "name": "软物质科学与工程",
+              "plan": 9,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "材料类",
+              "note": "（报考该专业有色觉要求,具体请查阅院校招生章程）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "plan": 8,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "080910T",
+              "name": "数据科学与大数据技术",
+              "plan": 8,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "计算机类",
+              "note": "（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "plan": 7,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "生物医学工程类",
+              "note": "（报考该专业有色觉要求,具体请查阅院校招生章程）（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "自动化类",
+              "note": "（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "机械类",
+              "note": "（以下专业只招收该校测试合格的考生）"
+            },
+            {
+              "spcode": "081906T",
+              "name": "智能海洋装备",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "海洋工程类",
+              "note": "（创新班）（以下专业只招收该校测试合格的考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "03",
+          "special_group_id": "426196",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（03）",
+          "total_plan": 21,
+          "majors": [
+            {
+              "spcode": "0806",
+              "name": "电气类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电气类",
+              "note": "（电气工程及其自动化、能源与动力工程）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "080706",
+              "name": "信息工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（计算机科学与技术、网络工程、信息安全）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI与低空技术）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "426195",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（04）",
+          "total_plan": 21,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（第三、四学年学费为16000元/年）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "机械类",
+              "note": "（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "数学类",
+              "note": "（数学与应用数学、信息与计算科学、统计学）"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "物理学类",
+              "note": "（应用物理学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造）"
+            }
+          ]
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "426194",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（05）",
+          "total_plan": 6,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI先进技术拔尖班）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（卓越人才班）（其中软件工程第三、四学年学费为16000元/年）"
+            }
+          ]
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "426193",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（06）",
+          "total_plan": 4,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（理工交叉创新班）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（院士特色班）"
+            }
+          ]
+        },
+        {
+          "group_code": "不限",
+          "special_group_id": "471891",
+          "track": "物理类",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "sg_name": "（不限）",
+          "total_plan": 1,
+          "majors": [
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "公共管理类",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "group_code": "物化",
+          "special_group_id": "471890",
+          "track": "物理类",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（物化）",
+          "total_plan": 2,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程，070302-应用化学;081301-化学工程与工艺;081304-能源化学工程;081302-制药工程;081701-轻化工程;082506-资源环境科学;082502-环境工程;082501-环境科学与工程，不招色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "01",
+          "special_group_id": "426172",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "历史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "sg_name": "（01）",
+          "total_plan": 12,
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（工商管理、财务管理）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（法学、知识产权）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": ""
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（经济学、金融学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "guangdong",
+      "province_cn": "广东",
+      "province_id": 44,
+      "regime": "新高考3+1+2",
+      "uses_college_groups": true,
+      "group_count": 9,
+      "total_plan": 3354,
+      "plan_by_track": {
+        "历史类": 220,
+        "物理类": 3134
+      },
+      "min_admission_2025": {
+        "物理类": 621
+      },
+      "groups": [
+        {
+          "group_code": "212",
+          "special_group_id": "431941",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（212）",
+          "total_plan": 386,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 139,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（卓越人才班）（包含专业：电气工程及其自动化（卓越班）、能源与动力工程（低碳与智慧能源卓越班）、软件工程（卓越班）、软件工程（工业软件卓越班）、电子科学与技术（卓越班）、食品科学与工程（未来食品卓越班）；软件工程专业第一、二学年6850元/学年，第三、四学年16000元/学年；办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 97,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（院士特色班）（含机械类（院士特色班）、材料类（院士特色班）、建筑类（院士特色班）、智能建造（院士特色班）专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 92,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI先进技术拔尖班）（含计算机科学与技术（拔尖基地班）、信息工程（拔尖班）、自动化（拔尖班）专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 58,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（理工交叉创新班）（含应用化学（拔尖基地班）、应用物理学（严济慈英才班）、工程力学（创新班）专业；办学地点：广州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "213",
+          "special_group_id": "431940",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（213）",
+          "total_plan": 821,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 317,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造）（含机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 215,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料）（不招色盲含高分子材料与工程、材料科学与工程、功能材料、生物材料专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "plan": 187,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（含计算机科学与技术、网络工程、信息安全专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "plan": 65,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "plan": 37,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "机械类",
+              "note": "（不招色盲；办学地点：广州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "214",
+          "special_group_id": "431939",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（214）",
+          "total_plan": 836,
+          "majors": [
+            {
+              "spcode": "0806",
+              "name": "电气类",
+              "plan": 245,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电气类",
+              "note": "（不招单色识别不全者；含电气工程及其自动化、能源与动力工程专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "080706",
+              "name": "信息工程",
+              "plan": 165,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 105,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI与低空技术）（含智能科学与技术、低空技术与工程专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 101,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程）（不招色盲含食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 100,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造）（含智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "plan": 87,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "物理学类",
+              "note": "（含应用物理学、光电信息科学与工程专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "plan": 33,
+              "length": "五年",
+              "tuition": "7660",
+              "category": "临床医学类",
+              "note": "（不招色盲色弱含临床医学、医学影像学专业；办学地点：广州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "215",
+          "special_group_id": "431938",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（215）",
+          "total_plan": 660,
+          "majors": [
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "plan": 177,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（第一、二学年6850元/学年，第三、四学年16000元/学年；办学地点：广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 140,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程）（不招色盲含应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "plan": 136,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "数学类",
+              "note": "（含数学与应用数学、信息与计算科学、统计学专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 110,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "020310T",
+              "name": "金融科技",
+              "plan": 39,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "金融学类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 20,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": "（“自动化+工商管理”双学士学位复合型人才培养项目；办学地点：广州市）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "plan": 20,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（含建筑学、城乡规划、风景园林专业其中建筑学专业学制5年；办学地点：广州市）"
+            },
+            {
+              "spcode": "082802",
+              "name": "城乡规划",
+              "plan": 18,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（“城乡规划+大数据管理与应用”双学士学位复合型人才培养项目；办学地点：广州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "216",
+          "special_group_id": "431937",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "sg_name": "（216）",
+          "total_plan": 90,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "plan": 60,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "管理科学与工程类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 15,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（含法学、知识产权专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（卓越法律班）（办学地点：广州市）"
+            },
+            {
+              "spcode": "020101",
+              "name": "经济学",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（创新班）（办学地点：广州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "707",
+          "special_group_id": "258746",
+          "track": "物理类",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "sg_name": "（707）",
+          "total_plan": 12,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "管理科学与工程类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "公共管理类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            },
+            {
+              "spcode": "050262",
+              "name": "商务英语",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "外国语言文学类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            },
+            {
+              "spcode": "120901K",
+              "name": "旅游管理",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "旅游管理类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            },
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（特殊类型招生）（包含专业：050301.新闻学+050304.传播学+050303.广告学）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "708",
+          "special_group_id": "258747",
+          "track": "物理类",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（708）",
+          "total_plan": 29,
+          "majors": [
+            {
+              "spcode": "081901",
+              "name": "船舶与海洋工程",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "海洋工程类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（特殊类型招生）（智慧化工与低碳工程）（包含专业：070302.应用化学+081301.化学工程与工艺+081304.能源化学工程+081302.制药工程+081701.轻化工程+082506.资源环境科学+082502.环境工程+082501.环境科学与工程）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）（不招色盲）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（特殊类型招生）（智能交通与数字建造）（包含专业：081811.智慧交通+081008.智能建造+081001.土木工程+081104.水务工程+120103.工程管理+080102.工程力学）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（特殊类型招生）（生命科学与健康工程）（包含专业：082701.食品科学与工程+082702.食品质量与安全+083001.生物工程+083002.生物制药+071002.生物技术）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）（不招色盲）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "plan": 4,
+              "length": "五年",
+              "tuition": "7660",
+              "category": "临床医学类",
+              "note": "（特殊类型招生）（包含专业：100201.临床医学+100203.医学影像学）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）（不招色盲色弱）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（特殊类型招生）（包含专业：082801.建筑学+082802.城乡规划+082803.风景园林）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）（其中建筑学专业学制5年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（特殊类型招生）（先进材料）（包含专业：080407.高分子材料与工程+080401.材料科学与工程+080412.功能材料+080419.生物材料）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）（不招色盲）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（特殊类型招生）（智能装备与先进制造）（包含专业：080201.机械工程+080204.机械电子工程+080214.智能车辆工程+080206.过程装备与控制工程+080203.材料成型及控制工程）（住宿费：待定）（办学地点：广东省广州市）（招生种类：高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "709",
+          "special_group_id": "258748",
+          "track": "物理类",
+          "batch": "特殊类型招生批",
+          "zslx": "综合评价考生",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（709）",
+          "total_plan": 300,
+          "majors": [
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "plan": 46,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "plan": 46,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "plan": 45,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）"
+            },
+            {
+              "spcode": "080910T",
+              "name": "数据科学与大数据技术",
+              "plan": 45,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "计算机类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "plan": 31,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "自动化类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "plan": 31,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "机械类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）"
+            },
+            {
+              "spcode": "080422T",
+              "name": "软物质科学与工程",
+              "plan": 29,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "材料类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）（不招色盲色弱）"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "plan": 15,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "生物医学工程类",
+              "note": "（特殊类型招生）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）（不招色盲色弱）"
+            },
+            {
+              "spcode": "081906T",
+              "name": "智能海洋装备",
+              "plan": 12,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "海洋工程类",
+              "note": "（特殊类型招生）（创新班）（住宿费：待定）（办学地点：广东省广州市）（招生种类：综合评价考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "211",
+          "special_group_id": "431906",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "历史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "sg_name": "（211）",
+          "total_plan": 220,
+          "majors": [
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "plan": 62,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（含经济学、金融学专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 42,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（含法学、知识产权专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 30,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（含新闻学、传播学、广告学专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 25,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "plan": 23,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（含工商管理、财务管理专业；办学地点：广州市）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "plan": 15,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（卓越法律班）（办学地点：广州市）"
+            },
+            {
+              "spcode": "050262",
+              "name": "商务英语",
+              "plan": 10,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "外国语言文学类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "plan": 8,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "公共管理类",
+              "note": "（办学地点：广州市）"
+            },
+            {
+              "spcode": "020101",
+              "name": "经济学",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（创新班）（办学地点：广州市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "hubei",
+      "province_cn": "湖北",
       "province_id": 42,
-      "regime": "3+1+2",
-      "data_quality": "aggregate_only",
+      "regime": "新高考3+1+2",
+      "uses_college_groups": true,
+      "group_count": 6,
+      "total_plan": 102,
+      "plan_by_track": {
+        "物理类": 90,
+        "历史类": 12
+      },
+      "min_admission_2025": {
+        "物理类": 623
+      },
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 628, "最低位次": null, "示例专业": null, "notes": "聚合源最低; 具体组代码与组内投档分见《湖北省 2025 投档线公告》" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 615, "最低位次": null, "示例专业": null }
+        {
+          "group_code": "03",
+          "special_group_id": "291060",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（03）",
+          "total_plan": 19,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（卓越人才班；电气工程及其自动化（卓越班）、能源与动力工程（低碳与智慧能源卓越班）、软件工程（卓越班）、软件工程（工业软件卓越班）、电子科学与技术（卓越班）、食品科学与工程（未来食品卓越班）；软件工程专业第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "080706",
+              "name": "信息工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI先进技术拔尖班；计算机科学与技术（拔尖基地班）、信息工程（拔尖班）、自动化（拔尖班））"
+            },
+            {
+              "spcode": "020310T",
+              "name": "金融科技",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "金融学类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（理工交叉创新班；应用化学（拔尖基地班）、应用物理学（严济慈英才班）、工程力学（创新班））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（院士特色班；机械类（院士特色班）、材料类（院士特色班）、建筑类（院士特色班）、智能建造（院士特色班））"
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "291059",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（04）",
+          "total_plan": 25,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 9,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造；机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程）"
+            },
+            {
+              "spcode": "0806",
+              "name": "电气类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电气类",
+              "note": "（电气工程及其自动化、能源与动力工程；不招单色识别不全者）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程；应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程；不招色盲考生）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "数学类",
+              "note": "（数学与应用数学、信息与计算科学、统计学）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（建筑学、城乡规划、风景园林；其中建筑学专业学制5年）"
+            }
+          ]
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "291058",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（05）",
+          "total_plan": 23,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造；智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料；高分子材料与工程、材料科学与工程、功能材料、生物材料；不招色盲考生）"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "物理学类",
+              "note": "（应用物理学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（计算机科学与技术、网络工程、信息安全）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI与低空技术；智能科学与技术、低空技术与工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程；食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术；不招色盲考生）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7660",
+              "category": "临床医学类",
+              "note": "（临床医学、医学影像学；不招色盲、色弱考生；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "291099",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（06）",
+          "total_plan": 21,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程；应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程；不招色盲考生）"
+            },
+            {
+              "spcode": "081901",
+              "name": "船舶与海洋工程",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "海洋工程类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料；高分子材料与工程、材料科学与工程、功能材料、生物材料；不招色盲考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造；智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程；食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术；不招色盲考生）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7660",
+              "category": "临床医学类",
+              "note": "（临床医学、医学影像学；不招色盲、色弱考生；学制：五年）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（建筑学、城乡规划、风景园林；其中建筑学专业学制5年）"
+            }
+          ]
+        },
+        {
+          "group_code": "物化",
+          "special_group_id": "471889",
+          "track": "物理类",
+          "batch": "高校专项计划批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（物化）",
+          "total_plan": 2,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程，070302-应用化学;081301-化学工程与工艺;081304-能源化学工程;081302-制药工程;081701-轻化工程;082506-资源环境科学;082502-环境工程;082501-环境科学与工程，不招色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "02",
+          "special_group_id": "291084",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "历史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "sg_name": "（02）",
+          "total_plan": 12,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": ""
+            },
+            {
+              "spcode": "050262",
+              "name": "商务英语",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "外国语言文学类",
+              "note": "（外语语种：不限）"
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（工商管理、财务管理）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（卓越法律班）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（经济学、金融学）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（法学、知识产权）"
+            }
+          ]
+        }
       ]
     },
     {
-      "province": "福建",
+      "province": "fujian",
+      "province_cn": "福建",
       "province_id": 35,
-      "regime": "3+1+2",
-      "data_quality": "aggregate_only",
+      "regime": "新高考3+1+2",
+      "uses_college_groups": true,
+      "group_count": 7,
+      "total_plan": 117,
+      "plan_by_track": {
+        "历史类": 23,
+        "物理类": 94
+      },
+      "min_admission_2025": {
+        "物理类": 633
+      },
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 616, "最低位次": null, "示例专业": null, "notes": "聚合源最低; 待补福建省考试院投档表" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 610, "最低位次": null, "示例专业": null }
+        {
+          "group_code": "500",
+          "special_group_id": "393156",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（500）",
+          "total_plan": 5,
+          "majors": [
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "68000",
+              "category": "机械类",
+              "note": "（中外合作办学）（不招色盲考生。4十0培养模式，与日本千叶大学中外合作办学项目，具体培养模式和学习费用请查看学校网站。非英语、日语语种考生谨慎报考。入学后不可转专业）"
+            }
+          ]
+        },
+        {
+          "group_code": "500#2",
+          "special_group_id": "466923",
+          "track": "物理类",
+          "batch": "高校农村专项计划",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（500）",
+          "total_plan": 6,
+          "majors": [
+            {
+              "spcode": "081901",
+              "name": "船舶与海洋工程",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "海洋工程类",
+              "note": "（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程）（含：食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术。不招色盲考生。）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造）（含：智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学。）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造）（含：机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程。）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "466922",
+          "track": "物理类",
+          "batch": "高校农村专项计划",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "sg_name": "（999）",
+          "total_plan": 2,
+          "majors": [
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（含：新闻学、传播学、广告学）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "500#3",
+          "special_group_id": "393157",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "物化组（3）",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（500）",
+          "total_plan": 25,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组3）（智慧化工与低碳工程）（含应用化学、化学工程与工艺、能源化学）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（物化组3）（第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": "（物化组3）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "数学类",
+              "note": "（物化组3）（含数学与应用数学、信息与计算科学、统）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（物化组3）（含计算机科学与技术、网络工程、信息安全）"
+            },
+            {
+              "spcode": "082802",
+              "name": "城乡规划",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（物化组3）（双学士学位复合型人才培养项目）（“城乡规划+大数据管理与应用”双学士学位复合型人才培养项目）"
+            },
+            {
+              "spcode": "020310T",
+              "name": "金融科技",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "金融学类",
+              "note": "（物化组3）"
+            }
+          ]
+        },
+        {
+          "group_code": "500#4",
+          "special_group_id": "393158",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "物化组（2）",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（500）",
+          "total_plan": 29,
+          "majors": [
+            {
+              "spcode": "0806",
+              "name": "电气类",
+              "plan": 7,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电气类",
+              "note": "（物化组2）（含电气工程及其自动化、能源与动力工程。不招单色识别不全者）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组2）（智能交通与数字建造）（含智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学）"
+            },
+            {
+              "spcode": "080706",
+              "name": "信息工程",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": "（物化组2）"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "物理学类",
+              "note": "（物化组2）（含应用物理学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组2）（生命科学与健康工程）（含食品科学与工程、食品质量与安全、生）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": "（物化组2）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组2）（AI与低空技术）（含智能科学与技术、低空技术与工程）"
+            }
+          ]
+        },
+        {
+          "group_code": "500#5",
+          "special_group_id": "393159",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "物化组（1）",
+          "xuanke": {
+            "fxk": "物理",
+            "sxk": "化学",
+            "info": "首选物理，再选化学"
+          },
+          "sg_name": "（500）",
+          "total_plan": 27,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 9,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组1）（智能装备与先进制造）（含机械工程、机械电子工程、智能车辆工）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 7,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组1）（先进材料）（含高分子材料与工程、材料科学与工程、功能材料、生物材料。不招色盲考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组1）（卓越人才班）（含电气工程及其自动化（卓越班）、能源与动力工程（低碳与智慧能源卓越班）、软件工程（卓越班）、软件工程（工业软件卓越班）、电子科学与技术（卓越班）、食品科学与工程（未来食品卓越班）。软件工程士业第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组1）（AI先进技术拔尖班）（含计算机科学与技术（拔尖基地班）、信息工程（拔尖班）、自动化（拔尖班））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组1）（理工交叉创新班）（含应用化学（拔尖基地班）、应用物理学（严济慈英才班）、工程力学（创新班））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（物化组1）（院士特色班）（含机械类（院士特色班）、材料类（院士特色班）、建筑类（院士特色班））、智能建造（院士特色班）"
+            }
+          ]
+        },
+        {
+          "group_code": "999#2",
+          "special_group_id": "393100",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "历史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "sg_name": "（999）",
+          "total_plan": 23,
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（含工商管理、财务管理）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（含经济学、金融学）"
+            },
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（含新闻学、传播学、广告学）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（含法学、知识产权）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": ""
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "公共管理类",
+              "note": ""
+            },
+            {
+              "spcode": "050262",
+              "name": "商务英语",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "外国语言文学类",
+              "note": "（语种：不限）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（卓越法律班）"
+            }
+          ]
+        }
       ]
     },
     {
-      "province": "山东",
+      "province": "shandong",
+      "province_cn": "山东",
       "province_id": 37,
-      "regime": "3+3",
-      "data_quality": "aggregate_only",
+      "regime": "新高考3+3",
+      "uses_college_groups": false,
+      "group_count": 3,
+      "total_plan": 161,
+      "plan_by_track": {
+        "综合改革": 161
+      },
+      "min_admission_2025": {
+        "综合改革": 627
+      },
       "groups": [
-        { "group_code": null, "track": "综合改革", "首选": null, "再选": null, "投档分": 627, "最低位次": null, "示例专业": null, "notes": "山东为 96「专业+学校」平行志愿, 无传统院校专业组概念; SCUT 2025 综合最低约 627" }
+        {
+          "group_code": "37_3_普通类_普通类一段",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "",
+            "info": ""
+          },
+          "sg_name": "",
+          "total_plan": 76,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造）（机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程）"
+            },
+            {
+              "spcode": "0806",
+              "name": "电气类",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电气类",
+              "note": "（电气工程及其自动化、能源与动力工程）（不招单色识别不全者）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "080706",
+              "name": "信息工程",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": ""
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（计算机科学与技术、网络工程、信息安全）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "管理科学与工程类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料）（高分子材料与工程、材料科学与工程、功能材料、生物材料）（不招色盲考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（卓越人才班）（电气工程及其自动化（卓越班）、能源与动力工程（低碳与智慧能源卓越班）、软件工程（卓越班）、软件工程（工业软件卓越班）、电子科学与技术（卓越班）、食品科学与工程（未来食品卓越班））（软件工程专业第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智慧化工与低碳工程）（应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程）（不招色盲考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造）（智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（生命科学与健康工程）（食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术）（不招色盲考生）"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "物理学类",
+              "note": "（应用物理学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": ""
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "机械类",
+              "note": "（不招色盲考生）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": ""
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "数学类",
+              "note": "（数学与应用数学、信息与计算科学、统计学）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（经济学、金融学）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（法学、知识产权）"
+            },
+            {
+              "spcode": "020310T",
+              "name": "金融科技",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "金融学类",
+              "note": ""
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI与低空技术）（智能科学与技术、低空技术与工程）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（AI先进技术拔尖班）（计算机科学与技术（拔尖基地班）、信息工程（拔尖班）、自动化（拔尖班））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（理工交叉创新班）（应用化学（拔尖基地班）、应用物理学（严济慈英才班）、工程力学（创新班））"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（院士特色班）（机械类（院士特色班）、材料类（院士特色班）、建筑类（院士特色班）、智能建造（院士特色班））"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_高校专项计划_特殊类型批",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "",
+            "info": ""
+          },
+          "sg_name": "",
+          "total_plan": 5,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能交通与数字建造）（智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学）（高校专项计划）"
+            },
+            {
+              "spcode": "081901",
+              "name": "船舶与海洋工程",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "海洋工程类",
+              "note": "（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（先进材料）（高分子材料与工程、材料科学与工程、功能材料、生物材料）（不招色盲考生）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（智能装备与先进制造）（机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "37_3_综合评价_提前批A类",
+          "special_group_id": null,
+          "track": "综合改革",
+          "batch": "提前批A类",
+          "zslx": "综合评价",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "",
+            "info": ""
+          },
+          "sg_name": "",
+          "total_plan": 80,
+          "majors": [
+            {
+              "spcode": "080704",
+              "name": "微电子科学与工程",
+              "plan": 13,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（综合评价招生）"
+            },
+            {
+              "spcode": "080422T",
+              "name": "软物质科学与工程",
+              "plan": 13,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "材料类",
+              "note": "（综合评价招生）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "plan": 11,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（综合评价招生）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "plan": 10,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "电子信息类",
+              "note": "（综合评价招生）"
+            },
+            {
+              "spcode": "080910T",
+              "name": "数据科学与大数据技术",
+              "plan": 10,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "计算机类",
+              "note": "（综合评价招生）"
+            },
+            {
+              "spcode": "082601",
+              "name": "生物医学工程",
+              "plan": 9,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "生物医学工程类",
+              "note": "（综合评价招生）（不招色盲、色弱考生）"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "自动化类",
+              "note": "（综合评价招生）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "机械类",
+              "note": "（综合评价招生）"
+            },
+            {
+              "spcode": "081906T",
+              "name": "智能海洋装备",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "95000",
+              "category": "海洋工程类",
+              "note": "（综合评价招生，创新班）"
+            }
+          ]
+        }
       ]
     },
     {
-      "province": "河北",
+      "province": "hebei",
+      "province_cn": "河北",
       "province_id": 13,
-      "regime": "3+1+2",
-      "data_quality": "per_major",
+      "regime": "新高考3+1+2",
+      "uses_college_groups": false,
+      "group_count": 4,
+      "total_plan": 127,
+      "plan_by_track": {
+        "物理类": 106,
+        "历史类": 21
+      },
+      "min_admission_2025": {
+        "物理类": 628
+      },
       "groups": [
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 654, "最低位次": 2505, "示例专业": ["计算机类"], "tuition": null, "notes": "河北「专业+学校」无调剂; 96 志愿; 计算机类最高" },
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 652, "最低位次": 2914, "示例专业": ["电子科学与技术"], "tuition": null },
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": "化学", "投档分": 650, "最低位次": 3294, "示例专业": ["软件工程"], "tuition": null },
-        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 623, "最低位次": 12592, "示例专业": ["建筑类"], "tuition": null, "notes": "物理类最低专业" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 643, "最低位次": 679, "示例专业": ["法学"], "tuition": null, "notes": "历史类最高" },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 631, "最低位次": 1447, "示例专业": ["经济学类"], "tuition": null },
-        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 622, "最低位次": 2295, "示例专业": ["新闻传播学类"], "tuition": null, "notes": "历史类最低" }
+        {
+          "group_code": "13_2073_普通类_本科批",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "",
+            "info": ""
+          },
+          "sg_name": "",
+          "total_plan": 92,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 14,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（智能装备与先进制造）（含机械工程、机械电子工程、智能车辆工程、过程装备与控制工程、材料成型及控制工程专业）"
+            },
+            {
+              "spcode": "0806",
+              "name": "电气类",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电气类",
+              "note": "（广州市）（含电气工程及其自动化、能源与动力工程专业；不招不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 6,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（先进材料）（含高分子材料与工程、材料科学与工程、功能材料、生物材料专业；不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（广州市）（第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（智慧化工与低碳工程）（含应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程专业；不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 5,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（智能交通与数字建造）（含智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学专业）"
+            },
+            {
+              "spcode": "080706",
+              "name": "信息工程",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": "（广州市）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "自动化类",
+              "note": "（广州市）"
+            },
+            {
+              "spcode": "120108T",
+              "name": "大数据管理与应用",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "管理科学与工程类",
+              "note": "（广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（卓越人才班）（含电气工程及其自动化（卓越班）、能源与动力工程（低碳与智慧能源卓越班）、软件工程（卓越班）、软件工程（工业软件卓越班）、电子科学与技术（卓越班）、食品科学与工程（未来食品卓越班）专业；软件工程专业第一、二学年6850元/年，第三、四学年16000元/年）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（生命科学与健康工程）（含食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术专业；不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（院士特色班）（含机械类（院士特色班）、材料类（院士特色班）、建筑类（院士特色班）、智能建造（院士特色班）专业）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "数学类",
+              "note": "（广州市）（含数学与应用数学、信息与计算科学、统计学专业）"
+            },
+            {
+              "spcode": "0702",
+              "name": "物理学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "物理学类",
+              "note": "（广州市）（含应用物理学、光电信息科学与工程专业）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "计算机类",
+              "note": "（广州市）（含计算机科学与技术、网络工程、信息安全专业）"
+            },
+            {
+              "spcode": "020310T",
+              "name": "金融科技",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "金融学类",
+              "note": "（广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（AI先进技术拔尖班）（含计算机科学与技术（拔尖基地班）、信息工程（拔尖班）、自动化（拔尖班）专业）"
+            },
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（广州市）"
+            },
+            {
+              "spcode": "080205",
+              "name": "工业设计",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "机械类",
+              "note": "（广州市）（不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "电子信息类",
+              "note": "（广州市）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（AI与低空技术）（含智能科学与技术、低空技术与工程专业）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（理工交叉创新班）（含应用化学（拔尖基地班）、应用物理学（严济慈英才班）、工程力学（创新班）专业）"
+            },
+            {
+              "spcode": "1002",
+              "name": "临床医学类",
+              "plan": 2,
+              "length": "五年",
+              "tuition": "7660",
+              "category": "临床医学类",
+              "note": "（广州市）（含临床医学、医学影像学专业；不招色盲、色弱、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者）"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_国家专项计划_本科提前批B段",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "",
+            "info": ""
+          },
+          "sg_name": "",
+          "total_plan": 13,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项计划）（智慧化工与低碳工程）（含应用化学、化学工程与工艺、能源化学工程、制药工程、轻化工程、资源环境科学、环境工程、环境科学与工程专业；不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项计划）（智能交通与数字建造）（含智慧交通、智能建造、土木工程、水务工程、工程管理、工程力学专业）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项计划）（生命科学与健康工程）（含食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术专业；不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（国家专项计划）（先进材料）（含高分子材料与工程、材料科学与工程、功能材料、生物材料专业；不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）"
+            },
+            {
+              "spcode": "0828",
+              "name": "建筑类",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "建筑类",
+              "note": "（国家专项计划）（含建筑学、城乡规划、风景园林专业；其中建筑学专业学制5年）"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2073_高校专项计划_本科提前批C段",
+          "special_group_id": null,
+          "track": "物理类",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "",
+            "info": ""
+          },
+          "sg_name": "",
+          "total_plan": 1,
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "工科试验班",
+              "plan": 1,
+              "length": "四年",
+              "tuition": "6850",
+              "category": "",
+              "note": "（广州市）（生命科学与健康工程）（含食品科学与工程、食品质量与安全、生物工程、生物制药、生物技术专业；不招色盲、不能准确识别红、黄、绿、兰、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形考生）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "13_2074_普通类_本科批",
+          "special_group_id": null,
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "",
+            "info": ""
+          },
+          "sg_name": "",
+          "total_plan": 21,
+          "majors": [
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "公共管理类",
+              "note": "（广州市）"
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "工商管理类",
+              "note": "（广州市）（含工商管理、财务管理专业）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "经济学类",
+              "note": "（广州市）（含经济学、金融学专业）"
+            },
+            {
+              "spcode": "0503",
+              "name": "新闻传播学类",
+              "plan": 4,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "新闻传播学类",
+              "note": "（广州市）（含新闻学、传播学、广告学专业）"
+            },
+            {
+              "spcode": "0301",
+              "name": "法学类",
+              "plan": 3,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（广州市）（含法学、知识产权专业）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "plan": 2,
+              "length": "四年",
+              "tuition": "6060",
+              "category": "法学类",
+              "note": "（广州市）（卓越法律班）"
+            }
+          ]
+        }
       ]
     }
   ]

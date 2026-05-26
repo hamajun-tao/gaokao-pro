@@ -1,0 +1,6481 @@
+{
+  "uni": "西南大学",
+  "code": 1632,
+  "gaokao_cn_school_id": 934,
+  "year": 2025,
+  "source": [
+    "eol.cn / gaokao.cn",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/934/2025/41.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/934/2025/32.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/934/2025/44.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/934/2025/42.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/934/2025/35.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/934/2025/37.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/934/2025/13.json",
+    "zs.swu.edu.cn"
+  ],
+  "note": "院校专业组按各省考试院公布版本汇总; majors 字段来自 gaokao.cn schoolspecialplan API 2025 (school_id=934, 西南大学)。code=1632 为河南考试院编制的SWU四位院校代号; 其他省份院校代号不同。校区: 北碚(主)/荣昌(动物科学/水产/动物医学等)。含国家公费师范生(教育部直属师范, 学费全免)/优师专项/国家专项/中外合作办学。",
+  "provinces": {
+    "henan": {
+      "name": "河南",
+      "mode": "新高考3+1+2 (2025首年)",
+      "groups": [
+        {
+          "code": "101",
+          "special_group_id": "372806",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 609,
+          "majors": [
+            {
+              "sp_name": "日语",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "日语",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "101",
+          "special_group_id": "372787",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 609,
+          "majors": [
+            {
+              "sp_name": "应用心理学",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "102",
+          "special_group_id": "372805",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 612,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "民族学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "民族学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "102",
+          "special_group_id": "372786",
+          "shou": "物理",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 612,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 7,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 7,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "103",
+          "special_group_id": "372804",
+          "shou": "历史",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 611,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "103",
+          "special_group_id": "372776",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 611,
+          "majors": [
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 10,
+              "info_short": "荣昌校区；包含专业：信息管理与信息系统、大数据管理与应用；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区；暂按此标准收取，最终以价格主管部门审批为准，多退少补"
+            },
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 10,
+              "info_short": "荣昌校区；包含专业：信息管理与信息系统、大数据管理与应用；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区；暂按此标准收取，最终以价格主管部门审批为准，多退少补"
+            }
+          ]
+        },
+        {
+          "code": "103",
+          "special_group_id": "372785",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "普通类",
+          "min": 611,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "拔尖创新班；不招色盲考生"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "拔尖创新班；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": "104",
+          "special_group_id": "372784",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 616,
+          "majors": [
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 15,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 6,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 5,
+              "info_short": "包含专业：材料物理，金属材料工程、新能源材料与器件；不招色盲考生"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 4,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农业机械化及其自动化",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 1,
+              "info_short": "不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 15,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 6,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 5,
+              "info_short": "包含专业：材料物理，金属材料工程、新能源材料与器件；不招色盲考生"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 4,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农业机械化及其自动化",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 1,
+              "info_short": "不招色弱、色盲考生"
+            }
+          ]
+        },
+        {
+          "code": "104",
+          "special_group_id": "372775",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 616,
+          "majors": [
+            {
+              "sp_name": "动物医学类",
+              "plan": 10,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 8,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 6,
+              "info_short": "荣昌校区；包含专业：水产养殖学、水族科学与技术；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "动物药学",
+              "plan": 2,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 10,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 8,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 6,
+              "info_short": "荣昌校区；包含专业：水产养殖学、水族科学与技术；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "动物药学",
+              "plan": 2,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": "105",
+          "special_group_id": "372783",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 612,
+          "majors": [
+            {
+              "sp_name": "生物技术",
+              "plan": 8,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "药学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 8,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "药学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": "106",
+          "special_group_id": "372782",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 611,
+          "majors": [
+            {
+              "sp_name": "植物生产类",
+              "plan": 6,
+              "info_short": "包含专业：农学、园艺、植物保护；不招色盲考生"
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 3,
+              "info_short": "包含专业：农业资源与环境、水土保持与荒漠化防治、土地科学与技术；不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 3,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "蚕学",
+              "plan": 1,
+              "info_short": "双学士学位；不招色盲考生。蚕学+生物技术双学士学位复合型人才培养项目"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 6,
+              "info_short": "包含专业：农学、园艺、植物保护；不招色盲考生"
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 3,
+              "info_short": "包含专业：农业资源与环境、水土保持与荒漠化防治、土地科学与技术；不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 3,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "蚕学",
+              "plan": 1,
+              "info_short": "双学士学位；不招色盲考生。蚕学+生物技术双学士学位复合型人才培养项目"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": "107",
+          "special_group_id": "372781",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 611,
+          "majors": [
+            {
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 5,
+              "info_short": ""
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 4,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "三四学年学费标准10500元/年"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 5,
+              "info_short": ""
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 4,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "三四学年学费标准10500元/年"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 2,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "108",
+          "special_group_id": "372780",
+          "shou": "物理",
+          "zai": "生物",
+          "type": "普通类",
+          "min": 609,
+          "majors": [
+            {
+              "sp_name": "风景园林",
+              "plan": 3,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "风景园林",
+              "plan": 3,
+              "info_short": "不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": "201",
+          "special_group_id": "372803",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 593,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 2,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 2,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "501",
+          "special_group_id": "372802",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 607,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "501",
+          "special_group_id": "372777",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 607,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 1,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 1,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "201",
+          "special_group_id": "372779",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "中外合作",
+          "min": 593,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 3,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 3,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "202",
+          "special_group_id": "372778",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "中外合作",
+          "min": 603,
+          "majors": [
+            {
+              "sp_name": "软件工程",
+              "plan": 9,
+              "info_short": "中外合作办学；合作方：澳大利亚迪肯大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 8,
+              "info_short": "中外合作办学；合作方：新西兰奥克兰大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 8,
+              "info_short": "中外合作办学；合作方：新西兰奥塔哥大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以价格主管部门审批为准，多退少补；学费60000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 7,
+              "info_short": "中外合作办学；合作方：美国密苏里州立大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考；学费38000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 6,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "info_short": "中外合作办学；合作方：澳大利亚塔斯马尼亚大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；合作方：澳大利亚塔斯马尼亚大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 9,
+              "info_short": "中外合作办学；合作方：澳大利亚迪肯大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 8,
+              "info_short": "中外合作办学；合作方：新西兰奥克兰大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 8,
+              "info_short": "中外合作办学；合作方：新西兰奥塔哥大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以价格主管部门审批为准，多退少补；学费60000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 7,
+              "info_short": "中外合作办学；合作方：美国密苏里州立大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考；学费38000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 6,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；合作方：澳大利亚西澳大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "info_short": "中外合作办学；合作方：澳大利亚塔斯马尼亚大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；合作方：澳大利亚塔斯马尼亚大学；以英语为主要授课语言，建议英语语种考生报考；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "205",
+          "special_group_id": "372774",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "中外合作",
+          "min": 593,
+          "majors": [
+            {
+              "sp_name": "动物科学",
+              "plan": 3,
+              "info_short": "荣昌校区；中外合作办学；办学地点：荣昌校区；合作方：澳大利亚詹姆斯库克大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考；学费40000元/年"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 3,
+              "info_short": "荣昌校区；中外合作办学；办学地点：荣昌校区；合作方：澳大利亚詹姆斯库克大学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考；学费40000元/年"
+            }
+          ]
+        },
+        {
+          "code": "301",
+          "special_group_id": "372796",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "国家专项计划",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "301",
+          "special_group_id": "372795",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家专项",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 10,
+              "info_short": "荣昌校区；包含专业：信息管理与信息系统、大数据管理与应用；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 4,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区；暂按此标准收取，最终以价格主管部门审批为准，多退少补"
+            },
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 10,
+              "info_short": "荣昌校区；包含专业：信息管理与信息系统、大数据管理与应用；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 4,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区；暂按此标准收取，最终以价格主管部门审批为准，多退少补"
+            }
+          ]
+        },
+        {
+          "code": "302",
+          "special_group_id": "372794",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家专项",
+          "min": 593,
+          "majors": [
+            {
+              "sp_name": "动物医学类",
+              "plan": 15,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 14,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 8,
+              "info_short": "荣昌校区；包含专业：水产养殖学、水族科学与技术；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "动物药学",
+              "plan": 3,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 15,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 14,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 8,
+              "info_short": "荣昌校区；包含专业：水产养殖学、水族科学与技术；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "动物药学",
+              "plan": 3,
+              "info_short": "荣昌校区；办学地点：荣昌校区；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "国家公费师范生",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (历史/不限/国家公费师范生) 聚合",
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 26,
+              "info_short": "师范；只招英语语种的考生；国家公费师范生"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 15,
+              "info_short": "师范；国家公费师范生；学费待定"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "plan": 12,
+              "info_short": "师范；国家公费师范生；学费待定"
+            },
+            {
+              "sp_name": "学前教育",
+              "plan": 2,
+              "info_short": "师范；不招色弱、色盲考生；国家公费师范生"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "师范；不招色盲考生；国家公费师范生"
+            },
+            {
+              "sp_name": "特殊教育",
+              "plan": 1,
+              "info_short": "师范；不招色弱、色盲考生；国家公费师范生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "历史",
+          "zai": "地理",
+          "type": "国家公费师范生",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (历史/地理/国家公费师范生) 聚合",
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 6,
+              "info_short": "师范；不招色盲考生；国家公费师范生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "历史",
+          "zai": "政治",
+          "type": "国家公费师范生",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (历史/政治/国家公费师范生) 聚合",
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 3,
+              "info_short": "师范；国家公费师范生；学费待定"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家公费师范生",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (物理/不限/国家公费师范生) 聚合",
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 10,
+              "info_short": "师范；只招英语语种的考生；国家公费师范生"
+            },
+            {
+              "sp_name": "教育技术学",
+              "plan": 3,
+              "info_short": "师范；国家公费师范生；学费待定"
+            },
+            {
+              "sp_name": "特殊教育",
+              "plan": 2,
+              "info_short": "师范；不招色弱、色盲考生；国家公费师范生"
+            },
+            {
+              "sp_name": "学前教育",
+              "plan": 1,
+              "info_short": "师范；不招色弱、色盲考生；国家公费师范生"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "师范；不招色盲考生；国家公费师范生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家公费师范生",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (物理/化学/国家公费师范生) 聚合",
+          "majors": [
+            {
+              "sp_name": "化学",
+              "plan": 8,
+              "info_short": "师范；不招色弱、色盲考生；国家公费师范生"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 7,
+              "info_short": "师范；国家公费师范生；学费待定"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 7,
+              "info_short": "师范；国家公费师范生；学费待定"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "info_short": "师范；国家公费师范生；学费待定"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "物理",
+          "zai": "地理",
+          "type": "国家公费师范生",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (物理/地理/国家公费师范生) 聚合",
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 6,
+              "info_short": "师范；不招色盲考生；国家公费师范生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "国家公费师范生",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (物理/化学和生物/国家公费师范生) 聚合",
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 3,
+              "info_short": "师范；不招色盲考生；国家公费师范生"
+            }
+          ]
+        },
+        {
+          "code": "102",
+          "special_group_id": "372801",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "荣昌校区",
+          "min": 612,
+          "majors": [
+            {
+              "sp_name": "市场营销",
+              "plan": 4,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区；暂按此标准收取，最终以价格主管部门审批为准，多退少补"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 4,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区；暂按此标准收取，最终以价格主管部门审批为准，多退少补"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "国家优师专项",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (历史/不限/国家优师专项) 聚合",
+          "majors": [
+            {
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "info_short": "师范；学费待定"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 2,
+              "info_short": "师范；只招英语语种的考生；学费待定"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家优师专项",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (物理/化学/国家优师专项) 聚合",
+          "majors": [
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "info_short": "师范；学费待定"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "special_group_id": "0",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家优师专项",
+          "min": null,
+          "note": "API 未提供组号 (special_group=0), 按 (物理/不限/国家优师专项) 聚合",
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "师范；只招英语语种的考生；学费待定"
+            }
+          ]
+        }
+      ]
+    },
+    "jiangsu": {
+      "name": "江苏",
+      "mode": "新高考3+1+2",
+      "groups": [
+        {
+          "code": "01",
+          "special_group_id": "428794",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 598,
+          "majors": [
+            {
+              "sp_name": "法学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "special_group_id": "428793",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 598,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "只招英语考生"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "只招英语考生"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "special_group_id": "428792",
+          "shou": "历史",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 594,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "special_group_id": "428807",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 618,
+          "majors": [
+            {
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "05",
+          "special_group_id": "428806",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 617,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "只招英语考生"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "只招英语考生"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "06",
+          "special_group_id": "428805",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 620,
+          "majors": [
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "第三、四学年学费为10500元/年"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "第三、四学年学费为10500元/年"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 2,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "special_group_id": "428804",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 624,
+          "majors": [
+            {
+              "sp_name": "机械类",
+              "plan": 4,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 4,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 2,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "08",
+          "special_group_id": "428803",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 620,
+          "majors": [
+            {
+              "sp_name": "物理学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "药学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "化学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "药学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "化学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "09",
+          "special_group_id": "428802",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 619,
+          "majors": [
+            {
+              "sp_name": "蚕学",
+              "plan": 1,
+              "info_short": "双学士学位培养项目"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "蚕学",
+              "plan": 1,
+              "info_short": "双学士学位培养项目"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "special_group_id": "428801",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "普通类",
+          "min": 612,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班"
+            }
+          ]
+        },
+        {
+          "code": "11",
+          "special_group_id": "428800",
+          "shou": "物理",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 606,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    "guangdong": {
+      "name": "广东",
+      "mode": "新高考3+1+2",
+      "groups": [
+        {
+          "code": "206",
+          "special_group_id": "435286",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "207",
+          "special_group_id": "435297",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 600,
+          "majors": [
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 6,
+              "info_short": "荣昌校区；含信息管理与信息系统、大数据管理与应用专业具体专业分流情况请查看学校网站；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 6,
+              "info_short": "荣昌校区；含信息管理与信息系统、大数据管理与应用专业具体专业分流情况请查看学校网站；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区；办学地点：荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "208",
+          "special_group_id": "435296",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 608,
+          "majors": [
+            {
+              "sp_name": "水产类",
+              "plan": 3,
+              "info_short": "荣昌校区；含水产养殖学、水族科学与技术专业；具体专业分流情况请查看学校网站；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 3,
+              "info_short": "荣昌校区；含水产养殖学、水族科学与技术专业；具体专业分流情况请查看学校网站；办学地点：荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "209",
+          "special_group_id": "435295",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 614,
+          "majors": [
+            {
+              "sp_name": "动物科学",
+              "plan": 6,
+              "info_short": "荣昌校区；特征要求：不招色盲；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 6,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "动物药学",
+              "plan": 2,
+              "info_short": "荣昌校区；具体专业分流情况请查看学校网站；特征要求：不招色盲；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 6,
+              "info_short": "荣昌校区；特征要求：不招色盲；办学地点：荣昌校区"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 6,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "动物药学",
+              "plan": 2,
+              "info_short": "荣昌校区；具体专业分流情况请查看学校网站；特征要求：不招色盲；办学地点：荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "210",
+          "special_group_id": "435294",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 612,
+          "majors": [
+            {
+              "sp_name": "动物科学",
+              "plan": 2,
+              "info_short": "荣昌校区；中外合作办学；与澳大利亚詹姆斯·库克大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；英语教学为主，请非英语语种的考生慎重报考；特征要求；不招色盲；办学地点：荣昌校区；学费40000元/年"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 2,
+              "info_short": "荣昌校区；中外合作办学；与澳大利亚詹姆斯·库克大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；英语教学为主，请非英语语种的考生慎重报考；特征要求；不招色盲；办学地点：荣昌校区；学费40000元/年"
+            }
+          ]
+        },
+        {
+          "code": "217",
+          "special_group_id": "435293",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "外语语种：英语；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "外语语种：英语；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "218",
+          "special_group_id": "435292",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "含经济学、金融学专业；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "含行政管理、文化产业管理、社会工作专业；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "含经济学、金融学专业；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "含行政管理、文化产业管理、社会工作专业；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "219",
+          "special_group_id": "435315",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区；授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区；授予艺术学学士学位；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "220",
+          "special_group_id": "435314",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "含经济学、金融学专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "含行政管理、文化产业管理、社会工作专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "含经济学、金融学专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "含行政管理、文化产业管理、社会工作专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "221",
+          "special_group_id": "435313",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；办学地点：北碚校区；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "222",
+          "special_group_id": "435312",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 600,
+          "majors": [
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 1,
+              "info_short": "学费标准：第一、二学年4500元/学年，第三、四学年10500元/学年；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 1,
+              "info_short": "含机械设计制造及其自动化、智能车辆工程、智能制造工程专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 1,
+              "info_short": "含数学与应用数学、统计学专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "info_short": "含电子信息工程、通信工程专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 1,
+              "info_short": "含食品科学与工程、食品质量与安全专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 1,
+              "info_short": "学费标准：第一、二学年4500元/学年，第三、四学年10500元/学年；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 1,
+              "info_short": "含机械设计制造及其自动化、智能车辆工程、智能制造工程专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 1,
+              "info_short": "含数学与应用数学、统计学专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "info_short": "含电子信息工程、通信工程专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 1,
+              "info_short": "含食品科学与工程、食品质量与安全专业具体专业分流情况请查看学校网站；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "223",
+          "special_group_id": "435311",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "材料类",
+              "plan": 1,
+              "info_short": "含材料物理、金属材料工程、新能源材料与器件专业具体专业分流情况请查看学校网站；特征要求：不招色盲；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 1,
+              "info_short": "含材料物理、金属材料工程、新能源材料与器件专业具体专业分流情况请查看学校网站；特征要求：不招色盲；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "224",
+          "special_group_id": "435310",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 601,
+          "majors": [
+            {
+              "sp_name": "自动化",
+              "plan": 6,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 6,
+              "info_short": "中外合作办学；与新西兰奥克兰大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 6,
+              "info_short": "中外合作办学；与澳大利亚迪肯大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "info_short": "中外合作办学；与澳大利亚塔斯马尼亚大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；与澳大利亚塔斯马尼亚大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 6,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 6,
+              "info_short": "中外合作办学；与新西兰奥克兰大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 6,
+              "info_short": "中外合作办学；与澳大利亚迪肯大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "info_short": "中外合作办学；与澳大利亚塔斯马尼亚大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；与澳大利亚塔斯马尼亚大学中外合作办学项目；办学地点：北碚校区；备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "225",
+          "special_group_id": "435309",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 601,
+          "majors": [
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目；特征要求：不招色盲；办学地点：北碚校区：备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 4,
+              "info_short": "中外合作办学；与新西兰奥塔哥大学中外合作办学项目；特征要求：不招色盲；办学地点：北碚校区；：备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费60000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 4,
+              "info_short": "中外合作办学；与美国密苏里州立大学中外合作办学项目；特征要求：不招色盲；办学地点：北碚校区；：备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费38000元/年"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目；特征要求：不招色盲；办学地点：北碚校区：备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 4,
+              "info_short": "中外合作办学；与新西兰奥塔哥大学中外合作办学项目；特征要求：不招色盲；办学地点：北碚校区；：备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费60000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 4,
+              "info_short": "中外合作办学；与美国密苏里州立大学中外合作办学项目；特征要求：不招色盲；办学地点：北碚校区；：备注：具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；学费38000元/年"
+            }
+          ]
+        },
+        {
+          "code": "226",
+          "special_group_id": "435308",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班；特征要求；不招色盲；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班；特征要求；不招色盲；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "227",
+          "special_group_id": "435307",
+          "shou": "物理",
+          "zai": "生物",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "风景园林",
+              "plan": 1,
+              "info_short": "特征要求：不招色盲；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "风景园林",
+              "plan": 1,
+              "info_short": "特征要求：不招色盲；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "228",
+          "special_group_id": "435291",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；与澳大利亚西澳大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；以英语为主要授课语言，请非英语语种的考生慎重报考；办学地点：北碚校区；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "229",
+          "special_group_id": "435290",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 593,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 3,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 2,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 3,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 2,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "703",
+          "special_group_id": "258656",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区；招生种类：高校专项计划"
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区；招生种类：高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": "704",
+          "special_group_id": "258755",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区；招生种类：高校专项计划"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区；招生种类：高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": "114",
+          "special_group_id": "258186",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 3,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "plan": 4,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 3,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "115",
+          "special_group_id": "258187",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "学前教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "特殊教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "学前教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "特殊教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "116",
+          "special_group_id": "258188",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "117",
+          "special_group_id": "258189",
+          "shou": "历史",
+          "zai": "地理",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "118",
+          "special_group_id": "258190",
+          "shou": "历史",
+          "zai": "政治",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "119",
+          "special_group_id": "258244",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "教育技术学",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "教育技术学",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "120",
+          "special_group_id": "258245",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "特殊教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "特殊教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "121",
+          "special_group_id": "258246",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "心理学",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "122",
+          "special_group_id": "258247",
+          "shou": "物理",
+          "zai": "地理",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 2,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "123",
+          "special_group_id": "258248",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "物理学",
+              "plan": 7,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 7,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 7,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 7,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "124",
+          "special_group_id": "258249",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "化学",
+              "plan": 5,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "化学",
+              "plan": 5,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "125",
+          "special_group_id": "258250",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 5,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 5,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "126",
+          "special_group_id": "258251",
+          "shou": "物理",
+          "zai": "政治",
+          "type": "国家免费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "plan": 1,
+              "info_short": "师范；国家免费师范生；办学地点：北碚校区"
+            }
+          ]
+        }
+      ]
+    },
+    "hubei": {
+      "name": "湖北",
+      "mode": "新高考3+1+2",
+      "groups": [
+        {
+          "code": "01",
+          "special_group_id": "294026",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "special_group_id": "294009",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "special_group_id": "294008",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "水产类",
+              "plan": 3,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 1,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 3,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 1,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            }
+          ]
+        },
+        {
+          "code": "13",
+          "special_group_id": "294031",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 601,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 2,
+              "info_short": "需口试；只招收英语语种考生。考生须参加口试且成绩合格；外语语种：英语；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "经济学、金融学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "行政管理、文化产业管理、社会工作；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 1,
+              "info_short": "汉语言文学、汉语国际教育；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 2,
+              "info_short": "需口试；只招收英语语种考生。考生须参加口试且成绩合格；外语语种：英语；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "经济学、金融学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "行政管理、文化产业管理、社会工作；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 1,
+              "info_short": "汉语言文学、汉语国际教育；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "14",
+          "special_group_id": "294030",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 598,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "special_group_id": "294029",
+          "shou": "历史",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": "地理信息科学、人文地理与城乡规划；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": "地理信息科学、人文地理与城乡规划；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "17",
+          "special_group_id": "294027",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "本科预科班",
+              "plan": 1,
+              "info_short": "少数民族预科班；外语语种：不限；办学地点：北碚校区；学制：年"
+            },
+            {
+              "sp_name": "本科预科班",
+              "plan": 1,
+              "info_short": "少数民族预科班；外语语种：不限；办学地点：北碚校区；学制：年"
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "special_group_id": "294021",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "需口试；考生须参加口试且成绩合格；外语语种：英语；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "经济学、金融学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "行政管理、文化产业管理、社会工作；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": "晏阳初创新实验班；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "需口试；考生须参加口试且成绩合格；外语语种：英语；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "经济学、金融学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "行政管理、文化产业管理、社会工作；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": "晏阳初创新实验班；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "19",
+          "special_group_id": "294020",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "info_short": "授予艺术学学士学位；办学地点：北碚校区；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "20",
+          "special_group_id": "294019",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 598,
+          "majors": [
+            {
+              "sp_name": "农业机械化及其自动化",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 2,
+              "info_short": "材料物理、金属材料工程、新能源材料与器件；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 2,
+              "info_short": "机械设计制造及其自动化、智能车辆工程、智能制造工程；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 1,
+              "info_short": "不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 1,
+              "info_short": "食品科学与工程、食品质量与安全；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "农业机械化及其自动化",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 2,
+              "info_short": "材料物理、金属材料工程、新能源材料与器件；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 2,
+              "info_short": "机械设计制造及其自动化、智能车辆工程、智能制造工程；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 1,
+              "info_short": "不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 1,
+              "info_short": "食品科学与工程、食品质量与安全；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "21",
+          "special_group_id": "294018",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "物理学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "化学类",
+              "plan": 1,
+              "info_short": "化学工程与工艺、应用化学；不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "化学类",
+              "plan": 1,
+              "info_short": "化学工程与工艺、应用化学；不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "22",
+          "special_group_id": "294017",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 608,
+          "majors": [
+            {
+              "sp_name": "植物生产类",
+              "plan": 3,
+              "info_short": "农林类；农学、园艺、植物保护；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 2,
+              "info_short": "农林类；农业资源与环境、水土保持与荒漠化防治、土地科学与技术；不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 2,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "农林类；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "蚕学",
+              "plan": 1,
+              "info_short": "农林类；双学士学位；不招色盲考生。蚕学+生物技术双学士学位复合型人才培养项目；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 3,
+              "info_short": "农林类；农学、园艺、植物保护；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 2,
+              "info_short": "农林类；农业资源与环境、水土保持与荒漠化防治、土地科学与技术；不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 2,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "农林类；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "蚕学",
+              "plan": 1,
+              "info_short": "农林类；双学士学位；不招色盲考生。蚕学+生物技术双学士学位复合型人才培养项目；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "23",
+          "special_group_id": "294016",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 601,
+          "majors": [
+            {
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "info_short": "电子信息工程、通信工程；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "学费标准：第一二学年4500元/生.年，三四学年10500元/生.年；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 2,
+              "info_short": "数学与应用数学、统计学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "info_short": "电子信息工程、通信工程；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "学费标准：第一二学年4500元/生.年，三四学年10500元/生.年；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 2,
+              "info_short": "数学与应用数学、统计学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 2,
+              "info_short": "办学地点：北碚校区"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 1,
+              "info_short": "办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "24",
+          "special_group_id": "294015",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班；不招色盲考生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "25",
+          "special_group_id": "294014",
+          "shou": "物理",
+          "zai": "生物",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "园林",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "园林",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "26",
+          "special_group_id": "294013",
+          "shou": "物理",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 2,
+              "info_short": "地理信息科学、人文地理与城乡规划；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 2,
+              "info_short": "地理信息科学、人文地理与城乡规划；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "29",
+          "special_group_id": "294010",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 560,
+          "majors": [
+            {
+              "sp_name": "本科预科班",
+              "plan": 2,
+              "info_short": "一年；少数民族预科班；外语语种：不限；办学地点：北碚校区；学制：一年"
+            },
+            {
+              "sp_name": "本科预科班",
+              "plan": 2,
+              "info_short": "一年；少数民族预科班；外语语种：不限；办学地点：北碚校区；学制：一年"
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "special_group_id": "294007",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "中外合作",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "动物科学",
+              "plan": 5,
+              "info_short": "荣昌校区；中外合作办学；不招色盲%-考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚詹姆斯•库克大学；学费40000元/年"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 5,
+              "info_short": "荣昌校区；中外合作办学；不招色盲%-考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚詹姆斯•库克大学；学费40000元/年"
+            }
+          ]
+        },
+        {
+          "code": "16",
+          "special_group_id": "294028",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "中外合作",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "27",
+          "special_group_id": "294012",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "中外合作",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "28",
+          "special_group_id": "294011",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "中外合作",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "药学",
+              "plan": 5,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以价格主管部门审批为准，多退少补。外方合作高校：新西兰奥塔哥大学；办学地点：北碚校区；学费60000元/年"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英資高语语种考生报考。外方合作高校：新西兰奥克兰大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：美国密苏里州立大学；办学地点：北碚校区；学费38000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚迪肯大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 5,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以价格主管部门审批为准，多退少补。外方合作高校：新西兰奥塔哥大学；办学地点：北碚校区；学费60000元/年"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 4,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英資高语语种考生报考。外方合作高校：新西兰奥克兰大学；办学地点：北碚校区；学费50000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：美国密苏里州立大学；办学地点：北碚校区；学费38000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚迪肯大学；办学地点：北碚校区；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "30",
+          "special_group_id": "294039",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家专项计划",
+          "min": 560,
+          "majors": [
+            {
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "info_short": "行政管理、文化产业管理、社会工作；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "经济学、金融学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": "工商管理、会计学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "info_short": "行政管理、文化产业管理、社会工作；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "经济学、金融学；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": "工商管理、会计学；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "31",
+          "special_group_id": "294038",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家专项计划",
+          "min": 560,
+          "majors": [
+            {
+              "sp_name": "植物生产类",
+              "plan": 4,
+              "info_short": "农林类；农学、园艺、植物保护；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 3,
+              "info_short": "不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 3,
+              "info_short": "机械设计制造及其自动化、智能车辆工程、智能制造工程；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 3,
+              "info_short": "农林类；农业资源与环境、水土保持与荒漠化防治、土地科学与技术；不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 2,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 2,
+              "info_short": "材料物理、金属材料工程、新能源材料与器件；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 2,
+              "info_short": "食品科学与工程、食品质量与安全；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 4,
+              "info_short": "农林类；农学、园艺、植物保护；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 3,
+              "info_short": "不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 3,
+              "info_short": "机械设计制造及其自动化、智能车辆工程、智能制造工程；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 3,
+              "info_short": "农林类；农业资源与环境、水土保持与荒漠化防治、土地科学与技术；不招色弱、色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 2,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 2,
+              "info_short": "材料物理、金属材料工程、新能源材料与器件；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 2,
+              "info_short": "食品科学与工程、食品质量与安全；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "32",
+          "special_group_id": "294037",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "国家专项计划",
+          "min": 560,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "33",
+          "special_group_id": "294036",
+          "shou": "物理",
+          "zai": "生物",
+          "type": "国家专项计划",
+          "min": 560,
+          "majors": [
+            {
+              "sp_name": "园林",
+              "plan": 2,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "风景园林",
+              "plan": 2,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "园林",
+              "plan": 2,
+              "info_short": "农林类；不招色盲考生；办学地点：北碚校区"
+            },
+            {
+              "sp_name": "风景园林",
+              "plan": 2,
+              "info_short": "不招色盲考生；办学地点：北碚校区"
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "special_group_id": "456471",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "国家公费师范生",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "汉语言文学",
+              "plan": 7,
+              "info_short": "-；国家公费师范生；办学地点：北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 5,
+              "info_short": "-；学费：免费"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 5,
+              "info_short": "-；国家公费师范生；办学地点：北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "plan": 7,
+              "info_short": "-；国家公费师范生；办学地点：北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 5,
+              "info_short": "-；学费：免费"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 5,
+              "info_short": "-；国家公费师范生；办学地点：北碚校区；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "special_group_id": "456472",
+          "shou": "历史",
+          "zai": "政治",
+          "type": "国家公费师范生",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": "-；国家公费师范生；办学地点：北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": "-；国家公费师范生；办学地点：北碚校区；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "special_group_id": "456473",
+          "shou": "历史",
+          "zai": "地理",
+          "type": "国家公费师范生",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 1,
+              "info_short": "-；国家公费师范生；不招色盲考生；办学地点：北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 1,
+              "info_short": "-；国家公费师范生；不招色盲考生；办学地点：北碚校区；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "05",
+          "special_group_id": "456192",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "-；学费：免费"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "-；国家公费师范生;不招色盲考生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "-；学费：免费"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "-；国家公费师范生;不招色盲考生;办学地点:北碚校区；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "06",
+          "special_group_id": "456193",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 9,
+              "info_short": "-；国家公费师范生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "化学",
+              "plan": 8,
+              "info_short": "-；国家公费师范生;不招色弱、色盲考生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 5,
+              "info_short": "-；国家公费师范生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "info_short": "-；国家公费师范生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 9,
+              "info_short": "-；国家公费师范生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "化学",
+              "plan": 8,
+              "info_short": "-；国家公费师范生;不招色弱、色盲考生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 5,
+              "info_short": "-；国家公费师范生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "info_short": "-；国家公费师范生;办学地点:北碚校区；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "special_group_id": "456194",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 3,
+              "info_short": "-；国家公费师范生;不招色盲考生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 3,
+              "info_short": "-；国家公费师范生;不招色盲考生;办学地点:北碚校区；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "08",
+          "special_group_id": "456195",
+          "shou": "物理",
+          "zai": "地理",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 2,
+              "info_short": "-；国家公费师范生;不招色盲考生;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 2,
+              "info_short": "-；国家公费师范生;不招色盲考生;办学地点:北碚校区；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "special_group_id": "456388",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "优师专项",
+          "min": 580,
+          "majors": [
+            {
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "info_short": "-；优师专项，师范类；免除学费、免缴住宿费，并补助生活费。承诺毕业后到生源所在省份定向县中小学履约任教6年；办学地点：北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "-；学费：免费"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "info_short": "-；优师专项，师范类；免除学费、免缴住宿费，并补助生活费。承诺毕业后到生源所在省份定向县中小学履约任教6年；办学地点：北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "-；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "09",
+          "special_group_id": "456196",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "优师专项",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "-；学费：免费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "-；学费：免费"
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "special_group_id": "456197",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "优师专项",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "info_short": "-；优师专项，师范类：免除学费、免缴住宿费，并补助生活费。承诺毕业后到生源所在省份定向县中小学履约任教6年;办学地点:北碚校区；学费：免费"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "info_short": "-；优师专项，师范类：免除学费、免缴住宿费，并补助生活费。承诺毕业后到生源所在省份定向县中小学履约任教6年;办学地点:北碚校区；学费：免费"
+            }
+          ]
+        }
+      ]
+    },
+    "fujian": {
+      "name": "福建",
+      "mode": "新高考3+1+2",
+      "groups": [
+        {
+          "code": "500",
+          "special_group_id": "397533",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": 604,
+          "majors": [
+            {
+              "sp_name": "茶学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 2,
+              "info_short": "含材料物理、金属材料工程、新能源材料与器件。不招色盲考生"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 2,
+              "info_short": "含农学、园艺、植物保护。不招色盲考生"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 2,
+              "info_short": "含材料物理、金属材料工程、新能源材料与器件。不招色盲考生"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 2,
+              "info_short": "含农学、园艺、植物保护。不招色盲考生"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 6,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 6,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "化学",
+              "plan": 6,
+              "info_short": "国家公费师范生。本研衔接，定向泉州市、南平市就业。不招色弱、色盲考生。；免学费"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 6,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 6,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "化学",
+              "plan": 6,
+              "info_short": "国家公费师范生。本研衔接，定向泉州市、南平市就业。不招色弱、色盲考生。；免学费"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "茶学",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": "516",
+          "special_group_id": "397532",
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班；不招色盲考生"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "拔尖创新班；不招色盲考生"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "国家公费师范生。本研衔接，定向莆田市、龙岩市就业。不招色盲考生。；免学费"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "国家公费师范生。本研衔接，定向莆田市、龙岩市就业。不招色盲考生。；免学费"
+            }
+          ]
+        },
+        {
+          "code": "600",
+          "special_group_id": "397531",
+          "shou": "物理",
+          "zai": "生物",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "风景园林",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "风景园林",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": "700",
+          "special_group_id": "466693",
+          "shou": "历史",
+          "zai": "政治",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "马克思主义理论",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "马克思主义理论",
+              "plan": 2,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "700",
+          "special_group_id": "466650",
+          "shou": "物理",
+          "zai": "政治",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "马克思主义理论",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "马克思主义理论",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": "900",
+          "special_group_id": "397519",
+          "shou": "历史",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 1,
+              "info_short": "国家公费师范生。本研衔接，定向泉州市、龙岩市就业。不招色盲考生。；免学费"
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 1,
+              "info_short": "国家公费师范生。本研衔接，定向泉州市、龙岩市就业。不招色盲考生。；免学费"
+            }
+          ]
+        },
+        {
+          "code": "900",
+          "special_group_id": "397530",
+          "shou": "物理",
+          "zai": "地理",
+          "type": "普通类",
+          "min": 590,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 1,
+              "info_short": "国家公费师范生。本研衔接，定向泉州市、龙岩市就业。不招色盲考生。；免学费"
+            },
+            {
+              "sp_name": "地理科学",
+              "plan": 1,
+              "info_short": "国家公费师范生。本研衔接，定向泉州市、龙岩市就业。不招色盲考生。；免学费"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397520",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 5,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 4,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 5,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 4,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397534",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "日语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育技术学",
+              "plan": 1,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "教育技术学",
+              "plan": 1,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": "500",
+          "special_group_id": "397527",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "中外合作",
+          "min": 604,
+          "majors": [
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学。不招色盲考生；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以价格竹管部门审批为准，多退少补。外方合作高校：新西兰奥塔哥大学。不招色盲考生；学费60000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：新西兰奥克兰大学；学费50000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚迪肯大学；学费50000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：美国密苏里州立大学。不招色盲考生；学费38000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学。不招色盲考生；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以价格竹管部门审批为准，多退少补。外方合作高校：新西兰奥塔哥大学。不招色盲考生；学费60000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：新西兰奥克兰大学；学费50000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚迪肯大学；学费50000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：美国密苏里州立大学。不招色盲考生；学费38000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397515",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "中外合作",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397528",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "中外合作",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": "700",
+          "special_group_id": "466690",
+          "shou": "历史",
+          "zai": "政治",
+          "type": "国家公费师范生",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": "免学费"
+            }
+          ]
+        },
+        {
+          "code": "700",
+          "special_group_id": "466601",
+          "shou": "物理",
+          "zai": "政治",
+          "type": "国家公费师范生",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 1,
+              "info_short": "免学费"
+            },
+            {
+              "sp_name": "思想政治教育",
+              "plan": 1,
+              "info_short": "免学费"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397517",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "艺术学门类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 3,
+              "info_short": "艺术学门类；授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "info_short": "艺术学门类；授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 3,
+              "info_short": "艺术学门类；授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 2,
+              "info_short": "艺术学门类；授予艺术学学士学位；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397529",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "艺术学门类",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 1,
+              "info_short": "艺术学门类；授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "广播电视编导",
+              "plan": 1,
+              "info_short": "艺术学门类；授予艺术学学士学位；学费10000元/年"
+            }
+          ]
+        },
+        {
+          "code": "500",
+          "special_group_id": "397524",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "荣昌校区",
+          "min": 604,
+          "majors": [
+            {
+              "sp_name": "动物科学",
+              "plan": 5,
+              "info_short": "荣昌校区；中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚詹姆斯·库克大学。不招色盲考生；学费40000元/年"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 5,
+              "info_short": "荣昌校区；中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚詹姆斯·库克大学。不招色盲考生；学费40000元/年"
+            }
+          ]
+        },
+        {
+          "code": "500",
+          "special_group_id": "397525",
+          "shou": "物理",
+          "zai": "化学",
+          "type": "荣昌校区",
+          "min": 604,
+          "majors": [
+            {
+              "sp_name": "水产类",
+              "plan": 5,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 3,
+              "info_short": "荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 3,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 5,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 3,
+              "info_short": "荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 3,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397513",
+          "shou": "历史",
+          "zai": "不限",
+          "type": "荣昌校区",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "市场营销",
+              "plan": 2,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 2,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": "999",
+          "special_group_id": "397526",
+          "shou": "物理",
+          "zai": "不限",
+          "type": "荣昌校区",
+          "min": 591,
+          "majors": [
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 3,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 3,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            }
+          ]
+        }
+      ]
+    },
+    "shandong": {
+      "name": "山东",
+      "mode": "新高考3+3 (综合改革,无院校专业组,按专业(类)+院校投档)",
+      "groups": [
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理和化学",
+          "type": "中外合作办学",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 10,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：新西兰奥克兰大学；学费50000元/年"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 10,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚迪肯大学；学费50000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 8,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 8,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以物价主管部门审批为准，多退少补。外方合作高校：新西兰奥塔哥大学；学费60000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 7,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：美国密苏里州立大学；学费38000元/年"
+            },
+            {
+              "sp_name": "动物科学",
+              "plan": 6,
+              "info_short": "荣昌校区；中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。与澳大利亚詹姆斯·库克大学合作；学费40000元/年"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "不限",
+          "type": "中外合作办学",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "教育技术学",
+              "plan": 2,
+              "info_short": "国家公费师范生；本研衔接公费师范生；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理和化学",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "化学",
+              "plan": 12,
+              "info_short": "国家公费师范生；本研衔接公费师范生；不招色弱、色盲考生；免学费"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 10,
+              "info_short": "国家公费师范生；本研衔接公费师范生；免学费"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 7,
+              "info_short": "国家公费师范生；本研衔接公费师范生；免学费"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "info_short": "国家公费师范生；本研衔接公费师范生；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理和化学和生物",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 10,
+              "info_short": "国家公费师范生；本研衔接公费师范生；不招色盲考生；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "政治",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 6,
+              "info_short": "国家公费师范生；本研衔接公费师范生；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "历史",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "汉语言文学",
+              "plan": 9,
+              "info_short": "国家公费师范生；本研衔接公费师范生；免学费"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 6,
+              "info_short": "国家公费师范生；本研衔接公费师范生；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "地理",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 6,
+              "info_short": "国家公费师范生；本研衔接公费师范生；不招色盲考生；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "不限",
+          "type": "国家公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 10,
+              "info_short": "国家公费师范生；本研衔接公费师范生；只招收英语语种考生，须口试成绩合格；免学费"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 4,
+              "info_short": "国家公费师范生；本研衔接公费师范生；不招色盲考生；免学费"
+            },
+            {
+              "sp_name": "特殊教育",
+              "plan": 1,
+              "info_short": "国家公费师范生；本研衔接公费师范生；不招色弱、色盲考生；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 12,
+              "info_short": "荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理和化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "动物科学",
+              "plan": 8,
+              "info_short": "荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 8,
+              "info_short": ""
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 8,
+              "info_short": ""
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 8,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 6,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 5,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 5,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "蚕学",
+              "plan": 3,
+              "info_short": "双学士学位；不招色盲考生；蚕学+生物技术双学士学位复合型人才培养项目"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 3,
+              "info_short": "不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "化学类",
+              "plan": 3,
+              "info_short": "不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 2,
+              "info_short": "不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "动物药学",
+              "plan": 2,
+              "info_short": "荣昌校区；不招色盲考生"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农业机械化及其自动化",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理和化学和生物",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 4,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 3,
+              "info_short": "拔尖创新班；不、招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "生物",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "风景园林",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "政治",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "马克思主义理论",
+              "plan": 1,
+              "info_short": "非本研衔接公费师范"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "历史",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "地理",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 3,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "不限",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "广播电视编导",
+              "plan": 8,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 5,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "戏剧影视文学",
+              "plan": 4,
+              "info_short": "授予艺术学学士学位；学费10000元/年"
+            },
+            {
+              "sp_name": "市场营销",
+              "plan": 3,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "英语",
+              "plan": 2,
+              "info_short": "只招收英语语种考生；须口试成绩合格"
+            },
+            {
+              "sp_name": "日语",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "法学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "德语",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "俄语",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "乡村治理",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "物理和化学",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "植物生产类",
+              "plan": 3,
+              "info_short": "不招色盲考生；高校专项计划"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 2,
+              "info_short": "不招色弱、色盲考生；高校专项计划"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": "不招色盲考生；高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "生物",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "风景园林",
+              "plan": 1,
+              "info_short": "不招色盲考生；高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "历史",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "",
+          "zai": "不限",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        }
+      ],
+      "note": "山东实行专业(类)+院校志愿模式,无传统院校专业组; API 未提供 sg_name,按(首选/再选/招生类型)聚合为虚拟组"
+    },
+    "hebei": {
+      "name": "河北",
+      "mode": "新高考3+1+2",
+      "groups": [
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学",
+          "type": "优师专项",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 1,
+              "info_short": "优师专项；师范类；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "不限",
+          "type": "优师专项",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "优师专项；师范类；只招英语语种考生；须口试合格；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学",
+          "type": "公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "化学",
+              "plan": 7,
+              "info_short": "公费师范生；免学费"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "info_short": "公费师范生；国家公费师范生；师范类；本专业为本研衔接公费教育，履约任教范围：承德市、唐山市、衡水市、邯郸市、定州市，具体要求详询院校；免学费"
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 4,
+              "info_short": "公费师范生；免学费"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "info_short": "公费师范生；国家公费师范生；师范类；本专业为本研衔接公费教育，履约任教范围：邯郸市，具体要求详询院校；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 4,
+              "info_short": "公费师范生；国家公费师范生；师范类；不招色盲考生。本专业为本研衔接公费教育，履约任教范围：唐山市、保定市、衡水市、邯郸市，具体要求详询院校；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "地理",
+          "type": "公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 3,
+              "info_short": "公费师范生；国家公费师范生；师范类；不招色盲考生。本专业为本研衔接公费教育，履约任教范围：张家口市、保定市、定州市，具体要求详询院校；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "不限",
+          "type": "公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "公费师范生；国家公费师范生；师范类；只招英语语种考生；须口试合格；本专业为本研衔接公费教育，履约任教范围：衡水市、邯郸市，具体要求详询院校；免学费"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "公费师范生；国家公费师范生；师范类；不招色盲考生。本专业为本研衔接公费教育，履约任教范围：承德市、沧州市，具体要求详询院校；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "政治",
+          "type": "公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 2,
+              "info_short": "公费师范生；国家公费师范生；师范类；本专业为本研衔接公费教育，履约任教范围：保定市、邯郸市，具体要求详询院校；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "地理",
+          "type": "公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学",
+              "plan": 3,
+              "info_short": "公费师范生；国家公费师范生；师范类；不招色盲考生。本专业为本研衔接公费教育，履约任教范围：张家口市、保定市、定州市，具体要求详询院校；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "不限",
+          "type": "公费师范生",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "info_short": "公费师范生；国家公费师范生；师范类；本专业为本研衔接公费教育，履约任教范围：衡水市、定州市，具体要求详询院校；免学费"
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 2,
+              "info_short": "公费师范生；国家公费师范生；师范类；本专业为本研衔接公费教育，履约任教范围：承德市、定州市，具体要求详询院校；免学费"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "公费师范生；国家公费师范生；师范类；只招英语语种考生；须口试合格；本专业为本研衔接公费教育，履约任教范围：衡水市、邯郸市，具体要求详询院校；免学费"
+            },
+            {
+              "sp_name": "学前教育",
+              "plan": 1,
+              "info_short": "公费师范生；国家公费师范生；师范类；不招色弱、色盲考生。本专业为本研衔接公费教育，履约任教范围：定州市，具体要求详询院校；免学费"
+            },
+            {
+              "sp_name": "心理学",
+              "plan": 1,
+              "info_short": "公费师范生；国家公费师范生；师范类；不招色盲考生。本专业为本研衔接公费教育，履约任教范围：承德市、沧州市，具体要求详询院校；免学费"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学",
+          "type": "国家专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "植物生产类",
+              "plan": 5,
+              "info_short": "国家专项计划；农林类；含农学、园艺、植物保护专业；不招色盲考生"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 3,
+              "info_short": "国家专项计划；农林类；含农业资源与环境、水土保持与荒漠化防治、土地科学与技术专业；不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 3,
+              "info_short": "国家专项计划"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 2,
+              "info_short": "国家专项计划；不招色盲考生"
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 2,
+              "info_short": "国家专项计划；不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 2,
+              "info_short": "国家专项计划；含材料物理、金属材料工程、新能源材料与器件专业；不招色盲考生"
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 2,
+              "info_short": "国家专项计划"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "国家专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 1,
+              "info_short": "国家专项计划；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "生物",
+          "type": "国家专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "园林",
+              "plan": 2,
+              "info_short": "国家专项计划；农林类；不招色盲考生"
+            },
+            {
+              "sp_name": "风景园林",
+              "plan": 2,
+              "info_short": "国家专项计划；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "不限",
+          "type": "国家专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "info_short": "国家专项计划"
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "info_short": "国家专项计划"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "国家专项计划"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "软件工程",
+              "plan": 7,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚迪肯大学；学费50000元/年"
+            },
+            {
+              "sp_name": "自动化",
+              "plan": 6,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 6,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：新西兰奥克兰大学；学费50000元/年"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 6,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。暂按此标准收取，最终以价格主管部门审批为准，多退少补。外方合作高校：新西兰奥塔哥大学；学费60000元/年"
+            },
+            {
+              "sp_name": "植物科学与技术",
+              "plan": 6,
+              "info_short": "中外合作办学；农林类；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：美国密苏里州立大学；学费38000元/年"
+            },
+            {
+              "sp_name": "植物生产类",
+              "plan": 5,
+              "info_short": "农林类；含农学、园艺、植物保护专业；不招色盲考生"
+            },
+            {
+              "sp_name": "材料类",
+              "plan": 4,
+              "info_short": "含材料物理、金属材料工程、新能源材料与器件专业；不招色盲考生"
+            },
+            {
+              "sp_name": "自然保护与环境生态类",
+              "plan": 4,
+              "info_short": "农林类；含农业资源与环境、水土保持与荒漠化防治、土地科学与技术专业；不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 3,
+              "info_short": "中外合作办学；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "机械类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 3,
+              "info_short": ""
+            },
+            {
+              "sp_name": "物理学",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物技术",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "软件工程",
+              "plan": 2,
+              "info_short": "学费标准：第一二学年4500元/生.年，三四学年10500元/生.年"
+            },
+            {
+              "sp_name": "制药工程",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "蚕学",
+              "plan": 2,
+              "info_short": "双学士学位；农林类；不招色盲考生。蚕学+生物技术双学士学位复合型人才培养项目"
+            },
+            {
+              "sp_name": "药学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "信息安全",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "环境科学与工程",
+              "plan": 2,
+              "info_short": "不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "电气工程及其自动化",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "食品质量与安全",
+              "plan": 2,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚塔斯马尼亚大学；学费50000元/年"
+            },
+            {
+              "sp_name": "数学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "化学类",
+              "plan": 2,
+              "info_short": "含化学工程与工艺、应用化学专业；不招色弱、色盲考生"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "人工智能",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "生物质科学与工程",
+              "plan": 2,
+              "info_short": "农林类；不招色盲考生"
+            },
+            {
+              "sp_name": "农业机械化及其自动化",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "生物育种科学",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生"
+            },
+            {
+              "sp_name": "智慧农业",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学和生物",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "生物科学",
+              "plan": 2,
+              "info_short": "拔尖创新班；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "生物",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "风景园林",
+              "plan": 2,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "园林",
+              "plan": 1,
+              "info_short": "农林类；不招色盲考生"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "政治",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "地理",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 2,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "不限",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "经济学",
+              "plan": 3,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 3,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "只招英语语种考生；须口试合格"
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "政治",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "思想政治教育",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "马克思主义理论",
+              "plan": 2,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "地理",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "地理科学类",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "不限",
+          "type": "普通类",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "中国语言文学类",
+              "plan": 2,
+              "info_short": ""
+            },
+            {
+              "sp_name": "英语",
+              "plan": 1,
+              "info_short": "只招英语语种考生；须口试合格"
+            },
+            {
+              "sp_name": "经济学",
+              "plan": 1,
+              "info_short": "中外合作办学；以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚西澳大学；学费50000元/年"
+            },
+            {
+              "sp_name": "法学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "应用心理学",
+              "plan": 1,
+              "info_short": "不招色盲考生"
+            },
+            {
+              "sp_name": "农林经济管理",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "新闻学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "工商管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "公共管理类",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "教育学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "历史学",
+              "plan": 1,
+              "info_short": ""
+            },
+            {
+              "sp_name": "民族学",
+              "plan": 1,
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学",
+          "type": "荣昌校区",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "动物科学",
+              "plan": 4,
+              "info_short": "荣昌校区；中外合作办学；农林类；不招色盲考生。以英语为主要授课语言，建议英语语种考生报考。外方合作高校：澳大利亚詹姆斯·库克大学；学费40000元/年"
+            },
+            {
+              "sp_name": "水产类",
+              "plan": 4,
+              "info_short": "荣昌校区"
+            },
+            {
+              "sp_name": "动物医学类",
+              "plan": 3,
+              "info_short": "五年；荣昌校区；五年制；五年制"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "不限",
+          "type": "荣昌校区",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "管理科学与工程类",
+              "plan": 2,
+              "info_short": "荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "不限",
+          "type": "荣昌校区",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "市场营销",
+              "plan": 1,
+              "info_short": "荣昌校区"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "化学",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "植物生产类",
+              "plan": 2,
+              "info_short": "农林类；含农学、园艺、植物保护专业；不招色盲考生；高校专项计划"
+            },
+            {
+              "sp_name": "食品科学与工程类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "物理",
+          "zai": "不限",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        },
+        {
+          "code": null,
+          "shou": "历史",
+          "zai": "不限",
+          "type": "高校专项计划",
+          "min": null,
+          "majors": [
+            {
+              "sp_name": "公共管理类",
+              "plan": 2,
+              "info_short": "高校专项计划"
+            },
+            {
+              "sp_name": "经济学类",
+              "plan": 1,
+              "info_short": "高校专项计划"
+            }
+          ]
+        }
+      ],
+      "note": "河北 API 返回 sg_name 为空, 按(首选/再选/招生类型)聚合为虚拟组"
+    }
+  },
+  "stats": "西南大学2025年在7省(豫/苏/粤/鄂/闽/鲁/冀)共181个院校专业组、926条专业行、计划约2380人。招生类型含普通类、中外合作办学、国家专项、国家公费师范生(教育部直属、学费全免、6年定向)、优师专项(脱贫县定向)、高校专项、艺术学门类(广电编导/戏剧影视文学)。物理类选科以物理+化学为主,历史类以历史+不限为主;地理科学/旅游类再选地理,生物科学/食品类再选化学或生物。北碚为主校区,荣昌校区单列组(动物科学/水产/动物医学/食品),含与澳大利亚詹姆斯库克大学合作的动物科学中外合作项目。山东(3+3)与河北的 API 未返回 sg_name,按(首选/再选/类型)聚合为虚拟组;投档分以各省考试院最终公告为准。",
+  "totals": {
+    "groups": 181,
+    "major_rows": 926,
+    "plan": 2380
+  },
+  "caveats": [
+    "majors 字段从 gaokao.cn schoolspecialplan API 2025 (school_id=934) 完整补全; plan/info_short 反映官方招生计划",
+    "部分专业组的最低投档分仍在补全中,字段值为 null 表示未在公开渠道核实到精确数字",
+    "西南大学是教育部直属、国家\"双一流\"建设高校;办学地点含北碚主校区与荣昌校区(部分农学/兽医/水产类专业)",
+    "国家公费师范生(教育部六所直属师范之一)需签订协议,履约期回生源地中小学任教6年; 优师专项面向832个脱贫县定向培养",
+    "中外合作办学项目主要为荣昌校区动物科学(澳大利亚詹姆斯库克大学)及北碚校区计算机/软件工程/药学/生物技术等",
+    "山东无传统院校专业组,所有专业聚合为虚拟组,按专业(类)+院校志愿模式投档",
+    "河北 sg_name 为空,组别按 (首选,再选,招生类型) 聚合为虚拟组",
+    "推荐核对源: zs.swu.edu.cn 招生数据栏 + 各省教育考试院本科批投档线公告 (haeea.cn/jseea.cn/eeagd.edu.cn/hbea.edu.cn/eeafj.cn/sdzk.cn/hebeea.edu.cn)"
+  ]
+}
