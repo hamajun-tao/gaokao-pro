@@ -1,0 +1,3561 @@
+{
+  "uni": "国防科技大学",
+  "code": 8000,
+  "zs_code": "90039",
+  "gaokao_cn_school_id": 939,
+  "year": 2025,
+  "batch_default": "本科提前批",
+  "sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/939/2025/{provinceId}.json",
+    "https://static-data.gaokao.cn/www/2.0/school/939/info.json",
+    "https://www.nudt.edu.cn/bkzs/xxgk/261d950d8744426994ce27f462ce94a2.htm",
+    "https://as.nudt.edu.cn/",
+    "https://www.gaokao.cn/school/939"
+  ],
+  "fetched_at": "2026-05-26",
+  "notes": [
+    "数据源: gaokao.cn schoolspecialplan API (school_id=939) + 国防科技大学本科招生网 nudt.edu.cn/bkzs。",
+    "国防科技大学2025年全国招收生长军官本科学员2077人 (男1937/女140)；物理类1880/历史类197；无军籍地方本科生在9省份投放 (北京/辽宁/江西/山东/河南/湖南/四川/贵州/陕西)，含河南/山东。",
+    "track: 2073=物理类, 2074=历史类, 3=综合改革(山东)。zslx: 军事类=提前批生长军官 (军籍/免学费/政审面试体检合格); 普通类(批次=本科批/普通类一段)=无军籍地方本科生 (按本科一批/普通批投档,学费6500/5300)。",
+    "提前批 院校专业组 在 gaokao.cn 数据中 special_group 部分为 0; 已按 track(2073/2074) + 性别(男/女) + 再选科目 合成代号 (T01 物理-男-化学/ T02 物理-女-化学/ H01 历史-男/ H02 历史-女)。江苏/广东/湖北/福建 含原始 sg_name (01-09 / 101-108 / 500/700/999) 已直接保留。",
+    "女生限额: NUDT 2025 全国仅招女生 140 人。江苏(物07/物09/文02), 广东(物108/文102), 福建(500女组3人+999女组1人), 山东/河南/河北(女生在合成 T02/H02 组)。",
+    "school_min_2025 来自 gaokao.cn info.json province_score_min (本批最低投档/录取分),福建为2024旧值,因2025暂未回填。",
+    "info_short 摘自 info 首段岗位/方向描述; 完整专业说明详见 nudt.edu.cn/bkzs 招生章程附表。",
+    "山东 提前批A类71项, 含同专业按 J31/J32/J33/J34/J41/J42/J43 等子组 (gaokao.cn未细分),已按 track+性别 合并; 各 J 子组2025分数线: J42=653/J41=639/J43=630/J32=624/J33=624/J31=620/J34=618 (来自第三方汇总)。",
+    "学费: 军籍学员免学费(空); 无军籍地方本科生 工科类6500元/年, 大气科学类5300元/年。"
+  ],
+  "school_min_2025": {
+    "henan": {
+      "type": "2073",
+      "min": 650,
+      "track": "物理类",
+      "note": "含历史类2074=612"
+    },
+    "jiangsu": {
+      "type": "2073",
+      "min": 649,
+      "track": "物理类",
+      "note": "含历史类2074=634"
+    },
+    "guangdong": {
+      "type": "2073",
+      "min": 637,
+      "track": "物理类",
+      "note": "含历史类2074=623"
+    },
+    "hubei": {
+      "type": "2073",
+      "min": 626,
+      "track": "物理类",
+      "note": "含历史类2074=624"
+    },
+    "fujian": {
+      "type": "2073",
+      "min": 643,
+      "track": "物理类",
+      "note": "为2024旧值,2025暂缺;历史类2074=603(2024)"
+    },
+    "shandong": {
+      "type": "3",
+      "min": 640,
+      "track": "综合改革",
+      "note": "普通类一段; 提前批A类按J子组分别投档"
+    },
+    "hebei": {
+      "type": "2073",
+      "min": 641,
+      "track": "物理类",
+      "note": "含历史类2074=624"
+    }
+  },
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "372791",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "无军籍地方本科生",
+          "total_num": 45,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 14,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 10,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 8,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生"
+            },
+            {
+              "sp_name": "大气科学类",
+              "num": 5,
+              "tuition": 5300,
+              "info_short": "无军籍地方本科生"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 4,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 2,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生"
+            }
+          ]
+        },
+        {
+          "group_code": "P-F",
+          "sg_name": "（提前批·物理类·女生）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "军籍·军事类",
+          "sex": "女",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 1,
+              "info_short": "试验仿真初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "信息对抗技术",
+              "num": 1,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 1,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 1,
+              "info_short": "任务规划初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "卫星互联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            }
+          ]
+        },
+        {
+          "group_code": "P-M",
+          "sg_name": "（提前批·物理类·男生）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "军籍·军事类",
+          "sex": "男",
+          "total_num": 120,
+          "items": [
+            {
+              "sp_name": "大气科学类",
+              "num": 7,
+              "info_short": "战场环境保障、武器研发初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "信息对抗技术",
+              "num": 7,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 4,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 4,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 4,
+              "info_short": "数据管理与应用初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 4,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 4,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 4,
+              "info_short": "任务规划初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 4,
+              "info_short": "装备试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 3,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "雷达工程",
+              "num": 3,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 3,
+              "info_short": "网电情报分析初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 3,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 3,
+              "info_short": "数据、目标保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "信息工程",
+              "num": 2,
+              "info_short": "地理空间信息、电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 2,
+              "info_short": "电磁频谱初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "指挥信息系统工程",
+              "num": 2,
+              "info_short": "指挥信息保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "导弹工程",
+              "num": 2,
+              "info_short": "武器研发试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "军事海洋学",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 2,
+              "info_short": "武器装备论证设计、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋技术",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 2,
+              "info_short": "试验仿真初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "机械工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "无人装备工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "物理学类",
+              "num": 2,
+              "info_short": "武器研发试验、新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "新概念武器技术与工程",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "认知安全与技术",
+              "num": 2,
+              "info_short": "军事外交、情报分析整编初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "航天测控装备初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "外交学",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "导航工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "武器系统与工程",
+              "num": 1,
+              "info_short": "武器装备初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "数据科学与大数据技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "化学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "核工程与核技术",
+              "num": 1,
+              "info_short": "武器研发试验、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "应用统计学",
+              "num": 1,
+              "info_short": "武器研发试验、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网电指挥与工程",
+              "num": 1,
+              "info_short": "电子对抗、网络安全初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "无人系统指挥与控制",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "预警探测",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电磁频谱工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "卫星互联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            }
+          ]
+        },
+        {
+          "group_code": "H-F",
+          "sg_name": "（提前批·历史类·女生）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "军籍·军事类",
+          "sex": "女",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "印度尼西亚语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            }
+          ]
+        },
+        {
+          "group_code": "H-M",
+          "sg_name": "（提前批·历史类·男生）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选政治",
+          "batch": "本科提前批",
+          "zslx": "军籍·军事类",
+          "sex": "男",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 2,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "外交学",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "俄语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "日语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "缅甸语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "阿拉伯语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "土耳其语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "波斯语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "希腊语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "455432",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 2,
+              "info_short": "数据管理与应用初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 1,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455433",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 33,
+          "items": [
+            {
+              "sp_name": "大气科学类",
+              "num": 3,
+              "info_short": "战场环境保障、武器研发初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 2,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "航天测控装备初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "导弹工程",
+              "num": 1,
+              "info_short": "武器研发试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "导航工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "武器装备论证设计、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 1,
+              "info_short": "试验仿真初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物理学类",
+              "num": 1,
+              "info_short": "武器研发试验、新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "无人系统指挥与控制",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 1,
+              "info_short": "任务规划初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 1,
+              "info_short": "数据、目标保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 1,
+              "info_short": "装备试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "新概念武器技术与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "预警探测",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电磁频谱工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "卫星互联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455434",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "信息对抗技术",
+              "num": 4,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 2,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息工程",
+              "num": 1,
+              "info_short": "地理空间信息、电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "雷达工程",
+              "num": 1,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 1,
+              "info_short": "网电情报分析初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网电指挥与工程",
+              "num": 1,
+              "info_short": "电子对抗、网络安全初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455435",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "侦察情报",
+              "num": 1,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 1,
+              "info_short": "装备试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455436",
+          "sg_name": "（08）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "通信工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 1,
+              "info_short": "电磁频谱初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "指挥信息系统工程",
+              "num": 1,
+              "info_short": "指挥信息保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455437",
+          "sg_name": "（09）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455617",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "越南语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "印度尼西亚语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "阿拉伯语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "老挝语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455618",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "西班牙语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "455619",
+          "sg_name": "（03）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "外交学",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "258092",
+          "sg_name": "（104）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 1,
+              "info_short": "数据管理与应用初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 1,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "258093",
+          "sg_name": "（105）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 32,
+          "items": [
+            {
+              "sp_name": "大气科学类",
+              "num": 3,
+              "info_short": "战场环境保障、武器研发初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 2,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "航天测控装备初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "导弹工程",
+              "num": 1,
+              "info_short": "武器研发试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "导航工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "武器装备论证设计、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 1,
+              "info_short": "试验仿真初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物理学类",
+              "num": 1,
+              "info_short": "武器研发试验、新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "无人系统指挥与控制",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 1,
+              "info_short": "任务规划初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 1,
+              "info_short": "数据、目标保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 1,
+              "info_short": "装备试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "新概念武器技术与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "预警探测",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电磁频谱工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "卫星互联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "258094",
+          "sg_name": "（106）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "信息对抗技术",
+              "num": 3,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 2,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "雷达工程",
+              "num": 1,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 1,
+              "info_short": "网电情报分析初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网电指挥与工程",
+              "num": 1,
+              "info_short": "电子对抗、网络安全初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "258095",
+          "sg_name": "（107）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "通信工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "指挥信息系统工程",
+              "num": 1,
+              "info_short": "指挥信息保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "258096",
+          "sg_name": "（108）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 1,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "大气科学类",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "258000",
+          "sg_name": "（101）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "朝鲜语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "日语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "土耳其语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "老挝语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "258001",
+          "sg_name": "（102）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "印度尼西亚语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "258002",
+          "sg_name": "（103）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "456229",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 1,
+              "info_short": "数据管理与应用初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 1,
+              "info_short": "指挥勤务保障初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456230",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 53,
+          "items": [
+            {
+              "sp_name": "大气科学类",
+              "num": 4,
+              "info_short": "战场环境保障、武器研发初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 3,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "机械工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "无人装备工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 2,
+              "info_short": "数据、目标保障初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "认知安全与技术",
+              "num": 2,
+              "info_short": "军事外交、情报分析整编初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "航天测控装备初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "导弹工程",
+              "num": 1,
+              "info_short": "武器研发试验初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "导航工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "武器系统与工程",
+              "num": 1,
+              "info_short": "武器装备初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官;外语语种：英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "军事海洋学",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官;外语语种：英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种：英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "武器装备论证设计、技术保障初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "数据科学与大数据技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "海洋技术",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "化学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 1,
+              "info_short": "试验仿真初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "核工程与核技术",
+              "num": 1,
+              "info_short": "武器研发试验、技术保障初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "应用统计学",
+              "num": 1,
+              "info_short": "武器研发试验、技术保障初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物理学类",
+              "num": 1,
+              "info_short": "武器研发试验、新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 1,
+              "info_short": "任务规划初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 1,
+              "info_short": "装备试验初级指挥与技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "新概念武器技术与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "预警探测",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电磁频谱工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "卫星互联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456231",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选思想政治",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 2,
+              "info_short": "军事外交初级指挥军官;外语语种:英语;男,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456232",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "信息对抗技术",
+              "num": 3,
+              "info_short": "电子对抗初级指挥与技术军官;外语语种:英语;男,电子对抗岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 3,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官;外语语种:英语;男,电子对抗岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息工程",
+              "num": 1,
+              "info_short": "地理空间信息、电子对抗初级指挥与技术军官;外语语种:英语;男,电子对抗岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "雷达工程",
+              "num": 1,
+              "info_short": "电子对抗初级指挥与技术军官;外语语种:英语;男,电子对抗岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 1,
+              "info_short": "网电情报分析初级指挥与技术军官;外语语种:英语;男,电子对抗岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网电指挥与工程",
+              "num": 1,
+              "info_short": "电子对抗、网络安全初级指挥与技术军官;外语语种:英语;男,电子对抗岗位合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456233",
+          "sg_name": "（08）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "通信工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官;外语语种:英语;男,通信导航岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官;外语语种:英语;男,通信导航岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官;外语语种：英语;男,通信导航岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 1,
+              "info_short": "电磁频谱初级技术军官;外语语种:英语;男,通信导航岗位合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "指挥信息系统工程",
+              "num": 1,
+              "info_short": "指挥信息保障初级技术军官;外语语种:英语;男,通信导航岗位合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456234",
+          "sg_name": "（09）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 1,
+              "info_short": "数据管理与应用初级技术军官;外语语种:英语;女,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456235",
+          "sg_name": "（10）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "航空航天类",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;女,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;女,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官;外语语种:英语;女,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电磁频谱工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官;外语语种:英语;女,通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456413",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官；外语语种：英语；男，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "俄语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官；外语语种：英语；男，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "法语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官；外语语种：英语；男，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "印地语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官；外语语种：英语；男，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "波斯语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官；外语语种：英语；男，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "希腊语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官；外语语种：英语；男，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456414",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "外交学",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官；外语语种：英语；男，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "456415",
+          "sg_name": "（03）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "西班牙语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官；外语语种：英语；女，通用标准合格",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "466578",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 42,
+          "items": [
+            {
+              "sp_name": "大气科学类",
+              "num": 4,
+              "info_short": "战场环境保障、武器研发初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息对抗技术",
+              "num": 4,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 2,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息工程",
+              "num": 1,
+              "info_short": "地理空间信息、电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "航天测控装备初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 1,
+              "info_short": "电磁频谱初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "指挥信息系统工程",
+              "num": 1,
+              "info_short": "指挥信息保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "雷达工程",
+              "num": 1,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "信息安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "导航工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 1,
+              "info_short": "网电情报分析初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "武器装备论证设计、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 1,
+              "info_short": "试验仿真初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "网电指挥与工程",
+              "num": 1,
+              "info_short": "电子对抗、网络安全初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "物理学类",
+              "num": 1,
+              "info_short": "武器研发试验、新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 1,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "无人系统指挥与控制",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 1,
+              "info_short": "任务规划初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 1,
+              "info_short": "数据、目标保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 1,
+              "info_short": "装备试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "新概念武器技术与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "466891",
+          "sg_name": "（999）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 2,
+              "info_short": "数据管理与应用初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 2,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "日语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "466892",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "466866",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "朝鲜语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "法语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "土耳其语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            },
+            {
+              "sp_name": "老挝语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "466867",
+          "sg_name": "（700）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        },
+        {
+          "group_code": "466868",
+          "sg_name": "（999）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "普通类",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "法语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3",
+      "groups": [
+        {
+          "group_code": "C-X-CIV",
+          "sg_name": "（无军籍·综合改革）",
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "普通类一段",
+          "zslx": "无军籍地方本科生",
+          "sex": "不限",
+          "total_num": 60,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 14,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生",
+              "sex": "不限"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 12,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生",
+              "sex": "不限"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 11,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生",
+              "sex": "不限"
+            },
+            {
+              "sp_name": "大气科学类",
+              "num": 9,
+              "tuition": 5300,
+              "info_short": "无军籍地方本科生",
+              "sex": "不限"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 8,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生",
+              "sex": "不限"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 3,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生",
+              "sex": "不限"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 3,
+              "tuition": 6500,
+              "info_short": "无军籍地方本科生",
+              "sex": "不限"
+            }
+          ]
+        },
+        {
+          "group_code": "C-F",
+          "sg_name": "（提前批·综合改革·女生）",
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "提前批A类",
+          "zslx": "普通类",
+          "sex": "女",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "武器装备论证设计、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "法语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "信息对抗技术",
+              "num": 1,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "无人装备工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 1,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            }
+          ]
+        },
+        {
+          "group_code": "C-M",
+          "sg_name": "（提前批·综合改革·男生）",
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "提前批A类",
+          "zslx": "普通类",
+          "sex": "男",
+          "total_num": 111,
+          "items": [
+            {
+              "sp_name": "大气科学类",
+              "num": 6,
+              "info_short": "战场环境保障、武器研发初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "信息对抗技术",
+              "num": 5,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "外交学",
+              "num": 4,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 4,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 4,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 3,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "雷达工程",
+              "num": 3,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 3,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 3,
+              "info_short": "网电情报分析初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 3,
+              "info_short": "数据管理与应用初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 3,
+              "info_short": "数据、目标保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 3,
+              "info_short": "装备试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 2,
+              "info_short": "电磁频谱初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "指挥信息系统工程",
+              "num": 2,
+              "info_short": "指挥信息保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "军事海洋学",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋技术",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "机械工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "无人装备工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "物理学类",
+              "num": 2,
+              "info_short": "武器研发试验、新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 2,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 2,
+              "info_short": "任务规划初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "新概念武器技术与工程",
+              "num": 2,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "认知安全与技术",
+              "num": 2,
+              "info_short": "军事外交、情报分析整编初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "信息工程",
+              "num": 1,
+              "info_short": "地理空间信息、电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "航天测控装备初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "导弹工程",
+              "num": 1,
+              "info_short": "武器研发试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "信息安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "导航工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "武器系统与工程",
+              "num": 1,
+              "info_short": "武器装备初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "武器装备论证设计、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "数据科学与大数据技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "化学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "俄语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 1,
+              "info_short": "试验仿真初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "核工程与核技术",
+              "num": 1,
+              "info_short": "武器研发试验、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "印地语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "应用统计学",
+              "num": 1,
+              "info_short": "武器研发试验、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网电指挥与工程",
+              "num": 1,
+              "info_short": "电子对抗、网络安全初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "无人系统指挥与控制",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "预警探测",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电磁频谱工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "卫星互联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "希腊语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "P-F",
+          "sg_name": "（提前批·物理类·女生）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批A段",
+          "zslx": "普通类",
+          "sex": "女",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 1,
+              "info_short": "网电情报分析初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 1,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 1,
+              "info_short": "数据、目标保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            }
+          ]
+        },
+        {
+          "group_code": "P-M",
+          "sg_name": "（提前批·物理类·男生）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批A段",
+          "zslx": "普通类",
+          "sex": "男",
+          "total_num": 84,
+          "items": [
+            {
+              "sp_name": "信息对抗技术",
+              "num": 4,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "作战指挥",
+              "num": 4,
+              "info_short": "电子对抗作战指挥初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "雷达工程",
+              "num": 3,
+              "info_short": "电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 3,
+              "info_short": "情报分析整编、图像判读初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "大气科学类",
+              "num": 3,
+              "info_short": "战场环境保障、武器研发初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "装备试验系统工程",
+              "num": 3,
+              "info_short": "装备试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "测控技术与仪器",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "侦察情报",
+              "num": 2,
+              "info_short": "网电情报分析初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电子信息工程",
+              "num": 2,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "军事海洋学",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "大数据管理与应用",
+              "num": 2,
+              "info_short": "数据管理与应用初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋技术",
+              "num": 2,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 2,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "机械工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "无人装备工程",
+              "num": 2,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "任务规划",
+              "num": 2,
+              "info_short": "任务规划初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "认知安全与技术",
+              "num": 2,
+              "info_short": "军事外交、情报分析整编初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "信息工程",
+              "num": 1,
+              "info_short": "地理空间信息、电子对抗初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网络工程",
+              "num": 1,
+              "info_short": "通信初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "光电信息科学与工程",
+              "num": 1,
+              "info_short": "航天测控装备初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "航空航天类",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电子科学与技术",
+              "num": 1,
+              "info_short": "电磁频谱初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "软件工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "物联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "指挥信息系统工程",
+              "num": 1,
+              "info_short": "指挥信息保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "导弹工程",
+              "num": 1,
+              "info_short": "武器研发试验初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "材料科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "集成电路设计与集成系统",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "信息安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "导航工程",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "武器系统与工程",
+              "num": 1,
+              "info_short": "武器装备初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "数学与应用数学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "微电子科学与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "战场环境保障、武器研发初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "海洋信息工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "生物技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "理论与应用力学",
+              "num": 1,
+              "info_short": "武器装备论证设计、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "数据科学与大数据技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "化学",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "智能科学与技术",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "仿真工程",
+              "num": 1,
+              "info_short": "试验仿真初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网络空间安全",
+              "num": 1,
+              "info_short": "网络信息防御、通信初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "应用统计学",
+              "num": 1,
+              "info_short": "武器研发试验、技术保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "网电指挥与工程",
+              "num": 1,
+              "info_short": "电子对抗、网络安全初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "物理学类",
+              "num": 1,
+              "info_short": "武器研发试验、新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "管理科学",
+              "num": 1,
+              "info_short": "指挥勤务保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "无人系统指挥与控制",
+              "num": 1,
+              "info_short": "无人装备初级指挥与技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "目标保障",
+              "num": 1,
+              "info_short": "数据、目标保障初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "新概念武器技术与工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "预警探测",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "电磁频谱工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "卫星互联网工程",
+              "num": 1,
+              "info_short": "新兴高技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            }
+          ]
+        },
+        {
+          "group_code": "H-F",
+          "sg_name": "（提前批·历史类·女生）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批A段",
+          "zslx": "普通类",
+          "sex": "女",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "英语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "女"
+            }
+          ]
+        },
+        {
+          "group_code": "H-M",
+          "sg_name": "（提前批·历史类·男生）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选政治",
+          "batch": "本科提前批A段",
+          "zslx": "普通类",
+          "sex": "男",
+          "total_num": 9,
+          "items": [
+            {
+              "sp_name": "外交学",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "俄语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "法语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "国际事务与国际关系",
+              "num": 1,
+              "info_short": "军事外交初级指挥军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "缅甸语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "阿拉伯语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "土耳其语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "波斯语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            },
+            {
+              "sp_name": "希腊语",
+              "num": 1,
+              "info_short": "军事翻译、军事外语技术初级技术军官",
+              "tuition_note": "免费(军籍)",
+              "sex": "男"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

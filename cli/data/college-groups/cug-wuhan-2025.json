@@ -1,0 +1,3784 @@
+{
+  "_kind": "中国地质大学(武汉) 2025 院校专业组招生计划",
+  "_university": "中国地质大学(武汉)",
+  "_code_enroll": "1491",
+  "_school_id_eolcn": 121,
+  "_year": 2025,
+  "_provinces_covered": [
+    "河南",
+    "江苏",
+    "广东",
+    "湖北",
+    "福建",
+    "山东",
+    "河北"
+  ],
+  "_sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/121/2025/{41,32,44,42,35,37,13}.json (eol.cn 静态接口, 2025 招生计划)",
+    "https://static-data.gaokao.cn/www/2.0/school/121/info.json (pro_type_min — 2025 投档最低分)",
+    "https://zhaosheng.cug.edu.cn/ (中国地质大学(武汉) 官方招生网，2025 招生章程与计划)",
+    "https://www.gaokao.cn/school/121 (gaokao.cn 中国地质大学(武汉) 院校页)"
+  ],
+  "_notes": [
+    "山东 (37) 为 3+3 综合改革 (type=3)；其余 6 省均为 3+1+2 新高考，按物理类 (2073) / 历史类 (2074) 双轨投档。",
+    "新高考省份按官方公布的 院校专业组 (三位组号) 划分；河北/山东 在 eol.cn 接口为聚合 (sg=0) 记录，按 (track, zslx, batch) 归类输出。",
+    "去重策略：当 eol.cn 同时给出 special_group=0 聚合记录与 special_group!=0 分组记录时，仅保留后者，避免重复计入。",
+    "min_admission_2025 来自 info.json 的 pro_type_min 字段，对应各省 track 主轨投档最低分；具体分组明细以省考试院公告为准。",
+    "province_cutoff_2025_ref 为 2025 各省 本科批/一段控制分数线 (公开口径)，作为位次参考。",
+    "湖北 (本省) 组数最多，包含 普通类 / 中外合作 / 国家专项 / 民族预科 等多模块，总计划数最大 (本科批主轨)；办学地点以未来城/南望山校区为主。",
+    "中外合作办学组主要为：与德国安哈尔特应用技术大学 (地理空间信息工程/自动化等)、英国 Sussex 大学等的合作项目，学费 65000–75000 元/年。",
+    "中国地质大学(武汉) 特色专业：地质学、地球物理学类、资源勘查工程、宝石及材料工艺学、地理信息科学、勘查技术与工程等为国家级一流本科专业。",
+    "info 字段保留办学地点 / 学制 / 体检限制等关键备注 (单字段 ≤220 字符)。"
+  ],
+  "_extracted_at": "2026-05-26",
+  "provinces": [
+    {
+      "province": "henan",
+      "province_cn": "河南",
+      "province_id": 41,
+      "uses_college_groups": true,
+      "group_count": 12,
+      "total_plan": 281,
+      "min_admission_2025": {
+        "物理类": 615,
+        "历史类": 609
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 447,
+        "历史类": 519
+      },
+      "groups": [
+        {
+          "group_code": "215",
+          "special_group_id": "368801",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081205T",
+              "name": "地理空间信息工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "74000",
+              "category": "测绘类",
+              "note": "（中外合作办学）（合作方：德国安哈尔特应用技术大学；色盲色弱受限）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group_code": "214",
+          "special_group_id": "368802",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 5,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "自动化类",
+              "note": "（中外合作办学）（合作方：德国安哈尔特应用技术大学；色盲受限）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group_code": "213",
+          "special_group_id": "368803",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080202",
+              "name": "机械设计制造及其自动化",
+              "num": 3,
+              "length": "四年",
+              "tuition": "72000",
+              "category": "机械类",
+              "note": "（中外合作办学）（合作方：德国安哈尔特应用技术大学）"
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group_code": "212",
+          "special_group_id": "368804",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 5,
+              "length": "四年",
+              "tuition": "65000",
+              "category": "计算机类",
+              "note": "（中外合作办学）（大数据方向）（合作方：美国伊利诺伊理工大学）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group_code": "211",
+          "special_group_id": "368805",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081404T",
+              "name": "地下水科学与工程",
+              "num": 6,
+              "length": "四年",
+              "tuition": "55000",
+              "category": "地质类",
+              "note": "（中外合作办学）（合作方：加拿大滑铁卢大学；色盲色弱受限）"
+            }
+          ],
+          "total_plan": 6
+        },
+        {
+          "group_code": "104",
+          "special_group_id": "368806",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": ""
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "（包含专业：工商管理（双语教学班）、会计学）"
+            }
+          ],
+          "total_plan": 6
+        },
+        {
+          "group_code": "102",
+          "special_group_id": "368807",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 19,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（地球物理与信息类）（包含专业：地球物理学、地球信息科学与技术、勘查技术与工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 16,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "（包含专业：计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术；大类中软件工程专业色盲色弱受限）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 14,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（资源能源）（包含专业：资源勘查工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 14,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（包含专业：电子信息工程、通信工程；色盲受限）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 12,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "（包含专业：材料科学与工程、材料化学；色盲色弱受限）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 12,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "（包含专业：土木工程、城市地下空间工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 11,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "（包含专业：地质工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "（测绘与信息类）（包含专业：测绘工程、遥感科学与技术、地理空间信息工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "安全科学与工程类",
+              "note": "（包含专业：安全工程、应急技术与管理；色盲色弱受限）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 9,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "（色盲色弱受限）"
+            },
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 9,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "（环境地球科学类）（包含专业：生物科学、水文与水资源工程、地下水科学与工程、环境工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "物理学类",
+              "note": ""
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（色盲色弱受限）"
+            },
+            {
+              "spcode": "0705",
+              "name": "地理科学类",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地理科学类",
+              "note": "（包含专业：地理科学、地理信息科学；色盲色弱受限）"
+            },
+            {
+              "spcode": "080410T",
+              "name": "宝石及材料工艺学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "材料类",
+              "note": "（色盲色弱受限）"
+            },
+            {
+              "spcode": "070601",
+              "name": "大气科学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "大气科学类",
+              "note": "（色盲色弱受限）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（包含专业：信息管理与信息系统、工程管理）"
+            },
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "（包含专业：测控技术与仪器、自动化；色盲受限）"
+            },
+            {
+              "spcode": "081407T",
+              "name": "资源环境大数据工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（色盲色弱受限）"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "（包含专业：机械设计制造及其自动化）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "数学类",
+              "note": "（包含专业：数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080503T",
+              "name": "新能源科学与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "能源动力类",
+              "note": "（色盲色弱受限）"
+            },
+            {
+              "spcode": "081502",
+              "name": "石油工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "矿业类",
+              "note": "（色盲色弱受限）"
+            },
+            {
+              "spcode": "120404",
+              "name": "土地资源管理",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": ""
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（未来技术学院）（包含专业：地质学、资源勘查工程、地质工程、地球物理学、机械设计制造及其自动化、计算机科学与技术、自动化、海洋科学；色盲色弱受限）"
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": ""
+            }
+          ],
+          "total_plan": 186
+        },
+        {
+          "group_code": "101",
+          "special_group_id": "368808",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（国家拔尖计划,国家理科基地班）（包含专业：地质学；色盲色弱受限）"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（国家拔尖计划）（色盲色弱受限）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（菁英班）（包含专业：地质学、地球物理学、遥感科学与技术；色盲色弱受限）"
+            }
+          ],
+          "total_plan": 7
+        },
+        {
+          "group_code": "301",
+          "special_group_id": "368851",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 11,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "（国家专项）（包含专业：测控技术与仪器、自动化；色盲受限）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（国家专项）（包含专业：信息管理与信息系统、工程管理）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "（国家专项）（包含专业：计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术；大类中软件工程专业色盲色弱受限）"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（国家专项）（色盲色弱受限）"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "（国家专项）（包含专业：机械设计制造及其自动化）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "（国家专项）（包含专业：地质工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "（国家专项）（包含专业：土木工程，城市地下空间工程；色盲色弱受限）"
+            }
+          ],
+          "total_plan": 33
+        },
+        {
+          "group_code": "302",
+          "special_group_id": "368865",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": "（国家专项计划）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group_code": "107",
+          "special_group_id": "368875",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "思想政治",
+            "info": "首选历史，再选思想政治"
+          },
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "马克思主义理论类",
+              "note": ""
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group_code": "103",
+          "special_group_id": "368876",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "（包含专业：工商管理（双语教学班）会计学）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": ""
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": ""
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "（包含专业：经济学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": ""
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "新闻传播学类",
+              "note": ""
+            }
+          ],
+          "total_plan": 20
+        }
+      ]
+    },
+    {
+      "province": "jiangsu",
+      "province_cn": "江苏",
+      "province_id": 32,
+      "uses_college_groups": true,
+      "group_count": 7,
+      "total_plan": 101,
+      "min_admission_2025": {
+        "物理类": 603,
+        "历史类": 598
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 481,
+        "历史类": 484
+      },
+      "groups": [
+        {
+          "group_code": "02",
+          "special_group_id": "426322",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "思想政治",
+            "info": "首选历史，再选思想政治"
+          },
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "马克思主义理论类",
+              "note": ""
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group_code": "01",
+          "special_group_id": "426323",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "（工商管理（双语教学班）、会计学）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "（经济学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": ""
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "新闻传播学类",
+              "note": ""
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": ""
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": ""
+            }
+          ],
+          "total_plan": 17
+        },
+        {
+          "group_code": "07",
+          "special_group_id": "426346",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081205T",
+              "name": "地理空间信息工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "74000",
+              "category": "测绘类",
+              "note": "（（中外合作办学）报考该专业组有色觉要求，详询院校）"
+            }
+          ],
+          "total_plan": 1
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "426347",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080202",
+              "name": "机械设计制造及其自动化",
+              "num": 2,
+              "length": "四年",
+              "tuition": "72000",
+              "category": "机械类",
+              "note": "（中外合作办学）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "426348",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 2,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "自动化类",
+              "note": "（（中外合作办学）报考该专业组有色觉要求，详询院校）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "426349",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（地质学、地球物理学、遥感科学与技术）（菁英班）（报考该专业组有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（拔尖计划）（报考该专业组有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（地质学）（拔尖计划，理科基地班）（报考该专业组有色觉要求，详询院校）"
+            }
+          ],
+          "total_plan": 7
+        },
+        {
+          "group_code": "03",
+          "special_group_id": "426350",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 7,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（地球物理学、地球信息科学与技术、勘查技术与工程）（地球物理与信息类）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "080410T",
+              "name": "宝石及材料工艺学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "材料类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "（计算机科学与技术、软件工程、信息安金、智能科学与技术、空间信息与数字技术、数据科学与大数据技术）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "（材料科学与工程、材料化学）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "安全科学与工程类",
+              "note": "（安全工程、应急技术与管理）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "080503T",
+              "name": "新能源科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "能源动力类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "120404",
+              "name": "土地资源管理",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "（生物科学、水文与水资源工程、地苄永科学与工程、环境工程）（环境地球科学类）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "（地质工程）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "（测绘工程、遥感科学与技术、地理空间信息工程）（测绘与信息类）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "（测控技术与仪器、自动化）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "物理学类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "081502",
+              "name": "石油工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "矿业类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "070601",
+              "name": "大气科学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "大气科学类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（资源勘查工程、资源能源）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（信息管理与信息系统、工程管理）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（地质学、资源勘查工程、地质工程、地球物理学、机械设计制造及其自动化、计算机科学与技术、自动化、海洋科学）（未来技术学院）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（电子信息工程、通信工程）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0705",
+              "name": "地理科学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地理科学类",
+              "note": "（地理科学、地理信息科学）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "（土木工程、城市地下空间工程）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "081407T",
+              "name": "资源环境大数据工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "数学类",
+              "note": "（数学与应用数学、信息与计算科学）（报考该专业组部分专业有色觉要求，详询院校）"
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（报考该专业组部分专业有色觉要求，详询院校）"
+            }
+          ],
+          "total_plan": 69
+        }
+      ]
+    },
+    {
+      "province": "guangdong",
+      "province_cn": "广东",
+      "province_id": 44,
+      "uses_college_groups": true,
+      "group_count": 10,
+      "total_plan": 149,
+      "min_admission_2025": {
+        "物理类": 586,
+        "历史类": 593
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 433,
+        "历史类": 449
+      },
+      "groups": [
+        {
+          "group_code": "213",
+          "special_group_id": "432032",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "思想政治",
+            "info": "首选历史，再选思想政治"
+          },
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "马克思主义理论类",
+              "note": "（办学地点：校本部）"
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group_code": "212",
+          "special_group_id": "432033",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 9,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "（含工商管理（双语教学班）、会计学专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "（含经济学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            }
+          ],
+          "total_plan": 20
+        },
+        {
+          "group_code": "221",
+          "special_group_id": "432061",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081404T",
+              "name": "地下水科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "55000",
+              "category": "地质类",
+              "note": "（中外合作办学）（与加拿大滑铁卢大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；请色盲色弱的考生慎重报考；办学地点：校本部）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group_code": "220",
+          "special_group_id": "432062",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 3,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "自动化类",
+              "note": "（中外合作办学）（与德国安哈尔特应用技术大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；请色盲的考生慎重报考；办学地点：校本部）"
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group_code": "219",
+          "special_group_id": "432063",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081205T",
+              "name": "地理空间信息工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "74000",
+              "category": "测绘类",
+              "note": "（中外合作办学）（与德国安哈尔特应用技术大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；请色盲色弱的考生慎重报考；办学地点：校本部）"
+            }
+          ],
+          "total_plan": 1
+        },
+        {
+          "group_code": "218",
+          "special_group_id": "432064",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080202",
+              "name": "机械设计制造及其自动化",
+              "num": 4,
+              "length": "四年",
+              "tuition": "72000",
+              "category": "机械类",
+              "note": "（中外合作办学）（与德国安哈尔特应用技术大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：校本部）"
+            }
+          ],
+          "total_plan": 4
+        },
+        {
+          "group_code": "215",
+          "special_group_id": "432065",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（地球物理与信息类）（含地球物理学、地球信息科学与技术、勘查技术与工程专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 9,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（资源能源）（含资源勘查工程专业请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 9,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "（测绘与信息类）（含测绘工程、遥感科学与技术、地理空间信息工程专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0707",
+              "name": "海洋科学类",
+              "num": 9,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "海洋科学类",
+              "note": "（含海洋科学、海洋工程与技术专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "080410T",
+              "name": "宝石及材料工艺学",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "材料类",
+              "note": "（请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "（环境地球科学类）（含生物科学、水文与水资源工程、地下水科学与工程、环境工程专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "（含计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（含电子信息工程、通信工程专业请色盲的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "（含材料科学与工程、材料化学专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "（请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（含信息管理与信息系统、工程管理专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "（含测控技术与仪器、自动化专业请色盲的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "（含土木工程、城市地下空间工程专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "安全科学与工程类",
+              "note": "（含安全工程、应急技术与管理专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（国家拔尖计划,国家理科基地班）（含地质学专业请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "数学类",
+              "note": "（含数学与应用数学、信息与计算科学专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "0705",
+              "name": "地理科学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地理科学类",
+              "note": "（含地理科学、地理信息科学专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "081502",
+              "name": "石油工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "矿业类",
+              "note": "（请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "（含地质工程专业请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（未来技术学院）（含地质学、资源勘查工程、地质工程、地球物理学、机械设计制造及其自动化、计算机科学与技术、自动化、海洋科学专业请色盲色弱的考生慎重报考；具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "081407T",
+              "name": "资源环境大数据工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（请色盲色弱的考生慎重报考；办学地点：校本部）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "物理学类",
+              "note": "（办学地点：校本部）"
+            }
+          ],
+          "total_plan": 108
+        },
+        {
+          "group_code": "214",
+          "special_group_id": "432066",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "不限",
+            "info": "首选物理，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "（含工商管理（双语教学班）、会计学专业；办学地点：校本部；备注：具体专业分流情况请查看学校网站）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "（含经济学、国际经济与贸易专业；办学地点：校本部；备注：具体专业分流情况请查看学校网站）"
+            }
+          ],
+          "total_plan": 6
+        },
+        {
+          "group_code": "707",
+          "special_group_id": "258732",
+          "track": "物理类",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "（特殊类型招生）（包含专业：080202.机械设计制造及其自动化）（住宿费：待定）（办学地点：校本部）（招生种类：高校专项计划）"
+            }
+          ],
+          "total_plan": 1
+        },
+        {
+          "group_code": "708",
+          "special_group_id": "258733",
+          "track": "物理类",
+          "batch": "特殊类型招生批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0707",
+              "name": "海洋科学类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "海洋科学类",
+              "note": "（特殊类型招生）（包含专业：070701.海洋科学+081902.海洋工程与技术）（住宿费：待定）（办学地点：校本部）（招生种类：高校专项计划）（请色盲色弱的考生慎重报考）"
+            }
+          ],
+          "total_plan": 1
+        }
+      ]
+    },
+    {
+      "province": "hubei",
+      "province_cn": "湖北",
+      "province_id": 42,
+      "uses_college_groups": true,
+      "group_count": 12,
+      "total_plan": 983,
+      "min_admission_2025": {
+        "物理类": 587,
+        "历史类": 594
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 432,
+        "历史类": 471
+      },
+      "groups": [
+        {
+          "group_code": "16",
+          "special_group_id": "291193",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0",
+              "name": "本科预科班",
+              "num": 4,
+              "length": "一年",
+              "tuition": "3375",
+              "category": "",
+              "note": "（公办）（湖北）（少数民族预科班；外语语种：不限；学制：一年）"
+            }
+          ],
+          "total_plan": 4
+        },
+        {
+          "group_code": "15",
+          "special_group_id": "291194",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081205T",
+              "name": "地理空间信息工程",
+              "num": 12,
+              "length": "四年",
+              "tuition": "74000",
+              "category": "测绘类",
+              "note": "（公办）（湖北）（中外合作办学）（色盲色弱受限；德国安哈尔特应用技术大学）"
+            }
+          ],
+          "total_plan": 12
+        },
+        {
+          "group_code": "14",
+          "special_group_id": "291195",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 20,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "自动化类",
+              "note": "（公办）（湖北）（中外合作办学）（色盲受限；德国安哈尔特应用技术大学）"
+            }
+          ],
+          "total_plan": 20
+        },
+        {
+          "group_code": "13",
+          "special_group_id": "291196",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080202",
+              "name": "机械设计制造及其自动化",
+              "num": 15,
+              "length": "四年",
+              "tuition": "72000",
+              "category": "机械类",
+              "note": "（公办）（湖北）（中外合作办学）（德国安哈尔特应用技术大学）"
+            }
+          ],
+          "total_plan": 15
+        },
+        {
+          "group_code": "12",
+          "special_group_id": "291197",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 30,
+              "length": "四年",
+              "tuition": "65000",
+              "category": "计算机类",
+              "note": "（公办）（湖北）（中外合作办学）（大数据方向；美国伊利诺伊理工大学）"
+            }
+          ],
+          "total_plan": 30
+        },
+        {
+          "group_code": "11",
+          "special_group_id": "291198",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081404T",
+              "name": "地下水科学与工程",
+              "num": 13,
+              "length": "四年",
+              "tuition": "55000",
+              "category": "地质类",
+              "note": "（公办）（湖北）（中外合作办学）（色盲色弱受限；加拿大滑铁卢大学）"
+            }
+          ],
+          "total_plan": 13
+        },
+        {
+          "group_code": "10",
+          "special_group_id": "291199",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 87,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "（公办）（湖北）（计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术；大类中软件工程专业色盲色弱受限）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 73,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（公办）（湖北）（电子信息工程、通信工程；色盲受限）"
+            },
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 70,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "（公办）（湖北）（测控技术与仪器、自动化；色盲受限）"
+            },
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 54,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（公办）（湖北）（地球物理与信息类；地球物理学、地球信息科学与技术、勘查技术与工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 43,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "（公办）（湖北）（测绘与信息类；测绘工程、遥感科学与技术、地理空间信息工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 39,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "数学类",
+              "note": "（公办）（湖北）（数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 30,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（公办）（湖北）（未来技术学院；地质学、资源勘查工程、地质工程、地球物理学、机械设计制造及其自动化、计算机科学与技术、自动化、海洋科学；色盲色弱受限）"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 26,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "（公办）（湖北）（机械设计制造及其自动化）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 24,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 24,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "（公办）（湖北）（地质工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 22,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "（公办）（湖北）（材料科学与工程、材料化学：色盲色弱受限）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 21,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（公办）（湖北）（资源能源；资源勘查工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 21,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（公办）（湖北）（信息管理与信息系统、工程管理）"
+            },
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 20,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "（公办）（湖北）（环境地球科学类；生物科学、水文与水资源工程、地下水科学与工程、环境工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "120404",
+              "name": "土地资源管理",
+              "num": 19,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": "（公办）（湖北）"
+            },
+            {
+              "spcode": "0707",
+              "name": "海洋科学类",
+              "num": 15,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "海洋科学类",
+              "note": "（公办）（湖北）（海洋科学、海洋工程与技术；色盲色弱受限）"
+            },
+            {
+              "spcode": "0705",
+              "name": "地理科学类",
+              "num": 15,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地理科学类",
+              "note": "（公办）（湖北）（地理科学、地理信息科学：色盲色弱受限）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "num": 14,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "物理学类",
+              "note": "（公办）（湖北）"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 14,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "安全科学与工程类",
+              "note": "（公办）（湖北）（安全工程、应急技术与管理；色盲色弱受限）"
+            },
+            {
+              "spcode": "081407T",
+              "name": "资源环境大数据工程",
+              "num": 9,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "070601",
+              "name": "大气科学",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "大气科学类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（公办）（湖北）"
+            },
+            {
+              "spcode": "080503T",
+              "name": "新能源科学与工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "能源动力类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "080410T",
+              "name": "宝石及材料工艺学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "材料类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "081502",
+              "name": "石油工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "矿业类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            }
+          ],
+          "total_plan": 665
+        },
+        {
+          "group_code": "09",
+          "special_group_id": "291200",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 16,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（公办）（湖北）（菁英班；地质学、地球物理学、遥感科学与技术；色盲色弱受限）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 13,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（公办）（湖北）（国家拔尖计划，国家理科基地班；地质学；色盲色弱受限）"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（公办）（湖北）（国家拔尖计划；色盲色弱受限）"
+            }
+          ],
+          "total_plan": 35
+        },
+        {
+          "group_code": "17",
+          "special_group_id": "291261",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 18,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "（公办）（湖北）（土木工程、城市地下空间工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（公办）（湖北）（电子信息工程、通信工程；色盲受限）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（公办）（湖北）（色盲色弱受限）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（公办）（湖北）（资源能源；资源勘查工程；色盲色弱受限）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（公办）（湖北）（信息管理与信息系统、工程管理）"
+            }
+          ],
+          "total_plan": 47
+        },
+        {
+          "group_code": "07",
+          "special_group_id": "291245",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "思想政治",
+            "info": "首选历史，再选思想政治"
+          },
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "num": 18,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "马克思主义理论类",
+              "note": "（公办）（湖北）"
+            }
+          ],
+          "total_plan": 18
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "291246",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 48,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "（公办）（湖北）（工商管理（双语教学班）、会计学）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 26,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "（公办）（湖北）（经济学、国际经济与贸易）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 20,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": "（公办）（湖北）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 10,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": "（公办）（湖北）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 8,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": "（公办）（湖北）"
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 7,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "新闻传播学类",
+              "note": "（公办）（湖北）"
+            }
+          ],
+          "total_plan": 119
+        },
+        {
+          "group_code": "08",
+          "special_group_id": "291271",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "国家专项计划",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": "（公办）（湖北）"
+            }
+          ],
+          "total_plan": 5
+        }
+      ]
+    },
+    {
+      "province": "fujian",
+      "province_cn": "福建",
+      "province_id": 35,
+      "uses_college_groups": true,
+      "group_count": 6,
+      "total_plan": 71,
+      "min_admission_2025": {
+        "物理类": 585,
+        "历史类": 589
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 437,
+        "历史类": 462
+      },
+      "groups": [
+        {
+          "group_code": "999",
+          "special_group_id": "393342",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "史",
+            "sxk": "不限",
+            "info": "首选历史，再选不限"
+          },
+          "majors": [
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": ""
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "（含经济学、国际经济与贸易）"
+            }
+          ],
+          "total_plan": 5
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393376",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "（资源能源）（含资源勘查工程。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0707",
+              "name": "海洋科学类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "海洋科学类",
+              "note": "（含海洋科学、海洋工程与技术。色盲、色弱受限）"
+            },
+            {
+              "spcode": "080410T",
+              "name": "宝石及材料工艺学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "材料类",
+              "note": "（色盲、色弱受限）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "（含信息管理与信息系统、工程管理）"
+            },
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "（地球物理与信息类）（含地球物理学、地球信息科学与技术、勘查技术与工程。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "安全科学与工程类",
+              "note": "（含安全工程、应急技术与管理。色盲、色弱受限）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "物理学类",
+              "note": ""
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（色盲、色弱受限）"
+            },
+            {
+              "spcode": "070601",
+              "name": "大气科学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "大气科学类",
+              "note": "（色盲、色弱受限）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（国家拔尖计划，国家理科基地班）（含地质学。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "（菁英班）（含地质学、地球物理学、遥感科学与技术。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "（含计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术。大类中软件工程专业色盲、色弱受限）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "（测绘与信息类）（含测绘工程、遥感科学与技术、地理空间信息工程。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "数学类",
+              "note": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（含电子信息工程、通信工程。色盲受限）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "（未来技术学院）（含地质学、资源勘查工程、地质工程、地球物理学、机械设计制造及其自动化、计算机科学与技术、自动化、海洋科学。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0705",
+              "name": "地理科学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地理科学类",
+              "note": "（含地理科学、地理信息科学。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "（含土木工程、城市地下空间工程。色盲、色弱受限）"
+            },
+            {
+              "spcode": "080503T",
+              "name": "新能源科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "能源动力类",
+              "note": "（色盲、色弱受限）"
+            },
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "（含测控技术与仪器、自动化。色盲受限）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "（含材料科学与工程、材料化学。色盲、色弱受限）"
+            },
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "（环境地球科学类）（含：生物科学、水文与水资源工程、地下水科学与工程、环境工程。色盲、色弱受限。）（高校专项计划）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "（含：材料科学与工程、材料化学。色盲、色弱受限。）（高校专项计划）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "（含：土木工程、城市地下空间工程。色盲、色弱受限。）（高校专项计划）"
+            }
+          ],
+          "total_plan": 57
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393372",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作办学（4）",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 3,
+              "length": "四年",
+              "tuition": "65000",
+              "category": "计算机类",
+              "note": "（4）（中外合作办学）（大数据方向）（美国伊利诺伊理工大学）"
+            }
+          ],
+          "total_plan": 3
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393373",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作办学（3）",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 1,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "自动化类",
+              "note": "（3）（中外合作办学）（色盲受限；德国安哈尔特应用技术大学）"
+            }
+          ],
+          "total_plan": 1
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393374",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作办学（2）",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "081404T",
+              "name": "地下水科学与工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "55000",
+              "category": "地质类",
+              "note": "（2）（中外合作办学）（色盲、色弱受限；加拿大滑铁卢大学）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393375",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "中外合作办学（1）",
+          "xuanke": {
+            "fxk": "物",
+            "sxk": "化",
+            "info": "首选物理，再选化学"
+          },
+          "majors": [
+            {
+              "spcode": "080202",
+              "name": "机械设计制造及其自动化",
+              "num": 3,
+              "length": "四年",
+              "tuition": "72000",
+              "category": "机械类",
+              "note": "（1）（中外合作办学）（德国安哈尔特应用技术大学）"
+            }
+          ],
+          "total_plan": 3
+        }
+      ]
+    },
+    {
+      "province": "shandong",
+      "province_cn": "山东",
+      "province_id": 37,
+      "uses_college_groups": false,
+      "group_count": 3,
+      "total_plan": 217,
+      "min_admission_2025": {
+        "综合改革": 577
+      },
+      "province_cutoff_2025_ref": {
+        "综合改革": 449
+      },
+      "groups": [
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "综合改革",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 19,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "物理、化学(2科必选) （计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术）（大类中，软件工程专业色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 11,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "物理、化学(2科必选) （测绘与信息类）（测绘工程、遥感科学与技术、地理空间信息工程）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0707",
+              "name": "海洋科学类",
+              "num": 11,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "海洋科学类",
+              "note": "物理、化学(2科必选) （海洋科学、海洋艹工程与技术）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "物理、化学(2科必选) （资源能源）（资源勘查工程）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "物理、化学(2科必选) （电子信息工程、通信工程）（色盲考生慎报）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "物理、化学(2科必选) （土木工程、城市地下空间工程）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 9,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "不限 （工商管理（双语教学班）、会计学）"
+            },
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 8,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "物理、化学(2科必选) （环境地球科学类）（生物科学、水文与水资源工程、地下水科学与工程、环境工程）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "物理、化学(2科必选) （测控技术与仪器、自动化）（色盲考生慎报）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 7,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "物理、化学(2科必选) （信息管理与信息系统、工程管理）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 7,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "数学类",
+              "note": "物理、化学(2科必选) （数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "120404",
+              "name": "土地资源管理",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": "物理、化学(2科必选)"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": "不限"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "物理、化学(2科必选) （机械设计制造及其自动化）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "物理、化学(2科必选) （材料科学与工程、材料化学）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "080410T",
+              "name": "宝石及材料工艺学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "材料类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生：慎报）"
+            },
+            {
+              "spcode": "081502",
+              "name": "石油工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "矿业类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生；慎报）"
+            },
+            {
+              "spcode": "070601",
+              "name": "大气科学",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "大气科学类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "物理、化学(2科必选) （国家拔尖计划，国家理科基地班）（地质学）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "物理、化学(2科必选) （菁英班）（地质i学、地球物理学、遥感科学与技术）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "物理、化学(2科必选) （地质工程）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0705",
+              "name": "地理科学类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地理科学类",
+              "note": "物理、化学(2科必选) （地理科学、地理信息科学）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "080503T",
+              "name": "新能源科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "能源动力类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "物理、化学(2科必选) （国家拔尖计划）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "不限 （经济学、国际经济与贸易）"
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "新闻传播学类",
+              "note": "不限"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "物理、化学(2科必选) （未来技术学院）（地质学、资源勘查工程、地质工程、地球物理学、机械设计制造及其自动化、计算机科学与技术、自动化、海洋科学）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "物理、化学(2科必选) （地球物理与信息类）（地球物理学、地球信息科学与技术、勘查技术与工程）（色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "物理、化学(2科必选)"
+            },
+            {
+              "spcode": "081407T",
+              "name": "资源环境大数据工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生慎报）"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": "不限"
+            }
+          ],
+          "total_plan": 190
+        },
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "综合改革",
+          "batch": "普通类一段",
+          "zslx": "中外合作办学",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 6,
+              "length": "四年",
+              "tuition": "65000",
+              "category": "计算机类",
+              "note": "物理、化学(2科必选) （中外合作办学）（大数据方向）（美国伊利诺伊理工大学）"
+            },
+            {
+              "spcode": "080202",
+              "name": "机械设计制造及其自动化",
+              "num": 5,
+              "length": "四年",
+              "tuition": "72000",
+              "category": "机械类",
+              "note": "物理、化学(2科必选) （中外合作办学）（德国安哈尔特应用技术大学）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 3,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "自动化类",
+              "note": "物理、化学(2科必选) （中外合作办学）（色盲考生慎报；德国安哈尔特应用技术大学）"
+            },
+            {
+              "spcode": "081404T",
+              "name": "地下水科学与工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "55000",
+              "category": "地质类",
+              "note": "物理、化学(2科必选) （中外合作办学）（色盲、色弱考生慎报；加拿大滑铁卢大学）"
+            },
+            {
+              "spcode": "081205T",
+              "name": "地理空间信息工程",
+              "num": 2,
+              "length": "四年",
+              "tuition": "74000",
+              "category": "测绘类",
+              "note": "物理、化学(2科必选) （中外合作办学）（色盲、色弱考生慎报；德国安哈尔特应用技术大学）"
+            }
+          ],
+          "total_plan": 19
+        },
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "综合改革",
+          "batch": "特殊类型批",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": "不限 （高校专项计划）"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "物理、化学(2科必选) （色盲、色弱考生慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "物理、化学(2科必选) （国家拔尖计划）（色盲、色弱考生慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "马克思主义理论类",
+              "note": "思想政治必选 （高校专项计划）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "物理、化学(2科必选) （地质工程）（色盲、色弱考生慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "物理、化学(2科必选) （计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术）（大类中软件工程专业色盲、色弱考生慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "物理、化学(2科必选) （测绘与信息类）（测绘工程、遥感科学与技术、地理空间信息工程）（色盲、色弱考生慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0707",
+              "name": "海洋科学类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "海洋科学类",
+              "note": "物理、化学(2科必选) （海洋科学、海洋工程与技术）（色盲、色弱考生慎报）（高校专项计划）"
+            }
+          ],
+          "total_plan": 8
+        }
+      ]
+    },
+    {
+      "province": "hebei",
+      "province_cn": "河北",
+      "province_id": 13,
+      "uses_college_groups": false,
+      "group_count": 5,
+      "total_plan": 269,
+      "min_admission_2025": {
+        "物理类": 592,
+        "历史类": 610
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 448,
+        "历史类": 482
+      },
+      "groups": [
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 16,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "首选物理，再选化学 （环境地球科学类）（含生物科学、水文与水资源工程、地下水科学与工程、环境工程专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 16,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "首选物理，再选化学 （含电子信息工程、通信工程专业；色盲慎报）"
+            },
+            {
+              "spcode": "0808",
+              "name": "自动化类",
+              "num": 12,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "自动化类",
+              "note": "首选物理，再选化学 （含测控技术与仪器、自动化专业；色盲慎报）"
+            },
+            {
+              "spcode": "0810",
+              "name": "土木类",
+              "num": 12,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "土木类",
+              "note": "首选物理，再选化学 （含土木工程、城市地下空间工程专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 12,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "首选物理，再选化学 （地球物理与信息类）（含地球物理学、地球信息科学与技术、勘查技术与工程专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0707",
+              "name": "海洋科学类",
+              "num": 11,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "海洋科学类",
+              "note": "首选物理，再选化学 （含海洋科学、海洋工程与技术专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 8,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "首选物理，再选化学 （含计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术专业；大类中软件工程专业色盲色弱慎报）"
+            },
+            {
+              "spcode": "080410T",
+              "name": "宝石及材料工艺学",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "材料类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "num": 7,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "材料类",
+              "note": "首选物理，再选化学 （含材料科学与工程、材料化学专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "070601",
+              "name": "大气科学",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "大气科学类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）"
+            },
+            {
+              "spcode": "1201",
+              "name": "管理科学与工程类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "首选物理，再选化学 （含信息管理与信息系统、工程管理专业）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "物理学类",
+              "note": "首选物理，再选化学"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）"
+            },
+            {
+              "spcode": "081502",
+              "name": "石油工程",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "矿业类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）"
+            },
+            {
+              "spcode": "080202",
+              "name": "机械设计制造及其自动化",
+              "num": 5,
+              "length": "四年",
+              "tuition": "72000",
+              "category": "机械类",
+              "note": "首选物理，再选化学 （中外合作办学）（德国安哈尔特应用技术大学）"
+            },
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 5,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "首选物理，再选不限 （含工商管理（双语教学班）、会计学专业）"
+            },
+            {
+              "spcode": "080801",
+              "name": "自动化",
+              "num": 4,
+              "length": "四年",
+              "tuition": "75000",
+              "category": "自动化类",
+              "note": "首选物理，再选化学 （中外合作办学）（色盲慎报；德国安哈尔特应用技术大学）"
+            },
+            {
+              "spcode": "120404",
+              "name": "土地资源管理",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": "首选物理，再选化学"
+            },
+            {
+              "spcode": "081404T",
+              "name": "地下水科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "55000",
+              "category": "地质类",
+              "note": "首选物理，再选化学 （中外合作办学）（色盲色弱慎报；加拿大滑铁卢大学）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "num": 4,
+              "length": "四年",
+              "tuition": "65000",
+              "category": "计算机类",
+              "note": "首选物理，再选化学 （中外合作办学）（大数据方向）（美国伊利诺伊理工大学）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "首选物理，再选化学 （资源能源）（含资源勘查工程专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "首选物理，再选化学 （含地质工程专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "首选物理，再选不限 （含经济学、国际经济与贸易专业）"
+            },
+            {
+              "spcode": "0705",
+              "name": "地理科学类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地理科学类",
+              "note": "首选物理，再选化学 （含地理科学、地理信息科学专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0829",
+              "name": "安全科学与工程类",
+              "num": 4,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "安全科学与工程类",
+              "note": "首选物理，再选化学 （含安全工程、应急技术与管理专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "080503T",
+              "name": "新能源科学与工程",
+              "num": 4,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "能源动力类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "首选物理，再选化学 （国家拔尖计划，国家理科基地班）（含地质学专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "首选物理，再选化学 （含机械设计制造及其自动化专业）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "数学类",
+              "note": "首选物理，再选化学 （含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "spcode": "081407T",
+              "name": "资源环境大数据工程",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）"
+            },
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "首选物理，再选化学 （国家拔尖计划）（色盲色弱慎报）"
+            },
+            {
+              "spcode": "0709",
+              "name": "地质学类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "首选物理，再选化学 （菁英班）（含地质学、地球物理学、遥感科学与技术专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0807",
+              "name": "电子信息类",
+              "num": 2,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "电子信息类",
+              "note": "首选物理，再选化学 （未来技术学院）（含地质学、资源勘查工程、地质工程、地球物理学、机械设计制造及其自动化、计算机科学与技术、自动化、海洋科学专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "081205T",
+              "name": "地理空间信息工程",
+              "num": 1,
+              "length": "四年",
+              "tuition": "74000",
+              "category": "测绘类",
+              "note": "首选物理，再选化学 （中外合作办学）（色盲色弱慎报；德国安哈尔特应用技术大学）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": "首选物理，再选不限"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "首选物理，再选化学 （测绘与信息类）（含测绘工程、遥感科学与技术、地理空间信息工程专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "120111T",
+              "name": "应急管理",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "管理科学与工程类",
+              "note": "首选物理，再选化学"
+            }
+          ],
+          "total_plan": 202
+        },
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "1202",
+              "name": "工商管理类",
+              "num": 10,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "工商管理类",
+              "note": "首选历史，再选不限 （含工商管理（双语教学班）、会计学专业）"
+            },
+            {
+              "spcode": "0201",
+              "name": "经济学类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "经济学类",
+              "note": "首选历史，再选不限 （含经济学、国际经济与贸易专业）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "num": 3,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "公共管理类",
+              "note": "首选历史，再选不限"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "num": 3,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "外国语言文学类",
+              "note": "首选历史，再选不限"
+            },
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": "首选历史，再选不限"
+            },
+            {
+              "spcode": "050302",
+              "name": "广播电视学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "新闻传播学类",
+              "note": "首选历史，再选不限"
+            }
+          ],
+          "total_plan": 24
+        },
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "物理类",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项计划",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 7,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "首选物理，再选化学 （国家专项计划）（色盲色弱慎报）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 7,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "首选物理，再选化学 （国家专项计划）（含计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术专业；大类中软件工程专业色盲色弱慎报）"
+            },
+            {
+              "spcode": "070302",
+              "name": "应用化学",
+              "num": 6,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "化学类",
+              "note": "首选物理，再选化学 （国家专项计划）（色盲色弱慎报）"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "首选物理，再选化学 （国家专项计划）（含机械设计制造及其自动化专业）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 6,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "首选物理，再选化学 （国家专项计划）（含地质工程专业；色盲色弱慎报）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质类",
+              "note": "首选物理，再选化学 （国家专项计划）（资源能源）（含资源勘查工程专业；色盲色弱慎报）"
+            }
+          ],
+          "total_plan": 33
+        },
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "历史类",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "法学类",
+              "note": "首选历史，再选不限 （高校专项计划）"
+            },
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "马克思主义理论类",
+              "note": "首选历史，再选思想政治 （高校专项计划）"
+            }
+          ],
+          "total_plan": 2
+        },
+        {
+          "group_code": "",
+          "special_group_id": "",
+          "track": "物理类",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项计划",
+          "xuanke": {
+            "fxk": "",
+            "sxk": "不限",
+            "info": ""
+          },
+          "majors": [
+            {
+              "spcode": "070901",
+              "name": "地质学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地质学类",
+              "note": "首选物理，再选化学 （色盲色弱慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "070801",
+              "name": "地球物理学",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "首选物理，再选化学 （国家拔尖计划）（色盲色弱慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0825",
+              "name": "环境科学与工程类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "环境科学与工程类",
+              "note": "首选物理，再选化学 （环境地球科学类）（含生物科学、水文与水资源工程、地下水科学与工程、环境工程专业；色盲色弱慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0802",
+              "name": "机械类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "机械类",
+              "note": "首选物理，再选化学 （含机械设计制造及其自动化专业）（高校专项计划）"
+            },
+            {
+              "spcode": "0814",
+              "name": "地质类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "地质类",
+              "note": "首选物理，再选化学 （含地质工程专业；色盲色弱慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0809",
+              "name": "计算机类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "计算机类",
+              "note": "首选物理，再选化学 （含计算机科学与技术、软件工程、信息安全、智能科学与技术、空间信息与数字技术、数据科学与大数据技术专业；软件工程专业色盲色弱慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0812",
+              "name": "测绘类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "5850",
+              "category": "测绘类",
+              "note": "首选物理，再选化学 （测绘与信息类）（含测绘工程、遥感科学与技术、地理空间信息工程专业；色盲色弱慎报）（高校专项计划）"
+            },
+            {
+              "spcode": "0708",
+              "name": "地球物理学类",
+              "num": 1,
+              "length": "四年",
+              "tuition": "4500",
+              "category": "地球物理学类",
+              "note": "首选物理，再选化学 （地球物理与信息类）（含地球物理学、地球信息科学与技术、勘查技术与工程专业；色盲色弱慎报）（高校专项计划）"
+            }
+          ],
+          "total_plan": 8
+        }
+      ]
+    }
+  ]
+}

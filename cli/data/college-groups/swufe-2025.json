@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "uni": "西南财经大学",
+    "code": 1647,
+    "zs_code_guobiao": "10651",
+    "year": 2025,
+    "compiled": "2026-05-26",
+    "sources": [
+      "zb.swufe.edu.cn 西南财经大学本科招生网 2025 招生专业(类)一览表",
+      "zsdata.swufe.edu.cn 西南财经大学招生信息查询系统 历年录取",
+      "eol.cn 中国教育在线 2025 各地高校投档线汇总",
+      "jseea.cn 江苏省教育考试院 2025 本科批平行志愿投档线 (历史/物理)",
+      "eea.gd.gov.cn 广东省教育考试院 2025 本科批投档",
+      "zsxxw.e21.cn 湖北招生信息综合服务平台 2025",
+      "sdzk.cn 山东省教育招生考试院 2025 普通类常规批投档表",
+      "hebeea.edu.cn 河北省教育考试院 2025 本科批投档",
+      "fjeea.cn / eeafj.cn 福建省教育考试院 2025 本科批投档",
+      "haedu.cn / heao.gov.cn 河南省 2025 本科一批投档",
+      "gaokao.cn / gk100.com / xinshinet.com / dakao100.com / 6617.com / dxsbb.com 转载汇总"
+    ],
+    "note": "1647 为西南财经大学在多数省份的招生代号(4位)；国标 10651。专业组号/选科要求以各省官方公告为准；位次为该省该科类同分排序后的最低位次。西南财经大学定位经管法为核心，物理组核心专业为金融学类、经济学类、会计学、计算机科学与技术、人工智能、统计学类、数据科学与大数据技术、数字经济、保险学类、财政税务类、工商管理类等；历史组以会计学、金融学、法学、工商管理类、经济学类、新闻传播学类等为主。设特拉华数据科学学院(信息管理与信息系统/金融数学/物流管理 中外合作)、中外合作办学项目(会计学/市场营销/国际商务)，独立组投档。"
+  },
+  "provinces": [
+    {
+      "province": "河南",
+      "reform": "3+1+2 第2年",
+      "groups": [
+        {"track": "物理", "name_in_plan": "西南财经大学(第102组)", "group": "102", "subject_req": "化学/不限", "min_score": 635, "min_rank": 15727, "note": "物理类普通主组；组内含金融学类、经济学类、会计学、计算机科学与技术、人工智能、数据科学与大数据技术、统计学类、数字经济、工商管理类、财政学类、保险学类等；多数高位专业要求化学。"},
+        {"track": "物理", "name_in_plan": "西南财经大学(第101组)", "group": "101", "subject_req": "不限", "min_score": 627, "min_rank": 20939, "note": "物理不限组；含工商管理类、经济学类、法学等不限化学专业；含部分中外合作方向"},
+        {"track": "物理", "name_in_plan": "西南财经大学(第302组·国家专项)", "group": "302", "subject_req": "化学/不限", "min_score": 636, "min_rank": 15066, "note": "国家专项物理组；面向河南农村及贫困地区考生"},
+        {"track": "历史", "name_in_plan": "西南财经大学(第101组)", "group": "101", "subject_req": "不限", "min_score": 617, "min_rank": 3030, "note": "历史类主组；含会计学、金融学、法学、工商管理类、经济学类、财务管理、新闻传播学类、外国语言文学类等"}
+      ]
+    },
+    {
+      "province": "江苏",
+      "reform": "3+1+2",
+      "school_code_local": "1647",
+      "groups": [
+        {"track": "物理", "name_in_plan": "西南财经大学05专业组", "code": "1647", "group": "05", "subject_req": "化学", "min_score": 624, "min_rank": null, "note": "物理+化学组；含金融学类、数据科学与大数据技术、计算机科学与技术、人工智能、统计学类、数字经济等需化学专业"},
+        {"track": "物理", "name_in_plan": "西南财经大学04专业组", "code": "1647", "group": "04", "subject_req": "不限", "min_score": 613, "min_rank": 23947, "note": "物理不限组；含经济学类、工商管理类、会计学、法学、保险学类、财政学类等"},
+        {"track": "物理", "name_in_plan": "西南财经大学03专业组(中外合作)", "code": "1647", "group": "03", "subject_req": "不限", "min_score": 585, "min_rank": null, "note": "物理类中外合作办学组；含会计学(中外合作)、市场营销(中外合作)、国际商务(中外合作)、特拉华数据科学学院相关方向"},
+        {"track": "历史", "name_in_plan": "西南财经大学02专业组", "code": "1647", "group": "02", "subject_req": "不限", "min_score": 615, "min_rank": 2944, "note": "历史不限组主投档；含会计学、金融学、工商管理类、经济学类、法学、新闻传播学类、外国语言文学类等"}
+      ]
+    },
+    {
+      "province": "广东",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "西南财经大学", "group": "201", "subject_req": "不限", "min_score": 606, "min_rank": 22630, "note": "物理类主组；含金融学类、经济学类、会计学、工商管理类、统计学类、保险学类、财政学类、法学等"},
+        {"track": "物理", "name_in_plan": "西南财经大学", "group": "202", "subject_req": "化学", "min_score": 609, "min_rank": null, "note": "物理+化学组；含计算机科学与技术、人工智能、数据科学与大数据技术、数字经济等"},
+        {"track": "物理", "name_in_plan": "西南财经大学(中外合作)", "group": "203", "subject_req": "不限", "min_score": 578, "min_rank": null, "note": "中外合作办学物理组"},
+        {"track": "历史", "name_in_plan": "西南财经大学", "group": "204", "subject_req": "不限", "min_score": 611, "min_rank": 3145, "note": "历史类主组；含会计学、金融学、法学、工商管理类、经济学类、财务管理、新闻传播学类"}
+      ]
+    },
+    {
+      "province": "湖北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "西南财经大学(普通类)", "group": "03", "subject_req": "化学/不限", "min_score": 612, "min_rank": null, "note": "物理类主组；含金融学类、经济学类、会计学、计算机科学与技术、人工智能、统计学类、数字经济、工商管理类、财政学类等"},
+        {"track": "物理", "name_in_plan": "西南财经大学(普通类)", "group": "06", "subject_req": "不限", "min_score": 607, "min_rank": null, "note": "物理不限组；含工商管理类、法学等不限化学专业"},
+        {"track": "物理", "name_in_plan": "西南财经大学(国家专项)", "group": "07", "subject_req": "化学/不限", "min_score": 615, "min_rank": null, "note": "国家专项物理组"},
+        {"track": "物理", "name_in_plan": "西南财经大学(中外合作)", "group": "04", "subject_req": "不限", "min_score": 595, "min_rank": 16516, "note": "中外合作物理组；含会计学(中外)/市场营销(中外)/国际商务(中外)/特拉华学院相关方向"},
+        {"track": "历史", "name_in_plan": "西南财经大学(普通类)", "group": "01", "subject_req": "不限", "min_score": 602, "min_rank": 2921, "note": "历史类主组；含会计学、金融学、法学、工商管理类、经济学类、财务管理、新闻传播学类"},
+        {"track": "历史", "name_in_plan": "西南财经大学(国家专项)", "group": "02", "subject_req": "不限", "min_score": 590, "min_rank": null, "note": "国家专项历史组"}
+      ]
+    },
+    {
+      "province": "福建",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "西南财经大学", "group": "999", "subject_req": "化学/不限", "min_score": 623, "min_rank": 8255, "note": "物理类院校代码组；含金融学类、经济学类、会计学、计算机科学与技术、人工智能、统计学类、数字经济、工商管理类、财政学类、保险学类、法学等"},
+        {"track": "物理", "name_in_plan": "西南财经大学(中外合作)", "group": "500", "subject_req": "不限", "min_score": 593, "min_rank": null, "note": "中外合作办学物理组；含会计学/市场营销/国际商务(中外合作)及特拉华数据科学学院"},
+        {"track": "历史", "name_in_plan": "西南财经大学", "group": "999", "subject_req": "不限", "min_score": 598, "min_rank": 1405, "note": "历史类主组；含会计学、金融学、法学、工商管理类、经济学类、新闻传播学类等"}
+      ]
+    },
+    {
+      "province": "山东",
+      "reform": "3+3 综合",
+      "note": "山东不分院校专业组，按专业(类)+院校投档；下方为西南财经大学在鲁专业(类)代表性段位。",
+      "groups": [
+        {"track": "综合", "name_in_plan": "西南财经大学(普通类一段·最低)", "group": null, "subject_req": "差异", "min_score": 603, "min_rank": 23010, "note": "院校在鲁最低投档段位(信息管理与信息系统/物流管理等)；2025 院校线 603"},
+        {"track": "综合", "name_in_plan": "西南财经大学(会计学)", "group": null, "subject_req": "不限", "min_score": 628, "min_rank": 8860, "note": "院校最高专业"},
+        {"track": "综合", "name_in_plan": "西南财经大学(金融学)", "group": null, "subject_req": "不限", "min_score": 625, "min_rank": null, "note": "院校高位专业"},
+        {"track": "综合", "name_in_plan": "西南财经大学(经济学类)", "group": null, "subject_req": "不限", "min_score": 620, "min_rank": null},
+        {"track": "综合", "name_in_plan": "西南财经大学(计算机科学与技术)", "group": null, "subject_req": "物化", "min_score": 615, "min_rank": null},
+        {"track": "综合", "name_in_plan": "西南财经大学(信息管理与信息系统)", "group": null, "subject_req": "差异", "min_score": 578, "min_rank": 40727, "note": "中外合作/特拉华学院方向相关段位"}
+      ]
+    },
+    {
+      "province": "河北",
+      "reform": "3+1+2",
+      "note": "河北本科批为专业+学校平行志愿(96 个)，不设院校专业组；下列为西南财经大学在冀代表性段位。",
+      "groups": [
+        {"track": "物理", "name_in_plan": "西南财经大学(本科批·物化组)", "group": null, "subject_req": "物理+化学", "min_score": 620, "min_rank": null, "note": "物化要求专业(计算机/数据/数字经济/人工智能等)代表性段位"},
+        {"track": "物理", "name_in_plan": "西南财经大学(本科批·物不限)", "group": null, "subject_req": "物理+不限", "min_score": 614, "min_rank": 17521, "note": "院校在冀物理类整体最低段位"},
+        {"track": "物理", "name_in_plan": "西南财经大学(本科批·中外合作)", "group": null, "subject_req": "物理+不限", "min_score": 590, "min_rank": null, "note": "中外合作办学方向"},
+        {"track": "历史", "name_in_plan": "西南财经大学(本科批)", "group": null, "subject_req": "不限", "min_score": 626, "min_rank": 1884, "note": "历史类院校最低段位"}
+      ]
+    }
+  ]
+}

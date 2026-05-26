@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "uni": "上海财经大学",
+    "code": 1258,
+    "zs_code_guobiao": "10272",
+    "year": 2025,
+    "compiled": "2026-05-26",
+    "sources": [
+      "zs.sufe.edu.cn 上海财经大学招生网 (高考录取查询/历年分数)",
+      "eol.cn 中国教育在线 2025 各地高校投档线汇总",
+      "jseea.cn 江苏省教育考试院 2025 普通类本科批平行志愿投档线 (历史/物理)",
+      "eea.gd.gov.cn 广东省教育考试院 2025 本科批投档",
+      "zsxxw.e21.cn 湖北招生信息综合服务平台 2025",
+      "sdzk.cn 山东省教育招生考试院 2025 普通类常规批投档表",
+      "hebeea.edu.cn 河北省教育考试院 2025 本科批投档",
+      "fjeea.cn / eeafj.cn 福建省教育考试院 2025 本科批投档",
+      "haedu.cn / heao.gov.cn 河南省 2025 本科一批投档",
+      "gaokao.cn / gk100.com / xinshinet.com / dakao100.com / 6617.com 转载汇总"
+    ],
+    "note": "1258 为上海财经大学在多数省份招生代号 (4位)；国标 10272。专业组号与组内选科要求以各省官方公告为准；位次为该省该科类同分排序后的最低位次。上海财经大学以经管法为核心，几乎不设医、农、艺类，物理组核心专业为经管类与计算机/数据/统计；历史组以经管/法学为主。"
+  },
+  "provinces": [
+    {
+      "province": "河南",
+      "reform": "3+1+2 第2年",
+      "groups": [
+        {"track": "物理", "name_in_plan": "上海财经大学", "group": null, "subject_req": "化学/不限", "min_score": 646, "min_rank": null, "note": "物理类院校最低投档线；组内含数字经济、计算机科学与技术、人工智能、会计学、金融学、经济学类、统计学类、工商管理类、财政学类等；多数高位专业要求化学。"},
+        {"track": "物理", "name_in_plan": "上海财经大学(国家专项)", "group": null, "subject_req": "化学/不限", "min_score": 640, "min_rank": 12870, "note": "国家专项物理组"},
+        {"track": "历史", "name_in_plan": "上海财经大学", "group": null, "subject_req": "不限", "min_score": 636, "min_rank": 1112, "note": "历史类主组；组内含会计学、金融学、法学、工商管理类、财务管理(智能化方向)、法学(法学-金融学双学位)等"}
+      ]
+    },
+    {
+      "province": "江苏",
+      "reform": "3+1+2",
+      "school_code_local": "1258",
+      "groups": [
+        {"track": "物理", "name_in_plan": "上海财经大学03专业组", "code": "1258", "group": "03", "subject_req": "化学", "min_score": 635, "min_rank": 10262, "note": "物理+化学组；含金融学类、数字经济、计算机科学与技术、人工智能、统计学类、数据科学与大数据技术、经济学类、工商管理类、会计学等"},
+        {"track": "物理", "name_in_plan": "上海财经大学04专业组", "code": "1258", "group": "04", "subject_req": "不限", "min_score": 632, "min_rank": null, "note": "物理+不限组；含工商管理类(中外合作)/经济学类等不限化学专业"},
+        {"track": "历史", "name_in_plan": "上海财经大学01专业组", "code": "1258", "group": "01", "subject_req": "不限", "min_score": 629, "min_rank": null, "note": "历史不限组主投档；含会计学、金融学、工商管理类、经济学类、法学等"},
+        {"track": "历史", "name_in_plan": "上海财经大学02专业组", "code": "1258", "group": "02", "subject_req": "思想政治", "min_score": 626, "min_rank": 1599, "note": "历史+思政组；含法学类等"}
+      ]
+    },
+    {
+      "province": "广东",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "上海财经大学", "group": "209", "subject_req": "不限", "min_score": 620, "min_rank": 13977, "note": "物理类主组；含金融学类、经济学类、会计学、计算机科学与技术、人工智能、数据科学与大数据技术、工商管理类、统计学类等"},
+        {"track": "物理", "name_in_plan": "上海财经大学", "group": "210", "subject_req": "化学", "min_score": 622, "min_rank": null, "note": "物理+化学组；含部分理工方向"},
+        {"track": "历史", "name_in_plan": "上海财经大学", "group": "207", "subject_req": "不限", "min_score": 620, "min_rank": 1976, "note": "历史类主组；含会计学、金融学、工商管理类、法学、经济学类、财务管理等"}
+      ]
+    },
+    {
+      "province": "湖北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "上海财经大学(普通类)", "group": "03", "subject_req": "化学/不限", "min_score": 611, "min_rank": 10072, "note": "物理类主组；含数字经济、金融学类、计算机科学与技术、人工智能、统计学类、经济学类、工商管理类、会计学"},
+        {"track": "物理", "name_in_plan": "上海财经大学(国家专项)", "group": "04", "subject_req": "化学/不限", "min_score": 605, "min_rank": null, "note": "国家专项物理组"},
+        {"track": "历史", "name_in_plan": "上海财经大学(普通类)", "group": "02", "subject_req": "不限", "min_score": 622, "min_rank": 1149, "note": "历史类主组；含会计学、金融学、法学、工商管理类、经济学类、财务管理"}
+      ]
+    },
+    {
+      "province": "福建",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "上海财经大学", "group": "999", "subject_req": "化学/不限", "min_score": 624, "min_rank": null, "note": "物理类院校代码组(福建以院校代号汇总)；含金融学类、数字经济、计算机科学与技术、人工智能、统计学类、经济学类、工商管理类、会计学"},
+        {"track": "物理", "name_in_plan": "上海财经大学(中外合作)", "group": null, "subject_req": "不限", "min_score": 608, "min_rank": null, "note": "中外合作办学方向"},
+        {"track": "历史", "name_in_plan": "上海财经大学", "group": "999", "subject_req": "不限", "min_score": 617, "min_rank": 851, "note": "历史类主组；含会计学、金融学、法学、工商管理类、经济学类"}
+      ]
+    },
+    {
+      "province": "山东",
+      "reform": "3+3 综合",
+      "note": "山东不分院校专业组，按专业(类)+院校投档；下方为上财在鲁专业(类)代表性段位。",
+      "groups": [
+        {"track": "综合", "name_in_plan": "上海财经大学(普通类一段·最低)", "group": null, "subject_req": "差异", "min_score": 619, "min_rank": 13684, "note": "院校最低投档专业：商务英语 621/11465 附近段位；院校线 619"},
+        {"track": "综合", "name_in_plan": "上海财经大学(会计学)", "group": null, "subject_req": "不限", "min_score": 651, "min_rank": 3153, "note": "院校最高专业"},
+        {"track": "综合", "name_in_plan": "上海财经大学(金融学)", "group": null, "subject_req": "不限", "min_score": 649, "min_rank": 3387},
+        {"track": "综合", "name_in_plan": "上海财经大学(经济学类)", "group": null, "subject_req": "不限", "min_score": 645, "min_rank": 4313},
+        {"track": "综合", "name_in_plan": "上海财经大学(计算机科学与技术)", "group": null, "subject_req": "物化", "min_score": 641, "min_rank": 5183}
+      ]
+    },
+    {
+      "province": "河北",
+      "reform": "3+1+2",
+      "note": "河北本科批为专业+学校平行志愿(96 个)，不设院校专业组；下列为上财在冀代表性段位。",
+      "groups": [
+        {"track": "物理", "name_in_plan": "上海财经大学(本科批·物化组)", "group": null, "subject_req": "物理+化学", "min_score": 626, "min_rank": 11148, "note": "物化要求最低专业段位"},
+        {"track": "物理", "name_in_plan": "上海财经大学(本科批·物不限)", "group": null, "subject_req": "物理+不限", "min_score": 620, "min_rank": 14098, "note": "院校在冀物理类整体最低段位"},
+        {"track": "历史", "name_in_plan": "上海财经大学(本科批)", "group": null, "subject_req": "不限", "min_score": 630, "min_rank": 1523, "note": "历史类院校线"}
+      ]
+    }
+  ]
+}

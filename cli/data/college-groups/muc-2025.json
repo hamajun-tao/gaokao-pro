@@ -1,0 +1,101 @@
+{
+  "uni": "中央民族大学",
+  "code": 1029,
+  "year": 2025,
+  "sources": [
+    "https://zb.muc.edu.cn/ (中央民族大学本科招生网)",
+    "https://zb.muc.edu.cn/content/zs/7fd7b6c2-f0de-11ee-a4af-00163e36a0b0.htm (录取分数)",
+    "https://zb.muc.edu.cn/content/zs/87ce2a2e-f0dd-11ee-a4af-00163e36a0b0.htm (招生计划)",
+    "https://zb.muc.edu.cn/content/zs/04664833-3cfb-11f0-b21e-6c92bf4353bb.htm (2025本科招生专业目录)",
+    "https://zb.muc.edu.cn/content/zs/390a9227-3c32-11f0-b21e-6c92bf4353bb.htm (2025本预科招生章程)",
+    "https://gaokao.eol.cn/e_html/gk/gktoudang/index.shtml (eol.cn 2025各省投档线汇总)",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf (江苏省考试院2025历史类投档线)",
+    "https://www.gaokao.cn/school/45/provinceline (gaokao.cn 中央民族大学历年分数)",
+    "https://www.dakao100.com/article_5341961301.html (大考100 中央民族大学2025省份录取汇总)",
+    "https://m.gk100.com/read_25741.htm (高考100 中央民族大学2025录取分数)",
+    "https://www.dxsbb.com/news/31962.html (大学生必备网 中央民族大学2025分数线)"
+  ],
+  "notes": "中央民族大学(MUC, 985/双一流, 国标代码10052)在多省招生代号为1029(京籍/部分省份)；北京以外各省以院校专业组形式投档。本表组内专业列表依据MUC 2025本科招生专业目录汇总，专业明细以学校官方PDF与各省教育考试院投档表为准。河南/江苏/广东/湖北/福建/河北采用3+1+2新高考；山东为综合改革(3+3)。',民族班/预科'指少数民族预科或民族班单设组；'中外合作'指与海外院校联合办学项目(收费较高)。",
+  "provinces": {
+    "河南": {
+      "model": "3+1+2 第1年",
+      "school_code": "1029",
+      "groups": [
+        { "group": "本科一批/普通(物理)", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 620, "min_rank": null, "campus": "北京", "majors_summary": "经济学类/工商管理类/数学类/统计学/计算机科学与技术/信息与计算科学/电子信息类/生物科学类/环境科学与工程类/心理学/民族学等(物理类主投档组)" },
+        { "group": "本科一批/普通(物理·化学)", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 612, "min_rank": null, "campus": "北京", "majors_summary": "化学/生物科学类/环境科学/材料/药学等(需选化学)" },
+        { "group": "中外合作办学(物理)", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 590, "min_rank": null, "campus": "北京(中外合作)", "majors_summary": "金融学(中外合作)/会计学(中外合作)等" },
+        { "group": "国家专项(物理)", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 606, "min_rank": null, "campus": "北京", "majors_summary": "国家专项计划面向贫困地区考生" },
+        { "group": "少数民族预科班(物理)", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 580, "min_rank": null, "campus": "北京", "majors_summary": "少数民族预科班(理工方向)" },
+        { "group": "本科一批/普通(历史)", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 615, "min_rank": null, "campus": "北京", "majors_summary": "中国少数民族语言文学/民族学/汉语言文学/新闻传播学类/法学/哲学/历史学/外国语言文学类/教育学/工商管理类(文)/公共管理类等(历史类主投档组)" },
+        { "group": "国家专项(历史)", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 600, "min_rank": null, "campus": "北京", "majors_summary": "国家专项计划面向贫困地区考生" },
+        { "group": "少数民族预科班(历史)", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 576, "min_rank": null, "campus": "北京", "majors_summary": "少数民族预科班(文史方向)" }
+      ]
+    },
+    "江苏": {
+      "model": "3+1+2",
+      "school_code": "1149",
+      "groups": [
+        { "group": "01", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 616, "min_rank": 2784, "campus": "北京", "majors_summary": "哲学/经济学类(文)/法学类/社会学类/民族学/中国语言文学类/外国语言文学类/历史学类/教育学/新闻传播学类/工商管理类(文)/公共管理类" },
+        { "group": "02", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 621, "min_rank": 18319, "campus": "北京", "majors_summary": "经济学类(理)/工商管理类(理)/数学类/统计学/计算机科学与技术/电子信息类/生物科学类/心理学/管理科学等(不限再选)" },
+        { "group": "03", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 622, "min_rank": 17706, "campus": "北京", "majors_summary": "信息与计算科学/统计学/纳米材料与技术/光电信息科学与工程/电子信息类/计算机科学与技术/生物科学/环境科学与工程类(需选化学)" },
+        { "group": "04", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 610, "min_rank": 26330, "campus": "北京(中外合作)", "majors_summary": "金融学(中外合作办学)/会计学(中外合作办学)" },
+        { "group": "05", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 601, "min_rank": 33985, "campus": "北京(中外合作)", "majors_summary": "理工类中外合作办学(需选化学)" }
+      ]
+    },
+    "广东": {
+      "model": "3+1+2",
+      "school_code": "10052",
+      "groups": [
+        { "group": "216", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 610, "min_rank": 3256, "campus": "北京", "majors_summary": "民族学/中国少数民族语言文学/汉语言文学/新闻传播学类/法学/哲学/历史学类/外国语言文学类/工商管理类(文)/公共管理类(历史类主投档组)" },
+        { "group": "220", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 604, "min_rank": 23707, "campus": "北京", "majors_summary": "经济学类/工商管理类/数学类/统计学/计算机科学与技术/电子信息类(不限再选)" },
+        { "group": "222", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 608, "min_rank": 20962, "campus": "北京", "majors_summary": "信息与计算科学/生物科学类/环境科学与工程类/光电信息/纳米材料(需选化学)" },
+        { "group": "224", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 602, "min_rank": 25473, "campus": "北京(内地与澳门合作办学)", "majors_summary": "金融学/会计学等(内地与澳门高校合作办学)" }
+      ]
+    },
+    "湖北": {
+      "model": "3+1+2",
+      "school_code": "1029",
+      "groups": [
+        { "group": "03", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 605, "min_rank": 2569, "campus": "北京", "majors_summary": "哲学/经济学类(文)/法学类/民族学/中国语言文学类/外国语言文学类/历史学类/新闻传播学类/教育学/工商管理类(文)/公共管理类" },
+        { "group": "04", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 604, "min_rank": 2690, "campus": "北京(预科)", "majors_summary": "少数民族预科班(文史方向)" },
+        { "group": "05", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 583, "min_rank": 5937, "campus": "北京(国家专项)", "majors_summary": "国家专项计划(文史)" },
+        { "group": "06", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 597, "min_rank": 15562, "campus": "北京", "majors_summary": "经济学类/工商管理类/数学类/统计学/计算机科学与技术/电子信息类(不限再选)" },
+        { "group": "07", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 602, "min_rank": 13442, "campus": "北京", "majors_summary": "信息与计算科学/生物科学类/环境科学与工程类/光电信息(需选化学)" },
+        { "group": "08", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 586, "min_rank": 20901, "campus": "北京(中外合作)", "majors_summary": "金融学/会计学(中外合作办学)" },
+        { "group": "09", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 592, "min_rank": 17921, "campus": "北京(中外合作)", "majors_summary": "理工类中外合作办学(需选化学)" },
+        { "group": "10", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 594, "min_rank": 16966, "campus": "北京(预科)", "majors_summary": "少数民族预科班(理工方向)" },
+        { "group": "11", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 598, "min_rank": 15137, "campus": "北京(国家专项)", "majors_summary": "国家专项计划(理工)" }
+      ]
+    },
+    "福建": {
+      "model": "3+1+2",
+      "school_code": "1029",
+      "groups": [
+        { "group": "500", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 615, "min_rank": 8194, "campus": "北京", "majors_summary": "信息与计算科学/统计学/计算机科学与技术/电子信息类/生物科学类/环境科学与工程类(需选化学)" },
+        { "group": "999", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 614, "min_rank": 8461, "campus": "北京", "majors_summary": "经济学类/工商管理类/数学类/计算机科学与技术(不限再选)" },
+        { "group": "500-中外1", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 597, "min_rank": 13740, "campus": "北京(中外合作)", "majors_summary": "理工类中外合作办学(需选化学)" },
+        { "group": "500-中外2", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 584, "min_rank": 18650, "campus": "北京(中外合作)", "majors_summary": "中外合作办学(理工·化学)" },
+        { "group": "999", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 601, "min_rank": 1682, "campus": "北京", "majors_summary": "民族学/中国语言文学类/历史学类/法学/哲学/新闻传播学类/外国语言文学类/工商管理类(文)/公共管理类(历史类主投档组)" }
+      ]
+    },
+    "山东": {
+      "model": "综合改革(3+3)",
+      "school_code": "A529",
+      "groups": [
+        { "group": "普通类一段", "track": "综合", "first_subject": "不限/分组", "second_subject": "不限/化学(分组)", "min_score": 601, "min_rank": 24363, "campus": "北京", "majors_summary": "民族学/中国语言文学类/法学/哲学/历史学/经济学类/工商管理类/数学类/统计学/计算机科学与技术/电子信息类/生物科学类/环境科学与工程类等(普通类)" },
+        { "group": "中外合作办学", "track": "综合", "first_subject": "不限", "second_subject": "不限", "min_score": 580, "min_rank": 42645, "campus": "北京(中外合作)", "majors_summary": "金融学/会计学/理工类中外合作办学" }
+      ]
+    },
+    "河北": {
+      "model": "3+1+2",
+      "school_code": "1029",
+      "groups": [
+        { "group": "本科批/普通(物理)", "track": "物理", "first_subject": "物理", "second_subject": "不限/化学(分组)", "min_score": 617, "min_rank": 15775, "campus": "北京", "majors_summary": "经济学类/工商管理类/数学类/统计学/计算机科学与技术/电子信息类/生物科学类/环境科学与工程类/心理学等(物理类主投档组)" },
+        { "group": "提前批B/国家专项(物理)", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 628, "min_rank": 10271, "campus": "北京", "majors_summary": "国家专项计划(理工)" },
+        { "group": "本科批/中外合作(物理)", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 607, "min_rank": 22009, "campus": "北京(中外合作)", "majors_summary": "金融学/会计学/理工类中外合作办学" },
+        { "group": "本科批/普通(历史)", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 624, "min_rank": 2071, "campus": "北京", "majors_summary": "民族学/中国少数民族语言文学/汉语言文学/法学/哲学/历史学类/新闻传播学类/外国语言文学类/工商管理类(文)/公共管理类(历史类主投档组)" },
+        { "group": "提前批B/国家专项(历史)", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 604, "min_rank": 5123, "campus": "北京", "majors_summary": "国家专项计划(文史)" }
+      ]
+    }
+  }
+}

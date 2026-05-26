@@ -1,0 +1,698 @@
+{
+  "uni": "东北师范大学",
+  "code": 1185,
+  "guobiao_code": "10200",
+  "year": 2025,
+  "compiled": "2026-05-26",
+  "sources": [
+    "https://zsb.nenu.edu.cn/ (东北师范大学本科招生网)",
+    "https://gkcx.nenu.edu.cn/history_score (东北师大本科分省分专业历年分数查询)",
+    "https://gaokao.cn/school/142/provinceline (掌上高考 东北师大历年分数线)",
+    "https://gaokao.eol.cn/daxue/zixun/202506/t20250618_2675445.shtml (eol.cn 东北师范大学各省录取分数线及位次)",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf (江苏省2025本科批投档线-历史 院校代号4202)",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-5302461102655621.pdf (江苏省2025本科批投档线-物理 院校代号4202)",
+    "https://eea.gd.gov.cn/attachment/0/585/585886/4746786.pdf (广东2025本科批物理投档情况 院校代码10200)",
+    "https://eea.gd.gov.cn/attachment/0/585/585885/4746781.pdf (广东2025本科批历史投档情况 院校代码10200)",
+    "https://www.dakao100.com/article_15801220226.html (东北师大2025山东各专业录取分数线)",
+    "https://www.gk100.com/read_43977484.htm (东北师大2025公费师范生最低分)",
+    "https://www.hzgrys.net/score/13/2025/538.html (东北师大2025河北投档线及位次)",
+    "https://www.gk100.com/read_1143503907511.htm (东北师大2025各省最低分汇总)",
+    "https://www.6617.com/p_3503284677.html (圆梦小灯塔 东北师大2025各省录取分数线)",
+    "https://app.gaokaozhitongche.com/newsguide/h/lXkMyoLG (东北师大湖北本科批录取结果)",
+    "https://innenu.com/intro/enroll/under/rule/2025.html (东北师大2025本科招生章程)"
+  ],
+  "notes": "国标代码10200。东北师大在不同省份的院校代号不同：江苏=4202，广东/全国通用=10200，河南批次代号1185（题目给定），福建/山东/河北按各省习惯。2025年河南首次实行3+1+2新高考(本科批合并)；山东为综合改革(3+3，按选科分组)；江苏、广东、湖北、福建、河北均为3+1+2。东北师大在多数省份分本科批(普通类)+本科提前批(公费师范、优师专项、国家专项)，并设中外合作办学组(分数显著低于主组)。组内专业明细以学校官方招生计划PDF与各省考试院公告为准；本表整理公开渠道可查的主要组。",
+  "provinces": [
+    {
+      "province": "河南",
+      "province_code": "henan",
+      "institution_code_in_province": "1185",
+      "exam_mode": "新高考3+1+2(2025首年)",
+      "groups": [
+        {
+          "group_code": "本科批(物理-主组)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限/化学(分组)",
+          "batch": "本科批",
+          "min_score_2025": 601,
+          "min_rank_2025": null,
+          "majors_representative": [
+            "数学与应用数学",
+            "物理学",
+            "化学",
+            "生物科学",
+            "地理科学",
+            "心理学",
+            "计算机科学与技术",
+            "软件工程",
+            "统计学",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "本科批(物理-中外)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": null,
+          "min_rank_2025": null,
+          "note": "中外合作办学(物流管理/统计学等)，公开数据未单列河南分数",
+          "majors_representative": ["物流管理(中外合作办学)", "统计学(中外合作办学)"]
+        },
+        {
+          "group_code": "提前批(公费师范-物理)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学/不限",
+          "batch": "本科提前批",
+          "min_score_2025": 628,
+          "min_rank_2025": null,
+          "note": "公费师范生(物理类)最低628(小学教育)；数学与应用数学/物理学最高约636",
+          "majors_representative": [
+            "数学与应用数学(公费师范)",
+            "物理学(公费师范)",
+            "化学(公费师范)",
+            "生物科学(公费师范)",
+            "地理科学(公费师范)",
+            "小学教育(公费师范)",
+            "心理学(公费师范)"
+          ]
+        },
+        {
+          "group_code": "本科批(历史-主组)",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": 603,
+          "min_rank_2025": null,
+          "majors_representative": [
+            "汉语言文学",
+            "历史学",
+            "哲学",
+            "思想政治教育",
+            "教育学类",
+            "学前教育",
+            "英语",
+            "日语",
+            "新闻学",
+            "法学",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "提前批(公费师范-历史)",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科提前批",
+          "min_score_2025": 615,
+          "min_rank_2025": null,
+          "note": "公费师范生(历史类)最低615(学前教育)；英语最高约626",
+          "majors_representative": [
+            "汉语言文学(公费师范)",
+            "历史学(公费师范)",
+            "思想政治教育(公费师范)",
+            "英语(公费师范)",
+            "学前教育(公费师范)",
+            "小学教育(公费师范)"
+          ]
+        },
+        {
+          "group_code": "国家专项(物理/历史)",
+          "subject_type": "物理类/历史类",
+          "first_choice": "物理或历史",
+          "reselect_requirement": "化学/不限",
+          "batch": "国家专项计划本科批",
+          "min_score_2025": null,
+          "min_rank_2025": null,
+          "note": "面向贫困地区定向；2025河南普通本科批合并后保留专项类别，分数线以省考试院官方公告为准",
+          "majors_representative": ["与本科批主组专业一致(物理/历史均设)"]
+        }
+      ]
+    },
+    {
+      "province": "江苏",
+      "province_code": "jiangsu",
+      "institution_code_in_province": "4202",
+      "exam_mode": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "05",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "min_score_2025": 531,
+          "min_rank_2025": null,
+          "majors_representative": ["物流管理(中外合作办学)"]
+        },
+        {
+          "group_code": "06",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "min_score_2025": 539,
+          "min_rank_2025": null,
+          "majors_representative": ["统计学(中外合作办学)"]
+        },
+        {
+          "group_code": "07",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": 579,
+          "min_rank_2025": null,
+          "note": "PDF文本中此组带(中外合作办学)标注但分数明显高于真中外组，疑为普通组排版误差；以省考试院PDF为准",
+          "majors_representative": ["不限选科组(数学/经济/管理等)"]
+        },
+        {
+          "group_code": "08",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "min_score_2025": 613,
+          "min_rank_2025": null,
+          "majors_representative": [
+            "化学",
+            "应用化学",
+            "环境科学",
+            "生物科学",
+            "生物技术",
+            "地理科学",
+            "地理信息科学"
+          ]
+        },
+        {
+          "group_code": "01",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "min_score_2025": 569,
+          "min_rank_2025": null,
+          "majors_representative": ["物流管理(中外合作办学)"]
+        },
+        {
+          "group_code": "02",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "min_score_2025": 590,
+          "min_rank_2025": null,
+          "majors_representative": ["统计学相关(中外合作办学)"]
+        },
+        {
+          "group_code": "03",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": 610,
+          "min_rank_2025": null,
+          "majors_representative": [
+            "汉语言文学",
+            "历史学",
+            "哲学",
+            "英语",
+            "日语",
+            "法学",
+            "新闻学",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "04",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "思想政治",
+          "batch": "本科批",
+          "min_score_2025": 601,
+          "min_rank_2025": null,
+          "majors_representative": [
+            "思想政治教育",
+            "马克思主义理论类",
+            "政治学与行政学",
+            "社会学"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "广东",
+      "province_code": "guangdong",
+      "institution_code_in_province": "10200",
+      "exam_mode": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "219",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "plan_count": 3,
+          "min_score_2025": 538,
+          "min_rank_2025": 99337,
+          "majors_representative": ["物流管理(中外合作办学)"]
+        },
+        {
+          "group_code": "220",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "plan_count": 3,
+          "min_score_2025": 554,
+          "min_rank_2025": 75671,
+          "majors_representative": ["统计学(中外合作办学)"]
+        },
+        {
+          "group_code": "221",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "plan_count": 10,
+          "min_score_2025": 589,
+          "min_rank_2025": 35747,
+          "majors_representative": [
+            "数学与应用数学",
+            "统计学",
+            "计算机科学与技术",
+            "软件工程",
+            "经济学类",
+            "工商管理类",
+            "心理学"
+          ]
+        },
+        {
+          "group_code": "222",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "plan_count": 6,
+          "min_score_2025": 598,
+          "min_rank_2025": 28343,
+          "majors_representative": [
+            "化学",
+            "应用化学",
+            "生物科学",
+            "生物技术",
+            "环境科学",
+            "地理科学"
+          ]
+        },
+        {
+          "group_code": "214",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "plan_count": 2,
+          "min_score_2025": 598,
+          "min_rank_2025": 5612,
+          "majors_representative": ["汉语言文学", "英语", "历史学"]
+        },
+        {
+          "group_code": "215",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "plan_count": 6,
+          "min_score_2025": 597,
+          "min_rank_2025": 5924,
+          "majors_representative": [
+            "汉语言文学",
+            "英语",
+            "日语",
+            "新闻学",
+            "法学",
+            "哲学",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "216",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "plan_count": 4,
+          "min_score_2025": 544,
+          "min_rank_2025": 27590,
+          "majors_representative": ["物流管理(中外合作办学)"]
+        },
+        {
+          "group_code": "217",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "plan_count": 3,
+          "min_score_2025": 561,
+          "min_rank_2025": 18691,
+          "majors_representative": ["统计学相关(中外合作办学)"]
+        },
+        {
+          "group_code": "218",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "plan_count": 3,
+          "min_score_2025": 596,
+          "min_rank_2025": 5998,
+          "majors_representative": ["思想政治教育", "教育学类", "学前教育"]
+        }
+      ]
+    },
+    {
+      "province": "湖北",
+      "province_code": "hubei",
+      "institution_code_in_province": "10200",
+      "exam_mode": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "本科批(物理-主组)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限/化学(分组)",
+          "batch": "本科批",
+          "min_score_2025": 590,
+          "min_rank_2025": null,
+          "note": "公开渠道湖北本科批物理类最低约590分；详细分组以省考试院官方PDF为准",
+          "majors_representative": [
+            "数学与应用数学",
+            "物理学",
+            "化学",
+            "生物科学",
+            "地理科学",
+            "心理学",
+            "计算机科学与技术",
+            "软件工程",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "本科批(物理-中外)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "min_score_2025": 523,
+          "min_rank_2025": null,
+          "majors_representative": ["物流管理(中外)", "统计学(中外)"]
+        },
+        {
+          "group_code": "提前批(公费师范-物理)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学/不限",
+          "batch": "本科提前批",
+          "min_score_2025": 606,
+          "min_rank_2025": null,
+          "note": "湖北提前批公费师范物理类最低606",
+          "majors_representative": [
+            "数学与应用数学(公费师范)",
+            "物理学(公费师范)",
+            "化学(公费师范)",
+            "生物科学(公费师范)",
+            "地理科学(公费师范)"
+          ]
+        },
+        {
+          "group_code": "本科批(历史-主组)",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": 596,
+          "min_rank_2025": null,
+          "majors_representative": [
+            "汉语言文学",
+            "历史学",
+            "哲学",
+            "教育学类",
+            "学前教育",
+            "英语",
+            "日语",
+            "法学",
+            "新闻学"
+          ]
+        },
+        {
+          "group_code": "提前批(公费师范-历史)",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科提前批",
+          "min_score_2025": 608,
+          "min_rank_2025": null,
+          "note": "湖北提前批公费师范历史类最低608",
+          "majors_representative": [
+            "汉语言文学(公费师范)",
+            "历史学(公费师范)",
+            "思想政治教育(公费师范)",
+            "英语(公费师范)"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "福建",
+      "province_code": "fujian",
+      "institution_code_in_province": "10200",
+      "exam_mode": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "999(物理-不限)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": 600,
+          "min_rank_2025": null,
+          "note": "福建2025物理类(不限再选)主组约600分",
+          "majors_representative": [
+            "数学与应用数学",
+            "计算机科学与技术",
+            "软件工程",
+            "统计学",
+            "经济学类",
+            "工商管理类",
+            "心理学"
+          ]
+        },
+        {
+          "group_code": "500(物理-化学)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "min_score_2025": null,
+          "min_rank_2025": null,
+          "note": "化学限选组，分数线公开数据未明确披露",
+          "majors_representative": ["化学", "生物科学", "环境科学", "地理科学"]
+        },
+        {
+          "group_code": "中外合作(物理)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "min_score_2025": null,
+          "min_rank_2025": null,
+          "note": "福建中外合作组分数公开数据未单列",
+          "majors_representative": ["物流管理(中外)", "统计学(中外)"]
+        },
+        {
+          "group_code": "999(历史-不限)",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": 595,
+          "min_rank_2025": null,
+          "note": "福建2025历史类不限再选组约595分；范围581-595",
+          "majors_representative": [
+            "汉语言文学",
+            "历史学",
+            "英语",
+            "日语",
+            "新闻学",
+            "法学",
+            "经济学类",
+            "工商管理类",
+            "学前教育"
+          ]
+        }
+      ]
+    },
+    {
+      "province": "山东",
+      "province_code": "shandong",
+      "institution_code_in_province": "C200",
+      "exam_mode": "综合改革(3+3)",
+      "groups": [
+        {
+          "group_code": "普通类一段(主组)",
+          "subject_type": "综合",
+          "first_choice": "不分文理",
+          "reselect_requirement": "按专业分组(不限/化学/物理+化学等)",
+          "batch": "普通类一段",
+          "min_score_2025": 582,
+          "min_rank_2025": 40556,
+          "note": "院校整体最低582/40556；招生23个专业,分数560-617",
+          "majors_representative": [
+            "汉语言文学(617)",
+            "历史学(611)",
+            "数学与应用数学(609)",
+            "马克思主义理论类(608)",
+            "法学(607)",
+            "英语",
+            "日语",
+            "心理学",
+            "计算机科学与技术",
+            "软件工程",
+            "化学",
+            "生物科学",
+            "地理科学",
+            "新闻学",
+            "工商管理类",
+            "经济学类",
+            "统计学",
+            "教育学类",
+            "学前教育",
+            "思想政治教育"
+          ]
+        },
+        {
+          "group_code": "普通类一段(中外合作办学)",
+          "subject_type": "综合",
+          "first_choice": "不分文理",
+          "reselect_requirement": "不限",
+          "batch": "普通类一段",
+          "min_score_2025": 558,
+          "min_rank_2025": 70316,
+          "majors_representative": ["物流管理(中外合作办学)(560)", "统计学(中外合作办学)"]
+        }
+      ]
+    },
+    {
+      "province": "河北",
+      "province_code": "hebei",
+      "institution_code_in_province": "10200",
+      "exam_mode": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "本科批(物理-主组)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限/化学(分组)",
+          "batch": "本科批",
+          "min_score_2025": 583,
+          "min_rank_2025": null,
+          "note": "范围559-622；数学类622最高",
+          "majors_representative": [
+            "数学与应用数学",
+            "物理学",
+            "化学",
+            "生物科学",
+            "地理科学",
+            "心理学",
+            "计算机科学与技术",
+            "软件工程",
+            "经济学类",
+            "工商管理类"
+          ]
+        },
+        {
+          "group_code": "本科批(物理-中外)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批(中外合作办学)",
+          "min_score_2025": 557,
+          "min_rank_2025": null,
+          "note": "市场营销(中外)559最低",
+          "majors_representative": ["物流管理(中外)", "市场营销(中外)", "统计学(中外)"]
+        },
+        {
+          "group_code": "提前批B(物理-公费师范)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科提前批B段",
+          "min_score_2025": 640,
+          "min_rank_2025": 5846,
+          "note": "物理学最高640；地理科学606最低",
+          "majors_representative": [
+            "物理学(公费师范)",
+            "化学(公费师范)",
+            "生物科学(公费师范)",
+            "数学与应用数学(公费师范)"
+          ]
+        },
+        {
+          "group_code": "提前批B(物理-公费师范-不限)",
+          "subject_type": "物理类",
+          "first_choice": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科提前批B段",
+          "min_score_2025": 606,
+          "min_rank_2025": 22695,
+          "majors_representative": ["地理科学(公费师范)", "心理学(公费师范)"]
+        },
+        {
+          "group_code": "本科批(历史-主组)",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "min_score_2025": 586,
+          "min_rank_2025": null,
+          "majors_representative": [
+            "汉语言文学",
+            "历史学",
+            "哲学",
+            "英语",
+            "日语",
+            "法学",
+            "新闻学",
+            "教育学类"
+          ]
+        },
+        {
+          "group_code": "提前批B(历史-公费师范)",
+          "subject_type": "历史类",
+          "first_choice": "历史",
+          "reselect_requirement": "不限",
+          "batch": "本科提前批B段",
+          "min_score_2025": 637,
+          "min_rank_2025": 1005,
+          "note": "历史学637最高；商务英语610最低",
+          "majors_representative": [
+            "历史学(公费师范)",
+            "汉语言文学(公费师范)",
+            "思想政治教育(公费师范)",
+            "英语(公费师范)",
+            "商务英语(公费师范)"
+          ]
+        }
+      ]
+    }
+  ]
+}

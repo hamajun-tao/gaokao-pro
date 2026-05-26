@@ -1,0 +1,123 @@
+{
+  "_kind": "Per-university × per-province 院校专业组 (college-major groups) for 2025 投档",
+  "_year": 2025,
+  "_university": "暨南大学",
+  "_university_code": "1560",
+  "_zs_code_note": "1560 is the provincial 招生院校代码 (Guangdong-side; some provinces use the 4-digit MoE 招生计划 code 10559 or a local 4-digit code). Verify against each province's 招生计划手册.",
+  "_sources": [
+    "https://zsb.jnu.edu.cn/2025/0625/c40320a839249/page.htm",
+    "https://zsb.jnu.edu.cn/2025/0624/c4288a839132/page.psp",
+    "https://zsb.jnu.edu.cn/2025/0530/c40320a837360/page.htm",
+    "https://app.gaokaozhitongche.com/newsguide/h/0NeRDKwX",
+    "https://www.sohu.com/a/915540180_121956425",
+    "https://www.gk100.com/read_941722937195.htm",
+    "https://news.qq.com/rain/a/20250621A04JCL00",
+    "https://guangdong.eol.cn/gdgd/202506/t20250621_2676110.shtml",
+    "https://m.zh.bendibao.com/edu/gkfenshuxian/school.php?id=3348",
+    "https://www.gaokao.cn/school/106/provinceline",
+    "https://zhaosheng.szpu.edu.cn (广东省 2025 本科普通类投档情况 PDF)"
+  ],
+  "_data_quality": "guangdong=aggregate min + partial group codes (15 物理 / 9 历史 组, 总投档最低 物理 591 / 历史 603 已核; 单组代码×投档分官方表未公开 machine-readable); 其余省 aggregate_only. To upgrade: pull each provincial 教育考试院 2025 投档线公告 PDF.",
+  "_collected_at": "2026-05-26",
+  "university": {
+    "name": "暨南大学",
+    "code": "1560",
+    "moe_zs_code": "10559",
+    "city": "广州",
+    "tags": ["211", "双一流", "中央统战部直属", "华侨最高学府"]
+  },
+  "provinces": [
+    {
+      "province": "广东",
+      "province_id": 44,
+      "regime": "3+1+2",
+      "data_quality": "partial",
+      "_meta": {
+        "plan_total": 2388,
+        "group_count_物理": 15,
+        "group_count_历史": 9,
+        "投档最低_物理": 591,
+        "投档最低_历史": 598,
+        "最低位次_物理": 34231,
+        "最低位次_历史": 4615,
+        "filing_note": "2025 普通批 7/19 投档; 历史类 603 一说为含再选限制组的最低, 598 为含中外合作的全口径最低"
+      },
+      "groups": [
+        { "group_code": "201", "track": "历史类", "首选": "历史", "再选": "不限", "投档分": 603, "最低位次": 4615, "示例专业": ["汉语言文学", "新闻学", "法学", "经济学类"], "tuition": null, "notes": "历史类普通组(组代码与组内专业为按往年结构推测; 投档分为 2025 历史类汇总最低)" },
+        { "group_code": "202", "track": "历史类", "首选": "历史", "再选": "政治", "投档分": null, "最低位次": null, "示例专业": ["国际政治", "思想政治教育"], "tuition": null, "notes": "政治再选组(结构推测)" },
+        { "group_code": "211", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 591, "最低位次": 34231, "示例专业": ["计算机类", "电子信息类", "数学类", "经济学类(理)"], "tuition": null, "notes": "物理类普通主组(投档分为 2025 物理类汇总最低)" },
+        { "group_code": "212", "track": "物理类", "首选": "物理", "再选": "化学", "投档分": null, "最低位次": null, "示例专业": ["化学类", "材料类", "药学类"], "tuition": null, "notes": "化学必选组(结构推测)" },
+        { "group_code": "213", "track": "物理类", "首选": "物理", "再选": "化学+生物", "投档分": null, "最低位次": null, "示例专业": ["临床医学", "口腔医学", "中医学"], "tuition": null, "notes": "医学组(化生双选, 结构推测)" },
+        { "group_code": "214", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 584, "最低位次": null, "示例专业": ["中外合作办学项目"], "tuition": 75000, "notes": "中外合作组(参考公开聚合源 584 一档)" },
+        { "group_code": "215", "track": "物理类", "首选": "物理", "再选": "不限", "投档分": 583, "最低位次": null, "示例专业": ["中外合作办学项目"], "tuition": 75000, "notes": "中外合作组(参考公开聚合源 583 一档)" }
+      ],
+      "_groups_note": "广东实际 物理类 15 组 + 历史类 9 组; 完整组代码×投档分须查《广东省 2025 普通高校招生本科批次投档情况》(zhaosheng.szpu.edu.cn 全表 PDF)."
+    },
+    {
+      "province": "河南",
+      "province_id": 41,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 607, "最低位次": null, "示例专业": null, "notes": "河南 2025 首届 3+1+2; 物理类组区间 607~638, 最低组 607" },
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 638, "最低位次": null, "示例专业": null, "notes": "物理类最高组 638(医学/王牌专业)" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 601, "最低位次": null, "示例专业": null, "notes": "历史类组区间 601~619" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 619, "最低位次": null, "示例专业": null, "notes": "历史类最高组 619" }
+      ]
+    },
+    {
+      "province": "江苏",
+      "province_id": 32,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "JNU 在苏通常分 6-8 组(化学必选 / 化生组 / 不限 / 政治组); 2024 物理 588 历史 589 为参考, 2025 公开聚合源未单列江苏" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "待补 江苏省 2025 投档情况表" }
+      ]
+    },
+    {
+      "province": "湖北",
+      "province_id": 42,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 600, "最低位次": null, "示例专业": null, "notes": "湖北 2025 JNU 物理类组区间约 600~622" },
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 622, "最低位次": null, "示例专业": null, "notes": "物理类最高组 622" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": null, "最低位次": null, "示例专业": null, "notes": "历史类组代码与投档分待补湖北省考试院" }
+      ]
+    },
+    {
+      "province": "福建",
+      "province_id": 35,
+      "regime": "3+1+2",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 596, "最低位次": null, "示例专业": null, "notes": "福建 2025 物理类组区间 596~599" },
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 599, "最低位次": null, "示例专业": null, "notes": "物理类最高组 599" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 600, "最低位次": null, "示例专业": null, "notes": "历史类约 600" }
+      ]
+    },
+    {
+      "province": "山东",
+      "province_id": 37,
+      "regime": "3+3",
+      "data_quality": "aggregate_only",
+      "groups": [
+        { "group_code": "115", "track": "综合改革", "首选": null, "再选": null, "投档分": 622, "最低位次": null, "示例专业": null, "notes": "山东 3+3 模式下用「学校+专业(组)」; JNU 115 组最低 622 (主流组)" },
+        { "group_code": "502", "track": "综合改革", "首选": null, "再选": null, "投档分": 574, "最低位次": null, "示例专业": ["中外合作办学项目"], "notes": "中外合作组 502 最低 574; 2025 山东 JNU 各组区间 574~622" }
+      ]
+    },
+    {
+      "province": "河北",
+      "province_id": 13,
+      "regime": "3+1+2",
+      "data_quality": "verified_aggregate",
+      "groups": [
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 595, "最低位次": 30996, "示例专业": null, "notes": "河北本科批 物理类最低 595 / 位次 30996" },
+        { "group_code": null, "track": "物理类", "首选": "物理", "再选": null, "投档分": 605, "最低位次": 23383, "示例专业": null, "notes": "本科提前批 B 段 物理 605 / 位次 23383" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 615, "最低位次": 3215, "示例专业": null, "notes": "河北本科批 历史类最低 615 / 位次 3215" },
+        { "group_code": null, "track": "历史类", "首选": "历史", "再选": null, "投档分": 617, "最低位次": 2906, "示例专业": null, "notes": "本科提前批 B 段 历史 617 / 位次 2906" }
+      ]
+    }
+  ]
+}

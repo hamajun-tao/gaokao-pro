@@ -1,0 +1,99 @@
+{
+  "uni": "北京外国语大学",
+  "code": 1024,
+  "year": 2025,
+  "sources": [
+    "https://joinus.bfsu.edu.cn/",
+    "https://zhaosheng.bfsu.edu.cn/static/front/bfsu/basic/html_web/zsjh.html",
+    "https://gaokao.eol.cn/daxue/202506/t20250609_2673620.shtml",
+    "https://www.gk100.com/read_25138.htm",
+    "https://www.6617.com/p_1699927692.html",
+    "https://m.bj.bendibao.com/edu/gkfenshuxian/school.php?id=2174",
+    "https://www.gaokao.cn/school/39/provinceline",
+    "https://www.jseea.cn/webfile/upload/2025/07-18/09-33-380724-1917118608.pdf"
+  ],
+  "notes": "院校专业组按各省教育考试院公布的2025本科批/提前批投档为准；分数为各组最低投档分。再选科目要求以北外2025本科招生章程及阳光招生平台公示为准。北外以外语类专业为主体,常规批/提前批多组并存,部分省份还含国家专项、中外合作办学(与海南/苏州等合作项目)、综合评价等批次。",
+  "provinces": {
+    "河南": {
+      "model": "3+1+2",
+      "school_code": "1024",
+      "groups": [
+        { "group": "101", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 623, "campus": "北京", "majors_summary": "本科批历史组主组:英语/翻译/法学/新闻/外交学/小语种(不限再选)" },
+        { "group": "107", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 627, "campus": "北京", "majors_summary": "外交学/国际政治/国际事务与国际关系(需选思政)" },
+        { "group": "201", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 613, "campus": "北京/海南合作", "majors_summary": "中外合作办学小语种/英语方向" },
+        { "group": "305", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 611, "campus": "北京", "majors_summary": "国家专项历史组(外语类/法学/新闻)" },
+        { "group": "103", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 627, "campus": "北京", "majors_summary": "物理组主组:经济学类/工商管理类/国际经济与贸易/金融学等" },
+        { "group": "112", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 627, "campus": "北京", "majors_summary": "计算机科学与技术/信息管理与信息系统等(需选化学)" },
+        { "group": "110", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 646, "campus": "北京", "majors_summary": "物理组热门小语种/经管类提前批" },
+        { "group": "202", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 616, "campus": "北京/海南合作", "majors_summary": "中外合作办学经管/小语种" },
+        { "group": "306", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 645, "campus": "北京", "majors_summary": "国家专项物理组(外语/经管)" },
+        { "group": "309", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 634, "campus": "北京", "majors_summary": "国家专项理工类(需化学)" },
+        { "group": "311", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 603, "campus": "北京", "majors_summary": "国家专项补充组" }
+      ]
+    },
+    "江苏": {
+      "model": "3+1+2",
+      "school_code": "1024",
+      "groups": [
+        { "group": "02", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 618, "campus": "北京", "majors_summary": "历史组主组:英语/翻译/法学/新闻/外语类(不限再选)" },
+        { "group": "03", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 626, "campus": "北京", "majors_summary": "外交学/国际政治(需选思政)" },
+        { "group": "04", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 610, "campus": "北京/海南合作", "majors_summary": "中外合作办学小语种/英语" },
+        { "group": "06", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 622, "campus": "北京", "majors_summary": "经济学类/工商管理类/计算机相关" },
+        { "group": "07", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 584, "campus": "北京/海南合作", "majors_summary": "中外合作办学经管/外语" }
+      ]
+    },
+    "广东": {
+      "model": "3+1+2",
+      "school_code": "10030",
+      "groups": [
+        { "group": "211", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 617, "campus": "北京", "majors_summary": "历史组主组:外语类/法学/新闻" },
+        { "group": "212", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 616, "campus": "北京", "majors_summary": "外交学/国际政治(需思政)" },
+        { "group": "213", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 606, "campus": "北京/海南合作", "majors_summary": "中外合作办学历史组" },
+        { "group": "214", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 606, "campus": "北京", "majors_summary": "物理组主组:经管类/小语种" },
+        { "group": "216", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 619, "campus": "北京", "majors_summary": "计算机/信息类(需化学)" },
+        { "group": "217", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 615, "campus": "北京", "majors_summary": "物理组提前批外语方向" },
+        { "group": "218", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 591, "campus": "北京/海南合作", "majors_summary": "中外合作办学物理组" }
+      ]
+    },
+    "湖北": {
+      "model": "3+1+2",
+      "school_code": "1024",
+      "groups": [
+        { "group": "历史_主组", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 615, "campus": "北京", "majors_summary": "历史组主组:英语/翻译/法学/新闻/外语类" },
+        { "group": "历史_思政", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 612, "campus": "北京", "majors_summary": "外交学/国际政治(需思政)" },
+        { "group": "历史_中外合作", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 595, "campus": "北京/海南合作", "majors_summary": "中外合作办学历史组" },
+        { "group": "物理_主组", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 605, "campus": "北京", "majors_summary": "物理组主组:经管/小语种/工商管理类" },
+        { "group": "物理_化学", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 600, "campus": "北京", "majors_summary": "计算机科学与技术等(需化学)" },
+        { "group": "物理_中外合作", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 581, "campus": "北京/海南合作", "majors_summary": "中外合作办学物理组" }
+      ]
+    },
+    "福建": {
+      "model": "3+1+2",
+      "school_code": "1024",
+      "groups": [
+        { "group": "700", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 614, "campus": "北京", "majors_summary": "历史组主组:外语类/法学/新闻(不限再选)" },
+        { "group": "701", "track": "历史", "first_subject": "历史", "second_subject": "思想政治", "min_score": 616, "campus": "北京", "majors_summary": "外交学/国际政治(需思政)" },
+        { "group": "500", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 612, "campus": "北京", "majors_summary": "物理组主组:经管/小语种/工商管理类" },
+        { "group": "999", "track": "物理", "first_subject": "物理", "second_subject": "化学", "min_score": 608, "campus": "北京", "majors_summary": "计算机/信息类(需化学)" }
+      ]
+    },
+    "山东": {
+      "model": "3+3",
+      "school_code": "A164",
+      "note": "山东按专业(专业类)平行志愿投档,无院校专业组,记录为一段最低投档分。",
+      "groups": [
+        { "group": "一段", "track": "综合", "first_subject": "—", "second_subject": "按专业列选科要求(不限/思政/化学等)", "min_score": 618, "campus": "北京", "majors_summary": "2025共数十个外语/经管/法学/新闻专业投档,分数区间约608-640(英语/翻译靠前,小语种部分较低)" }
+      ]
+    },
+    "河北": {
+      "model": "3+1+2",
+      "school_code": "1024",
+      "groups": [
+        { "group": "历史_本科批", "track": "历史", "first_subject": "历史", "second_subject": "不限/含思政细分", "min_score": 616, "campus": "北京", "majors_summary": "本科批历史组:英语/翻译/西班牙语等(641分顶档),含外交学/国际政治需思政" },
+        { "group": "历史_提前批B", "track": "历史", "first_subject": "历史", "second_subject": "不限", "min_score": 608, "campus": "北京", "majors_summary": "提前批B段外语类历史组" },
+        { "group": "物理_本科批", "track": "物理", "first_subject": "物理", "second_subject": "不限/含化学细分", "min_score": 584, "campus": "北京", "majors_summary": "本科批物理组:经管/计算机/小语种(部分需化学)" },
+        { "group": "物理_提前批B", "track": "物理", "first_subject": "物理", "second_subject": "不限", "min_score": 618, "campus": "北京", "majors_summary": "提前批B段物理组外语方向" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5497 @@
+{
+  "_kind": "苏州大学 2025 院校专业组招生计划",
+  "_university": "苏州大学",
+  "_code_enroll": "1291",
+  "_school_id_eolcn": 118,
+  "_year": 2025,
+  "_provinces_covered": [
+    "河南",
+    "江苏",
+    "广东",
+    "湖北",
+    "福建",
+    "山东",
+    "河北"
+  ],
+  "_sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/118/2025/{41,32,44,42,35,37,13}.json (eol.cn 静态接口, 2025 招生计划)",
+    "https://static-data.gaokao.cn/www/2.0/school/118/info.json (pro_type_min — 2025 投档最低分)",
+    "https://zsb.suda.edu.cn/ (苏州大学本科招生网)",
+    "https://gaokao.cn/school/118 (gaokao.cn 院校页)"
+  ],
+  "_notes": [
+    "山东 (37) 为 3+3 综合改革 (type=3)；其余 6 省均为 3+1+2 新高考，按物理类 (2073) / 历史类 (2074) 双轨投档。",
+    "新高考省份按官方公布的院校专业组划分，每组含选科要求 + 一组本科专业，投档单位为组。",
+    "河北/山东/福建 eol.cn 数据源中部分批次未提供 special_group_id (special_group=0)；按 (type, batch, 选考要求) 聚合展示为招生单元，group_code 以选科首选字母 W/L/X + 再选缩写组成 (如 W化、L不限)。",
+    "本数据合并 batch=14 (本科批)、batch=6 (提前批)、batch=1570 (普通类一段)、batch=86/4862/4070/4073 (国家专项/高校专项) 等模块。",
+    "同一 (special_group, type, batch) 多条记录已合并，相同 (spcode,name,num,info) 去重。",
+    "min_admission_2025 来自 pro_type_min 字段，对应各省该 track 的投档最低分 (普通组主分)；分组明细投档线请以省考试院公告为准。",
+    "province_cutoff_2025_ref 为各省 2025 本科批/一段控制线 (公开口径)，仅作位次参考。",
+    "江苏 (本省) 组数最多，含艺术类、提前批、本科批等多模块；专业组编号 (4262xx 系列) 与省考试院公布一致。",
+    "info 字段保留办学地点 / 包含专业 / 备注，长度<220 字符。",
+    "xuanke_detail 为选考要求的人类可读译码 (如 “物+化+生 或 物+化+政 或 物+化+地”)。"
+  ],
+  "_extracted_at": "2026-05-26",
+  "_total_plan_covered": 8424,
+  "provinces": [
+    {
+      "province": "henan",
+      "province_cn": "河南",
+      "province_id": 41,
+      "uses_college_groups": true,
+      "group_count": 11,
+      "total_plan": 278,
+      "min_admission_2025": {
+        "物理类": 620,
+        "历史类": 618
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 447,
+        "历史类": 519
+      },
+      "groups": [
+        {
+          "group_code": "104",
+          "special_group_id": "368712",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "full_name": "建筑学（办学地点：苏州）",
+              "num": 8,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "020201K",
+              "name": "财政学",
+              "full_name": "财政学（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "财政学类",
+              "info": "（办学地点：苏州）"
+            }
+          ]
+        },
+        {
+          "group_code": "105",
+          "special_group_id": "368711",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080413T",
+              "name": "纳米材料与技术",
+              "full_name": "纳米材料与技术（办学地点：苏州）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "full_name": "软件工程（办学地点：苏州）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "full_name": "数学类（包含专业：数学与应用数学、数学与应用数学（师范）；办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（包含专业：数学与应用数学、数学与应用数学（师范）；办学地点：苏州）"
+            },
+            {
+              "spcode": "080910T",
+              "name": "数据科学与大数据技术",
+              "full_name": "数据科学与大数据技术（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080720T",
+              "name": "智能测控工程",
+              "full_name": "智能测控工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080204",
+              "name": "机械电子工程",
+              "full_name": "机械电子工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "full_name": "物理学（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "full_name": "物理学（师范）（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "（师范）（办学地点：苏州）"
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "full_name": "电子信息工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "full_name": "电子科学与技术（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080604T",
+              "name": "电气工程与智能控制",
+              "full_name": "电气工程与智能控制（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "071201",
+              "name": "统计学",
+              "full_name": "统计学（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "统计学类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "full_name": "车辆工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：苏州）"
+            }
+          ]
+        },
+        {
+          "group_code": "106",
+          "special_group_id": "368710",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（办学地点：苏州）",
+              "num": 6,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "full_name": "材料类（包含专业：材料科学与工程、高分子材料与工程；办学地点：苏州）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（包含专业：材料科学与工程、高分子材料与工程；办学地点：苏州）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（办学地点：苏州；不招色盲、单色识别不全者）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（办学地点：苏州；不招色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080405",
+              "name": "金属材料工程",
+              "full_name": "金属材料工程（办学地点：苏州）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "081602",
+              "name": "服装设计与工程",
+              "full_name": "服装设计与工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "081603T",
+              "name": "非织造材料与工程",
+              "full_name": "非织造材料与工程（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（办学地点：苏州）"
+            }
+          ]
+        },
+        {
+          "group_code": "107",
+          "special_group_id": "368709",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3一体化）（办学地点：苏州；不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3一体化）（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（办学地点：苏州；不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100301K",
+              "name": "口腔医学",
+              "full_name": "口腔医学（办学地点：苏州；不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "口腔医学类",
+              "info": "（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100206TK",
+              "name": "放射医学",
+              "full_name": "放射医学（办学地点：苏州；不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100901K",
+              "name": "法医学",
+              "full_name": "法医学（办学地点：苏州；不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "法医学类",
+              "info": "（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "071003",
+              "name": "生物信息学",
+              "full_name": "生物信息学（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（办学地点：苏州；不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（办学地点：苏州；不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "302",
+          "special_group_id": "368742",
+          "track": "物理类",
+          "batch": "本科批(国家专项)",
+          "zslx": "国家专项",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "082802",
+              "name": "城乡规划",
+              "full_name": "城乡规划（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 4,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "full_name": "建筑学（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 4,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "120206",
+              "name": "人力资源管理",
+              "full_name": "人力资源管理（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "120601",
+              "name": "物流管理",
+              "full_name": "物流管理（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "物流管理与工程类",
+              "info": "（国家专项）（办学地点：苏州）"
+            }
+          ]
+        },
+        {
+          "group_code": "303",
+          "special_group_id": "368741",
+          "track": "物理类",
+          "batch": "本科批(国家专项)",
+          "zslx": "国家专项",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "full_name": "材料类（国家专项）（包含专业：材料科学与工程、高分子材料与工程；办学地点：苏州）（国家专项）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（国家专项）（包含专业：材料科学与工程、高分子材料与工程；办学地点：苏州）"
+            },
+            {
+              "spcode": "100901K",
+              "name": "法医学",
+              "full_name": "法医学（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）（国家专项）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "法医学类",
+              "info": "（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）（国家专项）",
+              "num": 4,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（国家专项）（办学地点：苏州；不招色盲、单色识别不全者）（国家专项）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（国家专项）（办学地点：苏州；不招色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "101001",
+              "name": "医学检验技术",
+              "full_name": "医学检验技术（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "医学技术类",
+              "info": "（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "081602",
+              "name": "服装设计与工程",
+              "full_name": "服装设计与工程（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "080405",
+              "name": "金属材料工程",
+              "full_name": "金属材料工程（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "081603T",
+              "name": "非织造材料与工程",
+              "full_name": "非织造材料与工程（国家专项）（办学地点：苏州）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（国家专项）（办学地点：苏州）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）（国家专项）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "304",
+          "special_group_id": "368740",
+          "track": "物理类",
+          "batch": "本科批(国家专项)",
+          "zslx": "国家专项",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选生物",
+          "xuanke_detail": "物+化+生 或 物+生+政 或 物+生+地",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）（国家专项）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（国家专项）（办学地点：苏州；不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "101",
+          "special_group_id": "368769",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学（办学地点：苏州）",
+              "num": 10,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "050202",
+              "name": "俄语",
+              "full_name": "俄语（办学地点：苏州；只招英语语种的考生）",
+              "num": 4,
+              "length": "5",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（办学地点：苏州；只招英语语种的考生）"
+            },
+            {
+              "spcode": "060101",
+              "name": "历史学",
+              "full_name": "历史学（师范）（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info": "（师范）（办学地点：苏州）"
+            },
+            {
+              "spcode": "010101",
+              "name": "哲学",
+              "full_name": "哲学（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "哲学",
+              "subcategory": "哲学类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "1205",
+              "name": "图书情报与档案管理类",
+              "full_name": "图书情报与档案管理类（包含专业：档案学、信息资源管理；办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "图书情报与档案管理类",
+              "info": "（包含专业：档案学、信息资源管理；办学地点：苏州）"
+            },
+            {
+              "spcode": "040101",
+              "name": "教育学",
+              "full_name": "教育学（师范）（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（师范）（办学地点：苏州）"
+            },
+            {
+              "spcode": "050301",
+              "name": "新闻学",
+              "full_name": "新闻学（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "（办学地点：苏州）"
+            },
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": "（办学地点：苏州）"
+            }
+          ]
+        },
+        {
+          "group_code": "102",
+          "special_group_id": "368768",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（师范）（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（师范）（办学地点：苏州）"
+            }
+          ]
+        },
+        {
+          "group_code": "103",
+          "special_group_id": "368767",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治、地理(2科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（师范）（办学地点：苏州）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（师范）（办学地点：苏州）"
+            }
+          ]
+        },
+        {
+          "group_code": "301",
+          "special_group_id": "368760",
+          "track": "历史类",
+          "batch": "本科批(国家专项计划)",
+          "zslx": "国家专项计划",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050202",
+              "name": "俄语",
+              "full_name": "俄语（办学地点：苏州；只招英语语种的考生）（国家专项计划）",
+              "num": 2,
+              "length": "5",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（办学地点：苏州；只招英语语种的考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "jiangsu",
+      "province_cn": "江苏",
+      "province_id": 32,
+      "uses_college_groups": true,
+      "group_count": 41,
+      "total_plan": 7610,
+      "min_admission_2025": {
+        "物理类": 611,
+        "历史类": 605
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 478,
+        "历史类": 484
+      },
+      "groups": [
+        {
+          "group_code": "19",
+          "special_group_id": "426271",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学（拔尖创新班）",
+              "num": 50,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（拔尖创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "20",
+          "special_group_id": "426270",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（拔尖创新班）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 40,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（拔尖创新班）（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "21",
+          "special_group_id": "426269",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3一体化）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 112,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3一体化）（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "22",
+          "special_group_id": "426268",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080413T",
+              "name": "纳米材料与技术",
+              "full_name": "纳米材料与技术",
+              "num": 112,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "23",
+          "special_group_id": "426267",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "full_name": "软件工程",
+              "num": 260,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术",
+              "num": 184,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "24",
+          "special_group_id": "426266",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080204",
+              "name": "机械电子工程",
+              "full_name": "机械电子工程",
+              "num": 64,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程",
+              "num": 52,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "name": "数据科学与大数据技术",
+              "full_name": "数据科学与大数据技术",
+              "num": 32,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能",
+              "num": 22,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "25",
+          "special_group_id": "426265",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学（化学+新能源材料与器件）（双学士学位培养项目）",
+              "num": 70,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（化学+新能源材料与器件）（双学士学位培养项目）"
+            }
+          ]
+        },
+        {
+          "group_code": "26",
+          "special_group_id": "426264",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120203K",
+              "name": "会计学",
+              "full_name": "会计学（会计学+人工智能）（双学士学位培养项目）",
+              "num": 100,
+              "length": "4",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（会计学+人工智能）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学（金融+计算机）（双学士学位培养项目）",
+              "num": 100,
+              "length": "4",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（金融+计算机）（双学士学位培养项目）"
+            },
+            {
+              "spcode": "120201K",
+              "name": "工商管理",
+              "full_name": "工商管理（工商管理+纳米材料与技术）（双学士学位培养项目）",
+              "num": 60,
+              "length": "4",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（工商管理+纳米材料与技术）（双学士学位培养项目）"
+            }
+          ]
+        },
+        {
+          "group_code": "27",
+          "special_group_id": "426263",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 100,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "name": "数字经济",
+              "full_name": "数字经济",
+              "num": 48,
+              "length": "4",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "经济学类",
+              "info": ""
+            },
+            {
+              "spcode": "020305T",
+              "name": "金融数学",
+              "full_name": "金融数学",
+              "num": 44,
+              "length": "4",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": ""
+            },
+            {
+              "spcode": "020201K",
+              "name": "财政学",
+              "full_name": "财政学",
+              "num": 22,
+              "length": "4",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "财政学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "28",
+          "special_group_id": "426262",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "071102",
+              "name": "应用心理学",
+              "full_name": "应用心理学",
+              "num": 46,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "心理学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "29",
+          "special_group_id": "426261",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "full_name": "建筑学",
+              "num": 76,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "name": "风景园林",
+              "full_name": "风景园林",
+              "num": 46,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": ""
+            },
+            {
+              "spcode": "082802",
+              "name": "城乡规划",
+              "full_name": "城乡规划",
+              "num": 32,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": ""
+            },
+            {
+              "spcode": "082804T",
+              "name": "历史建筑保护工程",
+              "full_name": "历史建筑保护工程",
+              "num": 26,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "30",
+          "special_group_id": "426260",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学（与加拿大维多利亚大学合作）（须详询院校）（中外合作办学）",
+              "num": 120,
+              "length": "5",
+              "tuition": "26400",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（与加拿大维多利亚大学合作）（须详询院校）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "31",
+          "special_group_id": "426259",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程",
+              "num": 170,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化",
+              "num": 156,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程",
+              "num": 130,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "full_name": "物理学",
+              "num": 126,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程",
+              "num": 116,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080604T",
+              "name": "电气工程与智能控制",
+              "full_name": "电气工程与智能控制",
+              "num": 116,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "full_name": "数学类（数学与应用数学、数学与应用数学（师范））",
+              "num": 110,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（数学与应用数学、数学与应用数学（师范））"
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "full_name": "电子信息工程",
+              "num": 106,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "name": "通信工程",
+              "full_name": "通信工程",
+              "num": 90,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080802T",
+              "name": "轨道交通信号与控制",
+              "full_name": "轨道交通信号与控制",
+              "num": 86,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "full_name": "车辆工程",
+              "num": 82,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统",
+              "num": 78,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080720T",
+              "name": "智能测控工程",
+              "full_name": "智能测控工程",
+              "num": 74,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程",
+              "full_name": "建筑环境与能源应用工程",
+              "num": 68,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "土木类",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "full_name": "新能源材料与器件",
+              "num": 62,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "full_name": "物理学（师范）",
+              "num": 54,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "full_name": "能源与动力工程",
+              "num": 54,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "name": "电子科学与技术",
+              "full_name": "电子科学与技术",
+              "num": 52,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "name": "信息与计算科学",
+              "full_name": "信息与计算科学",
+              "num": 50,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "name": "统计学",
+              "full_name": "统计学",
+              "num": 32,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "统计学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "32",
+          "special_group_id": "426258",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "full_name": "材料类（材料科学与工程、高分子材料与工程）",
+              "num": 156,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（材料科学与工程、高分子材料与工程）"
+            },
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学",
+              "num": 122,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺",
+              "num": 66,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学（师范）",
+              "num": 34,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "082502",
+              "name": "环境工程",
+              "full_name": "环境工程",
+              "num": 30,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "环境科学与工程类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "33",
+          "special_group_id": "426257",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080405",
+              "name": "金属材料工程",
+              "full_name": "金属材料工程",
+              "num": 50,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程",
+              "num": 46,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "34",
+          "special_group_id": "426256",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 74,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081602",
+              "name": "服装设计与工程",
+              "full_name": "服装设计与工程（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 52,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081603T",
+              "name": "非织造材料与工程",
+              "full_name": "非织造材料与工程（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 50,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 46,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "35",
+          "special_group_id": "426255",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100206TK",
+              "name": "放射医学",
+              "full_name": "放射医学（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 164,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100207TK",
+              "name": "儿科学",
+              "full_name": "儿科学（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 78,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 70,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3一体化，儿科学）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 60,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3一体化，儿科学）（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100301K",
+              "name": "口腔医学",
+              "full_name": "口腔医学（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 40,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "口腔医学类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100203TK",
+              "name": "医学影像学",
+              "full_name": "医学影像学（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 32,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "36",
+          "special_group_id": "426254",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 160,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 38,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "37",
+          "special_group_id": "426253",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 118,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 108,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "071003",
+              "name": "生物信息学",
+              "full_name": "生物信息学（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 58,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "101001",
+              "name": "医学检验技术",
+              "full_name": "医学检验技术（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 24,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "医学技术类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100901K",
+              "name": "法医学",
+              "full_name": "法医学（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）",
+              "num": 14,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "法医学类",
+              "info": "（报考该专业组部分专业有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "38",
+          "special_group_id": "426252",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080414T",
+              "name": "新能源材料与器件",
+              "full_name": "新能源材料与器件（第四学年赴加拿大维多利亚大学学习两年，学费按照加方标准收取）（中外合作办学）",
+              "num": 140,
+              "length": "5",
+              "tuition": "26400",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（第四学年赴加拿大维多利亚大学学习两年，学费按照加方标准收取）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "39",
+          "special_group_id": "426251",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（与爱尔兰皇家外科医学院合作，四年均在苏州大学学习）（（中外合作办学）报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 162,
+              "length": "4",
+              "tuition": "66000",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（与爱尔兰皇家外科医学院合作，四年均在苏州大学学习）（（中外合作办学）报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "40",
+          "special_group_id": "426250",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（与爱尔兰皇家外科医学院合作，四年均在苏州大学孚习）（（中外合作办学）报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 162,
+              "length": "4",
+              "tuition": "66000",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（与爱尔兰皇家外科医学院合作，四年均在苏州大学孚习）（（中外合作办学）报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "41",
+          "special_group_id": "426249",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选生物",
+          "xuanke_detail": "物+化+生 或 物+生+政 或 物+生+地",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "num": 50,
+              "length": "4",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "14",
+          "special_group_id": "455701",
+          "track": "物理类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120206",
+              "name": "人力资源管理",
+              "full_name": "人力资源管理",
+              "num": 32,
+              "length": "4",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "name": "物流管理",
+              "full_name": "物流管理",
+              "num": 30,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "物流管理与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "name": "应用心理学",
+              "full_name": "应用心理学",
+              "num": 4,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "心理学类",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "name": "风景园林",
+              "full_name": "风景园林",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "15",
+          "special_group_id": "455702",
+          "track": "物理类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 8,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081602",
+              "name": "服装设计与工程",
+              "full_name": "服装设计与工程（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "full_name": "材料类（材料科学与工程、高分子材料与工程）（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（材料科学与工程、高分子材料与工程）（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "080405",
+              "name": "金属材料工程",
+              "full_name": "金属材料工程（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081603T",
+              "name": "非织造材料与工程",
+              "full_name": "非织造材料与工程（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "16",
+          "special_group_id": "455703",
+          "track": "物理类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "101001",
+              "name": "医学检验技术",
+              "full_name": "医学检验技术（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "医学技术类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100901K",
+              "name": "法医学",
+              "full_name": "法医学（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "法医学类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "071002",
+              "name": "生物技术",
+              "full_name": "生物技术（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "生物科学类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（报考该专业组部分专业有色觉要求,具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "17",
+          "special_group_id": "455704",
+          "track": "物理类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选生物",
+          "xuanke_detail": "物+化+生 或 物+生+政 或 物+生+地",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "18",
+          "special_group_id": "455581",
+          "track": "物理类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（为苏州市相城区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 32,
+              "length": "5",
+              "tuition": "",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（为苏州市相城区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（为苏州市太仓市定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 16,
+              "length": "5",
+              "tuition": "",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（为苏州市太仓市定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（为苏州市常熟市定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 12,
+              "length": "5",
+              "tuition": "",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（为苏州市常熟市定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（为苏州市相城区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 12,
+              "length": "5",
+              "tuition": "",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（为苏州市相城区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（为常州市金坛区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 6,
+              "length": "5",
+              "tuition": "",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（为常州市金坛区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（为镇江市丹徒区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 2,
+              "length": "5",
+              "tuition": "",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（为镇江市丹徒区定向培养）（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_code": "03",
+          "special_group_id": "426227",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治、地理(2科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（拔尖创新班）",
+              "num": 30,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（拔尖创新班）"
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "426226",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 160,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "426225",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "020201K",
+              "name": "财政学",
+              "full_name": "财政学",
+              "num": 18,
+              "length": "4",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "财政学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "426224",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治、地理(2科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（师范）",
+              "num": 114,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050103",
+              "name": "汉语国际教育",
+              "full_name": "汉语国际教育",
+              "num": 50,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学",
+              "num": 20,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "07",
+          "special_group_id": "426223",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（师范）",
+              "num": 62,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（师范）"
+            }
+          ]
+        },
+        {
+          "group_code": "08",
+          "special_group_id": "426222",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050301",
+              "name": "新闻学",
+              "full_name": "新闻学",
+              "num": 78,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "full_name": "网络与新媒体",
+              "num": 46,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": ""
+            },
+            {
+              "spcode": "050303",
+              "name": "广告学",
+              "full_name": "广告学",
+              "num": 34,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "09",
+          "special_group_id": "426221",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "1205",
+              "name": "图书情报与档案管理类",
+              "full_name": "图书情报与档案管理类（档案学、信息资源管理）",
+              "num": 102,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "图书情报与档案管理类",
+              "info": "（档案学、信息资源管理）"
+            },
+            {
+              "spcode": "060101",
+              "name": "历史学",
+              "full_name": "历史学（师范）",
+              "num": 84,
+              "length": "4",
+              "tuition": "5200",
+              "category": "历史学",
+              "subcategory": "历史学类",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "030301",
+              "name": "社会学",
+              "full_name": "社会学",
+              "num": 50,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作",
+              "num": 28,
+              "length": "4",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "10",
+          "special_group_id": "426220",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "full_name": "行政管理",
+              "num": 58,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": ""
+            },
+            {
+              "spcode": "120405",
+              "name": "城市管理",
+              "full_name": "城市管理",
+              "num": 42,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "name": "物流管理",
+              "full_name": "物流管理",
+              "num": 38,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "物流管理与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "name": "人力资源管理",
+              "full_name": "人力资源管理",
+              "num": 34,
+              "length": "4",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "name": "哲学",
+              "full_name": "哲学",
+              "num": 30,
+              "length": "4",
+              "tuition": "5200",
+              "category": "哲学",
+              "subcategory": "哲学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "11",
+          "special_group_id": "426219",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "040101",
+              "name": "教育学",
+              "full_name": "教育学（师范）",
+              "num": 58,
+              "length": "4",
+              "tuition": "5200",
+              "category": "教育学",
+              "subcategory": "教育学类",
+              "info": "（师范）"
+            }
+          ]
+        },
+        {
+          "group_code": "12",
+          "special_group_id": "426218",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（只招英语考生）（师范）",
+              "num": 84,
+              "length": "4",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）（师范）"
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（只招英语考生）",
+              "num": 48,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050261",
+              "name": "翻译",
+              "full_name": "翻译（只招英语考生）",
+              "num": 40,
+              "length": "4",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（只招英语考生）",
+              "num": 34,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050205",
+              "name": "西班牙语",
+              "full_name": "西班牙语（只招英语考生）",
+              "num": 34,
+              "length": "4",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050202",
+              "name": "俄语",
+              "full_name": "俄语（只招英语考生）",
+              "num": 30,
+              "length": "5",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050204",
+              "name": "法语",
+              "full_name": "法语（只招英语考生）",
+              "num": 30,
+              "length": "5",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "13",
+          "special_group_id": "426217",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "020301K",
+              "name": "金融学",
+              "full_name": "金融学（与加拿大维多利亚大学合作）（须详询院校）（中外合作办学）",
+              "num": 80,
+              "length": "5",
+              "tuition": "26400",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（与加拿大维多利亚大学合作）（须详询院校）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_code": "01",
+          "special_group_id": "455591",
+          "track": "历史类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "120405",
+              "name": "城市管理",
+              "full_name": "城市管理",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "name": "日语",
+              "full_name": "日语（只招英语考生）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050204",
+              "name": "法语",
+              "full_name": "法语（只招英语考生）",
+              "num": 4,
+              "length": "5",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "030302",
+              "name": "社会工作",
+              "full_name": "社会工作",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": ""
+            },
+            {
+              "spcode": "050261",
+              "name": "翻译",
+              "full_name": "翻译（只招英语考生）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（只招英语考生）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050202",
+              "name": "俄语",
+              "full_name": "俄语（只招英语考生）",
+              "num": 2,
+              "length": "5",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "120402",
+              "name": "行政管理",
+              "full_name": "行政管理",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": ""
+            },
+            {
+              "spcode": "050205",
+              "name": "西班牙语",
+              "full_name": "西班牙语（只招英语考生）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（只招英语考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "02",
+          "special_group_id": "455592",
+          "track": "历史类",
+          "batch": "提前批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选生物",
+          "xuanke_detail": "化+生+史 或 生+政+史 或 生+史+地",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（报考该专业组有色觉要求,具体请查阅院校招生章程）",
+              "num": 10,
+              "length": "4",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（报考该专业组有色觉要求,具体请查阅院校招生章程）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "guangdong",
+      "province_cn": "广东",
+      "province_id": 44,
+      "uses_college_groups": true,
+      "group_count": 10,
+      "total_plan": 136,
+      "min_admission_2025": {
+        "物理类": 610,
+        "历史类": 604
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 442,
+        "历史类": 445
+      },
+      "groups": [
+        {
+          "group_code": "214",
+          "special_group_id": "432025",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020305T",
+              "name": "金融数学",
+              "full_name": "金融数学（办学地点：江苏省苏州市）",
+              "num": 6,
+              "length": "4",
+              "tuition": "5720",
+              "category": "经济学",
+              "subcategory": "金融学类",
+              "info": "（办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "215",
+          "special_group_id": "432024",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "full_name": "电子信息工程（办学地点：江苏省苏州市）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术（办学地点：江苏省苏州市）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "full_name": "软件工程（办学地点：江苏省苏州市）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080703",
+              "name": "通信工程",
+              "full_name": "通信工程（办学地点：江苏省苏州市）",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "full_name": "数学类（含数学与应用数学、数学与应用数学（师范）专业；办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（含数学与应用数学、数学与应用数学（师范）专业；办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080910T",
+              "name": "数据科学与大数据技术",
+              "full_name": "数据科学与大数据技术（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080720T",
+              "name": "智能测控工程",
+              "full_name": "智能测控工程（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080204",
+              "name": "机械电子工程",
+              "full_name": "机械电子工程（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080413T",
+              "name": "纳米材料与技术",
+              "full_name": "纳米材料与技术（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "full_name": "车辆工程（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "080802T",
+              "name": "轨道交通信号与控制",
+              "full_name": "轨道交通信号与控制（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": "（办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "216",
+          "special_group_id": "432023",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（“5+3”一体化）（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：江苏省苏州市）",
+              "num": 6,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（“5+3”一体化）（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "100901K",
+              "name": "法医学",
+              "full_name": "法医学（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "法医学类",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "217",
+          "special_group_id": "432022",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "081701",
+              "name": "轻化工程",
+              "full_name": "轻化工程（特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "轻工类",
+              "info": "（特征要求：不招色盲，不招单色识别不全者；办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "218",
+          "special_group_id": "432021",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "full_name": "材料类（含材料科学与工程、高分子材料与工程专业；办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（含材料科学与工程、高分子材料与工程专业；办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "708",
+          "special_group_id": "258709",
+          "track": "物理类",
+          "batch": "特殊类型招生批(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "082803",
+              "name": "风景园林",
+              "full_name": "风景园林（特殊类型招生）（住宿费：待定）（办学地点：江苏省苏州市）（招生种类：高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（特殊类型招生）（住宿费：待定）（办学地点：江苏省苏州市）（招生种类：高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "211",
+          "special_group_id": "431995",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050204",
+              "name": "法语",
+              "full_name": "法语（外语语种：英语；办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "5",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种：英语；办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "212",
+          "special_group_id": "431994",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学（办学地点：江苏省苏州市）",
+              "num": 6,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "120206",
+              "name": "人力资源管理",
+              "full_name": "人力资源管理（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "050303",
+              "name": "广告学",
+              "full_name": "广告学（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "120601",
+              "name": "物流管理",
+              "full_name": "物流管理（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "物流管理与工程类",
+              "info": "（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "030301",
+              "name": "社会学",
+              "full_name": "社会学（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "社会学类",
+              "info": "（办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "213",
+          "special_group_id": "431993",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治、地理(2科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（师范）（办学地点：江苏省苏州市）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（师范）（办学地点：江苏省苏州市）"
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（办学地点：江苏省苏州市）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（办学地点：江苏省苏州市）"
+            }
+          ]
+        },
+        {
+          "group_code": "706",
+          "special_group_id": "258644",
+          "track": "历史类",
+          "batch": "特殊类型招生批(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "full_name": "网络与新媒体（特殊类型招生）（住宿费：待定）（办学地点：江苏省苏州市）（招生种类：高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "（特殊类型招生）（住宿费：待定）（办学地点：江苏省苏州市）（招生种类：高校专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "hubei",
+      "province_cn": "湖北",
+      "province_id": 42,
+      "uses_college_groups": true,
+      "group_count": 9,
+      "total_plan": 118,
+      "min_admission_2025": {
+        "物理类": 593,
+        "历史类": 604
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 437,
+        "历史类": 463
+      },
+      "groups": [
+        {
+          "group_code": "07",
+          "special_group_id": "291114",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "full_name": "数学类（数学与应用数学、数学与应用数学（师范））",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（数学与应用数学、数学与应用数学（师范））"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080720T",
+              "name": "智能测控工程",
+              "full_name": "智能测控工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "name": "机器人工程",
+              "full_name": "机器人工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "自动化类",
+              "info": ""
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "full_name": "电子信息工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "full_name": "车辆工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "full_name": "软件工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080413T",
+              "name": "纳米材料与技术",
+              "full_name": "纳米材料与技术",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "08",
+          "special_group_id": "291113",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3一体化；不招色弱、色盲、单色识别不全者；学制：五年）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3一体化；不招色弱、色盲、单色识别不全者；学制：五年）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（不招色弱、色盲、单色识别不全者；学制：五年）（院校专业组院校专业组、专业名称及备注科日及专业要求代号）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（不招色弱、色盲、单色识别不全者；学制：五年）（院校专业组院校专业组、专业名称及备注科日及专业要求代号）"
+            },
+            {
+              "spcode": "100901K",
+              "name": "法医学",
+              "full_name": "法医学（不招色弱、色盲、单色识别不全者；学制：五年）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "法医学类",
+              "info": "（不招色弱、色盲、单色识别不全者；学制：五年）"
+            },
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（不招色弱、色盲、单色识别不全者）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "09",
+          "special_group_id": "291112",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（中外合作办学）（不招色弱、色盲、单色识别不全者）（中外合作）",
+              "num": 4,
+              "length": "4",
+              "tuition": "66000",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（中外合作办学）（不招色弱、色盲、单色识别不全者）（中外合作）",
+              "num": 4,
+              "length": "4",
+              "tuition": "66000",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "10",
+          "special_group_id": "291154",
+          "track": "物理类",
+          "batch": "本科批(国家专项计划)",
+          "zslx": "国家专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120206",
+              "name": "人力资源管理",
+              "full_name": "人力资源管理（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "管理学",
+              "subcategory": "工商管理类",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "full_name": "建筑学（国家专项计划）",
+              "num": 2,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "name": "物流管理",
+              "full_name": "物流管理（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "物流管理与工程类",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "name": "风景园林",
+              "full_name": "风景园林（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "11",
+          "special_group_id": "291153",
+          "track": "物理类",
+          "batch": "本科批(国家专项计划)",
+          "zslx": "国家专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（不招色弱、色盲、单色识别不全者）（国家专项计划）",
+              "num": 4,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080405",
+              "name": "金属材料工程",
+              "full_name": "金属材料工程（国家专项计划）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "name": "化学工程与工艺",
+              "full_name": "化学工程与工艺（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "化工与制药类",
+              "info": ""
+            },
+            {
+              "spcode": "081601",
+              "name": "纺织工程",
+              "full_name": "纺织工程（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "03",
+          "special_group_id": "291143",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "full_name": "网络与新媒体",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "04",
+          "special_group_id": "291142",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（师范类）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（师范类）"
+            }
+          ]
+        },
+        {
+          "group_code": "05",
+          "special_group_id": "291141",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治、地理(2科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050103",
+              "name": "汉语国际教育",
+              "full_name": "汉语国际教育",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（师范类）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（师范类）"
+            }
+          ]
+        },
+        {
+          "group_code": "06",
+          "special_group_id": "291170",
+          "track": "历史类",
+          "batch": "本科批(国家专项计划)",
+          "zslx": "国家专项计划",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050205",
+              "name": "西班牙语",
+              "full_name": "西班牙语（外语语种：英语）（国家专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（外语语种：英语）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "fujian",
+      "province_cn": "福建",
+      "province_id": 35,
+      "uses_college_groups": true,
+      "group_count": 9,
+      "total_plan": 144,
+      "min_admission_2025": {
+        "物理类": 601,
+        "历史类": 607
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 433,
+        "历史类": 449
+      },
+      "groups": [
+        {
+          "group_code": "500",
+          "special_group_id": "393239",
+          "track": "物理类",
+          "batch": "本科批(中外合作)",
+          "zslx": "中外合作",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（中外合作办学）（不招色弱、色盲、单色识别不全者）（中外合作）",
+              "num": 6,
+              "length": "4",
+              "tuition": "66000",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（中外合作办学）（不招色弱、色盲、单色识别不全者）（中外合作）",
+              "num": 6,
+              "length": "4",
+              "tuition": "66000",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393243",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "full_name": "软件工程",
+              "num": 6,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "name": "建筑环境与能源应用工程",
+              "full_name": "建筑环境与能源应用工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "土木类",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "full_name": "数学类（含数学与应用数学、数学与应用数学（师范））",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（含数学与应用数学、数学与应用数学（师范））"
+            },
+            {
+              "spcode": "080910T",
+              "name": "数据科学与大数据技术",
+              "full_name": "数据科学与大数据技术",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080720T",
+              "name": "智能测控工程",
+              "full_name": "智能测控工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "full_name": "材料类（含材料科学与工程、高分子材料与工程）",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（含材料科学与工程、高分子材料与工程）"
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "full_name": "物理学",
+              "num": 4,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "full_name": "电子信息工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化",
+              "num": 4,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "080413T",
+              "name": "纳米材料与技术",
+              "full_name": "纳米材料与技术",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "name": "统计学",
+              "full_name": "统计学",
+              "num": 4,
+              "length": "4",
+              "tuition": "5500",
+              "category": "理学",
+              "subcategory": "统计学类",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "name": "通信工程",
+              "full_name": "通信工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "name": "集成电路设计与集成系统",
+              "full_name": "集成电路设计与集成系统",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393241",
+          "track": "物理类",
+          "batch": "本科批(医学类)",
+          "zslx": "医学类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（医学类）（5十3一体化）（不招色弱、色盲、单色识别不全者）（医学类）",
+              "num": 6,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（医学类）（5十3一体化）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100206TK",
+              "name": "放射医学",
+              "full_name": "放射医学（医学类）（不招色弱、色盲、单色识别不全者）（医学类）",
+              "num": 6,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（医学类）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（医学类）（不招色弱、色盲、单色识别不全者）（医学类）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（医学类）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100203TK",
+              "name": "医学影像学",
+              "full_name": "医学影像学（医学类）（不招色弱、色盲、单色识别不全者）（医学类）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（医学类）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（医学类）（不招色弱、色盲、单色识别不全者）（医学类）",
+              "num": 4,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（医学类）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（医学类）（不招色弱、色盲、单色识别不全者）（医学类）",
+              "num": 4,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（医学类）（不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "500",
+          "special_group_id": "393243",
+          "track": "物理类",
+          "batch": "国家专项(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "0804",
+              "name": "材料类",
+              "full_name": "材料类（含：材料科学与工程、高分子材料与工程）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（含：材料科学与工程、高分子材料与工程）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "600",
+          "special_group_id": "466928",
+          "track": "物理类",
+          "batch": "国家专项(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选生物",
+          "xuanke_detail": "物+化+生 或 物+生+政 或 物+生+地",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（不招色盲、色弱、单色识别不全者）（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（不招色盲、色弱、单色识别不全者）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "466927",
+          "track": "物理类",
+          "batch": "国家专项(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "full_name": "建筑学（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "719",
+          "special_group_id": "393201",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治、地理(2科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050103",
+              "name": "汉语国际教育",
+              "full_name": "汉语国际教育",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（师范）（师范类）",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（师范）（师范类）"
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "393203",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 4,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "999",
+          "special_group_id": "393203",
+          "track": "历史类",
+          "batch": "国家专项(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050303",
+              "name": "广告学",
+              "full_name": "广告学（高校专项计划）（高校专项计划）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "shandong",
+      "province_cn": "山东",
+      "province_id": 37,
+      "uses_college_groups": true,
+      "group_count": 8,
+      "total_plan": 63,
+      "min_admission_2025": {
+        "综合": 603
+      },
+      "province_cutoff_2025_ref": {
+        "综合": 446
+      },
+      "groups": [
+        {
+          "group_code": "X不限",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "不限",
+          "xuanke": "不限",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 物+政+史 或 物+史+地 或 物+史+技 或 物+政+地 或 物+政+技 或 物+地+技 或 化+生+史 或 化+生+政 或 化+生+地 或 化+生+技 或 化+政+史 或 化+史+地 或 化+史+技 或 化+政+地 或 化+政+技 或 化+地+技 或 生+政+史 或 生+史+地 或 生+史+技 或 生+政+地 或 生+政+技 或 生+地+技 或 政+史+地 或 政+史+技 或 史+地+技 或 政+地+技",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "name": "英语",
+              "full_name": "英语（师范类）（外语语种为英语）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（师范类）（外语语种为英语）"
+            }
+          ]
+        },
+        {
+          "group_code": "X不限",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "高校专项(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "不限",
+          "xuanke": "不限",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 物+政+史 或 物+史+地 或 物+史+技 或 物+政+地 或 物+政+技 或 物+地+技 或 化+生+史 或 化+生+政 或 化+生+地 或 化+生+技 或 化+政+史 或 化+史+地 或 化+史+技 或 化+政+地 或 化+政+技 或 化+地+技 或 生+政+史 或 生+史+地 或 生+史+技 或 生+政+地 或 生+政+技 或 生+地+技 或 政+史+地 或 政+史+技 或 史+地+技 或 政+地+技",
+          "majors": [
+            {
+              "spcode": "120405",
+              "name": "城市管理",
+              "full_name": "城市管理（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "公共管理类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "X史政地",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "不限",
+          "xuanke": "史政地(3科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（师范类）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（师范类）"
+            }
+          ]
+        },
+        {
+          "group_code": "X物化",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "不限",
+          "xuanke": "物理、化学(2科必选)",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技",
+          "majors": [
+            {
+              "spcode": "080413T",
+              "name": "纳米材料与技术",
+              "full_name": "纳米材料与技术",
+              "num": 5,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程",
+              "num": 3,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（不招色弱、色盲、单色识别不全者）",
+              "num": 3,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术",
+              "num": 3,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "full_name": "软件工程",
+              "num": 3,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3一体化）（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3一体化）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "name": "光电信息科学与工程",
+              "full_name": "光电信息科学与工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "100203TK",
+              "name": "医学影像学",
+              "full_name": "医学影像学（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100206TK",
+              "name": "放射医学",
+              "full_name": "放射医学（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "full_name": "数学类（数学与应用数学、数学与应用数学（师范））",
+              "num": 2,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（数学与应用数学、数学与应用数学（师范））"
+            },
+            {
+              "spcode": "080720T",
+              "name": "智能测控工程",
+              "full_name": "智能测控工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "full_name": "电子信息工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080604T",
+              "name": "电气工程与智能控制",
+              "full_name": "电气工程与智能控制",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "full_name": "能源与动力工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "name": "通信工程",
+              "full_name": "通信工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "X物化",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "普通类一段(中外合作办学)",
+          "zslx": "中外合作办学",
+          "shouxuan": "不限",
+          "xuanke": "物理、化学(2科必选)",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技",
+          "majors": [
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（中外合作办学）（不招色弱、色盲、单色识别不全者，与爱尔兰皇家外科医学院合作）（中外合作办学）",
+              "num": 3,
+              "length": "4",
+              "tuition": "66000",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者，与爱尔兰皇家外科医学院合作）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（中外合作办学）（不招色弱、色盲、单色识别不全者，与爱尔兰皇家外科医学院合作）（中外合作办学）",
+              "num": 3,
+              "length": "4",
+              "tuition": "66000",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者，与爱尔兰皇家外科医学院合作）"
+            }
+          ]
+        },
+        {
+          "group_code": "X物化",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "高校专项(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "不限",
+          "xuanke": "物理、化学(2科必选)",
+          "xuanke_detail": "物+化+生 或 物+化+史 或 物+化+政 或 物+化+地 或 物+化+技",
+          "majors": [
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "081602",
+              "name": "服装设计与工程",
+              "full_name": "服装设计与工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（不招色弱、色盲、单色识别不全者）（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（不招色弱、色盲、单色识别不全者）（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "X生",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "shouxuan": "不限",
+          "xuanke": "生物必选",
+          "xuanke_detail": "物+化+生 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 化+生+史 或 化+生+政 或 化+生+地 或 化+生+技 或 生+政+史 或 生+史+地 或 生+史+技 或 生+政+地 或 生+政+技 或 生+地+技",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            }
+          ]
+        },
+        {
+          "group_code": "X生",
+          "special_group_id": "—",
+          "track": "综合",
+          "batch": "高校专项(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "不限",
+          "xuanke": "生物必选",
+          "xuanke_detail": "物+化+生 或 物+生+史 或 物+生+政 或 物+生+地 或 物+生+技 或 化+生+史 或 化+生+政 或 化+生+地 或 化+生+技 或 生+政+史 或 生+史+地 或 生+史+技 或 生+政+地 或 生+政+技 或 生+地+技",
+          "majors": [
+            {
+              "spcode": "101101K",
+              "name": "护理学",
+              "full_name": "护理学（不招色弱、色盲、单色识别不全者）（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "6800",
+              "category": "医学",
+              "subcategory": "护理学类",
+              "info": "（不招色弱、色盲、单色识别不全者）（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province": "hebei",
+      "province_cn": "河北",
+      "province_id": 13,
+      "uses_college_groups": true,
+      "group_count": 11,
+      "total_plan": 75,
+      "min_admission_2025": {
+        "物理类": 622,
+        "历史类": 622
+      },
+      "province_cutoff_2025_ref": {
+        "物理类": 448,
+        "历史类": 482
+      },
+      "groups": [
+        {
+          "group_code": "W不限",
+          "special_group_id": "—",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "020201K",
+              "name": "财政学",
+              "full_name": "财政学",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "经济学",
+              "subcategory": "财政学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "W不限",
+          "special_group_id": "—",
+          "track": "物理类",
+          "batch": "本科批(地方专项)(国家专项计划)",
+          "zslx": "国家专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "082801",
+              "name": "建筑学",
+              "full_name": "建筑学（国家专项计划）（国家专项计划）",
+              "num": 1,
+              "length": "5",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "建筑类",
+              "info": "（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "—",
+          "track": "物理类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080405",
+              "name": "金属材料工程",
+              "full_name": "金属材料工程",
+              "num": 4,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "name": "软件工程",
+              "full_name": "软件工程",
+              "num": 3,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（5+3一体化）（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（5+3一体化）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100201K",
+              "name": "临床医学",
+              "full_name": "临床医学（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080717T",
+              "name": "人工智能",
+              "full_name": "人工智能",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "100203TK",
+              "name": "医学影像学",
+              "full_name": "医学影像学（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "100206TK",
+              "name": "放射医学",
+              "full_name": "放射医学（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "临床医学类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "0701",
+              "name": "数学类",
+              "full_name": "数学类（含数学与应用数学、数学与应用数学（师范）专业）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "数学类",
+              "info": "（含数学与应用数学、数学与应用数学（师范）专业）"
+            },
+            {
+              "spcode": "080213T",
+              "name": "智能制造工程",
+              "full_name": "智能制造工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080201",
+              "name": "机械工程",
+              "full_name": "机械工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "name": "机械电子工程",
+              "full_name": "机械电子工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "name": "物理学",
+              "full_name": "物理学",
+              "num": 2,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "物理学类",
+              "info": ""
+            },
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "083002T",
+              "name": "生物制药",
+              "full_name": "生物制药（中外合作办学）（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "4",
+              "tuition": "66000",
+              "category": "工学",
+              "subcategory": "生物工程类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080701",
+              "name": "电子信息工程",
+              "full_name": "电子信息工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            },
+            {
+              "spcode": "080604T",
+              "name": "电气工程与智能控制",
+              "full_name": "电气工程与智能控制",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "name": "电气工程及其自动化",
+              "full_name": "电气工程及其自动化",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "电气类",
+              "info": ""
+            },
+            {
+              "spcode": "080413T",
+              "name": "纳米材料与技术",
+              "full_name": "纳米材料与技术",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "name": "能源与动力工程",
+              "full_name": "能源与动力工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "能源动力类",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "name": "药学",
+              "full_name": "药学（中外合作办学）（不招色弱、色盲、单色识别不全者）",
+              "num": 2,
+              "length": "4",
+              "tuition": "66000",
+              "category": "医学",
+              "subcategory": "药学类",
+              "info": "（中外合作办学）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080901",
+              "name": "计算机科学与技术",
+              "full_name": "计算机科学与技术",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "计算机类",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "name": "车辆工程",
+              "full_name": "车辆工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "机械类",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "name": "通信工程",
+              "full_name": "通信工程",
+              "num": 2,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "电子信息类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "—",
+          "track": "物理类",
+          "batch": "本科批(地方专项)(国家专项计划)",
+          "zslx": "国家专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "100401K",
+              "name": "预防医学",
+              "full_name": "预防医学（国家专项计划）（不招色弱、色盲、单色识别不全者）（国家专项计划）",
+              "num": 2,
+              "length": "5",
+              "tuition": "7480",
+              "category": "医学",
+              "subcategory": "公共卫生与预防医学类",
+              "info": "（国家专项计划）（不招色弱、色盲、单色识别不全者）"
+            },
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（国家专项计划）（国家专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（国家专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "W不限",
+          "special_group_id": "—",
+          "track": "物理类",
+          "batch": "本科提前批C段(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选不限",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地 或 物+生+政 或 物+生+地 或 物+政+地",
+          "majors": [
+            {
+              "spcode": "120601",
+              "name": "物流管理",
+              "full_name": "物流管理（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "物流管理与工程类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "W化",
+          "special_group_id": "—",
+          "track": "物理类",
+          "batch": "本科提前批C段(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "物",
+          "xuanke": "首选物理，再选化学",
+          "xuanke_detail": "物+化+生 或 物+化+政 或 物+化+地",
+          "majors": [
+            {
+              "spcode": "080404",
+              "name": "冶金工程",
+              "full_name": "冶金工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "5800",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "070301",
+              "name": "化学",
+              "full_name": "化学（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "6050",
+              "category": "理学",
+              "subcategory": "化学类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "081602",
+              "name": "服装设计与工程",
+              "full_name": "服装设计与工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "纺织类",
+              "info": "（高校专项计划）"
+            },
+            {
+              "spcode": "080405",
+              "name": "金属材料工程",
+              "full_name": "金属材料工程（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "6380",
+              "category": "工学",
+              "subcategory": "材料类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        },
+        {
+          "group_code": "L不限",
+          "special_group_id": "—",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030101K",
+              "name": "法学",
+              "full_name": "法学",
+              "num": 3,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "法学类",
+              "info": ""
+            },
+            {
+              "spcode": "1205",
+              "name": "图书情报与档案管理类",
+              "full_name": "图书情报与档案管理类（含档案学、信息资源管理专业）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5200",
+              "category": "管理学",
+              "subcategory": "图书情报与档案管理类",
+              "info": "（含档案学、信息资源管理专业）"
+            },
+            {
+              "spcode": "050306T",
+              "name": "网络与新媒体",
+              "full_name": "网络与新媒体",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "新闻传播学类",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_code": "L不限",
+          "special_group_id": "—",
+          "track": "历史类",
+          "batch": "本科批(地方专项)(国家专项计划)",
+          "zslx": "国家专项计划",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "050202",
+              "name": "俄语",
+              "full_name": "俄语（国家专项计划）（只招英语语种考生）（国家专项计划）",
+              "num": 1,
+              "length": "5",
+              "tuition": "5200",
+              "category": "文学",
+              "subcategory": "外国语言文学类",
+              "info": "（国家专项计划）（只招英语语种考生）"
+            }
+          ]
+        },
+        {
+          "group_code": "L政",
+          "special_group_id": "—",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治",
+          "xuanke_detail": "化+政+史 或 生+政+史 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "030503",
+              "name": "思想政治教育",
+              "full_name": "思想政治教育（师范）（师范类）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "法学",
+              "subcategory": "马克思主义理论类",
+              "info": "（师范）（师范类）"
+            }
+          ]
+        },
+        {
+          "group_code": "L政地",
+          "special_group_id": "—",
+          "track": "历史类",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选思想政治、地理(2科必选)",
+          "xuanke_detail": "政+史+地",
+          "majors": [
+            {
+              "spcode": "050103",
+              "name": "汉语国际教育",
+              "full_name": "汉语国际教育",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "name": "汉语言文学",
+              "full_name": "汉语言文学（师范）（师范类）",
+              "num": 2,
+              "length": "4",
+              "tuition": "5720",
+              "category": "文学",
+              "subcategory": "中国语言文学类",
+              "info": "（师范）（师范类）"
+            }
+          ]
+        },
+        {
+          "group_code": "L不限",
+          "special_group_id": "—",
+          "track": "历史类",
+          "batch": "本科提前批C段(高校专项计划)",
+          "zslx": "高校专项计划",
+          "shouxuan": "史",
+          "xuanke": "首选历史，再选不限",
+          "xuanke_detail": "化+生+史 或 化+政+史 或 化+史+地 或 生+政+史 或 生+史+地 或 政+史+地",
+          "majors": [
+            {
+              "spcode": "010101",
+              "name": "哲学",
+              "full_name": "哲学（高校专项计划）（高校专项计划）",
+              "num": 1,
+              "length": "4",
+              "tuition": "5200",
+              "category": "哲学",
+              "subcategory": "哲学类",
+              "info": "（高校专项计划）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

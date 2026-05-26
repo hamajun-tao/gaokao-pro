@@ -1,0 +1,680 @@
+{
+  "uni": "哈尔滨工程大学",
+  "code": 1214,
+  "zs_code": "10217",
+  "eol_school_id": 124,
+  "year": 2025,
+  "source": {
+    "primary": "static-data.gaokao.cn/www/2.0/schoolspecialplan/124/2025/{provinceId}.json",
+    "secondary": "zsb.hrbeu.edu.cn",
+    "tertiary": "eol.cn / gaokao.cn",
+    "fetched_at": "2026-05-26"
+  },
+  "notes": [
+    "哈尔滨工程大学 (HRBEU)，工信部直属，国防七子之一，'三海一核'特色 (船舶/海洋/水声/核能)。",
+    "招生类型: 普通类 / 中外合作 / 国家专项 / 高校专项 / 兴海领军计划 / AI试验班。",
+    "中外合作主要伙伴: 英国阿伯丁大学(土木 3+1)、英国斯旺西大学(电子信息/机械/材料物理 3+1)。",
+    "track: 2073=物理类, 2074=历史类, 3=综合改革(山东)。",
+    "山东 (3+3) 不设院校专业组，按专业(类)+院校投档。",
+    "河北 2025 不再公布院校专业组代号 (special_group=0)，此处按选科+招生类型逻辑分组。",
+    "部分专业(如软件工程)后两年学费 16000 元/年。"
+  ],
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2 (2025首年)",
+      "groups": [
+        {
+          "group_code": "368800",
+          "sg_name": "(101)普通理科",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "水声工程", "spcode": "080708T", "num": 20, "tuition": 5500 },
+            { "sp_name": "电子信息类", "spcode": "0807", "num": 20, "tuition": 5500 },
+            { "sp_name": "自动化类", "spcode": "0808", "num": 20, "tuition": 5500 },
+            { "sp_name": "计算机类", "spcode": "0809", "num": 20, "tuition": 5500 },
+            { "sp_name": "海洋工程类", "spcode": "0819", "num": 20, "tuition": 5500 },
+            { "sp_name": "核工程与核技术", "spcode": "082201", "num": 9, "tuition": 4500 },
+            { "sp_name": "航空航天类", "spcode": "0820", "num": 9, "tuition": 5500 },
+            { "sp_name": "能源动力类", "spcode": "0805", "num": 8, "tuition": 5500 },
+            { "sp_name": "机械类", "spcode": "0802", "num": 6, "tuition": 5500 },
+            { "sp_name": "数学与应用数学", "spcode": "070101", "num": 4, "tuition": 4000 },
+            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 3, "tuition": 5500 },
+            { "sp_name": "材料类", "spcode": "0804", "num": 2, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 2, "tuition": 5500 },
+            { "sp_name": "应用物理学", "spcode": "070202", "num": 2, "tuition": 5000 },
+            { "sp_name": "大数据管理与应用", "spcode": "120108T", "num": 2, "tuition": 5000 },
+            { "sp_name": "软件工程", "spcode": "080902", "num": 2, "tuition": 5500, "info_short": "后两年16000/年" }
+          ]
+        },
+        {
+          "group_code": "368789",
+          "sg_name": "(201)中外合作电子信息",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "电子信息工程(中外合作)", "spcode": "080701", "num": 8, "tuition": 45000, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "材料物理(中外合作)", "spcode": "080402", "num": 7, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "机械设计制造及其自动化(中外合作)", "spcode": "080202", "num": 6, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "368788",
+          "sg_name": "(202)中外合作土木",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "土木工程(中外合作)", "spcode": "081001", "num": 7, "tuition": 45000, "info_short": "英国阿伯丁大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "368850",
+          "sg_name": "(301)国家专项",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "items": [
+            { "sp_name": "能源动力类", "spcode": "0805", "num": 8, "tuition": 5500 },
+            { "sp_name": "材料类", "spcode": "0804", "num": 8, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 7, "tuition": 5500 },
+            { "sp_name": "航空航天类", "spcode": "0820", "num": 4, "tuition": 5500 },
+            { "sp_name": "机械类", "spcode": "0802", "num": 4, "tuition": 5500 },
+            { "sp_name": "应用物理学", "spcode": "070202", "num": 2, "tuition": 5000 }
+          ]
+        },
+        {
+          "group_code": "368874",
+          "sg_name": "(101)历史普通",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "工商管理", "spcode": "120201K", "num": 23, "tuition": 3500 },
+            { "sp_name": "社会学", "spcode": "030301", "num": 7, "tuition": 5000 },
+            { "sp_name": "法学", "spcode": "030101K", "num": 6, "tuition": 4000 },
+            { "sp_name": "英语", "spcode": "050201", "num": 4, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "368873",
+          "sg_name": "(103)英语AI试验班",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "英语(AI试验班)", "spcode": "050201", "num": 2, "tuition": 4000, "info_short": "只招英语语种考生" }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "426368",
+          "sg_name": "(物化)普通类主组",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "电子信息类", "num": 4, "tuition": 5500 },
+            { "sp_name": "核工程与核技术", "num": 3, "tuition": 4500 },
+            { "sp_name": "水声工程", "num": 3, "tuition": 5500 },
+            { "sp_name": "自动化类", "num": 3, "tuition": 5500 },
+            { "sp_name": "海洋工程类", "num": 3, "tuition": 5500 },
+            { "sp_name": "计算机类", "num": 2, "tuition": 5500 },
+            { "sp_name": "能源动力类", "num": 2, "tuition": 5500 },
+            { "sp_name": "航空航天类", "num": 2, "tuition": 5500 },
+            { "sp_name": "机械类", "num": 2, "tuition": 5500 },
+            { "sp_name": "材料类", "num": 2, "tuition": 5500 },
+            { "sp_name": "智能制造工程", "num": 2, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "num": 2, "tuition": 5500 },
+            { "sp_name": "数学与应用数学", "num": 1, "tuition": 4000 },
+            { "sp_name": "核裂工与核燃料工程", "num": 1, "tuition": 5500 },
+            { "sp_name": "应用物理学", "num": 1, "tuition": 5000 },
+            { "sp_name": "大数据管理与应用", "num": 1, "tuition": 5000 }
+          ]
+        },
+        {
+          "group_code": "426365",
+          "sg_name": "(物化)中外合作-阿伯丁",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "土木工程(中外合作)", "num": 8, "tuition": 45000, "info_short": "英国阿伯丁大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "426364",
+          "sg_name": "(物化)中外合作-斯旺西",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "材料物理(中外合作)", "num": 8, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "电子信息工程(中外合作)", "num": 5, "tuition": 45000, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "机械设计制造及其自动化(中外合作)", "num": 5, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "426328",
+          "sg_name": "(历史)历史类主组",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "工商管理", "num": 6, "tuition": 3500 },
+            { "sp_name": "社会学", "num": 4, "tuition": 5000 },
+            { "sp_name": "法学", "num": 3, "tuition": 4000 },
+            { "sp_name": "英语", "num": 2, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "426327",
+          "sg_name": "(历史)英语AI试验班",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "英语(AI试验班)", "num": 2, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "426326",
+          "sg_name": "(历史+思政)思想政治教育",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "思想政治教育", "num": 2, "tuition": 5000 }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "432090",
+          "sg_name": "(211)物化普通类主组",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "核工程与核技术", "num": 6, "tuition": 4500 },
+            { "sp_name": "水声工程", "num": 5, "tuition": 5500 },
+            { "sp_name": "电子信息类", "num": 5, "tuition": 5500 },
+            { "sp_name": "自动化类", "num": 5, "tuition": 5500 },
+            { "sp_name": "海洋工程类", "num": 5, "tuition": 5500 },
+            { "sp_name": "能源动力类", "num": 4, "tuition": 5500 },
+            { "sp_name": "航空航天类", "num": 4, "tuition": 5500 }
+          ]
+        },
+        {
+          "group_code": "432089",
+          "sg_name": "(213)中外合作-阿伯丁",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "土木工程(中外合作)", "num": 6, "tuition": 45000, "info_short": "英国阿伯丁大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "432088",
+          "sg_name": "(214)中外合作-斯旺西",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "电子信息工程(中外合作)", "num": 7, "tuition": 45000, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "材料物理(中外合作)", "num": 7, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "机械设计制造及其自动化(中外合作)", "num": 3, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "432084",
+          "sg_name": "(218)兴海领军",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "兴海领军",
+          "items": [
+            { "sp_name": "核工程与核技术(兴海领军)", "num": 2, "tuition": 4500 }
+          ]
+        },
+        {
+          "group_code": "432083",
+          "sg_name": "(219)国家特软创新班",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "特设班",
+          "items": [
+            { "sp_name": "软件工程(国家特软创新班)", "spcode": "080902", "num": 2, "tuition": 5500, "info_short": "第三、四学年学费16000/年" }
+          ]
+        },
+        {
+          "group_code": "432041",
+          "sg_name": "(208)历史普通",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "工商管理", "num": 3, "tuition": 3500 },
+            { "sp_name": "英语", "num": 2, "tuition": 4000 },
+            { "sp_name": "法学", "num": 1, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "432040",
+          "sg_name": "(209)英语AI试验班",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "英语(AI试验班)", "num": 1, "tuition": 4000 }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "291231",
+          "sg_name": "(物化)普通类主组",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "水声工程", "num": 15, "tuition": 5500 },
+            { "sp_name": "电子信息类", "num": 15, "tuition": 5500 },
+            { "sp_name": "自动化类", "num": 15, "tuition": 5500 },
+            { "sp_name": "海洋工程类", "num": 12, "tuition": 5500 },
+            { "sp_name": "软件工程", "num": 10, "tuition": 5500, "info_short": "后两年16000/年" },
+            { "sp_name": "核工程与核技术", "num": 8, "tuition": 4500 },
+            { "sp_name": "能源动力类", "num": 6, "tuition": 5500 },
+            { "sp_name": "航空航天类", "num": 6, "tuition": 5500 },
+            { "sp_name": "机械类", "num": 4, "tuition": 5500 },
+            { "sp_name": "智能制造工程", "num": 4, "tuition": 5500 },
+            { "sp_name": "核裂工与核燃料工程", "num": 2, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "num": 2, "tuition": 5500 },
+            { "sp_name": "大数据管理与应用", "num": 2, "tuition": 5000 },
+            { "sp_name": "数学与应用数学", "num": 1, "tuition": 4000 },
+            { "sp_name": "应用物理学", "num": 1, "tuition": 5000 }
+          ]
+        },
+        {
+          "group_code": "291219",
+          "sg_name": "(物化)中外合作-斯旺西",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "材料物理(中外合作)", "num": 9, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "电子信息工程(中外合作)", "num": 9, "tuition": 45000, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "机械设计制造及其自动化(中外合作)", "num": 7, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "291218",
+          "sg_name": "(物化)中外合作-阿伯丁",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "土木工程(中外合作)", "num": 7, "tuition": 45000, "info_short": "英国阿伯丁大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "291217",
+          "sg_name": "(物化)少数民族预科",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "少数民族预科",
+          "items": [
+            { "sp_name": "本科预科班", "num": 5, "tuition": 5500, "info_short": "预科1年" }
+          ]
+        },
+        {
+          "group_code": "291266",
+          "sg_name": "(物化)国家专项",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "items": [
+            { "sp_name": "能源动力类", "num": 3, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "num": 3, "tuition": 5500 },
+            { "sp_name": "数学与应用数学", "num": 2, "tuition": 4000 },
+            { "sp_name": "航空航天类", "num": 2, "tuition": 5500 },
+            { "sp_name": "机械类", "num": 2, "tuition": 5500 },
+            { "sp_name": "材料类", "num": 2, "tuition": 5500 }
+          ]
+        },
+        {
+          "group_code": "291253",
+          "sg_name": "(历史)历史类主组",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "工商管理", "num": 13, "tuition": 3500 },
+            { "sp_name": "法学", "num": 6, "tuition": 4000 },
+            { "sp_name": "社会学", "num": 6, "tuition": 5000 },
+            { "sp_name": "英语", "num": 4, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "291252",
+          "sg_name": "(历史)英语AI试验班",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "英语(AI试验班)", "num": 3, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "291251",
+          "sg_name": "(历史)思想政治教育",
+          "track": "历史类",
+          "subject_req": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "思想政治教育", "num": 6, "tuition": 5000 }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "393403",
+          "sg_name": "(500)物化组-普通类",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "软件工程", "spcode": "080902", "num": 3, "tuition": 5500, "info_short": "后两年16000/年" },
+            { "sp_name": "核工程与核技术", "spcode": "082201", "num": 2, "tuition": 4500 },
+            { "sp_name": "电子信息类", "spcode": "0807", "num": 2, "tuition": 5500 },
+            { "sp_name": "自动化类", "spcode": "0808", "num": 2, "tuition": 5500 },
+            { "sp_name": "海洋工程类", "spcode": "0819", "num": 2, "tuition": 5500 },
+            { "sp_name": "能源动力类", "spcode": "0805", "num": 2, "tuition": 5500 },
+            { "sp_name": "数学与应用数学", "spcode": "070101", "num": 1, "tuition": 4000 },
+            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 1, "tuition": 5500 },
+            { "sp_name": "大数据管理与应用", "spcode": "120108T", "num": 1, "tuition": 5000 }
+          ]
+        },
+        {
+          "group_code": "393399",
+          "sg_name": "(500)物化组-中外合作-斯旺西",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "电子信息工程(中外合作)", "num": 3, "tuition": 45000, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "材料物理(中外合作)", "num": 2, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "机械设计制造及其自动化(中外合作)", "num": 2, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "393398",
+          "sg_name": "(500)物化组-中外合作-阿伯丁",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "土木工程(中外合作)", "num": 2, "tuition": 45000, "info_short": "英国阿伯丁大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "393362",
+          "sg_name": "(999)历史组-普通类",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "工商管理", "spcode": "120201K", "num": 2, "tuition": 3500 },
+            { "sp_name": "英语", "spcode": "050201", "num": 2, "tuition": 4000 },
+            { "sp_name": "法学", "spcode": "030101K", "num": 1, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "393360",
+          "sg_name": "(999)历史组-英语AI试验班",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "英语(AI试验班)", "spcode": "050201", "num": 1, "tuition": 4000 }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "note": "山东不分院校专业组，按专业(组合)+院校投档；此处按招生项目展开",
+      "groups": [
+        {
+          "group_code": "37_1570_pt",
+          "sg_name": "普通类一段-主组",
+          "track": "综合改革",
+          "subject_req": "物理+化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "海洋工程类", "spcode": "0819", "num": 32, "tuition": 5500, "info_short": "含船舶与海洋工程/港口航道等" },
+            { "sp_name": "航空航天类", "spcode": "0820", "num": 31, "tuition": 5500, "info_short": "含飞行器设计与工程/飞行器动力工程" },
+            { "sp_name": "电子信息类", "spcode": "0807", "num": 26, "tuition": 5500 },
+            { "sp_name": "软件工程", "spcode": "080902", "num": 21, "tuition": 5500, "info_short": "后两年16000/年" },
+            { "sp_name": "水声工程", "spcode": "080708T", "num": 20, "tuition": 5500 },
+            { "sp_name": "能源动力类", "spcode": "0805", "num": 20, "tuition": 5500 },
+            { "sp_name": "机械类", "spcode": "0802", "num": 18, "tuition": 5500 },
+            { "sp_name": "自动化类", "spcode": "0808", "num": 15, "tuition": 5500 },
+            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 12, "tuition": 5500 },
+            { "sp_name": "核工程与核技术", "spcode": "082201", "num": 10, "tuition": 4500 },
+            { "sp_name": "计算机类", "spcode": "0809", "num": 10, "tuition": 5500 },
+            { "sp_name": "材料类", "spcode": "0804", "num": 8, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 6, "tuition": 5500 },
+            { "sp_name": "数学与应用数学", "spcode": "070101", "num": 4, "tuition": 4000 },
+            { "sp_name": "应用物理学", "spcode": "070202", "num": 3, "tuition": 5000 },
+            { "sp_name": "大数据管理与应用", "spcode": "120108T", "num": 3, "tuition": 5000 }
+          ]
+        },
+        {
+          "group_code": "37_1570_zwhz",
+          "sg_name": "普通类一段-中外合作",
+          "track": "综合改革",
+          "subject_req": "物理+化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "电子信息工程(中外合作)", "num": 6, "tuition": 45000, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "材料物理(中外合作)", "num": 5, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "机械设计制造及其自动化(中外合作)", "num": 4, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "土木工程(中外合作)", "num": 4, "tuition": 45000, "info_short": "英国阿伯丁大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "37_1570_history",
+          "sg_name": "普通类一段-人文社科",
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "工商管理", "spcode": "120201K", "num": 6, "tuition": 3500 },
+            { "sp_name": "英语", "spcode": "050201", "num": 4, "tuition": 4000 },
+            { "sp_name": "法学", "spcode": "030101K", "num": 3, "tuition": 4000 },
+            { "sp_name": "社会学", "spcode": "030301", "num": 3, "tuition": 5000 },
+            { "sp_name": "思想政治教育", "spcode": "030503", "num": 2, "tuition": 5000, "info_short": "需选思想政治" }
+          ]
+        },
+        {
+          "group_code": "37_4070_gxzx",
+          "sg_name": "特殊类型批-高校专项",
+          "track": "综合改革",
+          "subject_req": "物理+化学(2科必选)",
+          "batch": "特殊类型批",
+          "zslx": "高校专项",
+          "items": [
+            { "sp_name": "能源动力类", "num": 2, "tuition": 5500 },
+            { "sp_name": "材料类", "num": 2, "tuition": 5500 },
+            { "sp_name": "航空航天类", "num": 1, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "num": 1, "tuition": 5500 }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "note": "河北 2025 不公布院校专业组代号(special_group=0)，按选科+招生类型逻辑分组",
+      "groups": [
+        {
+          "group_code": "13_2073_pt",
+          "sg_name": "首选物理+再选化学·普通类",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "航空航天类", "spcode": "0820", "num": 32, "tuition": 5500 },
+            { "sp_name": "海洋工程类", "spcode": "0819", "num": 29, "tuition": 5500 },
+            { "sp_name": "电子信息类", "spcode": "0807", "num": 21, "tuition": 5500 },
+            { "sp_name": "软件工程", "spcode": "080902", "num": 20, "tuition": 5500, "info_short": "后两年16000/年" },
+            { "sp_name": "水声工程", "spcode": "080708T", "num": 20, "tuition": 5500 },
+            { "sp_name": "能源动力类", "spcode": "0805", "num": 20, "tuition": 5500 },
+            { "sp_name": "智能制造工程", "spcode": "080213T", "num": 20, "tuition": 5500 },
+            { "sp_name": "自动化类", "spcode": "0808", "num": 18, "tuition": 5500 },
+            { "sp_name": "机械类", "spcode": "0802", "num": 18, "tuition": 5500 },
+            { "sp_name": "核工程与核技术", "spcode": "082201", "num": 15, "tuition": 4500 },
+            { "sp_name": "大数据管理与应用", "spcode": "120108T", "num": 12, "tuition": 5000 },
+            { "sp_name": "数学与应用数学", "spcode": "070101", "num": 10, "tuition": 4000 },
+            { "sp_name": "新能源材料与器件", "spcode": "080414T", "num": 9, "tuition": 5500 },
+            { "sp_name": "核裂工与核燃料工程", "spcode": "082203T", "num": 4, "tuition": 5500 },
+            { "sp_name": "材料类", "spcode": "0804", "num": 4, "tuition": 5500 }
+          ]
+        },
+        {
+          "group_code": "13_2073_zwhz_aberdeen",
+          "sg_name": "首选物理+再选化学·中外合作-阿伯丁",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "土木工程(中外合作)", "num": 10, "tuition": 45000, "info_short": "英国阿伯丁大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "13_2073_zwhz_swansea",
+          "sg_name": "首选物理+再选化学·中外合作-斯旺西",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "items": [
+            { "sp_name": "电子信息工程(中外合作)", "num": 8, "tuition": 45000, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "材料物理(中外合作)", "num": 8, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" },
+            { "sp_name": "机械设计制造及其自动化(中外合作)", "num": 6, "tuition": 44300, "info_short": "英国斯旺西大学 3+1" }
+          ]
+        },
+        {
+          "group_code": "13_2074_pt",
+          "sg_name": "首选历史+再选不限·普通类",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "items": [
+            { "sp_name": "工商管理", "spcode": "120201K", "num": 1, "tuition": 3500 },
+            { "sp_name": "英语", "spcode": "050201", "num": 1, "tuition": 4000 },
+            { "sp_name": "法学", "spcode": "030101K", "num": 1, "tuition": 4000 }
+          ]
+        },
+        {
+          "group_code": "13_2073_gjzx",
+          "sg_name": "国家专项·物化",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项",
+          "items": [
+            { "sp_name": "能源动力类", "num": 2, "tuition": 5500 },
+            { "sp_name": "材料类", "num": 2, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "num": 2, "tuition": 5500 },
+            { "sp_name": "航空航天类", "num": 1, "tuition": 5500 },
+            { "sp_name": "应用物理学", "num": 1, "tuition": 5000 }
+          ]
+        },
+        {
+          "group_code": "13_2073_gxzx",
+          "sg_name": "高校专项·物化",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项",
+          "items": [
+            { "sp_name": "能源动力类", "num": 4, "tuition": 5500 },
+            { "sp_name": "航空航天类", "num": 3, "tuition": 5500 },
+            { "sp_name": "材料类", "num": 3, "tuition": 5500 },
+            { "sp_name": "新能源材料与器件", "num": 3, "tuition": 5500 },
+            { "sp_name": "数学与应用数学", "num": 2, "tuition": 4000 },
+            { "sp_name": "核裂工与核燃料工程", "num": 2, "tuition": 5500 },
+            { "sp_name": "机械类", "num": 2, "tuition": 5500 }
+          ]
+        }
+      ]
+    }
+  },
+  "caveats": [
+    "组代码 (group_code) 取自 eol/gaokao.cn special_group_id; 山东与河北无传统组号，用合成键。",
+    "部分组内招生数为本科批正式公布；江苏 426365/426364/393399/393398 等中外合作分组代码为推断 (eol聚合时未显式拆分)，以江苏教育考试院本科批公告组别为准。",
+    "中外合作专业第三、四学年通常赴英方合作院校就读 (3+1)；学生需自行承担境外学习费用。",
+    "兴海领军计划/AI试验班为特色班型，单独投档或单独组别；具体录取规则见 zsb.hrbeu.edu.cn。"
+  ]
+}

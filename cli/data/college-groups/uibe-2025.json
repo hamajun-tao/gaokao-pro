@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "uni": "对外经济贸易大学",
+    "code": 1036,
+    "zs_code_guobiao": "10036",
+    "year": 2025,
+    "compiled": "2026-05-26",
+    "sources": [
+      "aeo.uibe.edu.cn 对外经济贸易大学招生就业处 (本科招生章程 2025 / 招生计划)",
+      "eol.cn 中国教育在线 2025 各省投档线汇总 (gaokao.eol.cn)",
+      "gaokao.cn 阳光高考 2025 各省录取分数线与位次",
+      "jseea.cn 江苏省教育考试院 2025 普通类本科批平行志愿投档线 (历史/物理)",
+      "eea.gd.gov.cn 广东省教育考试院 2025 本科批投档",
+      "zsxxw.e21.cn 湖北招生信息综合服务平台 2025",
+      "sdzk.cn 山东省教育招生考试院 2025 普通类常规批投档表",
+      "hebeea.edu.cn 河北省教育考试院 2025 本科批投档",
+      "eeafj.cn / fjeea.cn 福建省教育考试院 2025 本科批投档",
+      "haedu.cn / heao.gov.cn 河南省 2025 本科一批投档",
+      "gk100.com / dakao100.com / 6617.com / xinshinet.com / dxsbb.com 转载汇总"
+    ],
+    "note": "1036 为对外经济贸易大学在多数省份招生代号 (4位)；国标 10036。UIBE 以经管法外语为核心，物理组主打金融工程、数据科学与大数据技术、统计学、计算机/数字经济、精算学；历史组以工商管理类、金融学类、法学类、外国语言文学类、经济学类为主。全国本科普通批实施专业志愿\"零调剂\" (报满 6 个志愿即不调剂)。"
+  },
+  "provinces": [
+    {
+      "province": "河南",
+      "reform": "3+1+2 第2年",
+      "groups": [
+        {"track": "物理", "name_in_plan": "对外经济贸易大学", "group": null, "subject_req": "化学/不限", "min_score": 637, "min_rank": 14500, "note": "物理类院校最低投档线；组内含金融工程、金融学类、数据科学与大数据技术、统计学、精算学、经济学类、计算机/数字经济、工商管理类等。金融工程为院校最高约 624 段位 (2024 参考)。"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学(中外合作办学)", "group": null, "subject_req": "不限", "min_score": 616, "min_rank": null, "note": "中外合作物理组"},
+        {"track": "历史", "name_in_plan": "对外经济贸易大学", "group": null, "subject_req": "不限", "min_score": 631, "min_rank": 1475, "note": "历史类主组；含工商管理类、金融学类、法学类、经济学类、外国语言文学类(日/法/西/葡/阿等)、新闻传播类。"}
+      ]
+    },
+    {
+      "province": "江苏",
+      "reform": "3+1+2",
+      "school_code_local": "1036",
+      "groups": [
+        {"track": "物理", "name_in_plan": "对外经济贸易大学04专业组", "code": "1036", "group": "04", "subject_req": "不限", "min_score": 632, "min_rank": 11769, "note": "物理+不限主组；含金融学类、金融工程、经济学类、工商管理类、国际经济与贸易等"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学05专业组", "code": "1036", "group": "05", "subject_req": "化学", "min_score": 635, "min_rank": 10262, "note": "物理+化学组；含数据科学与大数据技术、统计学类、精算学等理工方向"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学06专业组(中外合作)", "code": "1036", "group": "06", "subject_req": "化学", "min_score": 615, "min_rank": 22495, "note": "中外合作办学物理+化学组"},
+        {"track": "历史", "name_in_plan": "对外经济贸易大学02专业组", "code": "1036", "group": "02", "subject_req": "不限", "min_score": 628, "min_rank": 1416, "note": "历史不限组；含工商管理类、金融学类、法学类、经济学类、外国语言文学类等"}
+      ]
+    },
+    {
+      "province": "广东",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "对外经济贸易大学", "group": "208", "subject_req": "不限", "min_score": 615, "min_rank": 16918, "note": "物理类主组；含金融学类、金融工程、经济学类、工商管理类、国际经济与贸易等"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学", "group": "209", "subject_req": "化学", "min_score": 617, "min_rank": 15626, "note": "物理+化学组；含数据科学与大数据技术、统计学类、精算学"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学(中外合作)", "group": "210", "subject_req": "化学", "min_score": 606, "min_rank": 22498, "note": "中外合作办学物理+化学组"},
+        {"track": "历史", "name_in_plan": "对外经济贸易大学", "group": "207", "subject_req": "不限", "min_score": 618, "min_rank": 2176, "note": "历史类主组；含工商管理类、金融学类、法学类、经济学类、外国语言文学类等"}
+      ]
+    },
+    {
+      "province": "湖北",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "对外经济贸易大学(普通类)", "group": "06", "subject_req": "不限", "min_score": 605, "min_rank": 12252, "note": "物理+不限主组；含金融学类、金融工程、经济学类、工商管理类、国际经济与贸易"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学(普通类)", "group": "07", "subject_req": "化学", "min_score": 611, "min_rank": null, "note": "物理+化学组；含数据科学与大数据技术、统计学类、精算学"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学(中外合作)", "group": null, "subject_req": "不限", "min_score": 596, "min_rank": null, "note": "中外合作物理组；分数 596-607"},
+        {"track": "历史", "name_in_plan": "对外经济贸易大学(普通类)", "group": "05", "subject_req": "不限", "min_score": 617, "min_rank": 1485, "note": "历史类主组；含工商管理类、法学类、金融学类、经济学类、外国语言文学类、网络与新媒体、供应链管理等"}
+      ]
+    },
+    {
+      "province": "福建",
+      "reform": "3+1+2",
+      "groups": [
+        {"track": "物理", "name_in_plan": "对外经济贸易大学", "group": "999", "subject_req": "不限", "min_score": 619, "min_rank": 7186, "note": "物理+不限组 (招 25 人)；含金融学类、金融工程、经济学类、工商管理类、国际经济与贸易等"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学", "group": "500", "subject_req": "化学", "min_score": 621, "min_rank": 6705, "note": "物理+化学组 (招 8 人)；含数据科学与大数据技术、统计学类、精算学"},
+        {"track": "历史", "name_in_plan": "对外经济贸易大学", "group": "999", "subject_req": "不限", "min_score": 615, "min_rank": 935, "note": "历史+不限组 (招 27 人)；含工商管理类、外国语言文学类(西/葡/阿等)、经济学类、法学类、国际经济发展合作等"}
+      ]
+    },
+    {
+      "province": "山东",
+      "reform": "3+3 综合",
+      "note": "山东不分院校专业组，按专业(类)+院校投档；下方为对外经贸大在鲁主要专业(类)段位。",
+      "groups": [
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(普通类一段·最低)", "group": null, "subject_req": "差异", "min_score": 613, "min_rank": 16797, "note": "院校最低投档段位 (普通类)；中外合作办学 588/34716"},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(法学类)", "group": null, "subject_req": "不限", "min_score": 641, "min_rank": 5198, "note": "院校最高专业段位"},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(国际经济与贸易)", "group": null, "subject_req": "不限", "min_score": 637, "min_rank": 6221},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(经济学类)", "group": null, "subject_req": "不限", "min_score": 632, "min_rank": 7631},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(经济统计学)", "group": null, "subject_req": "不限", "min_score": 631, "min_rank": 7925},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(数据科学与大数据技术)", "group": null, "subject_req": "物化", "min_score": 629, "min_rank": 8573},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(工商管理类)", "group": null, "subject_req": "不限", "min_score": 628, "min_rank": 8860},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(金融数学)", "group": null, "subject_req": "物化", "min_score": 627, "min_rank": 9207},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(金融工程)", "group": null, "subject_req": "物化", "min_score": 625, "min_rank": 9936},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(金融学类)", "group": null, "subject_req": "不限", "min_score": 624, "min_rank": 10295},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(数字经济)", "group": null, "subject_req": "不限", "min_score": 621, "min_rank": 11469},
+        {"track": "综合", "name_in_plan": "对外经济贸易大学(精算学)", "group": null, "subject_req": "物化", "min_score": 618, "min_rank": 12752, "note": "院校最低专业(普通类)"}
+      ]
+    },
+    {
+      "province": "河北",
+      "reform": "3+1+2",
+      "note": "河北本科批为专业+学校平行志愿(96 个)，不设院校专业组；下列为对外经贸大在冀代表性段位。",
+      "groups": [
+        {"track": "物理", "name_in_plan": "对外经济贸易大学(本科批·物理类)", "group": null, "subject_req": "化学/不限", "min_score": 629, "min_rank": 9827, "note": "物理类院校最低段位；高位专业(金融工程/数据科学) 至 640 段；含金融学类、金融工程、数据科学与大数据技术、统计学类、精算学、经济学类、工商管理类等"},
+        {"track": "物理", "name_in_plan": "对外经济贸易大学(本科批·中外合作)", "group": null, "subject_req": "不限", "min_score": 603, "min_rank": null, "note": "中外合作物理类；分数 603-616"},
+        {"track": "历史", "name_in_plan": "对外经济贸易大学(本科批·历史类)", "group": null, "subject_req": "不限", "min_score": 636, "min_rank": 1075, "note": "历史类院校线；高位专业至 650 段；含工商管理类、金融学类、法学类、经济学类、外国语言文学类"}
+      ]
+    }
+  ]
+}

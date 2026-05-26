@@ -1,0 +1,1690 @@
+{
+  "uni": "北京交通大学",
+  "code": 1008,
+  "zs_code": "10004",
+  "gaokao_cn_school_id": 38,
+  "year": 2025,
+  "batch_default": "本科批",
+  "sources": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/38/2025/{provinceId}.json",
+    "https://static-data.gaokao.cn/www/2.0/school/38/info.json",
+    "https://zsb.bjtu.edu.cn/",
+    "https://www.gaokao.cn/school/38"
+  ],
+  "fetched_at": "2026-05-26",
+  "notes": [
+    "数据源: gaokao.cn schoolspecialplan API (school_id=38)。",
+    "track: 2073=物理类, 2074=历史类, 3=综合改革(山东)。",
+    "山东在 gaokao.cn 数据中 sg_name=null 不区分院校专业组，按 batch + zslx + 选科拆组；batch=1570 普通类一段, batch=4070 高校专项。",
+    "school_min_2025 来自 info.json province_score_min (统招批最低投档分)。",
+    "info_short 由 招生计划 info 字段提取关键标签 (办学地点/合作院校/试点班/方向)；详细专业方向见 zsb.bjtu.edu.cn 招生章程。",
+    "北京交通大学威海校区(中外合作办学)与英国兰卡斯特大学4+0模式合作，与英国办学。其余中外合作项目: 纳米材料-加拿大滑铁卢大学(2+1+1)、机械电子-澳大利亚伍伦贡大学(3+1)、交通运输-荷兰代尔夫特理工大学。",
+    "詹天佑试点班分智能类与信息类两个方向，分组招生(原始数据中写作'谛天坤'/'蒙天启'/'谈天岑'为OCR错字，正式名称为'詹天佑')。"
+  ],
+  "school_min_2025": {
+    "henan": {
+      "type": "2073",
+      "min": 636,
+      "track": "物理类"
+    },
+    "jiangsu": {
+      "type": "2073",
+      "min": 629,
+      "track": "物理类"
+    },
+    "guangdong": {
+      "type": "2073",
+      "min": 612,
+      "track": "物理类"
+    },
+    "hubei": {
+      "type": "2073",
+      "min": 601,
+      "track": "物理类"
+    },
+    "fujian": {
+      "type": "2073",
+      "min": 610,
+      "track": "物理类"
+    },
+    "shandong": {
+      "type": "3",
+      "min": 600,
+      "track": "综合改革"
+    },
+    "hebei": {
+      "type": "2073",
+      "min": 625,
+      "track": "物理类"
+    }
+  },
+  "provinces": {
+    "41": {
+      "name": "河南",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "368122",
+          "sg_name": "（111）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "经济管理人才试点班；含工商管理/会计学；办学:北京"
+            },
+            {
+              "sp_name": "外国语言文学类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "语言智能实验班；英语/西班牙语双语培养；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368121",
+          "sg_name": "（113）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "卓越人才拔尖班；含建筑学/城乡规划；五年制；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368120",
+          "sg_name": "（205）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 9,
+          "items": [
+            {
+              "sp_name": "工商管理",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "会计学",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "368097",
+          "sg_name": "（325）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "外国语言文学类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "国家专项；语言智能实验班；英语/西班牙语双语；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368081",
+          "sg_name": "（101）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(信息类)；含通信工程/计算机科学与技术/信息安全；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368080",
+          "sg_name": "（102）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(智能类)；含轨道交通信号/交通运输/电气工程；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368079",
+          "sg_name": "（103）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 132,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 51,
+              "tuition": 5500,
+              "info_short": "含通信工程/信息工程/电子科学与技术/电气工程及其自动化；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 44,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术/数据科学/人工智能/软件工程；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 22,
+              "tuition": 5500,
+              "info_short": "智能系统与智能制造；含轨道交通信号/自动化/机器人；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 13,
+              "tuition": 5500,
+              "info_short": "含信息与计算科学/统计学/数据科学；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "含铁道运输/城市轨道交通/民航运输；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368075",
+          "sg_name": "（201）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 17,
+          "items": [
+            {
+              "sp_name": "环境工程",
+              "num": 8,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "368078",
+          "sg_name": "（207）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "交通运输",
+              "num": 3,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:荷兰代尔夫特理工大学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368077",
+          "sg_name": "（208）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "机械电子工程",
+              "num": 3,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:澳大利亚伍伦贡大学；3+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368076",
+          "sg_name": "（209）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 3,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:加拿大滑铁卢大学；2+1+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368093",
+          "sg_name": "（321）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "total_num": 27,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 11,
+              "tuition": 5500,
+              "info_short": "国家专项；含土木工程/铁道工程/智能建造；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 8,
+              "tuition": 5500,
+              "info_short": "国家专项；含铁道运输/城市轨道交通；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 8,
+              "tuition": 5500,
+              "info_short": "国家专项；含轨道交通信号/自动化；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "368092",
+          "sg_name": "（322）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "工程管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "name": "江苏",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "425824",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "建筑类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "卓越人才拔尖班；含建筑学/城乡规划；五年制；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "425825",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "经济管理人才试点班；含工商管理/会计学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "425827",
+          "sg_name": "（03）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "工商管理",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "425861",
+          "sg_name": "（05）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 19,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "含通信工程/信息工程/电子科学与技术；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术/软件工程(三年级起16000/年)；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "智能系统与智能制造方向；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "含信息与计算科学/统计学；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "含铁道运输/城市轨道交通；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "425862",
+          "sg_name": "（04）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(智能类)；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "425863",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(信息类)；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "425865",
+          "sg_name": "（03H）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 3,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文；需色觉正常"
+            }
+          ]
+        },
+        {
+          "group_code": "425866",
+          "sg_name": "（02H）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "会计学",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "425859",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 2,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:加拿大滑铁卢大学；2+1+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "425860",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "机械电子工程",
+              "num": 4,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:澳大利亚伍伦贡大学；3+1模式；办学:北京"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "name": "广东",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "431489",
+          "sg_name": "（207）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "经济管理人才试点班；含工商管理/会计学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "431490",
+          "sg_name": "（205H）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "新闻传播学类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "卓越人才拔尖班；含网络与新媒体/国际新闻与传播；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "431470",
+          "sg_name": "（205）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "工商管理",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "431541",
+          "sg_name": "（208）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 90,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 35,
+              "tuition": 5500,
+              "info_short": "含通信工程/信息工程/电子科学与技术；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 23,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术/数据科学与大数据技术；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 15,
+              "tuition": 5500,
+              "info_short": "智能系统与智能制造；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 11,
+              "tuition": 5500,
+              "info_short": "含铁道运输/城市轨道交通/民航运输；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "含信息与计算科学/数据科学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "431536",
+          "sg_name": "（213）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(智能类)；含轨道交通信号与控制/电气工程；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "431537",
+          "sg_name": "（212）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(信息类)；含通信/计算机/信息安全；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "431492",
+          "sg_name": "（208W）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 6,
+          "items": [
+            {
+              "sp_name": "环境工程",
+              "num": 6,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "431493",
+          "sg_name": "（207W）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "431494",
+          "sg_name": "（206）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "会计学",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "431538",
+          "sg_name": "（211）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "交通运输",
+              "num": 2,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:荷兰代尔夫特理工大学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "431539",
+          "sg_name": "（210）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 3,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:加拿大滑铁卢大学；2+1+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "431540",
+          "sg_name": "（209）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "机械电子工程",
+              "num": 5,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:澳大利亚伍伦贡大学；3+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "258673",
+          "sg_name": "（702）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "高校专项",
+          "total_num": 1,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "高校专项；智慧建造与智慧环境；办学:北京"
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "name": "湖北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "290663",
+          "sg_name": "（02）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 8,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "经济管理人才试点班；含工商管理/会计学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290654",
+          "sg_name": "（01）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "工商管理",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "290675",
+          "sg_name": "（03）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "外国语言文学类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "国家专项；语言智能实验班；英语/西班牙语双语；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290650",
+          "sg_name": "（06）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 82,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 31,
+              "tuition": 5500,
+              "info_short": "含通信工程/信息工程/电子科学与技术；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 28,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术/人工智能/软件工程；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 12,
+              "tuition": 5500,
+              "info_short": "智能系统与智能制造；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "信息与计算科学等拔尖班；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "含铁道运输/城市轨道交通；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290619",
+          "sg_name": "（03）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 2,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "290620",
+          "sg_name": "（02）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "会计学",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "290646",
+          "sg_name": "（10）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "民族班",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "民族班；投档可降40分内；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290647",
+          "sg_name": "（09）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 3,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:加拿大滑铁卢大学；2+1+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290648",
+          "sg_name": "（08）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "机械电子工程",
+              "num": 5,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:澳大利亚伍伦贡大学；3+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290649",
+          "sg_name": "（07）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "交通运输",
+              "num": 3,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:荷兰代尔夫特理工大学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290677",
+          "sg_name": "（12）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "total_num": 7,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "国家专项；智慧建造与智慧环境；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "国家专项；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 1,
+              "tuition": 5500,
+              "info_short": "国家专项；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "290678",
+          "sg_name": "（11）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科提前批",
+          "zslx": "国家专项",
+          "total_num": 3,
+          "items": [
+            {
+              "sp_name": "工程管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "name": "福建",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "392516",
+          "sg_name": "（999H）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "经济管理人才试点班；含工商管理/会计学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "392515",
+          "sg_name": "（999H）",
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 5,
+          "items": [
+            {
+              "sp_name": "工商管理",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "392588",
+          "sg_name": "（500）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 77,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 25,
+              "tuition": 5500,
+              "info_short": "含通信工程/信息工程/电子科学与技术；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 22,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术/数据科学；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 12,
+              "tuition": 5500,
+              "info_short": "智能系统与智能制造；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 11,
+              "tuition": 5500,
+              "info_short": "含铁道运输/城市轨道交通/民航运输；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "含信息与计算科学/统计学；办学:北京"
+            },
+            {
+              "sp_name": "土木类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "智慧建造与智慧环境；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "392586",
+          "sg_name": "（500A）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(智能类)；含轨道信号/交通运输/测控/电气工程；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "392584",
+          "sg_name": "（500B）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "理科试验班类",
+              "num": 2,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(信息类)；含通信/计算机/信息安全；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "392574",
+          "sg_name": "（500W）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 11,
+          "items": [
+            {
+              "sp_name": "环境工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 3,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "392576",
+          "sg_name": "（999）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "会计学",
+              "num": 4,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            }
+          ]
+        },
+        {
+          "group_code": "392578",
+          "sg_name": "（500C）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "交通运输",
+              "num": 2,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:荷兰代尔夫特理工大学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "392580",
+          "sg_name": "（500D）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 4,
+          "items": [
+            {
+              "sp_name": "机械电子工程",
+              "num": 4,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:澳大利亚伍伦贡大学；3+1模式；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "392582",
+          "sg_name": "（500E）",
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx": "中外合作",
+          "total_num": 2,
+          "items": [
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 2,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:加拿大滑铁卢大学；2+1+1模式；办学:北京"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "name": "山东",
+      "regime": "新高考3+3(综合改革)",
+      "groups": [
+        {
+          "group_code": "sd-1570-pt",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "物理+化学",
+          "batch": "普通类一段",
+          "zslx": "普通类",
+          "total_num": 156,
+          "items": [
+            {
+              "sp_name": "电子信息类",
+              "num": 36,
+              "tuition": 5500,
+              "info_short": "含通信工程/信息工程/电子科学与技术/电气工程及其自动化；办学:北京"
+            },
+            {
+              "sp_name": "自动化类",
+              "num": 27,
+              "tuition": 5500,
+              "info_short": "智能系统与智能制造；含轨道交通信号与控制；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 21,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术/物联网工程/数据科学/AI；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 14,
+              "tuition": 5500,
+              "info_short": "含铁道运输/城市轨道交通/高铁运营管理/民航运输；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 10,
+              "tuition": 5500,
+              "info_short": "含信息与计算科学/统计学/数据科学/系统科学；办学:北京"
+            },
+            {
+              "sp_name": "经济管理试验班",
+              "num": 8,
+              "tuition": 5000,
+              "info_short": "含经济学/金融学/物流管理/信息管理与信息系统；办学:北京"
+            },
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "建筑类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "卓越人才拔尖班；含建筑学/城乡规划；五年制；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(智能类)；含轨道信号/交通运输；办学:北京"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "经济管理人才试点班；含工商管理/会计学；办学:北京"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "卓越人才拔尖班；含网络与新媒体/国际新闻与传播；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(信息类)；含通信/计算机/信息安全；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "sd-1570-wh",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "不限",
+          "batch": "普通类一段",
+          "zslx": "中外合作",
+          "total_num": 61,
+          "items": [
+            {
+              "sp_name": "工商管理",
+              "num": 14,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "会计学",
+              "num": 14,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 13,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 7,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 6,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 5,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:加拿大滑铁卢大学；2+1+1模式；办学:北京"
+            },
+            {
+              "sp_name": "机械电子工程",
+              "num": 5,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:澳大利亚伍伦贡大学；3+1模式；办学:北京"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 4,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:荷兰代尔夫特理工大学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "sd-4070-gx",
+          "sg_name": null,
+          "track": "综合改革",
+          "subject_req": "物理+化学",
+          "batch": "高校专项",
+          "zslx": "高校专项",
+          "total_num": 10,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 7,
+              "tuition": 5500,
+              "info_short": "高校专项；智慧建造与智慧环境；含土木工程/铁道工程/智能建造；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 3,
+              "tuition": 5500,
+              "info_short": "高校专项；含铁道运输/城市轨道交通/高铁运营管理；办学:北京"
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "name": "河北",
+      "regime": "新高考3+1+2",
+      "groups": [
+        {
+          "group_code": "he-14-2073",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学(部分不限)",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 195,
+          "items": [
+            {
+              "sp_name": "自动化类",
+              "num": 38,
+              "tuition": 5500,
+              "info_short": "智能系统与智能制造；含轨道交通信号/机器人/智能装备；办学:北京"
+            },
+            {
+              "sp_name": "电子信息类",
+              "num": 31,
+              "tuition": 5500,
+              "info_short": "含通信工程/信息工程/电子科学与技术/电气工程/光电信息；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班",
+              "num": 22,
+              "tuition": 5500,
+              "info_short": "含信息与计算科学/统计学/数据科学/系统科学/应用物理；办学:北京"
+            },
+            {
+              "sp_name": "计算机类",
+              "num": 21,
+              "tuition": 5500,
+              "info_short": "含计算机科学与技术/物联网/大数据/AI/软件工程/网络安全；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 18,
+              "tuition": 5500,
+              "info_short": "含铁道运输/城市轨道交通/高铁运营/民航运输；办学:北京"
+            },
+            {
+              "sp_name": "经济管理试验班",
+              "num": 15,
+              "tuition": 5000,
+              "info_short": "含经济学/金融学/物流管理/信息管理与信息系统；办学:北京"
+            },
+            {
+              "sp_name": "环境工程",
+              "num": 12,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文；需色觉正常"
+            },
+            {
+              "sp_name": "会计学",
+              "num": 6,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "计算机科学与技术",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "通信工程",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(智能类)；含轨道信号/交通运输/测控/电气工程；办学:北京"
+            },
+            {
+              "sp_name": "理科试验班类",
+              "num": 4,
+              "tuition": 5500,
+              "info_short": "詹天佑试点班(信息类)；含通信/计算机/信息安全；办学:北京"
+            },
+            {
+              "sp_name": "纳米材料与技术",
+              "num": 4,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:加拿大滑铁卢大学；2+1+1模式；办学:北京"
+            },
+            {
+              "sp_name": "机械电子工程",
+              "num": 4,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:澳大利亚伍伦贡大学；3+1模式；办学:北京"
+            },
+            {
+              "sp_name": "交通运输",
+              "num": 3,
+              "tuition": 80000,
+              "info_short": "中外合作；合作:荷兰代尔夫特理工大学；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "he-14-2074",
+          "sg_name": null,
+          "track": "历史类",
+          "subject_req": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx": "普通类",
+          "total_num": 21,
+          "items": [
+            {
+              "sp_name": "法学",
+              "num": 5,
+              "tuition": 5000,
+              "info_short": "办学:北京"
+            },
+            {
+              "sp_name": "工商管理",
+              "num": 5,
+              "tuition": 100000,
+              "info_short": "中外合作；办学:威海校区；合作:英国兰卡斯特大学；4+0全英文"
+            },
+            {
+              "sp_name": "建筑类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "卓越人才拔尖班；含建筑学/城乡规划；五年制；办学:北京"
+            },
+            {
+              "sp_name": "文科试验班类",
+              "num": 4,
+              "tuition": 5000,
+              "info_short": "经济管理人才试点班；含工商管理/会计学；办学:北京"
+            },
+            {
+              "sp_name": "新闻传播学类",
+              "num": 2,
+              "tuition": 5000,
+              "info_short": "卓越人才拔尖班；含网络与新媒体/国际新闻与传播；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "he-37-gj",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学(部分不限)",
+          "batch": "本科提前批B段",
+          "zslx": "国家专项",
+          "total_num": 9,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 6,
+              "tuition": 5500,
+              "info_short": "国家专项；智慧建造与智慧环境；含土木工程/铁道工程/智能建造；办学:北京"
+            },
+            {
+              "sp_name": "工程管理",
+              "num": 3,
+              "tuition": 5000,
+              "info_short": "国家专项；办学:北京"
+            }
+          ]
+        },
+        {
+          "group_code": "he-86-gx",
+          "sg_name": null,
+          "track": "物理类",
+          "subject_req": "首选物理，再选化学",
+          "batch": "本科提前批C段",
+          "zslx": "高校专项",
+          "total_num": 16,
+          "items": [
+            {
+              "sp_name": "土木类",
+              "num": 11,
+              "tuition": 5500,
+              "info_short": "高校专项；智慧建造与智慧环境；含土木工程/铁道工程/智能建造；办学:北京"
+            },
+            {
+              "sp_name": "交通运输类",
+              "num": 5,
+              "tuition": 5500,
+              "info_short": "高校专项；含铁道运输/城市轨道交通/高铁运营/民航运输；办学:北京"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
