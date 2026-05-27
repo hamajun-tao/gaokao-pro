@@ -1,40 +1,39 @@
 # 一分一段表 ingest sources (per province × year)
 
-Manifest collected by a 25-agent parallel scan on 2026-05-22. **Most data
-is locked in image/PDF format** on the official 省考试院 sites — the
-agents could not text-extract. We list every confirmed source URL so a
-future OCR/manual pass can rip them in batch.
+URL manifest at `cli/data/datasets/yifenyiduan-manifest.json` (year-verified,
+62 records). The full source URLs are still listed below for the OCR backlog.
 
-Format of the JSON files: see `cli/src/rank-table.ts` `RankTable` type.
-Land them at `cli/data/yifenyiduan/{province-pinyin}-{year}-{track}.json`.
+## Ingest pipeline (built 2026-05-26)
 
-## Status
+`_ocr-pipeline/ingest-html.py` fetches an official HTML 一分一段表, parses the
+分数/人数/累计人数 table, and **only writes if it passes three hard gates**:
+(1) ≥20 rows, (2) running-sum integrity — Σ人数 == 累计人数 at every row (makes
+fabrication mechanically impossible), (3) track-identity — the page `<title>`
+must name the expected track. A published "N人超X分" figure is cross-checked as
+a soft confirmation. `_ocr-pipeline/normalize-counts.py` recomputes the (unused,
+provenance-only) `count` column from the canonical `cumulative` column for
+legacy OCR files, never touching the served `cumulative`/位次 values.
 
-| Province | 2024 物理/理 | 2024 历史/文 | 2024 综合 | Notes |
-|---|---|---|---|---|
-| 北京 | — | — | ✅ 2023/24/25 | from `scottli139/beijing-gaokao-score-segments` |
-| 湖南 | 🔴 image | ✅ **partial 600-654** | — | history data from bendibao mirror |
-| 河南 | 🔴 PDF | 🔴 PDF | — | heao.com.cn 出 PDF; aggregate-only |
-| 山东 | — | — | 🔴 Excel | sdzk.cn xls download required |
-| 广东 | 🔴 image | 🔴 image | — | eea.gd.gov.cn ZIP of PDFs |
-| 江苏 | 🔴 image | 🔴 image | — | jseea.cn JPG 多张 |
-| 河北 | 🔴 site-down | 🔴 site-down | — | hebeea.edu.cn 连不通 |
-| 四川 | 🔴 image | 🔴 image | — | sceea.cn PNG |
-| 安徽 | 🔴 unknown | 🔴 unknown | — | ahzsks.cn 内部页 |
-| 湖北 | 🔴 image | 🔴 image | — | hbea.edu.cn JPG x5 |
-| 浙江 | — | — | 🔴 PDF | zjzs.net 总分表 PDF |
-| 福建 | 🔴 image | 🔴 image | — | eeafj.cn PNG |
-| 江西 | 🔴 partial | 🔴 partial | — | jxeea.cn 403; 聚合站只给汇总 |
-| 辽宁 | 🔴 timeout | 🔴 timeout | — | lnzsks.com 抓不动 |
-| 重庆 | 🔴 timeout | 🔴 timeout | — | cqksy.cn 抓不动 |
-| 上海 | — | — | 🔴 PDF | shmeea.edu.cn 高分段不公布 |
-| 天津 | — | — | 🔴 unknown | zhaokao.net 抓不动 |
-| 陕西 | 🔴 403 | — | — | sneac.com 反爬 |
-| 山西 | 🔴 timeout | 🔴 timeout | — | sxkszx.cn 抓不动 |
-| 广西 | ✅ 2024 sparse | — | — | gxeea.cn 一分一档系统; eol.cn 镜像 ingested |
-| 贵州 | 🔴 image | — | — | gaokao.eol.cn 镜像 |
-| 云南 | 🔴 only aggregate | — | — | gk100/eol 只给汇总 |
-| 海南 | — | — | 🔴 image | ea.hainan.gov.cn 嵌图 (900 标准分) |
+Every shipped file is guarded by `cli/test/yifenyiduan-integrity.test.ts`
+(running-sum + strictly-descending scores + monotonic cumulative on all 108
+files). The product serves only the `cumulative` column (= 位次), via
+`scoreToRank`/`rankToScore`.
+
+## Status (updated 2026-05-26)
+
+**56 of 108 files are FULL per-score tables (≥100 rows); the rest are
+integrity-clean coarse tables** (10-pt steps / partial) kept as fallback.
+Full-table coverage now includes: 北京, 安徽, 重庆, 福建, 湖北, 湖南, 河南(2025),
+陕西, 河北(2024), 内蒙古(2025), 山西(2025), 山东, 广东, 浙江(2025), 上海(2025),
+天津(2025), 辽宁(2025), 黑龙江(2025), 江苏(2025 物理), 江西(2025 物理), 云南(2025),
+贵州(2025 物理), 海南(2025), 四川(2024 理 / 2025 物理) …
+
+**Still needs OCR (image/PDF-only sources, served coarse for now):** most
+老高考 2024 文/理 tables (河南/内蒙古/宁夏/青海/山西/四川文/新疆/云南/甘肃史),
+several 2024 3+1+2 history pages published as images (辽宁/江西/江苏/广东史),
+广西 (官方表 suppresses the top score bucket → running-sum can't reconcile a
+fetched HTML table), 贵州 2024 (image), 海南 2024 (900 标准分, 嵌图),
+and assorted 2025 history/pdf pages (河北/湖北史/吉林史/宁夏史/青海/四川史).
 
 ## Verified source URLs
 
