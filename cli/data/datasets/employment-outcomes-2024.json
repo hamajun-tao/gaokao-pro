@@ -1,0 +1,1425 @@
+{
+  "_kind": "5 维就业出口 (大厂/考公/读研/出国/保研率) — 顶级 50 校 + 部分 211 + 双一流",
+  "_year": 2024,
+  "_source": "[官方] 2024 届就业质量报告 + 各校招生简章 保研率公示 + [估算] 主流第三方就业数据 (BCG/智联) + huadang 案例反推",
+  "_caveat": "保研率/国内升学率/出国率 = 官方报告 (confidence: high); 大厂率/考公率 = 第三方+招聘数据推断 (confidence: medium) — 不替代每校官方报告; 私企/国企/教师编 等 sub-行业分布因专业不同差距巨大",
+  "_schema": {
+    "school": "中文校名",
+    "zs_code": "教育部 5-digit",
+    "tier_label": "985/211/双一流/省重点/民办",
+    "city": "所在城市",
+    "rates": {
+      "baoyan_rate_pct": "保研率 / 推免比例 (本校 + 外校保研); 来自招生简章",
+      "domestic_grad_school_pct": "国内读研率 (含保研); 来自 就业报告",
+      "abroad_pct": "出国/出境深造率; 来自 就业报告",
+      "direct_employment_pct": "直接就业率 (不含升学)",
+      "big_tech_hire_rate_est": "大厂 (BAT/华为/字节/腾讯/美团/京东/小米/拼多多/华为海思/字节) 入职率 估算 (主要 IT/计算机/电子专业)",
+      "civil_service_rate_est": "公务员+事业单位+国企+教师编 入职率 估算 (含选调生/定向计划)"
+    },
+    "specialty_strength": "学校优势出口方向 1 句话",
+    "notable_employers": "重点雇主 top 8",
+    "confidence_level": "high (官方主据) | medium (官方+第三方估算) | low (大量推断)"
+  },
+  "schools": [
+    {
+      "school": "清华大学",
+      "zs_code": "10003",
+      "tier_label": "985/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 50,
+        "domestic_grad_school_pct": 65,
+        "abroad_pct": 14,
+        "direct_employment_pct": 21,
+        "big_tech_hire_rate_est": 18,
+        "civil_service_rate_est": 12
+      },
+      "specialty_strength": "顶尖科研 + 工程 + 计算机 + 金融全 stack; 全国推免天花板; 国家关键基础设施输送方",
+      "notable_employers": ["华为", "腾讯", "国家电网", "中科院", "中国工程物理研究院", "国务院发展研究中心", "字节跳动", "美团"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "北京大学",
+      "zs_code": "10001",
+      "tier_label": "985/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 50,
+        "domestic_grad_school_pct": 62,
+        "abroad_pct": 17,
+        "direct_employment_pct": 21,
+        "big_tech_hire_rate_est": 14,
+        "civil_service_rate_est": 15
+      },
+      "specialty_strength": "理科+人文+法律+经济顶尖; 公检法/中央机关 输送量全国最大; 出国率次清华",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "中央国家机关", "最高人民法院", "中科院", "招商局", "工商银行"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "复旦大学",
+      "zs_code": "10246",
+      "tier_label": "985/双一流",
+      "city": "上海",
+      "rates": {
+        "baoyan_rate_pct": 35,
+        "domestic_grad_school_pct": 55,
+        "abroad_pct": 25,
+        "direct_employment_pct": 20,
+        "big_tech_hire_rate_est": 13,
+        "civil_service_rate_est": 10
+      },
+      "specialty_strength": "文/理/医/管 综合; 上海体制内 + 长三角金融业 主力; 海外留学率全国前 3",
+      "notable_employers": ["华为", "中金", "招商证券", "腾讯", "字节跳动", "复旦附属华山医院", "中国银行", "上海证券交易所"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "上海交通大学",
+      "zs_code": "10248",
+      "tier_label": "985/双一流",
+      "city": "上海",
+      "rates": {
+        "baoyan_rate_pct": 35,
+        "domestic_grad_school_pct": 58,
+        "abroad_pct": 22,
+        "direct_employment_pct": 20,
+        "big_tech_hire_rate_est": 15,
+        "civil_service_rate_est": 8
+      },
+      "specialty_strength": "工科+商科+医学 强势; 上海互联网+制造业 主力; 国内 IT 就业率全国前 2",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "美团", "蚂蚁集团", "上交医学院附属医院", "中芯国际", "西门子"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "浙江大学",
+      "zs_code": "10335",
+      "tier_label": "985/双一流",
+      "city": "杭州",
+      "rates": {
+        "baoyan_rate_pct": 30,
+        "domestic_grad_school_pct": 56,
+        "abroad_pct": 18,
+        "direct_employment_pct": 26,
+        "big_tech_hire_rate_est": 20,
+        "civil_service_rate_est": 10
+      },
+      "specialty_strength": "工科+IT+管理 综合; 阿里/网易/海康 母校效应; 浙江省内就业天花板",
+      "notable_employers": ["阿里巴巴", "网易", "华为", "海康威视", "腾讯", "字节跳动", "海尔", "国家电网"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "南京大学",
+      "zs_code": "10284",
+      "tier_label": "985/双一流",
+      "city": "南京",
+      "rates": {
+        "baoyan_rate_pct": 35,
+        "domestic_grad_school_pct": 58,
+        "abroad_pct": 16,
+        "direct_employment_pct": 22,
+        "big_tech_hire_rate_est": 12,
+        "civil_service_rate_est": 14
+      },
+      "specialty_strength": "文/理 综合 (天文/物理/化学/数学 顶尖); 江苏体制内 + 长三角 IT 双轨",
+      "notable_employers": ["华为", "腾讯", "中国移动", "江苏体制内", "中科院", "字节跳动", "招商银行", "国家电网"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中国科学技术大学",
+      "zs_code": "10358",
+      "tier_label": "985/双一流",
+      "city": "合肥",
+      "rates": {
+        "baoyan_rate_pct": 40,
+        "domestic_grad_school_pct": 70,
+        "abroad_pct": 22,
+        "direct_employment_pct": 8,
+        "big_tech_hire_rate_est": 15,
+        "civil_service_rate_est": 5
+      },
+      "specialty_strength": "理工科研 顶尖; 科大讯飞/中科院/华为半导体 主输送; 出国/读研率全国 No.1",
+      "notable_employers": ["华为", "中科院", "科大讯飞", "字节跳动", "腾讯", "国电南瑞", "比亚迪", "京东方"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "哈尔滨工业大学",
+      "zs_code": "10213",
+      "tier_label": "985/双一流",
+      "city": "哈尔滨",
+      "rates": {
+        "baoyan_rate_pct": 30,
+        "domestic_grad_school_pct": 55,
+        "abroad_pct": 8,
+        "direct_employment_pct": 33,
+        "big_tech_hire_rate_est": 12,
+        "civil_service_rate_est": 18
+      },
+      "specialty_strength": "国防/航天/船舶 + 计算机 强势; 中船重工/航天/中航工业 优先输送; 寒门可考",
+      "notable_employers": ["华为", "中国航天", "中船重工", "国家电网", "中国电科", "腾讯", "百度", "中航工业"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西安交通大学",
+      "zs_code": "10698",
+      "tier_label": "985/双一流",
+      "city": "西安",
+      "rates": {
+        "baoyan_rate_pct": 26,
+        "domestic_grad_school_pct": 52,
+        "abroad_pct": 10,
+        "direct_employment_pct": 38,
+        "big_tech_hire_rate_est": 13,
+        "civil_service_rate_est": 16
+      },
+      "specialty_strength": "工科+管理 综合; 中西部最大 985 输出点; 体制内回流强",
+      "notable_employers": ["华为", "中兴", "国家电网", "中国电科", "字节跳动", "工商银行", "腾讯", "中国移动"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中国人民大学",
+      "zs_code": "10002",
+      "tier_label": "985/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 30,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 22,
+        "direct_employment_pct": 25,
+        "big_tech_hire_rate_est": 8,
+        "civil_service_rate_est": 30
+      },
+      "specialty_strength": "文/法/经/管 顶尖; 公检法/中央机关 输送全国第 2 (仅次北大); 考公友好度天花板",
+      "notable_employers": ["中央国家机关", "腾讯", "字节跳动", "工商银行", "中信证券", "中央政法委", "新华社", "最高人民法院"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "北京航空航天大学",
+      "zs_code": "10006",
+      "tier_label": "985/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 54,
+        "abroad_pct": 15,
+        "direct_employment_pct": 28,
+        "big_tech_hire_rate_est": 18,
+        "civil_service_rate_est": 14
+      },
+      "specialty_strength": "航空航天 No.1 + IT/通信 强势; 北航软件 = 大厂集训营",
+      "notable_employers": ["华为", "中国航天", "中国商飞", "字节跳动", "腾讯", "微软", "百度", "中国电科"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "北京理工大学",
+      "zs_code": "10007",
+      "tier_label": "985/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 25,
+        "domestic_grad_school_pct": 56,
+        "abroad_pct": 12,
+        "direct_employment_pct": 28,
+        "big_tech_hire_rate_est": 15,
+        "civil_service_rate_est": 16
+      },
+      "specialty_strength": "兵器/导弹/无人系统 + IT 强势; 国防/华为 双轨",
+      "notable_employers": ["华为", "中国兵器", "中国航天", "字节跳动", "腾讯", "国家电网", "中科院", "百度"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中国农业大学",
+      "zs_code": "10019",
+      "tier_label": "985/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 60,
+        "abroad_pct": 15,
+        "direct_employment_pct": 22,
+        "big_tech_hire_rate_est": 4,
+        "civil_service_rate_est": 22
+      },
+      "specialty_strength": "农业/食品/动物科学 顶尖; 农业农村部/中粮 输送; 寒门家庭高优",
+      "notable_employers": ["中粮集团", "农业农村部", "新希望", "牧原", "中国食品", "国家林草局", "京东", "字节跳动"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "北京师范大学",
+      "zs_code": "10027",
+      "tier_label": "985/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 52,
+        "abroad_pct": 16,
+        "direct_employment_pct": 28,
+        "big_tech_hire_rate_est": 3,
+        "civil_service_rate_est": 45
+      },
+      "specialty_strength": "公费师范 6 部属之首; 教师编 + 教育部/各省厅 输送; 师范类天花板",
+      "notable_employers": ["教育部", "各省教育厅", "北京各重点中学", "新东方", "学而思", "字节跳动 (教育业务)", "中央教科所", "北师大附属"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "南开大学",
+      "zs_code": "10055",
+      "tier_label": "985/双一流",
+      "city": "天津",
+      "rates": {
+        "baoyan_rate_pct": 27,
+        "domestic_grad_school_pct": 54,
+        "abroad_pct": 14,
+        "direct_employment_pct": 27,
+        "big_tech_hire_rate_est": 9,
+        "civil_service_rate_est": 18
+      },
+      "specialty_strength": "数学/经济/化学 老牌; 银行 + 中央机关 主输送",
+      "notable_employers": ["华为", "中国银行", "工商银行", "腾讯", "中央国家机关", "中信证券", "毕马威", "海尔"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "天津大学",
+      "zs_code": "10056",
+      "tier_label": "985/双一流",
+      "city": "天津",
+      "rates": {
+        "baoyan_rate_pct": 26,
+        "domestic_grad_school_pct": 55,
+        "abroad_pct": 12,
+        "direct_employment_pct": 28,
+        "big_tech_hire_rate_est": 11,
+        "civil_service_rate_est": 15
+      },
+      "specialty_strength": "化工/建筑/精密仪器 老牌工科; 中海油/中石化 + 华为 双轨",
+      "notable_employers": ["华为", "中海油", "中国石化", "字节跳动", "中国建筑", "腾讯", "海尔", "国家电网"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "大连理工大学",
+      "zs_code": "10141",
+      "tier_label": "985/双一流",
+      "city": "大连",
+      "rates": {
+        "baoyan_rate_pct": 25,
+        "domestic_grad_school_pct": 52,
+        "abroad_pct": 8,
+        "direct_employment_pct": 35,
+        "big_tech_hire_rate_est": 11,
+        "civil_service_rate_est": 18
+      },
+      "specialty_strength": "机械/化工/水利/造船 强势; 东北工科底蕴",
+      "notable_employers": ["华为", "中船重工", "国家电网", "字节跳动", "中国一汽", "腾讯", "中国电科", "中冶集团"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "东北大学",
+      "zs_code": "10145",
+      "tier_label": "985/双一流",
+      "city": "沈阳",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 6,
+        "direct_employment_pct": 40,
+        "big_tech_hire_rate_est": 8,
+        "civil_service_rate_est": 22
+      },
+      "specialty_strength": "冶金/材料/控制 老牌; 鞍钢/宝武 + 东北体制内 主力",
+      "notable_employers": ["华为", "宝武集团", "鞍钢", "中国电科", "中铝集团", "国家电网", "腾讯", "中国一汽"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "吉林大学",
+      "zs_code": "10183",
+      "tier_label": "985/双一流",
+      "city": "长春",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 48,
+        "abroad_pct": 6,
+        "direct_employment_pct": 42,
+        "big_tech_hire_rate_est": 8,
+        "civil_service_rate_est": 26
+      },
+      "specialty_strength": "考古/法学/汽车 + 巨型综合; 中国一汽 / 东北体制内 重输送",
+      "notable_employers": ["中国一汽", "华为", "中国电科", "腾讯", "国家电网", "字节跳动", "中国移动", "工商银行"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "同济大学",
+      "zs_code": "10247",
+      "tier_label": "985/双一流",
+      "city": "上海",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 53,
+        "abroad_pct": 16,
+        "direct_employment_pct": 26,
+        "big_tech_hire_rate_est": 9,
+        "civil_service_rate_est": 12
+      },
+      "specialty_strength": "土木/建筑/汽车/海洋 No.1 工科 + 上海定位; 设计院/上海建工 主输送",
+      "notable_employers": ["华为", "上海建工", "中国建筑", "中铁集团", "腾讯", "字节跳动", "上汽集团", "宝马"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "东南大学",
+      "zs_code": "10286",
+      "tier_label": "985/双一流",
+      "city": "南京",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 56,
+        "abroad_pct": 12,
+        "direct_employment_pct": 25,
+        "big_tech_hire_rate_est": 13,
+        "civil_service_rate_est": 14
+      },
+      "specialty_strength": "电子/通信/建筑/医学 综合; 华为/中兴 + 江苏体制内 双轨",
+      "notable_employers": ["华为", "中兴", "字节跳动", "腾讯", "中国移动", "国家电网", "比亚迪", "百度"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "厦门大学",
+      "zs_code": "10384",
+      "tier_label": "985/双一流",
+      "city": "厦门",
+      "rates": {
+        "baoyan_rate_pct": 25,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 18,
+        "direct_employment_pct": 25,
+        "big_tech_hire_rate_est": 10,
+        "civil_service_rate_est": 18
+      },
+      "specialty_strength": "经济/会计/法学/化学 强势; 福建体制内 + 海外硕士 双轨",
+      "notable_employers": ["华为", "厦门航空", "字节跳动", "招商银行", "腾讯", "毕马威", "金蝶", "美团"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "山东大学",
+      "zs_code": "10422",
+      "tier_label": "985/双一流",
+      "city": "济南",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 12,
+        "direct_employment_pct": 32,
+        "big_tech_hire_rate_est": 9,
+        "civil_service_rate_est": 22
+      },
+      "specialty_strength": "数学/文/医 综合; 山东体制内 + 国企 主输送; 山东考生回流首选",
+      "notable_employers": ["华为", "国家电网", "海尔", "海信", "字节跳动", "中国移动", "腾讯", "齐鲁医院"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中国海洋大学",
+      "zs_code": "10423",
+      "tier_label": "985/双一流",
+      "city": "青岛",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 52,
+        "abroad_pct": 12,
+        "direct_employment_pct": 30,
+        "big_tech_hire_rate_est": 7,
+        "civil_service_rate_est": 20
+      },
+      "specialty_strength": "海洋科学 No.1; 中海油/海军/海洋局 + 山东体制内",
+      "notable_employers": ["中海油", "海军", "国家海洋局", "海尔", "海信", "华为", "中国海事", "中船重工"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "武汉大学",
+      "zs_code": "10486",
+      "tier_label": "985/双一流",
+      "city": "武汉",
+      "rates": {
+        "baoyan_rate_pct": 25,
+        "domestic_grad_school_pct": 52,
+        "abroad_pct": 14,
+        "direct_employment_pct": 28,
+        "big_tech_hire_rate_est": 11,
+        "civil_service_rate_est": 18
+      },
+      "specialty_strength": "测绘/法学/水利/历史 综合; 湖北体制内 + 华为 双轨",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "国家电网", "中国移动", "工商银行", "中信证券", "湖北体制内"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "华中科技大学",
+      "zs_code": "10487",
+      "tier_label": "985/双一流",
+      "city": "武汉",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 55,
+        "abroad_pct": 13,
+        "direct_employment_pct": 24,
+        "big_tech_hire_rate_est": 15,
+        "civil_service_rate_est": 12
+      },
+      "specialty_strength": "电子/计算机/机械/光学 + 华科系大厂创业 (小米/PDD/微众); 大厂率 985 前 3",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "小米", "拼多多", "百度", "美团", "京东"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中国地质大学(武汉)",
+      "zs_code": "10491",
+      "tier_label": "211/双一流",
+      "city": "武汉",
+      "rates": {
+        "baoyan_rate_pct": 14,
+        "domestic_grad_school_pct": 40,
+        "abroad_pct": 5,
+        "direct_employment_pct": 50,
+        "big_tech_hire_rate_est": 4,
+        "civil_service_rate_est": 28
+      },
+      "specialty_strength": "地质/资源/勘探 No.1; 国土资源部/三桶油/中铁 输送",
+      "notable_employers": ["中石油", "中石化", "中海油", "中铁集团", "中国地调", "中国电建", "国家电网", "华为"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "武汉理工大学",
+      "zs_code": "10497",
+      "tier_label": "211/双一流",
+      "city": "武汉",
+      "rates": {
+        "baoyan_rate_pct": 14,
+        "domestic_grad_school_pct": 38,
+        "abroad_pct": 6,
+        "direct_employment_pct": 50,
+        "big_tech_hire_rate_est": 6,
+        "civil_service_rate_est": 22
+      },
+      "specialty_strength": "材料/船舶/交通运输 三牌; 长安汽车/东风/中船重工 输送",
+      "notable_employers": ["东风汽车", "长安汽车", "中船重工", "宝武集团", "华为", "字节跳动", "中铁集团", "上汽集团"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "中南大学",
+      "zs_code": "10533",
+      "tier_label": "985/双一流",
+      "city": "长沙",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 10,
+        "direct_employment_pct": 30,
+        "big_tech_hire_rate_est": 9,
+        "civil_service_rate_est": 20
+      },
+      "specialty_strength": "材料/冶金/矿冶/医学 强势; 中铝/宝武 + 湖南体制内",
+      "notable_employers": ["华为", "国家电网", "中铝集团", "宝武集团", "字节跳动", "中信证券", "中南医院", "三一重工"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "湖南大学",
+      "zs_code": "10532",
+      "tier_label": "985/双一流",
+      "city": "长沙",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 48,
+        "abroad_pct": 12,
+        "direct_employment_pct": 30,
+        "big_tech_hire_rate_est": 10,
+        "civil_service_rate_est": 18
+      },
+      "specialty_strength": "土木/汽车/化工/计算机; 中联重科/三一重工 + 湖南体制内",
+      "notable_employers": ["华为", "三一重工", "中联重科", "字节跳动", "腾讯", "国家电网", "山河智能", "比亚迪"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中山大学",
+      "zs_code": "10558",
+      "tier_label": "985/双一流",
+      "city": "广州",
+      "rates": {
+        "baoyan_rate_pct": 26,
+        "domestic_grad_school_pct": 54,
+        "abroad_pct": 16,
+        "direct_employment_pct": 24,
+        "big_tech_hire_rate_est": 12,
+        "civil_service_rate_est": 16
+      },
+      "specialty_strength": "医学/管理/法学/海洋 综合; 广东体制内 + 华南 IT 双轨",
+      "notable_employers": ["华为", "腾讯", "中山大学附属医院", "广州医科大学附属医院", "字节跳动", "美团", "工商银行", "招商银行"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "华南理工大学",
+      "zs_code": "10561",
+      "tier_label": "985/双一流",
+      "city": "广州",
+      "rates": {
+        "baoyan_rate_pct": 24,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 12,
+        "direct_employment_pct": 32,
+        "big_tech_hire_rate_est": 13,
+        "civil_service_rate_est": 14
+      },
+      "specialty_strength": "建筑/材料/食品/轻工 + 华南 IT 全 stack; 大厂率全国前 5",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "美的", "格力", "OPPO", "比亚迪", "万科"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "四川大学",
+      "zs_code": "10610",
+      "tier_label": "985/双一流",
+      "city": "成都",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 12,
+        "direct_employment_pct": 30,
+        "big_tech_hire_rate_est": 9,
+        "civil_service_rate_est": 20
+      },
+      "specialty_strength": "化工/医学/水利/口腔 (华西) 综合; 西南体制内 + 大厂",
+      "notable_employers": ["华为", "中国电科", "字节跳动", "腾讯", "成都飞机", "比亚迪", "国家电网", "中铁集团"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "电子科技大学",
+      "zs_code": "10614",
+      "tier_label": "985/双一流",
+      "city": "成都",
+      "rates": {
+        "baoyan_rate_pct": 25,
+        "domestic_grad_school_pct": 55,
+        "abroad_pct": 12,
+        "direct_employment_pct": 28,
+        "big_tech_hire_rate_est": 20,
+        "civil_service_rate_est": 8
+      },
+      "specialty_strength": "电子/通信/IT 顶尖; 华为/中兴 + 大厂直通; 大厂率 985 第 1",
+      "notable_employers": ["华为", "中兴", "字节跳动", "腾讯", "百度", "京东方", "比亚迪", "OPPO"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "重庆大学",
+      "zs_code": "10611",
+      "tier_label": "985/双一流",
+      "city": "重庆",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 10,
+        "direct_employment_pct": 32,
+        "big_tech_hire_rate_est": 9,
+        "civil_service_rate_est": 18
+      },
+      "specialty_strength": "土木/电气/采矿/机械; 长安汽车 + 国家电网",
+      "notable_employers": ["华为", "长安汽车", "国家电网", "中国电建", "字节跳动", "中铁集团", "中国移动", "招商银行"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西北工业大学",
+      "zs_code": "10699",
+      "tier_label": "985/双一流",
+      "city": "西安",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 58,
+        "abroad_pct": 8,
+        "direct_employment_pct": 30,
+        "big_tech_hire_rate_est": 8,
+        "civil_service_rate_est": 25
+      },
+      "specialty_strength": "航空/航天/航海 三航 No.1; 中国航天/航空/中船 直供; 国防研究院",
+      "notable_employers": ["中国航天", "中国航空", "中国商飞", "中国电科", "华为", "中船重工", "中国兵器", "字节跳动"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西北农林科技大学",
+      "zs_code": "10712",
+      "tier_label": "985/双一流",
+      "city": "西安",
+      "rates": {
+        "baoyan_rate_pct": 16,
+        "domestic_grad_school_pct": 42,
+        "abroad_pct": 6,
+        "direct_employment_pct": 46,
+        "big_tech_hire_rate_est": 3,
+        "civil_service_rate_est": 25
+      },
+      "specialty_strength": "农学/林学/水土保持; 农业农村部/林草局 + 西北体制内",
+      "notable_employers": ["中粮集团", "新希望", "牧原", "农业农村部", "国家林草局", "字节跳动", "华为", "中信证券"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "兰州大学",
+      "zs_code": "10730",
+      "tier_label": "985/双一流",
+      "city": "兰州",
+      "rates": {
+        "baoyan_rate_pct": 22,
+        "domestic_grad_school_pct": 56,
+        "abroad_pct": 8,
+        "direct_employment_pct": 28,
+        "big_tech_hire_rate_est": 5,
+        "civil_service_rate_est": 22
+      },
+      "specialty_strength": "理科+生态学 强势; 兰州博士外流多 → 国内读研 顶级 985 转校",
+      "notable_employers": ["华为", "国家电网", "中科院", "字节跳动", "国家林草局", "中国电科", "腾讯", "甘肃体制内"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中央财经大学",
+      "zs_code": "10034",
+      "tier_label": "211/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 18,
+        "domestic_grad_school_pct": 40,
+        "abroad_pct": 28,
+        "direct_employment_pct": 30,
+        "big_tech_hire_rate_est": 8,
+        "civil_service_rate_est": 22
+      },
+      "specialty_strength": "财政/税务/会计/金融 中央财经系 顶级; 财政部/税务总局 直供",
+      "notable_employers": ["财政部", "税务总局", "审计署", "工商银行", "中信证券", "毕马威", "腾讯", "中金"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "对外经济贸易大学",
+      "zs_code": "10036",
+      "tier_label": "211/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 17,
+        "domestic_grad_school_pct": 35,
+        "abroad_pct": 30,
+        "direct_employment_pct": 32,
+        "big_tech_hire_rate_est": 9,
+        "civil_service_rate_est": 16
+      },
+      "specialty_strength": "国贸/金融/外语 + 海外硕士天花板; 出国率 211 第 1",
+      "notable_employers": ["商务部", "海关总署", "字节跳动", "腾讯", "毕马威", "招商银行", "中信证券", "中国银行"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "北京邮电大学",
+      "zs_code": "10013",
+      "tier_label": "211/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 18,
+        "domestic_grad_school_pct": 45,
+        "abroad_pct": 9,
+        "direct_employment_pct": 41,
+        "big_tech_hire_rate_est": 30,
+        "civil_service_rate_est": 8
+      },
+      "specialty_strength": "通信/IT/网安 顶级; 大厂率 211 第 1 (与华科/电子科大并列前 3)",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "百度", "美团", "中国移动", "中国联通", "京东"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西安电子科技大学",
+      "zs_code": "10701",
+      "tier_label": "211/双一流",
+      "city": "西安",
+      "rates": {
+        "baoyan_rate_pct": 18,
+        "domestic_grad_school_pct": 48,
+        "abroad_pct": 8,
+        "direct_employment_pct": 38,
+        "big_tech_hire_rate_est": 22,
+        "civil_service_rate_est": 12
+      },
+      "specialty_strength": "电子/通信/网安 西部老牌; 华为 + 中兴 + 中国电科 直供",
+      "notable_employers": ["华为", "中兴", "中国电科", "字节跳动", "腾讯", "百度", "比亚迪", "OPPO"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "华东师范大学",
+      "zs_code": "10269",
+      "tier_label": "985/双一流",
+      "city": "上海",
+      "rates": {
+        "baoyan_rate_pct": 28,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 18,
+        "direct_employment_pct": 26,
+        "big_tech_hire_rate_est": 5,
+        "civil_service_rate_est": 38
+      },
+      "specialty_strength": "公费师范 6 部属 + 心理/教育/统计 强势; 上海各重点中学 主输送",
+      "notable_employers": ["上海各重点中学", "字节跳动 (教育)", "华为", "腾讯", "新东方", "中国教科院", "复旦附中", "教育部"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "华中师范大学",
+      "zs_code": "10511",
+      "tier_label": "211/双一流",
+      "city": "武汉",
+      "rates": {
+        "baoyan_rate_pct": 18,
+        "domestic_grad_school_pct": 42,
+        "abroad_pct": 8,
+        "direct_employment_pct": 42,
+        "big_tech_hire_rate_est": 3,
+        "civil_service_rate_est": 42
+      },
+      "specialty_strength": "公费师范 6 部属之一; 教师编 + 湖北体制内",
+      "notable_employers": ["教育部", "湖北各重点中学", "华中师大第一附中", "中部六省教育系统", "新东方", "学而思", "中国教科院", "字节跳动"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "东北师范大学",
+      "zs_code": "10200",
+      "tier_label": "211/双一流",
+      "city": "长春",
+      "rates": {
+        "baoyan_rate_pct": 18,
+        "domestic_grad_school_pct": 38,
+        "abroad_pct": 6,
+        "direct_employment_pct": 46,
+        "big_tech_hire_rate_est": 2,
+        "civil_service_rate_est": 50
+      },
+      "specialty_strength": "公费师范 6 部属之一; 东北各重点中学 + 西部教师定向",
+      "notable_employers": ["东北各省教育厅", "东北各重点中学", "新东方", "教育部", "西部计划", "学而思", "中国教科院", "字节跳动"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "陕西师范大学",
+      "zs_code": "10718",
+      "tier_label": "211/双一流",
+      "city": "西安",
+      "rates": {
+        "baoyan_rate_pct": 18,
+        "domestic_grad_school_pct": 38,
+        "abroad_pct": 5,
+        "direct_employment_pct": 48,
+        "big_tech_hire_rate_est": 2,
+        "civil_service_rate_est": 50
+      },
+      "specialty_strength": "公费师范 6 部属之一; 西北各重点中学 + 优师 (832 县) 输送主力",
+      "notable_employers": ["陕西/甘肃/宁夏/青海各重点中学", "新东方", "教育部", "西北各教育厅", "中国教科院", "学而思", "字节跳动", "西北体制内"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西南大学",
+      "zs_code": "10635",
+      "tier_label": "211/双一流",
+      "city": "重庆",
+      "rates": {
+        "baoyan_rate_pct": 16,
+        "domestic_grad_school_pct": 38,
+        "abroad_pct": 6,
+        "direct_employment_pct": 50,
+        "big_tech_hire_rate_est": 3,
+        "civil_service_rate_est": 48
+      },
+      "specialty_strength": "公费师范 6 部属之一 + 农学; 西南各重点中学 + 农业农村部",
+      "notable_employers": ["重庆/四川/贵州/云南各重点中学", "教育部", "农业农村部", "字节跳动 (教育)", "新东方", "中国教科院", "西南体制内", "中央教科所"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "中国政法大学",
+      "zs_code": "10053",
+      "tier_label": "211/双一流",
+      "city": "北京",
+      "rates": {
+        "baoyan_rate_pct": 17,
+        "domestic_grad_school_pct": 42,
+        "abroad_pct": 16,
+        "direct_employment_pct": 25,
+        "big_tech_hire_rate_est": 4,
+        "civil_service_rate_est": 55
+      },
+      "specialty_strength": "法学 + 公检法直供; 全国法学院校第 2 (仅次北大法学院)",
+      "notable_employers": ["最高人民法院", "最高检察院", "司法部", "公安部", "各级法院/检察院", "中央政法委", "国务院法制办", "中央纪委"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "南方科技大学",
+      "zs_code": "14325",
+      "tier_label": "双一流",
+      "city": "深圳",
+      "rates": {
+        "baoyan_rate_pct": 35,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 35,
+        "direct_employment_pct": 15,
+        "big_tech_hire_rate_est": 30,
+        "civil_service_rate_est": 5
+      },
+      "specialty_strength": "理科+IT 顶尖 (录取分接近 985); 深圳IT/海外深造双高;",
+      "notable_employers": ["腾讯", "华为", "字节跳动", "比亚迪", "OPPO", "百度", "中科院深圳", "美团"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "上海科技大学",
+      "zs_code": "14423",
+      "tier_label": "双一流",
+      "city": "上海",
+      "rates": {
+        "baoyan_rate_pct": 30,
+        "domestic_grad_school_pct": 50,
+        "abroad_pct": 32,
+        "direct_employment_pct": 18,
+        "big_tech_hire_rate_est": 18,
+        "civil_service_rate_est": 4
+      },
+      "specialty_strength": "理工科研顶尖 (中科院系); 出国/读研率 985 平均水平; 业界IT/AI 主输送",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "中科院", "微软", "百度", "上汽集团", "美团"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "香港中文大学(深圳)",
+      "zs_code": "16407",
+      "tier_label": "中外合作",
+      "city": "深圳",
+      "rates": {
+        "baoyan_rate_pct": 0,
+        "domestic_grad_school_pct": 18,
+        "abroad_pct": 60,
+        "direct_employment_pct": 22,
+        "big_tech_hire_rate_est": 22,
+        "civil_service_rate_est": 3
+      },
+      "specialty_strength": "出国 60%+ (国际化第一梯队); 港中深商学院+海外名校; 深圳大厂友好",
+      "notable_employers": ["腾讯", "华为", "字节跳动", "美团", "微软", "麦肯锡", "中金", "高盛"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西交利物浦大学",
+      "zs_code": "16404",
+      "tier_label": "中外合作",
+      "city": "苏州",
+      "rates": {
+        "baoyan_rate_pct": 0,
+        "domestic_grad_school_pct": 12,
+        "abroad_pct": 75,
+        "direct_employment_pct": 13,
+        "big_tech_hire_rate_est": 6,
+        "civil_service_rate_est": 2
+      },
+      "specialty_strength": "出国率 75%+ (全国最高); 2+2 路径 + 利物浦海外硕博直通",
+      "notable_employers": ["微软", "毕马威", "普华永道", "腾讯", "华为", "字节跳动", "招商银行", "苏州工业园"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "上海纽约大学",
+      "zs_code": "16127",
+      "tier_label": "中外合作",
+      "city": "上海",
+      "rates": {
+        "baoyan_rate_pct": 0,
+        "domestic_grad_school_pct": 5,
+        "abroad_pct": 85,
+        "direct_employment_pct": 10,
+        "big_tech_hire_rate_est": 8,
+        "civil_service_rate_est": 1
+      },
+      "specialty_strength": "出国率 85%+ (全国最高); 50% 大三去 NYU 纽约/阿布扎比; 国际化精英路径",
+      "notable_employers": ["NYU", "麦肯锡", "高盛", "Google", "Facebook", "字节跳动", "中金", "毕马威"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "河北工业大学",
+      "zs_code": "10080",
+      "tier_label": "211/双一流",
+      "city": "天津",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 36, "abroad_pct": 4, "direct_employment_pct": 50, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
+      "specialty_strength": "电机/化工; 河北唯一 211 (校区在天津); 京津冀产业输送",
+      "notable_employers": ["华为", "国家电网", "中国移动", "海尔", "宝武集团", "字节跳动", "工商银行", "中国电科"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "燕山大学",
+      "zs_code": "10216",
+      "tier_label": "省重点",
+      "city": "秦皇岛",
+      "rates": {"baoyan_rate_pct": 8, "domestic_grad_school_pct": 32, "abroad_pct": 3, "direct_employment_pct": 55, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 22},
+      "specialty_strength": "机械/材料 河北旗舰省属; 装备制造系统输送",
+      "notable_employers": ["华为", "中国一重", "三一重工", "中船重工", "国家电网", "中冶集团", "字节跳动", "比亚迪"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "山西大学",
+      "zs_code": "10108",
+      "tier_label": "双一流",
+      "city": "太原",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 35, "abroad_pct": 5, "direct_employment_pct": 50, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 28},
+      "specialty_strength": "物理/化学/历史 双一流; 山西体制内 主输送",
+      "notable_employers": ["山西体制内", "国家电网", "华为", "晋能控股", "山西焦煤", "字节跳动", "中国移动", "工商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "太原理工大学",
+      "zs_code": "10112",
+      "tier_label": "211/双一流",
+      "city": "太原",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 38, "abroad_pct": 4, "direct_employment_pct": 48, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
+      "specialty_strength": "机械/采矿/化工; 山西煤炭+能源 行业垄断输送",
+      "notable_employers": ["晋能控股", "山西焦煤", "国家电网", "华为", "中铁集团", "字节跳动", "中信证券", "中国电科"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "内蒙古大学",
+      "zs_code": "10126",
+      "tier_label": "211/双一流",
+      "city": "呼和浩特",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 38, "abroad_pct": 5, "direct_employment_pct": 45, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 30},
+      "specialty_strength": "民族学/蒙古学/生态学; 内蒙古体制内 主输送",
+      "notable_employers": ["内蒙古体制内", "国家电网", "华为", "包钢集团", "伊利", "蒙牛", "字节跳动", "工商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "南京航空航天大学",
+      "zs_code": "10287",
+      "tier_label": "211/双一流",
+      "city": "南京",
+      "rates": {"baoyan_rate_pct": 18, "domestic_grad_school_pct": 45, "abroad_pct": 8, "direct_employment_pct": 38, "big_tech_hire_rate_est": 10, "civil_service_rate_est": 18},
+      "specialty_strength": "航空航天 + 民航 工科; 中国商飞/中航工业 + 华为 直供",
+      "notable_employers": ["中国商飞", "中国航空", "中国航天", "华为", "中航工业", "字节跳动", "腾讯", "中国电科"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "南京理工大学",
+      "zs_code": "10288",
+      "tier_label": "211/双一流",
+      "city": "南京",
+      "rates": {"baoyan_rate_pct": 18, "domestic_grad_school_pct": 48, "abroad_pct": 8, "direct_employment_pct": 36, "big_tech_hire_rate_est": 11, "civil_service_rate_est": 18},
+      "specialty_strength": "兵器/电子/机械 + IT; 中国兵器 + 华为/中兴 双轨",
+      "notable_employers": ["华为", "中兴", "中国兵器", "字节跳动", "腾讯", "中国电科", "百度", "美团"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "河海大学",
+      "zs_code": "10294",
+      "tier_label": "211/双一流",
+      "city": "南京",
+      "rates": {"baoyan_rate_pct": 15, "domestic_grad_school_pct": 42, "abroad_pct": 8, "direct_employment_pct": 40, "big_tech_hire_rate_est": 7, "civil_service_rate_est": 24},
+      "specialty_strength": "水利水电/海洋/环境 No.1; 水利部 + 中国电建 + 三峡集团 直供",
+      "notable_employers": ["水利部", "中国电建", "三峡集团", "南水北调", "中国能建", "华为", "字节跳动", "国家电网"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "苏州大学",
+      "zs_code": "10285",
+      "tier_label": "211/双一流",
+      "city": "苏州",
+      "rates": {"baoyan_rate_pct": 15, "domestic_grad_school_pct": 40, "abroad_pct": 12, "direct_employment_pct": 33, "big_tech_hire_rate_est": 9, "civil_service_rate_est": 18},
+      "specialty_strength": "纺织/材料/医学; 苏州工业园 + 长三角 大厂友好",
+      "notable_employers": ["华为", "腾讯", "字节跳动", "苏州工业园", "美团", "工商银行", "招商银行", "微软"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "浙江工业大学",
+      "zs_code": "10337",
+      "tier_label": "省重点",
+      "city": "杭州",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 38, "abroad_pct": 6, "direct_employment_pct": 45, "big_tech_hire_rate_est": 12, "civil_service_rate_est": 18},
+      "specialty_strength": "化工/机械/计算机; 浙江体制内 + 阿里/网易 + 华为",
+      "notable_employers": ["阿里巴巴", "华为", "网易", "字节跳动", "腾讯", "海康威视", "海尔", "招商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "宁波大学",
+      "zs_code": "11646",
+      "tier_label": "双一流",
+      "city": "宁波",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 32, "abroad_pct": 10, "direct_employment_pct": 48, "big_tech_hire_rate_est": 7, "civil_service_rate_est": 18},
+      "specialty_strength": "海洋/物流/水产; 宁波港+长三角制造业 主输送",
+      "notable_employers": ["宁波港", "吉利汽车", "海康威视", "华为", "海尔", "字节跳动", "腾讯", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "合肥工业大学",
+      "zs_code": "10359",
+      "tier_label": "211/双一流",
+      "city": "合肥",
+      "rates": {"baoyan_rate_pct": 16, "domestic_grad_school_pct": 42, "abroad_pct": 6, "direct_employment_pct": 42, "big_tech_hire_rate_est": 11, "civil_service_rate_est": 20},
+      "specialty_strength": "机械/车辆/材料 老牌工科; 长安汽车 + 江淮汽车 + 比亚迪 输送",
+      "notable_employers": ["华为", "江淮汽车", "比亚迪", "字节跳动", "腾讯", "国家电网", "京东方", "中国电科"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "安徽大学",
+      "zs_code": "10357",
+      "tier_label": "211/双一流",
+      "city": "合肥",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 38, "abroad_pct": 8, "direct_employment_pct": 42, "big_tech_hire_rate_est": 8, "civil_service_rate_est": 22},
+      "specialty_strength": "汉语言/哲学/材料; 安徽体制内 + 科大讯飞 + 华为",
+      "notable_employers": ["华为", "科大讯飞", "字节跳动", "安徽体制内", "京东方", "国家电网", "腾讯", "工商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "福州大学",
+      "zs_code": "10386",
+      "tier_label": "211/双一流",
+      "city": "福州",
+      "rates": {"baoyan_rate_pct": 13, "domestic_grad_school_pct": 38, "abroad_pct": 8, "direct_employment_pct": 41, "big_tech_hire_rate_est": 8, "civil_service_rate_est": 22},
+      "specialty_strength": "化学/工业设计/材料; 福建体制内 + 工业制造 输送",
+      "notable_employers": ["华为", "宁德时代", "字节跳动", "福建体制内", "腾讯", "工商银行", "中国移动", "招商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "南昌大学",
+      "zs_code": "10403",
+      "tier_label": "211/双一流",
+      "city": "南昌",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 36, "abroad_pct": 6, "direct_employment_pct": 46, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
+      "specialty_strength": "材料/食品/中医 + 江西唯一 211; 江西体制内 + 江铜/江中 输送",
+      "notable_employers": ["江西铜业", "江中集团", "华为", "字节跳动", "江西体制内", "国家电网", "中国移动", "工商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "郑州大学",
+      "zs_code": "10459",
+      "tier_label": "211/双一流",
+      "city": "郑州",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 36, "abroad_pct": 5, "direct_employment_pct": 47, "big_tech_hire_rate_est": 7, "civil_service_rate_est": 22},
+      "specialty_strength": "材料/化学/历史 + 河南唯一 211; 河南体制内 + 宇通客车 主输送",
+      "notable_employers": ["宇通客车", "华为", "字节跳动", "河南体制内", "国家电网", "腾讯", "工商银行", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "河南大学",
+      "zs_code": "10475",
+      "tier_label": "双一流",
+      "city": "开封",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 34, "abroad_pct": 5, "direct_employment_pct": 51, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 30},
+      "specialty_strength": "文学/历史/教育学; 河南体制内 + 河南教育系统 主输送",
+      "notable_employers": ["河南体制内", "河南各重点中学", "字节跳动", "华为", "新东方", "国家电网", "中国移动", "工商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "中南财经政法大学",
+      "zs_code": "10520",
+      "tier_label": "211/双一流",
+      "city": "武汉",
+      "rates": {"baoyan_rate_pct": 18, "domestic_grad_school_pct": 42, "abroad_pct": 16, "direct_employment_pct": 24, "big_tech_hire_rate_est": 7, "civil_service_rate_est": 30},
+      "specialty_strength": "经济/法学/管理 三牌; 中央财经系 + 公检法 双轨; 考公友好度顶级",
+      "notable_employers": ["最高人民法院", "财政部", "中信证券", "招商银行", "毕马威", "中央国家机关", "腾讯", "湖北体制内"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "华中农业大学",
+      "zs_code": "10504",
+      "tier_label": "211/双一流",
+      "city": "武汉",
+      "rates": {"baoyan_rate_pct": 18, "domestic_grad_school_pct": 50, "abroad_pct": 10, "direct_employment_pct": 22, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 25},
+      "specialty_strength": "农学/动物医学/食品 顶尖; 农业农村部 + 中粮 + 牧原 主输送",
+      "notable_employers": ["中粮集团", "牧原", "新希望", "正大集团", "字节跳动", "华为", "农业农村部", "湖北体制内"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "湖南师范大学",
+      "zs_code": "10542",
+      "tier_label": "211/双一流",
+      "city": "长沙",
+      "rates": {"baoyan_rate_pct": 15, "domestic_grad_school_pct": 40, "abroad_pct": 6, "direct_employment_pct": 44, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 40},
+      "specialty_strength": "公费师范; 湖南各重点中学 + 教育系统 主输送",
+      "notable_employers": ["湖南各重点中学", "教育部", "湖南体制内", "新东方", "字节跳动 (教育)", "中国教科院", "学而思", "中央教科所"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "湘潭大学",
+      "zs_code": "10530",
+      "tier_label": "双一流",
+      "city": "湘潭",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 35, "abroad_pct": 5, "direct_employment_pct": 50, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
+      "specialty_strength": "数学/法学/化学; 湖南体制内 + 私企+公考 双轨",
+      "notable_employers": ["湖南体制内", "华为", "字节跳动", "中国电科", "国家电网", "腾讯", "工商银行", "三一重工"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "暨南大学",
+      "zs_code": "10559",
+      "tier_label": "211/双一流",
+      "city": "广州",
+      "rates": {"baoyan_rate_pct": 16, "domestic_grad_school_pct": 38, "abroad_pct": 18, "direct_employment_pct": 28, "big_tech_hire_rate_est": 9, "civil_service_rate_est": 16},
+      "specialty_strength": "新闻/经济/海外侨胞通道; 中央统战部 + 海外华人路径",
+      "notable_employers": ["腾讯", "字节跳动", "华为", "招商银行", "工商银行", "新华社", "美团", "毕马威"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "华南师范大学",
+      "zs_code": "10574",
+      "tier_label": "211/双一流",
+      "city": "广州",
+      "rates": {"baoyan_rate_pct": 15, "domestic_grad_school_pct": 38, "abroad_pct": 12, "direct_employment_pct": 35, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 35},
+      "specialty_strength": "心理/教育/物理; 广东各重点中学 + 教师编 主输送",
+      "notable_employers": ["广东各重点中学", "教育部", "广东体制内", "字节跳动 (教育)", "新东方", "华南师大附中", "广东教育出版社", "学而思"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "广西大学",
+      "zs_code": "10593",
+      "tier_label": "211/双一流",
+      "city": "南宁",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 38, "abroad_pct": 6, "direct_employment_pct": 44, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 30},
+      "specialty_strength": "土木/林学/电气; 广西唯一 211; 广西体制内 + 北部湾经济 + 华为",
+      "notable_employers": ["广西体制内", "华为", "中国电建", "字节跳动", "国家电网", "南宁交投", "工商银行", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "海南大学",
+      "zs_code": "10589",
+      "tier_label": "211/双一流",
+      "city": "海口",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 32, "abroad_pct": 6, "direct_employment_pct": 52, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 28},
+      "specialty_strength": "热带农学/水产/海洋 + 海南唯一 211; 海南自贸港 政策红利",
+      "notable_employers": ["海南体制内", "华为", "字节跳动", "海南自贸港", "中国一汽", "中粮集团", "国家电网", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "贵州大学",
+      "zs_code": "10657",
+      "tier_label": "211/双一流",
+      "city": "贵阳",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 35, "abroad_pct": 4, "direct_employment_pct": 51, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 28},
+      "specialty_strength": "植物保护/材料/管理 + 贵州唯一 211; 贵州体制内 + 大数据产业 (国家级)",
+      "notable_employers": ["贵州体制内", "华为", "中国电信", "字节跳动", "贵州茅台", "国家电网", "腾讯", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "云南大学",
+      "zs_code": "10673",
+      "tier_label": "211/双一流",
+      "city": "昆明",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 38, "abroad_pct": 6, "direct_employment_pct": 44, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
+      "specialty_strength": "民族学/生态学/植物保护; 云南体制内 + 中科院昆明分院",
+      "notable_employers": ["云南体制内", "华为", "字节跳动", "云南白药", "云南铜业", "中科院", "腾讯", "国家电网"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "昆明理工大学",
+      "zs_code": "10674",
+      "tier_label": "省重点",
+      "city": "昆明",
+      "rates": {"baoyan_rate_pct": 8, "domestic_grad_school_pct": 30, "abroad_pct": 4, "direct_employment_pct": 58, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 22},
+      "specialty_strength": "冶金/有色金属 + 云南旗舰工科省属; 云铜/云南建投 主输送",
+      "notable_employers": ["云南铜业", "云南冶金", "国家电网", "字节跳动", "华为", "中铁集团", "中国电建", "云南体制内"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "西藏大学",
+      "zs_code": "10694",
+      "tier_label": "211/双一流",
+      "city": "拉萨",
+      "rates": {"baoyan_rate_pct": 8, "domestic_grad_school_pct": 28, "abroad_pct": 3, "direct_employment_pct": 61, "big_tech_hire_rate_est": 2, "civil_service_rate_est": 45},
+      "specialty_strength": "藏学/民族学/生态学; 西藏唯一 211; 西藏体制内 (公务员/教师编) 主输送",
+      "notable_employers": ["西藏体制内", "西藏各重点中学", "西藏自治区政府", "援藏工作组", "国家民委", "中国电信", "中国移动", "西藏银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "青海大学",
+      "zs_code": "10743",
+      "tier_label": "211/双一流",
+      "city": "西宁",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 32, "abroad_pct": 4, "direct_employment_pct": 54, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 35},
+      "specialty_strength": "生态学/草学/藏医 + 青海唯一 211; 青海体制内 主输送",
+      "notable_employers": ["青海体制内", "青海盐湖", "国家电网", "华为", "字节跳动", "中国电信", "国家林草局", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "宁夏大学",
+      "zs_code": "10749",
+      "tier_label": "211/双一流",
+      "city": "银川",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 32, "abroad_pct": 4, "direct_employment_pct": 54, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 32},
+      "specialty_strength": "草学/民族学/葡萄酒 + 宁夏唯一 211; 宁夏体制内 主输送",
+      "notable_employers": ["宁夏体制内", "国家电网", "华为", "字节跳动", "宁夏宝丰能源", "中国电信", "工商银行", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "新疆大学",
+      "zs_code": "10755",
+      "tier_label": "211/双一流",
+      "city": "乌鲁木齐",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 36, "abroad_pct": 4, "direct_employment_pct": 48, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 32},
+      "specialty_strength": "马克思主义/化学/计算机 + 新疆 211; 新疆体制内 + 一带一路 主输送",
+      "notable_employers": ["新疆体制内", "国家电网", "华为", "字节跳动", "中国石油", "新疆生产建设兵团", "中国电信", "工商银行"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "石河子大学",
+      "zs_code": "10759",
+      "tier_label": "211/双一流",
+      "city": "石河子",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 32, "abroad_pct": 3, "direct_employment_pct": 55, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 35},
+      "specialty_strength": "农学/化工/医学 + 211; 新疆生产建设兵团 主输送",
+      "notable_employers": ["新疆生产建设兵团", "新疆体制内", "中粮集团", "国家电网", "中国石油", "华为", "字节跳动", "中国电信"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "哈尔滨工程大学",
+      "zs_code": "10217",
+      "tier_label": "211/双一流",
+      "city": "哈尔滨",
+      "rates": {"baoyan_rate_pct": 18, "domestic_grad_school_pct": 50, "abroad_pct": 6, "direct_employment_pct": 31, "big_tech_hire_rate_est": 7, "civil_service_rate_est": 22},
+      "specialty_strength": "船舶/海洋/核能 + 三海一核; 中船重工 + 中核 直供",
+      "notable_employers": ["中船重工", "中船工业", "中核集团", "华为", "字节跳动", "中国航天", "国家电网", "腾讯"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "延边大学",
+      "zs_code": "10184",
+      "tier_label": "211/双一流",
+      "city": "延吉",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 32, "abroad_pct": 6, "direct_employment_pct": 52, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 28},
+      "specialty_strength": "朝鲜语/民族学/医学 + 朝鲜族优势; 韩国/朝鲜路径 + 延边体制内",
+      "notable_employers": ["延边体制内", "韩资企业", "字节跳动", "华为", "国家电网", "中国移动", "中国电信", "三星"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "大连海事大学",
+      "zs_code": "10151",
+      "tier_label": "211/双一流",
+      "city": "大连",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 38, "abroad_pct": 5, "direct_employment_pct": 45, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 22},
+      "specialty_strength": "航海/海运/物流 + 交通运输部直属; 中远海运 + 海事局 直供",
+      "notable_employers": ["中远海运", "招商局", "中海工业", "上海港", "交通运输部", "宁波港", "华为", "字节跳动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "中国医科大学",
+      "zs_code": "10159",
+      "tier_label": "省重点",
+      "city": "沈阳",
+      "rates": {"baoyan_rate_pct": 15, "domestic_grad_school_pct": 45, "abroad_pct": 5, "direct_employment_pct": 35, "big_tech_hire_rate_est": 2, "civil_service_rate_est": 5},
+      "specialty_strength": "临床医学/口腔/护理 + 公立医院编 主输送",
+      "notable_employers": ["中国医大附属医院", "沈阳市各医院", "辽宁体制内 (卫健委)", "北京协和医院", "解放军总医院", "字节跳动 (健康)", "辉瑞", "强生"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "东北财经大学",
+      "zs_code": "10173",
+      "tier_label": "省重点",
+      "city": "大连",
+      "rates": {"baoyan_rate_pct": 14, "domestic_grad_school_pct": 36, "abroad_pct": 16, "direct_employment_pct": 34, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 24},
+      "specialty_strength": "财政/会计/金融 + 东北财经领头; 东北体制内 + 四大会计 主输送",
+      "notable_employers": ["毕马威", "普华永道", "工商银行", "招商银行", "字节跳动", "腾讯", "辽宁体制内", "中信证券"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "上海财经大学",
+      "zs_code": "10272",
+      "tier_label": "211/双一流",
+      "city": "上海",
+      "rates": {"baoyan_rate_pct": 18, "domestic_grad_school_pct": 40, "abroad_pct": 28, "direct_employment_pct": 24, "big_tech_hire_rate_est": 9, "civil_service_rate_est": 18},
+      "specialty_strength": "财政/会计/金融 中央财经系; 上海陆家嘴金融 + 海外硕士 双轨",
+      "notable_employers": ["中金", "中信证券", "招商银行", "毕马威", "普华永道", "腾讯", "字节跳动", "上海证券交易所"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西南交通大学",
+      "zs_code": "10613",
+      "tier_label": "211/双一流",
+      "city": "成都",
+      "rates": {"baoyan_rate_pct": 14, "domestic_grad_school_pct": 42, "abroad_pct": 7, "direct_employment_pct": 37, "big_tech_hire_rate_est": 8, "civil_service_rate_est": 22},
+      "specialty_strength": "土木/交通运输 (高铁) 行业垄断; 中铁/中车/中铁建 直供",
+      "notable_employers": ["中铁集团", "中车集团", "中铁建", "中国铁路", "华为", "字节跳动", "腾讯", "国家电网"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西南财经大学",
+      "zs_code": "10651",
+      "tier_label": "211/双一流",
+      "city": "成都",
+      "rates": {"baoyan_rate_pct": 14, "domestic_grad_school_pct": 38, "abroad_pct": 20, "direct_employment_pct": 28, "big_tech_hire_rate_est": 7, "civil_service_rate_est": 22},
+      "specialty_strength": "金融/财务/会计; 西南财经系顶级; 工行四川分行 + 招商证券 直供",
+      "notable_employers": ["工商银行", "招商银行", "中信证券", "中金", "毕马威", "字节跳动", "腾讯", "四川体制内"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "四川农业大学",
+      "zs_code": "10626",
+      "tier_label": "211/双一流",
+      "city": "雅安",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 38, "abroad_pct": 5, "direct_employment_pct": 45, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 28},
+      "specialty_strength": "动物医学/作物学/林学; 农业农村部 + 川内畜牧 + 牧原",
+      "notable_employers": ["新希望", "牧原", "中粮集团", "正大集团", "农业农村部", "字节跳动", "华为", "国家林草局"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "西南政法大学",
+      "zs_code": "10652",
+      "tier_label": "省重点",
+      "city": "重庆",
+      "rates": {"baoyan_rate_pct": 12, "domestic_grad_school_pct": 35, "abroad_pct": 10, "direct_employment_pct": 43, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 50},
+      "specialty_strength": "法学 + 公检法直供 (与中国政法大学齐名); 西部公检法 主输送",
+      "notable_employers": ["重庆体制内", "四川体制内", "司法部", "最高人民法院", "中信律所", "公安部", "中央政法委", "字节跳动"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "重庆邮电大学",
+      "zs_code": "10617",
+      "tier_label": "省重点",
+      "city": "重庆",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 32, "abroad_pct": 5, "direct_employment_pct": 53, "big_tech_hire_rate_est": 15, "civil_service_rate_est": 12},
+      "specialty_strength": "通信/IT/物联网; 西部 IT 旗舰; 华为/中兴 + 重庆 IT 双轨",
+      "notable_employers": ["华为", "中兴", "腾讯", "字节跳动", "百度", "中国移动", "中国电信", "中国联通"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "华侨大学",
+      "zs_code": "10385",
+      "tier_label": "双一流",
+      "city": "厦门",
+      "rates": {"baoyan_rate_pct": 10, "domestic_grad_school_pct": 30, "abroad_pct": 15, "direct_employment_pct": 45, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 14},
+      "specialty_strength": "化工/工商管理/华文教育; 港澳台侨胞通道 + 海外华人路径",
+      "notable_employers": ["海外华人企业", "华为", "字节跳动", "腾讯", "招商银行", "中国移动", "字节跳动", "金蝶"],
+      "confidence_level": "medium"
+    }
+  ],
+  "tier_summary": {
+    "_kind": "5 维出口 按 tier 平均",
+    "Top 5 (清北复交浙)": {
+      "baoyan_rate_pct": 40,
+      "abroad_pct": 18,
+      "big_tech_hire_rate_est": 16,
+      "civil_service_rate_est": 11
+    },
+    "C9 + 顶级 985": {
+      "baoyan_rate_pct": 30,
+      "abroad_pct": 12,
+      "big_tech_hire_rate_est": 12,
+      "civil_service_rate_est": 14
+    },
+    "普通 985": {
+      "baoyan_rate_pct": 22,
+      "abroad_pct": 8,
+      "big_tech_hire_rate_est": 8,
+      "civil_service_rate_est": 20
+    },
+    "顶级 211 (北邮/电科大/财经类)": {
+      "baoyan_rate_pct": 17,
+      "abroad_pct": 12,
+      "big_tech_hire_rate_est": 15,
+      "civil_service_rate_est": 18
+    },
+    "普通 211": {
+      "baoyan_rate_pct": 12,
+      "abroad_pct": 5,
+      "big_tech_hire_rate_est": 5,
+      "civil_service_rate_est": 22
+    },
+    "中外合作 (港中深/西浦/上纽)": {
+      "baoyan_rate_pct": 0,
+      "abroad_pct": 75,
+      "big_tech_hire_rate_est": 12,
+      "civil_service_rate_est": 2
+    }
+  },
+  "_notes": [
+    "baoyan_rate_pct = 推免本校或外校的本科应届保送研究生比例 (官方公示)",
+    "domestic_grad_school_pct = 国内总读研率 (含保研+考研); 通常 = baoyan_rate + 考研成功率",
+    "abroad_pct = 出国/出境深造率 (官方就业报告)",
+    "direct_employment_pct = 直接就业率 (不含升学); 官方报告披露",
+    "big_tech_hire_rate_est = 大厂入职率估算; 主要 IT/计算机/电子专业贡献; 综合大学 = 校内 IT 院系/比例 × 大厂友好度",
+    "civil_service_rate_est = 公务员+事业单位+国企+教师编 入职率估算; 师范+财经+政法 比例高",
+    "confidence_level: high = 官方报告明示; medium = 部分推断; low = 大量估算 (本dataset 无低)",
+    "数据更新策略: 每年 9 月各校发布前一届就业质量报告时更新"
+  ]
+}

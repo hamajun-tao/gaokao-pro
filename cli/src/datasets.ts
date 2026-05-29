@@ -661,3 +661,133 @@ export function findCalendarByProvince(name: string): ProvinceCalendar | null {
   if (exact) return exact;
   return file.provinces.find((p) => p.province.includes(q) || q.includes(p.province)) ?? null;
 }
+
+// ---- 0.3.6 parent-mindset datasets ----
+
+let cityTierCache: any = null;
+let mistakeZoneCache: any = null;
+let familyBudgetCache: any = null;
+let kaogongMajorsCache: any = null;
+
+export function loadCityTier(): any {
+  if (cityTierCache) return cityTierCache;
+  const data = load<any>("city-tier-2025.json");
+  if (!data) throw missingDataset("city-tier-2025.json");
+  cityTierCache = data;
+  return data;
+}
+
+export function loadMistakeZone(): any {
+  if (mistakeZoneCache) return mistakeZoneCache;
+  const data = load<any>("mistake-zone-2025.json");
+  if (!data) throw missingDataset("mistake-zone-2025.json");
+  mistakeZoneCache = data;
+  return data;
+}
+
+export function loadFamilyBudget(): any {
+  if (familyBudgetCache) return familyBudgetCache;
+  const data = load<any>("family-budget-2025.json");
+  if (!data) throw missingDataset("family-budget-2025.json");
+  familyBudgetCache = data;
+  return data;
+}
+
+export function loadKaogongMajors(): any {
+  if (kaogongMajorsCache) return kaogongMajorsCache;
+  const data = load<any>("kaogong-majors-2025.json");
+  if (!data) throw missingDataset("kaogong-majors-2025.json");
+  kaogongMajorsCache = data;
+  return data;
+}
+
+export function findCityByName(name: string): any {
+  const f = loadCityTier();
+  const q = name.trim();
+  const cities = f.cities || [];
+  return cities.find((c: any) => c.city === q)
+    ?? cities.find((c: any) => c.city.includes(q) || q.includes(c.city))
+    ?? null;
+}
+
+export function findCitiesByProvince(province: string): any[] {
+  const f = loadCityTier();
+  const q = province.trim();
+  return (f.cities || []).filter((c: any) => c.province === q || c.province.includes(q));
+}
+
+export function findCitiesByTier(tier: string): any[] {
+  const f = loadCityTier();
+  return (f.cities || []).filter((c: any) => c.tier === tier);
+}
+
+export function findPitsForSchool(schoolName: string): any[] {
+  const f = loadMistakeZone();
+  const q = schoolName.trim();
+  return (f.per_school_pits || []).filter((p: any) =>
+    Array.isArray(p.applies_to) && p.applies_to.some((s: string) => s === q || s.includes(q) || q.includes(s))
+  );
+}
+
+export function findBudgetTier(tierName: string): any {
+  const f = loadFamilyBudget();
+  const q = tierName.trim();
+  return (f.tiers || []).find((t: any) => t.tier === q || q.includes(t.tier)) ?? null;
+}
+
+// ---- 0.3.7 employment-outcomes (5 维就业出口) ----
+
+let employmentOutcomesCache: any = null;
+
+export function loadEmploymentOutcomes(): any {
+  if (employmentOutcomesCache) return employmentOutcomesCache;
+  const data = load<any>("employment-outcomes-2024.json");
+  if (!data) throw missingDataset("employment-outcomes-2024.json");
+  employmentOutcomesCache = data;
+  return data;
+}
+
+export function findEmploymentOutcomeBySchool(schoolName: string): any {
+  const f = loadEmploymentOutcomes();
+  const q = schoolName.trim();
+  const schools = f.schools || [];
+  return schools.find((s: any) => s.school === q)
+    ?? schools.find((s: any) => s.school.includes(q) || q.includes(s.school))
+    ?? null;
+}
+
+// Province coverage tracker — used by the web UI to render a ✓ badge per
+// province when its 一本 schools have been ingested into employment-outcomes.
+// Cities outside the city-tier dataset get a hardcoded fallback so we don't
+// emit "秦皇岛"/"延吉" as province names.
+const CITY_TO_PROVINCE_FALLBACK: Record<string, string> = {
+  "秦皇岛": "河北", "保定": "河北", "唐山": "河北",
+  "宁波": "浙江", "温州": "浙江", "金华": "浙江",
+  "开封": "河南", "洛阳": "河南", "新乡": "河南",
+  "湘潭": "湖南", "衡阳": "湖南",
+  "雅安": "四川", "绵阳": "四川",
+  "延吉": "吉林",
+  "石河子": "新疆", "克拉玛依": "新疆",
+  "无锡": "江苏", "徐州": "江苏", "扬州": "江苏",
+  "佛山": "广东", "东莞": "广东", "珠海": "广东",
+  "烟台": "山东", "威海": "山东",
+  "西安": "陕西",
+  "桂林": "广西", "柳州": "广西",
+  "三亚": "海南",
+  "遵义": "贵州",
+  "大理": "云南"
+};
+
+export function employmentCoverageByProvince(): Record<string, { covered: number; schools: string[] }> {
+  const f = loadEmploymentOutcomes();
+  const out: Record<string, { covered: number; schools: string[] }> = {};
+  for (const s of (f.schools || [])) {
+    const city = s.city;
+    const cityRec = (loadCityTier().cities || []).find((c: any) => c.city === city);
+    const prov = cityRec?.province ?? CITY_TO_PROVINCE_FALLBACK[city] ?? city ?? "未知";
+    if (!out[prov]) out[prov] = { covered: 0, schools: [] };
+    out[prov].covered++;
+    out[prov].schools.push(s.school);
+  }
+  return out;
+}

@@ -45,7 +45,19 @@ import {
   verbWarning,
   loadDataYearStatus,
   loadZhuanyeOutlook,
-  findOutlookByMajor
+  findOutlookByMajor,
+  loadCityTier,
+  loadMistakeZone,
+  loadFamilyBudget,
+  loadKaogongMajors,
+  findCityByName,
+  findCitiesByProvince,
+  findCitiesByTier,
+  findPitsForSchool,
+  findBudgetTier,
+  loadEmploymentOutcomes,
+  findEmploymentOutcomeBySchool,
+  employmentCoverageByProvince
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -2108,6 +2120,207 @@ const VERBS: Record<string, Verb> = {
 
   async "special-coverage"() {
     printJson({ ok: true, coverage: saCoverageReport() });
+  },
+
+  // 0.3.6 — parent-mindset verbs
+
+  async city(args) {
+    const { positional, flags } = parseFlags(args);
+    const q = positional[0] ?? (typeof flags.city === "string" ? flags.city : null);
+    if (typeof flags["list-tiers"] === "string" || flags["list-tiers"] === true) {
+      const f = loadCityTier();
+      const byTier: Record<string, string[]> = {};
+      for (const c of f.cities || []) {
+        if (!byTier[c.tier]) byTier[c.tier] = [];
+        byTier[c.tier].push(c.city);
+      }
+      printJson({ ok: true, by_tier: byTier });
+      return;
+    }
+    if (typeof flags.tier === "string") {
+      const list = findCitiesByTier(flags.tier);
+      printJson({ ok: true, query: { tier: flags.tier }, count: list.length, cities: list });
+      return;
+    }
+    if (typeof flags.province === "string") {
+      const list = findCitiesByProvince(flags.province);
+      printJson({ ok: true, query: { province: flags.province }, count: list.length, cities: list });
+      return;
+    }
+    if (!q) {
+      throw new Error("usage: gaokao-pro city <城市名>  |  city --tier <一线|新一线|二线|三线|四线>  |  city --province <省份>  |  city --list-tiers");
+    }
+    const c = findCityByName(q);
+    if (!c) {
+      const f = loadCityTier();
+      const sug = (f.cities || []).map((x: any) => x.city).slice(0, 5).join(" / ");
+      throw new Error(`city ${q} 不在数据集; 已覆盖城市样例: ${sug} ... (共 ${f.cities?.length ?? 0} 城)`);
+    }
+    printJson({ ok: true, city: c });
+  },
+
+  async "mistake-zone"(args) {
+    const { positional, flags } = parseFlags(args);
+    const f = loadMistakeZone();
+    if (typeof flags["list-categories"] === "string" || flags["list-categories"] === true) {
+      printJson({ ok: true, category_summary: f.category_summary, universal_count: (f.universal_pits || []).length, school_specific_count: (f.per_school_pits || []).length });
+      return;
+    }
+    if (typeof flags.universal === "string" || flags.universal === true) {
+      printJson({ ok: true, universal_pits: f.universal_pits });
+      return;
+    }
+    const school = positional[0] ?? (typeof flags.school === "string" ? flags.school : null);
+    if (!school) {
+      // Return both universal pits and category summary as the default no-arg view.
+      printJson({
+        ok: true,
+        usage: "gaokao-pro mistake-zone <学校>  |  mistake-zone --universal  |  mistake-zone --list-categories",
+        universal_pits: f.universal_pits,
+        category_summary: f.category_summary
+      });
+      return;
+    }
+    const specific = findPitsForSchool(school);
+    printJson({
+      ok: true,
+      query: { school },
+      universal_pits: f.universal_pits,
+      school_specific_pits: specific,
+      note: specific.length === 0
+        ? `${school} 暂未录入 校特定坑; universal_pits (5 大通用类) 仍适用`
+        : `${school} 命中 ${specific.length} 条校特定坑 + universal_pits (5 大通用类) 都要看`
+    });
+  },
+
+  async "family-budget"(args) {
+    const { positional, flags } = parseFlags(args);
+    const f = loadFamilyBudget();
+    if (typeof flags["list-tiers"] === "string" || flags["list-tiers"] === true) {
+      printJson({ ok: true, tiers: (f.tiers || []).map((t: any) => ({ tier: t.tier, income_band: t.income_band })) });
+      return;
+    }
+    if (typeof flags.helper === "string" || flags.helper === true) {
+      printJson({ ok: true, decision_helper: f.tier_decision_helper, income_distribution: f.income_distribution_reference });
+      return;
+    }
+    const tier = positional[0] ?? (typeof flags.tier === "string" ? flags.tier : null);
+    if (!tier) {
+      throw new Error("usage: gaokao-pro family-budget <寒门|中产|富裕>  |  family-budget --helper  |  family-budget --list-tiers");
+    }
+    const rec = findBudgetTier(tier);
+    if (!rec) {
+      throw new Error(`tier "${tier}" 不在数据集; 可选: 寒门 / 中产 / 富裕 (用 --helper 看自检问题)`);
+    }
+    printJson({ ok: true, tier_detail: rec });
+  },
+
+  async kaogong(args) {
+    const { positional, flags } = parseFlags(args);
+    const f = loadKaogongMajors();
+    if (typeof flags["list-sectors"] === "string" || flags["list-sectors"] === true) {
+      printJson({ ok: true, top_sectors: f.post_categories?.["国考_top_sectors_2024"] || [] });
+      return;
+    }
+    if (typeof flags.tier === "string") {
+      const list = f.tier_recommendations?.[flags.tier];
+      if (!list) {
+        throw new Error(`tier ${flags.tier} 不在; 可选: 寒门 / 中产 / 富裕`);
+      }
+      printJson({ ok: true, query: { tier: flags.tier }, recommended_majors: list });
+      return;
+    }
+    const major = positional[0] ?? (typeof flags.major === "string" ? flags.major : null);
+    if (major) {
+      const m = (f.majors || []).find((x: any) => x.major_name === major || x.major_name.includes(major) || major.includes(x.major_name));
+      if (!m) {
+        const sug = (f.majors || []).slice(0, 5).map((x: any) => x.major_name).join(" / ");
+        throw new Error(`major "${major}" 不在 top-20 考公专业; 示例: ${sug}`);
+      }
+      printJson({ ok: true, major: m });
+      return;
+    }
+    const limit = typeof flags.limit === "string" ? Number(flags.limit) : 20;
+    printJson({
+      ok: true,
+      query: { limit },
+      majors: (f.majors || []).slice(0, limit),
+      top_sectors: f.post_categories?.["国考_top_sectors_2024"] || []
+    });
+  },
+
+  async "career-path"(args) {
+    const { positional, flags } = parseFlags(args);
+    const f = loadEmploymentOutcomes();
+    if (flags.coverage === true || flags.coverage === "true" || flags.coverage === "") {
+      printJson({ ok: true, coverage_by_province: employmentCoverageByProvince(), total_schools: (f.schools || []).length });
+      return;
+    }
+    if (flags["tier-summary"] === true || flags["tier-summary"] === "" || flags["tier-summary"] === "true") {
+      printJson({ ok: true, tier_summary: f.tier_summary || {} });
+      return;
+    }
+    if (typeof flags.sort === "string") {
+      const key = flags.sort;
+      const valid = ["baoyan_rate_pct", "domestic_grad_school_pct", "abroad_pct", "big_tech_hire_rate_est", "civil_service_rate_est"];
+      if (!valid.includes(key)) {
+        throw new Error(`--sort must be one of: ${valid.join(", ")}`);
+      }
+      const sorted = [...(f.schools || [])].sort((a, b) => (b.rates?.[key] ?? 0) - (a.rates?.[key] ?? 0));
+      const limit = typeof flags.limit === "string" ? Number(flags.limit) : 20;
+      printJson({
+        ok: true,
+        query: { sort_by: key, limit },
+        ranking: sorted.slice(0, limit).map((s, i) => ({
+          rank: i + 1,
+          school: s.school,
+          tier: s.tier_label,
+          city: s.city,
+          value: s.rates?.[key] ?? null,
+          all_rates: s.rates
+        }))
+      });
+      return;
+    }
+    if (typeof flags.filter === "string") {
+      const filterMap: Record<string, string> = {
+        "big-tech": "big_tech_hire_rate_est",
+        "civil-service": "civil_service_rate_est",
+        "grad-school": "domestic_grad_school_pct",
+        "overseas": "abroad_pct",
+        "baoyan": "baoyan_rate_pct"
+      };
+      const key = filterMap[flags.filter];
+      if (!key) {
+        throw new Error(`--filter must be one of: ${Object.keys(filterMap).join(", ")}`);
+      }
+      const threshold = typeof flags.gte === "string" ? Number(flags.gte) : 15;
+      const matched = (f.schools || []).filter((s: any) => (s.rates?.[key] ?? 0) >= threshold)
+        .sort((a: any, b: any) => (b.rates?.[key] ?? 0) - (a.rates?.[key] ?? 0));
+      printJson({
+        ok: true,
+        query: { filter: flags.filter, threshold_pct: threshold },
+        count: matched.length,
+        schools: matched.map((s: any) => ({
+          school: s.school,
+          tier: s.tier_label,
+          city: s.city,
+          value: s.rates?.[key] ?? null,
+          specialty_strength: s.specialty_strength
+        }))
+      });
+      return;
+    }
+    const school = positional[0] ?? (typeof flags.school === "string" ? flags.school : null);
+    if (!school) {
+      throw new Error("usage: gaokao-pro career-path <学校>  |  --filter <big-tech|civil-service|grad-school|overseas|baoyan>  |  --sort <field>  |  --coverage  |  --tier-summary");
+    }
+    const s = findEmploymentOutcomeBySchool(school);
+    if (!s) {
+      const sample = (f.schools || []).slice(0, 5).map((x: any) => x.school).join(" / ");
+      throw new Error(`${school} 暂未在 employment-outcomes 数据集; 已覆盖 ${(f.schools || []).length} 校, 示例: ${sample} (扩展中, 每省一本批次推进)`);
+    }
+    printJson({ ok: true, school_outcome: s });
   }
 };
 

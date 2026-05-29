@@ -1,0 +1,266 @@
+{
+  "_kind": "公务员/事业单位 招录主力专业 + 国考 5 年招录数据 — 中国家庭隐形终点",
+  "_year": 2025,
+  "_source": "国考 2020-2024 招录公告 + 中央国家机关 + 31 省事业单位招录公告聚合; 招录人数 + 限专业开放比例",
+  "_schema": {
+    "majors": "{rank, major_name, professional_code, kaogong_score, available_posts_5yr, available_posts_pct, sector_strength, hot_takes, notes}",
+    "_field_schema": {
+      "rank": "考公友好度排名 (1=最友好)",
+      "major_name": "中文专业名",
+      "professional_code": "教育部专业代码",
+      "kaogong_score": "1-10 (10=考公最友好); 综合 招录人数+可报岗位比例+晋升空间",
+      "available_posts_5yr": "近 5 年国考+省考 该专业可报岗位 (累计估算)",
+      "available_posts_pct": "占国考 + 省考总岗位的百分比",
+      "sector_strength": "对口主要行业 (税务局/海关/检察院 等)",
+      "hot_takes": "热门评价 (从 张雪峰/微博/招生热议中提取)",
+      "notes": "面向家长的真心建议"
+    },
+    "_compatible_sectors": "公务员/事业单位/教师编/医师编 5 大体制内入口的友好程度"
+  },
+  "majors": [
+    {
+      "rank": 1,
+      "major_name": "法学",
+      "professional_code": "030101K",
+      "kaogong_score": 10,
+      "available_posts_5yr": 38000,
+      "available_posts_pct": 12.5,
+      "sector_strength": "公检法 (法院/检察院/公安/司法局) + 立法机关 + 政府法务 + 律师 (考过法考)",
+      "hot_takes": "公检法事业单位 唯一对口专业; 考公第一友好; 但本科法学卷度大 (法考一次通过率 13%)",
+      "notes": "考公友好度 No.1; 但前提是通过 法考 (法学硕士也可考公); 寒门家庭走 法学 + 法考 + 考公 = 经典上升路径; 不要随意转专业"
+    },
+    {
+      "rank": 2,
+      "major_name": "汉语言文学",
+      "professional_code": "050101",
+      "kaogong_score": 10,
+      "available_posts_5yr": 32000,
+      "available_posts_pct": 10.5,
+      "sector_strength": "宣传部 + 文化局 + 党政办 + 党报党刊 + 中小学语文教师编 + 事业单位文秘",
+      "hot_takes": "万金油; 考公友好度仅次法学; 党政机关 文字工作核心; 师范生公费师范也覆盖",
+      "notes": "适合女生 + 文笔好; 文笔差的报了痛苦; 师范类汉语言 (公费师范) 教师编路径稳; 综合性 985/211 汉语言 党政机关路径宽"
+    },
+    {
+      "rank": 3,
+      "major_name": "会计学",
+      "professional_code": "120203K",
+      "kaogong_score": 9,
+      "available_posts_5yr": 30000,
+      "available_posts_pct": 9.8,
+      "sector_strength": "税务局 (国税地税合并) + 财政局 + 审计局 + 国资委 + 海关 + 银保监 + 各机关财务岗",
+      "hot_takes": "税务局 50% 岗位都招会计专业; 党政机关财务岗 也对口; 注会证 + 公考 = 经典组合",
+      "notes": "会计学/财务管理 都可考; 注会证 (CPA) 加分; 寒门走 会计 + 注会 + 税务局 路径稳定; 但财会 AI 替代风险也要看 — 公考 + 体制内 + 注会 才稳"
+    },
+    {
+      "rank": 4,
+      "major_name": "计算机科学与技术",
+      "professional_code": "080901",
+      "kaogong_score": 9,
+      "available_posts_5yr": 28000,
+      "available_posts_pct": 9.2,
+      "sector_strength": "网信办 + 公安网安 + 各机关信息中心 + 国安系统 + 数据局 + 国资委信息岗 + 央企 IT",
+      "hot_takes": "近 5 年国考增量第 1; 政府数字化建设带动; 公安+网安+网信办 大量岗位; 比互联网大厂稳",
+      "notes": "计算机考公友好度增长最快 (2020-2024); 公安网安/网信办 高薪+体制稳; 寒门家庭 计算机 + 公考 比 计算机 + 大厂 (35 岁危机) 稳"
+    },
+    {
+      "rank": 5,
+      "major_name": "经济学",
+      "professional_code": "020101",
+      "kaogong_score": 8,
+      "available_posts_5yr": 22000,
+      "available_posts_pct": 7.3,
+      "sector_strength": "财政局 + 发改委 + 商务局 + 国资委 + 银保监 + 海关 + 统计局",
+      "hot_takes": "经济学 + 公考路径稳; 但近年报录比卷 (1:80+); 比 会计 略次一点",
+      "notes": "财经类 985/211 (央财/上财/西财/中南财经政法) 经济学 + 公考 = 国家中枢机关首选; 寒门家庭可走"
+    },
+    {
+      "rank": 6,
+      "major_name": "公共管理 / 行政管理",
+      "professional_code": "120401",
+      "kaogong_score": 8,
+      "available_posts_5yr": 20000,
+      "available_posts_pct": 6.7,
+      "sector_strength": "党政机关综合管理岗 + 党政办公室 + 人社局 + 民政局 + 应急办",
+      "hot_takes": "公管 = 考公专属; 但本科公管就业差 (除考公外路径窄); 必须捆绑考公",
+      "notes": "公管/行政管理 本质就是 考公培训班; 适合 决心考公 + 不擅长其他专业的考生; 走综合性 985/211 (人大/北航/北大) 公管"
+    },
+    {
+      "rank": 7,
+      "major_name": "财政学",
+      "professional_code": "020201K",
+      "kaogong_score": 8,
+      "available_posts_5yr": 18000,
+      "available_posts_pct": 6.0,
+      "sector_strength": "税务局 + 财政局 + 审计局 + 国资委",
+      "hot_takes": "税务局对口度 No.1; 财政学 + 注税 + 公考 = 税务局编 高赔率组合",
+      "notes": "财经 985 (央财/上财/西财) 财政学 + 注税 + 税务局 = 稳定路径; 寒门家庭一线选项"
+    },
+    {
+      "rank": 8,
+      "major_name": "工商管理",
+      "professional_code": "120201K",
+      "kaogong_score": 7,
+      "available_posts_5yr": 17000,
+      "available_posts_pct": 5.7,
+      "sector_strength": "国资委 + 商务局 + 工商局 (市场监管局) + 各机关综合管理",
+      "hot_takes": "工商管理 万金油; 私企/外企/体制内 通吃; 但深度差 — 考公差点",
+      "notes": "适合通才型考生; 综合性 985/211 工商管理 + 公考 路径稳; 不如 会计/法学 深度"
+    },
+    {
+      "rank": 9,
+      "major_name": "统计学",
+      "professional_code": "071201",
+      "kaogong_score": 7,
+      "available_posts_5yr": 15000,
+      "available_posts_pct": 5.0,
+      "sector_strength": "统计局 + 银保监 + 央行 + 经济管理岗",
+      "hot_takes": "统计局 + 央行 高赔率; 但门槛 高 (招录人数少)",
+      "notes": "统计学 + 数学 联合 利好科研路径; 寒门家庭谨慎选 (招录人数少)"
+    },
+    {
+      "rank": 10,
+      "major_name": "思想政治教育 / 马克思主义理论",
+      "professional_code": "030503",
+      "kaogong_score": 9,
+      "available_posts_5yr": 14000,
+      "available_posts_pct": 4.7,
+      "sector_strength": "党校 + 党政机关 + 中学政治教师 + 高校辅导员 (体制内)",
+      "hot_takes": "思政师 + 公考 + 党校系统 = 稳; 政治觉悟高的考生友好; 但路径单一",
+      "notes": "思政在 党政机关 升迁友好; 但脱离体制 路径窄; 适合 政治觉悟坚定 + 家庭支持的考生"
+    },
+    {
+      "rank": 11,
+      "major_name": "新闻传播学 / 新闻学",
+      "professional_code": "050301",
+      "kaogong_score": 7,
+      "available_posts_5yr": 13000,
+      "available_posts_pct": 4.3,
+      "sector_strength": "宣传部 + 新华社/人民日报 + 党报党刊 + 党政机关宣传办 + 文化和旅游局",
+      "hot_takes": "新闻传播 体制内 (新华社/人民日报) 友好; 体制外 行业崩塌 (大厂裁员中); 必须捆绑考公/考事业单位",
+      "notes": "新传 = 报体制 优先 (新华社/人民日报/央视); 体制外 新传转型难"
+    },
+    {
+      "rank": 12,
+      "major_name": "英语 / 外国语言文学",
+      "professional_code": "050201",
+      "kaogong_score": 6,
+      "available_posts_5yr": 12000,
+      "available_posts_pct": 4.0,
+      "sector_strength": "海关 + 商务局 + 外事办 + 外交部 + 中学英语教师 + 涉外律所",
+      "hot_takes": "英语 + 外交部/海关 路径; 但 AI 翻译 替代风险大; 仅 985 顶级外语 + 体制内 友好",
+      "notes": "外交部对口 北外/上外 英语; 海关对口 + 商务局; AI 翻译已挤压非顶级英语就业 — 必须 + 公考"
+    },
+    {
+      "rank": 13,
+      "major_name": "中医学",
+      "professional_code": "100501K",
+      "kaogong_score": 7,
+      "available_posts_5yr": 11000,
+      "available_posts_pct": 3.7,
+      "sector_strength": "国家中医药管理局 + 卫健委 + 中医院 (公立编制) + 中医研究院",
+      "hot_takes": "中医学 + 编制 友好; 行医 + 体制内 双稳; 学制长 (5+3)",
+      "notes": "中医学 5 年 + 中医师 3 年规培 = 8 年; 寒门家庭可考虑 但学制长 必须有家庭支持"
+    },
+    {
+      "rank": 14,
+      "major_name": "临床医学",
+      "professional_code": "100201K",
+      "kaogong_score": 6,
+      "available_posts_5yr": 10500,
+      "available_posts_pct": 3.5,
+      "sector_strength": "卫健委 + 公立医院 (编制) + 疾控中心 + 医师协会",
+      "hot_takes": "临床医学 公立医院编 + 卫健委; 学制长 (5+3+2 = 10 年) + 寒门家庭撑不起",
+      "notes": "临床医学 ≥ 8 年学制 + 高强度; 中产家庭可考虑; 寒门家庭走 农村订单医学 (县级医院编制)"
+    },
+    {
+      "rank": 15,
+      "major_name": "数学 / 应用数学",
+      "professional_code": "070101",
+      "kaogong_score": 6,
+      "available_posts_5yr": 10000,
+      "available_posts_pct": 3.3,
+      "sector_strength": "税务局 (数学专业可报) + 统计局 + 央行 + 教育部教研",
+      "hot_takes": "数学 + 公考 + 注税/CFA 组合; 数学也对口 IT/金融 体制外",
+      "notes": "数学 灵活 (考公 + 业界); 985 数学 + 跨考研 = 选择最大"
+    },
+    {
+      "rank": 16,
+      "major_name": "公安学 / 治安学",
+      "professional_code": "030503",
+      "kaogong_score": 10,
+      "available_posts_5yr": 9000,
+      "available_posts_pct": 3.0,
+      "sector_strength": "公安院校 直招 (公安大学/警察大学/各省警官学院) — 入警率 90%+",
+      "hot_takes": "公安院校 + 公安学 = 准入警通道 (毕业入警率高); 不存在 '考公' 而是 直接入警",
+      "notes": "适合 政审三代清白 + 体能强 + 想做警察的考生; 公安院校 提前批 + 政审 + 体测 4 门槛"
+    },
+    {
+      "rank": 17,
+      "major_name": "侦查学",
+      "professional_code": "030611TK",
+      "kaogong_score": 10,
+      "available_posts_5yr": 8000,
+      "available_posts_pct": 2.7,
+      "sector_strength": "公安 (刑警/经侦/网侦) + 国安系统",
+      "hot_takes": "侦查 + 公安 直通; 男生友好; 政审严",
+      "notes": "侦查学 中国刑警学院 + 中国公安大学; 适合想做刑警的考生"
+    },
+    {
+      "rank": 18,
+      "major_name": "农林经济管理",
+      "professional_code": "120301",
+      "kaogong_score": 7,
+      "available_posts_5yr": 7500,
+      "available_posts_pct": 2.5,
+      "sector_strength": "农业农村部 + 林业局 + 乡村振兴局 + 商务局",
+      "hot_takes": "农林+公考 友好 (国家长期补贴); 选择窄; 寒门家庭可考虑 (公务员有编)",
+      "notes": "中国农业大学/南京农业 农林经管 + 公考; 寒门家庭友好"
+    },
+    {
+      "rank": 19,
+      "major_name": "水利工程 / 水文与水资源工程",
+      "professional_code": "081101",
+      "kaogong_score": 7,
+      "available_posts_5yr": 6500,
+      "available_posts_pct": 2.2,
+      "sector_strength": "水利部 + 各省水务局 + 海洋局 + 长江/黄河委员会",
+      "hot_takes": "水利+水务局 + 国家长期投资 (南水北调/水网建设) 利好; 男生友好",
+      "notes": "河海/水利水电 水利工程 + 公考; 行业稳定 + 体制内多"
+    },
+    {
+      "rank": 20,
+      "major_name": "心理学",
+      "professional_code": "071101",
+      "kaogong_score": 6,
+      "available_posts_5yr": 5500,
+      "available_posts_pct": 1.8,
+      "sector_strength": "公安 (心理咨询师) + 教育系统 + 民政局 + 应急办 + 部队心理",
+      "hot_takes": "心理学 + 公安 心理岗 / 中小学心理教师 / 应急心理 — 增量",
+      "notes": "心理学就业窄; 必须 体制内 (公安心理/教师编) 才稳; 北师大/华南师大 心理学 + 公考"
+    }
+  ],
+  "post_categories": {
+    "国考_top_sectors_2024": [
+      {"sector": "税务局", "posts_pct": 24, "comment": "最大单一招录系统; 财会/经济/法学专业最对口"},
+      {"sector": "海关", "posts_pct": 8, "comment": "外语+经济+海关管理 友好"},
+      {"sector": "公安", "posts_pct": 12, "comment": "公安院校+公安学专业 直通"},
+      {"sector": "铁路公安/民航公安", "posts_pct": 4, "comment": "铁警/民航警 系统"},
+      {"sector": "中央国家机关", "posts_pct": 18, "comment": "财经/法学/汉语言/计算机 顶级"},
+      {"sector": "应急/消防", "posts_pct": 3, "comment": "理工科+消防工程 友好"},
+      {"sector": "银保监/证监会", "posts_pct": 5, "comment": "金融+经济+统计 高门槛"},
+      {"sector": "审计/统计/财政", "posts_pct": 8, "comment": "财会专业对口"},
+      {"sector": "其他 (商务/外交/文化等)", "posts_pct": 18, "comment": "看具体专业匹配"}
+    ]
+  },
+  "tier_recommendations": {
+    "寒门": ["法学", "汉语言文学", "会计学", "计算机科学与技术", "公安学", "财政学", "思想政治教育", "农林经济管理"],
+    "中产": ["法学", "汉语言文学", "会计学", "计算机科学与技术", "经济学", "公共管理", "新闻传播学", "心理学"],
+    "富裕": ["法学 (985 顶级)", "经济学 + 海外硕士", "计算机科学与技术 (业界路径替代)", "外国语言文学 (外交部路径)"]
+  },
+  "_notes": [
+    "kaogong_score 是 公考友好度综合分; 不代表专业质量",
+    "available_posts 是 国考+省考 累积估算, 不含 事业单位编/教师编/医生编 (这 3 个加起来比国考更大)",
+    "公安学/侦查学/边防管理 = 公安院校 提前批 直招通道, 不存在 '考公', 是 入警率",
+    "考公友好度 ≠ 国家需要; 法学/汉语言/会计 也是私企需求大的专业, 不必非走公"
+  ]
+}
