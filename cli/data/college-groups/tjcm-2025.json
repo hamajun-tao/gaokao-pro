@@ -1,0 +1,21 @@
+{
+  "_kind": "天津音乐学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "天津音乐学院",
+  "code": 72,
+  "zs_code": "10072",
+  "school_id_gaokao_cn": 94,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/94/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/94/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=94; zs_code=10072.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "本数据仅含普通批/普通类录取；艺术类校考/统考/文化课双门槛另查（gaokao.cn 公开接口不返回校考线）。",
+    "上游接口对所有探测省份均返回空（NoSuchKey）—本文件保留为元数据存根，供家长检索时给出解释。"
+  ],
+  "provinces": []
+}

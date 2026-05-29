@@ -928,6 +928,17 @@ const VERBS: Record<string, Verb> = {
     for (const r of result.reasons) {
       lines.push(`  - ${r}`);
     }
+    if (result.precedents && result.precedents.length > 0) {
+      lines.push("");
+      lines.push("相似历史案例 (precedents):");
+      for (const p of result.precedents) {
+        const stamp = p.is_composite ? "📌" : "📍";
+        lines.push(`  ${stamp} ${p.case_id} · ${p.year} · ${p.category}`);
+        lines.push(`     教训: ${p.one_line_lesson}`);
+      }
+      lines.push("");
+      lines.push("(查看完整案例: gaokao-pro huadang " + result.province + ")");
+    }
     process.stdout.write(lines.join("\n") + "\n");
   },
 

@@ -1,0 +1,3594 @@
+{
+  "_kind": "中央美术学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "中央美术学院",
+  "code": 47,
+  "zs_code": "10047",
+  "school_id_gaokao_cn": 564,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/564/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/564/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=564; zs_code=10047.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "本数据仅含普通批/普通类录取；艺术类校考/统考/文化课双门槛另查（gaokao.cn 公开接口不返回校考线）。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425315",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 598,
+          "min_rank": 12318,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲、单色识别能力异常）（办学地点：上海校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425318",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 609,
+          "min_rank": 9914,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425316",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 610,
+          "min_rank": 9714,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425317",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "历史必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 601,
+          "min_rank": 11659,
+          "majors": [
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            },
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计（不招色盲、单色识别能力异常）（办学地点：望京校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲、单色识别能力异常）（办学地点：望京校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "groups": [
+        {
+          "group_id": "260720",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 616,
+          "min_rank": 9379,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（不招色盲；望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲；望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲；望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲；望京校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（不招色盲；望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲；望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲；望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲；望京校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "70000",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 579,
+          "min_rank": 45972,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（在上海校区就读；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区就读；不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（在上海校区就读；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区就读；不招色盲）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（在望京校区就读；不招色盲）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区就读；不招色盲）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（在望京校区就读；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区就读；不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（在上海校区就读；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区就读；不招色盲）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（在上海校区就读；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区就读；不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（在望京校区就读；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区就读；不招色盲）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（在望京校区就读；不招色盲）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区就读；不招色盲）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（在望京校区就读；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区就读；不招色盲）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "396090",
+          "sg_name": "（301）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 602,
+          "min_rank": 9870,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（办学地点望京校区；不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点望京校区；不招色盲考生）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（办学地点望京校区；不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点望京校区；不招色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "396118",
+          "sg_name": "（002）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 580,
+          "min_rank": 3874,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点上海校区；不招色盲考生）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点上海校区；不招色盲考生）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点上海校区；不招色盲考生）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点上海校区；不招色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "396120",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 4245,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（办学地点望京校区不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点望京校区不招色盲考生）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（办学地点望京校区不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点望京校区不招色盲考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "groups": [
+        {
+          "group_id": "449697",
+          "sg_name": "（003）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 537,
+          "min_rank": 5963,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲）（上海校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "449698",
+          "sg_name": "（002）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 590,
+          "min_rank": 2068,
+          "majors": [
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（不招色盲）（望京校区）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）（望京校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（不招色盲）（望京校区）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）（望京校区）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "70000",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 592,
+          "min_rank": 16282,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（上海校区）（不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区）（不招色盲考生）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（望京校区）（不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（望京校区）（不招色盲考生）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（上海校区）（不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区）（不招色盲考生）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（望京校区）（不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（望京校区）（不招色盲考生）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（望京校区）（不招色盲考生）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（望京校区）（不招色盲考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "groups": [
+        {
+          "group_id": "239747",
+          "sg_name": "（002）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海市（上海校区）就读）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海市（上海校区）就读）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海市（上海校区）就读）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海市（上海校区）就读）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "groups": [
+        {
+          "group_id": "264179",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 541,
+          "min_rank": 4109,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（在上海校区就读；具体要求详见学校招生章程）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区就读；具体要求详见学校招生章程）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（在上海校区就读；具体要求详见学校招生章程）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区就读；具体要求详见学校招生章程）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423921",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 542,
+          "min_rank": 12532,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423925",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 527,
+          "min_rank": 16655,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 5,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 4,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 5,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 4,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "423926",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "历史必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 15808,
+          "majors": [
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "428276",
+          "sg_name": "（02）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 580,
+          "min_rank": 11515,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "428277",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 600,
+          "min_rank": 5796,
+          "majors": [
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计（在望京校区学习）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计（在望京校区学习）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "428289",
+          "sg_name": "（05）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 619,
+          "min_rank": 19674,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（望京校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（望京校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（望京校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（望京校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "428291",
+          "sg_name": "（03）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 589,
+          "min_rank": 45633,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（在望京校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在望京校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "428290",
+          "sg_name": "（04）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 91583,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（须查阅院校招生章程，在上海校区学习）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（须查阅院校招生章程，在上海校区学习）（中外合作办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 629,
+          "min_rank": 24495,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 4,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 4,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（望京校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "groups": [
+        {
+          "group_id": "343900",
+          "sg_name": "（001）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 565,
+          "min_rank": 54372,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "343913",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 11043,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生；上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；上海校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "396561",
+          "sg_name": "（999）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 553,
+          "min_rank": 6321,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "396562",
+          "sg_name": "（999）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 567,
+          "min_rank": 4695,
+          "majors": [
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "396571",
+          "sg_name": "（999）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 571,
+          "min_rank": 24364,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "396572",
+          "sg_name": "（999）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 601,
+          "min_rank": 12436,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "405350",
+          "sg_name": "（501）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 36337,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲考生办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生办学地点：上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲考生办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生办学地点：上海校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "405363",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 18028,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生办学地点：上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生办学地点：上海校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 40556,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲考生）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲考生；办学地点：上海市上海校区，与法国凯致商学院合作）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；办学地点：上海市上海校区，与法国凯致商学院合作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲考生；办学地点：上海市上海校区，与法国凯致商学院合作）（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲考生；办学地点：上海市上海校区，与法国凯致商学院合作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲考生）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（不招色盲考生）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲考生）"
+            },
+            {
+              "spcode": "082806T",
+              "sp_name": "城市设计",
+              "spname": "城市设计（不招色盲考生）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲考生）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（不招色盲考生）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲考生）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（不招色盲考生）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲考生）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（不招色盲考生）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371766",
+          "sg_name": "（502）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）"
+            }
+          ]
+        },
+        {
+          "group_id": "371767",
+          "sg_name": "（202）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）"
+            }
+          ]
+        },
+        {
+          "group_id": "371786",
+          "sg_name": "（501）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）"
+            }
+          ]
+        },
+        {
+          "group_id": "371787",
+          "sg_name": "（201）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区；合作方：法国凯致商学院；不招色盲）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "293307",
+          "sg_name": "（03）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 558,
+          "min_rank": 38372,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "293320",
+          "sg_name": "（02）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 565,
+          "min_rank": 9820,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（办学地点：上海校区）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：上海校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "293321",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 583,
+          "min_rank": 5937,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点：望京校区）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（办学地点：望京校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点：望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点：望京校区）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（办学地点：望京校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点：望京校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "321192",
+          "sg_name": "（205）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 16296,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "15000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "321190",
+          "sg_name": "（Y04）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 519,
+          "min_rank": 71119,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "321191",
+          "sg_name": "（Y03）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "艺术专业",
+          "min_score": 567,
+          "min_rank": 33317,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（艺术专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（艺术专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "321206",
+          "sg_name": "（Y02）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 532,
+          "min_rank": 15662,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "321207",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 585,
+          "min_rank": 4157,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "434466",
+          "sg_name": "（207）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 580,
+          "min_rank": 10923,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            }
+          ]
+        },
+        {
+          "group_id": "434467",
+          "sg_name": "（206）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 591,
+          "min_rank": 7548,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434479",
+          "sg_name": "（210）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 608,
+          "min_rank": 20851,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434480",
+          "sg_name": "（209）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 42660,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国凯致商学院中外合作办学项目；特征要求：不招色盲；办学地点：上海校区；备注：具体培养模式和学习费用请查看学校网站）"
+            }
+          ]
+        },
+        {
+          "group_id": "434481",
+          "sg_name": "（208）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 38478,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护（特征要求：不招色盲；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：望京校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "groups": [
+        {
+          "group_id": "460393",
+          "sg_name": "（302）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 537,
+          "min_rank": 32063,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（在上海校区办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（在上海校区办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "460409",
+          "sg_name": "（301）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 535,
+          "min_rank": 8808,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（在上海校区办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区办学）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（在上海校区办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（在上海校区办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "groups": [
+        {
+          "group_id": "351292",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 676,
+          "min_rank": 3029,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 16401,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（色盲考生限报；办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（色盲考生限报；办学地点：上海校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（色盲考生限报；办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（色盲考生限报；办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（色盲考生限报；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（色盲考生限报；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（色盲考生限报；办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（色盲考生限报；办学地点：上海校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（色盲考生限报；办学地点：望京校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（色盲考生限报；办学地点：望京校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（色盲考生限报；办学地点：上海校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（色盲考生限报；办学地点：上海校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "groups": [
+        {
+          "group_id": "442013",
+          "sg_name": "（102）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲。上海校区就读）（不招色盲。上海校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "442014",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲。）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲。）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（不招色盲。）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲。）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲。）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲。）"
+            },
+            {
+              "spcode": "040105",
+              "sp_name": "艺术教育",
+              "spname": "艺术教育（不招色盲。）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲。）"
+            }
+          ]
+        },
+        {
+          "group_id": "442025",
+          "sg_name": "（103）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（不招色盲））",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲））"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（不招色盲））",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "15000",
+              "length": "四年",
+              "info": "（不招色盲））"
+            }
+          ]
+        },
+        {
+          "group_id": "442026",
+          "sg_name": "（102）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲,上海校区就读）（不招色盲,上海校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "442027",
+          "sg_name": "（101）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲））",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲））"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（不招色盲））",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（不招色盲））"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "groups": [
+        {
+          "group_id": "363813",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（上海校区；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区；不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（上海校区；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区；不招色盲）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（上海校区；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区；不招色盲）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（上海校区；不招色盲）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海校区；不招色盲）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "groups": [
+        {
+          "group_id": "306857",
+          "sg_name": "（102）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "306866",
+          "sg_name": "（501）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）（中外合作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（教学地点：上海市浦东新区临港新城环湖南二路1099号）"
+            }
+          ]
+        },
+        {
+          "group_id": "306867",
+          "sg_name": "（103）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "groups": [
+        {
+          "group_id": "418956",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 6358,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（不招色盲；办学地点：上海市;办学地点:上海市市辖区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲；办学地点：上海市;办学地点:上海市市辖区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（不招色盲；办学地点：上海市;办学地点:上海市市辖区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（不招色盲；办学地点：上海市;办学地点:上海市市辖区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 64,
+      "province": "宁夏",
+      "groups": [
+        {
+          "group_id": "234144",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 1597,
+          "majors": [
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（上海市）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海市）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（上海市）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海市）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（中外合作办学）（上海市）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海市）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（中外合作办学）（上海市）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "45000",
+              "length": "四年",
+              "info": "（中外合作办学）（上海市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "min_score": 452,
+          "min_rank": 0,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

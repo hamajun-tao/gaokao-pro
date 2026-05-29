@@ -1,0 +1,913 @@
+{
+  "_kind": "北京协和医学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "北京协和医学院",
+  "code": 23,
+  "zs_code": "10023",
+  "school_id_gaokao_cn": 573,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/573/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/573/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=573; zs_code=10023.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "北京协和医学院本科主体走北大医学部联合培养（学籍在北大），不在普通高考批次单独投放计划；如下游返回为空属预期，请查北京大学医学部院校组。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425367",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 567,
+          "min_rank": 19705,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 42,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 42,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "425368",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 653,
+          "min_rank": 2889,
+          "majors": [
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "groups": [
+        {
+          "group_id": "260740",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 633,
+          "min_rank": 6023,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（北京协和医学院）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（北京协和医学院）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（北京协和医学院）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（北京协和医学院）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "70000",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 646,
+          "min_rank": 4252,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（不招色弱、色盲及其他各类不能准确识别颜色者）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（不招色弱、色盲及其他各类不能准确识别颜色者）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（不招色弱、色盲及其他各类不能准确识别颜色者）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（不招色弱、色盲及其他各类不能准确识别颜色者）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "396161",
+          "sg_name": "（301）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 602,
+          "min_rank": 9870,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "groups": [
+        {
+          "group_id": "449712",
+          "sg_name": "（001）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 600,
+          "min_rank": 6349,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（外语语种：不限）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（外语语种：不限）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（外语语种：不限）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "groups": [
+        {
+          "group_id": "239786",
+          "sg_name": "（001）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "groups": [
+        {
+          "group_id": "264210",
+          "sg_name": "（001）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 585,
+          "min_rank": 8689,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423935",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 531,
+          "min_rank": 15514,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "428306",
+          "sg_name": "（01）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 35803,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 652,
+          "min_rank": 10351,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 12,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "groups": [
+        {
+          "group_id": "343925",
+          "sg_name": "（001）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 597,
+          "min_rank": 29062,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "396614",
+          "sg_name": "（500）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 602,
+          "min_rank": 12115,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "405378",
+          "sg_name": "（501）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 14001,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 648,
+          "min_rank": 4005,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371815",
+          "sg_name": "（101）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "293343",
+          "sg_name": "（01）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 587,
+          "min_rank": 20410,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "groups": [
+        {
+          "group_id": "460421",
+          "sg_name": "（100）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 579,
+          "min_rank": 12631,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "70000",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 597,
+          "min_rank": 12651,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：北京市东城区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：北京市东城区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "groups": [
+        {
+          "group_id": "442054",
+          "sg_name": "（101）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 9,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 9,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "70000",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 595,
+          "min_rank": 8269,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "groups": [
+        {
+          "group_id": "363844",
+          "sg_name": "（01）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（校本部）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（校本部）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "groups": [
+        {
+          "group_id": "418998",
+          "sg_name": "（001）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 5756,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

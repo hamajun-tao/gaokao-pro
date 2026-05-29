@@ -244,6 +244,44 @@ test("slipRisk: result shape contract", () => {
 });
 
 // --------------------------------------------------------------------------
+// Precedents — moderate+ verdicts should attach ≤3 huadang cases; comfortable
+// runs should attach zero.
+// --------------------------------------------------------------------------
+test("slipRisk: comfortable verdict has empty precedents", () => {
+  const a = pickAnchor();
+  const res = slipRisk({
+    uniName: a.uniName,
+    provinceName: a.provinceName,
+    groupCode: a.groupCode,
+    candidateScore: a.minScore + 30,  // far above → comfortable
+    candidateRank: a.minRank,
+  });
+  if (res.verdict === "comfortable") {
+    assertEqual(res.precedents.length, 0, "comfortable runs should not attach precedents");
+  }
+});
+
+test("slipRisk: high_risk (below min) attaches precedents", () => {
+  const a = pickAnchor();
+  const res = slipRisk({
+    uniName: a.uniName,
+    provinceName: a.provinceName,
+    groupCode: a.groupCode,
+    candidateScore: a.minScore - 5,   // below → high_risk
+    candidateRank: a.minRank,
+  });
+  assertEqual(res.verdict, "high_risk", "below-min should be high_risk");
+  assert(res.precedents.length > 0 && res.precedents.length <= 3, `expected 1-3 precedents, got ${res.precedents.length}`);
+  for (const p of res.precedents) {
+    assert(typeof p.case_id === "string" && p.case_id.length > 0, "precedent has case_id");
+    assert(typeof p.year === "number", "precedent has year");
+    assert(typeof p.category === "string", "precedent has category");
+    assert(typeof p.is_composite === "boolean", "precedent has is_composite");
+    assert(typeof p.one_line_lesson === "string" && p.one_line_lesson.length > 0, "precedent has one_line_lesson");
+  }
+});
+
+// --------------------------------------------------------------------------
 // Error path — unknown university/province/group should throw, not fabricate.
 // --------------------------------------------------------------------------
 test("slipRisk: unknown university throws", () => {

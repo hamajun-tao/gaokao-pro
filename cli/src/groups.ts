@@ -1,6 +1,7 @@
 import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve, join } from "node:path";
+import { findCasesByProvince, type HuadangCase } from "./datasets.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 // Per-university source files live here, one JSON per school (e.g. pku-2025.json).
@@ -437,6 +438,14 @@ export function provinceTiaojiInfo(provinceName: string): ProvinceTiaojiInfo {
 
 export type SlipRiskVerdict = "high_risk" | "moderate_risk" | "low_risk" | "comfortable";
 
+export type SlipRiskPrecedent = {
+  case_id: string;
+  year: number;
+  category: string;
+  is_composite: boolean;
+  one_line_lesson: string;
+};
+
 export type SlipRiskResult = {
   university: string;
   province: string;
@@ -463,6 +472,7 @@ export type SlipRiskResult = {
   };
   verdict: SlipRiskVerdict;
   reasons: string[];
+  precedents: SlipRiskPrecedent[];  // ≤3 huadang cases matching the pattern
 };
 
 export type SlipRiskInput = {
@@ -591,6 +601,21 @@ export function slipRisk(input: SlipRiskInput): SlipRiskResult {
     level === 1 ? "low_risk" :
     "comfortable";
 
+  // Auto-attach huadang precedents for moderate+ verdicts. Picks ≤3 cases from
+  // the same province whose category matches the dominant risk signal in this
+  // run, so parents see "this exact pattern has burned others before".
+  const precedents: SlipRiskPrecedent[] = (verdict === "comfortable")
+    ? []
+    : pickPrecedents({
+        provinceName,
+        verdict,
+        score_gap,
+        has_tiaoji: provInfo.has_tiaoji,
+        safety,
+        spread: gSpread,
+        reform: provInfo.reform,
+      });
+
   return {
     university: uni.university,
     province: provinceName,
@@ -612,7 +637,58 @@ export function slipRisk(input: SlipRiskInput): SlipRiskResult {
     major_gradient: { min: gMin, max: gMax, spread: gSpread, sampled: majorScores.length },
     verdict,
     reasons,
+    precedents,
   };
+}
+
+// Pick ≤3 most-relevant huadang cases for the slip-risk run.
+// Ranking: category match with the dominant risk signal first, then province,
+// then most recent year. If no province match, fall back to category-only.
+function pickPrecedents(ctx: {
+  provinceName: string;
+  verdict: SlipRiskVerdict;
+  score_gap: number | null;
+  has_tiaoji: boolean | null;
+  safety: ReturnType<typeof safetyScore> | null;
+  spread: number | null;
+  reform: string | null;
+}): SlipRiskPrecedent[] {
+  // Infer ranked category preferences from the risk signals.
+  const wanted: string[] = [];
+  if (ctx.has_tiaoji === false) wanted.push("无调剂兜底");
+  if (ctx.safety && ctx.safety.rejected_majors.length > 0) wanted.push("不勾服从");
+  if (ctx.safety && ctx.safety.verdict === "risky") wanted.push("组内冷热门差大");
+  if (ctx.spread !== null && ctx.spread >= 15) wanted.push("组内冷热门差大");
+  if (ctx.score_gap !== null && ctx.score_gap < 3 && ctx.has_tiaoji !== false) wanted.push("不勾服从");
+  // 新高考首届 catch-all for 山西/内蒙古/河南/四川/陕西/云南/青海/宁夏
+  if (ctx.reform && (ctx.reform.includes("第2年") || ctx.reform.includes("首届"))) wanted.push("新高考首届");
+  if (wanted.length === 0) wanted.push("不勾服从");  // default-pattern fallback
+
+  let cases: HuadangCase[];
+  try {
+    cases = findCasesByProvince(ctx.provinceName);
+  } catch {
+    return [];
+  }
+  // Prefer category-matched cases, then any in-province, then recent year first.
+  const score = (c: HuadangCase): number => {
+    const idx = wanted.indexOf(c.category);
+    const catScore = idx === -1 ? 0 : (100 - idx * 10);
+    const yearScore = (c.year - 2020); // 2025 → 5
+    const realBonus = c.is_composite ? 0 : 2;
+    return catScore + yearScore + realBonus;
+  };
+  const ranked = cases
+    .slice()
+    .sort((a, b) => score(b) - score(a))
+    .slice(0, 3);
+  return ranked.map((c) => ({
+    case_id: c.case_id,
+    year: c.year,
+    category: c.category,
+    is_composite: c.is_composite,
+    one_line_lesson: c.lesson.length > 140 ? c.lesson.slice(0, 137) + "…" : c.lesson,
+  }));
 }
 
 export function listAllUniversities(year?: number): string[] {

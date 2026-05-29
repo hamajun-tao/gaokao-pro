@@ -1,0 +1,199 @@
+{
+  "_kind": "北京舞蹈学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "北京舞蹈学院",
+  "code": 51,
+  "zs_code": "10051",
+  "school_id_gaokao_cn": 585,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/585/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/585/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=585; zs_code=10051.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "本数据仅含普通批/普通类录取；艺术类校考/统考/文化课双门槛另查（gaokao.cn 公开接口不返回校考线）。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425401",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 538,
+          "min_rank": 27252,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 6,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 6,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "groups": [
+        {
+          "group_id": "260751",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 591,
+          "min_rank": 15122,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（校本部）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（校本部）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 14284,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 40556,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "groups": [
+        {
+          "group_id": "442055",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2564 @@
+{
+  "_kind": "中央戏剧学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "中央戏剧学院",
+  "code": 48,
+  "zs_code": "10048",
+  "school_id_gaokao_cn": 562,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/562/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/562/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=562; zs_code=10048.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "本数据仅含普通批/普通类录取；艺术类校考/统考/文化课双门槛另查（gaokao.cn 公开接口不返回校考线）。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425314",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 596,
+          "min_rank": 12777,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点：昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "groups": [
+        {
+          "group_id": "260719",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 602,
+          "min_rank": 12510,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作；昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作；昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养；昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养；昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理；昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理；昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作；昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作；昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论；昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论；昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作；昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作；昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养；昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养；昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理；昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理；昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作；昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作；昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论；昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论；昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 610,
+          "min_rank": 4008,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "396116",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 4632,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（办学地点昌乎校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（办学地点昌乎校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）（办学地点昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）（办学地点昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（办学地点昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（办学地点昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（办学地点昌乎校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（办学地点昌乎校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）（办学地点昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）（办学地点昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（办学地点昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（办学地点昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "groups": [
+        {
+          "group_id": "449696",
+          "sg_name": "（002）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 595,
+          "min_rank": 1814,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（昌平校区）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（昌平校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（昌平校区）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（昌平校区）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 587,
+          "min_rank": 3025,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "groups": [
+        {
+          "group_id": "239736",
+          "sg_name": "（002）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "groups": [
+        {
+          "group_id": "264178",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 1772,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423919",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 16393,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "428275",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 588,
+          "min_rank": 8976,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（在昌平校区学习）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（在昌平校区学习）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（在昌平校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 621,
+          "min_rank": 31061,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）（昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "groups": [
+        {
+          "group_id": "343912",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 587,
+          "min_rank": 5248,
+          "majors": [
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "396560",
+          "sg_name": "（999）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 3694,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "405364",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 6020,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 573,
+          "min_rank": 50515,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371788",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（办学地点：昌平校区；按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点：昌平校区；按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（办学地点：昌平校区；按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（办学地点：昌平校区；按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（办学地点：昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "293319",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 5391,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养；办学地点：昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "321208",
+          "sg_name": "（Y02）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "艺术专业",
+          "min_score": 574,
+          "min_rank": 5934,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（艺术专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（艺术专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（艺术专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（艺术专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "434465",
+          "sg_name": "（204）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 10371,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（培养戏剧创作人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（培养戏剧创作人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（师范）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（师范）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（培养剧院管理人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养剧院管理人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（培养演出制作人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养演出制作人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（培养戏剧史论与批评人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养戏剧史论与批评人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（培养电视剧创作人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养电视剧创作人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（培养影视制片人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养影视制片人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（培养戏剧创作人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（培养戏剧创作人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（师范）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（师范）（办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（培养剧院管理人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养剧院管理人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（培养演出制作人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养演出制作人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（培养戏剧史论与批评人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养戏剧史论与批评人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（培养电视剧创作人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养电视剧创作人才；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（培养影视制片人才；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（培养影视制片人才；办学地点：昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "groups": [
+        {
+          "group_id": "460408",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 566,
+          "min_rank": 4178,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（在昌平校区办学）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（在昌平校区办学）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（在昌平校区办学，按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在昌平校区办学，按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（在昌平校区办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（在昌平校区办学）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（在昌平校区办学）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（在昌平校区办学）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（在昌平校区办学，按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（在昌平校区办学，按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（在昌平校区办学）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（在昌平校区办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 3804,
+          "majors": [
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养；办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养；办学地点：昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点：昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点：昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "groups": [
+        {
+          "group_id": "442012",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（昌平校区就读。）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）（昌平校区就读。）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（昌平校区就读。）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（昌平校区就读。）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（昌平校区就读。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 3413,
+          "majors": [
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养;办学地点:昌平校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养;办学地点:昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（办学地点:昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（办学地点:昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "groups": [
+        {
+          "group_id": "363812",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（昌平校区；按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（昌平校区；按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（昌平校区）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（昌平校区；按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（昌平校区；按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）（昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）（昌平校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）（昌平校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）（昌平校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "groups": [
+        {
+          "group_id": "306856",
+          "sg_name": "（102）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（戏剧史论与批评）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（戏剧史论与批评）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（戏剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "五年",
+              "info": "（戏剧创作）"
+            },
+            {
+              "spcode": "130313T",
+              "sp_name": "戏剧教育",
+              "spname": "戏剧教育（按师范类专业进行人才培养）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（按师范类专业进行人才培养）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（剧院管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（剧院管理）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（演出制作）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（演出制作）"
+            },
+            {
+              "spcode": "130302",
+              "sp_name": "戏剧学",
+              "spname": "戏剧学（舞台美术史论）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（舞台美术史论）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（电视剧创作）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（电视剧创作）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "groups": [
+        {
+          "group_id": "418955",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 558,
+          "min_rank": 2374,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 64,
+      "province": "宁夏",
+      "groups": [
+        {
+          "group_id": "236313",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 1127,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（影视制片）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "8000",
+              "length": "四年",
+              "info": "（影视制片）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

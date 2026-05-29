@@ -1,0 +1,2024 @@
+{
+  "_kind": "中国美术学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "中国美术学院",
+  "code": 355,
+  "zs_code": "10355",
+  "school_id_gaokao_cn": 259,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/259/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/259/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=259; zs_code=10355.",
+    "院校专业组、专业明细来自 gaokao.cn schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "本数据仅含普通批/普通类录取；艺术类校考/统考/文化课双门槛另查（gaokao.cn 公开接口不返回校考线）。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424943",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 595,
+          "min_rank": 13015,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（浙江杭州）（含艺术史论、艺术管理；办学地点：南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（浙江杭州）（含艺术史论、艺术管理；办学地点：南山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（浙江杭州）（含艺术史论、艺术管理；办学地点：南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（浙江杭州）（含艺术史论、艺术管理；办学地点：南山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "groups": [
+        {
+          "group_id": "259895",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 614,
+          "min_rank": 9791,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理；南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理；南山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理；南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理；南山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "70000",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 578,
+          "min_rank": 47025,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（杭州市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（杭州市）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（杭州市）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（杭州市）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（杭州市）（含艺术史论、艺术管理专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（杭州市）（含艺术史论、艺术管理专业）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "393143",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 589,
+          "min_rank": 2890,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业：艺术史论、艺术管理；办学地点南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业：艺术史论、艺术管理；办学地点南山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业：艺术史论、艺术管理；办学地点南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业：艺术史论、艺术管理；办学地点南山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 581,
+          "min_rank": 3534,
+          "majors": [
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "groups": [
+        {
+          "group_id": "262863",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 2986,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含艺术史论、艺术管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423421",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 538,
+          "min_rank": 13615,
+          "majors": [
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理专业）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理专业）"
+            }
+          ]
+        },
+        {
+          "group_id": "423425",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 10254,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427119",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 590,
+          "min_rank": 8399,
+          "majors": [
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（南山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（南山校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427145",
+          "sg_name": "（02）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 618,
+          "min_rank": 20349,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（良渚校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（良渚校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（良渚校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（良渚校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 595,
+          "min_rank": 57573,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（良渚校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 75,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（良渚校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 59,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（南山校区。含艺术史论、艺术管理专业）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 45,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（南山校区。含艺术史论、艺术管理专业）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 20,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 15,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（象山校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 12,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "groups": [
+        {
+          "group_id": "342464",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 11971,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394282",
+          "sg_name": "（999）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 6194,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 4,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 4,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394290",
+          "sg_name": "（500）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 17831,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 7,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 7,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "403856",
+          "sg_name": "（501）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 21984,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "403892",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 572,
+          "min_rank": 6390,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 56598,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369654",
+          "sg_name": "（101）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369690",
+          "sg_name": "（103）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业：艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业：艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业：艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业：艺术史论、艺术管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "456420",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": 587,
+          "min_rank": 5213,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理办学地点：南山校区）（浙江）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "-",
+              "info": "（艺术史论、艺术管理办学地点：南山校区）（浙江）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理办学地点：南山校区）（浙江）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "-",
+              "info": "（艺术史论、艺术管理办学地点：南山校区）（浙江）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318996",
+          "sg_name": "（102）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 592,
+          "min_rank": 19542,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319024",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 6871,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业:艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业:艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业:艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业:艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432680",
+          "sg_name": "（207）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 573,
+          "min_rank": 13651,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理专业；办学地点：南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 8,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理专业；办学地点：南山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含艺术史论、艺术管理专业；办学地点：南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 8,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含艺术史论、艺术管理专业；办学地点：南山校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432681",
+          "sg_name": "（205）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 14825,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（办学地点：象山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（办学地点：象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：象山校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：象山校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：象山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（办学地点：象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：象山校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（办学地点：象山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（办学地点：象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 3,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：象山校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：象山校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：象山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（办学地点：象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：象山校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432694",
+          "sg_name": "（206）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 594,
+          "min_rank": 30931,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：良渚校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 8,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：良渚校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：良渚校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 8,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点：良渚校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "groups": [
+        {
+          "group_id": "458798",
+          "sg_name": "（102）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 4502,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（在象山校区办学）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（在象山校区办学）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（在南山校区办学，包含专业：艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在南山校区办学，包含专业：艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（在象山校区办学）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（在象山校区办学）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（在象山校区办学）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（在象山校区办学）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（在象山校区办学）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（在象山校区办学）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（在南山校区办学，包含专业：艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（在南山校区办学，包含专业：艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（在象山校区办学）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（在象山校区办学）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（在象山校区办学）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（在象山校区办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 3804,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业：艺术史论、艺术管理；办学地点：南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业：艺术史论、艺术管理；办学地点：南山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "groups": [
+        {
+          "group_id": "440310",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含：艺术安论、艺术管理）（南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含：艺术安论、艺术管理）（南山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（含：艺术安论、艺术管理）（南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 3,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（含：艺术安论、艺术管理）（南山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 6476,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点:象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（办学地点:象山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（办学地点:象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（办学地点:象山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含艺术史论、艺术管理;办学地点:南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含艺术史论、艺术管理;办学地点:南山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "groups": [
+        {
+          "group_id": "362182",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（象山校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业：艺术史论、艺术管理，南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业：艺术史论、艺术管理，南山校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "五年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（象山校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（象山校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（象山校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（象山校区）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（包含专业：艺术史论、艺术管理，南山校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（包含专业：艺术史论、艺术管理，南山校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "362205",
+          "sg_name": "（01）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（良渚校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（良渚校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（良渚校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（良渚校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "groups": [
+        {
+          "group_id": "305542",
+          "sg_name": "（103）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（艺术史论、艺术管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "min_score": 559,
+          "min_rank": 0,
+          "majors": [
+            {
+              "spcode": "1301",
+              "sp_name": "艺术学理论类",
+              "spname": "艺术学理论类（文旅部共建项目）（包含专业：艺术史论、艺术管理）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "7500",
+              "length": "四年",
+              "info": "（文旅部共建项目）（包含专业：艺术史论、艺术管理）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（文旅部共建项目）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（文旅部共建项目）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
