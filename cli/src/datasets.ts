@@ -385,3 +385,77 @@ export function listTiqianProgramTypes(): string[] {
   for (const p of file.programs) set.add(p.program_type);
   return Array.from(set);
 }
+
+// Lists 提前批 programs run by a specific school (substring match against school name).
+// Useful for parent queries like "清华跑哪些提前批/综评/专项?".
+export function listTiqianProgramsBySchool(schoolName: string): TiqianProgram[] {
+  const file = loadTiqianPrograms();
+  return file.programs.filter((p) => typeof p.school === "string" && p.school.includes(schoolName));
+}
+
+// ---- 强基/综评 校测 detail (2025) ----
+// Per-school detail of college-administered exams (笔试/面试/体测) for both
+// 强基计划 and 综合评价. The zonghepingjia-2026 file lists which schools
+// run综评 + a one-line 校测含 string; this file goes deeper for parents
+// deciding "is the 校测 prep load worth it".
+export type XiaoceQiangjiDetail = {
+  subjects_offered: string[];
+  校测_笔试: string | null;
+  校测_面试: string | null;
+  校测_体测: string | null;
+  校测_pass_rate: string | null;
+  录取分配: string | null;
+  报名窗口: string | null;
+  校测时间: string | null;
+  可填学校: string | null;
+  签约条款: string | null;
+  url: string | null;
+};
+export type XiaoceZongpingDetail = {
+  省份: string[];
+  校测_笔试: string | null;
+  校测_面试: string | null;
+  校测_体测: string | null;
+  录取分配: string | null;
+  报名窗口: string | null;
+  校测时间: string | null;
+  可填学校: string | null;
+  签约条款: string | null;
+  url: string | null;
+};
+export type XiaoceSchoolDetail = {
+  school: string;
+  zs_code: string | null;
+  qiangji: XiaoceQiangjiDetail | null;
+  zongping: XiaoceZongpingDetail | null;
+};
+export type XiaoceDetailFile = {
+  _kind: string;
+  _year: number;
+  _compiled: string;
+  _source: string[];
+  _notes?: string[];
+  schools: XiaoceSchoolDetail[];
+};
+
+let xiaoceDetailCache: XiaoceDetailFile | null = null;
+
+export function loadXiaoceDetail2025(): XiaoceDetailFile {
+  if (xiaoceDetailCache) return xiaoceDetailCache;
+  const data = load<XiaoceDetailFile>("xiaoce-detail-2025.json");
+  if (!data) throw missingDataset("xiaoce-detail-2025.json");
+  if (!Array.isArray(data.schools)) {
+    throw new Error("xiaoce-detail-2025.json is missing its `schools` array — file is malformed.");
+  }
+  xiaoceDetailCache = data;
+  return data;
+}
+
+// Substring-match against school name (zs_code exact match preferred).
+export function findXiaoceDetailBySchool(name: string): XiaoceSchoolDetail | null {
+  const file = loadXiaoceDetail2025();
+  const q = name.trim();
+  const byCode = file.schools.find((s) => s.zs_code === q);
+  if (byCode) return byCode;
+  return file.schools.find((s) => s.school.includes(q)) ?? null;
+}

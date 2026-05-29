@@ -44,9 +44,16 @@ import {
   listSchoolsOfferingProgram,
   findProvinceSpecialty,
   listProvinceKeys,
-  getCrossProvincePrograms
+  getCrossProvincePrograms,
+  listGaoshuiSchoolsBySport,
+  listZongheSchoolsByProvince,
+  listTiqianProgramsByProvince,
+  listTiqianProgramsByType,
+  listTiqianProgramTypes,
+  listTiqianProgramsBySchool,
+  findXiaoceDetailBySchool
 } from "./datasets.js";
-import { findUniversity, listGroups, safetyScore, datasetStats } from "./groups.js";
+import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from "./groups.js";
 import { VERSION } from "./version.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: VERSION };
@@ -422,6 +429,76 @@ const TOOLS = [
     name: "groups_stats",
     description: "Dataset-wide statistics for the 专业组 dataset (coverage counts). Call this to see what the `groups` tool covers.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false }
+  },
+  {
+    name: "slip_risk",
+    description: "滑档风险评估 — given (university, province, group_code, candidate_score, candidate_rank), combines historical 投档线 with province 调剂 rules (zhiyuan-rules-2026), group major-spread, and optional must/ok/reject preferences. Returns verdict (high_risk / moderate_risk / low_risk / comfortable) + Chinese reasons array. Critical for surfacing 浙江/山东/河北/重庆/辽宁/贵州/青海 (无调剂兜底) cases where 冲档 miss = full slip.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        university: { type: "string", description: "中文校名, e.g. '清华大学'" },
+        province: { type: "string", description: "中文省名, e.g. '河南'" },
+        group_code: { type: "string", description: "专业组代码 (string, since some are alphanumeric)" },
+        score: { type: "number", description: "考生高考总分" },
+        rank: { type: "number", description: "可选：考生全省位次 (gaokao-pro rank 可查)" },
+        year: { type: "number", description: "可选：参考年度 (默认 2025)" },
+        must: { type: "array", items: { type: "string" }, description: "可选：必须录到的专业关键词" },
+        ok: { type: "array", items: { type: "string" }, description: "可选：可接受的专业关键词" },
+        reject: { type: "array", items: { type: "string" }, description: "可选：拒绝的专业关键词 (与 调剂 联动)" }
+      },
+      required: ["university", "province", "group_code", "score"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "tiqian_pi",
+    description: "提前批 special-program catalog: 公费师范 / 优师 / 综评 / 三位一体 / 中外合作综评 / 国家专项 / 高校专项 / 公安 / 军校 / 农村订单医学 / 航海 / 小语种 / 民族班 / 预科 — 42 programs across 16+ provinces. Different from `tiqian` (which is province-keyed 提前批 batch rules); this is per-program detail (eligibility / commitment / ratio / url). Filter by province (\"广东\"), type (\"综评提前批\"), or school (\"清华\"). Pass `list_types=true` to enumerate program_type values.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "中文省名 (e.g. '广东')." },
+        type: { type: "string", description: "可选 program_type 过滤 (e.g. '综评提前批', '公费师范生')" },
+        school: { type: "string", description: "可选 学校名 substring (e.g. '清华', '中山大学')." },
+        list_types: { type: "boolean", description: "若为 true，返回所有 program_type 值列表 (无视 province/type/school)" }
+      },
+      additionalProperties: false
+    }
+  },
+  {
+    name: "zongping",
+    description: "综合评价 2026 by-school — schools open to a given province. Covers UCAS (12省), SUSTech (23省), ShanghaiTech (18省), CUHKSZ, 北外, XJTLU, NYU Shanghai, DKU, plus 沪/苏/浙/鲁/粤 综评校. Returns ratio / 校测 / seats / notes per school.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "中文省名, e.g. '广东'" }
+      },
+      required: ["province"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "gaoshui_sport",
+    description: "高水平运动队 by-sport — schools recruiting a given sport with tier_required / exam_window / score_path / plan_count / notes. Post-2024 reform encoded: 一级运动员 + 文化课本科线 (or 健将+ 单考路径). Useful for 游泳/田径/篮球 etc. specialty applicants.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        sport: { type: "string", description: "运动名称 (e.g. '游泳', '田径', '篮球'). Substring match against sport names." }
+      },
+      required: ["sport"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "xiaoce",
+    description: "强基/综评 校测 detail per school (59 schools curated): subjects_offered, 笔试/面试/体测 内容, 录取分配比 (e.g. 85:15), 报名/校测时间窗, 可填学校上限, 签约条款 (转专业/保研路径). Critical for parents weighing the prep-cost vs reward of 强基/综评 校测.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        school: { type: "string", description: "中文校名 substring (e.g. '清华', '浙江大学')." }
+      },
+      required: ["school"],
+      additionalProperties: false
+    }
   }
 ];
 
@@ -716,6 +793,62 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
     }
     case "groups_stats": {
       return { ok: true, stats: datasetStats() };
+    }
+    case "slip_risk": {
+      const must = Array.isArray(args.must) ? (args.must as string[]) : [];
+      const ok = Array.isArray(args.ok) ? (args.ok as string[]) : [];
+      const reject = Array.isArray(args.reject) ? (args.reject as string[]) : [];
+      const prefs = (must.length || ok.length || reject.length)
+        ? { must_have: must, acceptable: ok, reject } : undefined;
+      const result = slipRisk({
+        uniName: getStr(args, "university"),
+        provinceName: getStr(args, "province"),
+        groupCode: getStr(args, "group_code"),
+        candidateScore: getNum(args, "score"),
+        candidateRank: args.rank !== undefined ? Number(args.rank) : null,
+        year: args.year !== undefined ? Number(args.year) : undefined,
+        prefs,
+      });
+      return { ok: true, result };
+    }
+    case "tiqian_pi": {
+      if (args.list_types === true) {
+        return { ok: true, types: listTiqianProgramTypes() };
+      }
+      const province = typeof args.province === "string" ? args.province : null;
+      const type = typeof args.type === "string" ? args.type : null;
+      const school = typeof args.school === "string" ? args.school : null;
+      if (!province && !type && !school) {
+        return { ok: false, error: "either province, type, or school (or list_types=true) required" };
+      }
+      let programs;
+      if (school) {
+        programs = listTiqianProgramsBySchool(school);
+        if (province) programs = programs.filter((p) => (p.eligible_provinces || []).some((e) => e === province || e.startsWith("全国")));
+        if (type) programs = programs.filter((p) => p.program_type === type);
+      } else if (province) {
+        programs = listTiqianProgramsByProvince(province);
+        if (type) programs = programs.filter((p) => p.program_type === type);
+      } else {
+        programs = listTiqianProgramsByType(type as string);
+      }
+      return { ok: true, query: { province, type, school }, count: programs.length, programs };
+    }
+    case "zongping": {
+      const province = getStr(args, "province");
+      const schools = listZongheSchoolsByProvince(province);
+      return { ok: true, query: { province }, count: schools.length, schools };
+    }
+    case "gaoshui_sport": {
+      const sport = getStr(args, "sport");
+      const schools = listGaoshuiSchoolsBySport(sport);
+      return { ok: true, query: { sport }, count: schools.length, schools };
+    }
+    case "xiaoce": {
+      const school = getStr(args, "school");
+      const detail = findXiaoceDetailBySchool(school);
+      if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
+      return { ok: true, ...detail };
     }
     default:
       throw new Error(`unknown tool: ${name}`);

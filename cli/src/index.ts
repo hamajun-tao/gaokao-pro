@@ -32,7 +32,9 @@ import {
   listZongheSchoolsByProvince,
   listTiqianProgramsByProvince,
   listTiqianProgramsByType,
-  listTiqianProgramTypes
+  listTiqianProgramTypes,
+  listTiqianProgramsBySchool,
+  findXiaoceDetailBySchool
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -236,7 +238,7 @@ Usage:
       Available: tianjin · zhejiang · hunan · shandong · guangdong (verified).
       Pass 'all' to list cross-province programs (国家/高校/地方专项 + 港澳台联招).
 
-  gaokao-pro tiqian-pi <province> [--type <program_type>] [--json]
+  gaokao-pro tiqian-pi [<province>] [--type <type>] [--school <name>] [--json]
   gaokao-pro tiqian-pi --list-types
       提前批 special-program catalog (42 programs × 16+ provinces). Cross-axis
       query: 公费师范生 / 优师 / 综评 / 三位一体 / 中外合作综评 / 国家专项 /
@@ -244,6 +246,7 @@ Usage:
       民族班 / 预科班. Each entry carries eligibility + commitment +
       ratio + url for parent-facing 履约条款 review.
       e.g. gaokao-pro tiqian-pi 山东 --type 综评提前批
+           gaokao-pro tiqian-pi --school 清华
            gaokao-pro tiqian-pi --list-types
 
   gaokao-pro zongping <province>
@@ -259,6 +262,13 @@ Usage:
       notes. Useful for 游泳/田径/篮球 etc. specialists.
       e.g. gaokao-pro gaoshui-sport 游泳
            gaokao-pro gaoshui-sport 田径 --json
+
+  gaokao-pro xiaoce <学校名> [--json]
+      强基/综评 校测 详情 (59 校): 开设科目 / 笔试/面试/体测内容 /
+      录取分配比 / 报名+校测时间窗 / 可填学校上限 / 签约条款 (转专业/保研路径).
+      对家长决定 "投入强基/综评备考性价比" 极有用。
+      e.g. gaokao-pro xiaoce 清华
+           gaokao-pro xiaoce 浙江大学 --json
 
   gaokao-pro xuanke <raw>
       Decode a gaokao.cn selected-subject string (e.g. "70001_70002^70001_70003").
@@ -900,8 +910,8 @@ const VERBS: Record<string, Verb> = {
   async "tiqian-pi"(args) {
     const { positional, flags } = parseFlags(args);
     const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
-    if (!province && !flags.type && !flags["list-types"]) {
-      throw new Error("usage: gaokao-pro tiqian-pi <省份> [--type <program_type>] [--json]  |  gaokao-pro tiqian-pi --list-types");
+    if (!province && !flags.type && !flags["list-types"] && !flags.school) {
+      throw new Error("usage: gaokao-pro tiqian-pi <省份> [--type <program_type>] [--school <name>] [--json]  |  gaokao-pro tiqian-pi --list-types");
     }
     if (flags["list-types"] === true) {
       const types = listTiqianProgramTypes();
@@ -910,7 +920,11 @@ const VERBS: Record<string, Verb> = {
       return;
     }
     let programs;
-    if (province) {
+    if (typeof flags.school === "string") {
+      programs = listTiqianProgramsBySchool(flags.school);
+      if (province) programs = programs.filter(p => (p.eligible_provinces || []).some(e => e === province || e.startsWith("全国")));
+      if (typeof flags.type === "string") programs = programs.filter(p => p.program_type === flags.type);
+    } else if (province) {
       programs = listTiqianProgramsByProvince(province);
       if (typeof flags.type === "string") {
         programs = programs.filter(p => p.program_type === flags.type);
@@ -922,9 +936,11 @@ const VERBS: Record<string, Verb> = {
       printJson({ ok: true, query: { province, type: flags.type ?? null }, count: programs.length, programs });
       return;
     }
-    const header = province
-      ? `提前批可选项目 — ${province}${flags.type ? ` (类型: ${flags.type})` : ""}`
-      : `提前批 ${flags.type} 项目`;
+    const headerParts: string[] = ["提前批可选项目"];
+    if (typeof flags.school === "string") headerParts.push(`学校=${flags.school}`);
+    if (province) headerParts.push(`省份=${province}`);
+    if (typeof flags.type === "string") headerParts.push(`类型=${flags.type}`);
+    const header = headerParts.join(" · ");
     const lines = [header, ""];
     for (const p of programs) {
       lines.push(`▸ ${p.program_type} · ${p.school}${p.zs_code ? ` (${p.zs_code})` : ""}`);
@@ -961,6 +977,59 @@ const VERBS: Record<string, Verb> = {
       lines.push("");
     }
     if (!schools.length) lines.push("(该省无 2026 综评数据)");
+    process.stdout.write(lines.join("\n"));
+  },
+
+  async xiaoce(args) {
+    const { positional, flags } = parseFlags(args);
+    const school = positional[0] ?? (typeof flags.school === "string" ? flags.school : null);
+    if (!school) throw new Error("usage: gaokao-pro xiaoce <学校名> [--json]  例: gaokao-pro xiaoce 清华");
+    const detail = findXiaoceDetailBySchool(school);
+    if (!detail) {
+      process.stdout.write(`(找不到 ${school} 的 强基/综评 校测 detail; 当前 dataset 覆盖 59 校。试试 'gaokao-pro xiaoce 清华大学' 或 'gaokao-pro xiaoce 浙江大学')\n`);
+      return;
+    }
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, ...detail });
+      return;
+    }
+    const lines: string[] = [];
+    lines.push(`强基/综评 校测 detail — ${detail.school}${detail.zs_code ? ` (${detail.zs_code})` : ""}`);
+    lines.push("");
+    if (detail.qiangji) {
+      const q = detail.qiangji;
+      lines.push("【强基计划】");
+      if (q.subjects_offered?.length) lines.push(`  开设科目:    ${q.subjects_offered.join("、")}`);
+      if (q.校测_笔试) lines.push(`  校测·笔试:   ${q.校测_笔试}`);
+      if (q.校测_面试) lines.push(`  校测·面试:   ${q.校测_面试}`);
+      if (q.校测_体测) lines.push(`  校测·体测:   ${q.校测_体测}`);
+      if (q.校测_pass_rate) lines.push(`  通过率:      ${q.校测_pass_rate}`);
+      if (q.录取分配) lines.push(`  录取分配:    ${q.录取分配}`);
+      if (q.报名窗口) lines.push(`  报名窗口:    ${q.报名窗口}`);
+      if (q.校测时间) lines.push(`  校测时间:    ${q.校测时间}`);
+      if (q.可填学校) lines.push(`  可填学校:    ${q.可填学校}`);
+      if (q.签约条款) lines.push(`  签约条款:    ${q.签约条款}`);
+      if (q.url) lines.push(`  链接:        ${q.url}`);
+      lines.push("");
+    }
+    if (detail.zongping) {
+      const z = detail.zongping;
+      lines.push("【综合评价】");
+      if (z.省份?.length) lines.push(`  覆盖省份:    ${z.省份.join("、")}`);
+      if (z.校测_笔试) lines.push(`  校测·笔试:   ${z.校测_笔试}`);
+      if (z.校测_面试) lines.push(`  校测·面试:   ${z.校测_面试}`);
+      if (z.校测_体测) lines.push(`  校测·体测:   ${z.校测_体测}`);
+      if (z.录取分配) lines.push(`  录取分配:    ${z.录取分配}`);
+      if (z.报名窗口) lines.push(`  报名窗口:    ${z.报名窗口}`);
+      if (z.校测时间) lines.push(`  校测时间:    ${z.校测时间}`);
+      if (z.可填学校) lines.push(`  可填学校:    ${z.可填学校}`);
+      if (z.签约条款) lines.push(`  签约条款:    ${z.签约条款}`);
+      if (z.url) lines.push(`  链接:        ${z.url}`);
+      lines.push("");
+    }
+    if (!detail.qiangji && !detail.zongping) {
+      lines.push("(该校 数据集中既无 强基 也无 综评 detail)");
+    }
     process.stdout.write(lines.join("\n"));
   },
 
