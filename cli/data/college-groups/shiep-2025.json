@@ -1,0 +1,3529 @@
+{
+  "_kind": "上海电力大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "上海电力大学",
+  "code": 600,
+  "zs_code": "1025600",
+  "school_id_gaokao_cn": 317,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/317/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/317/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=317; zs_code=1025600.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425007",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 585,
+          "min_rank": 15321,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425008",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 23531,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 27821,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "spname": "储能科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423520",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 24251,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 76,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 46,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 46,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 42,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 42,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 42,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 40,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 36,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 35,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 31,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 26,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 25,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 23,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 22,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080607T",
+              "sp_name": "能源互联网工程",
+              "spname": "能源互联网工程",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 22,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 21,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 20,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 20,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "spname": "储能科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 20,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 76,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 46,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 46,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 42,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 42,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 42,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 40,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 36,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 35,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 31,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 26,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 25,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 23,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 22,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080607T",
+              "sp_name": "能源互联网工程",
+              "spname": "能源互联网工程",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 22,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 21,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 20,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 20,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080504T",
+              "sp_name": "储能科学与工程",
+              "spname": "储能科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 20,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423563",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 15236,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 278,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 278,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423545",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 483,
+          "min_rank": 29108,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 41,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 38,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 36,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 41,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 38,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 36,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423567",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 490,
+          "min_rank": 27085,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 38,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 34,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 38,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 34,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423541",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 488,
+          "min_rank": 27683,
+          "majors": [
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 35,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 26,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 23,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 35,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 26,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 23,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427286",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 12628,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在临港校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（在临港校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（只招英语考生）（在临港校区学习）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在临港校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（在临港校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（只招英语考生）（在临港校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427304",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 618,
+          "min_rank": 20349,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（临港校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（临港校区）（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（临港校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（临港校区）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "427305",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 608,
+          "min_rank": 27965,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 24,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（在临港校区学习）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（在临港校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080607T",
+              "sp_name": "能源互联网工程",
+              "spname": "能源互联网工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（报考该专业有色觉要求，须查阅院校招生章程）（在临港校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（报考该专业有色觉要求，须查阅院校招生章程）（在临港校区学习）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 24,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（在临港校区学习）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（在临港校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080607T",
+              "sp_name": "能源互联网工程",
+              "spname": "能源互联网工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（报考该专业有色觉要求，须查阅院校招生章程）（在临港校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（报考该专业有色觉要求，须查阅院校招生章程）（在临港校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 638,
+          "min_rank": 17465,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 24,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程（临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术（临港校区）",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（临港校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（临港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080607T",
+              "sp_name": "能源互联网工程",
+              "spname": "能源互联网工程（临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理（临港校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程（临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程（临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394731",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 601,
+          "min_rank": 12436,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 13,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 13,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 25787,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 19,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（英国思克莱德大学）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 6,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（英国思克莱德大学）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（色盲、色弱考生不予录取）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱考生不予录取）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369973",
+          "sg_name": "（201）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（合作方：英国思克莱德大学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作方：英国思克莱德大学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（合作方：英国思克莱德大学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "21000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作方：英国思克莱德大学）"
+            }
+          ]
+        },
+        {
+          "group_id": "369974",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 31,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 10,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱不取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080607T",
+              "sp_name": "能源互联网工程",
+              "spname": "能源互联网工程",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 31,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 10,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080505T",
+              "sp_name": "能源服务工程",
+              "spname": "能源服务工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱不取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080607T",
+              "sp_name": "能源互联网工程",
+              "spname": "能源互联网工程",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "080503T",
+              "sp_name": "新能源科学与工程",
+              "spname": "新能源科学与工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "370001",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292038",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 572,
+          "min_rank": 28957,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班，本校培养（上海市浦东新区沪城环路1851号）；外语语种：不限；学制：一年）",
+              "level2": "",
+              "level3": "",
+              "num": 6,
+              "tuition": "6500",
+              "length": "一年",
+              "info": "（少数民族预科班，本校培养（上海市浦东新区沪城环路1851号）；外语语种：不限；学制：一年）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班，本校培养（上海市浦东新区沪城环路1851号）；外语语种：不限；学制：一年）",
+              "level2": "",
+              "level3": "",
+              "num": 6,
+              "tuition": "6500",
+              "length": "一年",
+              "info": "（少数民族预科班，本校培养（上海市浦东新区沪城环路1851号）；外语语种：不限；学制：一年）"
+            }
+          ]
+        },
+        {
+          "group_id": "292039",
+          "sg_name": "（01）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 14688,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：临港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（色盲、色弱不取；办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取；办学地点：临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（办学地点：临港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺（色盲、色弱不取；办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取；办学地点：临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319288",
+          "sg_name": "（801）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 578,
+          "min_rank": 26844,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本校培养（上海市浦东新区沪城环路1851号））（临港校区）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 6,
+              "tuition": "6500",
+              "length": "一年",
+              "info": "（本校培养（上海市浦东新区沪城环路1851号））（临港校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本校培养（上海市浦东新区沪城环路1851号））（临港校区）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 6,
+              "tuition": "6500",
+              "length": "一年",
+              "info": "（本校培养（上海市浦东新区沪城环路1851号））（临港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319289",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 16296,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（色盲、色弱不取）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（色盲、色弱不取）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "433373",
+          "sg_name": "（202）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 604,
+          "min_rank": 23867,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 9,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 9,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080805T",
+              "sp_name": "核电技术与控制工程",
+              "spname": "核电技术与控制工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "082201",
+              "sp_name": "核工程与核技术",
+              "spname": "核工程与核技术（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "核工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

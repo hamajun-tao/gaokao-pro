@@ -1,0 +1,6126 @@
+{
+  "_kind": "河南财经政法大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "河南财经政法大学",
+  "code": 400,
+  "zs_code": "1048400",
+  "school_id_gaokao_cn": 490,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/490/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/490/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=490; zs_code=1048400.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425207",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 508,
+          "min_rank": 35404,
+          "majors": [
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：郑东校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：郑东校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425208",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 512,
+          "min_rank": 34272,
+          "majors": [
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（含国际经济与贸易、贸易经济；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含国际经济与贸易、贸易经济；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（含国际经济与贸易、贸易经济；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含国际经济与贸易、贸易经济；办学地点：郑东校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 542,
+          "min_rank": 92489,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（郑州市）（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 25,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（郑州市）（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（郑州市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（郑州市）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（郑州市）（含财政学、税收学专业）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）（含财政学、税收学专业）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（郑州市）（含工程管理、工程造价专业）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）（含工程管理、工程造价专业）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（郑州市）（含数学与应用数学、信息与计算科学专业）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（郑州市）（含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（郑州市）（含统计学、应用统计学（风险管理与精算方向）专业）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（郑州市）（含统计学、应用统计学（风险管理与精算方向）专业）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（郑州市）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（郑州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（郑州市）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（郑州市）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（郑州市）（含行政管理、劳动与社会保障专业）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）（含行政管理、劳动与社会保障专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（郑州市）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（郑州市）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（郑州市）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（郑州市）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（郑州市）（只招英语、俄语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）（只招英语、俄语语种考生）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（郑州市）（含财政学、税收学专业）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）（含财政学、税收学专业）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（郑州市）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（郑州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（郑州市）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（郑州市）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（郑州市）（含行政管理、劳动与社会保障专业）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑州市）（含行政管理、劳动与社会保障专业）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423838",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 431,
+          "min_rank": 42899,
+          "majors": [
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（含统计学、应用统计学（风险管理与精算方向）专业）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含统计学、应用统计学（风险管理与精算方向）专业）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（含统计学、应用统计学（风险管理与精算方向）专业）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含统计学、应用统计学（风险管理与精算方向）专业）"
+            }
+          ]
+        },
+        {
+          "group_id": "423842",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 475,
+          "min_rank": 31381,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423841",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 440,
+          "min_rank": 40711,
+          "majors": [
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含工程管理、工程造价专业）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含工程管理、工程造价专业）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含工程管理、工程造价专业）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含工程管理、工程造价专业）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427996",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 14850,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在郑东校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（只招英语或俄语考生）（在郑东校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语或俄语考生）（在郑东校区学习）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在郑东校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（只招英语或俄语考生）（在郑东校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语或俄语考生）（在郑东校区学习）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "428015",
+          "sg_name": "（04）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 558,
+          "min_rank": 82292,
+          "majors": [
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（郑东校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（郑东校区）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（郑东校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（郑东校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "428016",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 553,
+          "min_rank": 88855,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（第一学年在文北校区学习，第二学年起在郑东校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 20,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（第一学年在文北校区学习，第二学年起在郑东校区学习）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（第一学年在文北校区学习，第二学年起在郑东校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 20,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（第一学年在文北校区学习，第二学年起在郑东校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "428017",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 83617,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在郑东校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在郑东校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（在郑东校区学习）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（在郑东校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（在郑东校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 134140,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（金融信息化方向）（第一学年在文北校区，第二学年起在郑东校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 15,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（金融信息化方向）（第一学年在文北校区，第二学年起在郑东校区）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（郑东校区。含工程管理、工程造价专业）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑东校区。含工程管理、工程造价专业）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（郑东校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑东校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑东校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑东校区）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（郑东校区。含财政学、税收学专业）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（郑东校区。含财政学、税收学专业）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（郑东校区。含国际经济与贸易、贸易经济专业）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑东校区。含国际经济与贸易、贸易经济专业）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（郑东校区。含行政管理、劳动与社会保障专业）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（郑东校区。含行政管理、劳动与社会保障专业）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "396097",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 564,
+          "min_rank": 5010,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（含国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（含行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（含国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（含行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含行政管理、劳动与社会保障）"
+            }
+          ]
+        },
+        {
+          "group_id": "396125",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "高收费",
+          "min_score": 534,
+          "min_rank": 44918,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（高收费）（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）（高收费）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 15,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（高收费）（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（高收费）（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）（高收费）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 15,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（高收费）（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "396127",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 540,
+          "min_rank": 41148,
+          "majors": [
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（含统计学、应用统计学（风险管理与精算方向））",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（含统计学、应用统计学（风险管理与精算方向））",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学）"
+            }
+          ]
+        },
+        {
+          "group_id": "396129",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 540,
+          "min_rank": 41148,
+          "majors": [
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含工程管理、工程造价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含工程管理、工程造价）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（含国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（含行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含工程管理、工程造价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含工程管理、工程造价）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（含国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（含行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（含行政管理、劳动与社会保障）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 513,
+          "min_rank": 156817,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 15,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（金融信息化方向）（省级特色化示范性软件学院，大一在文北校区就读，大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（财政学、税收学）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（工程管理、工程造价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（工程管理、工程造价）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（只招英语、俄语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语、俄语语种考生）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（统计学、应用统计学（风险管理与精算方向））",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371269",
+          "sg_name": "（104）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 98064,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）"
+            }
+          ]
+        },
+        {
+          "group_id": "371272",
+          "sg_name": "（901）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 122973,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（金融信息化方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 800,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（金融信息化方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（金融信息化方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 800,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（金融信息化方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "371271",
+          "sg_name": "（902）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 156750,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（AI工程师方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（AI工程师方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（Web开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（Web开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（嵌入式开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（嵌入式开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（移动互联网方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（移动互联网方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（AI工程师方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（AI工程师方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（Web开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（Web开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（嵌入式开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（嵌入式开发方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（移动互联网方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 500,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（移动互联网方向）（办学地点：文北校区；省级特色化示范性软件学院；大二至大四在郑东校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "371273",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 88775,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 237,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业；数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 201,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业；数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（包含专业：统计学、应用统计学（风险管理与精算方向））",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 193,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业：统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 148,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 50,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 50,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 48,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 237,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业；数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 201,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业；数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（包含专业：统计学、应用统计学（风险管理与精算方向））",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 193,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业：统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 148,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 50,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 50,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 48,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371274",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 87297,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 119,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020305T",
+              "sp_name": "金融数学",
+              "spname": "金融数学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 80,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 36,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 32,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 30,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "030108TK",
+              "sp_name": "纪检监察",
+              "spname": "纪检监察",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 25,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（包含专业：工程管理、工程造价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 22,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：工程管理、工程造价）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（注册会计师方向）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学（期货方向）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（期货方向）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（大数据营销方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（大数据营销方向）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语方向）、商务英语；只招英语，俄语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语方向）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业：行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 119,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020305T",
+              "sp_name": "金融数学",
+              "spname": "金融数学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 80,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "spname": "信息管理与信息系统",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 36,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 32,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 30,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "030108TK",
+              "sp_name": "纪检监察",
+              "spname": "纪检监察",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 25,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（包含专业：工程管理、工程造价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 22,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：工程管理、工程造价）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（注册会计师方向）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学（期货方向）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（期货方向）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（大数据营销方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（大数据营销方向）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语方向）、商务英语；只招英语，俄语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语方向）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业：行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371270",
+          "sg_name": "（201）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 537,
+          "min_rank": 140429,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）（中外合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 75,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）（中外合作）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 75,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "371335",
+          "sg_name": "（801）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 521,
+          "min_rank": 169654,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 30,
+              "tuition": "20000",
+              "length": "五年",
+              "info": "（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 30,
+              "tuition": "20000",
+              "length": "五年",
+              "info": "（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）"
+            }
+          ]
+        },
+        {
+          "group_id": "371331",
+          "sg_name": "（402）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "地方专项",
+          "min_score": 570,
+          "min_rank": 85847,
+          "majors": [
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（地方专项）（包含专业：统计学、应用统计学（风险管理与精算方向））（地方专项）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 20,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（地方专项）（地方专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 20,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（地方专项）（包含专业：数学与应用数学、信息与计算科学）（地方专项）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（地方专项）（包含专业：统计学、应用统计学（风险管理与精算方向））（地方专项）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 20,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（地方专项）（地方专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 20,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（地方专项）（包含专业：数学与应用数学、信息与计算科学）（地方专项）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：数学与应用数学、信息与计算科学）"
+            }
+          ]
+        },
+        {
+          "group_id": "371332",
+          "sg_name": "（401）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "地方专项",
+          "min_score": 579,
+          "min_rank": 72674,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（地方专项）（地方专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（地方专项）（包含专业；工程管理、工程造价）（地方专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）（包含专业；工程管理、工程造价）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（地方专项）（地方专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（地方专项）（地方专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（地方专项）（地方专项）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（地方专项）（地方专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（地方专项）（地方专项）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（地方专项）（包含专业：财政学、税收学）（地方专项）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（地方专项）（包含专业：国际经济与贸易、贸易经济）（地方专项）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（地方专项）（地方专项）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（地方专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（地方专项）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（地方专项）（地方专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（地方专项）（包含专业；工程管理、工程造价）（地方专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）（包含专业；工程管理、工程造价）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（地方专项）（地方专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（地方专项）（地方专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（地方专项）（地方专项）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（地方专项）（地方专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（地方专项）（地方专项）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（地方专项）（包含专业：财政学、税收学）（地方专项）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（地方专项）（包含专业：国际经济与贸易、贸易经济）（地方专项）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（地方专项）（地方专项）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（地方专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（地方专项）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（地方专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371306",
+          "sg_name": "（301）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": 567,
+          "min_rank": 90232,
+          "majors": [
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（国家专项）（包含专业：工程管理、工程造价）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：工程管理、工程造价）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国家专项）（国家专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国家专项）（国家专项）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（国家专项）（国家专项）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家专项）（国家专项）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（国家专项）（包含专业：财政学、税收学）（国家专项）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（国家专项）（包含专业：国际经济与贸易、贸易经济）（国家专项）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（国家专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（国家专项）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（国家专项）（包含专业：工程管理、工程造价）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：工程管理、工程造价）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国家专项）（国家专项）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国家专项）（国家专项）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（国家专项）（国家专项）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国家专项）（国家专项）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家专项）（国家专项）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（国家专项）（包含专业：财政学、税收学）（国家专项）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（国家专项）（包含专业：国际经济与贸易、贸易经济）（国家专项）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（国家专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（国家专项）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371305",
+          "sg_name": "（302）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": 583,
+          "min_rank": 67120,
+          "majors": [
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（国家专项）（包含专业：统计学、应用统计学（风险管理与精算方向））（国家专项）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（国家专项）（包含专业：统计学、应用统计学（风险管理与精算方向））（国家专项）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 10,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_id": "371307",
+          "sg_name": "（301）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 579,
+          "min_rank": 12692,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（国家专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 15,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国家专项计划）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 14,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国家专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 12,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（国家专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 8,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国家专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（国家专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 15,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（国家专项计划）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 14,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（国家专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 12,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（国家专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 8,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国家专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（国家专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）（国家专项计划）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（国家专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371309",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 531,
+          "min_rank": 38488,
+          "majors": [
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "spname": "人文地理与城乡规划（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 200,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "spname": "人文地理与城乡规划（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 200,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "371312",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 578,
+          "min_rank": 13095,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 180,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 100,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "030108TK",
+              "sp_name": "纪检监察",
+              "spname": "纪检监察",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 70,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 58,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 52,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 50,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 48,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语方向）商务英语；只招英语，俄语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 44,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语方向）商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "050107T",
+              "sp_name": "秘书学",
+              "spname": "秘书学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050303",
+              "sp_name": "广告学",
+              "spname": "广告学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 38,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 36,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（只招英语，俄语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 32,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学（期货方向）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（期货方向）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（大数据营销方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（大数据营销方向）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业：行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 30,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 28,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 26,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 25,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 22,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（注册会计师方向）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 17,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 180,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 100,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "030108TK",
+              "sp_name": "纪检监察",
+              "spname": "纪检监察",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 70,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 58,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 52,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 50,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 48,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语方向）商务英语；只招英语，俄语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 44,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语方向）商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "050107T",
+              "sp_name": "秘书学",
+              "spname": "秘书学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050303",
+              "sp_name": "广告学",
+              "spname": "广告学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 40,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 38,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 36,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（只招英语，俄语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 32,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学（期货方向）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（期货方向）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（大数据营销方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（大数据营销方向）"
+            },
+            {
+              "spcode": "020303",
+              "sp_name": "保险学",
+              "spname": "保险学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120205",
+              "sp_name": "国际商务",
+              "spname": "国际商务",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业：行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 30,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "082802",
+              "sp_name": "城乡规划",
+              "spname": "城乡规划",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 30,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020304",
+              "sp_name": "投资学",
+              "spname": "投资学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 28,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 26,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 25,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 22,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（注册会计师方向）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（注册会计师方向）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 20,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 17,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371310",
+          "sg_name": "（201）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 23701,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 75,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 75,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（与帕特里斯·卢蒙巴俄罗斯人民友谊大学合办）（中外合作办学）（办学地点：文北校区；合作方：俄罗斯帕特里斯卢蒙巴俄罗斯人民友谊大学；大二至大四在郑东校区就读）"
+            }
+          ]
+        },
+        {
+          "group_id": "371308",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 567,
+          "min_rank": 17681,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 60,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 60,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（与河南省人民检察院联办）（检察方向）（办学地点：河南检察职业学院）"
+            }
+          ]
+        },
+        {
+          "group_id": "371311",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 16791,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 40,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "spname": "人文地理与城乡规划",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 40,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 40,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "spname": "人文地理与城乡规划",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 40,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371333",
+          "sg_name": "（801）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 542,
+          "min_rank": 31236,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 30,
+              "tuition": "20000",
+              "length": "五年",
+              "info": "（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 30,
+              "tuition": "20000",
+              "length": "五年",
+              "info": "（办学地点：文北校区；预科培养地点、可升入的本科专业及学费标准等，请咨询院校）"
+            }
+          ]
+        },
+        {
+          "group_id": "371334",
+          "sg_name": "（401）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "地方专项计划",
+          "min_score": 589,
+          "min_rank": 9187,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（地方专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（地方专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 8,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（地方专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 8,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（地方专项计划）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（地方专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（地方专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）（地方专项计划）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）（地方专项计划）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业：行政管理、劳动与社会保障）（地方专项计划）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（地方专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（地方专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 8,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）（地方专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 8,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：英语（法律英语）、商务英语；只招英语，俄语语种的考生）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（地方专项计划）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（地方专项计划）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（地方专项计划）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业：财政学、税收学）（地方专项计划）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业：财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业：国际经济与贸易、贸易经济）（地方专项计划）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业：行政管理、劳动与社会保障）（地方专项计划）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业：行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292966",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 46757,
+          "majors": [
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学、信息与计算科学；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（数学与应用数学、信息与计算科学；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（统计学、应用统计学（风险管理与精算方向）；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（统计学、应用统计学（风险管理与精算方向）；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：郑东校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学、信息与计算科学；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（数学与应用数学、信息与计算科学；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（统计学、应用统计学（风险管理与精算方向）；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（统计学、应用统计学（风险管理与精算方向）；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：郑东校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292967",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 549,
+          "min_rank": 45178,
+          "majors": [
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学（办学地点：郑东校区）（月）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）（月）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（工程管理、工程造价；办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（工程管理、工程造价；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（国际经济与贸易、贸易经济；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国际经济与贸易、贸易经济；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（行政管理、劳动与社会保障；办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（行政管理、劳动与社会保障；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学（办学地点：郑东校区）（月）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）（月）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（工程管理、工程造价；办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（工程管理、工程造价；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（国际经济与贸易、贸易经济；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国际经济与贸易、贸易经济；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（行政管理、劳动与社会保障；办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（行政管理、劳动与社会保障；办学地点：郑东校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "293000",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 7128,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：郑东校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（国际经济与贸易、贸易经济；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国际经济与贸易、贸易经济；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（行政管理、劳动与社会保障；办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（行政管理、劳动与社会保障；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：郑东校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（国际经济与贸易、贸易经济；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（国际经济与贸易、贸易经济；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（行政管理、劳动与社会保障；办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（行政管理、劳动与社会保障；办学地点：郑东校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "320759",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 68225,
+          "majors": [
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（包含专业:统计学、应用统计学（风险管理与精算方向））",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业:统计学、应用统计学（风险管理与精算方向））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（包含专业:统计学、应用统计学（风险管理与精算方向））",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（包含专业:统计学、应用统计学（风险管理与精算方向））"
+            }
+          ]
+        },
+        {
+          "group_id": "320760",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 67295,
+          "majors": [
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（包含专业:工程管理、工程造价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:工程管理、工程造价）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业:财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业:财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业:国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业:行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（包含专业:工程管理、工程造价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:工程管理、工程造价）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业:财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业:财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业:国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业:行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:行政管理、劳动与社会保障）"
+            }
+          ]
+        },
+        {
+          "group_id": "320779",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 9204,
+          "majors": [
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业:财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业:财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业:国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业:行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:行政管理、劳动与社会保障）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（包含专业:财政学、税收学）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（包含专业:财政学、税收学）"
+            },
+            {
+              "spcode": "0204",
+              "sp_name": "经济与贸易类",
+              "spname": "经济与贸易类（包含专业:国际经济与贸易、贸易经济）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:国际经济与贸易、贸易经济）"
+            },
+            {
+              "spcode": "1204",
+              "sp_name": "公共管理类",
+              "spname": "公共管理类（包含专业:行政管理、劳动与社会保障）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（包含专业:行政管理、劳动与社会保障）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "434128",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 19237,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434145",
+          "sg_name": "（208）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 527,
+          "min_rank": 117370,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（金融信息化）（办学地点：第一学年文北校区，第二至四学年郑东校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 10,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（金融信息化）（办学地点：第一学年文北校区，第二至四学年郑东校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（金融信息化）（办学地点：第一学年文北校区，第二至四学年郑东校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 10,
+              "tuition": "12000",
+              "length": "四年",
+              "info": "（金融信息化）（办学地点：第一学年文北校区，第二至四学年郑东校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434147",
+          "sg_name": "（206）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 97305,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郑东校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郑东校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0202",
+              "sp_name": "财政学类",
+              "spname": "财政学类（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "经济学",
+              "level3": "财政学类",
+              "num": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（含财政学、税收学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434146",
+          "sg_name": "（207）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 109310,
+          "majors": [
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（含统计学、应用统计学（风险管理与精算方向）专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含统计学、应用统计学（风险管理与精算方向）专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：郑东校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "0712",
+              "sp_name": "统计学类",
+              "spname": "统计学类（含统计学、应用统计学（风险管理与精算方向）专业具体专业分流情况请查看学校网站；办学地点：郑东校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（含统计学、应用统计学（风险管理与精算方向）专业具体专业分流情况请查看学校网站；办学地点：郑东校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：郑东校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：郑东校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

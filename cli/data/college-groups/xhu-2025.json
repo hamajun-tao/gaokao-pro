@@ -1,0 +1,3659 @@
+{
+  "_kind": "西华大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "西华大学",
+  "code": 300,
+  "zs_code": "1062300",
+  "school_id_gaokao_cn": 245,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/245/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/245/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=245; zs_code=1062300.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424921",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 510,
+          "min_rank": 34871,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（四川成都）（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川成都）（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（四川成都）（办学地点：郫都校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川成都）（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（四川成都）（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川成都）（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（四川成都）（办学地点：郫都校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川成都）（办学地点：郫都校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": 0,
+          "majors": [
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（成都市）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（成都市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（成都市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技（成都市）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类（成都市）（含飞行器动力工程、无人驾驶航空器系统工程专业）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）（含飞行器动力工程、无人驾驶航空器系统工程专业）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（成都市）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（成都市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（成都市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程（成都市）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（成都市）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（成都市）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（成都市）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化（成都市）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价（成都市）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（成都市）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（成都市）（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）（只招英语语种考生）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（成都市）（只招英语、日语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）（只招英语、日语语种考生）"
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权（成都市）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（成都市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（成都市）（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）（师范类）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（成都市）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（成都市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423388",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 454,
+          "min_rank": 37099,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427068",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 561,
+          "min_rank": 18813,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "427069",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 23719,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（只招英语或日语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语或日语考生）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（只招英语或日语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语或日语考生）"
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "427083",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 112293,
+          "majors": [
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 535,
+          "min_rank": 130979,
+          "majors": [
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（郫都校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（郫都校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（郫都校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（郫都校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（郫都校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（郫都校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（郫都校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（郫都校区）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（郫都校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（郫都校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类（郫都校区。含飞行器动力工程、无人驾驶航空器系统工程专业）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（郫都校区。含飞行器动力工程、无人驾驶航空器系统工程专业）"
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价（郫都校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（郫都校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394192",
+          "sg_name": "（700）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 7113,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394194",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 8965,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：英语，日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语，日语）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：英语，日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语，日语）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394239",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 542,
+          "min_rank": 39897,
+          "majors": [
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类（含飞行器动力工程、无人驾驶航空器系统工程）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（含飞行器动力工程、无人驾驶航空器系统工程）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类（含飞行器动力工程、无人驾驶航空器系统工程）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（含飞行器动力工程、无人驾驶航空器系统工程）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394241",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 46183,
+          "majors": [
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "边防军人子女预科班",
+          "min_score": 488,
+          "min_rank": 216732,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（招收边防军人子女）（学费：待定）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 5,
+              "tuition": "",
+              "length": "一年",
+              "info": "（招收边防军人子女）（学费：待定）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（外语语种为英语，日语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（外语语种为英语，日语）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120410T",
+              "sp_name": "健康服务与管理",
+              "spname": "健康服务与管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030102T",
+              "sp_name": "知识产权",
+              "spname": "知识产权",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369582",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369583",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（包含专业：通信工程、信息工程）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（包含专业：通信工程、信息工程）"
+            },
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类（包含专业：飞行器动力工程、无人驾驶航空器系统工程）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（包含专业：飞行器动力工程、无人驾驶航空器系统工程）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（包含专业：通信工程、信息工程）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（包含专业：通信工程、信息工程）"
+            },
+            {
+              "spcode": "0820",
+              "sp_name": "航空航天类",
+              "spname": "航空航天类（包含专业：飞行器动力工程、无人驾驶航空器系统工程）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（包含专业：飞行器动力工程、无人驾驶航空器系统工程）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369653",
+          "sg_name": "（801）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "边防军人子女预科班",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）"
+            }
+          ]
+        },
+        {
+          "group_id": "369634",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "spname": "心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "spname": "心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369652",
+          "sg_name": "（801）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "边防军人子女预科班",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "预科班",
+              "spname": "预科班（边防军人子女预科班）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "五年",
+              "info": "（边防军人子女预科班）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291772",
+          "sg_name": "（05）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 45990,
+          "majors": [
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信工程、信息工程；办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（通信工程、信息工程；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（办学地点：郫都校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（办学地点：郫都校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：郫都校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信工程、信息工程；办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（通信工程、信息工程；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（办学地点：郫都校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（办学地点：郫都校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：郫都校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291773",
+          "sg_name": "（04）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 475,
+          "min_rank": 108619,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：郫都校区；学制：五年）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区；学制：五年）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（办学地点：郫都校区；学制：五年）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区；学制：五年）"
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：郫都校区；学制：五年）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区；学制：五年）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（办学地点：郫都校区；学制：五年）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区；学制：五年）"
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291774",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 8641,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：郫都校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（外语语种：英语，日语；办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（外语语种：英语，日语；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郫都校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类；办学地点：郫都校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：郫都校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（外语语种：英语，日语；办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（外语语种：英语，日语；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郫都校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类；办学地点：郫都校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318904",
+          "sg_name": "（902）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "边防军人子女预科班",
+          "min_score": 445,
+          "min_rank": 160297,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（郫都校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（郫都校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "318906",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 521,
+          "min_rank": 69188,
+          "majors": [
+            {
+              "spcode": "120111T",
+              "sp_name": "应急管理",
+              "spname": "应急管理（彭州校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（彭州校区）"
+            },
+            {
+              "spcode": "120111T",
+              "sp_name": "应急管理",
+              "spname": "应急管理（彭州校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（彭州校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "318905",
+          "sg_name": "（104）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 59218,
+          "majors": [
+            {
+              "spcode": "080208",
+              "sp_name": "汽车服务工程",
+              "spname": "汽车服务工程（宜宾校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "080413T",
+              "sp_name": "纳米材料与技术",
+              "spname": "纳米材料与技术（宜宾校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程（宜宾校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（宜宾校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "080216T",
+              "sp_name": "新能源汽车工程",
+              "spname": "新能源汽车工程（宜宾校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "080208",
+              "sp_name": "汽车服务工程",
+              "spname": "汽车服务工程（宜宾校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "080413T",
+              "sp_name": "纳米材料与技术",
+              "spname": "纳米材料与技术（宜宾校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程（宜宾校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（宜宾校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "080216T",
+              "sp_name": "新能源汽车工程",
+              "spname": "新能源汽车工程（宜宾校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "318907",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 59218,
+          "majors": [
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（宜宾校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程（宜宾校区）",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程（宜宾校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程（宜宾校区）",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "318951",
+          "sg_name": "（901）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "边防军人子女预科班",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（郫都校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（郫都校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（郫都校区）（边防军人子女预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "318952",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 545,
+          "min_rank": 12060,
+          "majors": [
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（宜宾校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（宜宾校区）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）（外语要求:英语）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（宜宾校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）"
+            },
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（宜宾校区）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（宜宾校区）（外语要求:英语）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432625",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "预科",
+          "min_score": 521,
+          "min_rank": 41964,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432626",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 19332,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育（办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郫都校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：郫都校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育（办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：郫都校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：郫都校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432644",
+          "sg_name": "（208）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "预科",
+          "min_score": 512,
+          "min_rank": 142290,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）（预科）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "12000",
+              "length": "一年",
+              "info": "（本科班）（边防军人子女预科班）（特征要求：只招边防军人子女；办学地点：郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432645",
+          "sg_name": "（206）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 70908,
+          "majors": [
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（含通信工程、信息工程专业具体专业分流情况请查看学校网站；办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（含通信工程、信息工程专业具体专业分流情况请查看学校网站；办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（含通信工程、信息工程专业具体专业分流情况请查看学校网站；办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（含通信工程、信息工程专业具体专业分流情况请查看学校网站；办学地点：郫都校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432646",
+          "sg_name": "（205）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 531,
+          "min_rank": 110564,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（办学地点：郫都校区）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "五年",
+              "info": "（办学地点：郫都校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
