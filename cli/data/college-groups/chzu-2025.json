@@ -1,0 +1,4241 @@
+{
+  "_kind": "滁州学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "滁州学院",
+  "code": 1247,
+  "zs_code": "10377",
+  "school_id_gaokao_cn": 1247,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/1247/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/1247/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=1247; zs_code=10377.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 32409,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "398501",
+          "sg_name": "（301）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 503,
+          "min_rank": 58353,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "398501",
+          "sg_name": "（301）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 503,
+          "min_rank": 58353,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 486,
+          "min_rank": 17410,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "groups": [
+        {
+          "group_id": "242002",
+          "sg_name": "（001）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "242002",
+          "sg_name": "（001）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "424171",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 443,
+          "min_rank": 39958,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "424171",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 443,
+          "min_rank": 39958,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "429360",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 32121,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "429360",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 32121,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 566,
+          "min_rank": 92150,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "groups": [
+        {
+          "group_id": "310166",
+          "sg_name": "（L001）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "min_score": 525,
+          "min_rank": 22510,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（地方专项计划）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（仅限英语语种考生报考）（地方专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": "（师范）（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（地方专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（地方专项计划）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "310167",
+          "sg_name": "（L002）",
+          "first_subject": null,
+          "reselect_requirement": "地理",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "min_score": 522,
+          "min_rank": 23569,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（地方专项计划）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（仅限英语语种考生报考）（地方专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": "（师范）（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（地方专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（地方专项计划）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（地方专项计划）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "310167",
+          "sg_name": "（L002）",
+          "first_subject": null,
+          "reselect_requirement": "地理",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "min_score": 522,
+          "min_rank": 23569,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "310219",
+          "sg_name": "（W001）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "min_score": 522,
+          "min_rank": 103628,
+          "majors": [
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（地方专项计划）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术（地方专项计划）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（地方专项计划）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（地方专项计划）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（地方专项计划）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（地方专项计划）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "310220",
+          "sg_name": "（W002）",
+          "first_subject": "物理",
+          "reselect_requirement": "地理",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "min_score": 523,
+          "min_rank": 102486,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 4,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（地方专项计划）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术（地方专项计划）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（地方专项计划）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（地方专项计划）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（地方专项计划）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（地方专项计划）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（地方专项计划）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（地方专项计划）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "310220",
+          "sg_name": "（W002）",
+          "first_subject": "物理",
+          "reselect_requirement": "地理",
+          "batch": "地方专项计划批",
+          "zslx_name": "地方专项计划",
+          "min_score": 523,
+          "min_rank": 102486,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 4,
+              "tuition": "5390",
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（地方专项计划）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345258",
+          "sg_name": "（007）",
+          "first_subject": "物理",
+          "reselect_requirement": "地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 114259,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 71,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 57,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345261",
+          "sg_name": "（004）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 506,
+          "min_rank": 125107,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 150,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 150,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 147,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 142,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "spname": "给排水科学与工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 120,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080214T",
+              "sp_name": "智能车辆工程",
+              "spname": "智能车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 118,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 118,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 118,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 117,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 117,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 110,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 110,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 110,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 100,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 98,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 97,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 80,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 80,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 80,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 71,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 70,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 60,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080908T",
+              "sp_name": "空间信息与数字技术",
+              "spname": "空间信息与数字技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082902T",
+              "sp_name": "应急技术与管理",
+              "spname": "应急技术与管理",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 58,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 58,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 57,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 57,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 50,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 50,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 50,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 30,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 20,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 20,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345259",
+          "sg_name": "（006）",
+          "first_subject": "物理",
+          "reselect_requirement": "生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 135027,
+          "majors": [
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 80,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345260",
+          "sg_name": "（005）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 503,
+          "min_rank": 129923,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 60,
+              "tuition": "18000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "345261",
+          "sg_name": "（004）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 506,
+          "min_rank": 125107,
+          "majors": [
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 150,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 147,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 142,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081003",
+              "sp_name": "给排水科学与工程",
+              "spname": "给排水科学与工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080214T",
+              "sp_name": "智能车辆工程",
+              "spname": "智能车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 120,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 118,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 118,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 118,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 117,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 117,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 110,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 110,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 110,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 100,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 97,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080908T",
+              "sp_name": "空间信息与数字技术",
+              "spname": "空间信息与数字技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "spname": "化学工程与工艺",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082902T",
+              "sp_name": "应急技术与管理",
+              "spname": "应急技术与管理",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 60,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 58,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 58,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 57,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 50,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345262",
+          "sg_name": "（003）",
+          "first_subject": "物理",
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 501,
+          "min_rank": 133199,
+          "majors": [
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 150,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 120,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 98,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 80,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 80,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 70,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 50,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 50,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 30,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 20,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 20,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345277",
+          "sg_name": "（004）",
+          "first_subject": null,
+          "reselect_requirement": "地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 516,
+          "min_rank": 25970,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 88,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 72,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345278",
+          "sg_name": "（003）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 517,
+          "min_rank": 25723,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 148,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 125,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 88,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 72,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 63,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 59,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 47,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 30,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 28,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 28,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 24,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 24,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 19,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 7,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "345278",
+          "sg_name": "（003）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 517,
+          "min_rank": 25723,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 148,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 125,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 63,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 59,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 47,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 30,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（仅限英语语种考生报考）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 28,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）（仅限英语语种考生报考）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 28,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 24,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 24,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 19,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 7,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "406763",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 19820,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种要求：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（外语语种要求：英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种要求：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（外语语种要求：英语）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "406763",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 19820,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种要求：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（外语语种要求：英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种要求：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（外语语种要求：英语）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 511,
+          "min_rank": 161334,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "373607",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            }
+          ]
+        },
+        {
+          "group_id": "373607",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4900",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：安徽省滁州市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5390",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "294642",
+          "sg_name": "（01）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 496,
+          "min_rank": 90091,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "294642",
+          "sg_name": "（01）",
+          "first_subject": "物理",
+          "reselect_requirement": "化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 496,
+          "min_rank": 90091,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5390",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "322462",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 494,
+          "min_rank": 29645,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "322462",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 494,
+          "min_rank": 29645,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "436335",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 519,
+          "min_rank": 43256,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：安徽省滁州市）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：安徽省滁州市）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：安徽省滁州市）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            }
+          ]
+        },
+        {
+          "group_id": "436335",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 519,
+          "min_rank": 43256,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：安徽省滁州市）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范）（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：安徽省滁州市）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：安徽省滁州市）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：安徽省滁州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（办学地点：安徽省滁州市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科二批",
+          "zslx_name": "普通类",
+          "min_score": 348,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（招英语语种考生）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）（单列类）（单列）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（师范类）（单列类）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（招英语语种考生）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（单列类）（单列）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（单列类）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（单列类）（单列）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（单列类）"
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "国家及地方专项、南疆单列、对口援疆计划本科二批次",
+          "zslx_name": "南疆单列",
+          "min_score": 414,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（南疆单列计划）（南疆单列）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（南疆单列计划）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,18 @@ import { decodeXuanke } from "../src/xuanke.js";
 import { runSelftest } from "../src/selftest.js";
 import { match } from "../src/match.js";
 import { chartCheck } from "../src/chart-check.js";
+import { slipRisk, findUniversity, provinceTiaojiInfo, datasetStats } from "../src/groups.js";
+import { paths } from "../src/paths.js";
+import { dossier } from "../src/dossier.js";
+import { provinceOverview } from "../src/province-overview.js";
+import { roadmap } from "../src/roadmap.js";
+import {
+  listTiqianProgramsByProvince,
+  listZongheSchoolsByProvince,
+  listGaoshuiSchoolsBySport,
+  findCalendarByProvince,
+  loadHuadangCases
+} from "../src/datasets.js";
 
 async function expect(name: string, fn: () => Promise<void>) {
   try {
@@ -161,6 +173,102 @@ async function main() {
       subjects: ["化学", "生物", "地理"]
     });
     if (out.ok) throw new Error("expected ok=false");
+  });
+
+  await expect("groups dataset has ≥250 universities", () => {
+    const s = datasetStats();
+    if (s.universities < 250) throw new Error(`expected ≥250 universities, got ${s.universities}`);
+  });
+
+  await expect("slip-risk 河南 + auto huadang precedents", () => {
+    const u = findUniversity("清华大学");
+    if (!u) return; // Skip if not in dataset
+    const henan = u.provinces.find(p => p.province === "河南");
+    if (!henan) return;
+    const g = henan.groups.find(g => typeof g.group_min_score === "number");
+    if (!g) return;
+    const r = slipRisk({
+      uniName: "清华大学",
+      provinceName: "河南",
+      groupCode: g.group_code,
+      candidateScore: (g.group_min_score as number) - 5,
+    });
+    if (r.verdict !== "high_risk") throw new Error(`expected high_risk for below-min, got ${r.verdict}`);
+    if (r.precedents.length === 0) throw new Error("precedents should auto-attach for non-comfortable verdicts");
+  });
+
+  await expect("paths(广东) returns ≥10 提前批 + ≥5 综评", () => {
+    const r = paths({
+      province: "广东",
+      score: null, rank: null,
+      is_minority: false, is_rural_county: false, agree_to_serve: false,
+      sport_tier: null, sport_name: null, small_language: null, school_filter: null,
+    });
+    const ti = r.pathways.filter(p => p.category === "提前批");
+    const zo = r.pathways.filter(p => p.category === "综评");
+    if (ti.length < 10) throw new Error(`expected ≥10 提前批 for 广东, got ${ti.length}`);
+    if (zo.length < 5) throw new Error(`expected ≥5 综评 for 广东, got ${zo.length}`);
+  });
+
+  await expect("dossier(清华大学) populates ≥4 sections", () => {
+    const r = dossier("清华大学");
+    if (r.totals.sections_with_data < 4) throw new Error(`expected ≥4 sections, got ${r.totals.sections_with_data}`);
+  });
+
+  await expect("province-overview(河南) totals consistent", () => {
+    const r = provinceOverview("河南");
+    if (r.totals.tiqian_count < 10) throw new Error(`expected ≥10 提前批 for 河南`);
+    if (r.totals.colleges_with_groups < 100) throw new Error(`expected ≥100 colleges for 河南`);
+  });
+
+  await expect("roadmap(河南) returns 冲稳保 buckets", () => {
+    const r = roadmap({
+      province: "河南",
+      score: 660,
+      subjects: ["物理", "化学", "生物"],
+      rank: 4500,
+      per_bucket: 3,
+    });
+    const total = r.buckets["冲"].length + r.buckets["稳"].length + r.buckets["保"].length;
+    if (total < 3) throw new Error(`expected ≥3 picks across buckets, got ${total}`);
+  });
+
+  await expect("calendar 河南 has batches + milestones", () => {
+    const c = findCalendarByProvince("河南");
+    if (!c) throw new Error("河南 calendar missing");
+    if ((c.batches || []).length < 1) throw new Error("expected ≥1 batch");
+  });
+
+  await expect("huadang has ≥80 cases across 14 categories", () => {
+    const f = loadHuadangCases();
+    if (f.cases.length < 80) throw new Error(`expected ≥80 cases, got ${f.cases.length}`);
+    if (f.categories.length < 14) throw new Error(`expected ≥14 categories, got ${f.categories.length}`);
+  });
+
+  await expect("tiqian-pi 河南 has 强基计划 + 公费师范 + 综评提前批", () => {
+    const programs = listTiqianProgramsByProvince("河南");
+    const types = new Set(programs.map(p => p.program_type));
+    if (!types.has("强基计划")) throw new Error("missing 强基计划");
+    if (!types.has("公费师范生")) throw new Error("missing 公费师范生");
+    if (!types.has("综评提前批")) throw new Error("missing 综评提前批");
+  });
+
+  await expect("zongping 广东 includes 中山/华南理工", () => {
+    const schools = listZongheSchoolsByProvince("广东");
+    const names = schools.map(s => s.school);
+    if (!names.some(n => n.includes("中山"))) throw new Error("missing 中山大学");
+    if (!names.some(n => n.includes("华南理工"))) throw new Error("missing 华南理工");
+  });
+
+  await expect("gaoshui-sport 游泳 returns ≥5 schools", () => {
+    const schools = listGaoshuiSchoolsBySport("游泳");
+    if (schools.length < 5) throw new Error(`expected ≥5 swim schools, got ${schools.length}`);
+  });
+
+  await expect("provinceTiaojiInfo 浙江 has 调剂=false + slip_warning", () => {
+    const info = provinceTiaojiInfo("浙江");
+    if (info.has_tiaoji !== false) throw new Error(`expected 调剂=false for 浙江, got ${info.has_tiaoji}`);
+    if (!info.slip_warning) throw new Error("expected non-empty slip_warning");
   });
 
   await expect("beijing 2024 一分一段: 650 → rank ~3176", () => {
