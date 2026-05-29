@@ -530,6 +530,270 @@
       "sports": [
         {"name":"游泳","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"挂靠 上海交大 本部招生；上海交大本部 schools-adapters 中显示 gao_shui_yundong=true；游泳是否在 2025 列表内需查当年简章。"}
       ]
+    },
+    {
+      "school": "武汉理工大学",
+      "zs_code": "10497",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (武汉)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"男女队均招；CUBA 二级联赛参赛主力。"},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员 (常规) / 运动健将 (单考通道)",
+          "exam_window": "3-4 月校测 (校游泳馆)",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)",
+          "plan_count": null,
+          "notes": "武汉理工游泳为传统校队项目；2024-2025 简章持续招生，湖北省内招生为主。"
+        }
+      ]
+    },
+    {
+      "school": "中国地质大学(武汉)",
+      "zs_code": "10491",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (武汉)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "中地大 (武汉) 游泳项目近年简章中开放；招生规模较小，重点关注水上和户外项目。"
+        },
+        {"name":"攀岩","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"中地大特色项目，户外/登山资源充足。"}
+      ]
+    },
+    {
+      "school": "上海体育大学",
+      "zs_code": "10277",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (上海)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "运动健将 (优先) / 一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)，按本科线 80% 录取",
+          "plan_count": null,
+          "notes": "上体专业体育院校；游泳为传统强项，单考通道指标较多。注意学校 2023 年由'上海体育学院'更名为'上海体育大学'。"
+        },
+        {"name":"武术套路","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "华南理工大学",
+      "zs_code": "10561",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (广州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"华工男篮 CUBA 一级联赛常客。"},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "华工游泳项目 2024-2025 简章中开放；广东省内招生为主。"
+        }
+      ]
+    },
+    {
+      "school": "上海大学",
+      "zs_code": "10280",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (上海)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"上大男篮 CUBA 传统强队。"}
+      ]
+    },
+    {
+      "school": "福建师范大学",
+      "zs_code": "10394",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (福州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "北京体育大学",
+      "zs_code": "10043",
+      "sports": [
+        {"name":"田径","tier_required":"运动健将 (优先) / 一级运动员","exam_window":"3-4 月校测 (北京)","score_path":"A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)","plan_count":null,"notes":"北体体育类专业院校；田径招生规模为全国院校最大。"},
+        {"name":"篮球","tier_required":"运动健将 (优先) / 一级运动员","exam_window":"3-4 月校测","score_path":"A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)","plan_count":null,"notes":null},
+        {"name":"健美操","tier_required":"运动健将 (优先) / 一级运动员","exam_window":"3-4 月校测","score_path":"A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)","plan_count":null,"notes":"北体健美操国内顶尖；招生项目稳定。"},
+        {"name":"跆拳道","tier_required":"运动健将 (优先) / 一级运动员","exam_window":"3-4 月校测","score_path":"A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)","plan_count":null,"notes":null},
+        {"name":"击剑","tier_required":"运动健将 (优先) / 一级运动员","exam_window":"3-4 月校测","score_path":"A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "中国地质大学(北京)",
+      "zs_code": "11415",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (北京)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"攀岩","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"中地大 (北京) 攀岩国内一流。"}
+      ]
+    },
+    {
+      "school": "中国矿业大学(徐州)",
+      "zs_code": "10290",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (徐州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"矿大男篮 CUBA 一级联赛长期参赛。"}
+      ]
+    },
+    {
+      "school": "中国矿业大学(北京)",
+      "zs_code": "11413",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "中国石油大学(华东)",
+      "zs_code": "10425",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (青岛)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "石大 (华东) 游泳项目 2024 起在简章中开放；青岛校区水上资源充足。"
+        }
+      ]
+    },
+    {
+      "school": "西南交通大学",
+      "zs_code": "10613",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (成都)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"击剑","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"西南交大击剑队近年在全国学生锦标赛多次获奖。"}
+      ]
+    },
+    {
+      "school": "北京交通大学",
+      "zs_code": "10004",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (北京)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"健美操","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"北交大健美操队为全国学生锦标赛常客。"}
+      ]
+    },
+    {
+      "school": "华南师范大学",
+      "zs_code": "10574",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (广州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "华师体院传统强校；游泳项目稳定，广东省内招生为主。"
+        }
+      ]
+    },
+    {
+      "school": "浙江工业大学",
+      "zs_code": "10337",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (杭州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "浙工大游泳项目 2024-2025 简章中开放；浙江省内招生为主。"
+        }
+      ]
+    },
+    {
+      "school": "中央民族大学",
+      "zs_code": "10052",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (北京)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "北京邮电大学",
+      "zs_code": "10013",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "西南大学",
+      "zs_code": "10635",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (重庆)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"健美操","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "华中师范大学",
+      "zs_code": "10511",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (武汉)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "东北大学",
+      "zs_code": "10145",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (沈阳)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"东大男篮 CUBA 东北赛区强队。"}
+      ]
+    },
+    {
+      "school": "山东大学(威海)",
+      "zs_code": "19422",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (威海)","score_path":"本科线 + 校测合格","plan_count":null,"notes":"山大威海校区独立招生代码 19422；与本部 (10422) 招生计划分开。"},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "威海校区临海，游泳项目 2024-2025 简章中开放；山东省内招生为主。"
+        }
+      ]
+    },
+    {
+      "school": "暨南大学(高尔夫)",
+      "zs_code": "10559",
+      "sports": [
+        {
+          "name": "高尔夫球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测 (广州)",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "暨南大学高尔夫项目长期开放招生 (与主条目分列以保留专项细节)；广东省内招生为主，每年招生数较小。"
+        }
+      ]
+    },
+    {
+      "school": "厦门大学(棒球)",
+      "zs_code": "10384",
+      "sports": [
+        {
+          "name": "棒球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测 (厦门)",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "厦大棒球项目在 2024-2025 简章中新增 (校队基础);CUBL 棒球联赛参赛资格。与主条目分列以保留专项细节。"
+        }
+      ]
     }
   ]
 }

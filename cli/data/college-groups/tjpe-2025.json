@@ -1,0 +1,3606 @@
+{
+  "_kind": "天津体育学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "天津体育学院",
+  "code": 71,
+  "zs_code": "10071",
+  "school_id_gaokao_cn": 92,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/92/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/92/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=92; zs_code=10071.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "467100",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040203",
+              "sp_name": "社会体育指导与管理",
+              "spname": "社会体育指导与管理（以上专业加试体育；划线类别:体育专业分数线;要求文化课总成绩达到体育类本科线）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（以上专业加试体育；划线类别:体育专业分数线;要求文化课总成绩达到体育类本科线）"
+            }
+          ]
+        },
+        {
+          "group_id": "467100",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040203",
+              "sp_name": "社会体育指导与管理",
+              "spname": "社会体育指导与管理（以上专业加试体育；划线类别:体育专业分数线;要求文化课总成绩达到体育类本科线）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（以上专业加试体育；划线类别:体育专业分数线;要求文化课总成绩达到体育类本科线）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "groups": [
+        {
+          "group_id": "259468",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 29727,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（校本部）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 9,
+              "tuition": "5800",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "259470",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 31499,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（校本部）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 17,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理（校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学（校本部）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（校本部）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 9,
+              "tuition": "5800",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（校本部）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（培养体育产业大数据管理与应用方向人才；校本部）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（培养体育产业大数据管理与应用方向人才；校本部）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（校本部）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育（校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "259469",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 531,
+          "min_rank": 31231,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（培养体育产业大数据管理与应用方向人才；校本部）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（培养体育产业大数据管理与应用方向人才；校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "259470",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 31499,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（校本部）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 17,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理（校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学（校本部）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（校本部）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（校本部）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育（校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": 0,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": 0,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "392005",
+          "sg_name": "（302）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 504,
+          "min_rank": 57634,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 4,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "392006",
+          "sg_name": "（301）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 479,
+          "min_rank": 76350,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 4,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "392006",
+          "sg_name": "（301）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 479,
+          "min_rank": 76350,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "392027",
+          "sg_name": "（001）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 519,
+          "min_rank": 15260,
+          "majors": [
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "392027",
+          "sg_name": "（001）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 519,
+          "min_rank": 15260,
+          "majors": [
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "groups": [
+        {
+          "group_id": "447846",
+          "sg_name": "（008）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 491,
+          "min_rank": 32445,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（校本部）（外语语种：不限）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "447847",
+          "sg_name": "（007）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 483,
+          "min_rank": 34836,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（校本部）（外语语种：不限）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（校本部）（外语语种：不限）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "447847",
+          "sg_name": "（007）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 483,
+          "min_rank": 34836,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（校本部）（外语语种：不限）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "447848",
+          "sg_name": "（006）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 520,
+          "min_rank": 7617,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（校本部）（外语语种：不限）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "447848",
+          "sg_name": "（006）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 520,
+          "min_rank": 7617,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复（校本部）（外语语种：不限）",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（校本部）（外语语种：不限）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 474,
+          "min_rank": 19628,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（培养体育产业大数据管理与应用方向人才）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（培养体育产业大数据管理与应用方向人才）"
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 474,
+          "min_rank": 19628,
+          "majors": [
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "groups": [
+        {
+          "group_id": "237085",
+          "sg_name": "（003）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "237085",
+          "sg_name": "（003）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "237086",
+          "sg_name": "（001）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "237086",
+          "sg_name": "（001）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "groups": [
+        {
+          "group_id": "262135",
+          "sg_name": "（001）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 474,
+          "min_rank": 11473,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "262135",
+          "sg_name": "（001）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 474,
+          "min_rank": 11473,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "262148",
+          "sg_name": "（004）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 470,
+          "min_rank": 42656,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "262148",
+          "sg_name": "（004）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 470,
+          "min_rank": 42656,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "262149",
+          "sg_name": "（003）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 465,
+          "min_rank": 44500,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "426139",
+          "sg_name": "（01）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 34079,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426139",
+          "sg_name": "（01）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 34079,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426157",
+          "sg_name": "（02）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 143440,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426157",
+          "sg_name": "（02）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 143440,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 566,
+          "min_rank": 93017,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "393028",
+          "sg_name": "（999）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 489,
+          "min_rank": 16866,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "393028",
+          "sg_name": "（999）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 489,
+          "min_rank": 16866,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "393046",
+          "sg_name": "（999）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 480,
+          "min_rank": 86154,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "393046",
+          "sg_name": "（999）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 480,
+          "min_rank": 86154,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "402818",
+          "sg_name": "（501）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 495,
+          "min_rank": 89867,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "402818",
+          "sg_name": "（501）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 495,
+          "min_rank": 89867,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "402833",
+          "sg_name": "（101）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 19512,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "402833",
+          "sg_name": "（101）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 19512,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 506,
+          "min_rank": 173023,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 9,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "368600",
+          "sg_name": "（103）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "368600",
+          "sg_name": "（103）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "368601",
+          "sg_name": "（102）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "368620",
+          "sg_name": "（101）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "368620",
+          "sg_name": "（101）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291015",
+          "sg_name": "（02）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 513,
+          "min_rank": 75381,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "291015",
+          "sg_name": "（02）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 513,
+          "min_rank": 75381,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "291031",
+          "sg_name": "（01）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 537,
+          "min_rank": 17285,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "291031",
+          "sg_name": "（01）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 537,
+          "min_rank": 17285,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318059",
+          "sg_name": "（106）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 478,
+          "min_rank": 116904,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318059",
+          "sg_name": "（106）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 478,
+          "min_rank": 116904,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318074",
+          "sg_name": "（104）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 505,
+          "min_rank": 24994,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318074",
+          "sg_name": "（104）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 505,
+          "min_rank": 24994,
+          "majors": [
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "431836",
+          "sg_name": "（210）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 47123,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "431836",
+          "sg_name": "（210）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 514,
+          "min_rank": 47123,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（特征要求：不招单色识别不全者；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招单色识别不全者；办学地点：校本部）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "431837",
+          "sg_name": "（209）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 40805,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（特征要求：不招单色识别不全者；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招单色识别不全者；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "431838",
+          "sg_name": "（208）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 33166,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "431893",
+          "sg_name": "（213）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 503,
+          "min_rank": 159496,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "431893",
+          "sg_name": "（213）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 503,
+          "min_rank": 159496,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：校本部）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（特征要求：不招单色识别不全者；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招单色识别不全者；办学地点：校本部）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "431894",
+          "sg_name": "（212）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 504,
+          "min_rank": 156719,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（特征要求：不招单色识别不全者；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（特征要求：不招单色识别不全者；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "431895",
+          "sg_name": "（211）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 524,
+          "min_rank": 122483,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 509,
+          "min_rank": 56392,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育（办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 509,
+          "min_rank": 56392,
+          "majors": [
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（培养体育产业大数据管理与应用方向人才；办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（培养体育产业大数据管理与应用方向人才；办学地点：校本部）"
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育（办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "groups": [
+        {
+          "group_id": "439372",
+          "sg_name": "（101）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "439372",
+          "sg_name": "（101）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "439395",
+          "sg_name": "（101）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "439395",
+          "sg_name": "（101）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 509,
+          "min_rank": 18565,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 509,
+          "min_rank": 18565,
+          "majors": [
+            {
+              "spcode": "040205",
+              "sp_name": "运动人体科学",
+              "spname": "运动人体科学",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040206T",
+              "sp_name": "运动康复",
+              "spname": "运动康复",
+              "level2": "教育学",
+              "level3": "体育学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120212T",
+              "sp_name": "体育经济与管理",
+              "spname": "体育经济与管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "groups": [
+        {
+          "group_id": "416610",
+          "sg_name": "（002）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 478,
+          "min_rank": 11765,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "416610",
+          "sg_name": "（002）",
+          "first_subject": "70004",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 478,
+          "min_rank": 11765,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "416652",
+          "sg_name": "（003）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 447,
+          "min_rank": 54160,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "416652",
+          "sg_name": "（003）",
+          "first_subject": "70000",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 447,
+          "min_rank": 54160,
+          "majors": [
+            {
+              "spcode": "040108",
+              "sp_name": "特殊教育",
+              "spname": "特殊教育",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科二批",
+          "zslx_name": "普通类",
+          "min_score": 421,
+          "min_rank": 0,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
