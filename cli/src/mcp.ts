@@ -510,6 +510,11 @@ const TOOLS = [
     }
   },
   {
+    name: "capabilities",
+    description: "List dataset capabilities — version + counts of college_groups schools/groups/majors + adapters + tiqian-pi types/programs + zongping schools + gaoshui sports indexed + huadang cases/categories + calendar provinces + xiaoce probe hits. Useful for discovering what's available before calling specific verbs.",
+    inputSchema: { type: "object", properties: {}, additionalProperties: false }
+  },
+  {
     name: "province_overview",
     description: "省份 overview — one-call aggregation across 7 datasets for a single province: 调剂rules + 2026 投档calendar + 综评 schools open here + 提前批 programs eligible + 历史 滑档 cases + 一分一段 manifest hits + college-groups colleges admitting here. Mirror of dossier (school-side); this is the parent-facing 'tell me everything about our province' summary. Replaces 6-7 separate verb calls.",
     inputSchema: {
@@ -950,6 +955,26 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const detail = findXiaoceDetailBySchool(school);
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
+    }
+    case "capabilities": {
+      const out: Record<string, unknown> = { version: VERSION };
+      try { out.college_groups = datasetStats(); } catch { /* ignore */ }
+      try {
+        const f = await import("./datasets.js");
+        out.school_adapters = { count: f.loadSchoolsAdapters().schools.length };
+        out.tiqian_pi_catalog = { types: f.listTiqianProgramTypes() };
+        out.huadang_cases = { count: f.loadHuadangCases().cases.length, categories: f.loadHuadangCases().categories };
+        out.calendar_2026 = { provinces: f.loadZhiyuanCalendar2026().provinces.length };
+        const sports = ["游泳","田径","篮球","排球","足球","乒乓球","羽毛球","网球"];
+        const idx: Record<string, number> = {};
+        for (const s of sports) idx[s] = f.listGaoshuiSchoolsBySport(s).length;
+        out.gaoshui_2025 = { sports_indexed: idx };
+        const provinces = ["北京","上海","江苏","浙江","山东","广东","河南","湖北","湖南","福建","河北","四川","陕西","辽宁"];
+        const zSet = new Set<string>();
+        for (const p of provinces) for (const s of f.listZongheSchoolsByProvince(p)) zSet.add(s.school);
+        out.zongping_2026 = { distinct_schools: zSet.size };
+      } catch { /* ignore loader errors */ }
+      return { ok: true, ...out };
     }
     case "province_overview": {
       const province = getStr(args, "province");

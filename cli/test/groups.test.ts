@@ -23,7 +23,7 @@ import {
 // --------------------------------------------------------------------------
 // datasetStats — recovered counts + surfaced year metadata
 // --------------------------------------------------------------------------
-test("datasetStats reports 218 recovered universities", () => {
+test("datasetStats reports 238 recovered universities", () => {
   const s = datasetStats();
   // 198 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
   // ucas/cuhksz/snnu/swjtu/hdu/cnu/ccmu/njmu/njupt/nuist/smu/ecupl + 15 added
@@ -49,10 +49,13 @@ test("datasetStats reports 218 recovered universities", () => {
   // 建筑 ncwu/bucea/ahjzu/xauat, 理工 jxust/lzjtu/cust/njut/zstu/haut/xmut/
   // shiep, 农 henau/sdau, 综合/师范 usc-nanhua/jxnu/tjnu/xhu, 财经/政法
   // huel/spxy.
+  // + 20 added in round 9 (农林/石油化工/specialty still missing):
+  // 农林 syau/fafu/hebau/zafu/jxau/ynau/swfu/nefu/xjau/byau, 石油化工 bipt/
+  // xsyu/nepu, 综合/specialty yangtze/ctgu/cjpu/ccu/hrbust/zust/gxufe.
   // Asserted precisely: a drop means the tolerant loader regressed and
-  // silently lost schools again. A jump above 218 means new data files were
+  // silently lost schools again. A jump above 238 means new data files were
   // added — also worth a deliberate look, so we pin the exact number.
-  assertEqual(s.universities, 218, "recovered university count");
+  assertEqual(s.universities, 238, "recovered university count");
 });
 
 test("datasetStats surfaces non-zero group/major totals", () => {
@@ -126,7 +129,7 @@ for (const { slug, name } of RECOVERED) {
 // --------------------------------------------------------------------------
 test("no university name is empty/null", () => {
   const names = listAllUniversities();
-  assertEqual(names.length, 218, "all 218 schools have a name surfaced");
+  assertEqual(names.length, 238, "all 238 schools have a name surfaced");
   for (const n of names) {
     assert(typeof n === "string" && n.length > 0, `university name must be a non-empty string, got ${JSON.stringify(n)}`);
   }

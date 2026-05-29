@@ -1,0 +1,3378 @@
+{
+  "_kind": "沈阳农业大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "沈阳农业大学",
+  "code": null,
+  "zs_code": "10157",
+  "school_id_gaokao_cn": 228,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/228/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/228/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=228; zs_code=10157.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-9 added: 农林/石油化工/specialty 仍缺。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424899",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 493,
+          "min_rank": 39384,
+          "majors": [
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理（辽宁）",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（辽宁）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理（辽宁）",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（辽宁）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（辽宁）"
+            }
+          ]
+        },
+        {
+          "group_id": "424898",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 516,
+          "min_rank": 33240,
+          "majors": [
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（辽宁）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（辽宁）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（辽宁）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（辽宁）"
+            }
+          ]
+        },
+        {
+          "group_id": "424897",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 37553,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（辽宁）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（辽宁）（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（辽宁）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（辽宁）（中外合作办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423344",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 429,
+          "min_rank": 43379,
+          "majors": [
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427014",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 123539,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "427013",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 75837,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": null,
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 513,
+          "min_rank": 156926,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394081",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 534,
+          "min_rank": 44918,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "394082",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 509,
+          "min_rank": 62571,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": null,
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 499,
+          "min_rank": 189757,
+          "majors": [
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（卓越计划实验班）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）"
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（卓越计划实验班）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）"
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（与法国巴黎第十二大学合作）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国巴黎第十二大学合作）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369473",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "100806T",
+              "sp_name": "中草药栽培与鉴定",
+              "spname": "中草药栽培与鉴定（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082306T",
+              "sp_name": "土地整治工程",
+              "spname": "土地整治工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 5,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "071004",
+              "sp_name": "生态学",
+              "spname": "生态学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082305",
+              "sp_name": "农业水利工程",
+              "spname": "农业水利工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082304",
+              "sp_name": "农业建筑环境与能源工程",
+              "spname": "农业建筑环境与能源工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090203",
+              "sp_name": "水土保持与荒漠化防治",
+              "spname": "水土保持与荒漠化防治（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "100806T",
+              "sp_name": "中草药栽培与鉴定",
+              "spname": "中草药栽培与鉴定（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 8,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082306T",
+              "sp_name": "土地整治工程",
+              "spname": "土地整治工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 5,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "071004",
+              "sp_name": "生态学",
+              "spname": "生态学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082305",
+              "sp_name": "农业水利工程",
+              "spname": "农业水利工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082304",
+              "sp_name": "农业建筑环境与能源工程",
+              "spname": "农业建筑环境与能源工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090203",
+              "sp_name": "水土保持与荒漠化防治",
+              "spname": "水土保持与荒漠化防治（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "369472",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120404",
+              "sp_name": "土地资源管理",
+              "spname": "土地资源管理（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120404",
+              "sp_name": "土地资源管理",
+              "spname": "土地资源管理（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 4,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "369471",
+          "sg_name": "（203）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取；合作方：法国巴黎第十二大学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取；合作方：法国巴黎第十二大学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取；合作方：法国巴黎第十二大学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取；合作方：法国巴黎第十二大学）"
+            }
+          ]
+        },
+        {
+          "group_id": "369482",
+          "sg_name": "（302）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 12,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项）（对普通类各批志愿填报农、林院校的考生，如生源不足，在招生高校认可的情况下，可在相应批次录取控制分数线下20分内投档，由高校择优录取）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291653",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 516,
+          "min_rank": 72834,
+          "majors": [
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "291675",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 486,
+          "min_rank": 98920,
+          "majors": [
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（国家专项计划）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（国家专项计划）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（国家专项计划）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（国家专项计划）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318764",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 466,
+          "min_rank": 132409,
+          "majors": [
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "spname": "水产养殖学",
+              "level2": "农学",
+              "level3": "水产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318763",
+          "sg_name": "（203）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 512,
+          "min_rank": 77998,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "318762",
+          "sg_name": "（302）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": 464,
+          "min_rank": 135109,
+          "majors": [
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护（国家专项）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432541",
+          "sg_name": "（205）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 98039,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：主校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：主校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：主校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：主校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：主校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432540",
+          "sg_name": "（206）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 540,
+          "min_rank": 95302,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（特征要求：不招单色识别不全者；办学地点：主校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（特征要求：不招单色识别不全者；办学地点：主校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（特征要求：不招单色识别不全者；办学地点：主校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（特征要求：不招单色识别不全者；办学地点：主校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432539",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 124565,
+          "majors": [
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）"
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱，不招单色识别不全者；办学地点：主校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432538",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 112381,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（与法国巴黎第十二大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；采用中英双语授课，请非英语语种的考生慎重报考；办学地点：主校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国巴黎第十二大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；采用中英双语授课，请非英语语种的考生慎重报考；办学地点：主校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（与法国巴黎第十二大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；采用中英双语授课，请非英语语种的考生慎重报考；办学地点：主校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）（与法国巴黎第十二大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；采用中英双语授课，请非英语语种的考生慎重报考；办学地点：主校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": null,
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 114051,
+          "majors": [
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 7,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 5,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（卓越计划实验班）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）"
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（卓越计划实验班）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卓越计划实验班）"
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120404",
+              "sp_name": "土地资源管理",
+              "spname": "土地资源管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "39000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100806T",
+              "sp_name": "中草药栽培与鉴定",
+              "spname": "中草药栽培与鉴定",
+              "level2": "医学",
+              "level3": "中药学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071004",
+              "sp_name": "生态学",
+              "spname": "生态学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090203",
+              "sp_name": "水土保持与荒漠化防治",
+              "spname": "水土保持与荒漠化防治",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "5700",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺（国家专项计划）（国家专项计划）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（国家专项计划）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

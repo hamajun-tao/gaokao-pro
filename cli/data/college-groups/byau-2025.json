@@ -1,0 +1,4077 @@
+{
+  "_kind": "黑龙江八一农垦大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "黑龙江八一农垦大学",
+  "code": null,
+  "zs_code": "10223",
+  "school_id_gaokao_cn": 427,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/427/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/427/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=427; zs_code=10223.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-9 added: 农林/石油化工/specialty 仍缺。"
+  ],
+  "provinces": [
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427765",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 508,
+          "min_rank": 151737,
+          "majors": [
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "427764",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 162612,
+          "majors": [
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "427763",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 130715,
+          "majors": [
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "427762",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 515,
+          "min_rank": 142068,
+          "majors": [
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "427761",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 517,
+          "min_rank": 139203,
+          "majors": [
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": null,
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 147115,
+          "majors": [
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "395509",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 490,
+          "min_rank": 77780,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "395511",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 480,
+          "min_rank": 86154,
+          "majors": [
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": null,
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 475,
+          "min_rank": 249285,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 8,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 5,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 5,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 5,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 4,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082303",
+              "sp_name": "农业电气化",
+              "spname": "农业电气化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "4180",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090403T",
+              "sp_name": "动植物检疫",
+              "spname": "动植物检疫",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "370593",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 8,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 8,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 8,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 6,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 6,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082703",
+              "sp_name": "粮食工程",
+              "spname": "粮食工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "3900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 8,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 8,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 8,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090102",
+              "sp_name": "园艺",
+              "spname": "园艺",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 6,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 6,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082703",
+              "sp_name": "粮食工程",
+              "spname": "粮食工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "3900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090402",
+              "sp_name": "动物药学",
+              "spname": "动物药学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "370592",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 8,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082303",
+              "sp_name": "农业电气化",
+              "spname": "农业电气化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "4180",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 8,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082303",
+              "sp_name": "农业电气化",
+              "spname": "农业电气化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 4,
+              "tuition": "4180",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "4200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081004",
+              "sp_name": "建筑电气与智能化",
+              "spname": "建筑电气与智能化",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "370591",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "370590",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "370589",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "370659",
+          "sg_name": "（111）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 7,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "3300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 7,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "3300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292488",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 490,
+          "min_rank": 95344,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "292487",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 477,
+          "min_rank": 106903,
+          "majors": [
+            {
+              "spcode": "090403T",
+              "sp_name": "动植物检疫",
+              "spname": "动植物检疫",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090403T",
+              "sp_name": "动植物检疫",
+              "spname": "动植物检疫",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082710T",
+              "sp_name": "食品营养与健康",
+              "spname": "食品营养与健康",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "292486",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 473,
+          "min_rank": 110381,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "320436",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 484,
+          "min_rank": 34000,
+          "majors": [
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "3300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "3300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320435",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 480,
+          "min_rank": 35807,
+          "majors": [
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320398",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 456,
+          "min_rank": 145716,
+          "majors": [
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320397",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 441,
+          "min_rank": 165648,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 8,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 7,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082703",
+              "sp_name": "粮食工程",
+              "spname": "粮食工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "3900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 8,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090103",
+              "sp_name": "植物保护",
+              "spname": "植物保护",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 7,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 4,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090701",
+              "sp_name": "草业科学",
+              "spname": "草业科学",
+              "level2": "农学",
+              "level3": "草学类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082703",
+              "sp_name": "粮食工程",
+              "spname": "粮食工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "3900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4950",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320396",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 447,
+          "min_rank": 157600,
+          "majors": [
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082303",
+              "sp_name": "农业电气化",
+              "spname": "农业电气化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 3,
+              "tuition": "4180",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082303",
+              "sp_name": "农业电气化",
+              "spname": "农业电气化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 3,
+              "tuition": "4180",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320395",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 469,
+          "min_rank": 128457,
+          "majors": [
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320394",
+          "sg_name": "（107）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 468,
+          "min_rank": 129773,
+          "majors": [
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "3600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": null,
+          "first_subject": null,
+          "reselect_requirement": null,
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 535,
+          "min_rank": 29738,
+          "majors": [
+            {
+              "spcode": "082302",
+              "sp_name": "农业机械化及其自动化",
+              "spname": "农业机械化及其自动化（大庆市）",
+              "level2": "工学",
+              "level3": "农业工程类",
+              "num": 8,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（大庆市）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 7,
+              "tuition": "3500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（大庆市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（大庆市）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全（大庆市）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 6,
+              "tuition": "4000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（大庆市）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 6,
+              "tuition": "3000",
+              "length": "五年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（大庆市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090106",
+              "sp_name": "设施农业科学与工程",
+              "spname": "设施农业科学与工程（大庆市）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林（大庆市）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "3600",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（大庆市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090201",
+              "sp_name": "农业资源与环境",
+              "spname": "农业资源与环境（大庆市）",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 3,
+              "tuition": "3000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（大庆市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "070102",
+              "sp_name": "信息与计算科学",
+              "spname": "信息与计算科学（大庆市）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（大庆市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（大庆市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（大庆市）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（大庆市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "081702",
+              "sp_name": "包装工程",
+              "spname": "包装工程（大庆市）",
+              "level2": "工学",
+              "level3": "轻工类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090101",
+              "sp_name": "农学",
+              "spname": "农学（大庆市）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（大庆市）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "120301",
+              "sp_name": "农林经济管理",
+              "spname": "农林经济管理（大庆市）",
+              "level2": "管理学",
+              "level3": "农业经济管理类",
+              "num": 2,
+              "tuition": "3500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（大庆市）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（大庆市）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "4950",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（大庆市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "4200",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程（大庆市）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（大庆市）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "3300",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090105",
+              "sp_name": "种子科学与工程",
+              "spname": "种子科学与工程（大庆市）",
+              "level2": "农学",
+              "level3": "植物生产类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "081002",
+              "sp_name": "建筑环境与能源应用工程",
+              "spname": "建筑环境与能源应用工程（大庆市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（大庆市）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "081101",
+              "sp_name": "水利水电工程",
+              "spname": "水利水电工程（大庆市）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（大庆市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090403T",
+              "sp_name": "动植物检疫",
+              "spname": "动植物检疫（大庆市）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（大庆市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3500",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（大庆市）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "3000",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林（大庆市）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "3600",
+              "length": "四年",
+              "info": "（大庆市）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（大庆市）（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（大庆市）（只招英语语种考生）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,8 @@
     "school_id_gaokao_cn=240; zs_code=11646.",
     "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
     "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
-    "缺失字段保留为 null，未编造任何分数/位次。"
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-10 added provinces for nbu: 天津/山西/内蒙古/辽宁/吉林/黑龙江/安徽/江西/广西/海南/重庆/四川/贵州/云南/西藏/陕西/甘肃/青海/宁夏/新疆"
   ],
   "provinces": [
     {
@@ -4668,6 +4669,5790 @@
               "tuition": "5300",
               "length": "四年",
               "info": "（办学地点：主校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "province_pinyin": "tianjin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "259868",
+          "group_code": "（03）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "608",
+          "min_rank": "11105",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中美合作精算科学与风险管理；可选赴美国中田纳西州立大学交换留学1年，获美国精算科学学士学位；主校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中美合作精算科学与风险管理；可选赴美国中田纳西州立大学交换留学1年，获美国精算科学学士学位；主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "259869",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "600",
+          "min_rank": "12965",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含生物技术、水产养殖学专业；梅山校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业；主校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业；主校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含生物技术、水产养殖学专业；梅山校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业；主校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业；主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "259870",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "608",
+          "min_rank": "11105",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "province_pinyin": "shanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "393037",
+          "group_code": "（302）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "582",
+          "min_rank": "16211",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：生物技术、水产养殖学；办学地点梅山校区；按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、车辆工程、工业工程；按类招生，含机械设计制造及其自动化、车辆工程、）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点梅山校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（工业工程专业包含专业：电子信息科学与技术、电气工程及其自动化、通信工程；按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：生物技术、水产养殖学；办学地点梅山校区；按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、车辆工程、工业工程；按类招生，含机械设计制造及其自动化、车辆工程、）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点梅山校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（工业工程专业包含专业：电子信息科学与技术、电气工程及其自动化、通信工程；按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "393039",
+          "group_code": "（301）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "582",
+          "min_rank": "16211",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "393081",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "579",
+          "min_rank": "3990",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语单科成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（外语单科成绩不低于115分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语单科成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（外语单科成绩不低于115分）"
+            }
+          ]
+        },
+        {
+          "special_group": "393083",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "574",
+          "min_rank": "4632",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范类）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范类）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "province_pinyin": "neimenggu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "448398",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "548",
+          "min_rank": "16847",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（含:生物技术、水产养殖学）（梅山校区，按类招生，含:生物技术、水产养殖学专业）（梅山校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（含:电子信息科学与技术、电气工程及其自动化、通信工程）（按类招生，含:电子信息科学与技术、电气工程及其自动化、通信工程专业）（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（含:生物技术、水产养殖学）（梅山校区，按类招生，含:生物技术、水产养殖学专业）（梅山校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（含:电子信息科学与技术、电气工程及其自动化、通信工程）（按类招生，含:电子信息科学与技术、电气工程及其自动化、通信工程专业）（主校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "448399",
+          "group_code": "（003）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "593",
+          "min_rank": "1914",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 1,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 1,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "448400",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "581",
+          "min_rank": "2588",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）（主校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）（主校区）（外语语种：不限）"
+            }
+          ]
+        },
+        {
+          "special_group": "247293",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "552",
+          "min_rank": "15858",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）（外语语种:不限）（办学地：梅山校区）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）（外语语种:不限）（办学地：梅山校区）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）（外语语种:不限）（办学地：梅山校区）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 1,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）（外语语种:不限）（办学地：梅山校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "247294",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批C段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "552",
+          "min_rank": "15858",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国家专项计划）（外语语种:不限）（办学地：主校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国家专项计划）（外语语种:不限）（办学地：主校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "province_pinyin": "liaoning",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "588",
+          "min_rank": "17653",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、电气工程及其自动化、通信工程）（按类招生）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "574",
+          "min_rank": "4217",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（经济学、国际经济与贸易、金融学）（按类招生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "province_pinyin": "jilin",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "237736",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（梅山校区，按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（梅山校区，按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "237737",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            }
+          ]
+        },
+        {
+          "special_group": "237738",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（经济学、国际经济与贸易、金融学）（按类招生，含经济学、国际经济与贸易、金融学专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（经济学、国际经济与贸易、金融学）（按类招生，含经济学、国际经济与贸易、金融学专业）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "province_pinyin": "heilongjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "262831",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "573",
+          "min_rank": "1995",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含经济学、国际经济与贸易、金融学）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含经济学、国际经济与贸易、金融学）"
+            }
+          ]
+        },
+        {
+          "special_group": "262832",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "552",
+          "min_rank": "3284",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            }
+          ]
+        },
+        {
+          "special_group": "262854",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "中外合作,中美合作",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "554",
+          "min_rank": "15759",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中美合作精算科学与风险管理）（可选赴美国中田纳西州立大学交换留学1年，获美国精算科学学士学位）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中美合作精算科学与风险管理）（可选赴美国中田纳西州立大学交换留学1年，获美国精算科学学士学位）"
+            }
+          ]
+        },
+        {
+          "special_group": "262855",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "554",
+          "min_rank": "15759",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含生物技术、水产养殖学；梅山校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（包含电子信息科学与技术、电气工程及其自动化、通信工程）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含机械设计制造及其自动化、车辆工程、工业工程）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含生物技术、水产养殖学；梅山校区）"
+            },
+            {
+              "spcode": "081301",
+              "sp_name": "化学工程与工艺",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（包含电子信息科学与技术、电气工程及其自动化、通信工程）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含机械设计制造及其自动化、车辆工程、工业工程）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "310376",
+          "group_code": "（W002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "604",
+          "min_rank": "24290",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "4",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "4",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342410",
+          "group_code": "（007）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": "604",
+          "min_rank": "24290",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "342411",
+          "group_code": "（006）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "600",
+          "min_rank": "26818",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含生物技术、水产养殖学专业；梅山校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含生物技术、水产养殖学专业；梅山校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342414",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "597",
+          "min_rank": "28952",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342412",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "604",
+          "min_rank": "24290",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "342413",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "594",
+          "min_rank": "30593",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "342432",
+          "group_code": "（003）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "587",
+          "min_rank": "5246",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 7,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 7,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "342434",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "587",
+          "min_rank": "5246",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分）"
+            }
+          ]
+        },
+        {
+          "special_group": "342433",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "586",
+          "min_rank": "5463",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含经济学、国际经济与贸易、金融学专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含经济学、国际经济与贸易、金融学专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "456752",
+          "group_code": "（W001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "604",
+          "min_rank": "24290",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区;身体条:件要求详见学校招生章程或咨询学校）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区；身体条件要求详见学校招生章程或咨询学校）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区;身体条:件要求详见学校招生章程或咨询学校）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区；身体条件要求详见学校招生章程或咨询学校）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "403826",
+          "group_code": "（504）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": "489",
+          "min_rank": "97880",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 3,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 3,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "403828",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "576",
+          "min_rank": "18706",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（梅山校区，按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、电气工程及其自动化、通信工程）（按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（梅山校区，按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、电气工程及其自动化、通信工程）（按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "403827",
+          "group_code": "（503）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "573",
+          "min_rank": "20363",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中美合作精算科学与风险管理）（可选赴美国中田纳西州立大学交换留学1年，获美国精算科学学士学位）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中美合作精算科学与风险管理）（可选赴美国中田纳西州立大学交换留学1年，获美国精算科学学士学位）"
+            }
+          ]
+        },
+        {
+          "special_group": "403849",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "562",
+          "min_rank": "8687",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "403850",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "603",
+          "min_rank": "1936",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "467910",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区, 专业具体要求详见招生章程。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区, 专业具体要求详见招生章程。）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区, 专业具体要求详见招生章程。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区, 专业具体要求详见招生章程。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "458714",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "560",
+          "min_rank": "20247",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            }
+          ]
+        },
+        {
+          "special_group": "458716",
+          "group_code": "（100）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "545",
+          "min_rank": "27615",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在梅山校区办学）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（在梅山校区办学，包含专业：生物技术、水产养殖学。按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 8,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 8,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、电气工程及其自动化、通信工程。按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、车辆工程、工业工程。按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 6,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（在梅山校区办学）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在梅山校区办学）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（在梅山校区办学，包含专业：生物技术、水产养殖学。按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 8,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 8,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、电气工程及其自动化、通信工程。按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、车辆工程、工业工程。按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 6,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "plan": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（在梅山校区办学）"
+            }
+          ]
+        },
+        {
+          "special_group": "458715",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": "568",
+          "min_rank": "16819",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "458751",
+          "group_code": "（300）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "537",
+          "min_rank": "8448",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）"
+            }
+          ]
+        },
+        {
+          "special_group": "458752",
+          "group_code": "（104）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "561",
+          "min_rank": "4749",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（在梅山校区办学）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含经济学、国际经济与贸易、金融学专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（在梅山校区办学）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）（师范类）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含经济学、国际经济与贸易、金融学专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "458753",
+          "group_code": "（103）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": "577",
+          "min_rank": "3030",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（要求高考外语成绩不低于115分）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "350523",
+          "group_code": "（03）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70000,70001",
+          "min_score": "618",
+          "min_rank": "9132",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：生物技术、水产养殖学；梅山校区；按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "plan": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：生物技术、水产养殖学；梅山校区；按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "plan": 1,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "350524",
+          "group_code": "（02）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006^70000_70002_70004^70000_70002_70003^70000_70002_70005^70000_70002_70006^70000_70003_70004^70000_70004_70005^70000_70004_70006^70000_70003_70005^70000_70003_70006^70000_70005_70006^70001_70002_70004^70001_70002_70003^70001_70002_70005^70001_70002_70006^70001_70003_70004^70001_70004_70005^70001_70004_70006^70001_70003_70005^70001_70003_70006^70001_70005_70006^70002_70003_70004^70002_70004_70005^70002_70004_70006^70002_70003_70005^70002_70003_70006^70002_70005_70006^70003_70004_70005^70003_70004_70006^70004_70005_70006^70003_70005_70006",
+          "first_subject": "",
+          "reselect_raw": "70008",
+          "min_score": "658",
+          "min_rank": "4406",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "460840",
+          "group_code": "（01）",
+          "track_code": "3",
+          "track_name": "综合改革",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "70001,70000",
+          "min_score": "658",
+          "min_rank": "4406",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "580",
+          "min_rank": "3140",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 4,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（培养环节事宜详见学校招生章程；办学地点：主校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语成绩不低于115分；办学地点：主校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点：主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "552",
+          "min_rank": "31257",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区；包含专业：生物技术、水产养殖学。办学地点：梅山校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（办学地点：主校区）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（培养环节事宜详见学校招生章程；办学地点：主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批B段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "552",
+          "min_rank": "31257",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 7,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国家专项）（办学地点：主校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "440242",
+          "group_code": "（104）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "中外合作",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（符合条件者第四学年可选赴法国昂热大学留学,可获中法双文凭,法方不另收学费。）（中外合作）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（符合条件者第四学年可选赴法国昂热大学留学,可获中法双文凭,法方不另收学费。）（中外合作）"
+            }
+          ]
+        },
+        {
+          "special_group": "440285",
+          "group_code": "（103）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（含：生物技术、水产养殖学）（梅山校区）（按类招生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（含：生物技术、水产养殖学）（梅山校区）（按类招生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "440287",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": ""
+            }
+          ]
+        },
+        {
+          "special_group": "440286",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "中外合作",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学,可获中法双文凭,法方不另收学费）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 5,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学,可获中法双文凭,法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "440252",
+          "group_code": "（102）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "中外合作",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 6,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学,可获中法双文凭,法方不另收学费）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 6,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学,可获中法双文凭,法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "440253",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（含：经济学、国际经济与贸易、金融学）（按类招生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（含：经济学、国际经济与贸易、金融学）（按类招生）"
+            }
+          ]
+        },
+        {
+          "special_group": "440287",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批A段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（国家专项）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（国家专项）"
+            }
+          ]
+        },
+        {
+          "special_group": "440287",
+          "group_code": "（W101）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（航海类）（执行部委属和外省属高校少数民族地区加分办法1。梅山校区就读。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（航海类）（执行部委属和外省属高校少数民族地区加分办法1。梅山校区就读。）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（航海类）（执行部委属和外省属高校少数民族地区加分办法1。梅山校区就读。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（航海类）（执行部委属和外省属高校少数民族地区加分办法1。梅山校区就读。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70004",
+          "reselect_raw": "",
+          "min_score": "564",
+          "min_rank": "6090",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（外语不低于115;办学地点:主校区）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范类;办学地点:主校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点:梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含经济学、国际经济与贸易、金融学;按类招生，含经济学、国际经济与贸易、金融学专业;办学地点:主校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范类;办学地点:主校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 3,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（中外合作办学）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费;办学地点:主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "528",
+          "min_rank": "34093",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含生物技术、水产养殖学;办学地点:梅山校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:梅山校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含机械设计制造及其自动化、车辆工程、工业工程;按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业;办学地点:主校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 7,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国家专项计划）（办学地点:主校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 7,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含生物技术、水产养殖学;按类招生，含生物技术、水产养殖学专业;办学地点:梅山校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:梅山校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范类;办学地点:主校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才;办学地点:主校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（包含电子信息科学与技术、电气工程及其自动化、通信工程;按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业;办学地点:主校区）"
+            },
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（办学地点:主校区）"
+            },
+            {
+              "spcode": "090601",
+              "sp_name": "水产养殖学",
+              "plan": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（办学地点:梅山校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": "（办学地点:主校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点:梅山校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（办学地点:梅山校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": "528",
+          "min_rank": "34093",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（航海类;办学地点:梅山校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（航海类;办学地点:梅山校区）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "362136",
+          "group_code": "（03）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（主校区；符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（主校区；符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "362137",
+          "group_code": "（02）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范类）（主校区）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范类）（主校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：经济学、国际经济与贸易、金融学，主校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范类）（主校区）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范类）（主校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：经济学、国际经济与贸易、金融学，主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "362138",
+          "group_code": "（01）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区；要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区；要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区；要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "plan": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区；要求高考外语成绩不低于115分）"
+            }
+          ]
+        },
+        {
+          "special_group": "362158",
+          "group_code": "（03）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 3,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（主校区；符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 3,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（主校区；符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "362159",
+          "group_code": "（02）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：生物技术、水产养殖学，梅山校区，按类招生，含生物技术、水产养殖学专业，梅山校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、车辆工程、工业工程，按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业，主校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 7,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、电气工程及其自动化、通信工程，按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业，主校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范类）（主校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济）（与贸易，培养工贸交叉的复合型人才，主校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（主校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：生物技术、水产养殖学，梅山校区，按类招生，含生物技术、水产养殖学专业，梅山校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、车辆工程、工业工程，按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业，主校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 7,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、电气工程及其自动化、通信工程，按类招生，含电子信息科学与技术、电气工程及其自动化、通信工程专业，主校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 6,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 6,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范类）（主校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济）（与贸易，培养工贸交叉的复合型人才，主校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区）"
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（主校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "362160",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005^70000_70002_70003^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区；要求高考外语成绩不低于115分）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（主校区；要求高考外语成绩不低于115分）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "province_pinyin": "xizang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点：主校区。师范类。）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：主校区。师范类。）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点：主校区。）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：梅山校区。）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含经济学、国际经济与贸易、金融学专业。办学地点：主校区。）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含工商管理、会计学、会计学（CPA Canada）专业。办学地点：主校区。）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：主校区。）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120102",
+              "sp_name": "信息管理与信息系统",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：主校区。）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点：主校区。）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：梅山校区。）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含经济学、国际经济与贸易、金融学专业。办学地点：主校区。）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（按类招生，含工商管理、会计学、会计学（CPA Canada）专业。办学地点：主校区。）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点：主校区。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "305512",
+          "group_code": "（502）",
+          "track_code": "2074",
+          "track_name": "历史类",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "70004",
+          "reselect_raw": "70008",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 6,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "plan": 6,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "305520",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "sg_xuanke": "70000_70001_70005^70000_70002_70005^70000_70003_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70005",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            },
+            {
+              "spcode": "070503",
+              "sp_name": "人文地理与城乡规划",
+              "plan": 2,
+              "tuition": "28800",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中法合作）（符合条件者第四学年可选赴法国昂热大学留学，可获中法双文凭，法方不另收学费）"
+            }
+          ]
+        },
+        {
+          "special_group": "305521",
+          "group_code": "（201）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 7,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（教学地点：浙江省宁波市北仑区梅山街道七星南路169号）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 7,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 7,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（教学地点：浙江省宁波市北仑区梅山街道七星南路169号）"
+            }
+          ]
+        },
+        {
+          "special_group": "305522",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（教学地点：浙江省宁波市北仑区梅山街道七星南路169号）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（教学地点：浙江省宁波市北仑区梅山街道七星南路169号）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（教学地点：浙江省宁波市北仑区梅山街道七星南路169号）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 4,
+              "tuition": "6900",
+              "length": "五年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（教学地点：浙江省宁波市北仑区梅山街道七星南路169号）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）（主修机械设计制造及其自动化，辅修国际经济与贸易，培养工贸交叉的复合型人才）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080102",
+              "sp_name": "工程力学",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "417378",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "533",
+          "min_rank": "16799",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（梅山校区，按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（生物技术、水产养殖学）（梅山校区，按类招生，含生物技术、水产养殖学专业）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（机械设计制造及其自动化、车辆工程、工业工程）（按类招生，含机械设计制造及其自动化、车辆工程、工业工程专业）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "plan": 1,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（拔尖人才创新班）（梅山校区）"
+            }
+          ]
+        },
+        {
+          "special_group": "467246",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科提前批A段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "533",
+          "min_rank": "16799",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区，身体条件要求详见招生章程。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区，身体条件要求详见招生章程。）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区，身体条件要求详见招生章程。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "plan": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区，身体条件要求详见招生章程。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "province_pinyin": "qinghai",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "70000",
+          "reselect_raw": "",
+          "min_score": null,
+          "min_rank": null,
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（办学地点:浙江省宁波市）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区;办学地点:浙江省宁波市）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业生物技术、水产养殖学;梅山校区，按类招生，含生物技术、水产养殖学专业;办学地点:浙江省宁波市）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（办学地点:浙江省宁波市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（办学地点:浙江省宁波市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 64,
+      "province": "宁夏",
+      "province_pinyin": "ningxia",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "233376",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "track_name": "物理类",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "70000",
+          "reselect_raw": "70001",
+          "min_score": "488",
+          "min_rank": "8559",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（梅山校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "province_pinyin": "xinjiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2",
+          "track_name": "文科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "460",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "plan": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "plan": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（师范）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（在梅山校区就读）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：经济学、国际经济与贸易、金融学）"
+            },
+            {
+              "spcode": "1202",
+              "sp_name": "工商管理类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：工商管理、会计学、会计学（CPACANADA））"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "预科",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "506",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "plan": 30,
+              "tuition": "",
+              "length": "四年",
+              "info_short": "（包含专业：临床医学、预防医学、法学、会计学、金融学、国际经济与贸易、应用心理学、小学教育（师范）、学前教育（师范）；其中临床医学、预防医学专业学制为五年，在本校预科一年）（单列类）（学费待定）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "本科一批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "506",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "plan": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": "（在梅山校区就读）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "plan": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "plan": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info_short": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "plan": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info_short": "（国际贸易班）"
+            },
+            {
+              "spcode": "0802",
+              "sp_name": "机械类",
+              "plan": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info_short": "（包含专业：机械设计制造及其自动化、车辆工程、工业工程）"
+            }
+          ]
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "1",
+          "track_name": "理科",
+          "batch": "国家及地方专项、南疆单列、对口援疆计划本科一批次",
+          "zslx_name": "对口援疆",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "min_score": "506",
+          "min_rank": "0",
+          "score_source": null,
+          "majors": [
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "plan": 5,
+              "tuition": "6000",
+              "length": "五年",
+              "info_short": "（对口援疆计划,面向阿克苏地区招生）（定向）"
             }
           ]
         }

@@ -39,7 +39,8 @@ import {
   findCasesByCategory,
   loadHuadangCases,
   findCalendarByProvince,
-  loadZhiyuanCalendar2026
+  loadZhiyuanCalendar2026,
+  loadSchoolsAdapters as loadSchoolsAdaptersFn
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -365,6 +366,54 @@ Notes:
 `;
 
 const VERBS: Record<string, Verb> = {
+  async capabilities(args) {
+    // 一站式 dataset health/capability report — useful for Claude (or anyone)
+    // to discover what's loadable and how big each section is.
+    const { flags } = parseFlags(args);
+    const out: Record<string, unknown> = { version: VERSION };
+    try {
+      const stats = datasetStats();
+      out.college_groups = { universities: stats.universities, total_groups: stats.total_groups, total_majors: stats.total_majors, year: stats.year, available_years: stats.available_years };
+    } catch (e) { out.college_groups_error = String(e); }
+    // Lazy-load each dataset; tolerate missing files.
+    const lazyLoad = (label: string, fn: () => unknown) => {
+      try { out[label] = fn(); } catch (e) { out[label + "_error"] = String(e); }
+    };
+    lazyLoad("school_adapters", () => ({ count: (loadSchoolsAdaptersFn().schools ?? []).length }));
+    lazyLoad("tiqian_pi_catalog", () => {
+      const types = listTiqianProgramTypes();
+      return { types: types.length, program_types: types };
+    });
+    lazyLoad("zongping_2026", () => {
+      // We don't have a direct count loader; count from list across known provinces
+      const provinces = ["北京","上海","江苏","浙江","山东","广东","河南","湖北","湖南","福建","河北","四川","陕西","辽宁","黑龙江","吉林","内蒙古","广西","云南","贵州","甘肃","江西","安徽","天津"];
+      const all = new Set<string>();
+      for (const p of provinces) for (const s of listZongheSchoolsByProvince(p)) all.add(s.school);
+      return { distinct_schools: all.size };
+    });
+    lazyLoad("gaoshui_2025", () => {
+      // Probe via sport list
+      const sports = ["游泳","田径","篮球","排球","足球","乒乓球","羽毛球","网球","武术套路","射击"];
+      const counts: Record<string, number> = {};
+      for (const s of sports) counts[s] = listGaoshuiSchoolsBySport(s).length;
+      return { sports_indexed: counts };
+    });
+    lazyLoad("huadang_cases", () => ({ count: loadHuadangCases().cases.length, categories: loadHuadangCases().categories }));
+    lazyLoad("calendar_2026", () => ({ provinces: loadZhiyuanCalendar2026().provinces.length }));
+    lazyLoad("xiaoce_detail", () => {
+      // Probe via a few well-known schools
+      const probe = ["清华","北大","复旦","上交","浙大","南大","中科大","中山大学","华东师范","上海科技大学"];
+      let hits = 0;
+      for (const s of probe) if (findXiaoceDetailBySchool(s)) hits++;
+      return { probe_hits: hits, probe_size: probe.length };
+    });
+    if (flags.json === true || flags.format === "json") { printJson({ ok: true, ...out }); return; }
+    process.stdout.write("gaokao-pro capabilities\n");
+    for (const [k, v] of Object.entries(out)) {
+      process.stdout.write(`  ${k}: ${JSON.stringify(v)}\n`);
+    }
+  },
+
   async help() {
     process.stdout.write(HELP);
   },
