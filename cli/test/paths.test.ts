@@ -26,6 +26,7 @@ function baseProfile(province: string): ProfileLite {
     sport_tier: null,
     sport_name: null,
     small_language: null,
+    school_filter: null,
   };
 }
 
@@ -93,6 +94,25 @@ test("paths: zhejiang 无调剂 surfaced in province_rules", () => {
   const r = paths(baseProfile("浙江"));
   assertEqual(r.province_rules.has_tiaoji, false, "浙江 应当 调剂=false");
   assert(typeof r.province_rules.slip_warning === "string" && r.province_rules.slip_warning.length > 0, "浙江 should have slip_warning text");
+});
+
+test("paths: school_filter narrows to a single school's programs", () => {
+  const p = baseProfile("广东");
+  p.school_filter = "中山大学";
+  const r = paths(p);
+  // All returned pathways must mention 中山大学.
+  for (const pw of r.pathways) {
+    assert(pw.school.includes("中山大学"), `${pw.school} should include 中山大学 when school_filter=中山大学`);
+  }
+  // 中山大学 has 综评 in 广东 (per zonghepingjia-2026); require at least one entry.
+  assert(r.pathways.length > 0, "中山大学 in 广东 should yield ≥ 1 pathway");
+});
+
+test("paths: school_filter with no match returns empty pathways", () => {
+  const p = baseProfile("广东");
+  p.school_filter = "完全不存在的学校NONEXIST123";
+  const r = paths(p);
+  assertEqual(r.pathways.length, 0, "non-matching school_filter should yield 0 pathways");
 });
 
 test("paths: summary_by_category aggregates totals", () => {

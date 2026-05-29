@@ -51,7 +51,10 @@ import {
   listTiqianProgramsByType,
   listTiqianProgramTypes,
   listTiqianProgramsBySchool,
-  findXiaoceDetailBySchool
+  findXiaoceDetailBySchool,
+  findCasesByProvince,
+  findCasesByCategory,
+  loadHuadangCases
 } from "./datasets.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from "./groups.js";
 import { paths as pathsFn } from "./paths.js";
@@ -502,6 +505,19 @@ const TOOLS = [
     }
   },
   {
+    name: "huadang",
+    description: "滑档/退档 历史案例 (2022-2025, 45 cases) — by-province or by-category. Concrete past stories (real or composite-flagged) that teach parents *why* the abstract rules in slip-risk matter. Categories include 不勾服从, 选科不符, 单科分数, 体检不符, 身高体能, 外语语种, 国家专项资格, 政审不过, 无调剂兜底, 梯度过密, 小年大年误判, 组内冷热门差大, 新高考首届, 内蒙古旧动态投档. Use list_categories=true to enumerate.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "中文省名 (e.g. '河南')." },
+        category: { type: "string", description: "可选分类过滤 (e.g. '不勾服从')." },
+        list_categories: { type: "boolean", description: "若 true 返回所有 category 值列表." }
+      },
+      additionalProperties: false
+    }
+  },
+  {
     name: "paths",
     description: "志愿路径全景 — given a province + profile flags (少数民族 / 农村专项 / 服务期同意 / 体育等级 / 第一外语), aggregate ALL pathways in one call: 提前批 catalog (42 programs) + 综评 by-school + 高水平运动队 + 省级 滑档 rules. Each pathway tagged as eligible/ineligible with the precise caveat (服务期 / 户籍/学籍 / 等级证书). Single-shot parent-facing 'what can my kid apply for' summary.",
     inputSchema: {
@@ -515,7 +531,8 @@ const TOOLS = [
         serve: { type: "boolean", description: "是否同意签 ≥6 年服务期 (开启公费师范+优师+农村医学)" },
         sport_tier: { type: "string", description: "可选：体育等级 ('一级运动员' 或 '运动健将'). 与 sport_name 一起使用启用 高水平运动队 推荐" },
         sport_name: { type: "string", description: "可选：项目名 (e.g. '游泳'). 不传则匹配所有项目" },
-        language: { type: "string", description: "可选：第一外语 (非英语) — 开启 小语种提前批" }
+        language: { type: "string", description: "可选：第一外语 (非英语) — 开启 小语种提前批" },
+        school: { type: "string", description: "可选：学校名 substring (e.g. '清华')，只返回 该学校 的所有路径" }
       },
       required: ["province"],
       additionalProperties: false
@@ -871,6 +888,16 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
     }
+    case "huadang": {
+      if (args.list_categories === true) {
+        return { ok: true, categories: loadHuadangCases().categories };
+      }
+      const province = typeof args.province === "string" ? args.province : null;
+      const category = typeof args.category === "string" ? args.category : null;
+      let cases = province ? findCasesByProvince(province) : loadHuadangCases().cases;
+      if (category) cases = cases.filter((c) => c.category === category);
+      return { ok: true, query: { province, category }, count: cases.length, cases };
+    }
     case "paths": {
       const province = getStr(args, "province");
       const result = pathsFn({
@@ -883,6 +910,7 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
         sport_tier: typeof args.sport_tier === "string" ? args.sport_tier : null,
         sport_name: typeof args.sport_name === "string" ? args.sport_name : null,
         small_language: typeof args.language === "string" ? args.language : null,
+        school_filter: typeof args.school === "string" ? args.school : null,
       });
       return { ok: true, ...result };
     }

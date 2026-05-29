@@ -459,3 +459,63 @@ export function findXiaoceDetailBySchool(name: string): XiaoceSchoolDetail | nul
   if (byCode) return byCode;
   return file.schools.find((s) => s.school.includes(q)) ?? null;
 }
+
+// ---- 滑档/退档 历史案例 (2022-2025) ----
+// Concrete past cases for the 滑档/退档 risk scenarios surfaced by slipRisk
+// (and by zhiyuan-rules-2026 abstract 滑档风险/策略 fields). Parents respond to
+// past stories far better than abstract warnings — this dataset is the
+// case-law layer for the "why prefs.must_have / 服从调剂 / 选科核验 / etc.
+// actually matter" conversation.
+export type HuadangCaseType = "滑档" | "退档";
+export type HuadangCase = {
+  case_id: string;
+  year: number;
+  province: string;
+  type: HuadangCaseType;
+  school: string | null;
+  category: string;
+  candidate_profile_summary: string;
+  what_happened: string;
+  lesson: string;
+  tags: string[];
+  source_hint: string;
+  is_composite: boolean;
+};
+export type HuadangCasesFile = {
+  _kind: string;
+  _year: number;
+  _compiled: string;
+  _source: string[];
+  _notes?: string[];
+  categories: string[];
+  cases: HuadangCase[];
+};
+
+let huadangCache: HuadangCasesFile | null = null;
+
+export function loadHuadangCases(): HuadangCasesFile {
+  if (huadangCache) return huadangCache;
+  const data = load<HuadangCasesFile>("huadang-cases-2022-2025.json");
+  if (!data) throw missingDataset("huadang-cases-2022-2025.json");
+  if (!Array.isArray(data.cases)) {
+    throw new Error("huadang-cases-2022-2025.json is missing its `cases` array — file is malformed.");
+  }
+  huadangCache = data;
+  return data;
+}
+
+// Lists cases for a given province (exact match against `province` field).
+export function findCasesByProvince(name: string): HuadangCase[] {
+  const file = loadHuadangCases();
+  const q = name.trim();
+  return file.cases.filter((c) => c.province === q);
+}
+
+// Lists cases for a given category (exact match against `category` field).
+// Categories are enumerated in the file's `categories` array — see
+// huadang-cases-2022-2025.json for the canonical list.
+export function findCasesByCategory(cat: string): HuadangCase[] {
+  const file = loadHuadangCases();
+  const q = cat.trim();
+  return file.cases.filter((c) => c.category === q);
+}

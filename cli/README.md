@@ -58,10 +58,11 @@ local index (1 MB gzipped) so `recommend` and `top` run fully offline.
 | `rank`      | score ↔ 全省位次 via official 一分一段表 (beijing 2023-2025 ingested)        |
 | `provinces` | List supported provinces with 新高考 reform regime                          |
 | `mcp`       | Run as MCP server — `claude mcp add gaokao-pro -- npx -y gaokao-pro mcp`  |
-| `groups`    | 院校专业组 lookup (109 schools × 11 provinces × ~4700 groups × ~27,000 majors)  |
+| `groups`    | 院校专业组 lookup (121 schools × 11 provinces × ~5450 groups × ~30,000 majors)  |
 | `xiaoce`    | 强基/综评 校测详情 (59 校): 笔试/面试/体测/录取分配/报名时间/签约条款            |
+| `paths`     | 志愿路径全景 — 一次列出提前批/综评/运动队/省调剂rules + ✓/✗ caveat              |
 | `slip-risk` | 滑档风险评估：(分/位次)×组×省调剂规则 → 高/中/低/稳 + 中文 reasons               |
-| `tiqian-pi` | 提前批 catalog (42 项目 × 14 类型 × 16+ 省): 公费师范/优师/综评/三位一体/中外合作/专项/公安/军校/航海/小语种/民族班/预科 |
+| `tiqian-pi` | 提前批 catalog (151 项目 × 16 类型 × 38+ 省): 强基/公费师范/优师/综评/三位一体/中外合作/专项/公安/军校/港校/航海/小语种/民族班/预科 |
 | `zongping`  | 综评 2026 by-school: UCAS / SUSTech / ShanghaiTech / CUHKSZ / 沪苏浙鲁粤综评校 |
 | `gaoshui-sport` | 高水平运动队 by-sport (post-2024 reform): tier × exam-window × score-path  |
 

@@ -34,7 +34,10 @@ import {
   listTiqianProgramsByType,
   listTiqianProgramTypes,
   listTiqianProgramsBySchool,
-  findXiaoceDetailBySchool
+  findXiaoceDetailBySchool,
+  findCasesByProvince,
+  findCasesByCategory,
+  loadHuadangCases
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -241,11 +244,12 @@ Usage:
 
   gaokao-pro tiqian-pi [<province>] [--type <type>] [--school <name>] [--json]
   gaokao-pro tiqian-pi --list-types
-      提前批 special-program catalog (42 programs × 16+ provinces). Cross-axis
-      query: 公费师范生 / 优师 / 综评 / 三位一体 / 中外合作综评 / 国家专项 /
-      高校专项 / 公安院校 / 军校 / 农村订单医学 / 航海类 / 小语种 /
-      民族班 / 预科班. Each entry carries eligibility + commitment +
-      ratio + url for parent-facing 履约条款 review.
+      提前批 special-program catalog (151 programs × 16 types × 38+ provinces).
+      Cross-axis query: 强基计划 (39 校) / 公费师范生 / 优师 / 综评 / 三位一体
+      / 中外合作综评 / 国家专项 / 高校专项 / 公安院校 (16 校) / 军校 (27 校)
+      / 农村订单医学 / 航海类 / 小语种 / 民族班 / 预科班 / 港校综评 (HKU/CUHK/
+      HKUST). Each entry carries eligibility + commitment + ratio + url for
+      parent-facing 履约条款 review.
       e.g. gaokao-pro tiqian-pi 山东 --type 综评提前批
            gaokao-pro tiqian-pi --school 清华
            gaokao-pro tiqian-pi --list-types
@@ -271,9 +275,17 @@ Usage:
       e.g. gaokao-pro xiaoce 清华
            gaokao-pro xiaoce 浙江大学 --json
 
+  gaokao-pro huadang [<省份>] [--category <类>] [--list-categories] [--json]
+      滑档/退档 历史案例 (2022-2025, 45 个): 真实/综合案例双标记，每条带
+      考生 profile / 经过 / 教训 / 来源. 类别覆盖 不勾服从/选科不符/单科
+      分/体检不符/身高体能/外语语种/专项资格/政审不过/无调剂兜底/梯度过
+      密/小年大年/组内冷热门/新高考首届/旧动态投档.
+      e.g. gaokao-pro huadang 河南
+           gaokao-pro huadang --category 不勾服从
+
   gaokao-pro paths <省份> [--score N] [--rank N] [--minority] [--rural]
                          [--serve] [--sport <名>] [--sport-tier <级>]
-                         [--language <非英语>] [--json]
+                         [--language <非英语>] [--school <名>] [--json]
       志愿路径全景 — 给定省份 + 家长侧 profile flags，单次列出所有可走路径：
       提前批 catalog (公费师范/优师/综评/三位一体/中外合作/专项/公安/军校/
       农村订单医学/航海/小语种/民族班/预科) + 综评 by-school +
@@ -992,6 +1004,44 @@ const VERBS: Record<string, Verb> = {
     process.stdout.write(lines.join("\n"));
   },
 
+  async huadang(args) {
+    const { positional, flags } = parseFlags(args);
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    const category = typeof flags.category === "string" ? flags.category : null;
+    if (!province && !category && !flags["list-categories"]) {
+      throw new Error("usage: gaokao-pro huadang [<省份>] [--category <类型>] [--list-categories] [--json]");
+    }
+    if (flags["list-categories"] === true) {
+      const file = loadHuadangCases();
+      if (flags.json === true || flags.format === "json") { printJson({ ok: true, categories: file.categories }); return; }
+      process.stdout.write("滑档/退档 分类:\n" + file.categories.map(c => `  - ${c}`).join("\n") + "\n");
+      return;
+    }
+    let cases = province ? findCasesByProvince(province) : loadHuadangCases().cases;
+    if (category) cases = cases.filter(c => c.category === category);
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, query: { province, category }, count: cases.length, cases });
+      return;
+    }
+    const lines: string[] = [];
+    const header = province ? `滑档/退档历史案例 — ${province}${category ? " · " + category : ""}` : `滑档/退档历史案例 · ${category}`;
+    lines.push(header, "");
+    if (cases.length === 0) {
+      lines.push("(无匹配案例)");
+    }
+    for (const c of cases) {
+      const stamp = c.is_composite ? "📌(综合案例)" : "📍(实例)";
+      lines.push(`${stamp} ${c.case_id} · ${c.year} ${c.province} · ${c.type} · ${c.category}${c.school ? " · " + c.school : ""}`);
+      lines.push(`  考生: ${c.candidate_profile_summary}`);
+      lines.push(`  经过: ${c.what_happened}`);
+      lines.push(`  教训: ${c.lesson}`);
+      if (c.tags?.length) lines.push(`  标签: ${c.tags.join("、")}`);
+      if (c.source_hint) lines.push(`  来源: ${c.source_hint}`);
+      lines.push("");
+    }
+    process.stdout.write(lines.join("\n"));
+  },
+
   async paths(args) {
     const { positional, flags } = parseFlags(args);
     const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
@@ -1006,6 +1056,7 @@ const VERBS: Record<string, Verb> = {
       sport_tier: typeof flags["sport-tier"] === "string" ? flags["sport-tier"] : null,
       sport_name: typeof flags.sport === "string" ? flags.sport : null,
       small_language: typeof flags.language === "string" ? flags.language : null,
+      school_filter: typeof flags.school === "string" ? flags.school : null,
     };
     const result = pathsFn(profile);
     if (flags.json === true || flags.format === "json") {

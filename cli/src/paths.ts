@@ -35,6 +35,7 @@ export type ProfileLite = {
   sport_tier: string | null; // 体育等级: 一级运动员/运动健将/null
   sport_name: string | null; // 项目名, e.g. "游泳"
   small_language: string | null; // 第一外语非英语 → 小语种提前批
+  school_filter: string | null;  // 可选：substring 过滤目标学校 (e.g. "清华")
 };
 
 export type PathwayCategory =
@@ -93,6 +94,12 @@ function tiqianEligible(p: TiqianProgram, profile: ProfileLite): { eligible: boo
   if (t === "综评提前批" || t === "三位一体" || t === "中外合作综评") {
     return { eligible: true, caveat: "需初审 + 校测；分数门槛 ≥ 一本/特控" };
   }
+  if (t === "强基计划") {
+    return { eligible: true, caveat: "限报1校；校测笔试+面试+体测；锁基础学科本研衔接" };
+  }
+  if (t === "港校综评") {
+    return { eligible: true, caveat: "高考≥特控+面试+英语高分；学费 ~18 万/年" };
+  }
   return { eligible: true, caveat: null };
 }
 
@@ -118,9 +125,14 @@ function gaoshuiEligible(s: GaoshuiSchool2025, profile: ProfileLite): { eligible
 export function paths(profile: ProfileLite): PathsResult {
   const rules = provinceTiaojiInfo(profile.province);
   const pathways: Pathway[] = [];
+  const schoolMatch = (name: string): boolean => {
+    if (!profile.school_filter) return true;
+    return typeof name === "string" && name.includes(profile.school_filter);
+  };
 
   // 1) 提前批 catalog
   for (const p of listTiqianProgramsByProvince(profile.province)) {
+    if (!schoolMatch(p.school)) continue;
     const { eligible, caveat } = tiqianEligible(p, profile);
     pathways.push({
       category: "提前批",
@@ -141,6 +153,7 @@ export function paths(profile: ProfileLite): PathsResult {
 
   // 2) 综评 by-school for the province
   for (const s of listZongheSchoolsByProvince(profile.province)) {
+    if (!schoolMatch(s.school)) continue;
     const { eligible, caveat } = zongpingEligible(s, profile);
     const xiaoce = findXiaoceDetailBySchool(s.school);
     pathways.push({
@@ -172,6 +185,7 @@ export function paths(profile: ProfileLite): PathsResult {
   if (profile.sport_tier) {
     const gaoshui = loadGaoshuiYundongdui2025();
     for (const s of gaoshui.schools) {
+      if (!schoolMatch(s.school)) continue;
       const { eligible, caveat } = gaoshuiEligible(s, profile);
       if (!eligible && !profile.sport_name) continue;  // skip schools with no relevant sport when no filter
       const matchedSports = (s.sports || []).filter((sp) => !profile.sport_name || sp.name.includes(profile.sport_name));
