@@ -14,6 +14,7 @@ import { recommend, type RecommendCandidate } from "./recommend.js";
 import { findUniversity, slipRisk, provinceTiaojiInfo, detectGroupTrap, type SlipRiskResult, type ProvinceTiaojiInfo } from "./groups.js";
 import { paths as pathsFn, type ProfileLite, type PathsResult } from "./paths.js";
 import { resolveProvince, type ProvinceId, type Subject } from "./codes.js";
+import { listTiqianProgramsBySchool, findSchoolAdapter } from "./datasets.js";
 
 export type RoadmapInput = {
   province: string;
@@ -51,6 +52,16 @@ export type SchoolPickWithRisk = {
     hot_majors_sample: string[];     // 同组热门 (前 3 个)
     trap_hint: string | null;        // 雷区文字提示 (e.g. "计算机+护理同组")
   } | null;
+  // 三层标签 — 推荐为什么是这一档？分:
+  //   📊 data_facts:    可验证的招生事实 (gap / 985 标签 / 投档线 etc.)
+  //   📋 policy_basis:  政策依据 (公费师范 / 强基 / 综评 / 专项 etc.)
+  //   💭 my_judgment:   主观判断 (可能错)，目前留空 — 不在 roadmap 里推断,
+  //                     家长想要主观判断要去 `outlook` verb 查具体专业
+  reasoning: {
+    data_facts: string[];
+    policy_basis: string[];
+    my_judgment: string | null;
+  };
 };
 
 export type RoadmapResult = {
@@ -121,7 +132,60 @@ function pickRepresentativeRisk(
   }
 }
 
-function enrich(c: RecommendCandidate, provinceName: string, candidateScore: number, candidateRank: number | null): SchoolPickWithRisk {
+function buildReasoning(c: RecommendCandidate, bucket: "冲" | "稳" | "保", inDataset: boolean, groupsCount: number | null): SchoolPickWithRisk["reasoning"] {
+  const data_facts: string[] = [];
+  const policy_basis: string[] = [];
+
+  // 📊 数据事实 — 不可争辩
+  const tag = c.is985 ? "985" : c.is211 ? "211" : c.dualClass === "双一流" ? "双一流" : "普通本科";
+  data_facts.push(`${tag} · ${c.city} · ${c.baselineYear} 投档线 ${c.baselineMinScore}`);
+  const cmp = c.delta >= 0 ? `+${c.delta} (高于基线)` : `${c.delta} (低于基线)`;
+  data_facts.push(`分差 ${cmp} → 分到 [${bucket}] 档`);
+  if (inDataset && groupsCount !== null) {
+    data_facts.push(`同省专业组数据：${groupsCount} 组`);
+  } else if (!inDataset) {
+    data_facts.push("⚠️ 不在我们 college-groups 数据集 (无法看具体专业组)");
+  }
+
+  // 📋 政策依据 — 学校跑的特殊计划
+  try {
+    const programs = listTiqianProgramsBySchool(c.name);
+    const types = new Set(programs.map((p) => p.program_type));
+    if (types.has("强基计划")) policy_basis.push("强基计划 (教育部 2020) — 锁基础学科 + 本研衔接");
+    if (types.has("公费师范生")) policy_basis.push("公费师范生 (教育部 2007 / 5 部委 2018) — 学费全免 + 6 年服务 + 编制");
+    if (types.has("优师计划")) policy_basis.push("优师计划 (教育部 2021) — 定向中西部欠发达县");
+    if (types.has("综评提前批") || types.has("三位一体")) policy_basis.push("综合评价招生 (各省试点) — 高考+校测+学考综合");
+    if (types.has("中外合作综评")) policy_basis.push("中外合作综评 — ⚠️ 高昂学费 (一般 ¥10-20万/年)");
+    if (types.has("国家专项")) policy_basis.push("国家专项 (国发 2012-26) — 限农村户籍 + 学籍 3+3");
+    if (types.has("高校专项")) policy_basis.push("高校专项 (自强/筑梦/腾飞等) — 限 832 县农村");
+    if (types.has("公安院校")) policy_basis.push("公安院校 (公安部直属) — 入警率 80%+，含政审");
+    if (types.has("军校")) policy_basis.push("军校 — 学费/食宿/津贴全免 + 服役 8 年");
+    if (types.has("农村订单医学")) policy_basis.push("农村订单医学 (国务院医改) — 6 年定向到县级医院");
+    if (types.has("民族班") || types.has("预科班")) policy_basis.push("民族班/预科班 — 限少数民族 / 民族区生源");
+  } catch { /* dataset may be missing */ }
+
+  // 校 adapter — additional verifiable facts (zsw URL / 联系方式)
+  try {
+    const ad = findSchoolAdapter(c.name);
+    if (ad?.programs?.qiangji?.offers === true && !policy_basis.some(p => p.includes("强基计划"))) {
+      policy_basis.push("强基计划 (adapter 显示开设)");
+    }
+    if (ad?.programs?.zonghepingjia?.offers === true && !policy_basis.some(p => p.includes("综合评价"))) {
+      policy_basis.push("综合评价 (adapter 显示开设)");
+    }
+    if (ad?.programs?.gao_shui_yundong === true) {
+      policy_basis.push("高水平运动队 (后端有体育特长生通道)");
+    }
+  } catch { /* ignore */ }
+
+  return {
+    data_facts,
+    policy_basis,
+    my_judgment: null,  // roadmap 不做主观判断，留给 outlook verb
+  };
+}
+
+function enrich(c: RecommendCandidate, bucket: "冲" | "稳" | "保", provinceName: string, candidateScore: number, candidateRank: number | null): SchoolPickWithRisk {
   const u = findUniversity(c.name);
   const inDataset = !!u;
   const provinceObj = u?.provinces.find((p) => p.province === provinceName);
@@ -137,6 +201,7 @@ function enrich(c: RecommendCandidate, provinceName: string, candidateScore: num
     in_groups_dataset: inDataset,
     groups_in_province: provinceObj?.groups_count ?? null,
     representative_slip_risk: pickRepresentativeRisk(c.name, provinceName, candidateScore, candidateRank),
+    reasoning: buildReasoning(c, bucket, inDataset, provinceObj?.groups_count ?? null),
   };
 }
 
@@ -157,9 +222,9 @@ export function roadmap(input: RoadmapInput): RoadmapResult {
   });
 
   // Pick top-N per bucket and enrich with groups + slip-risk.
-  const enrichedChong = rec.buckets["冲"].slice(0, perBucket).map((c) => enrich(c, input.province, input.score, input.rank ?? null));
-  const enrichedWen  = rec.buckets["稳"].slice(0, perBucket).map((c) => enrich(c, input.province, input.score, input.rank ?? null));
-  const enrichedBao  = rec.buckets["保"].slice(0, perBucket).map((c) => enrich(c, input.province, input.score, input.rank ?? null));
+  const enrichedChong = rec.buckets["冲"].slice(0, perBucket).map((c) => enrich(c, "冲", input.province, input.score, input.rank ?? null));
+  const enrichedWen  = rec.buckets["稳"].slice(0, perBucket).map((c) => enrich(c, "稳", input.province, input.score, input.rank ?? null));
+  const enrichedBao  = rec.buckets["保"].slice(0, perBucket).map((c) => enrich(c, "保", input.province, input.score, input.rank ?? null));
 
   // 2) paths summary (提前批/综评/运动队 alternatives)
   const profile: ProfileLite = {

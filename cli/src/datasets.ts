@@ -387,6 +387,53 @@ export function loadDataYearStatus(): DataYearStatus | null {
   yearStatusCache = data;
   return data;
 }
+// ---- 2030 专业前景 outlook ----
+export type ZhuanyeOutlookMajor = {
+  name: string;
+  spcode_examples?: string[];
+  category?: string;
+  data_facts: string[];
+  policy_basis: string[];
+  my_judgment: {
+    outlook_2030: string;
+    confidence: "高" | "中" | "低";
+    why: string;
+    wrong_scenario: string;
+    verdict: string;
+  };
+};
+export type ZhuanyeOutlookFile = {
+  _kind: string;
+  _year_target: number;
+  _compiled: string;
+  _source: string[];
+  _notes?: string[];
+  majors: ZhuanyeOutlookMajor[];
+};
+let outlookCache: ZhuanyeOutlookFile | null = null;
+export function loadZhuanyeOutlook(): ZhuanyeOutlookFile {
+  if (outlookCache) return outlookCache;
+  const data = load<ZhuanyeOutlookFile>("zhuanye-outlook-2030.json");
+  if (!data) throw missingDataset("zhuanye-outlook-2030.json");
+  if (!Array.isArray(data.majors)) {
+    throw new Error("zhuanye-outlook-2030.json is missing its `majors` array — file is malformed.");
+  }
+  outlookCache = data;
+  return data;
+}
+// Lookup by major name (substring) or spcode prefix.
+export function findOutlookByMajor(query: string): ZhuanyeOutlookMajor[] {
+  const file = loadZhuanyeOutlook();
+  const q = query.trim();
+  if (!q) return [];
+  // Match by name substring OR spcode prefix
+  return file.majors.filter((m) => {
+    if (m.name.includes(q) || q.includes(m.name)) return true;
+    if (m.spcode_examples?.some((c) => c.startsWith(q) || q.startsWith(c.slice(0, 4)))) return true;
+    return false;
+  });
+}
+
 // Returns the human-readable warning for a given verb (recommend / top /
 // slip-risk / roadmap / rank), or null if the status file is missing or
 // has no entry for that verb. Verbs append this to their output footer

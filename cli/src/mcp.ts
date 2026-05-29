@@ -57,7 +57,9 @@ import {
   loadHuadangCases,
   findCalendarByProvince,
   loadZhiyuanCalendar2026,
-  loadDataYearStatus
+  loadDataYearStatus,
+  loadZhuanyeOutlook,
+  findOutlookByMajor
 } from "./datasets.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from "./groups.js";
 import { paths as pathsFn } from "./paths.js";
@@ -507,6 +509,18 @@ export const TOOLS = [
         school: { type: "string", description: "中文校名 substring (e.g. '清华', '浙江大学')." }
       },
       required: ["school"],
+      additionalProperties: false
+    }
+  },
+  {
+    name: "outlook",
+    description: "本科专业 2030 前景 — 三层标签 (📊 数据事实 / 📋 政策依据 / 💭 我的判断). 覆盖 ~40 个最常报+新兴专业 (集成电路/AI/储能/机器人/临床医学/康复 /会计/法学/工商管理 等). 每个 💭 主观判断带 confidence + wrong_scenario, 透明标记什么是事实、什么是猜测. 关键: 用于解答 '2030 毕业能找到工作吗' 类问题, 但需要parents自己判断 my_judgment 部分的可信度.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        major: { type: "string", description: "专业名 (substring 匹配, e.g. '计算机', '会计') 或 spcode 前缀 (e.g. '0809')" },
+        list: { type: "boolean", description: "若 true 返回全表 (按学科门类分组, 含 verdict)" }
+      },
       additionalProperties: false
     }
   },
@@ -961,6 +975,17 @@ export async function dispatch(name: string, args: Record<string, unknown>): Pro
       const detail = findXiaoceDetailBySchool(school);
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
+    }
+    case "outlook": {
+      if (args.list === true) {
+        const file = loadZhuanyeOutlook();
+        return { ok: true, count: file.majors.length, majors: file.majors.map(m => ({ name: m.name, category: m.category, verdict: m.my_judgment.verdict, confidence: m.my_judgment.confidence })) };
+      }
+      const major = typeof args.major === "string" ? args.major : "";
+      if (!major) return { ok: false, error: "Missing 'major' (or pass list=true). E.g. {major: '集成电路'}" };
+      const matches = findOutlookByMajor(major);
+      if (matches.length === 0) return { ok: false, error: `「${major}」未在 outlook 数据集` };
+      return { ok: true, count: matches.length, majors: matches };
     }
     case "data_status": {
       const s = loadDataYearStatus();

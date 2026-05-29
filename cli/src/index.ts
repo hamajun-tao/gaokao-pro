@@ -43,7 +43,9 @@ import {
   loadZhiyuanCalendar2026,
   loadSchoolsAdapters as loadSchoolsAdaptersFn,
   verbWarning,
-  loadDataYearStatus
+  loadDataYearStatus,
+  loadZhuanyeOutlook,
+  findOutlookByMajor
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -293,6 +295,15 @@ Usage:
       groups colleges admitting here. Mirror of dossier (school 侧).
       e.g. gaokao-pro province-overview 河南
            gaokao-pro province-overview 浙江 --json
+
+  gaokao-pro outlook <专业名|spcode>  |  gaokao-pro outlook --list
+      本科专业 2030 前景 — 三层标签 (📊 数据事实 / 📋 政策依据 / 💭 我的判断).
+      覆盖 ~40 个最常报+新兴专业 (集成电路/AI/储能/机器人/临床医学/康复/
+      会计/法学/工商管理 等). 每个 💭 主观判断带 confidence + wrong_scenario,
+      透明标记什么是事实、什么是猜测.
+      e.g. gaokao-pro outlook 集成电路
+           gaokao-pro outlook 会计
+           gaokao-pro outlook --list
 
   gaokao-pro data-status [--json]
       数据集年度状态: 2026 关键数据 (招生计划/分数线/一分一段) 公布时间
@@ -1243,6 +1254,12 @@ const VERBS: Record<string, Verb> = {
           if (risk && risk.trap_majors && risk.trap_majors.length > 0) {
             md.push(`  ⚠️ 调剂雷: ${risk.trap_majors.slice(0, 3).join("、")}`);
           }
+          // 📋 policy basis (compact; up to 2 per pick in chat mode)
+          if (c.reasoning && c.reasoning.policy_basis.length > 0) {
+            for (const p of c.reasoning.policy_basis.slice(0, 2)) {
+              md.push(`  📋 ${p}`);
+            }
+          }
         }
         md.push("");
       }
@@ -1293,6 +1310,12 @@ const VERBS: Record<string, Verb> = {
         if (risk && risk.trap_majors && risk.trap_majors.length > 0) {
           lines.push(`    ⚠️ 调剂雷: ${risk.trap_majors.slice(0, 4).join("、")}${risk.trap_majors.length > 4 ? "等" : ""} (同组热门 ${risk.hot_majors_sample.slice(0, 2).join("、")} — 勾服从可能掉到冷门)`);
         }
+        // 三层标签 — 推荐依据透明化
+        if (c.reasoning && c.reasoning.policy_basis.length > 0) {
+          for (const p of c.reasoning.policy_basis.slice(0, 3)) {
+            lines.push(`    📋 ${p}`);
+          }
+        }
       }
       lines.push("");
     }
@@ -1317,6 +1340,67 @@ const VERBS: Record<string, Verb> = {
       lines.push(`【2025 baseline 提示】${w}`);
     }
     process.stdout.write(lines.join("\n") + "\n");
+  },
+
+  async outlook(args) {
+    const { positional, flags } = parseFlags(args);
+    const query = positional[0] ?? (typeof flags.major === "string" ? flags.major : null);
+
+    if (flags.list === true) {
+      const file = loadZhuanyeOutlook();
+      if (flags.json === true || flags.format === "json") {
+        printJson({ ok: true, count: file.majors.length, majors: file.majors.map(m => ({ name: m.name, category: m.category, verdict: m.my_judgment.verdict })) });
+        return;
+      }
+      process.stdout.write(`2030 专业前景 — ${file.majors.length} 个专业已录入\n\n`);
+      const byCategory: Record<string, { name: string; verdict: string }[]> = {};
+      for (const m of file.majors) {
+        const cat = m.category ?? "其他";
+        if (!byCategory[cat]) byCategory[cat] = [];
+        byCategory[cat].push({ name: m.name, verdict: m.my_judgment.verdict });
+      }
+      for (const [cat, list] of Object.entries(byCategory)) {
+        process.stdout.write(`【${cat}】\n`);
+        for (const m of list) process.stdout.write(`  ${m.verdict.slice(0, 2)} ${m.name}\n`);
+        process.stdout.write(`\n`);
+      }
+      return;
+    }
+
+    if (!query) {
+      throw new Error("usage: gaokao-pro outlook <专业名|spcode>  |  gaokao-pro outlook --list");
+    }
+    const matches = findOutlookByMajor(query);
+    if (matches.length === 0) {
+      throw new Error(`「${query}」未在 outlook 数据集找到 (覆盖 ${loadZhuanyeOutlook().majors.length} 个最常报+新兴专业)；试 'gaokao-pro outlook --list' 看全表`);
+    }
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, count: matches.length, majors: matches });
+      return;
+    }
+    const lines: string[] = [];
+    for (const m of matches) {
+      lines.push(`【${m.name}】${m.spcode_examples ? "  spcode: " + m.spcode_examples.join(" / ") : ""}${m.category ? "  分类: " + m.category : ""}`);
+      lines.push(`  ${m.my_judgment.verdict}`);
+      lines.push("");
+      lines.push("📊 数据事实 (可验证):");
+      for (const f of m.data_facts) lines.push(`  · ${f}`);
+      lines.push("");
+      if (m.policy_basis.length > 0) {
+        lines.push("📋 政策依据 (高确定性):");
+        for (const p of m.policy_basis) lines.push(`  · ${p}`);
+        lines.push("");
+      }
+      lines.push("💭 我的判断 (主观, 可能错):");
+      lines.push(`  outlook 2030: ${m.my_judgment.outlook_2030}`);
+      lines.push(`  confidence: ${m.my_judgment.confidence}`);
+      lines.push(`  why: ${m.my_judgment.why}`);
+      lines.push(`  wrong_scenario: ${m.my_judgment.wrong_scenario}`);
+      lines.push("");
+      lines.push("---");
+      lines.push("");
+    }
+    process.stdout.write(lines.join("\n"));
   },
 
   async "data-status"(args) {
