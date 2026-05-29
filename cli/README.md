@@ -63,6 +63,8 @@ local index (1 MB gzipped) so `recommend` and `top` run fully offline.
 | `paths`     | 志愿路径全景 — 一次列出提前批/综评/运动队/省调剂rules + ✓/✗ caveat              |
 | `dossier`   | 院校 dossier — 7 数据集一站聚合：招生网+专业组+校测+综评+运动队+提前批+滑档     |
 | `roadmap`   | 完整志愿规划 — recommend + per-pick slip-risk + paths + 关键提醒, 一次出全图 |
+| `province-overview` | 省份 overview — 调剂rules + 2026日历 + 综评+提前批+滑档历史+college覆盖 |
+| `calendar`  | 2026 投档时间日历 — 31 省 batch fill→dispatch→release→supplementary 时间窗 |
 | `huadang`   | 滑档/退档 历史案例 (45 case): by-province / by-category / list-categories       |
 | `slip-risk` | 滑档风险评估 — (分/位次)×组×省调剂rules+组内梯度 → 4 档verdict + 中文 reasons + ≤3 案例 |
 | `tiqian-pi` | 提前批 catalog (151 项目 × 16 类型 × 38+ 省): 强基/公费师范/优师/综评/三位一体/中外合作/专项/公安/军校/港校/航海/小语种/民族班/预科 |

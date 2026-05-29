@@ -49,6 +49,7 @@ import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk, provin
 import { paths as pathsFn, type ProfileLite } from "./paths.js";
 import { dossier as dossierFn } from "./dossier.js";
 import { roadmap as roadmapFn } from "./roadmap.js";
+import { provinceOverview as provinceOverviewFn } from "./province-overview.js";
 import { VERSION } from "./version.js";
 
 type Verb = (args: string[]) => Promise<void>;
@@ -278,6 +279,13 @@ Usage:
       对家长决定 "投入强基/综评备考性价比" 极有用。
       e.g. gaokao-pro xiaoce 清华
            gaokao-pro xiaoce 浙江大学 --json
+
+  gaokao-pro province-overview <省份> [--json]
+      省份 overview 一站聚合: 调剂rules + 2026 calendar + 综评 open
+      schools + 提前批 programs eligible + 滑档 cases in 该省 + college-
+      groups colleges admitting here. Mirror of dossier (school 侧).
+      e.g. gaokao-pro province-overview 河南
+           gaokao-pro province-overview 浙江 --json
 
   gaokao-pro calendar <省份> [--json]  |  gaokao-pro calendar --list
       2026 投档时间日历 (31 省): 考试日期 / 出分时间 / 各批次填报-投档-
@@ -1115,6 +1123,93 @@ const VERBS: Record<string, Verb> = {
     if (result.caveats.length) {
       lines.push("【关键提醒】");
       for (const c of result.caveats) lines.push(`  ⚠️ ${c}`);
+    }
+    process.stdout.write(lines.join("\n") + "\n");
+  },
+
+  async "province-overview"(args) {
+    const { positional, flags } = parseFlags(args);
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!province) throw new Error("usage: gaokao-pro province-overview <省份> [--json]");
+    const result = provinceOverviewFn(province);
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, ...result });
+      return;
+    }
+    const lines: string[] = [];
+    lines.push(`省份 overview — ${result.province}`);
+    lines.push("");
+
+    // Rules
+    lines.push("【志愿规则】");
+    lines.push(`  改革: ${result.rules.reform ?? "?"} · 单位: ${result.rules.unit ?? "?"} · 调剂: ${result.rules.has_tiaoji === null ? "?" : (result.rules.has_tiaoji ? "有" : "⚠️无")}`);
+    if (result.rules.slip_warning) lines.push(`  滑档提示: ${result.rules.slip_warning}`);
+    if (result.rules.strategy) lines.push(`  策略: ${result.rules.strategy}`);
+    lines.push("");
+
+    // Calendar
+    if (result.calendar && "_status" in result.calendar) {
+      lines.push("【2026 时间日历】(无数据)");
+    } else {
+      const cal = result.calendar;
+      const tentative = (cal as { tentative?: boolean }).tentative;
+      lines.push(`【2026 时间日历】${tentative ? "⚠️ tentative (基于 2025)" : ""}`);
+      if (cal.exam_dates) lines.push(`  考试: ${cal.exam_dates} · 出分: ${cal.score_release ?? "?"}`);
+      for (const b of cal.batches || []) {
+        const range = b.fill_start ? `${b.fill_start}${b.fill_end ? " → " + b.fill_end : ""}` : "?";
+        lines.push(`  ${b.name}: 填报 ${range}${b.dispatch_date ? " · 投档 " + b.dispatch_date : ""}${b.release_date ? " · 录取 " + b.release_date : ""}`);
+      }
+    }
+    lines.push("");
+
+    // Totals snapshot
+    lines.push("【数据集覆盖】");
+    lines.push(`  综评校 (zongping):     ${result.totals.zongping_count} 校`);
+    lines.push(`  提前批 programs:        ${result.totals.tiqian_count} 项 (${result.totals.program_types.length} 类型, ${result.totals.eligible_unconditional} 项无 profile 限制)`);
+    lines.push(`  滑档历史 cases:        ${result.totals.huadang_count} 条`);
+    lines.push(`  college-groups 校:     ${result.totals.colleges_with_groups} 校`);
+    lines.push("");
+
+    // 提前批 by type
+    if (result.totals.program_types.length > 0) {
+      lines.push("【可走的提前批类型】");
+      const byType: Record<string, number> = {};
+      for (const p of result.tiqian_programs) byType[p.program_type] = (byType[p.program_type] || 0) + 1;
+      for (const [t, n] of Object.entries(byType).sort((a, b) => b[1] - a[1])) {
+        lines.push(`  ${t}: ${n} 校/项目`);
+      }
+      lines.push("");
+    }
+
+    // 综评 schools quick
+    if (result.zongping_schools.length > 0) {
+      lines.push("【综评 open schools】");
+      for (const s of result.zongping_schools.slice(0, 12)) {
+        lines.push(`  - ${s.school}${s.ratio ? " · " + s.ratio : ""}${s.seats !== null && s.seats !== undefined ? " · 计划 " + s.seats : ""}`);
+      }
+      if (result.zongping_schools.length > 12) lines.push(`  …+${result.zongping_schools.length - 12} 校`);
+      lines.push("");
+    }
+
+    // huadang preview
+    if (result.huadang_cases.length > 0) {
+      lines.push("【涉及该省的滑档案例】");
+      for (const c of result.huadang_cases.slice(0, 5)) {
+        const stamp = c.is_composite ? "📌" : "📍";
+        lines.push(`  ${stamp} ${c.case_id} · ${c.year} · ${c.category}${c.school ? " · " + c.school : ""}`);
+      }
+      if (result.huadang_cases.length > 5) lines.push(`  …+${result.huadang_cases.length - 5} 案例 (查看 gaokao-pro huadang ${result.province})`);
+      lines.push("");
+    }
+
+    // colleges admitting
+    if (result.colleges_admitting.length > 0) {
+      lines.push(`【college-groups 数据覆盖的校 (该省招生)】 ${result.colleges_admitting.length} 校`);
+      const top = result.colleges_admitting.sort((a, b) => b.majors_total - a.majors_total).slice(0, 15);
+      for (const c of top) {
+        lines.push(`  · ${c.name}${c.code ? ` (${c.code})` : ""} - ${c.groups_count} 组 / ${c.majors_total} 专业`);
+      }
+      if (result.colleges_admitting.length > 15) lines.push(`  …+${result.colleges_admitting.length - 15} 校`);
     }
     process.stdout.write(lines.join("\n") + "\n");
   },

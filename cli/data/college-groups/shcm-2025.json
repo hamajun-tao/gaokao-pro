@@ -1,0 +1,238 @@
+{
+  "_kind": "上海音乐学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "上海音乐学院",
+  "code": 278,
+  "zs_code": "10278",
+  "school_id_gaokao_cn": 326,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/326/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/326/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=326; zs_code=10278.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "本数据仅含普通批/普通类录取；艺术类校考/统考/文化课双门槛另查（gaokao.cn 公开接口不返回校考线）。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425019",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "历史必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 578,
+          "min_rank": 17004,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：零陵路校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "13000",
+              "length": "四年",
+              "info": "（办学地点：零陵路校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：零陵路校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "13000",
+              "length": "四年",
+              "info": "（办学地点：零陵路校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425020",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 576,
+          "min_rank": 17506,
+          "majors": [
+            {
+              "spcode": "130509T",
+              "sp_name": "艺术与科技",
+              "spname": "艺术与科技（办学地点：零陵路校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 3,
+              "tuition": "13000",
+              "length": "四年",
+              "info": "（办学地点：零陵路校区）"
+            },
+            {
+              "spcode": "130509T",
+              "sp_name": "艺术与科技",
+              "spname": "艺术与科技（办学地点：零陵路校区）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 3,
+              "tuition": "13000",
+              "length": "四年",
+              "info": "（办学地点：零陵路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423580",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "历史必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 506,
+          "min_rank": 22512,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 39,
+              "tuition": "13000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 39,
+              "tuition": "13000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423593",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 507,
+          "min_rank": 22221,
+          "majors": [
+            {
+              "spcode": "130509T",
+              "sp_name": "艺术与科技",
+              "spname": "艺术与科技",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 43,
+              "tuition": "13000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130509T",
+              "sp_name": "艺术与科技",
+              "spname": "艺术与科技",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 43,
+              "tuition": "13000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 572,
+          "min_rank": 51672,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（零陵路校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "13000",
+              "length": "四年",
+              "info": "（零陵路校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "433384",
+          "sg_name": "（202）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 13330,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：零陵路校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "13000",
+              "length": "四年",
+              "info": "（办学地点：零陵路校区）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：零陵路校区）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 2,
+              "tuition": "13000",
+              "length": "四年",
+              "info": "（办学地点：零陵路校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,9 +23,9 @@ import {
 // --------------------------------------------------------------------------
 // datasetStats — recovered counts + surfaced year metadata
 // --------------------------------------------------------------------------
-test("datasetStats reports 178 recovered universities", () => {
+test("datasetStats reports 198 recovered universities", () => {
   const s = datasetStats();
-  // 178 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
+  // 198 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
   // ucas/cuhksz/snnu/swjtu/hdu/cnu/ccmu/njmu/njupt/nuist/smu/ecupl + 15 added
   // in round 2: hebut/ncepu/tyut/imu/lnu/sisu/njau/nnu/cpu/ahu/ncu/cugb/upc/
   // hainanu/gzu + 12 added in round 3 (edge-province / remaining 双一流):
@@ -41,10 +41,14 @@ test("datasetStats reports 178 recovered universities", () => {
   // + 20 added in round 6 (211/specialty/双一流 still missing): zufe/suibe/
   // scau/dhu/tjpu/hqu/csust/btbu/sdust/hpu/sus/wtu/sdutcm/xupt/gxu/cqupt/shou/
   // ahupt/jju/cqjt.
+  // + 20 added in round 7 (民族/航空/specialty still missing): 民族 swun/
+  // zsmin/beifang/xbmin/xzmu, 航空 caac/cafuc, 双一流/综合 nbu/jiangsu-uni/
+  // hbut/cigit, 区域师范/农 imau/imnu/ldu/xynu/beihua/hist/hainan-trop, 艺术
+  // shcm/zjcm — zjcm is a校考-only metadata stub (NoSuchKey for all探测省份).
   // Asserted precisely: a drop means the tolerant loader regressed and
-  // silently lost schools again. A jump above 178 means new data files were
+  // silently lost schools again. A jump above 198 means new data files were
   // added — also worth a deliberate look, so we pin the exact number.
-  assertEqual(s.universities, 178, "recovered university count");
+  assertEqual(s.universities, 198, "recovered university count");
 });
 
 test("datasetStats surfaces non-zero group/major totals", () => {
@@ -118,7 +122,7 @@ for (const { slug, name } of RECOVERED) {
 // --------------------------------------------------------------------------
 test("no university name is empty/null", () => {
   const names = listAllUniversities();
-  assertEqual(names.length, 178, "all 178 schools have a name surfaced");
+  assertEqual(names.length, 198, "all 198 schools have a name surfaced");
   for (const n of names) {
     assert(typeof n === "string" && n.length > 0, `university name must be a non-empty string, got ${JSON.stringify(n)}`);
   }

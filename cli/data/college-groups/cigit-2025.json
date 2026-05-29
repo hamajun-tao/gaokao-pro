@@ -1,0 +1,5350 @@
+{
+  "_kind": "成都信息工程大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "成都信息工程大学",
+  "code": 621,
+  "zs_code": "10621",
+  "school_id_gaokao_cn": 270,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/270/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/270/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=270; zs_code=10621.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424962",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 546,
+          "min_rank": 25137,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（四川）（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（四川）（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（四川）（以上10专业办学地点：龙泉校区；20-32专业办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（以上10专业办学地点：龙泉校区；20-32专业办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（四川）（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（四川）（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（四川）（以上10专业办学地点：龙泉校区；20-32专业办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（以上10专业办学地点：龙泉校区；20-32专业办学地点：航空港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "424964",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 28886,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（四川）（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（四川）（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（四川）（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（四川）（办学地点：龙泉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "424963",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "地理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 527,
+          "min_rank": 30282,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学（四川）（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学（四川）（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（四川）（办学地点：航空港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423455",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 458,
+          "min_rank": 36057,
+          "majors": [
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423468",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 464,
+          "min_rank": 34489,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（与英国兰卡斯特大学“2+2”模式联合培养。第一、二学年在成都信息工程大学就读,第三、四学年须赴英国兰卡斯特大学就读。国外学习期间学费约为2.5万英镑/年,同时须向项目方缴服务费共5.8万元人民币）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（与英国兰卡斯特大学“2+2”模式联合培养。第一、二学年在成都信息工程大学就读,第三、四学年须赴英国兰卡斯特大学就读。国外学习期间学费约为2.5万英镑/年,同时须向项目方缴服务费共5.8万元人民币）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（与英国兰卡斯特大学“2+2”模式联合培养。第一、二学年在成都信息工程大学就读,第三、四学年须赴英国兰卡斯特大学就读。国外学习期间学费约为2.5万英镑/年,同时须向项目方缴服务费共5.8万元人民币）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（与英国兰卡斯特大学“2+2”模式联合培养。第一、二学年在成都信息工程大学就读,第三、四学年须赴英国兰卡斯特大学就读。国外学习期间学费约为2.5万英镑/年,同时须向项目方缴服务费共5.8万元人民币）"
+            }
+          ]
+        },
+        {
+          "group_id": "423460",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 481,
+          "min_rank": 29641,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423465",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 467,
+          "min_rank": 33627,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA）（须另缴培训费1万元/年）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（ACCA）（须另缴培训费1万元/年）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA）（须另缴培训费1万元/年）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（ACCA）（须另缴培训费1万元/年）"
+            }
+          ]
+        },
+        {
+          "group_id": "423467",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 474,
+          "min_rank": 31654,
+          "majors": [
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427183",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 20940,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在龙泉校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（口）（航空港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（只招英语考生）（口）（航空港校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在龙泉校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理（在龙泉校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（在龙泉校区学习）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（在龙泉校区学习）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（在龙泉校区学习）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（口）（航空港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（只招英语考生）（口）（航空港校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在龙泉校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理（在龙泉校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（在龙泉校区学习）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（在龙泉校区学习）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 1,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（在龙泉校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427199",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 584,
+          "min_rank": 50891,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（在航空港校区学习）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（龙泉校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（在航空港校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程（在航空港校区学习）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（在航空港校区学习）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（龙泉校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（在航空港校区学习）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程（在航空港校区学习）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（在航空港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（在航空港校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 579,
+          "min_rank": 76683,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（中外高水平大学学生交流计划）（龙泉校区。与英国兰卡斯特大学2＋2联合培养。第三、四学年须赴英国兰卡斯特大学学习，学费约25000英镑/年。项目方另行收取其他较高费用）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（龙泉校区。与英国兰卡斯特大学2＋2联合培养。第三、四学年须赴英国兰卡斯特大学学习，学费约25000英镑/年。项目方另行收取其他较高费用）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（航空港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（航空港校区。英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区。英才班）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（龙泉校区）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（龙泉校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（航空港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程（航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（龙泉校区。ACCA。该校另行收取较高课程培训费）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（龙泉校区。ACCA。该校另行收取较高课程培训费）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（龙泉校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（龙泉校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（航空港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程（航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（龙泉校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（龙泉校区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（航空港校区。含信息与计算科学、数学与应用数学专业）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区。含信息与计算科学、数学与应用数学专业）"
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学（航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（航空港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394456",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "会计学",
+          "min_score": 545,
+          "min_rank": 7374,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（会计学）（ACCA，须另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）（会计学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（会计学）（ACCA，须另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（会计学）（ACCA，须另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）（会计学）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（会计学）（ACCA，须另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）"
+            }
+          ]
+        },
+        {
+          "group_id": "394460",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 538,
+          "min_rank": 8378,
+          "majors": [
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394458",
+          "sg_name": "（900）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 553,
+          "min_rank": 6321,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394492",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 585,
+          "min_rank": 18234,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394493",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 456,
+          "min_rank": 106608,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（中外高水平大学学生交流计划，与英国）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划，与英国）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（中外高水平大学学生交流计划，与英国）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划，与英国）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 527,
+          "min_rank": 126019,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 7,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080714T",
+              "sp_name": "电子信息科学与技术",
+              "spname": "电子信息科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（中外高水平大学学生交流计划，与兰卡斯特大学学分互认采取“2+2”分段式联合培养模式。第三、第四学年须赴英学习，在英期间费用另计。详见学校招生网站https：//zjc.cuit.edu.cn/info/1096/1484.htm）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划，与兰卡斯特大学学分互认采取“2+2”分段式联合培养模式。第三、第四学年须赴英学习，在英期间费用另计。详见学校招生网站https：//zjc.cuit.edu.cn/info/1096/1484.htm）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种为英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种为英语）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA，需另缴10000元/年的培训费，详见学校招生公告）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（ACCA，需另缴10000元/年的培训费，详见学校招生公告）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 81112,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080714T",
+              "sp_name": "电子信息科学与技术",
+              "spname": "电子信息科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含信息与计算科学、数学与应用数学专业）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（含信息与计算科学、数学与应用数学专业）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（中外高水平大学学生交流计划，与英国兰卡斯特大学（2+2）模式联合培养。1-2年在成都信息工程大学就读，3-4年须赴英国兰卡斯特大学就读，外方学习期间学费每年约25000英镑，其他费用详询院校）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划，与英国兰卡斯特大学（2+2）模式联合培养。1-2年在成都信息工程大学就读，3-4年须赴英国兰卡斯特大学就读，外方学习期间学费每年约25000英镑，其他费用详询院校）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080908T",
+              "sp_name": "空间信息与数字技术",
+              "spname": "空间信息与数字技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 1,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生；须口试合格）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（只招英语语种考生；须口试合格）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA，其他费用详询学校）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（ACCA，其他费用详询学校）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369780",
+          "sg_name": "（124）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学（办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程（办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "020102",
+              "sp_name": "经济统计学",
+              "spname": "经济统计学（办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "369782",
+          "sg_name": "（122）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 7,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080714T",
+              "sp_name": "电子信息科学与技术",
+              "spname": "电子信息科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080908T",
+              "sp_name": "空间信息与数字技术",
+              "spname": "空间信息与数字技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业：信息与计算科学、数学与应用数学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（包含专业：信息与计算科学、数学与应用数学）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 7,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080714T",
+              "sp_name": "电子信息科学与技术",
+              "spname": "电子信息科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080704",
+              "sp_name": "微电子科学与工程",
+              "spname": "微电子科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080908T",
+              "sp_name": "空间信息与数字技术",
+              "spname": "空间信息与数字技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业：信息与计算科学、数学与应用数学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（包含专业：信息与计算科学、数学与应用数学）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369783",
+          "sg_name": "（121）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班）"
+            }
+          ]
+        },
+        {
+          "group_id": "369781",
+          "sg_name": "（123）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选地理",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070504",
+              "sp_name": "地理信息科学",
+              "spname": "地理信息科学",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369809",
+          "sg_name": "（702）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（定向：信阳市商城县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）（定向）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（定向：信阳市商城县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（定向：信阳市商城县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）（定向）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（定向：信阳市商城县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）"
+            }
+          ]
+        },
+        {
+          "group_id": "369810",
+          "sg_name": "（701）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（定向：南阳市淅川县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）（定向）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（定向：南阳市淅川县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（定向：南阳市淅川县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）（定向）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（定向：南阳市淅川县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）"
+            }
+          ]
+        },
+        {
+          "group_id": "369808",
+          "sg_name": "（703）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（定向：平顶山市叶县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）（定向）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（定向：平顶山市叶县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（定向：平顶山市叶县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）（定向）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（定向：平顶山市叶县气象台；被录取的定向考生在入学报到前，须按规定与相关定向单位签订定向就业协议书，若拒签协议，视为考生自动放弃录取，按教育部相关规定取消其入学资格。在校期间不允许转专业）"
+            }
+          ]
+        },
+        {
+          "group_id": "369815",
+          "sg_name": "（112）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：龙泉校区；ACCA，需另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区；ACCA，需另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：龙泉校区；ACCA，需另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区；ACCA，需另缴10000元/年的培训费。详见学校公告网址：zjc.cuit.edu.cn）"
+            }
+          ]
+        },
+        {
+          "group_id": "369816",
+          "sg_name": "（111）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（办学地点：龙泉校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（包含专业：汉语言文学；办学地点：龙泉校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（包含专业：汉语言文学；办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（办学地点：龙泉校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（包含专业：汉语言文学；办学地点：龙泉校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（包含专业：汉语言文学；办学地点：龙泉校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291887",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 571,
+          "min_rank": 29555,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（信息与计算科学、数学与应用数学；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（信息与计算科学、数学与应用数学；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "081202",
+              "sp_name": "遥感科学与技术",
+              "spname": "遥感科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（信息与计算科学、数学与应用数学；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（信息与计算科学、数学与应用数学；办学地点：航空港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291888",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 588,
+          "min_rank": 19885,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班；办学地点：航空港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291912",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 8865,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（汉语言文学；办学地点：龙泉校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（汉语言文学；办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "0501",
+              "sp_name": "中国语言文学类",
+              "spname": "中国语言文学类（汉语言文学；办学地点：龙泉校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（汉语言文学；办学地点：龙泉校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319097",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 36495,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080908T",
+              "sp_name": "空间信息与数字技术",
+              "spname": "空间信息与数字技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:信息与计算科学、数学与应用数学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（包含专业:信息与计算科学、数学与应用数学）"
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080908T",
+              "sp_name": "空间信息与数字技术",
+              "spname": "空间信息与数字技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:信息与计算科学、数学与应用数学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（包含专业:信息与计算科学、数学与应用数学）"
+            },
+            {
+              "spcode": "070603T",
+              "sp_name": "气象技术与工程",
+              "spname": "气象技术与工程",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319098",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 593,
+          "min_rank": 19030,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（英才班）"
+            }
+          ]
+        },
+        {
+          "group_id": "319126",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 8121,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA，基础学费5760元/年，需另缴10000元/年的培训费，详见学校公告）（龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（ACCA，基础学费5760元/年，需另缴10000元/年的培训费，详见学校公告）（龙泉校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA，基础学费5760元/年，需另缴10000元/年的培训费，详见学校公告）（龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（ACCA，基础学费5760元/年，需另缴10000元/年的培训费，详见学校公告）（龙泉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319127",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 15070,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120202",
+              "sp_name": "市场营销",
+              "spname": "市场营销",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432786",
+          "sg_name": "（212）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 20597,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA，需另缴10000元/学年的培训费；办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（ACCA，需另缴10000元/学年的培训费；办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（ACCA，需另缴10000元/学年的培训费；办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（ACCA，需另缴10000元/学年的培训费；办学地点：龙泉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432787",
+          "sg_name": "（211）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "联合培养",
+          "min_score": 512,
+          "min_rank": 48466,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（与英国兰开斯特大学联合培养/学分互认项目，具体培养模式和学习费用请查看学校网站；办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（与英国兰开斯特大学联合培养/学分互认项目，具体培养模式和学习费用请查看学校网站；办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（与英国兰开斯特大学联合培养/学分互认项目，具体培养模式和学习费用请查看学校网站；办学地点：龙泉校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（与英国兰开斯特大学联合培养/学分互认项目，具体培养模式和学习费用请查看学校网站；办学地点：龙泉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432788",
+          "sg_name": "（206）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 23881,
+          "majors": [
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（办学地点：龙泉校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（办学地点：龙泉校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（办学地点：龙泉校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432801",
+          "sg_name": "（210）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 585,
+          "min_rank": 39191,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（特征要求：不招色盲；办学地点：航空港校区；英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：航空港校区；英才班）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（特征要求：不招色盲；办学地点：航空港校区；英才班）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 1,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（特征要求：不招色盲；办学地点：航空港校区；英才班）"
+            }
+          ]
+        },
+        {
+          "group_id": "432802",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 564,
+          "min_rank": 61919,
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（不招色盲；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 7,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招色盲；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（不招色盲；办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招色盲；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（不招单色识别不全者；办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招单色识别不全者；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（不招单色识别不全者；办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招单色识别不全者；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学（不招色盲；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招色盲；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含信息与计算科学、数学与应用数学专业具体专业分流情况请查看学校网站；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（含信息与计算科学、数学与应用数学专业具体专业分流情况请查看学校网站；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "spname": "大气科学（不招色盲；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 7,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招色盲；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：龙泉校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：龙泉校区）"
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（不招色盲；办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招色盲；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（不招单色识别不全者；办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招单色识别不全者；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080702",
+              "sp_name": "电子科学与技术",
+              "spname": "电子科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（不招单色识别不全者；办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招单色识别不全者；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "070602",
+              "sp_name": "应用气象学",
+              "spname": "应用气象学（不招色盲；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "大气科学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招色盲；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080917T",
+              "sp_name": "区块链工程",
+              "spname": "区块链工程（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含信息与计算科学、数学与应用数学专业具体专业分流情况请查看学校网站；办学地点：航空港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（含信息与计算科学、数学与应用数学专业具体专业分流情况请查看学校网站；办学地点：航空港校区）"
+            },
+            {
+              "spcode": "080918TK",
+              "sp_name": "密码科学与技术",
+              "spname": "密码科学与技术（办学地点：航空港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：航空港校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

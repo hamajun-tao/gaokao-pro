@@ -1,0 +1,1948 @@
+{
+  "_kind": "西藏民族大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "西藏民族大学",
+  "code": 695,
+  "zs_code": "10695",
+  "school_id_gaokao_cn": 470,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/470/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/470/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=470; zs_code=10695.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 507,
+          "min_rank": 170608,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 12,
+              "tuition": "3360",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范类）（学费：免费）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学（融媒体方向）（陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（融媒体方向）（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类）（数学单科成绩不低于90分，陕西西安西咸新区）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范类）（数学单科成绩不低于90分，陕西西安西咸新区）（学费：免费）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（数字新闻方向）（陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（数字新闻方向）（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种为英语，英语单科成绩不低于110分，须参加英语口试）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（外语语种为英语，英语单科成绩不低于110分，须参加英语口试）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（应用方向）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（应用方向）"
+            },
+            {
+              "spcode": "050213",
+              "sp_name": "印地语",
+              "spname": "印地语（英语单科成绩不低于100分，须参加英语口试）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英语单科成绩不低于100分，须参加英语口试）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（陕西西安西咸新区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（地方优本计划，陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（地方优本计划，陕西西安西咸新区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 515,
+          "min_rank": 135284,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（咸阳市）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 10,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（咸阳市）（师范类）（学费：免费）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（咸阳市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（咸阳市）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（咸阳市）（科技方向）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）（科技方向）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（咸阳市）（师范类；单科成绩要求：数学>=90）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（咸阳市）（师范类；单科成绩要求：数学>=90）（学费：免费）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（咸阳市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（咸阳市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（咸阳市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（咸阳市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学（咸阳市）",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（咸阳市）（师范类）（学费：免费）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（咸阳市）（师范类）（学费：免费）"
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学（咸阳市）",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（咸阳市）（数字新闻方向）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）（数字新闻方向）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（咸阳市）（只招英语语种考生；须口试合格；单科成绩要求：外语>=110）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）（只招英语语种考生；须口试合格；单科成绩要求：外语>=110）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（咸阳市）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（咸阳市）（应用方向）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）（应用方向）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（咸阳市）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（咸阳市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371069",
+          "sg_name": "（114）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371077",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 15,
+              "tuition": "3360",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 15,
+              "tuition": "3360",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371076",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371078",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学（融媒体方向）（办学地点：陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（融媒体方向）（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（数字新闻方向）（办学地点：陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（数字新闻方向）（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学（融媒体方向）（办学地点：陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（融媒体方向）（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（数字新闻方向）（办学地点：陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（数字新闻方向）（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371075",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371074",
+          "sg_name": "（107）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371070",
+          "sg_name": "（113）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371072",
+          "sg_name": "（111）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（办学地点：陕西西安西咸新区；要求高考数学成绩不得低于90分）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（办学地点：陕西西安西咸新区；要求高考数学成绩不得低于90分）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（办学地点：陕西西安西咸新区；要求高考数学成绩不得低于90分）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（办学地点：陕西西安西咸新区；要求高考数学成绩不得低于90分）"
+            }
+          ]
+        },
+        {
+          "group_id": "371079",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050213",
+              "sp_name": "印地语",
+              "spname": "印地语（要求高考英语单科成绩不低于100分）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（要求高考英语单科成绩不低于100分）"
+            },
+            {
+              "spcode": "050213",
+              "sp_name": "印地语",
+              "spname": "印地语（要求高考英语单科成绩不低于100分）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（要求高考英语单科成绩不低于100分）"
+            }
+          ]
+        },
+        {
+          "group_id": "371071",
+          "sg_name": "（112）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371073",
+          "sg_name": "（109）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "060103",
+              "sp_name": "考古学",
+              "spname": "考古学",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060103",
+              "sp_name": "考古学",
+              "spname": "考古学",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371125",
+          "sg_name": "（115）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120502",
+              "sp_name": "档案学",
+              "spname": "档案学（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "图书情报与档案管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "120502",
+              "sp_name": "档案学",
+              "spname": "档案学（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "图书情报与档案管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371127",
+          "sg_name": "（109）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 6,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 6,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "371126",
+          "sg_name": "（110）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（应用方向）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（应用方向）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（应用方向）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（应用方向）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292899",
+          "sg_name": "（10）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 516,
+          "min_rank": 72834,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：陕西咸阳；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（办学地点：陕西咸阳；学制：五年）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：陕西咸阳；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "五年",
+              "info": "（办学地点：陕西咸阳；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "292901",
+          "sg_name": "（08）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 518,
+          "min_rank": 71061,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292902",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 506,
+          "min_rank": 81348,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类；高考数学成绩不得低于90分；办学地点：陕西西安西咸新区）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范类；高考数学成绩不得低于90分；办学地点：陕西西安西咸新区）（学费：免费）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类；高考数学成绩不得低于90分；办学地点：陕西西安西咸新区）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范类；高考数学成绩不得低于90分；办学地点：陕西西安西咸新区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292903",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 518,
+          "min_rank": 71061,
+          "majors": [
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292900",
+          "sg_name": "（09）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 525,
+          "min_rank": 64962,
+          "majors": [
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（办学地点：陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292904",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 525,
+          "min_rank": 20886,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292907",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 526,
+          "min_rank": 20586,
+          "majors": [
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学（融媒体方向；办学地点：陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（融媒体方向；办学地点：陕西西安西咸新区）"
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学（融媒体方向；办学地点：陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（融媒体方向；办学地点：陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292908",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 19669,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（需口试；英语单科成绩不低于110分；外语语种：英语；办学地点：陕西咸阳）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（需口试；英语单科成绩不低于110分；外语语种：英语；办学地点：陕西咸阳）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（需口试；英语单科成绩不低于110分；外语语种：英语；办学地点：陕西咸阳）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（需口试；英语单科成绩不低于110分；外语语种：英语；办学地点：陕西咸阳）"
+            }
+          ]
+        },
+        {
+          "group_id": "292906",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 542,
+          "min_rank": 15841,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类；办学地点：陕西咸阳）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范类；办学地点：陕西咸阳）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类；办学地点：陕西咸阳）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范类；办学地点：陕西咸阳）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292905",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 544,
+          "min_rank": 15285,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：：陕西咸阳）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：：陕西咸阳）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：：陕西咸阳）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（办学地点：：陕西咸阳）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "320627",
+          "sg_name": "（113）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 472,
+          "min_rank": 124520,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（高考数学成绩不得低于90分）（陕西西安西咸新区）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（高考数学成绩不得低于90分）（陕西西安西咸新区）（学费：免费）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（高考数学成绩不得低于90分）（陕西西安西咸新区）（学费：免费）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（高考数学成绩不得低于90分）（陕西西安西咸新区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "320628",
+          "sg_name": "（112）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 520,
+          "min_rank": 70142,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 10,
+              "tuition": "3360",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 10,
+              "tuition": "3360",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320635",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 460,
+          "min_rank": 140382,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）（陕西西安西咸新区）（学费：免费）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（陕西西安西咸新区）（学费：免费）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）（陕西西安西咸新区）（学费：免费）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（陕西西安西咸新区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "320632",
+          "sg_name": "（108）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 483,
+          "min_rank": 110693,
+          "majors": [
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "320630",
+          "sg_name": "（110）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 457,
+          "min_rank": 144362,
+          "majors": [
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320629",
+          "sg_name": "（111）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 471,
+          "min_rank": 125833,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320633",
+          "sg_name": "（107）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 482,
+          "min_rank": 111948,
+          "majors": [
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（陕西西安西咸新区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（陕西西安西咸新区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "320634",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 456,
+          "min_rank": 145716,
+          "majors": [
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（陕西西安西咸新区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "320631",
+          "sg_name": "（109）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 506,
+          "min_rank": 84198,
+          "majors": [
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（陕西西安西咸新区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "320667",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 493,
+          "min_rank": 30102,
+          "majors": [
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320668",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 502,
+          "min_rank": 26209,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（数字新闻方向）（陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（数字新闻方向）（陕西西安西咸新区）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（数字新闻方向）（陕西西安西咸新区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（数字新闻方向）（陕西西安西咸新区）"
+            }
+          ]
+        },
+        {
+          "group_id": "320669",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 497,
+          "min_rank": 28337,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（英语单科成绩不低于110分）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英语单科成绩不低于110分）（外语要求:英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（英语单科成绩不低于110分）（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": "（英语单科成绩不低于110分）（外语要求:英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "320670",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 518,
+          "min_rank": 20253,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "",
+              "length": "四年",
+              "info": "（师范）（学费：免费）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "3360",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

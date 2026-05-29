@@ -1,0 +1,6096 @@
+{
+  "_kind": "北华大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "北华大学",
+  "code": 1923,
+  "zs_code": "11923",
+  "school_id_gaokao_cn": 374,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/374/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/374/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=374; zs_code=11923.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425069",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 523,
+          "min_rank": 31409,
+          "majors": [
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（吉林吉林市）（不招色盲、色弱、单色识别能力异常；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（吉林吉林市）（不招色盲、色弱、单色识别能力异常；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（吉林吉林市）（不招色盲、色弱、单色识别能力异常；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（吉林吉林市）（不招色盲、色弱、单色识别能力异常；办学地点：丰满校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423662",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 435,
+          "min_rank": 41932,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423663",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 437,
+          "min_rank": 41436,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 1,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 1,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427514",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 25115,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427515",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 541,
+          "min_rank": 27904,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（师范）（丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语考生）（师范）（丰满校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（师范）（丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语考生）（师范）（丰满校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427536",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 79711,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业组有色觉要求，具体请查阅院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_id": "427538",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 515,
+          "min_rank": 142068,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（高新校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "082404T",
+              "sp_name": "家具设计与工程",
+              "spname": "家具设计与工程（丰满校区）",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（高新校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "082404T",
+              "sp_name": "家具设计与工程",
+              "spname": "家具设计与工程（丰满校区）",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（丰满校区）（报考该专业有色觉要求，具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427537",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 524,
+          "min_rank": 129305,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（龙潭校区）（国际创新课程ICC项目，具体培养模式、学费等要求，务必查阅院校招生章程并详询院校）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（龙潭校区）（国际创新课程ICC项目，具体培养模式、学费等要求，务必查阅院校招生章程并详询院校）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（龙潭校区）（国际创新课程ICC项目，具体培养模式、学费等要求，务必查阅院校招生章程并详询院校）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（龙潭校区）（国际创新课程ICC项目，具体培养模式、学费等要求，务必查阅院校招生章程并详询院校）"
+            }
+          ]
+        },
+        {
+          "group_id": "427539",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 509,
+          "min_rank": 150364,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（师范）（丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语考生）（师范）（丰满校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（丰满校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（师范）（丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（只招英语考生）（师范）（丰满校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（丰满校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（丰满校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 594,
+          "min_rank": 58604,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（高新校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（龙潭校区。与英国提赛德大学合作办学）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（龙潭校区。与英国提赛德大学合作办学）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（中外合作办学）（丰满校区。与芬兰于韦斯屈莱应用科技大学合作办学）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（丰满校区。与芬兰于韦斯屈莱应用科技大学合作办学）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（丰满校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（丰满校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（丰满校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（丰满校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（丰满校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（丰满校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（丰满校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（丰满校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（丰满校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "spname": "心理学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林（丰满校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（丰满校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（丰满校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（丰满校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（丰满校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（丰满校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "395078",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 476,
+          "min_rank": 19668,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范类。语种：英语。只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类。语种：英语。只招英语考生）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语（语种：不限）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（语种：不限）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：不限）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（语种：不限）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范类。语种：英语。只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类。语种：英语。只招英语考生）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语（语种：不限）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（语种：不限）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：不限）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（语种：不限）"
+            }
+          ]
+        },
+        {
+          "group_id": "395102",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学",
+          "min_score": 520,
+          "min_rank": 54409,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（与英国提赛德大学合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国提赛德大学合作办学）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（与英国提赛德大学合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国提赛德大学合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "395105",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 494,
+          "min_rank": 74485,
+          "majors": [
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范类。色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范类。色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082402",
+              "sp_name": "木材科学与工程",
+              "spname": "木材科学与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范类。色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范类。色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082402",
+              "sp_name": "木材科学与工程",
+              "spname": "木材科学与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "395103",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国创",
+          "min_score": 502,
+          "min_rank": 67989,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国创）（国际创新课程项目）（国创）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国创）（国际创新课程项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国创）（国际创新课程项目）（国创）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国创）（国际创新课程项目）"
+            }
+          ]
+        },
+        {
+          "group_id": "395104",
+          "sg_name": "（516）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 36813,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "395106",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 487,
+          "min_rank": 80259,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：不限）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（语种：不限）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（语种：不限）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（语种：不限）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 456,
+          "min_rank": 297330,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（与英国提赛德大学合作办学，龙潭校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 18,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国提赛德大学合作办学，龙潭校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 15,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（中外合作办学）（与芬兰于韦斯屈莱应用科技大学合作办学；色盲、色弱、单色识别能力异常考生不予录取）（中外合作办学）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 11,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（与芬兰于韦斯屈莱应用科技大学合作办学；色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（与美国康奈尔学院合作办学，龙潭校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 10,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国康奈尔学院合作办学，龙潭校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 10,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 8,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（国际创新课程项目）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 7,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 7,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（高新校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 6,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范类）（高新校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国际创新课程项目，色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目，色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 6,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类）（高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类）（高新校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范类）（高新校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类）（高新校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（色盲、色弱、单色识别J能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别J能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范类）（高新校区；色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范类）（高新校区；色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类）（高新校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类）（高新校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范类）（高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类）（高新校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（高新校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类）（高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范类）（高新校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（国际创新课程项目，龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目，龙潭校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "082404T",
+              "sp_name": "家具设计与工程",
+              "spname": "家具设计与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（高新校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 499,
+          "min_rank": 162246,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（吉林市）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 11,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（吉林市）（中外合作办学）（与英国提赛德大学合作办学）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 10,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（吉林市）（中外合作办学）（与英国提赛德大学合作办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（吉林市）（国际创新课程项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 10,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（吉林市）（国际创新课程项目）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（吉林市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 9,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "082402",
+              "sp_name": "木材科学与工程",
+              "spname": "木材科学与工程（吉林市）",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 7,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（吉林市）（国际创新课程项目）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 7,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（吉林市）（国际创新课程项目）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（吉林市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（吉林市）（国际创新课程项目；色盲、色弱等色觉异常考生不予录取）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（吉林市）（国际创新课程项目；色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（吉林市）（师范类；只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（吉林市）（师范类；只招英语语种考生）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（吉林市）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（吉林市）（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（吉林市）（师范类）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（吉林市）（师范类）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（吉林市）（师范类）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（吉林市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（吉林市）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（吉林市）（国际创新课程项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（吉林市）（国际创新课程项目）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（吉林市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（吉林市）（师范类；色盲、色弱等色觉异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（吉林市）（师范类；色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（吉林市）（师范类）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（吉林市）（师范类）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（吉林市）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（吉林市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（吉林市）（中外合作办学）（与美国康奈尔学院合作办学）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（吉林市）（中外合作办学）（与美国康奈尔学院合作办学）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（吉林市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语（吉林市）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（吉林市）（色盲、色弱等色觉异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（吉林市）（色盲、色弱等色觉异常考生不予录取）"
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林（吉林市）",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（吉林市）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（吉林市）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（吉林市）（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（吉林市）（师范类）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（吉林市）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（吉林市）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（吉林市）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（吉林市）（师范类）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（吉林市）（师范类）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（吉林市）（师范类）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（吉林市）（师范类）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（吉林市）（师范类）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（吉林市）（师范类）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（吉林市）（国际创新课程项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（吉林市）（国际创新课程项目）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（吉林市）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（吉林市）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（吉林市）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（吉林市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "370313",
+          "sg_name": "（610）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（国际创新课程项目）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 8,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国际创新课程项目；色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 7,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目；色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：龙潭校区；国际创新课程项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区；国际创新课程项目）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（国际创新课程项目）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 8,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国际创新课程项目；色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 7,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目；色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：龙潭校区；国际创新课程项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区；国际创新课程项目）"
+            }
+          ]
+        },
+        {
+          "group_id": "370318",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 19,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 15,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 10,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 9,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 8,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 8,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 7,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 5,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：高新校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "082402",
+              "sp_name": "木材科学与工程",
+              "spname": "木材科学与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（师范）（办学地点：高新校区；色盲、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区；色盲、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 19,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 15,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 10,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 9,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 8,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 8,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 7,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 5,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：高新校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "082402",
+              "sp_name": "木材科学与工程",
+              "spname": "木材科学与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "071001",
+              "sp_name": "生物科学",
+              "spname": "生物科学（师范）（办学地点：高新校区；色盲、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区；色盲、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "370319",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 12,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（只招英语语种的考生）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：高新校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "spname": "心理学（师范）（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 12,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（只招英语语种的考生）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：高新校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071101",
+              "sp_name": "心理学",
+              "spname": "心理学（师范）（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "370316",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 11,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 11,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "370315",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（办学地点：龙潭校区；合作方：英国提赛德大学）（中外合作）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：龙潭校区；合作方：英国提赛德大学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（办学地点：龙潭校区；合作方：美国康奈尔学院）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：龙潭校区；合作方：美国康奈尔学院）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（中外合作办学）（合作方：芬兰于韦斯屈莱应用科技大学；色盲、色弱、单色识别能力异常考生不予录取）（中外合作）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作方：芬兰于韦斯屈莱应用科技大学；色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（办学地点：龙潭校区；合作方：英国提赛德大学）（中外合作）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：龙潭校区；合作方：英国提赛德大学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（办学地点：龙潭校区；合作方：美国康奈尔学院）（中外合作）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（办学地点：龙潭校区；合作方：美国康奈尔学院）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（中外合作办学）（合作方：芬兰于韦斯屈莱应用科技大学；色盲、色弱、单色识别能力异常考生不予录取）（中外合作）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作方：芬兰于韦斯屈莱应用科技大学；色盲、色弱、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "370314",
+          "sg_name": "（609）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            }
+          ]
+        },
+        {
+          "group_id": "370317",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "370360",
+          "sg_name": "（608）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            }
+          ]
+        },
+        {
+          "group_id": "370362",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 18,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 12,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（只招英语语种的考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：高新校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 10,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（办学地点：高新校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 7,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）（办学地点：高新校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 18,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 12,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（只招英语语种的考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：高新校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 10,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（办学地点：高新校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 7,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）（办学地点：高新校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4600",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "370361",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（办学地点：高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（办学地点：高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292282",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 525,
+          "min_rank": 64962,
+          "majors": [
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区；学制：五年）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区；学制：五年）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区；学制：五年）"
+            }
+          ]
+        },
+        {
+          "group_id": "292283",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 512,
+          "min_rank": 76221,
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范类；色盲、色弱、单色识别能力异常考生不予录取；办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范类；色盲、色弱、单色识别能力异常考生不予录取；办学地点：高新校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类；办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类；办学地点：高新校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（办学地点：丰满校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 5,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范类；色盲、色弱、单色识别能力异常考生不予录取；办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范类；色盲、色弱、单色识别能力异常考生不予录取；办学地点：高新校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范类；办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范类；办学地点：高新校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件（办学地点：丰满校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292284",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 470,
+          "min_rank": 113009,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范类；外语语种：英语；办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；外语语种：英语；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范类；外语语种：英语；办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；外语语种：英语；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292313",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 16705,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类；办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；办学地点：高新校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范类；办学地点：高新校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；办学地点：高新校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范类；外语语种：英语；办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；外语语种：英语；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范类；办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；办学地点：高新校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范类；办学地点：高新校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；办学地点：高新校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范类；外语语种：英语；办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范类；外语语种：英语；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（办学地点：高新校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319566",
+          "sg_name": "（211）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 413,
+          "min_rank": 201862,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（国际创新课程项目）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国际创新课程项目;色盲、色弱、单色识别能力异常考生不予录取）（中外合作办学或国际项目）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目;色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（国际创新课程项目）（龙潭校区）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）（龙潭校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（国际创新课程项目）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国际创新课程项目;色盲、色弱、单色识别能力异常考生不予录取）（中外合作办学或国际项目）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 6,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目;色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（国际创新课程项目）（龙潭校区）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）（龙潭校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319567",
+          "sg_name": "（210）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 436,
+          "min_rank": 172420,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（与英国提赛德大学合作办学）（龙潭校区）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 10,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国提赛德大学合作办学）（龙潭校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（与美国康奈尔学院合作办学）（龙潭校区）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 8,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国康奈尔学院合作办学）（龙潭校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（中外合作办学）（与芬兰于韦斯屈莱应用科技大学合作办学;色盲、色弱、单色识别能力异常考生不予录取）（中外合作办学或国际项目）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（与芬兰于韦斯屈莱应用科技大学合作办学;色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（中外合作办学）（与英国提赛德大学合作办学）（龙潭校区）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 10,
+              "tuition": "24000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国提赛德大学合作办学）（龙潭校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（中外合作办学）（与美国康奈尔学院合作办学）（龙潭校区）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 8,
+              "tuition": "26000",
+              "length": "四年",
+              "info": "（中外合作办学）（与美国康奈尔学院合作办学）（龙潭校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（中外合作办学）（与芬兰于韦斯屈莱应用科技大学合作办学;色盲、色弱、单色识别能力异常考生不予录取）（中外合作办学或国际项目）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "23000",
+              "length": "四年",
+              "info": "（中外合作办学）（与芬兰于韦斯屈莱应用科技大学合作办学;色盲、色弱、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "319571",
+          "sg_name": "（109）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 469,
+          "min_rank": 128457,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 7,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（色盲、色弱、单色识别能力异常考生不予录取）（高新校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（色盲、色弱、单色识别能力异常考生不予录取）（高新校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "082402",
+              "sp_name": "木材科学与工程",
+              "spname": "木材科学与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "082404T",
+              "sp_name": "家具设计与工程",
+              "spname": "家具设计与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 7,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（色盲、色弱、单色识别能力异常考生不予录取）（高新校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（色盲、色弱、单色识别能力异常考生不予录取）（高新校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（高新校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（高新校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "080414T",
+              "sp_name": "新能源材料与器件",
+              "spname": "新能源材料与器件",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "082402",
+              "sp_name": "木材科学与工程",
+              "spname": "木材科学与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            },
+            {
+              "spcode": "082404T",
+              "sp_name": "家具设计与工程",
+              "spname": "家具设计与工程",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（龙潭校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319570",
+          "sg_name": "（112）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 512,
+          "min_rank": 77998,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 8,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 8,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "5600",
+              "length": "五年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "319572",
+          "sg_name": "（107）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 463,
+          "min_rank": 136388,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 6,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 6,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082803",
+              "sp_name": "风景园林",
+              "spname": "风景园林",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（高新校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319569",
+          "sg_name": "（113）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选生物",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 464,
+          "min_rank": 135109,
+          "majors": [
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            },
+            {
+              "spcode": "090502",
+              "sp_name": "园林",
+              "spname": "园林（色盲、色弱、单色识别能力异常考生不予录取）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 6,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（色盲、色弱、单色识别能力异常考生不予录取）"
+            }
+          ]
+        },
+        {
+          "group_id": "319568",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 467,
+          "min_rank": 131077,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目）（中外合作办学或国际项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目）"
+            }
+          ]
+        },
+        {
+          "group_id": "319597",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 506,
+          "min_rank": 24616,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 8,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）（高新校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 8,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "319598",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 496,
+          "min_rank": 28752,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（高新校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（高新校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5280",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（高新校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "6820",
+              "length": "四年",
+              "info": "（高新校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "433561",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 518,
+          "min_rank": 44484,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：高新校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5280",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）（办学地点：高新校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433562",
+          "sg_name": "（206）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 526,
+          "min_rank": 38918,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（外语语种：英语；办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（外语语种：英语；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（师范）（外语语种：英语；办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5060",
+              "length": "四年",
+              "info": "（师范）（外语语种：英语；办学地点：丰满校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433587",
+          "sg_name": "（212）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 477,
+          "min_rank": 206830,
+          "majors": [
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国际创新课程项目；特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 5,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目；特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（国际创新课程项目；特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 5,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目；特征要求：不招色盲色弱；办学地点：丰满校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433589",
+          "sg_name": "（210）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 503,
+          "min_rank": 160149,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（办学地点：高新校区；特征要求：不招色盲色弱）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区；特征要求：不招色盲色弱）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "6160",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 3,
+              "tuition": "6160",
+              "length": "五年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "090501",
+              "sp_name": "林学",
+              "spname": "林学（特征要求：不招色盲色弱；办学地点：丰满校区）",
+              "level2": "农学",
+              "level3": "林学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（办学地点：高新校区；特征要求：不招色盲色弱）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（师范）（办学地点：高新校区；特征要求：不招色盲色弱）"
+            }
+          ]
+        },
+        {
+          "group_id": "433590",
+          "sg_name": "（209）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 508,
+          "min_rank": 150644,
+          "majors": [
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "082404T",
+              "sp_name": "家具设计与工程",
+              "spname": "家具设计与工程（办学地点：丰满校区）",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "082404T",
+              "sp_name": "家具设计与工程",
+              "spname": "家具设计与工程（办学地点：丰满校区）",
+              "level2": "工学",
+              "level3": "林业工程类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5940",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程（办学地点：龙潭校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：龙潭校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433591",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 163974,
+          "majors": [
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语（办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "050205",
+              "sp_name": "西班牙语",
+              "spname": "西班牙语（办学地点：丰满校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4600",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：丰满校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433588",
+          "sg_name": "（211）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 508,
+          "min_rank": 149893,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目；办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目；办学地点：丰满校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（国际创新课程项目；办学地点：丰满校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "30000",
+              "length": "四年",
+              "info": "（国际创新课程项目；办学地点：丰满校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

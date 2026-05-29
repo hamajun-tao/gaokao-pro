@@ -1,0 +1,6670 @@
+{
+  "_kind": "西北民族大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "西北民族大学",
+  "code": 742,
+  "zs_code": "10742",
+  "school_id_gaokao_cn": 480,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/480/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/480/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=480; zs_code=10742.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425196",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 456,
+          "min_rank": 48641,
+          "majors": [
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 1,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 1,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425197",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "化学必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 24089,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "425198",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 490,
+          "min_rank": 40167,
+          "majors": [
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（甘肃兰州）（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 1,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（甘肃兰州）（办学地点：榆中校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423822",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "化学必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 435,
+          "min_rank": 41932,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423828",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 430,
+          "min_rank": 43131,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423832",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 410,
+          "min_rank": 47630,
+          "majors": [
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423827",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "历史必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 440,
+          "min_rank": 40711,
+          "majors": [
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427953",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 20493,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427957",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 33554,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（在榆中校区学习）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（在榆中校区学习）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（在榆中校区学习）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（在榆中校区学习）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427954",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 33554,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（榆中校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（榆中校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427956",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 537,
+          "min_rank": 29839,
+          "majors": [
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（只招英语考生）（榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语考生）（榆中校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语考生）（榆中校区）"
+            },
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（只招英语考生）（榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语考生）（榆中校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（只招英语考生）（榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427955",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 30301,
+          "majors": [
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学（榆中校区）",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学（榆中校区）",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427971",
+          "sg_name": "（08）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 505,
+          "min_rank": 155895,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（在榆中校区学习）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（在榆中校区学习）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（在榆中校区学习）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（在榆中校区学习）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（在榆中校区学习）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（在榆中校区学习）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（在榆中校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（在榆中校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427973",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 132082,
+          "majors": [
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（榆中校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（榆中校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "427972",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 165225,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学（榆中校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学（榆中校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（榆中校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 581,
+          "min_rank": 73765,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（榆中校区。含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（榆中校区。含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（榆中校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 7,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（榆中校区。含电子信息工程、通信工程专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（榆中校区。含电子信息工程、通信工程专业）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（榆中校区）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 5,
+              "tuition": "4300",
+              "length": "五年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（榆中校区。含新闻学、广告学专业）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区。含新闻学、广告学专业）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（榆中校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（榆中校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（榆中校区）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（榆中校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学（榆中校区）",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学（榆中校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础III）（榆中校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础III）（榆中校区）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "396048",
+          "sg_name": "（700）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 9730,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "396044",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "历史组2",
+          "min_score": 483,
+          "min_rank": 18114,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（历史组2）（历史组(2)）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（历史组2）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（历史组2）（历史组(2)）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（历史组2）"
+            }
+          ]
+        },
+        {
+          "group_id": "396050",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 487,
+          "min_rank": 17282,
+          "majors": [
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（含新闻学、广告学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（含新闻学、广告学）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I）（只招收非维吾尔族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I）（只招收非维吾尔族考生）（学费：免费）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（含新闻学、广告学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（含新闻学、广告学）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I）（只招收非维吾尔族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I）（只招收非维吾尔族考生）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "396046",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "历史组1",
+          "min_score": 482,
+          "min_rank": 18365,
+          "majors": [
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（历史组1）（语种：英语）（历史组(1)）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（历史组1）（语种：英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（历史组1）（语种：英语）（历史组(1)）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（历史组1）（语种：英语）"
+            },
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（历史组1）（语种：英语）（历史组(1)）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（历史组1）（语种：英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（历史组1）（语种：英语）（历史组(1)）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（历史组1）（语种：英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "396073",
+          "sg_name": "（500）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 486,
+          "min_rank": 81079,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（含电子信息工程、通信工程）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含电子信息工程、通信工程）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（含化学工程与工艺、制药工程）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含化学工程与工艺、制药工程）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（含电子信息工程、通信工程）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含电子信息工程、通信工程）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（含化学工程与工艺、制药工程）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含化学工程与工艺、制药工程）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "396074",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 71202,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 481,
+          "min_rank": 234230,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 9,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 7,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 7,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息工程、通信工程）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（电子信息工程、通信工程）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（新闻学、广告学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（新闻学、广告学）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础II）（只招收非蒙古族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础II）（只招收非蒙古族考生）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I）（只招收非藏族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I）（只招收非藏族考生）（学费：免费）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种为英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语语种为英语）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础IⅢI）（只招收非维吾尔族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础IⅢI）（只招收非维吾尔族考生）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": "0",
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 521,
+          "min_rank": 125369,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（兰州市）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 7,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（兰州市）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 7,
+              "tuition": "4300",
+              "length": "五年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（兰州市）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（兰州市）（含化学工程与工艺、制药工程专业）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）（含化学工程与工艺、制药工程专业）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（兰州市）（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（兰州市）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（兰州市）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（兰州市）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（兰州市）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（兰州市）（含电子信息工程、通信工程专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）（含电子信息工程、通信工程专业）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（兰州市）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（兰州市）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（兰州市）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（兰州市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（兰州市）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术（兰州市）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（兰州市）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（兰州市）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（兰州市）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（兰州市）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（兰州市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（兰州市）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（兰州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（兰州市）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（兰州市）（含新闻学、广告学专业）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）（含新闻学、广告学专业）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（兰州市）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（兰州市）（零基础III）（只招收非维吾尔族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（兰州市）（零基础III）（只招收非维吾尔族考生）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（兰州市）（零基础II）（只招收非蒙古族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（兰州市）（零基础II）（只招收非蒙古族考生）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（兰州市）（零基础I）（只招收非藏族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（兰州市）（零基础I）（只招收非藏族考生）（学费：免费）"
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "spname": "俄语（兰州市）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（兰州市）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（兰州市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（兰州市）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（兰州市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "371203",
+          "sg_name": "（115）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点；榆中校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点；榆中校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点；榆中校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点；榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371210",
+          "sg_name": "（108）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（包含专业：化学工程与工艺、制药工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 11,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业：化学工程与工艺、制药工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（办学地点：榆中校区）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "五年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（包含专业：电子信息工程、通信工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业：电子信息工程、通信工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（办学地点：榆中校区）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（包含专业：化学工程与工艺、制药工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 11,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业：化学工程与工艺、制药工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（办学地点：榆中校区）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "五年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（包含专业：电子信息工程、通信工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业：电子信息工程、通信工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（办学地点：榆中校区）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371208",
+          "sg_name": "（110）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 9,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 9,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371209",
+          "sg_name": "（109）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "五年",
+              "info": "（办学地点：西北新村校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "五年",
+              "info": "（办学地点：西北新村校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "五年",
+              "info": "（办学地点：西北新村校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "五年",
+              "info": "（办学地点：西北新村校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371207",
+          "sg_name": "（111）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371206",
+          "sg_name": "（112）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：西北新村校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：西北新村校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371205",
+          "sg_name": "（113）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371219",
+          "sg_name": "（303）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（国家专项）（办学地点：榆中校区）（国家专项）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（国家专项）（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（国家专项）（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（国家专项）（办学地点：榆中校区）（国家专项）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（国家专项）（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（国家专项）（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）（国家专项）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371204",
+          "sg_name": "（114）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371218",
+          "sg_name": "（304）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（国家专项）（办学地点：西北新村校区）（国家专项）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "五年",
+              "info": "（国家专项）（办学地点：西北新村校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（国家专项）（办学地点：西北新村校区）（国家专项）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "五年",
+              "info": "（国家专项）（办学地点：西北新村校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371221",
+          "sg_name": "（302）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（办学地点：榆中校区）（国家专项计划）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（办学地点：榆中校区；只招英语语种的考生）（国家专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：榆中校区；只招英语语种的考生）"
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（办学地点：榆中校区）（国家专项计划）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（办学地点：榆中校区；只招英语语种的考生）（国家专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：榆中校区；只招英语语种的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371249",
+          "sg_name": "（501）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：榆中校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：榆中校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371252",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础Ⅲ）（办学地点：榆中校区；只招收非维吾尔族考生）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础Ⅲ）（办学地点：榆中校区；只招收非维吾尔族考生）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础Ⅲ）（办学地点：榆中校区；只招收非维吾尔族考生）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础Ⅲ）（办学地点：榆中校区；只招收非维吾尔族考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371255",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（包含专业：新闻学、广告学；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（包含专业：新闻学、广告学；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "060104",
+              "sp_name": "文物与博物馆学",
+              "spname": "文物与博物馆学（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（包含专业：新闻学、广告学；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（包含专业：新闻学、广告学；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "060104",
+              "sp_name": "文物与博物馆学",
+              "spname": "文物与博物馆学（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371253",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（办学地点：榆中校区；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：榆中校区；只招英语语种的考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（办学地点：榆中校区；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：榆中校区；只招英语语种的考生）"
+            },
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（办学地点：榆中校区；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：榆中校区；只招英语语种的考生）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（办学地点：榆中校区；只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（办学地点：榆中校区；只招英语语种的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371254",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371222",
+          "sg_name": "（301）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）（国家专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）（国家专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "371251",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I）（办学地点：榆中校区；只招收非藏族考生）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I）（办学地点：榆中校区；只招收非藏族考生）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I）（办学地点：榆中校区；只招收非藏族考生）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I）（办学地点：榆中校区；只招收非藏族考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371250",
+          "sg_name": "（116）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础Ⅲ）（办学地点：榆中校区；只招收非蒙古族考生）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础Ⅲ）（办学地点：榆中校区；只招收非蒙古族考生）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础Ⅲ）（办学地点：榆中校区；只招收非蒙古族考生）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础Ⅲ）（办学地点：榆中校区；只招收非蒙古族考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "371256",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292936",
+          "sg_name": "（20）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 487,
+          "min_rank": 98000,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）",
+              "level2": "",
+              "level3": "",
+              "num": 10,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）",
+              "level2": "",
+              "level3": "",
+              "num": 10,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）"
+            }
+          ]
+        },
+        {
+          "group_id": "292939",
+          "sg_name": "（17）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 499,
+          "min_rank": 87499,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息工程、通信工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（电子信息工程、通信工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（化学工程与工艺、制药工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（化学工程与工艺、制药工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（办学地点：榆中校区；学制：五年）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "五年",
+              "info": "（办学地点：榆中校区；学制：五年）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（办学地点：榆中校区）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 7,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息工程、通信工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（电子信息工程、通信工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（化学工程与工艺、制药工程；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 6,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（化学工程与工艺、制药工程；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学（办学地点：榆中校区；学制：五年）",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "五年",
+              "info": "（办学地点：榆中校区；学制：五年）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学（办学地点：榆中校区）",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 3,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292937",
+          "sg_name": "（19）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 494,
+          "min_rank": 91841,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 6,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292938",
+          "sg_name": "（18）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 88339,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 5,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（办学地点：榆中校区）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 5,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292943",
+          "sg_name": "（13）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 502,
+          "min_rank": 84879,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292942",
+          "sg_name": "（14）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 88339,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292940",
+          "sg_name": "（16）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 498,
+          "min_rank": 88339,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：西北新村校区）"
+            },
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术（办学地点：榆中校区）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：西北新村校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（办学地点：西北新村校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292963",
+          "sg_name": "（21）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 491,
+          "min_rank": 94466,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）（国家专项计划）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）（国家专项计划）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292941",
+          "sg_name": "（15）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 511,
+          "min_rank": 77042,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学（办学地点：榆中校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学（办学地点：榆中校区）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292953",
+          "sg_name": "（10）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 528,
+          "min_rank": 19971,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）",
+              "level2": "",
+              "level3": "",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）",
+              "level2": "",
+              "level3": "",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（少数民族预科班；外语语种：不限；办学地点：榆中校区；学制：年）"
+            }
+          ]
+        },
+        {
+          "group_id": "292958",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 21789,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：榆中校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：榆中校区）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292961",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 18158,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292962",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 531,
+          "min_rank": 19059,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（新闻学、广告学；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（新闻学、广告学；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（新闻学、广告学；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（新闻学、广告学；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：榆中校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：榆中校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 1,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292959",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 546,
+          "min_rank": 14703,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292964",
+          "sg_name": "（12）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 551,
+          "min_rank": 13383,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）（国家专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（办学地点：榆中校区）（国家专项计划）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292955",
+          "sg_name": "（08）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 511,
+          "min_rank": 25200,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础II；只招收非蒙古族考生；办学地点：榆中校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础II；只招收非蒙古族考生；办学地点：榆中校区）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础II；只招收非蒙古族考生；办学地点：榆中校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础II；只招收非蒙古族考生；办学地点：榆中校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292960",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 18758,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292965",
+          "sg_name": "（11）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 534,
+          "min_rank": 18158,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：榆中校区）（国家专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：榆中校区）（国家专项计划）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292954",
+          "sg_name": "（09）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 12384,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "292957",
+          "sg_name": "（06）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 19669,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础III；只招收非维吾尔族考生；办学地点：榆中校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础III；只招收非维吾尔族考生；办学地点：榆中校区）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础III；只招收非维吾尔族考生；办学地点：榆中校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础III；只招收非维吾尔族考生；办学地点：榆中校区）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "292956",
+          "sg_name": "（07）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 520,
+          "min_rank": 22375,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I；只招收非藏族考生；办学地点：榆中校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I；只招收非藏族考生；办学地点：榆中校区）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I；只招收非藏族考生；办学地点：榆中校区）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I；只招收非藏族考生；办学地点：榆中校区）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "320686",
+          "sg_name": "（802）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 483,
+          "min_rank": 110693,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（榆中校区）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "4300",
+              "length": "一年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（榆中校区）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "4300",
+              "length": "一年",
+              "info": "（榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "320694",
+          "sg_name": "（117）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 443,
+          "min_rank": 162957,
+          "majors": [
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（包含专业:计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 23,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业:计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（包含专业:化学工程与工艺、制药工程）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 18,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业:化学工程与工艺、制药工程）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 11,
+              "tuition": "4300",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 9,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 7,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（包含专业:电子信息工程、通信工程）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业:电子信息工程、通信工程）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（包含专业:计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 23,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业:计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术）"
+            },
+            {
+              "spcode": "0813",
+              "sp_name": "化工与制药类",
+              "spname": "化工与制药类（包含专业:化学工程与工艺、制药工程）",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 18,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业:化学工程与工艺、制药工程）"
+            },
+            {
+              "spcode": "090401",
+              "sp_name": "动物医学",
+              "spname": "动物医学",
+              "level2": "农学",
+              "level3": "动物医学类",
+              "num": 11,
+              "tuition": "4300",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 10,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080406",
+              "sp_name": "无机非金属材料工程",
+              "spname": "无机非金属材料工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 9,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080407",
+              "sp_name": "高分子材料与工程",
+              "spname": "高分子材料与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 8,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "090301",
+              "sp_name": "动物科学",
+              "spname": "动物科学",
+              "level2": "农学",
+              "level3": "动物生产类",
+              "num": 7,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（包含专业:电子信息工程、通信工程）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（包含专业:电子信息工程、通信工程）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 3,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320693",
+          "sg_name": "（118）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 472,
+          "min_rank": 124520,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 9,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 9,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320691",
+          "sg_name": "（120）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 459,
+          "min_rank": 141751,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 6,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 6,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320696",
+          "sg_name": "（115）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 481,
+          "min_rank": 113115,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020101",
+              "sp_name": "经济学",
+              "spname": "经济学",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320689",
+          "sg_name": "（122）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 525,
+          "min_rank": 65455,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 3,
+              "tuition": "4800",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320692",
+          "sg_name": "（119）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 472,
+          "min_rank": 124520,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320697",
+          "sg_name": "（114）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 469,
+          "min_rank": 128457,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071102",
+              "sp_name": "应用心理学",
+              "spname": "应用心理学",
+              "level2": "理学",
+              "level3": "心理学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320690",
+          "sg_name": "（121）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 449,
+          "min_rank": 154943,
+          "majors": [
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060105T",
+              "sp_name": "文物保护技术",
+              "spname": "文物保护技术",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320688",
+          "sg_name": "（327）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 470,
+          "min_rank": 127104,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（国家专项）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（国家专项）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320687",
+          "sg_name": "（328）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 533,
+          "min_rank": 58342,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（国家专项）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（国家专项）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "4800",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320695",
+          "sg_name": "（116）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 478,
+          "min_rank": 116904,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "4300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320715",
+          "sg_name": "（801）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 502,
+          "min_rank": 26209,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（榆中校区）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "3800",
+              "length": "一年",
+              "info": "（榆中校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（榆中校区）（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 1,
+              "tuition": "3800",
+              "length": "一年",
+              "info": "（榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "320723",
+          "sg_name": "（109）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 499,
+          "min_rank": 27472,
+          "majors": [
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（包含专业:新闻学、广告学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 7,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（包含专业:新闻学、广告学）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060104",
+              "sp_name": "文物与博物馆学",
+              "spname": "文物与博物馆学",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0503",
+              "sp_name": "新闻传播学类",
+              "spname": "新闻传播学类（包含专业:新闻学、广告学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 7,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（包含专业:新闻学、广告学）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060104",
+              "sp_name": "文物与博物馆学",
+              "spname": "文物与博物馆学",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320722",
+          "sg_name": "（110）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 485,
+          "min_rank": 33567,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础III）（只招收非维吾尔族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础III）（只招收非维吾尔族考生）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础III）（只招收非维吾尔族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 4,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础III）（只招收非维吾尔族考生）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "320724",
+          "sg_name": "（108）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 501,
+          "min_rank": 26613,
+          "majors": [
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320717",
+          "sg_name": "（325）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 508,
+          "min_rank": 23835,
+          "majors": [
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（国家专项）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（国家专项）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 4,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320720",
+          "sg_name": "（112）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 491,
+          "min_rank": 30950,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础II）（只招收非蒙古族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础II）（只招收非蒙古族考生）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础II）（只招收非蒙古族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础II）（只招收非蒙古族考生）（学费：免费）"
+            }
+          ]
+        },
+        {
+          "group_id": "320725",
+          "sg_name": "（107）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 499,
+          "min_rank": 27472,
+          "majors": [
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "320726",
+          "sg_name": "（106）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 18863,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030401",
+              "sp_name": "民族学",
+              "spname": "民族学",
+              "level2": "法学",
+              "level3": "民族学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320718",
+          "sg_name": "（324）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 523,
+          "min_rank": 18530,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（国家专项）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（国家专项）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320716",
+          "sg_name": "（326）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "min_score": 499,
+          "min_rank": 27472,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）（国家专项）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）（国家专项）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "320719",
+          "sg_name": "（113）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 16307,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "320721",
+          "sg_name": "（111）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 494,
+          "min_rank": 29645,
+          "majors": [
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I）（只招收非藏族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I）（只招收非藏族考生）（学费：免费）"
+            },
+            {
+              "spcode": "050104",
+              "sp_name": "中国少数民族语言文学",
+              "spname": "中国少数民族语言文学（零基础I）（只招收非藏族考生）（学费：免费）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（零基础I）（只招收非藏族考生）（学费：免费）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "434087",
+          "sg_name": "（209）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 549,
+          "min_rank": 24471,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434088",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 32338,
+          "majors": [
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：榆中校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "3800",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434089",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 531,
+          "min_rank": 35410,
+          "majors": [
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（外语语种：英语；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "050206",
+              "sp_name": "阿拉伯语",
+              "spname": "阿拉伯语（外语语种：英语；办学地点：榆中校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "4400",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434101",
+          "sg_name": "（211）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 502,
+          "min_rank": 161564,
+          "majors": [
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（特征要求：不招色盲色弱；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程（特征要求：不招色盲色弱；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（特征要求：不招色盲色弱；办学地点：榆中校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "434102",
+          "sg_name": "（210）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 499,
+          "min_rank": 166023,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（含电子信息工程、通信工程专业具体专业分流情况请查看学校网站；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含电子信息工程、通信工程专业具体专业分流情况请查看学校网站；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业具体专业分流情况请查看学校网站；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业具体专业分流情况请查看学校网站；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（含电子信息工程、通信工程专业具体专业分流情况请查看学校网站；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含电子信息工程、通信工程专业具体专业分流情况请查看学校网站；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "spname": "计算机类（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业具体专业分流情况请查看学校网站；办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（含计算机科学与技术、软件工程、物联网工程、数据科学与大数据技术专业具体专业分流情况请查看学校网站；办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            },
+            {
+              "spcode": "081006T",
+              "sp_name": "道路桥梁与渡河工程",
+              "spname": "道路桥梁与渡河工程（办学地点：榆中校区）",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "4500",
+              "length": "四年",
+              "info": "（办学地点：榆中校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

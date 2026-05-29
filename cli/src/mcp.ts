@@ -62,6 +62,7 @@ import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from 
 import { paths as pathsFn } from "./paths.js";
 import { dossier as dossierFn } from "./dossier.js";
 import { roadmap as roadmapFn } from "./roadmap.js";
+import { provinceOverview as provinceOverviewFn } from "./province-overview.js";
 import { VERSION } from "./version.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: VERSION };
@@ -509,6 +510,18 @@ const TOOLS = [
     }
   },
   {
+    name: "province_overview",
+    description: "省份 overview — one-call aggregation across 7 datasets for a single province: 调剂rules + 2026 投档calendar + 综评 schools open here + 提前批 programs eligible + 历史 滑档 cases + 一分一段 manifest hits + college-groups colleges admitting here. Mirror of dossier (school-side); this is the parent-facing 'tell me everything about our province' summary. Replaces 6-7 separate verb calls.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        province: { type: "string", description: "中文省名 (e.g. '河南')" }
+      },
+      required: ["province"],
+      additionalProperties: false
+    }
+  },
+  {
     name: "calendar",
     description: "2026 投档时间日历 by-province — exam dates, score release, batch fill/dispatch/release/supplementary windows, key milestones (e.g. 强基报名/综评校测). 31 provinces; 4 confirmed for 2026 (上海/贵州/广西/青海), 27 tentative-based-on-2025 (clearly flagged). Pass list=true to enumerate covered provinces.",
     inputSchema: {
@@ -937,6 +950,10 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const detail = findXiaoceDetailBySchool(school);
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
+    }
+    case "province_overview": {
+      const province = getStr(args, "province");
+      return { ok: true, ...provinceOverviewFn(province) };
     }
     case "calendar": {
       if (args.list === true) {
