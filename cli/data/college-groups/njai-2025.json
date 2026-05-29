@@ -1,0 +1,3544 @@
+{
+  "_kind": "南京艺术学院 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "南京艺术学院",
+  "code": 331,
+  "zs_code": "10331",
+  "school_id_gaokao_cn": 149,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/149/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/149/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=149; zs_code=10331.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。",
+    "round-14 added: njai (2025 schoolspecialplan + schoolprovincescore, gaokao.cn school_id=149)."
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424777",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 536,
+          "min_rank": 27796,
+          "majors": [
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（江苏）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（江苏）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（江苏）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（江苏）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（江苏）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（江苏）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（江苏）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（江苏）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（江苏）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（江苏）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（江苏）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（江苏）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 12,
+      "province": "天津",
+      "groups": [
+        {
+          "group_id": "259639",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 581,
+          "min_rank": 17539,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计（校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计（校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "259640",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批A段",
+          "zslx_name": "普通类",
+          "min_score": 567,
+          "min_rank": 21240,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（校本部）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（校本部）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（校本部）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（校本部）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 51275,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "按高考文化课成绩录取的艺术类专业",
+          "min_score": 581,
+          "min_rank": 11023,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（按高考文化课成绩录取的艺术类专业）（按高考文化课成绩录取的艺术类专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（按高考文化课成绩录取的艺术类专业）"
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学（按高考文化课成绩录取的艺术类专业）（按高考文化课成绩录取的艺术类专业）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（按高考文化课成绩录取的艺术类专业）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（按高考文化课成绩录取的艺术类专业）（按高考文化课成绩录取的艺术类专业）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（按高考文化课成绩录取的艺术类专业）"
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作（按高考文化课成绩录取的艺术类专业）（按高考文化课成绩录取的艺术类专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（按高考文化课成绩录取的艺术类专业）"
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 51275,
+          "majors": [
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 14,
+      "province": "山西",
+      "groups": [
+        {
+          "group_id": "392332",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 8229,
+          "majors": [
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 15,
+      "province": "内蒙古",
+      "groups": [
+        {
+          "group_id": "448053",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 528,
+          "min_rank": 6801,
+          "majors": [
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（校本部）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（校本部）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（校本部）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（校本部）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论（校本部）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（校本部）（外语语种：不限）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（校本部）（外语语种：不限）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（校本部）（外语语种：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 21,
+      "province": "辽宁",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 541,
+          "min_rank": 8249,
+          "majors": [
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 22,
+      "province": "吉林",
+      "groups": [
+        {
+          "group_id": "237378",
+          "sg_name": "（002）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 23,
+      "province": "黑龙江",
+      "groups": [
+        {
+          "group_id": "262417",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 518,
+          "min_rank": 6103,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423177",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 500,
+          "min_rank": 24251,
+          "majors": [
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423184",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 508,
+          "min_rank": 21944,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "426437",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 33083,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 48,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 42,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 39,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 35,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 33,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 32,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 31,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 29,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 28,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 23,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050303",
+              "sp_name": "广告学",
+              "spname": "广告学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 21,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 48,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 42,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 39,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 35,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 33,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 32,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 31,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 29,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 28,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 23,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050303",
+              "sp_name": "广告学",
+              "spname": "广告学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 21,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426465",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 543,
+          "min_rank": 102526,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 40,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 40,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426466",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 538,
+          "min_rank": 109484,
+          "majors": [
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 10,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 6,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 20,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 10,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 6,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 53531,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "groups": [
+        {
+          "group_id": "341870",
+          "sg_name": "（001）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 44424,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "341893",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 542,
+          "min_rank": 16417,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "393538",
+          "sg_name": "（999）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 8243,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "393546",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 32905,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "groups": [
+        {
+          "group_id": "403139",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 543,
+          "min_rank": 15215,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": 540,
+          "min_rank": 100450,
+          "majors": [
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "368954",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "368987",
+          "sg_name": "（110）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291335",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 12620,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130101",
+              "sp_name": "艺术史论",
+              "spname": "艺术史论",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318405",
+          "sg_name": "（106）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 549,
+          "min_rank": 11067,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432155",
+          "sg_name": "（208）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 21751,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "432167",
+          "sg_name": "（209）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 83813,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "groups": [
+        {
+          "group_id": "458265",
+          "sg_name": "（110）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 534,
+          "min_rank": 8997,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "groups": [
+        {
+          "group_id": "350321",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 642,
+          "min_rank": 6010,
+          "majors": [
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 30286,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 30286,
+          "majors": [
+            {
+              "spcode": "080218T",
+              "sp_name": "智能交互设计",
+              "spname": "智能交互设计（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "groups": [
+        {
+          "group_id": "439692",
+          "sg_name": "（101）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130501",
+              "sp_name": "艺术设计学",
+              "spname": "艺术设计学",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 8439,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "groups": [
+        {
+          "group_id": "361682",
+          "sg_name": "（01）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（校本部）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复（校本部）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（校本部）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理（校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（校本部）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 54,
+      "province": "西藏",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科二批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130103T",
+              "sp_name": "非物质文化遗产保护",
+              "spname": "非物质文化遗产保护",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "提前批艺体类本科",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130505",
+              "sp_name": "服装与服饰设计",
+              "spname": "服装与服饰设计（认可区内美术与设计类专业统考成绩。）",
+              "level2": "艺术学",
+              "level3": "设计学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（认可区内美术与设计类专业统考成绩。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "groups": [
+        {
+          "group_id": "305166",
+          "sg_name": "（110）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "groups": [
+        {
+          "group_id": "416912",
+          "sg_name": "（001）",
+          "first_subject": "历史",
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "min_score": 517,
+          "min_rank": 6026,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 63,
+      "province": "青海",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "历史",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130401",
+              "sp_name": "美术学",
+              "spname": "美术学（办学地点:江苏省南京市）",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": "（办学地点:江苏省南京市）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 65,
+      "province": "新疆",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科二批",
+          "zslx_name": "普通类",
+          "min_score": 434,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130409T",
+              "sp_name": "文物保护与修复",
+              "spname": "文物保护与修复",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 2,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130311T",
+              "sp_name": "影视摄影与制作",
+              "spname": "影视摄影与制作",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130102T",
+              "sp_name": "艺术管理",
+              "spname": "艺术管理",
+              "level2": "艺术学",
+              "level3": "艺术学理论类",
+              "num": 1,
+              "tuition": "9900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "本科二批",
+          "zslx_name": "预科",
+          "min_score": 434,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（在本校预科一年）（单列类）（学费待定）（预科）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "",
+              "length": "四年",
+              "info": "（在本校预科一年）（单列类）（学费待定）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

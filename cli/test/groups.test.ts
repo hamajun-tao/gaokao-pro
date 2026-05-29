@@ -23,7 +23,7 @@ import {
 // --------------------------------------------------------------------------
 // datasetStats — recovered counts + surfaced year metadata
 // --------------------------------------------------------------------------
-test("datasetStats reports 323 recovered universities", () => {
+test("datasetStats reports 348 recovered universities", () => {
   const s = datasetStats();
   // 198 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
   // ucas/cuhksz/snnu/swjtu/hdu/cnu/ccmu/njmu/njupt/nuist/smu/ecupl + 15 added
@@ -72,10 +72,14 @@ test("datasetStats reports 323 recovered universities", () => {
   // 计量大学 (计量特色); gpu = 广州医科; sxxk = 西安外国语; zjwu = 浙江
   // 外国语学院; gznufe = 贵州财经; gxust = 广西科技; yshu = 烟台大学;
   // tau = 太原师范学院.
+  // + round-14 (25) — still-missing 双一流/211/specialty schools:
+  // 双一流 hbu/xzu, 综合区域 hbue/nau/njai/usts/cdsf, 工科 ahut/bistu/
+  // cqut/xpu/sut/lntu/xpu, 医 nxmu/ahjmu/hrbmu/dmu/gmc/kmu/gxmu/sdfmu/
+  // cczy, 师范/财经 cdnu/hainnu/hbpu.
   // Asserted precisely: a drop means the tolerant loader regressed and
-  // silently lost schools again. A jump above 323 means new data files were
+  // silently lost schools again. A jump above 348 means new data files were
   // added — also worth a deliberate look, so we pin the exact number.
-  assertEqual(s.universities, 323, "recovered university count");
+  assertEqual(s.universities, 348, "recovered university count");
 });
 
 test("datasetStats surfaces non-zero group/major totals", () => {
@@ -149,7 +153,7 @@ for (const { slug, name } of RECOVERED) {
 // --------------------------------------------------------------------------
 test("no university name is empty/null", () => {
   const names = listAllUniversities();
-  assertEqual(names.length, 323, "all 323 schools have a name surfaced");
+  assertEqual(names.length, 348, "all 348 schools have a name surfaced");
   for (const n of names) {
     assert(typeof n === "string" && n.length > 0, `university name must be a non-empty string, got ${JSON.stringify(n)}`);
   }
