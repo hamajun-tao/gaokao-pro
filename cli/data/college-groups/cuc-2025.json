@@ -54,87 +54,121 @@
             {
               "sp_name": "数字媒体技术",
               "plan": 6,
-              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区"
+              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 6,
-              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区"
+              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区",
+              "spcode": "080907T",
+              "tuition": "100000"
             },
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080910T",
+              "tuition": "5500"
             },
             {
               "sp_name": "新闻学",
               "plan": 3,
-              "info_short": "新闻舆论学方向"
+              "info_short": "新闻舆论学方向",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "广告学",
               "plan": 3,
-              "info_short": "计算广告双学士学位实验班"
+              "info_short": "计算广告双学士学位实验班",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "计算机科学与技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": "游戏科学与技术方向"
+              "info_short": "游戏科学与技术方向",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080907T",
+              "tuition": "100000"
             },
             {
               "sp_name": "政治学与行政学",
               "plan": 3,
-              "info_short": "政治传播与政府治理方向"
+              "info_short": "政治传播与政府治理方向",
+              "spcode": "030201",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 2,
-              "info_short": "智能与计算传播方向"
+              "info_short": "智能与计算传播方向",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "电子信息工程",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080701",
+              "tuition": "5500"
             },
             {
               "sp_name": "信息管理与信息系统",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120102",
+              "tuition": "5000"
             },
             {
               "sp_name": "人工智能",
               "plan": 2,
-              "info_short": "智能视听卓越人才实验班"
+              "info_short": "智能视听卓越人才实验班",
+              "spcode": "080717T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能影像艺术",
               "plan": 2,
-              "info_short": "艺术类按文化课成绩录取"
+              "info_short": "艺术类按文化课成绩录取",
+              "spcode": "130318T",
+              "tuition": "10000"
             },
             {
               "sp_name": "智能工程与创意设计",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080808T",
+              "tuition": "5500"
             }
           ]
         },
@@ -152,27 +186,37 @@
             {
               "sp_name": "通信工程",
               "plan": 3,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "080703",
+              "tuition": "5500"
             },
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 3,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "080910T",
+              "tuition": "5500"
             },
             {
               "sp_name": "信息管理与信息系统",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "120102",
+              "tuition": "5000"
             },
             {
               "sp_name": "大数据管理与应用",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "120108T",
+              "tuition": "5000"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "080722T",
+              "tuition": "5500"
             }
           ]
         },
@@ -190,7 +234,9 @@
             {
               "sp_name": "工商管理",
               "plan": 2,
-              "info_short": "高校专项计划"
+              "info_short": "高校专项计划",
+              "spcode": "120201K",
+              "tuition": "5000"
             }
           ]
         },
@@ -208,62 +254,86 @@
             {
               "sp_name": "广告学",
               "plan": 3,
-              "info_short": "品牌学方向"
+              "info_short": "品牌学方向",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "行政管理",
               "plan": 3,
-              "info_short": "媒介与公共治理方向"
+              "info_short": "媒介与公共治理方向",
+              "spcode": "120402",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语国际教育",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050103",
+              "tuition": "5000"
             },
             {
               "sp_name": "广播电视学",
               "plan": 2,
-              "info_short": "视听传播方向"
+              "info_short": "视听传播方向",
+              "spcode": "050302",
+              "tuition": "5000"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "中外合作办学"
+              "info_short": "中外合作办学",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 2,
-              "info_short": "中外合作办学"
+              "info_short": "中外合作办学",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": "智能融媒体运营方向"
+              "info_short": "智能融媒体运营方向",
+              "spcode": "050306T",
+              "tuition": "5000"
             },
             {
               "sp_name": "戏剧影视文学",
               "plan": 2,
-              "info_short": "艺术类按文化课成绩录取"
+              "info_short": "艺术类按文化课成绩录取",
+              "spcode": "130304",
+              "tuition": "8000"
             },
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "艺术类按文化课;文艺编导方向"
+              "info_short": "艺术类按文化课;文艺编导方向",
+              "spcode": "130305",
+              "tuition": "10000"
             },
             {
               "sp_name": "国际新闻与传播",
               "plan": 2,
-              "info_short": "卓越人才实验班"
+              "info_short": "卓越人才实验班",
+              "spcode": "050309T",
+              "tuition": "5000"
             },
             {
               "sp_name": "工商管理",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120201K",
+              "tuition": "5000"
             }
           ]
         },
@@ -281,12 +351,16 @@
             {
               "sp_name": "传播学",
               "plan": 2,
-              "info_short": "国家专项计划;智能与计算传播方向"
+              "info_short": "国家专项计划;智能与计算传播方向",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "跨境电子商务",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "120803T",
+              "tuition": "5000"
             }
           ]
         },
@@ -304,12 +378,16 @@
             {
               "sp_name": "新闻学",
               "plan": 3,
-              "info_short": "高校专项计划"
+              "info_short": "高校专项计划",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语言",
               "plan": 2,
-              "info_short": "高校专项计划"
+              "info_short": "高校专项计划",
+              "spcode": "050102",
+              "tuition": "5000"
             }
           ]
         }
@@ -333,7 +411,9 @@
             {
               "sp_name": "人工智能",
               "plan": 2,
-              "info_short": "智能视听卓越人才实验班"
+              "info_short": "智能视听卓越人才实验班",
+              "spcode": "080717T",
+              "tuition": "5500"
             }
           ]
         },
@@ -351,42 +431,58 @@
             {
               "sp_name": "通信工程",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080703",
+              "tuition": "5500"
             },
             {
               "sp_name": "计算机科学与技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "电子信息工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080701",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": "游戏科学与技术"
+              "info_short": "游戏科学与技术",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080910T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能工程与创意设计",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080808T",
+              "tuition": "5500"
             }
           ]
         },
@@ -404,7 +500,9 @@
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "视听编辑"
+              "info_short": "视听编辑",
+              "spcode": "130305",
+              "tuition": "10000"
             }
           ]
         },
@@ -422,27 +520,37 @@
             {
               "sp_name": "广告学",
               "plan": 3,
-              "info_short": "计算广告双学士学位实验班"
+              "info_short": "计算广告双学士学位实验班",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "智能与计算传播"
+              "info_short": "智能与计算传播",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "文化产业管理",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120210",
+              "tuition": "5000"
             },
             {
               "sp_name": "广播电视学",
               "plan": 2,
-              "info_short": "视听传播"
+              "info_short": "视听传播",
+              "spcode": "050302",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字经济",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "020109T",
+              "tuition": "5000"
             }
           ]
         },
@@ -460,12 +568,16 @@
             {
               "sp_name": "数字媒体技术",
               "plan": 5,
-              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区"
+              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 4,
-              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区"
+              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区",
+              "spcode": "080907T",
+              "tuition": "100000"
             }
           ]
         },
@@ -483,7 +595,9 @@
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "文艺编导"
+              "info_short": "文艺编导",
+              "spcode": "130305",
+              "tuition": "10000"
             }
           ]
         },
@@ -501,27 +615,37 @@
             {
               "sp_name": "广告学",
               "plan": 3,
-              "info_short": "品牌学"
+              "info_short": "品牌学",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语言文学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050101",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050306T",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字出版",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050307T",
+              "tuition": "5000"
             }
           ]
         },
@@ -539,7 +663,9 @@
             {
               "sp_name": "英语",
               "plan": 2,
-              "info_short": "区域国别卓越人才实验班;只招英语"
+              "info_short": "区域国别卓越人才实验班;只招英语",
+              "spcode": "050201",
+              "tuition": "6000"
             }
           ]
         },
@@ -557,12 +683,16 @@
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "中外合作办学"
+              "info_short": "中外合作办学",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "中外合作办学"
+              "info_short": "中外合作办学",
+              "spcode": "050303",
+              "tuition": "85000"
             }
           ]
         }
@@ -586,42 +716,58 @@
             {
               "sp_name": "通信工程",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080703",
+              "tuition": "5500"
             },
             {
               "sp_name": "电子信息工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080701",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080907T",
+              "tuition": "100000"
             },
             {
               "sp_name": "网络空间安全",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080911TK",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 2,
-              "info_short": "游戏科学与技术方向"
+              "info_short": "游戏科学与技术方向",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080910T",
+              "tuition": "5500"
             }
           ]
         },
@@ -639,32 +785,44 @@
             {
               "sp_name": "广告学",
               "plan": 3,
-              "info_short": "计算广告双学士学位实验班"
+              "info_short": "计算广告双学士学位实验班",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字经济",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "020109T",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": "新闻舆论学方向"
+              "info_short": "新闻舆论学方向",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 2,
-              "info_short": "智能与计算传播方向"
+              "info_short": "智能与计算传播方向",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "大数据管理与应用",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120108T",
+              "tuition": "5000"
             },
             {
               "sp_name": "跨境电子商务",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120803T",
+              "tuition": "5000"
             }
           ]
         },
@@ -682,7 +840,9 @@
             {
               "sp_name": "智能影像艺术",
               "plan": 2,
-              "info_short": "艺术学门类"
+              "info_short": "艺术学门类",
+              "spcode": "130318T",
+              "tuition": "10000"
             }
           ]
         },
@@ -700,12 +860,16 @@
             {
               "sp_name": "数字媒体技术",
               "plan": 5,
-              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区"
+              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 4,
-              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区"
+              "info_short": "中外合作办学;海南陵水黎安国际教育创新试验区",
+              "spcode": "080907T",
+              "tuition": "100000"
             }
           ]
         },
@@ -723,32 +887,44 @@
             {
               "sp_name": "广告学",
               "plan": 4,
-              "info_short": "品牌学方向"
+              "info_short": "品牌学方向",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语国际教育",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050103",
+              "tuition": "5000"
             },
             {
               "sp_name": "广播电视学",
               "plan": 2,
-              "info_short": "视听传播方向"
+              "info_short": "视听传播方向",
+              "spcode": "050302",
+              "tuition": "5000"
             },
             {
               "sp_name": "文化产业管理",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120210",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050306T",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字出版",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050307T",
+              "tuition": "5000"
             }
           ]
         },
@@ -766,7 +942,9 @@
             {
               "sp_name": "英语",
               "plan": 2,
-              "info_short": "区域国别卓越人才实验班;只招英语"
+              "info_short": "区域国别卓越人才实验班;只招英语",
+              "spcode": "050201",
+              "tuition": "6000"
             }
           ]
         },
@@ -784,7 +962,9 @@
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "艺术学门类;视听编辑方向"
+              "info_short": "艺术学门类;视听编辑方向",
+              "spcode": "130305",
+              "tuition": "10000"
             }
           ]
         },
@@ -802,12 +982,16 @@
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "中外合作办学"
+              "info_short": "中外合作办学",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "中外合作办学"
+              "info_short": "中外合作办学",
+              "spcode": "050303",
+              "tuition": "85000"
             }
           ]
         }
@@ -831,162 +1015,226 @@
             {
               "sp_name": "数字媒体技术",
               "plan": 6,
-              "info_short": "中外合作办学;英国阿伯泰大学;海南陵水黎安"
+              "info_short": "中外合作办学;英国阿伯泰大学;海南陵水黎安",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 5,
-              "info_short": "中外合作办学;英国考文垂大学;海南陵水黎安"
+              "info_short": "中外合作办学;英国考文垂大学;海南陵水黎安",
+              "spcode": "080907T",
+              "tuition": "100000"
             },
             {
               "sp_name": "新闻学",
               "plan": 4,
-              "info_short": "新闻舆论学方向"
+              "info_short": "新闻舆论学方向",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "广告学",
               "plan": 4,
-              "info_short": "品牌学方向"
+              "info_short": "品牌学方向",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 4,
-              "info_short": "中外合作办学;美国密苏里哥伦比亚大学"
+              "info_short": "中外合作办学;美国密苏里哥伦比亚大学",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "计算机科学与技术",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "通信工程",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080703",
+              "tuition": "5500"
             },
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080910T",
+              "tuition": "5500"
             },
             {
               "sp_name": "汉语国际教育",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050103",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "智能与计算传播方向"
+              "info_short": "智能与计算传播方向",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "电子信息工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080701",
+              "tuition": "5500"
             },
             {
               "sp_name": "文化产业管理",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120210",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 3,
-              "info_short": "智能融媒体运营方向"
+              "info_short": "智能融媒体运营方向",
+              "spcode": "050306T",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": "游戏科学与技术方向"
+              "info_short": "游戏科学与技术方向",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "广播电视编导",
               "plan": 3,
-              "info_short": "视听编辑方向"
+              "info_short": "视听编辑方向",
+              "spcode": "130305",
+              "tuition": "10000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080907T",
+              "tuition": "100000"
             },
             {
               "sp_name": "工商管理",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120201K",
+              "tuition": "5000"
             },
             {
               "sp_name": "大数据管理与应用",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120108T",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字经济",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "020109T",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络空间安全",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080911TK",
+              "tuition": "5500"
             },
             {
               "sp_name": "政治学与行政学",
               "plan": 3,
-              "info_short": "政治传播与政府治理方向"
+              "info_short": "政治传播与政府治理方向",
+              "spcode": "030201",
+              "tuition": "5000"
             },
             {
               "sp_name": "智能装备与系统",
               "plan": 3,
-              "info_short": "演艺工程与智能技术方向"
+              "info_short": "演艺工程与智能技术方向",
+              "spcode": "080806T",
+              "tuition": "5500"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "中外合作办学;英国诺丁汉特伦特大学"
+              "info_short": "中外合作办学;英国诺丁汉特伦特大学",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语言",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050102",
+              "tuition": "5000"
             },
             {
               "sp_name": "戏剧影视文学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "130304",
+              "tuition": "8000"
             },
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "文艺编导方向"
+              "info_short": "文艺编导方向",
+              "spcode": "130305",
+              "tuition": "10000"
             },
             {
               "sp_name": "国际新闻与传播",
               "plan": 2,
-              "info_short": "卓越人才实验班"
+              "info_short": "卓越人才实验班",
+              "spcode": "050309T",
+              "tuition": "5000"
             },
             {
               "sp_name": "人工智能",
               "plan": 2,
-              "info_short": "智能视听卓越人才实验班"
+              "info_short": "智能视听卓越人才实验班",
+              "spcode": "080717T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能工程与创意设计",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080808T",
+              "tuition": "5500"
             }
           ]
         },
@@ -1004,17 +1252,23 @@
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 3,
-              "info_short": "高校专项计划"
+              "info_short": "高校专项计划",
+              "spcode": "080910T",
+              "tuition": "5500"
             },
             {
               "sp_name": "汉语言",
               "plan": 2,
-              "info_short": "高校专项计划"
+              "info_short": "高校专项计划",
+              "spcode": "050102",
+              "tuition": "5000"
             },
             {
               "sp_name": "政治学与行政学",
               "plan": 2,
-              "info_short": "高校专项计划;政治传播与政府治理方向"
+              "info_short": "高校专项计划;政治传播与政府治理方向",
+              "spcode": "030201",
+              "tuition": "5000"
             }
           ]
         }
@@ -1038,7 +1292,9 @@
             {
               "sp_name": "人工智能",
               "plan": 2,
-              "info_short": "智能视听卓越人才实验班"
+              "info_short": "智能视听卓越人才实验班",
+              "spcode": "080717T",
+              "tuition": "5500"
             }
           ]
         },
@@ -1056,47 +1312,65 @@
             {
               "sp_name": "电子信息工程",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080701",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080907T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 4,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "计算机科学与技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "通信工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080703",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": "游戏科学与技术方向"
+              "info_short": "游戏科学与技术方向",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "网络空间安全",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080911TK",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能装备与系统",
               "plan": 3,
-              "info_short": "演艺工程与智能技术方向"
+              "info_short": "演艺工程与智能技术方向",
+              "spcode": "080806T",
+              "tuition": "5500"
             }
           ]
         },
@@ -1114,27 +1388,37 @@
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 4,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080910T",
+              "tuition": "5500"
             },
             {
               "sp_name": "网络空间安全",
               "plan": 3,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080911TK",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 3,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "电子信息工程",
               "plan": 2,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080701",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 2,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080906",
+              "tuition": "5500"
             }
           ]
         },
@@ -1152,27 +1436,37 @@
             {
               "sp_name": "广播电视学",
               "plan": 3,
-              "info_short": "视听传播方向"
+              "info_short": "视听传播方向",
+              "spcode": "050302",
+              "tuition": "5000"
             },
             {
               "sp_name": "大数据管理与应用",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120108T",
+              "tuition": "5000"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "计算广告双学士学位实验班"
+              "info_short": "计算广告双学士学位实验班",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "行政管理",
               "plan": 2,
-              "info_short": "媒介与公共治理方向"
+              "info_short": "媒介与公共治理方向",
+              "spcode": "120402",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": "智能融媒体运营方向"
+              "info_short": "智能融媒体运营方向",
+              "spcode": "050306T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1190,12 +1484,16 @@
             {
               "sp_name": "信息管理与信息系统",
               "plan": 2,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "120102",
+              "tuition": "5000"
             },
             {
               "sp_name": "大数据管理与应用",
               "plan": 2,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "120108T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1213,7 +1511,9 @@
             {
               "sp_name": "智能影像艺术",
               "plan": 2,
-              "info_short": "按文化课成绩录取"
+              "info_short": "按文化课成绩录取",
+              "spcode": "130318T",
+              "tuition": "10000"
             }
           ]
         },
@@ -1231,12 +1531,16 @@
             {
               "sp_name": "数字媒体技术",
               "plan": 6,
-              "info_short": "中外合作办学;海南国际学院;英国阿伯泰大学"
+              "info_short": "中外合作办学;海南国际学院;英国阿伯泰大学",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 5,
-              "info_short": "中外合作办学;海南国际学院;英国考文垂大学"
+              "info_short": "中外合作办学;海南国际学院;英国考文垂大学",
+              "spcode": "080907T",
+              "tuition": "100000"
             }
           ]
         },
@@ -1254,32 +1558,44 @@
             {
               "sp_name": "广告学",
               "plan": 3,
-              "info_short": "品牌学方向"
+              "info_short": "品牌学方向",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "智能与计算传播方向"
+              "info_short": "智能与计算传播方向",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语国际教育",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050103",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": "新闻舆论学方向"
+              "info_short": "新闻舆论学方向",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "文化产业管理",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120210",
+              "tuition": "5000"
             }
           ]
         },
@@ -1297,7 +1613,9 @@
             {
               "sp_name": "英语",
               "plan": 2,
-              "info_short": "区域国别卓越人才实验班;只招英语语种"
+              "info_short": "区域国别卓越人才实验班;只招英语语种",
+              "spcode": "050201",
+              "tuition": "6000"
             }
           ]
         },
@@ -1315,12 +1633,16 @@
             {
               "sp_name": "戏剧影视文学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "130304",
+              "tuition": "8000"
             },
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "视听编辑方向"
+              "info_short": "视听编辑方向",
+              "spcode": "130305",
+              "tuition": "10000"
             }
           ]
         },
@@ -1338,17 +1660,23 @@
             {
               "sp_name": "文化产业管理",
               "plan": 3,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "120210",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语言文学",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "050101",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "050306T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1366,12 +1694,16 @@
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "中外合作办学;英国诺丁汉特伦特大学"
+              "info_short": "中外合作办学;英国诺丁汉特伦特大学",
+              "spcode": "050303",
+              "tuition": "85000"
             },
             {
               "sp_name": "传播学",
               "plan": 2,
-              "info_short": "中外合作办学;美国密苏里哥伦比亚大学"
+              "info_short": "中外合作办学;美国密苏里哥伦比亚大学",
+              "spcode": "050304",
+              "tuition": "85000"
             }
           ]
         }
@@ -1395,7 +1727,9 @@
             {
               "sp_name": "人工智能",
               "plan": 2,
-              "info_short": "智能视听卓越人才实验班"
+              "info_short": "智能视听卓越人才实验班",
+              "spcode": "080717T",
+              "tuition": "5500"
             }
           ]
         },
@@ -1413,42 +1747,58 @@
             {
               "sp_name": "电子信息工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080701",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": "游戏科学与技术方向"
+              "info_short": "游戏科学与技术方向",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "数据科学与大数据技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080910T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080907T",
+              "tuition": "5500"
             },
             {
               "sp_name": "网络空间安全",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080911TK",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能装备与系统",
               "plan": 2,
-              "info_short": "演艺工程与智能技术方向"
+              "info_short": "演艺工程与智能技术方向",
+              "spcode": "080806T",
+              "tuition": "5500"
             }
           ]
         },
@@ -1466,22 +1816,30 @@
             {
               "sp_name": "智能装备与系统",
               "plan": 3,
-              "info_short": "国家专项;演艺工程与智能技术方向"
+              "info_short": "国家专项;演艺工程与智能技术方向",
+              "spcode": "080806T",
+              "tuition": "5500"
             },
             {
               "sp_name": "计算机科学与技术",
               "plan": 2,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "通信工程",
               "plan": 2,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080703",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 2,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "080722T",
+              "tuition": "5500"
             }
           ]
         },
@@ -1499,32 +1857,44 @@
             {
               "sp_name": "数字出版",
               "plan": 3,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050307T",
+              "tuition": "5000"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "计算广告双学士学位实验班"
+              "info_short": "计算广告双学士学位实验班",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 2,
-              "info_short": "智能与计算传播方向"
+              "info_short": "智能与计算传播方向",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "信息管理与信息系统",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120102",
+              "tuition": "5000"
             },
             {
               "sp_name": "行政管理",
               "plan": 2,
-              "info_short": "媒介与公共治理方向"
+              "info_short": "媒介与公共治理方向",
+              "spcode": "120402",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": "智能融媒体运营方向"
+              "info_short": "智能融媒体运营方向",
+              "spcode": "050306T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1542,12 +1912,16 @@
             {
               "sp_name": "数字媒体技术",
               "plan": 5,
-              "info_short": "中外合作办学;海南国际学院"
+              "info_short": "中外合作办学;海南国际学院",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 3,
-              "info_short": "中外合作办学;海南国际学院"
+              "info_short": "中外合作办学;海南国际学院",
+              "spcode": "080907T",
+              "tuition": "100000"
             }
           ]
         },
@@ -1565,7 +1939,9 @@
             {
               "sp_name": "国际新闻与传播",
               "plan": 2,
-              "info_short": "卓越人才实验班"
+              "info_short": "卓越人才实验班",
+              "spcode": "050309T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1583,37 +1959,51 @@
             {
               "sp_name": "广告学",
               "plan": 3,
-              "info_short": "品牌学方向"
+              "info_short": "品牌学方向",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语言文学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050101",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": "新闻舆论学方向"
+              "info_short": "新闻舆论学方向",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "广播电视学",
               "plan": 2,
-              "info_short": "视听传播方向"
+              "info_short": "视听传播方向",
+              "spcode": "050302",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "跨境电子商务",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "120803T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1631,12 +2021,16 @@
             {
               "sp_name": "戏剧影视文学",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "130304",
+              "tuition": "8000"
             },
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "文艺编导方向"
+              "info_short": "文艺编导方向",
+              "spcode": "130305",
+              "tuition": "10000"
             }
           ]
         },
@@ -1654,17 +2048,23 @@
             {
               "sp_name": "汉语言",
               "plan": 3,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "050102",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "050306T",
+              "tuition": "5000"
             },
             {
               "sp_name": "工商管理",
               "plan": 2,
-              "info_short": "国家专项计划"
+              "info_short": "国家专项计划",
+              "spcode": "120201K",
+              "tuition": "5000"
             }
           ]
         }
@@ -1688,12 +2088,16 @@
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "文艺编导;校本部"
+              "info_short": "文艺编导;校本部",
+              "spcode": "130305",
+              "tuition": "10000"
             },
             {
               "sp_name": "智能影像艺术",
               "plan": 2,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "130318T",
+              "tuition": "10000"
             }
           ]
         },
@@ -1711,7 +2115,9 @@
             {
               "sp_name": "国际新闻与传播",
               "plan": 2,
-              "info_short": "卓越人才实验班;校本部"
+              "info_short": "卓越人才实验班;校本部",
+              "spcode": "050309T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1729,47 +2135,65 @@
             {
               "sp_name": "计算机科学与技术",
               "plan": 4,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "通信工程",
               "plan": 4,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "080703",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 4,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "080907T",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能视听工程",
               "plan": 4,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "080722T",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "数字媒体技术",
               "plan": 3,
-              "info_short": "游戏科学与技术;校本部"
+              "info_short": "游戏科学与技术;校本部",
+              "spcode": "080906",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能装备与系统",
               "plan": 3,
-              "info_short": "演艺工程与智能技术;校本部"
+              "info_short": "演艺工程与智能技术;校本部",
+              "spcode": "080806T",
+              "tuition": "5500"
             },
             {
               "sp_name": "网络空间安全",
               "plan": 2,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "080911TK",
+              "tuition": "5500"
             },
             {
               "sp_name": "智能工程与创意设计",
               "plan": 2,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "080808T",
+              "tuition": "5500"
             }
           ]
         },
@@ -1787,37 +2211,51 @@
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "信息传播;校本部"
+              "info_short": "信息传播;校本部",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "智能与计算传播;校本部"
+              "info_short": "智能与计算传播;校本部",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "文化产业管理",
               "plan": 3,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "120210",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字经济",
               "plan": 3,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "020109T",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "广播电视学",
               "plan": 2,
-              "info_short": "视听传播;校本部"
+              "info_short": "视听传播;校本部",
+              "spcode": "050302",
+              "tuition": "5000"
             },
             {
               "sp_name": "跨境电子商务",
               "plan": 2,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "120803T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1835,12 +2273,16 @@
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "中外合作办学;美国密苏里哥伦比亚大学;校本部"
+              "info_short": "中外合作办学;美国密苏里哥伦比亚大学;校本部",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "中外合作办学;英国诺丁汉特伦特大学;校本部"
+              "info_short": "中外合作办学;英国诺丁汉特伦特大学;校本部",
+              "spcode": "050303",
+              "tuition": "85000"
             }
           ]
         },
@@ -1858,12 +2300,16 @@
             {
               "sp_name": "数字媒体技术",
               "plan": 6,
-              "info_short": "中外合作办学;英国阿伯泰大学;海南陵水"
+              "info_short": "中外合作办学;英国阿伯泰大学;海南陵水",
+              "spcode": "080906",
+              "tuition": "100000"
             },
             {
               "sp_name": "智能科学与技术",
               "plan": 6,
-              "info_short": "中外合作办学;英国考文垂大学;海南陵水"
+              "info_short": "中外合作办学;英国考文垂大学;海南陵水",
+              "spcode": "080907T",
+              "tuition": "100000"
             }
           ]
         },
@@ -1881,7 +2327,9 @@
             {
               "sp_name": "戏剧影视文学",
               "plan": 2,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "130304",
+              "tuition": "8000"
             }
           ]
         },
@@ -1899,37 +2347,51 @@
             {
               "sp_name": "广告学",
               "plan": 4,
-              "info_short": "品牌学;校本部"
+              "info_short": "品牌学;校本部",
+              "spcode": "050303",
+              "tuition": "5000"
             },
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "050304",
+              "tuition": "5000"
             },
             {
               "sp_name": "行政管理",
               "plan": 3,
-              "info_short": "媒介与公共治理;校本部"
+              "info_short": "媒介与公共治理;校本部",
+              "spcode": "120402",
+              "tuition": "5000"
             },
             {
               "sp_name": "数字出版",
               "plan": 3,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "050307T",
+              "tuition": "5000"
             },
             {
               "sp_name": "汉语言文学",
               "plan": 2,
-              "info_short": "校本部"
+              "info_short": "校本部",
+              "spcode": "050101",
+              "tuition": "5000"
             },
             {
               "sp_name": "新闻学",
               "plan": 2,
-              "info_short": "新闻舆论学;校本部"
+              "info_short": "新闻舆论学;校本部",
+              "spcode": "050301",
+              "tuition": "5000"
             },
             {
               "sp_name": "网络与新媒体",
               "plan": 2,
-              "info_short": "智能融媒体运营;校本部"
+              "info_short": "智能融媒体运营;校本部",
+              "spcode": "050306T",
+              "tuition": "5000"
             }
           ]
         },
@@ -1947,7 +2409,9 @@
             {
               "sp_name": "英语",
               "plan": 2,
-              "info_short": "区域国别卓越人才实验班;只招英语;校本部"
+              "info_short": "区域国别卓越人才实验班;只招英语;校本部",
+              "spcode": "050201",
+              "tuition": "6000"
             }
           ]
         },
@@ -1965,12 +2429,16 @@
             {
               "sp_name": "传播学",
               "plan": 3,
-              "info_short": "中外合作办学;美国密苏里哥伦比亚大学;校本部"
+              "info_short": "中外合作办学;美国密苏里哥伦比亚大学;校本部",
+              "spcode": "050304",
+              "tuition": "85000"
             },
             {
               "sp_name": "广告学",
               "plan": 2,
-              "info_short": "中外合作办学;英国诺丁汉特伦特大学;校本部"
+              "info_short": "中外合作办学;英国诺丁汉特伦特大学;校本部",
+              "spcode": "050303",
+              "tuition": "85000"
             }
           ]
         }
@@ -14617,5 +15085,6 @@
       ]
     }
   },
-  "stats": "中国传媒大学(CUC, 211/双一流, 国标代码10033, 在豫鄂闽冀苏多省代号1023)2025在7个调研省以院校专业组形式投档，覆盖物理/历史/综合改革三种生源。物理类主组(河南104/江苏09/广东213/湖北09/福建500)以工科为主(计算机/通信/电子/智能科学/数字媒体/网络空间安全)，再选化学硬约束；物理类次组(103/07/211/08/999/物理+不限)装入新闻类与艺术类(智能影像艺术)。历史类主组(103/02/209/04/999)聚集新闻传播+广告学+汉语言文学+网络与新媒体。所有省份均有'中外合作'子组(海南陵水黎安国际教育创新试验区/英国阿伯泰/英国考文垂/美国密苏里/英国诺丁汉特伦特)，学费8.5–10万。河南/湖北还设国家专项与艺术(505组)单独组。投档线区间约：物理类578–640(湖北中外578→河南115组640)；历史类594–621(湖北艺术594→河南普通621)；山东综合改革一段575。河北因gaokao.cn未细化分组，以批次线汇总：物理617/历史620。"
+  "stats": "中国传媒大学(CUC, 211/双一流, 国标代码10033, 在豫鄂闽冀苏多省代号1023)2025在7个调研省以院校专业组形式投档，覆盖物理/历史/综合改革三种生源。物理类主组(河南104/江苏09/广东213/湖北09/福建500)以工科为主(计算机/通信/电子/智能科学/数字媒体/网络空间安全)，再选化学硬约束；物理类次组(103/07/211/08/999/物理+不限)装入新闻类与艺术类(智能影像艺术)。历史类主组(103/02/209/04/999)聚集新闻传播+广告学+汉语言文学+网络与新媒体。所有省份均有'中外合作'子组(海南陵水黎安国际教育创新试验区/英国阿伯泰/英国考文垂/美国密苏里/英国诺丁汉特伦特)，学费8.5–10万。河南/湖北还设国家专项与艺术(505组)单独组。投档线区间约：物理类578–640(湖北中外578→河南115组640)；历史类594–621(湖北艺术594→河南普通621)；山东综合改革一段575。河北因gaokao.cn未细化分组，以批次线汇总：物理617/历史620。",
+  "_notes": "round-15 backfilled spcode for cuc: 河北/江苏/福建/山东/河南/湖北/广东"
 }

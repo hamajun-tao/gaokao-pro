@@ -781,82 +781,114 @@
             {
               "sp_name": "工科试验班类",
               "plan": 40,
-              "info_short": "信息科学与技术类"
+              "info_short": "信息科学与技术类",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 39,
-              "info_short": "航空航天类"
+              "info_short": "航空航天类",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 31,
-              "info_short": "计算与智能科学类"
+              "info_short": "计算与智能科学类",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 8,
-              "info_short": "中外合作办学（中法未来科技试验班）"
+              "info_short": "中外合作办学（中法未来科技试验班）",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 8,
-              "info_short": "中外合作办学（中法航空试验班）"
+              "info_short": "中外合作办学（中法航空试验班）",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "飞行器动力工程",
               "plan": 5,
-              "info_short": "中外合作 2+2 联合培养（俄罗斯）"
+              "info_short": "中外合作 2+2 联合培养（俄罗斯）",
+              "spcode": "082004",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 5,
-              "info_short": "未来工程师项目制育人试验班"
+              "info_short": "未来工程师项目制育人试验班",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "飞行器动力工程",
               "plan": 3,
-              "info_short": "卓越人才培养试验班"
+              "info_short": "卓越人才培养试验班",
+              "spcode": "082004",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 3,
-              "info_short": "中法工程师学院"
+              "info_short": "中法工程师学院",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "数学与应用数学",
               "plan": 2,
-              "info_short": "拔尖学生培养计划"
+              "info_short": "拔尖学生培养计划",
+              "spcode": "070101",
+              "tuition": "5500"
             },
             {
               "sp_name": "计算机科学与技术",
               "plan": 2,
-              "info_short": "拔尖学生培养计划"
+              "info_short": "拔尖学生培养计划",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 2,
-              "info_short": "医工交叉试验班"
+              "info_short": "医工交叉试验班",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 2,
-              "info_short": "未来空天领军计划"
+              "info_short": "未来空天领军计划",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 2,
-              "info_short": "量子科技先锋计划"
+              "info_short": "量子科技先锋计划",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "物理学",
               "plan": 2,
-              "info_short": "拔尖学生培养计划"
+              "info_short": "拔尖学生培养计划",
+              "spcode": "070201",
+              "tuition": "5500"
             },
             {
               "sp_name": "人工智能",
               "plan": 2,
-              "info_short": "卓越人才培养试验班"
+              "info_short": "卓越人才培养试验班",
+              "spcode": "080717T",
+              "tuition": "5500"
             }
           ]
         },
@@ -873,12 +905,16 @@
             {
               "sp_name": "社会科学试验班",
               "plan": 9,
-              "info_short": "学院路校区，含经济学、行政管理、法学等"
+              "info_short": "学院路校区，含经济学、行政管理、法学等",
+              "spcode": "0",
+              "tuition": "5000"
             },
             {
               "sp_name": "社会科学试验班",
               "plan": 2,
-              "info_short": "外语交叉学科人才培养试验班"
+              "info_short": "外语交叉学科人才培养试验班",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         }
@@ -3181,27 +3217,37 @@
             {
               "sp_name": "工科试验班类（航空航天类）",
               "plan": 16,
-              "info_short": "智能飞行器技术等专业，沙河校区"
+              "info_short": "智能飞行器技术等专业，沙河校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（信息科学与技术类）",
               "plan": 14,
-              "info_short": "电子信息工程、通信工程等，学院路校区"
+              "info_short": "电子信息工程、通信工程等，学院路校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（计算与智能科学类）",
               "plan": 12,
-              "info_short": "计算机、人工智能等专业，学院路校区"
+              "info_short": "计算机、人工智能等专业，学院路校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 8,
-              "info_short": "数学与应用数学等专业，沙河校区"
+              "info_short": "数学与应用数学等专业，沙河校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（医工交叉试验班）",
               "plan": 3,
-              "info_short": "生物医学工程、智能医学工程"
+              "info_short": "生物医学工程、智能医学工程",
+              "spcode": "0",
+              "tuition": "5500"
             }
           ]
         },
@@ -3219,12 +3265,16 @@
             {
               "sp_name": "工科试验班类（中法未来科技试验班）",
               "plan": 15,
-              "info_short": "中外合作办学，杭州办学，学费约5万/年"
+              "info_short": "中外合作办学，杭州办学，学费约5万/年",
+              "spcode": "0",
+              "tuition": "50000"
             },
             {
               "sp_name": "工科试验班类（中法航空试验班）",
               "plan": 11,
-              "info_short": "中外合作办学，杭州办学，学费约4万/年"
+              "info_short": "中外合作办学，杭州办学，学费约4万/年",
+              "spcode": "0",
+              "tuition": "50000"
             }
           ]
         },
@@ -3242,7 +3292,9 @@
             {
               "sp_name": "社会科学试验班",
               "plan": 5,
-              "info_short": "学院路校区，含经济学、行政管理、法学等"
+              "info_short": "学院路校区，含经济学、行政管理、法学等",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         }
@@ -3826,12 +3878,16 @@
             {
               "sp_name": "工科试验班类",
               "plan": 85,
-              "info_short": "航空航天类、信息科学与技术类、计算与智能科学类等"
+              "info_short": "航空航天类、信息科学与技术类、计算与智能科学类等",
+              "spcode": "0",
+              "tuition": "40000"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 12,
-              "info_short": "数学与应用数学、信息与计算科学等专业"
+              "info_short": "数学与应用数学、信息与计算科学等专业",
+              "spcode": "0",
+              "tuition": "5500"
             }
           ]
         },
@@ -3849,7 +3905,9 @@
             {
               "sp_name": "工科试验班类",
               "plan": 8,
-              "info_short": "中外合作办学，与法国国立民航大学联合培养"
+              "info_short": "中外合作办学，与法国国立民航大学联合培养",
+              "spcode": "0",
+              "tuition": "40000"
             }
           ]
         },
@@ -3867,7 +3925,9 @@
             {
               "sp_name": "社会科学试验班",
               "plan": 7,
-              "info_short": "含经济学、行政管理、法学等专业"
+              "info_short": "含经济学、行政管理、法学等专业",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         }
@@ -4277,87 +4337,121 @@
             {
               "sp_name": "工科试验班类",
               "plan": 43,
-              "info_short": "航空航天类专业"
+              "info_short": "航空航天类专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 37,
-              "info_short": "计算与智能科学类专业"
+              "info_short": "计算与智能科学类专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 36,
-              "info_short": "信息科学与技术类专业"
+              "info_short": "信息科学与技术类专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 7,
-              "info_short": "中外合作办学项目（中法未来）"
+              "info_short": "中外合作办学项目（中法未来）",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 7,
-              "info_short": "中外合作办学项目（中法航空）"
+              "info_short": "中外合作办学项目（中法航空）",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 5,
-              "info_short": "未来工程师项目制育人试验班"
+              "info_short": "未来工程师项目制育人试验班",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 3,
-              "info_short": "医工交叉试验班"
+              "info_short": "医工交叉试验班",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 3,
-              "info_short": "未来空天领军计划"
+              "info_short": "未来空天领军计划",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 3,
-              "info_short": "中法工程师学院"
+              "info_short": "中法工程师学院",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "计算机科学与技术",
               "plan": 2,
-              "info_short": "拔尖学生培养计划"
+              "info_short": "拔尖学生培养计划",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "工程力学",
               "plan": 2,
-              "info_short": "拔尖学生培养计划"
+              "info_short": "拔尖学生培养计划",
+              "spcode": "080102",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 2,
-              "info_short": "量子科技先锋计划"
+              "info_short": "量子科技先锋计划",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "物理学",
               "plan": 2,
-              "info_short": "拔尖学生培养计划"
+              "info_short": "拔尖学生培养计划",
+              "spcode": "070201",
+              "tuition": "5500"
             },
             {
               "sp_name": "微电子科学与工程",
               "plan": 2,
-              "info_short": "卓越人才培养试验班"
+              "info_short": "卓越人才培养试验班",
+              "spcode": "080704",
+              "tuition": "5500"
             },
             {
               "sp_name": "网络空间安全",
               "plan": 2,
-              "info_short": "卓越人才培养试验班"
+              "info_short": "卓越人才培养试验班",
+              "spcode": "080911TK",
+              "tuition": "5500"
             },
             {
               "sp_name": "数学与应用数学",
               "plan": 1,
-              "info_short": "拔尖学生培养计划"
+              "info_short": "拔尖学生培养计划",
+              "spcode": "070101",
+              "tuition": "5500"
             },
             {
               "sp_name": "人工智能",
               "plan": 1,
-              "info_short": "卓越人才培养试验班"
+              "info_short": "卓越人才培养试验班",
+              "spcode": "080717T",
+              "tuition": "5500"
             }
           ]
         },
@@ -4374,12 +4468,16 @@
             {
               "sp_name": "社会科学试验班",
               "plan": 6,
-              "info_short": "经济学、行政管理、法学专业"
+              "info_short": "经济学、行政管理、法学专业",
+              "spcode": "0",
+              "tuition": "5000"
             },
             {
               "sp_name": "社会科学试验班",
               "plan": 2,
-              "info_short": "外语交叉学科人才培养试验班"
+              "info_short": "外语交叉学科人才培养试验班",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         }
@@ -4402,17 +4500,23 @@
             {
               "sp_name": "工科试验班类（航空航天类）",
               "plan": 44,
-              "info_short": "智能飞行器技术、空天智能电推进技术等，沙河校区"
+              "info_short": "智能飞行器技术、空天智能电推进技术等，沙河校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（信息科学与技术类）",
               "plan": 25,
-              "info_short": "电子信息工程、通信工程等专业，学院路校区"
+              "info_short": "电子信息工程、通信工程等专业，学院路校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（计算与智能科学类）",
               "plan": 21,
-              "info_short": "计算机科学与技术、虚拟现实技术等，学院路校区"
+              "info_short": "计算机科学与技术、虚拟现实技术等，学院路校区",
+              "spcode": "0",
+              "tuition": "5500"
             }
           ]
         },
@@ -4430,7 +4534,9 @@
             {
               "sp_name": "工科试验班类（国家专项）（航空航天类）",
               "plan": 20,
-              "info_short": "智能飞行器技术等专业，沙河校区，国家专项计划"
+              "info_short": "智能飞行器技术等专业，沙河校区，国家专项计划",
+              "spcode": "0",
+              "tuition": "5500"
             }
           ]
         },
@@ -4448,12 +4554,16 @@
             {
               "sp_name": "工科试验班类（中外合作办学,中法未来科技试验班）",
               "plan": 8,
-              "info_short": "计算机科学与技术、航空航天工程等专业，杭州办学"
+              "info_short": "计算机科学与技术、航空航天工程等专业，杭州办学",
+              "spcode": "0",
+              "tuition": "50000"
             },
             {
               "sp_name": "工科试验班类（中外合作办学,中法航空试验班）",
               "plan": 7,
-              "info_short": "交通运输、飞行器适航技术等专业，杭州办学"
+              "info_short": "交通运输、飞行器适航技术等专业，杭州办学",
+              "spcode": "0",
+              "tuition": "50000"
             }
           ]
         },
@@ -4471,7 +4581,9 @@
             {
               "sp_name": "社会科学试验班",
               "plan": 4,
-              "info_short": "经济学、行政管理、法学等专业，学院路校区"
+              "info_short": "经济学、行政管理、法学等专业，学院路校区",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         },
@@ -4489,7 +4601,9 @@
             {
               "sp_name": "社会科学试验班（国家专项计划）",
               "plan": 3,
-              "info_short": "经济学、行政管理、法学专业，学院路校区"
+              "info_short": "经济学、行政管理、法学专业，学院路校区",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         }
@@ -4512,67 +4626,93 @@
             {
               "sp_name": "工科试验班类（航空航天类）",
               "plan": 38,
-              "info_short": "航空航天类；含智能飞行器技术等专业"
+              "info_short": "航空航天类；含智能飞行器技术等专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（信息科学与技术类）",
               "plan": 27,
-              "info_short": "信息科学与技术类；电子信息工程、通信工程等"
+              "info_short": "信息科学与技术类；电子信息工程、通信工程等",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（计算与智能科学类）",
               "plan": 20,
-              "info_short": "计算与智能科学类；计算机科学与技术等"
+              "info_short": "计算与智能科学类；计算机科学与技术等",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 13,
-              "info_short": "含数学与应用数学、信息与计算科学等专业"
+              "info_short": "含数学与应用数学、信息与计算科学等专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（医工交叉试验班）",
               "plan": 6,
-              "info_short": "生物医学工程、智能医学工程；不招色盲色弱"
+              "info_short": "生物医学工程、智能医学工程；不招色盲色弱",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（未来工程师项目制育人试验班）",
               "plan": 4,
-              "info_short": "人工智能、自动化、低空技术与工程等"
+              "info_short": "人工智能、自动化、低空技术与工程等",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类（中法工程师学院）",
               "plan": 4,
-              "info_short": "数学与应用数学、信息与计算科学等"
+              "info_short": "数学与应用数学、信息与计算科学等",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "物理学（拔尖学生培养计划）",
               "plan": 4,
-              "info_short": "拔尖学生培养；含物理学-微电子科学与工程双学位"
+              "info_short": "拔尖学生培养；含物理学-微电子科学与工程双学位",
+              "spcode": "070201",
+              "tuition": "5500"
             },
             {
               "sp_name": "计算机科学与技术（拔尖学生培养计划）",
               "plan": 2,
-              "info_short": "拔尖学生培养；对色彩辨识有要求"
+              "info_short": "拔尖学生培养；对色彩辨识有要求",
+              "spcode": "080901",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（未来空天领军计划）",
               "plan": 2,
-              "info_short": "智能飞行器技术等六个专业"
+              "info_short": "智能飞行器技术等六个专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "微电子科学与工程（卓越人才培养试验班）",
               "plan": 2,
-              "info_short": "卓越人才培养试验班；学院路校区"
+              "info_short": "卓越人才培养试验班；学院路校区",
+              "spcode": "080704",
+              "tuition": "5500"
             },
             {
               "sp_name": "人工智能（卓越人才培养试验班）",
               "plan": 2,
-              "info_short": "卓越人才培养试验班；学院路校区"
+              "info_short": "卓越人才培养试验班；学院路校区",
+              "spcode": "080717T",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类（量子科技先锋计划）",
               "plan": 1,
-              "info_short": "计算机科学与技术、软件工程等五个专业"
+              "info_short": "计算机科学与技术、软件工程等五个专业",
+              "spcode": "0",
+              "tuition": "5500"
             }
           ]
         },
@@ -4590,12 +4730,16 @@
             {
               "sp_name": "工科试验班类（国家专项计划）",
               "plan": 9,
-              "info_short": "航空航天类；国家专项计划；沙河校区"
+              "info_short": "航空航天类；国家专项计划；沙河校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类（国家专项计划）",
               "plan": 3,
-              "info_short": "国家专项计划；沙河校区"
+              "info_short": "国家专项计划；沙河校区",
+              "spcode": "0",
+              "tuition": "5500"
             }
           ]
         },
@@ -4613,12 +4757,16 @@
             {
               "sp_name": "工科试验班类（民族班；航空航天类）",
               "plan": 8,
-              "info_short": "民族班；航空航天类；含智能飞行器技术等专业"
+              "info_short": "民族班；航空航天类；含智能飞行器技术等专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类（民族班）",
               "plan": 2,
-              "info_short": "民族班；含数学与应用数学、信息与计算科学等"
+              "info_short": "民族班；含数学与应用数学、信息与计算科学等",
+              "spcode": "0",
+              "tuition": "5500"
             }
           ]
         },
@@ -4636,12 +4784,16 @@
             {
               "sp_name": "工科试验班类（中外合作办学，中法航空试验班）",
               "plan": 6,
-              "info_short": "中外合作，交通运输、飞行器适航技术等"
+              "info_short": "中外合作，交通运输、飞行器适航技术等",
+              "spcode": "0",
+              "tuition": "40000"
             },
             {
               "sp_name": "工科试验班类（中外合作办学，中法未来科技试验班）",
               "plan": 6,
-              "info_short": "中外合作，计算机科学与技术等五个专业"
+              "info_short": "中外合作，计算机科学与技术等五个专业",
+              "spcode": "0",
+              "tuition": "40000"
             }
           ]
         },
@@ -4659,12 +4811,16 @@
             {
               "sp_name": "社会科学试验班（经济学、行政管理、法学）",
               "plan": 4,
-              "info_short": "含人工智能-行政管理等双学士学位项目"
+              "info_short": "含人工智能-行政管理等双学士学位项目",
+              "spcode": "0",
+              "tuition": "5000"
             },
             {
               "sp_name": "社会科学试验班（外语交叉学科人才培养试验班）",
               "plan": 2,
-              "info_short": "英语、翻译；含英语-金融学等双学位项目"
+              "info_short": "英语、翻译；含英语-金融学等双学位项目",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         }
@@ -5121,67 +5277,93 @@
             {
               "sp_name": "工科试验班类",
               "plan": 31,
-              "info_short": "航空航天类，含智能飞行器技术等专业"
+              "info_short": "航空航天类，含智能飞行器技术等专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 22,
-              "info_short": "信息科学与技术类，含电子信息工程等"
+              "info_short": "信息科学与技术类，含电子信息工程等",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 13,
-              "info_short": "计算与智能科学类，含计算机、软件工程"
+              "info_short": "计算与智能科学类，含计算机、软件工程",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 13,
-              "info_short": "沙河校区，含数学与应用数学等专业"
+              "info_short": "沙河校区，含数学与应用数学等专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 10,
-              "info_short": "中法工程师学院，含数学、信息与计算科学"
+              "info_short": "中法工程师学院，含数学、信息与计算科学",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 5,
-              "info_short": "医工交叉试验班，含生物医学工程等"
+              "info_short": "医工交叉试验班，含生物医学工程等",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 3,
-              "info_short": "未来工程师项目试验班，沙河校区"
+              "info_short": "未来工程师项目试验班，沙河校区",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "数学与应用数学",
               "plan": 2,
-              "info_short": "拔尖学生培养计划，沙河校区"
+              "info_short": "拔尖学生培养计划，沙河校区",
+              "spcode": "070101",
+              "tuition": "5500"
             },
             {
               "sp_name": "工程力学",
               "plan": 2,
-              "info_short": "拔尖学生培养计划，沙河校区"
+              "info_short": "拔尖学生培养计划，沙河校区",
+              "spcode": "080102",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 2,
-              "info_short": "未来空天领军计划，含多个工程专业"
+              "info_short": "未来空天领军计划，含多个工程专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "微电子科学与工程",
               "plan": 2,
-              "info_short": "卓越人才培养试验班，学院路校区"
+              "info_short": "卓越人才培养试验班，学院路校区",
+              "spcode": "080704",
+              "tuition": "5500"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 1,
-              "info_short": "量子科技先锋计划，含计算机等专业"
+              "info_short": "量子科技先锋计划，含计算机等专业",
+              "spcode": "0",
+              "tuition": "5500"
             },
             {
               "sp_name": "人工智能",
               "plan": 1,
-              "info_short": "卓越人才培养试验班，学院路校区"
+              "info_short": "卓越人才培养试验班，学院路校区",
+              "spcode": "080717T",
+              "tuition": "5500"
             }
           ]
         },
@@ -5199,12 +5381,16 @@
             {
               "sp_name": "工科试验班类",
               "plan": 6,
-              "info_short": "中外合作办学，中法航空试验班"
+              "info_short": "中外合作办学，中法航空试验班",
+              "spcode": "0",
+              "tuition": "40000"
             },
             {
               "sp_name": "工科试验班类",
               "plan": 6,
-              "info_short": "中外合作办学，中法未来科技试验班"
+              "info_short": "中外合作办学，中法未来科技试验班",
+              "spcode": "0",
+              "tuition": "40000"
             }
           ]
         },
@@ -5222,12 +5408,16 @@
             {
               "sp_name": "社会科学试验班",
               "plan": 4,
-              "info_short": "含经济学、行政管理、法学专业含双学位项目"
+              "info_short": "含经济学、行政管理、法学专业含双学位项目",
+              "spcode": "0",
+              "tuition": "5000"
             },
             {
               "sp_name": "社会科学试验班",
               "plan": 2,
-              "info_short": "外语交叉学科人才培养试验班，含英语、翻译专业"
+              "info_short": "外语交叉学科人才培养试验班，含英语、翻译专业",
+              "spcode": "0",
+              "tuition": "5000"
             }
           ]
         }
@@ -8837,5 +9027,6 @@
         }
       ]
     }
-  }
+  },
+  "_notes": "round-15 backfilled spcode for buaa: 河北/江苏/福建/山东/河南/湖北/广东"
 }

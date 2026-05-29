@@ -14,13 +14,19 @@
               "name": "法学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0301",
+              "tuition": "5000",
+              "info_short": "（包含专业：法学（含国际班））"
             },
             {
               "name": "文科试验班类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（经济、金融与管理）（包含专业：经济与金融（国际班））"
             },
             {
               "name": "社会科学试验班",
@@ -41,37 +47,55 @@
               "name": "工科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（自强书院）（包含专业：交叉工程（等专业））"
             },
             {
               "name": "自动化类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0808",
+              "tuition": "5000",
+              "info_short": "（包含专业：自动化（含信息管理信息系统方向））"
             },
             {
               "name": "理科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（数理类）（包含专业：数学与应用数学、物理学、数理基础科学、统计学、工程物理、工程物理（能源实验班））"
             },
             {
               "name": "电子信息类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0807",
+              "tuition": "5000",
+              "info_short": "（包含专业：电子信息科学与技术）"
             },
             {
               "name": "计算机类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0809",
+              "tuition": "5000",
+              "info_short": "（包含专业：计算机科学与技术、计算机科学与技术（计算机科学实验班））"
             },
             {
               "name": "临床医学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "1002",
+              "tuition": "5000",
+              "info_short": "（协和）（包含专业：临床医学）"
             },
             {
               "name": "建筑类",
@@ -102,7 +126,10 @@
               "name": "文科试验班类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（经济、金融与管理）"
             }
           ],
           "group_min_score": 679,
@@ -123,7 +150,10 @@
               "name": "理科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（数学与应用数学、物理学、数理基础科学、统计学、工程物理、工程物理（能源实验班））（数理类）"
             },
             {
               "name": "土木类",
@@ -135,31 +165,46 @@
               "name": "工科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（交叉工程等专业）（为先书院）"
             },
             {
               "name": "电子信息类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0807",
+              "tuition": "5000",
+              "info_short": "（电子信息科学与技术）"
             },
             {
               "name": "计算机类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0809",
+              "tuition": "5000",
+              "info_short": "（计算机科学与技术、计算机科学与技术（计算机科学实验班））"
             },
             {
               "name": "自动化类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0808",
+              "tuition": "5000",
+              "info_short": "（自动化（含信息管理信息系统））"
             },
             {
               "name": "临床医学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "1002",
+              "tuition": "5000",
+              "info_short": "（临床医学）（协和）"
             }
           ],
           "group_min_score": 684,
@@ -190,25 +235,37 @@
               "name": "工科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（自强书院）（含交叉工程等专业；除有说明外，其他办学地点：北京市）"
             },
             {
               "name": "电子信息类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0807",
+              "tuition": "5000",
+              "info_short": "（含电子信息科学与技术专业；除有说明外，其他办学地点：北京市）"
             },
             {
               "name": "计算机类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0809",
+              "tuition": "5000",
+              "info_short": "（含计算机科学与技术、计算机科学与技术（计算机科学实验班）专业；除有说明外，其他办学地点：北京市）"
             },
             {
               "name": "自动化类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0808",
+              "tuition": "5000",
+              "info_short": "（含自动化（含信息管理信息系统方向）专业；除有说明外，其他办学地点：北京市）"
             },
             {
               "name": "土木类",
@@ -220,7 +277,10 @@
               "name": "临床医学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "1002",
+              "tuition": "5000",
+              "info_short": "（协和）（含临床医学专业；除有说明外，其他办学地点：北京市）"
             }
           ],
           "group_min_score": 688,
@@ -235,13 +295,19 @@
               "name": "文科试验班类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（外文实验班）（含英语专业；办学地点：北京市）"
             },
             {
               "name": "法学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0301",
+              "tuition": "5000",
+              "info_short": "（含法学（含国际班）专业；办学地点：北京市）"
             }
           ],
           "group_min_score": 675,
@@ -260,13 +326,19 @@
               "name": "文科试验班类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（外文实验班；英语）"
             },
             {
               "name": "法学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0301",
+              "tuition": "5000",
+              "info_short": "（法学（含国际班））"
             }
           ],
           "group_min_score": 674,
@@ -281,7 +353,10 @@
               "name": "文科试验班类(国家专项)",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（外文实验班；英语）"
             }
           ],
           "group_min_score": 660,
@@ -302,31 +377,46 @@
               "name": "理科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（数理类；数学与应用数学、物理学、数理基础科学、统计学、工程物理、工程物理（能源实验班））"
             },
             {
               "name": "工科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（自强书院；交叉工程（等专业））"
             },
             {
               "name": "电子信息类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0807",
+              "tuition": "5000",
+              "info_short": "（电子信息科学与技术）"
             },
             {
               "name": "计算机类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0809",
+              "tuition": "5000",
+              "info_short": "（计算机科学与技术、计算机科学与技术（计算机科学实验班））"
             },
             {
               "name": "自动化类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0808",
+              "tuition": "5000",
+              "info_short": "（自动化（含信息管理信息系统方向））"
             },
             {
               "name": "土木类",
@@ -338,7 +428,10 @@
               "name": "临床医学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "1002",
+              "tuition": "5000",
+              "info_short": "（协和；临床医学；学制：八年医）"
             }
           ],
           "group_min_score": 682,
@@ -353,7 +446,10 @@
               "name": "工科试验班(国家专项)",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（自强书院；交叉工程（等专业））"
             }
           ],
           "group_min_score": 672,
@@ -368,7 +464,10 @@
               "name": "理科试验班(国家专项)",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（数理类；数学与应用数学、物理学、数理基础科学、统计学、工程物理、工程物理（能源实验班））"
             }
           ],
           "group_min_score": 672,
@@ -393,37 +492,55 @@
               "name": "工科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（自强书院）（含交叉工程（等专业））"
             },
             {
               "name": "电子信息类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0807",
+              "tuition": "5000",
+              "info_short": "（含电子信息科学与技术）"
             },
             {
               "name": "计算机类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0809",
+              "tuition": "5000",
+              "info_short": "（含计算机科学与技术、计算机科学与技术（计算机科学实验班））"
             },
             {
               "name": "自动化类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0808",
+              "tuition": "5000",
+              "info_short": "（含自动化（含信息管理信息系统方向））"
             },
             {
               "name": "理科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（数理类）（含数学与应用数学、物理学、数理基础科学、统计学、工程物理、工程物理（能源实验班））"
             },
             {
               "name": "临床医学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "1002",
+              "tuition": "5000",
+              "info_short": "（协和）（含临床医学）"
             },
             {
               "name": "土木类",
@@ -465,13 +582,19 @@
               "name": "文科试验班类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（外文实验班）（含英语）"
             },
             {
               "name": "法学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0301",
+              "tuition": "5000",
+              "info_short": "（含法学（含国际班））"
             }
           ],
           "group_min_score": 669,
@@ -490,13 +613,19 @@
               "name": "理科试验班(理科各专业)",
               "plan": null,
               "min_score": 685,
-              "min_rank": 140
+              "min_rank": 140,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（理科各专业）（交叉工程（等理科各专业））"
             },
             {
               "name": "临床医学类",
               "plan": 5,
               "min_score": 687,
-              "min_rank": 109
+              "min_rank": 109,
+              "spcode": "1002",
+              "tuition": "5000",
+              "info_short": "（临床医学（协和）、临床医学（卓越医师科学家））"
             },
             {
               "name": "建筑类",
@@ -508,25 +637,37 @@
               "name": "工科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（自强书院）（交叉工程（等专业））（高校专项计划）"
             },
             {
               "name": "电子信息类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0807",
+              "tuition": "5000",
+              "info_short": "（电子信息科学与技术）（高校专项计划）"
             },
             {
               "name": "计算机类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0809",
+              "tuition": "5000",
+              "info_short": "（计算机科学与技术、计算机科学与技术（计算机科学实验班））（高校专项计划）"
             },
             {
               "name": "自动化类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0808",
+              "tuition": "5000",
+              "info_short": "（自动化（含:信息管理信息系统方向））（高校专项计划）"
             },
             {
               "name": "土木类",
@@ -547,7 +688,10 @@
               "name": "文科试验班类(文科各专业)",
               "plan": 3,
               "min_score": 692,
-              "min_rank": 50
+              "min_rank": 50,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（文科各专业）（社会学（等专业））"
             }
           ],
           "group_min_score": 692,
@@ -566,13 +710,19 @@
               "name": "临床医学类",
               "plan": null,
               "min_score": 689,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "1002",
+              "tuition": "5000",
+              "info_short": "（含临床医学（协和）、临床医学（卓越医师科学家）专业）"
             },
             {
               "name": "理科试验班(理科各专业)",
               "plan": null,
               "min_score": 688,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（理科各专业）（含交叉工程（等理科各专业）专业）"
             },
             {
               "name": "建筑类",
@@ -584,13 +734,19 @@
               "name": "工科试验班",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（国家专项计划）（笃实书院）（含交叉工程（等专业）专业）"
             },
             {
               "name": "电子信息类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0807",
+              "tuition": "5000",
+              "info_short": "（国家专项计划）（含电子信息科学与技术专业）"
             },
             {
               "name": "计算机类",
@@ -602,7 +758,10 @@
               "name": "自动化类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0808",
+              "tuition": "5000",
+              "info_short": "（含自动化（含信息管理信息系统方向）专业）（高校专项计划）"
             },
             {
               "name": "土木类",
@@ -623,13 +782,19 @@
               "name": "文科试验班类",
               "plan": null,
               "min_score": 679,
-              "min_rank": 35
+              "min_rank": 35,
+              "spcode": "0",
+              "tuition": "5000",
+              "info_short": "（文科各专业）（含社会学（等专业）专业）"
             },
             {
               "name": "法学类",
               "plan": null,
               "min_score": null,
-              "min_rank": null
+              "min_rank": null,
+              "spcode": "0301",
+              "tuition": "5000",
+              "info_short": "（含法学（含国际班）专业）（高校专项计划）"
             }
           ],
           "group_min_score": 679,
@@ -8957,6 +9122,7 @@
     "https://10003.gaokao.haedu.cn/plan/school/list_7_1.html"
   ],
   "_notes": [
-    "round-6 added provinces: 浙江/安徽/江西/湖南/广西/海南/四川/重庆/云南/贵州/陕西/甘肃 (gaokao.cn schoolspecialplan+schoolprovincescore 2025, school_id=140)"
+    "round-6 added provinces: 浙江/安徽/江西/湖南/广西/海南/四川/重庆/云南/贵州/陕西/甘肃 (gaokao.cn schoolspecialplan+schoolprovincescore 2025, school_id=140)",
+    "round-15 backfilled spcode for tsinghua: 河南/江苏/广东/湖北/福建/山东/河北"
   ]
 }

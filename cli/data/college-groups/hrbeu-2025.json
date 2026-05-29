@@ -139,7 +139,8 @@
               "sp_name": "土木工程(中外合作)",
               "num": 10,
               "tuition": 45000,
-              "info_short": "英国阿伯丁大学 3+1"
+              "info_short": "英国阿伯丁大学 3+1",
+              "spcode": "081001"
             }
           ]
         },
@@ -210,27 +211,35 @@
             {
               "sp_name": "能源动力类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0805",
+              "info_short": "（含能源与动力工程、轮机工程专业）"
             },
             {
               "sp_name": "材料类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0804",
+              "info_short": "（含材料科学与工程、化学工程与工艺专业；不招色弱、色盲、单色异常考生）"
             },
             {
               "sp_name": "新能源材料与器件",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080414T"
             },
             {
               "sp_name": "航空航天类",
               "num": 1,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0820",
+              "info_short": "（含飞行器设计与工程、飞行器动力工程、工程力学专业）"
             },
             {
               "sp_name": "应用物理学",
               "num": 1,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "070202"
             }
           ]
         },
@@ -245,27 +254,35 @@
             {
               "sp_name": "能源动力类",
               "num": 4,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0805",
+              "info_short": "（含能源与动力工程、轮机工程专业）"
             },
             {
               "sp_name": "航空航天类",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0820",
+              "info_short": "（含飞行器设计与工程、飞行器动力工程、工程力学专业）"
             },
             {
               "sp_name": "材料类",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0804",
+              "info_short": "（含材料科学与工程、化学工程与工艺专业；不招色弱、色盲、单色异常考生）"
             },
             {
               "sp_name": "新能源材料与器件",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080414T"
             },
             {
               "sp_name": "数学与应用数学",
               "num": 2,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "070101"
             },
             {
               "sp_name": "核裂工与核燃料工程",
@@ -275,7 +292,9 @@
             {
               "sp_name": "机械类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0802",
+              "info_short": "（含机械设计制造及其自动化、工业设计专业）"
             }
           ]
         }
@@ -296,67 +315,93 @@
             {
               "sp_name": "电子信息类",
               "num": 4,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0807",
+              "info_short": "（电子信息工程、通信工程、光电信息科学与工程）（在校本部学习）"
             },
             {
               "sp_name": "核工程与核技术",
               "num": 3,
-              "tuition": 4500
+              "tuition": 4500,
+              "spcode": "082201",
+              "info_short": "（在校本部学习）"
             },
             {
               "sp_name": "水声工程",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080708T",
+              "info_short": "（电子信息工程（水声）、水声工程、海洋信息工程）（在校本部学习）"
             },
             {
               "sp_name": "自动化类",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0808",
+              "info_short": "（含自动化、电气工程及其自动化等6个专业）（在校本部学习）"
             },
             {
               "sp_name": "海洋工程类",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0819",
+              "info_short": "（含船舶与海洋工程、海洋机器人等3个专业）（在校本部学习）"
             },
             {
               "sp_name": "计算机类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0809",
+              "info_short": "（计算机科学与技术、信息安全）（报考该专业有色觉要求，具体请查阅院校招生章程）（在校本部学习）"
             },
             {
               "sp_name": "能源动力类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0805",
+              "info_short": "（含能源与动力工程等2个专业）（在校本部学习）"
             },
             {
               "sp_name": "航空航天类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0820",
+              "info_short": "（飞行器设计与工程、飞行器动力工程、工程力学）（在校本部学习）"
             },
             {
               "sp_name": "机械类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0802",
+              "info_short": "（机械设计制造及其自动化、工业设计）（在校本部学习）"
             },
             {
               "sp_name": "材料类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0804",
+              "info_short": "（含材料科学与工程等2个专业）（报考该专业有色觉要求，具体请查阅院校招生章程）（在校本部学习）"
             },
             {
               "sp_name": "智能制造工程",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080213T",
+              "info_short": "（在校本部学习）"
             },
             {
               "sp_name": "新能源材料与器件",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080414T",
+              "info_short": "（在校本部学习）"
             },
             {
               "sp_name": "数学与应用数学",
               "num": 1,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "070101",
+              "info_short": "（在校本部学习）"
             },
             {
               "sp_name": "核裂工与核燃料工程",
@@ -366,12 +411,16 @@
             {
               "sp_name": "应用物理学",
               "num": 1,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "070202",
+              "info_short": "（在校本部学习）"
             },
             {
               "sp_name": "大数据管理与应用",
               "num": 1,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "120108T",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在校本部学习）"
             }
           ],
           "min_score": 637,
@@ -389,7 +438,8 @@
               "sp_name": "土木工程(中外合作)",
               "num": 8,
               "tuition": 45000,
-              "info_short": "英国阿伯丁大学 3+1"
+              "info_short": "英国阿伯丁大学 3+1",
+              "spcode": "081001"
             }
           ],
           "min_score": 641,
@@ -407,19 +457,22 @@
               "sp_name": "材料物理(中外合作)",
               "num": 8,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080402"
             },
             {
               "sp_name": "电子信息工程(中外合作)",
               "num": 5,
               "tuition": 45000,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080701"
             },
             {
               "sp_name": "机械设计制造及其自动化(中外合作)",
               "num": 5,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080202"
             }
           ],
           "min_score": 642,
@@ -436,22 +489,30 @@
             {
               "sp_name": "工商管理",
               "num": 6,
-              "tuition": 3500
+              "tuition": 3500,
+              "spcode": "120201K",
+              "info_short": "（报考该专业有色觉要求，具体请查阅院校招生章程）（在校本部学习）"
             },
             {
               "sp_name": "社会学",
               "num": 4,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "030301",
+              "info_short": "（在校本部学习）"
             },
             {
               "sp_name": "法学",
               "num": 3,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "030101K",
+              "info_short": "（在校本部学习）"
             },
             {
               "sp_name": "英语",
               "num": 2,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "050201",
+              "info_short": "（只招英语考生）（在校本部学习）"
             }
           ],
           "min_score": 591,
@@ -468,7 +529,9 @@
             {
               "sp_name": "英语(AI试验班)",
               "num": 2,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "050201",
+              "info_short": "（人工智能试验班）（只招英语考生）（校本部）"
             }
           ],
           "min_score": 598,
@@ -485,7 +548,9 @@
             {
               "sp_name": "思想政治教育",
               "num": 2,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "030503",
+              "info_short": "（校本部）"
             }
           ],
           "min_score": 605,
@@ -788,25 +853,29 @@
               "sp_name": "电子信息工程(中外合作)",
               "num": 6,
               "tuition": 45000,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080701"
             },
             {
               "sp_name": "材料物理(中外合作)",
               "num": 5,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080402"
             },
             {
               "sp_name": "机械设计制造及其自动化(中外合作)",
               "num": 4,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080202"
             },
             {
               "sp_name": "土木工程(中外合作)",
               "num": 4,
               "tuition": 45000,
-              "info_short": "英国阿伯丁大学 3+1"
+              "info_short": "英国阿伯丁大学 3+1",
+              "spcode": "081001"
             }
           ]
         },
@@ -862,22 +931,29 @@
             {
               "sp_name": "能源动力类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0805",
+              "info_short": "（能源与动力工程、轮机工程）"
             },
             {
               "sp_name": "材料类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0804",
+              "info_short": "（材料科学与工程、化学工程与工艺）（不招色弱、色盲、单色异常考生）"
             },
             {
               "sp_name": "航空航天类",
               "num": 1,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0820",
+              "info_short": "（飞行器设计与工程、飞行器动力工程、工程力学）"
             },
             {
               "sp_name": "新能源材料与器件",
               "num": 1,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080414T"
             }
           ]
         }
@@ -1156,53 +1232,70 @@
             {
               "sp_name": "水声工程",
               "num": 15,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080708T",
+              "info_short": "（含水声、电子水声、海洋信息3个专业）"
             },
             {
               "sp_name": "电子信息类",
               "num": 15,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0807",
+              "info_short": "（电子信息工程、通信工程、光电信息科学与工程）"
             },
             {
               "sp_name": "自动化类",
               "num": 15,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0808",
+              "info_short": "（自动化、电气工程及其自动化、测控技术与仪器、探测制导与控制技术、机器人工程、人工智能）"
             },
             {
               "sp_name": "海洋工程类",
               "num": 12,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0819",
+              "info_short": "（船舶与海洋工程、港口航道与海岸工程、海洋机器人）"
             },
             {
               "sp_name": "软件工程",
               "num": 10,
               "tuition": 5500,
-              "info_short": "后两年16000/年"
+              "info_short": "后两年16000/年",
+              "spcode": "080902"
             },
             {
               "sp_name": "核工程与核技术",
               "num": 8,
-              "tuition": 4500
+              "tuition": 4500,
+              "spcode": "082201"
             },
             {
               "sp_name": "能源动力类",
               "num": 6,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0805",
+              "info_short": "（能源与动力工程、轮机工程）"
             },
             {
               "sp_name": "航空航天类",
               "num": 6,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0820",
+              "info_short": "（飞行器设计与工程、飞行器动力工程、工程力学）"
             },
             {
               "sp_name": "机械类",
               "num": 4,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0802",
+              "info_short": "（机械设计制造及其自动化、工业设计）"
             },
             {
               "sp_name": "智能制造工程",
               "num": 4,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080213T"
             },
             {
               "sp_name": "核裂工与核燃料工程",
@@ -1212,22 +1305,27 @@
             {
               "sp_name": "新能源材料与器件",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080414T"
             },
             {
               "sp_name": "大数据管理与应用",
               "num": 2,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "120108T",
+              "info_short": "（不招单色异常考生）"
             },
             {
               "sp_name": "数学与应用数学",
               "num": 1,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "070101"
             },
             {
               "sp_name": "应用物理学",
               "num": 1,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "070202"
             }
           ],
           "min_score": 612,
@@ -1245,19 +1343,22 @@
               "sp_name": "材料物理(中外合作)",
               "num": 9,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080402"
             },
             {
               "sp_name": "电子信息工程(中外合作)",
               "num": 9,
               "tuition": 45000,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080701"
             },
             {
               "sp_name": "机械设计制造及其自动化(中外合作)",
               "num": 7,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080202"
             }
           ],
           "min_score": 589,
@@ -1275,7 +1376,8 @@
               "sp_name": "土木工程(中外合作)",
               "num": 7,
               "tuition": 45000,
-              "info_short": "英国阿伯丁大学 3+1"
+              "info_short": "英国阿伯丁大学 3+1",
+              "spcode": "081001"
             }
           ],
           "min_score": 571,
@@ -1293,7 +1395,8 @@
               "sp_name": "本科预科班",
               "num": 5,
               "tuition": 5500,
-              "info_short": "预科1年"
+              "info_short": "预科1年",
+              "spcode": "0"
             }
           ],
           "min_score": 597,
@@ -1310,32 +1413,42 @@
             {
               "sp_name": "能源动力类",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0805",
+              "info_short": "（能源与动力工程、轮机工程）"
             },
             {
               "sp_name": "新能源材料与器件",
               "num": 3,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080414T"
             },
             {
               "sp_name": "数学与应用数学",
               "num": 2,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "070101"
             },
             {
               "sp_name": "航空航天类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0820",
+              "info_short": "（飞行器设计与工程、飞行器动力工程、工程力学）"
             },
             {
               "sp_name": "机械类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0802",
+              "info_short": "（机械设计制造及其自动化、工业设计）"
             },
             {
               "sp_name": "材料类",
               "num": 2,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0804",
+              "info_short": "（材料科学与工程、化学工程与工艺；不招色弱、色盲、单色异常考生）"
             }
           ],
           "min_score": 601,
@@ -1352,22 +1465,28 @@
             {
               "sp_name": "工商管理",
               "num": 13,
-              "tuition": 3500
+              "tuition": 3500,
+              "spcode": "120201K",
+              "info_short": "（不招单色异常考生）"
             },
             {
               "sp_name": "法学",
               "num": 6,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "030101K"
             },
             {
               "sp_name": "社会学",
               "num": 6,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "030301"
             },
             {
               "sp_name": "英语",
               "num": 4,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "050201",
+              "info_short": "（外语语种：英语）"
             }
           ],
           "min_score": 590,
@@ -1384,7 +1503,9 @@
             {
               "sp_name": "英语(AI试验班)",
               "num": 3,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "050201",
+              "info_short": "（AI试验班；外语语种：英语）"
             }
           ],
           "min_score": 593,
@@ -1401,7 +1522,8 @@
             {
               "sp_name": "思想政治教育",
               "num": 6,
-              "tuition": 5000
+              "tuition": 5000,
+              "spcode": "030503"
             }
           ],
           "min_score": 593,
@@ -1424,37 +1546,51 @@
             {
               "sp_name": "核工程与核技术",
               "num": 6,
-              "tuition": 4500
+              "tuition": 4500,
+              "spcode": "082201",
+              "info_short": "（办学地点：校本部）"
             },
             {
               "sp_name": "水声工程",
               "num": 5,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "080708T",
+              "info_short": "（含水声、电子水声、海洋信息专业；办学地点：校本部）"
             },
             {
               "sp_name": "电子信息类",
               "num": 5,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0807",
+              "info_short": "（含电子信息工程、通信工程、光电信息科学与工程专业；办学地点：校本部）"
             },
             {
               "sp_name": "自动化类",
               "num": 5,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0808",
+              "info_short": "（含自动化、电气工程及其自动化、测控技术与仪器、探测制导与控制技术、机器人工程、人工智能专业；办学地点：校本部）"
             },
             {
               "sp_name": "海洋工程类",
               "num": 5,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0819",
+              "info_short": "（含船舶与海洋工程、港口航道与海岸工程、海洋机器人专业；办学地点：校本部）"
             },
             {
               "sp_name": "能源动力类",
               "num": 4,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0805",
+              "info_short": "（含能源与动力工程、轮机工程专业；办学地点：校本部）"
             },
             {
               "sp_name": "航空航天类",
               "num": 4,
-              "tuition": 5500
+              "tuition": 5500,
+              "spcode": "0820",
+              "info_short": "（含飞行器设计与工程、飞行器动力工程、工程力学专业；办学地点：校本部）"
             }
           ],
           "min_score": 617,
@@ -1472,7 +1608,8 @@
               "sp_name": "土木工程(中外合作)",
               "num": 6,
               "tuition": 45000,
-              "info_short": "英国阿伯丁大学 3+1"
+              "info_short": "英国阿伯丁大学 3+1",
+              "spcode": "081001"
             }
           ],
           "min_score": 540,
@@ -1490,19 +1627,22 @@
               "sp_name": "电子信息工程(中外合作)",
               "num": 7,
               "tuition": 45000,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080701"
             },
             {
               "sp_name": "材料物理(中外合作)",
               "num": 7,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080402"
             },
             {
               "sp_name": "机械设计制造及其自动化(中外合作)",
               "num": 3,
               "tuition": 44300,
-              "info_short": "英国斯旺西大学 3+1"
+              "info_short": "英国斯旺西大学 3+1",
+              "spcode": "080202"
             }
           ],
           "min_score": 598,
@@ -1519,7 +1659,9 @@
             {
               "sp_name": "核工程与核技术(兴海领军)",
               "num": 2,
-              "tuition": 4500
+              "tuition": 4500,
+              "spcode": "082201",
+              "info_short": "（兴海领军）（办学地点：校本部）"
             }
           ],
           "min_score": 630,
@@ -1555,17 +1697,23 @@
             {
               "sp_name": "工商管理",
               "num": 3,
-              "tuition": 3500
+              "tuition": 3500,
+              "spcode": "120201K",
+              "info_short": "（不招单色识别不全者；办学地点：校本部）"
             },
             {
               "sp_name": "英语",
               "num": 2,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "050201",
+              "info_short": "（外语语种：英语；办学地点：校本部）"
             },
             {
               "sp_name": "法学",
               "num": 1,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "030101K",
+              "info_short": "（办学地点：校本部）"
             }
           ],
           "min_score": 589,
@@ -1582,7 +1730,9 @@
             {
               "sp_name": "英语(AI试验班)",
               "num": 1,
-              "tuition": 4000
+              "tuition": 4000,
+              "spcode": "050201",
+              "info_short": "（AI试验班；外语语种：英语；办学地点：校本部）"
             }
           ],
           "min_score": 593,
@@ -14812,5 +14962,6 @@
     "部分组内招生数为本科批正式公布；江苏 426365/426364/393399/393398 等中外合作分组代码为推断 (eol聚合时未显式拆分)，以江苏教育考试院本科批公告组别为准。",
     "中外合作专业第三、四学年通常赴英方合作院校就读 (3+1)；学生需自行承担境外学习费用。",
     "兴海领军计划/AI试验班为特色班型，单独投档或单独组别；具体录取规则见 zsb.hrbeu.edu.cn。"
-  ]
+  ],
+  "_notes": "round-15 backfilled spcode for hrbeu: 河北/江苏/福建/山东/湖北/广东"
 }

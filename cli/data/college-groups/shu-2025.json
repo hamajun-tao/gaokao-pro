@@ -35,42 +35,58 @@
             {
               "sp_name": "电子信息类",
               "plan": 50,
-              "info_short": "含电子信息工程/通信/微电子/光电/AI/计算机等"
+              "info_short": "含电子信息工程/通信/微电子/光电/AI/计算机等",
+              "spcode": "0807",
+              "tuition": "7000"
             },
             {
               "sp_name": "电气类",
               "plan": 47,
-              "info_short": "含信息与计算科学/机械/智能制造/测控/新能源等"
+              "info_short": "含信息与计算科学/机械/智能制造/测控/新能源等",
+              "spcode": "0806",
+              "tuition": "7000"
             },
             {
               "sp_name": "材料类",
               "plan": 25,
-              "info_short": "含应用化学/冶金/材料/化工/生物工程等"
+              "info_short": "含应用化学/冶金/材料/化工/生物工程等",
+              "spcode": "0804",
+              "tuition": "7000"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 15,
-              "info_short": "数学/应物/理论与应用力学，按类招生"
+              "info_short": "数学/应物/理论与应用力学，按类招生",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "理科试验班",
               "plan": 14,
-              "info_short": "钱伟长学院（国家试点学院）"
+              "info_short": "钱伟长学院（国家试点学院）",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "电子信息类（未来技术学院）",
               "plan": 7,
-              "info_short": "未来智能无人系统领军计划"
+              "info_short": "未来智能无人系统领军计划",
+              "spcode": "0807",
+              "tuition": "7000"
             },
             {
               "sp_name": "通信工程（卓越工程师班）",
               "plan": 4,
-              "info_short": "卓越班，不招色盲"
+              "info_short": "卓越班，不招色盲",
+              "spcode": "080703",
+              "tuition": "7000"
             },
             {
               "sp_name": "电子信息工程（卓越工程师班）",
               "plan": 4,
-              "info_short": "卓越班，不招色盲"
+              "info_short": "卓越班，不招色盲",
+              "spcode": "080701",
+              "tuition": "7000"
             }
           ]
         },
@@ -85,7 +101,9 @@
             {
               "sp_name": "经济学类",
               "plan": 17,
-              "info_short": "含经济/金融/国贸/工商/会计/档案/信息管理等"
+              "info_short": "含经济/金融/国贸/工商/会计/档案/信息管理等",
+              "spcode": "0201",
+              "tuition": "6500"
             }
           ]
         },
@@ -101,32 +119,44 @@
             {
               "sp_name": "信息工程",
               "plan": 10,
-              "info_short": "中法合作，¥35000，不招色盲"
+              "info_short": "中法合作，¥35000，不招色盲",
+              "spcode": "080706",
+              "tuition": "35000"
             },
             {
               "sp_name": "机械工程",
               "plan": 5,
-              "info_short": "中法合作，¥35000，不招色盲"
+              "info_short": "中法合作，¥35000，不招色盲",
+              "spcode": "080201",
+              "tuition": "35000"
             },
             {
               "sp_name": "材料科学与工程",
               "plan": 5,
-              "info_short": "中法合作，¥35000，不招色盲"
+              "info_short": "中法合作，¥35000，不招色盲",
+              "spcode": "080401",
+              "tuition": "35000"
             },
             {
               "sp_name": "电气工程及其自动化",
               "plan": 4,
-              "info_short": "中葡（里斯本大学）合作，¥30000"
+              "info_short": "中葡（里斯本大学）合作，¥30000",
+              "spcode": "080601",
+              "tuition": "30000"
             },
             {
               "sp_name": "土木工程",
               "plan": 4,
-              "info_short": "中葡合作，¥30000"
+              "info_short": "中葡合作，¥30000",
+              "spcode": "081001",
+              "tuition": "30000"
             },
             {
               "sp_name": "环境工程",
               "plan": 4,
-              "info_short": "中葡合作，¥30000，不招色盲色弱"
+              "info_short": "中葡合作，¥30000，不招色盲色弱",
+              "spcode": "082502",
+              "tuition": "30000"
             }
           ]
         },
@@ -142,17 +172,23 @@
             {
               "sp_name": "信息管理与信息系统",
               "plan": 6,
-              "info_short": "中外合作，¥40000"
+              "info_short": "中外合作，¥40000",
+              "spcode": "120102",
+              "tuition": "40000"
             },
             {
               "sp_name": "国际经济与贸易",
               "plan": 5,
-              "info_short": "中外合作，¥40000"
+              "info_short": "中外合作，¥40000",
+              "spcode": "020401",
+              "tuition": "40000"
             },
             {
               "sp_name": "金融学",
               "plan": 4,
-              "info_short": "中外合作，¥40000"
+              "info_short": "中外合作，¥40000",
+              "spcode": "020301K",
+              "tuition": "40000"
             }
           ]
         },
@@ -167,7 +203,9 @@
             {
               "sp_name": "电子信息类",
               "plan": 17,
-              "info_short": "国家专项，含通信/微电子/AI/计算机等"
+              "info_short": "国家专项，含通信/微电子/AI/计算机等",
+              "spcode": "0807",
+              "tuition": "7000"
             }
           ]
         },
@@ -182,7 +220,9 @@
             {
               "sp_name": "人文科学试验班",
               "plan": 5,
-              "info_short": "含社会学/社工/法学/网新/历史，按类招生"
+              "info_short": "含社会学/社工/法学/网新/历史，按类招生",
+              "spcode": "0",
+              "tuition": "6500"
             }
           ]
         },
@@ -197,7 +237,9 @@
             {
               "sp_name": "工商管理",
               "plan": 5,
-              "info_short": "中外合作（悉尼科技大学），¥40000"
+              "info_short": "中外合作（悉尼科技大学），¥40000",
+              "spcode": "120201K",
+              "tuition": "40000"
             }
           ]
         },
@@ -213,12 +255,16 @@
             {
               "sp_name": "广播电视编导",
               "plan": 3,
-              "info_short": "延长校区，授艺术学学士"
+              "info_short": "延长校区，授艺术学学士",
+              "spcode": "130305",
+              "tuition": "13000"
             },
             {
               "sp_name": "艺术管理",
               "plan": 1,
-              "info_short": "授艺术学学士"
+              "info_short": "授艺术学学士",
+              "spcode": "130102T",
+              "tuition": "13000"
             }
           ]
         }
@@ -241,17 +287,23 @@
             {
               "sp_name": "英语",
               "plan": 4,
-              "info_short": "只招英语考生，英语≥115"
+              "info_short": "只招英语考生，英语≥115",
+              "spcode": "050201",
+              "tuition": "6500"
             },
             {
               "sp_name": "日语",
               "plan": 3,
-              "info_short": "外语≥115，宝山校区"
+              "info_short": "外语≥115，宝山校区",
+              "spcode": "050207",
+              "tuition": "6500"
             },
             {
               "sp_name": "人文科学试验班",
               "plan": 3,
-              "info_short": "社会学/社工/法学/网新/历史"
+              "info_short": "社会学/社工/法学/网新/历史",
+              "spcode": "0",
+              "tuition": "6500"
             }
           ],
           "min_rank": 4269
@@ -267,17 +319,23 @@
             {
               "sp_name": "广播电视编导",
               "plan": 3,
-              "info_short": "延长校区，授艺术学学士"
+              "info_short": "延长校区，授艺术学学士",
+              "spcode": "130305",
+              "tuition": "13000"
             },
             {
               "sp_name": "戏剧影视文学",
               "plan": 3,
-              "info_short": "延长校区，授艺术学学士"
+              "info_short": "延长校区，授艺术学学士",
+              "spcode": "130304",
+              "tuition": "13000"
             },
             {
               "sp_name": "艺术管理",
               "plan": 2,
-              "info_short": "宝山校区，授艺术学学士"
+              "info_short": "宝山校区，授艺术学学士",
+              "spcode": "130102T",
+              "tuition": "13000"
             }
           ],
           "min_rank": 6765
@@ -294,17 +352,20 @@
             {
               "sp_name": "信息管理与信息系统",
               "plan": 8,
-              "info_short": "中外合作，¥40000(拟)"
+              "info_short": "中外合作，¥40000(拟)",
+              "spcode": "120102"
             },
             {
               "sp_name": "国际经济与贸易",
               "plan": 5,
-              "info_short": "中外合作，¥40000(拟)"
+              "info_short": "中外合作，¥40000(拟)",
+              "spcode": "020401"
             },
             {
               "sp_name": "金融学",
               "plan": 4,
-              "info_short": "中外合作，¥40000(拟)"
+              "info_short": "中外合作，¥40000(拟)",
+              "spcode": "020301K"
             }
           ],
           "min_rank": 28841
@@ -320,7 +381,9 @@
             {
               "sp_name": "经济学类",
               "plan": 5,
-              "info_short": "含经济/金融/国贸/工商/会计等，宝山校区"
+              "info_short": "含经济/金融/国贸/工商/会计等，宝山校区",
+              "spcode": "0201",
+              "tuition": "6500"
             }
           ],
           "min_rank": 13359
@@ -337,32 +400,44 @@
             {
               "sp_name": "电气类",
               "plan": 7,
-              "info_short": "含机械/智能制造/测控/新能源等"
+              "info_short": "含机械/智能制造/测控/新能源等",
+              "spcode": "0806",
+              "tuition": "7000"
             },
             {
               "sp_name": "材料类",
               "plan": 6,
-              "info_short": "应化/冶金/材料/化工/生物工程"
+              "info_short": "应化/冶金/材料/化工/生物工程",
+              "spcode": "0804",
+              "tuition": "7000"
             },
             {
               "sp_name": "电子信息类",
               "plan": 5,
-              "info_short": "含通信/微电子/AI/计算机等"
+              "info_short": "含通信/微电子/AI/计算机等",
+              "spcode": "0807",
+              "tuition": "7000"
             },
             {
               "sp_name": "理科试验班",
               "plan": 3,
-              "info_short": "钱伟长学院"
+              "info_short": "钱伟长学院",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "电子信息类（未来技术学院）",
               "plan": 3,
-              "info_short": "未来智能无人系统领军计划"
+              "info_short": "未来智能无人系统领军计划",
+              "spcode": "0807",
+              "tuition": "7000"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 3,
-              "info_short": "数学/应物/力学"
+              "info_short": "数学/应物/力学",
+              "spcode": "0",
+              "tuition": "7000"
             }
           ],
           "min_rank": 10750
@@ -379,27 +454,35 @@
             {
               "sp_name": "信息工程",
               "plan": 10,
-              "info_short": "中法合作，¥35000(拟)"
+              "info_short": "中法合作，¥35000(拟)",
+              "spcode": "080706"
             },
             {
               "sp_name": "机械工程",
               "plan": 5,
-              "info_short": "中法合作，¥35000(拟)"
+              "info_short": "中法合作，¥35000(拟)",
+              "spcode": "080201"
             },
             {
               "sp_name": "电气工程及其自动化",
               "plan": 3,
-              "info_short": "中葡合作，¥30000"
+              "info_short": "中葡合作，¥30000",
+              "spcode": "080601",
+              "tuition": "30000"
             },
             {
               "sp_name": "土木工程",
               "plan": 3,
-              "info_short": "中葡合作，¥30000"
+              "info_short": "中葡合作，¥30000",
+              "spcode": "081001",
+              "tuition": "30000"
             },
             {
               "sp_name": "环境工程",
               "plan": 3,
-              "info_short": "中葡合作，¥30000"
+              "info_short": "中葡合作，¥30000",
+              "spcode": "082502",
+              "tuition": "30000"
             }
           ],
           "min_rank": 27150
@@ -422,7 +505,9 @@
             {
               "sp_name": "信息工程",
               "plan": 9,
-              "info_short": "中法中欧工程技术学院，¥35000，不招色盲，宝山校区"
+              "info_short": "中法中欧工程技术学院，¥35000，不招色盲，宝山校区",
+              "spcode": "080706",
+              "tuition": "35000"
             }
           ],
           "min_rank": 21189
@@ -444,7 +529,9 @@
             {
               "sp_name": "经济学类",
               "plan": 3,
-              "info_short": "含经济/金融/国贸/工商/会计等"
+              "info_short": "含经济/金融/国贸/工商/会计等",
+              "spcode": "0201",
+              "tuition": "6500"
             }
           ],
           "min_rank": 10764
@@ -461,22 +548,30 @@
             {
               "sp_name": "电气类",
               "plan": 10,
-              "info_short": "含机械/智能制造/测控/新能源等"
+              "info_short": "含机械/智能制造/测控/新能源等",
+              "spcode": "0806",
+              "tuition": "7000"
             },
             {
               "sp_name": "电子信息类",
               "plan": 6,
-              "info_short": "含通信/微电子/AI/计算机等"
+              "info_short": "含通信/微电子/AI/计算机等",
+              "spcode": "0807",
+              "tuition": "7000"
             },
             {
               "sp_name": "理科试验班",
               "plan": 5,
-              "info_short": "钱伟长学院"
+              "info_short": "钱伟长学院",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "电子信息类（未来技术学院）",
               "plan": 2,
-              "info_short": "未来智能无人系统领军计划"
+              "info_short": "未来智能无人系统领军计划",
+              "spcode": "0807",
+              "tuition": "7000"
             }
           ],
           "min_rank": 9153
@@ -493,17 +588,23 @@
             {
               "sp_name": "工商管理",
               "plan": 8,
-              "info_short": "中外合作，¥40000"
+              "info_short": "中外合作，¥40000",
+              "spcode": "120201K",
+              "tuition": "40000"
             },
             {
               "sp_name": "国际经济与贸易",
               "plan": 5,
-              "info_short": "中外合作，¥40000"
+              "info_short": "中外合作，¥40000",
+              "spcode": "020401",
+              "tuition": "40000"
             },
             {
               "sp_name": "信息管理与信息系统",
               "plan": 4,
-              "info_short": "中外合作，¥40000"
+              "info_short": "中外合作，¥40000",
+              "spcode": "120102",
+              "tuition": "40000"
             }
           ],
           "min_rank": 26551
@@ -520,27 +621,37 @@
             {
               "sp_name": "信息工程",
               "plan": 8,
-              "info_short": "中法合作，¥35000，不招色盲"
+              "info_short": "中法合作，¥35000，不招色盲",
+              "spcode": "080706",
+              "tuition": "35000"
             },
             {
               "sp_name": "机械工程",
               "plan": 5,
-              "info_short": "中法合作，¥35000，不招色盲"
+              "info_short": "中法合作，¥35000，不招色盲",
+              "spcode": "080201",
+              "tuition": "35000"
             },
             {
               "sp_name": "电气工程及其自动化",
               "plan": 2,
-              "info_short": "中葡合作，¥30000，不招色盲"
+              "info_short": "中葡合作，¥30000，不招色盲",
+              "spcode": "080601",
+              "tuition": "30000"
             },
             {
               "sp_name": "土木工程",
               "plan": 2,
-              "info_short": "中葡合作，¥30000"
+              "info_short": "中葡合作，¥30000",
+              "spcode": "081001",
+              "tuition": "30000"
             },
             {
               "sp_name": "环境工程",
               "plan": 2,
-              "info_short": "中葡合作，¥30000，不招色盲色弱"
+              "info_short": "中葡合作，¥30000，不招色盲色弱",
+              "spcode": "082502",
+              "tuition": "30000"
             }
           ],
           "min_rank": 23168
@@ -556,7 +667,9 @@
             {
               "sp_name": "电子信息类",
               "plan": 17,
-              "info_short": "国家专项"
+              "info_short": "国家专项",
+              "spcode": "0807",
+              "tuition": "7000"
             }
           ],
           "min_rank": 13848
@@ -572,7 +685,9 @@
             {
               "sp_name": "文科试验班类",
               "plan": 3,
-              "info_short": "含哲学/汉语言/新闻/广告/考古等"
+              "info_short": "含哲学/汉语言/新闻/广告/考古等",
+              "spcode": "0",
+              "tuition": "6500"
             }
           ],
           "min_rank": 2569
@@ -595,7 +710,9 @@
             {
               "sp_name": "电子信息类",
               "plan": 5,
-              "info_short": "含通信/微电子/AI/计算机/数据科学等"
+              "info_short": "含通信/微电子/AI/计算机/数据科学等",
+              "spcode": "0807",
+              "tuition": "7000"
             }
           ],
           "min_rank": 5610
@@ -612,27 +729,37 @@
             {
               "sp_name": "机械工程",
               "plan": 5,
-              "info_short": "中法合作，¥35000，不招色盲"
+              "info_short": "中法合作，¥35000，不招色盲",
+              "spcode": "080201",
+              "tuition": "35000"
             },
             {
               "sp_name": "信息工程",
               "plan": 5,
-              "info_short": "中法合作，¥35000，不招色盲"
+              "info_short": "中法合作，¥35000，不招色盲",
+              "spcode": "080706",
+              "tuition": "35000"
             },
             {
               "sp_name": "电气工程及其自动化",
               "plan": 2,
-              "info_short": "中葡合作，¥30000，不招色盲"
+              "info_short": "中葡合作，¥30000，不招色盲",
+              "spcode": "080601",
+              "tuition": "30000"
             },
             {
               "sp_name": "土木工程",
               "plan": 2,
-              "info_short": "中葡合作，¥30000"
+              "info_short": "中葡合作，¥30000",
+              "spcode": "081001",
+              "tuition": "30000"
             },
             {
               "sp_name": "环境工程",
               "plan": 2,
-              "info_short": "中葡合作，¥30000，不招色盲色弱"
+              "info_short": "中葡合作，¥30000，不招色盲色弱",
+              "spcode": "082502",
+              "tuition": "30000"
             }
           ],
           "min_rank": 14801
@@ -648,7 +775,9 @@
             {
               "sp_name": "经济学类",
               "plan": 3,
-              "info_short": "含经济/金融/国贸/工商/会计等"
+              "info_short": "含经济/金融/国贸/工商/会计等",
+              "spcode": "0201",
+              "tuition": "6500"
             }
           ],
           "min_rank": 7186
@@ -664,12 +793,16 @@
             {
               "sp_name": "英语",
               "plan": 3,
-              "info_short": "只招英语，单科≥115"
+              "info_short": "只招英语，单科≥115",
+              "spcode": "050201",
+              "tuition": "6500"
             },
             {
               "sp_name": "文科试验班类",
               "plan": 3,
-              "info_short": "哲学/汉语言/新闻/考古等"
+              "info_short": "哲学/汉语言/新闻/考古等",
+              "spcode": "0",
+              "tuition": "6500"
             }
           ],
           "min_rank": 1756
@@ -685,7 +818,9 @@
             {
               "sp_name": "广播电视编导",
               "plan": 2,
-              "info_short": "授艺术学学士"
+              "info_short": "授艺术学学士",
+              "spcode": "130305",
+              "tuition": "13000"
             }
           ],
           "min_rank": 2672
@@ -701,7 +836,9 @@
             {
               "sp_name": "材料类",
               "plan": 3,
-              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程"
+              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程",
+              "spcode": "0804",
+              "tuition": "7000"
             }
           ]
         }
@@ -724,82 +861,114 @@
             {
               "sp_name": "理科试验班",
               "plan": 10,
-              "info_short": "钱伟长学院，物理+化学"
+              "info_short": "钱伟长学院，物理+化学",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "电气类",
               "plan": 7,
-              "info_short": "物理+化学"
+              "info_short": "物理+化学",
+              "spcode": "0806",
+              "tuition": "7000"
             },
             {
               "sp_name": "电子信息类",
               "plan": 6,
-              "info_short": "物理+化学"
+              "info_short": "物理+化学",
+              "spcode": "0807",
+              "tuition": "7000"
             },
             {
               "sp_name": "国际经济与贸易（中外合作）",
               "plan": 5,
-              "info_short": "嘉定·悉尼科大，¥40000，不限选"
+              "info_short": "嘉定·悉尼科大，¥40000，不限选",
+              "spcode": "020401",
+              "tuition": "40000"
             },
             {
               "sp_name": "机械工程（中外合作）",
               "plan": 5,
-              "info_short": "中法合作，¥35000，物化"
+              "info_short": "中法合作，¥35000，物化",
+              "spcode": "080201",
+              "tuition": "35000"
             },
             {
               "sp_name": "信息工程（中外合作）",
               "plan": 5,
-              "info_short": "中法合作，¥35000，物化"
+              "info_short": "中法合作，¥35000，物化",
+              "spcode": "080706",
+              "tuition": "35000"
             },
             {
               "sp_name": "材料科学与工程（中外合作）",
               "plan": 5,
-              "info_short": "中法合作，¥35000，物化"
+              "info_short": "中法合作，¥35000，物化",
+              "spcode": "080401",
+              "tuition": "35000"
             },
             {
               "sp_name": "广播电视编导",
               "plan": 4,
-              "info_short": "延长校区，授艺术学学士，不限选"
+              "info_short": "延长校区，授艺术学学士，不限选",
+              "spcode": "130305",
+              "tuition": "13000"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 4,
-              "info_short": "数学/应物/力学，物化"
+              "info_short": "数学/应物/力学，物化",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "经济学类",
               "plan": 3,
-              "info_short": "物理必选"
+              "info_short": "物理必选",
+              "spcode": "0201",
+              "tuition": "6500"
             },
             {
               "sp_name": "戏剧影视文学",
               "plan": 3,
-              "info_short": "延长校区，授艺术学学士"
+              "info_short": "延长校区，授艺术学学士",
+              "spcode": "130304",
+              "tuition": "13000"
             },
             {
               "sp_name": "文科试验班类",
               "plan": 3,
-              "info_short": "哲学/汉语言/新闻/考古等，不限选"
+              "info_short": "哲学/汉语言/新闻/考古等，不限选",
+              "spcode": "0",
+              "tuition": "6500"
             },
             {
               "sp_name": "信息管理与信息系统（中外合作）",
               "plan": 2,
-              "info_short": "嘉定·悉尼科大，¥40000，物理必选"
+              "info_short": "嘉定·悉尼科大，¥40000，物理必选",
+              "spcode": "120102",
+              "tuition": "40000"
             },
             {
               "sp_name": "电气工程及其自动化（中外合作）",
               "plan": 2,
-              "info_short": "中葡合作，¥30000，物化"
+              "info_short": "中葡合作，¥30000，物化",
+              "spcode": "080601",
+              "tuition": "30000"
             },
             {
               "sp_name": "土木工程（中外合作）",
               "plan": 2,
-              "info_short": "中葡合作，¥30000，物化"
+              "info_short": "中葡合作，¥30000，物化",
+              "spcode": "081001",
+              "tuition": "30000"
             },
             {
               "sp_name": "环境工程（中外合作）",
               "plan": 2,
-              "info_short": "中葡合作，¥30000，物化"
+              "info_short": "中葡合作，¥30000，物化",
+              "spcode": "082502",
+              "tuition": "30000"
             }
           ]
         },
@@ -814,7 +983,9 @@
             {
               "sp_name": "材料类",
               "plan": 11,
-              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程"
+              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程",
+              "spcode": "0804",
+              "tuition": "7000"
             }
           ]
         }
@@ -837,47 +1008,65 @@
             {
               "sp_name": "理科试验班",
               "plan": 12,
-              "info_short": "钱伟长学院，物化"
+              "info_short": "钱伟长学院，物化",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "电气类",
               "plan": 12,
-              "info_short": "物化"
+              "info_short": "物化",
+              "spcode": "0806",
+              "tuition": "7000"
             },
             {
               "sp_name": "信息工程（中外合作）",
               "plan": 10,
-              "info_short": "中法合作，¥35000，物化，不招色盲"
+              "info_short": "中法合作，¥35000，物化，不招色盲",
+              "spcode": "080706",
+              "tuition": "35000"
             },
             {
               "sp_name": "理科试验班类",
               "plan": 6,
-              "info_short": "数学/应物/力学，物化"
+              "info_short": "数学/应物/力学，物化",
+              "spcode": "0",
+              "tuition": "7000"
             },
             {
               "sp_name": "机械工程（中外合作）",
               "plan": 5,
-              "info_short": "中法合作，¥35000，物化"
+              "info_short": "中法合作，¥35000，物化",
+              "spcode": "080201",
+              "tuition": "35000"
             },
             {
               "sp_name": "通信工程（卓越工程师班）",
               "plan": 5,
-              "info_short": "卓越班，物化"
+              "info_short": "卓越班，物化",
+              "spcode": "080703",
+              "tuition": "7000"
             },
             {
               "sp_name": "材料科学与工程（中外合作）",
               "plan": 5,
-              "info_short": "中法合作，¥35000，物化"
+              "info_short": "中法合作，¥35000，物化",
+              "spcode": "080401",
+              "tuition": "35000"
             },
             {
               "sp_name": "经济学类",
               "plan": 5,
-              "info_short": "物理不限再选"
+              "info_short": "物理不限再选",
+              "spcode": "0201",
+              "tuition": "6500"
             },
             {
               "sp_name": "电子信息工程（卓越工程师班）",
               "plan": 4,
-              "info_short": "卓越班，物化"
+              "info_short": "卓越班，物化",
+              "spcode": "080701",
+              "tuition": "7000"
             }
           ]
         },
@@ -892,17 +1081,23 @@
             {
               "sp_name": "人文科学试验班",
               "plan": 3,
-              "info_short": "社会学/社工/法学/网新/历史"
+              "info_short": "社会学/社工/法学/网新/历史",
+              "spcode": "0",
+              "tuition": "6500"
             },
             {
               "sp_name": "英语",
               "plan": 2,
-              "info_short": "只招英语，外语≥115"
+              "info_short": "只招英语，外语≥115",
+              "spcode": "050201",
+              "tuition": "6500"
             },
             {
               "sp_name": "思想政治教育",
               "plan": 2,
-              "info_short": ""
+              "info_short": "",
+              "spcode": "030503",
+              "tuition": "6500"
             }
           ]
         },
@@ -917,7 +1112,9 @@
             {
               "sp_name": "材料类",
               "plan": 11,
-              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程"
+              "info_short": "高校专项，含应化/冶金/材料/化工/生物工程",
+              "spcode": "0804",
+              "tuition": "7000"
             }
           ]
         }
@@ -935,5 +1132,6 @@
     "广东仅投放 1 个 (203) 中法合作信息工程组,9人；其余普通类专业 2025 未在粤投放,符合上大近年招生格局",
     "山东数据为普通类一段+高校专项；艺术类批次未单列",
     "推荐核对源: shu.edu.cn 本科招生网 (招生章程/分省分专业计划/历年分数线),以及各省教育考试院本科批投档线公告"
-  ]
+  ],
+  "_notes": "round-15 backfilled spcode for shu: 河南/江苏/广东/湖北/福建/山东/河北"
 }
