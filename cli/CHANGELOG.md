@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.3.0 — 2026-05-29
+
+### UX — Coze / 中国家长 bot 优化
+- **学校简称 alias 系统**：findUniversity 现在用 SCHOOL_ALIASES 映射，新增 60+ 常用简称（北邮 / 华师 / 中大 / 哈医大 / 港中深 等 → 全名）。alias 优先于 substring 匹配，避免 "华师" 错配 "西华师范"、"中大" 错配 "西北大学" 等经典 bug。
+- **友好中文错误**："数据集里没找到「北京XX」；可能想找：北京舞蹈学院 / 北京电影学院" + `suggestUniversities()` helper。
+- **`detectGroupTrap()` 调剂雷区检测**：扫每个组的 majors[] spcode 前 4 位，识别"热门工科（计算机/电信/AI）+ 冷门陷阱（护理/林学/应物/食品）"混搭组。`groups` 表格 + `roadmap` 每 pick 自动 attach 警告。
+
+### Add — Coze 集成
+- **`gaokao-pro server --port 3000`** — 零依赖 Node HTTP 服务器，把全部 38 个 MCP 工具暴露为 REST 端点。
+  - `GET /` 健康检查
+  - `GET /api/tools` 工具清单
+  - `GET /openapi.json` OpenAPI 3.0 spec（Coze 插件直接 import）
+  - `POST /api/tools/{name}` 调用任意工具，body = JSON args
+  - CORS 默认开启
+- **`paths` 输出 120 → 19 行**：默认只显示合格条目，按 program_type 折叠（`--all` 看全部含未开通的）。
+- **`roadmap --format md`**：22 行 markdown 输出（emoji + 调剂雷标记 + baseline 警告），手机聊天 UI 友好。
+
 ## 0.2.2 — 2026-05-29
 
 ### Add — 2026 数据预留 + baseline 警告

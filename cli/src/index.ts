@@ -6,6 +6,7 @@ import { find } from "./find.js";
 import { top } from "./top.js";
 import { isTty, formatRecommend, formatTop } from "./format.js";
 import { runMcpServer } from "./mcp.js";
+import { runHttpServer } from "./http-server.js";
 import { loadRankTable, listRankTables, scoreToRank, rankToScore, inferDefaultTrack } from "./rank-table.js";
 import { decodeXuanke } from "./xuanke.js";
 import {
@@ -369,6 +370,19 @@ Usage:
         claude mcp add gaokao-pro -- npx -y gaokao-pro mcp
       All verbs above become MCP tools callable by Claude.
 
+  gaokao-pro server [--port 3000] [--host 127.0.0.1]
+      Start HTTP server exposing all tools as REST endpoints. Useful for
+      Coze / 飞书 / 钉钉机器人 / non-Claude bot platforms.
+      Endpoints:
+        GET  /                      health + version
+        GET  /api/tools             tool list
+        GET  /openapi.json          OpenAPI 3.0 spec (Coze plugin import)
+        POST /api/tools/{name}      call any tool; body = JSON args
+      e.g.  gaokao-pro server --port 3000
+            curl -X POST http://localhost:3000/api/tools/recommend \\
+                 -H 'Content-Type: application/json' \\
+                 -d '{"score":590,"province":"43","subjects":["物理","化学","生物"]}'
+
   gaokao-pro help | --help
       Show this help.
 
@@ -437,6 +451,19 @@ const VERBS: Record<string, Verb> = {
   },
   async "--version"() {
     process.stdout.write(VERSION + "\n");
+  },
+
+  async server(args) {
+    const { flags } = parseFlags(args);
+    const port = typeof flags.port === "string" || typeof flags.port === "number" ? Number(flags.port) : 3000;
+    const host = typeof flags.host === "string" ? flags.host : "127.0.0.1";
+    if (!Number.isFinite(port) || port < 1 || port > 65535) {
+      throw new Error(`--port 必须是 1-65535 的整数，收到: ${String(flags.port)}`);
+    }
+    await runHttpServer(port, host);
+    // The server runs forever; this never resolves naturally. Block until
+    // SIGINT / SIGTERM.
+    await new Promise<void>(() => undefined);
   },
 
   async mcp() {
@@ -1194,6 +1221,48 @@ const VERBS: Record<string, Verb> = {
       printJson({ ok: true, ...result });
       return;
     }
+    // Markdown / chat mode — compact phone-friendly output for Coze / 微信 / 飞书 bot.
+    if (flags.format === "md" || flags.format === "markdown" || flags.format === "chat") {
+      const md: string[] = [];
+      md.push(`**${province} ${score} 分${rank !== null ? `（位次 ${rank}）` : ""} · ${subjects.join("/")}**`);
+      md.push("");
+      const tj = result.province_rules.has_tiaoji;
+      md.push(`> 调剂: ${tj === false ? "⚠️ 无 (掉档=滑档)" : tj === true ? "有 (可勾兜底)" : "?"}${result.province_rules.strategy ? " · 策略 " + result.province_rules.strategy : ""}`);
+      md.push("");
+      for (const [bucket, emoji] of [["冲", "🚀"], ["稳", "🎯"], ["保", "🛡"]] as const) {
+        const items = result.buckets[bucket];
+        if (!items.length) continue;
+        md.push(`${emoji} **${bucket}** (${items.length})`);
+        for (const c of items) {
+          const tag = c.is985 ? "985" : c.is211 ? "211" : c.dualClass === "双一流" ? "双一流" : "";
+          const tagStr = tag ? ` ${tag}` : "";
+          const risk = c.representative_slip_risk;
+          const verdictEmoji: Record<string, string> = { high_risk: "🔴", moderate_risk: "🟡", low_risk: "🟢", comfortable: "✅" };
+          const riskStr = risk ? ` ${verdictEmoji[risk.verdict] ?? ""}` : "";
+          md.push(`- ${c.name}${tagStr} (基线 ${c.baselineMinScore}, 差 ${c.delta >= 0 ? "+" : ""}${c.delta})${riskStr}`);
+          if (risk && risk.trap_majors && risk.trap_majors.length > 0) {
+            md.push(`  ⚠️ 调剂雷: ${risk.trap_majors.slice(0, 3).join("、")}`);
+          }
+        }
+        md.push("");
+      }
+      const by = result.paths_summary.by_category;
+      if (Object.keys(by).length > 0) {
+        md.push(`📚 **可选路径**: ${Object.entries(by).map(([k, n]) => `${k} ${n}`).join(" / ")}`);
+      }
+      if (result.caveats.length) {
+        md.push("");
+        md.push("⚠️ **关键提醒**:");
+        for (const c of result.caveats) md.push(`- ${c}`);
+      }
+      const w = verbWarning("roadmap");
+      if (w) {
+        md.push("");
+        md.push(`_${w}_`);
+      }
+      process.stdout.write(md.join("\n") + "\n");
+      return;
+    }
     const lines: string[] = [];
     lines.push(`志愿规划 roadmap — ${province} · 分=${score}${rank !== null ? ` · 位次=${rank}` : ""} · 选科=${subjects.join("/")}`);
     lines.push("");
@@ -1590,32 +1659,59 @@ const VERBS: Record<string, Verb> = {
       printJson({ ok: true, ...result });
       return;
     }
+    const showAll = flags.all === true || flags.verbose === true;
     const lines: string[] = [];
-    lines.push(`志愿路径全景 — ${province} · 分=${profile.score ?? "?"} · 位次=${profile.rank ?? "?"}`);
-    lines.push(`profile: 少数民族=${profile.is_minority ? "是" : "否"} · 农村专项=${profile.is_rural_county ? "是" : "否"} · 服务期=${profile.agree_to_serve ? "是" : "否"} · 体育=${profile.sport_tier ?? "无"}${profile.sport_name ? "/" + profile.sport_name : ""} · 小语种=${profile.small_language ?? "否"}`);
+    lines.push(`志愿路径 — ${province}${profile.score ? " · 分=" + profile.score : ""}${profile.rank ? " · 位次=" + profile.rank : ""}`);
+    const profileBits = [
+      profile.is_minority ? "少数民族" : null,
+      profile.is_rural_county ? "农村专项" : null,
+      profile.agree_to_serve ? "同意服务期" : null,
+      profile.sport_tier ? `体育=${profile.sport_tier}/${profile.sport_name ?? "?"}` : null,
+      profile.small_language ? `第一外语=${profile.small_language}` : null,
+    ].filter(Boolean);
+    if (profileBits.length > 0) lines.push(`profile: ${profileBits.join(" / ")}`);
     lines.push("");
-    lines.push(`【${province} 省调剂规则】单位=${result.province_rules.unit ?? "-"} · 调剂=${result.province_rules.has_tiaoji === null ? "?" : (result.province_rules.has_tiaoji ? "有" : "⚠️无")}${result.province_rules.strategy ? " · 策略=" + result.province_rules.strategy : ""}`);
-    if (result.province_rules.slip_warning) lines.push(`  风险: ${result.province_rules.slip_warning}`);
+    lines.push(`调剂规则: 单位=${result.province_rules.unit ?? "-"} · 调剂=${result.province_rules.has_tiaoji === false ? "⚠️无" : "有"}${result.province_rules.strategy ? " · " + result.province_rules.strategy : ""}`);
     lines.push("");
-    lines.push(`总结 — 合格路径 ${result.total_eligible} 条 · 有约束/服务期 ${result.total_caveat} 条`);
-    for (const [cat, s] of Object.entries(result.summary_by_category)) {
-      lines.push(`  ${cat}: ${s.eligible} 合格 / ${s.caveat} 有约束`);
-    }
+    lines.push(`合格 ${result.total_eligible} 条 (有约束/未开 ${result.total_caveat - result.total_eligible} 条)`);
     lines.push("");
+
+    // Group by category. Default: only show ELIGIBLE entries, collapsed by
+    // program_type. With --all, show ineligible too.
     const byCat: Record<string, typeof result.pathways> = {};
     for (const p of result.pathways) {
+      if (!showAll && !p.eligible) continue;
       if (!byCat[p.category]) byCat[p.category] = [];
       byCat[p.category].push(p);
     }
     for (const [cat, list] of Object.entries(byCat)) {
-      lines.push(`【${cat}】`);
+      // Bucket by program_type within category to collapse duplicates.
+      const byType: Record<string, typeof list> = {};
       for (const p of list) {
-        const status = p.eligible ? "✓" : "✗";
-        lines.push(`  ${status} ${p.program_type ? `[${p.program_type}] ` : ""}${p.school}${p.caveat ? ` — ${p.caveat}` : ""}`);
+        const t = p.program_type ?? "其他";
+        if (!byType[t]) byType[t] = [];
+        byType[t].push(p);
+      }
+      lines.push(`【${cat}】 ${list.length} 项`);
+      for (const [t, ps] of Object.entries(byType)) {
+        const schools = ps.map(p => p.school);
+        const compact = schools.length > 6
+          ? `${schools.slice(0, 5).join("、")}…+${schools.length - 5}`
+          : schools.join("、");
+        const caveat = ps[0].caveat ? `  — ${ps[0].caveat}` : "";
+        lines.push(`  [${t}] (${ps.length}) ${compact}${caveat}`);
       }
       lines.push("");
     }
-    process.stdout.write(lines.join("\n"));
+
+    if (!showAll) {
+      // Footer: hint at how to see all (including the closed/ineligible ones).
+      const ineligible = result.pathways.filter(p => !p.eligible).length;
+      if (ineligible > 0) {
+        lines.push(`(隐藏了 ${ineligible} 条不合格条目；--all 显示全部含未开通路径)`);
+      }
+    }
+    process.stdout.write(lines.join("\n") + "\n");
   },
 
   async xiaoce(args) {

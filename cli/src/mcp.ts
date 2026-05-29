@@ -87,7 +87,7 @@ function rpcErr(id: number | string | null | undefined, code: number, message: s
 
 // ---- Tool definitions ----
 
-const TOOLS = [
+export const TOOLS = [
   {
     name: "recommend",
     description:
@@ -654,7 +654,7 @@ function getFilter(args: Record<string, unknown>) {
   };
 }
 
-async function dispatch(name: string, args: Record<string, unknown>): Promise<unknown> {
+export async function dispatch(name: string, args: Record<string, unknown>): Promise<unknown> {
   switch (name) {
     case "recommend": {
       return recommend({
