@@ -23,9 +23,9 @@ import {
 // --------------------------------------------------------------------------
 // datasetStats — recovered counts + surfaced year metadata
 // --------------------------------------------------------------------------
-test("datasetStats reports 140 recovered universities", () => {
+test("datasetStats reports 158 recovered universities", () => {
   const s = datasetStats();
-  // 140 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
+  // 158 is the current truth (79 prior + 15 added in round 1: dlut/nwafu/szu/
   // ucas/cuhksz/snnu/swjtu/hdu/cnu/ccmu/njmu/njupt/nuist/smu/ecupl + 15 added
   // in round 2: hebut/ncepu/tyut/imu/lnu/sisu/njau/nnu/cpu/ahu/ncu/cugb/upc/
   // hainanu/gzu + 12 added in round 3 (edge-province / remaining 双一流):
@@ -34,11 +34,14 @@ test("datasetStats reports 140 recovered universities", () => {
   // caa/bfa/ccom/bda/tjcm, 医学 hmu/pumch/cmu/hebmu/sumhs, 财经 dufe/zuel/
   // jxufe-shanggong/nufe, 特色 iuir/cult — some (ccom/tjcm) are校考主导, the
   // file is a thin metadata stub documenting that普通批 plan is empty by design;
-  // pumch carries 护理学/药学 (not the 北大医学部联合培养 临床八年 route).
+  // pumch carries 护理学/药学 (not the 北大医学部联合培养 临床八年 route)
+  // + 18 added in round 5 (师范/政法/航海/双一流/新升本科): 师范 sdnu/fjnu/
+  // hunnu/htu/jsnu/zjnu/ahnu/xhnu/hznu, 航海 dlmu/shmtu, 浙江双一流 zjut/zjgsu,
+  // 政法 nwupl, 综合/新升 dlu/szpt/cdunu/ntnu.
   // Asserted precisely: a drop means the tolerant loader regressed and
-  // silently lost schools again. A jump above 140 means new data files were
+  // silently lost schools again. A jump above 158 means new data files were
   // added — also worth a deliberate look, so we pin the exact number.
-  assertEqual(s.universities, 140, "recovered university count");
+  assertEqual(s.universities, 158, "recovered university count");
 });
 
 test("datasetStats surfaces non-zero group/major totals", () => {
@@ -112,7 +115,7 @@ for (const { slug, name } of RECOVERED) {
 // --------------------------------------------------------------------------
 test("no university name is empty/null", () => {
   const names = listAllUniversities();
-  assertEqual(names.length, 140, "all 140 schools have a name surfaced");
+  assertEqual(names.length, 158, "all 158 schools have a name surfaced");
   for (const n of names) {
     assert(typeof n === "string" && n.length > 0, `university name must be a non-empty string, got ${JSON.stringify(n)}`);
   }

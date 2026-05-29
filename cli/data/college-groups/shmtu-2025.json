@@ -1,0 +1,5396 @@
+{
+  "_kind": "上海海事大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "上海海事大学",
+  "code": 313,
+  "zs_code": "10254",
+  "school_id_gaokao_cn": 313,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/313/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/313/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=313; zs_code=10254.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425009",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 553,
+          "min_rank": 23262,
+          "majors": [
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）；办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）；办学地点：临港校区）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）（办学地点：临港校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）；办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）；办学地点：临港校区）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）（办学地点：临港校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）（办学地点：临港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（航海类；辨色力正常（无色盲无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。其他要求参照《船员健康检查要求》执行。此专业由于工作性质特殊，不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 20,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（航海类；辨色力正常（无色盲无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。其他要求参照《船员健康检查要求》执行。此专业由于工作性质特殊，不适宜女生报考）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（航海类；辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。其他要求参照《船员健康检查要求》执行。此专业由于工作性质特殊，不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（航海类；辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。其他要求参照《船员健康检查要求》执行。此专业由于工作性质特殊，不适宜女生报考）"
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423524",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 510,
+          "min_rank": 21367,
+          "majors": [
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 91,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 91,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 63,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 45,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 23,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 19,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 11,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 7,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 91,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 91,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 63,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 45,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 23,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 19,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 11,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 7,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423535",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 493,
+          "min_rank": 26212,
+          "majors": [
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 89,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 68,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 49,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 32,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 17,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 16,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 89,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 68,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 49,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 32,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 30,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 17,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 16,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423526",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 505,
+          "min_rank": 22797,
+          "majors": [
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 89,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（含翻译、商务英语、英语专业）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 76,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含翻译、商务英语、英语专业）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 66,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 63,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 45,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 23,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 21,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 14,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 13,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 12,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 89,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（含翻译、商务英语、英语专业）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 76,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含翻译、商务英语、英语专业）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 66,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 63,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 45,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 23,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 21,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 18,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 16,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 14,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 13,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 12,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423533",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 515,
+          "min_rank": 19985,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 71,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 70,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学专业）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 66,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 55,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 52,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "spname": "管理科学",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 33,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 24,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 71,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 70,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学专业）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 66,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 55,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 52,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "spname": "管理科学",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 33,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 30,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 24,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423553",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 542,
+          "min_rank": 12532,
+          "majors": [
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航新国航班）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 15,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航新国航班）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法卓越法律人才班）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 15,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法卓越法律人才班）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航新国航班）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 15,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航新国航班）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法卓越法律人才班）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 15,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法卓越法律人才班）"
+            }
+          ]
+        },
+        {
+          "group_id": "453041",
+          "sg_name": "（00）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（辨色力正常(无色盲、色弱),无复视；身高160cm及以上；双眼裸视力均能达到4.7(0.5)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.8(0.6)及以上）（招生省份：上海）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 57,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常(无色盲、色弱),无复视；身高160cm及以上；双眼裸视力均能达到4.7(0.5)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.8(0.6)及以上）（招生省份：上海）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 37,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 17,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（辨色力正常(无色盲、色弱),无复视；身高160cm及以上；双眼裸视力均能达到4.7(0.5)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.8(0.6)及以上）（招生省份：上海）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 57,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常(无色盲、色弱),无复视；身高160cm及以上；双眼裸视力均能达到4.7(0.5)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.8(0.6)及以上）（招生省份：上海）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 37,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 17,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常(无色盲、色弱),无复视；身高155cm及以上；双眼裸视力均能达到4.6(0.4)及以上,或双眼裸视力均能达到4.0(0.1)及以上且矫正视力均能达到4.6(0.4)及以上）（招生省份：上海）"
+            }
+          ]
+        },
+        {
+          "group_id": "453114",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "地方农村专项计划批次",
+          "zslx_name": "地方农村专项计划",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学(海运与物流经济)、金融学(海运金融)专业）（地方农村专项计划批）（招生省份：上海）（地方农村专项计划）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学(海运与物流经济)、金融学(海运金融)专业）（地方农村专项计划批）（招生省份：上海）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学(海运与物流经济)、金融学(海运金融)专业）（地方农村专项计划批）（招生省份：上海）（地方农村专项计划）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学(海运与物流经济)、金融学(海运金融)专业）（地方农村专项计划批）（招生省份：上海）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "236648",
+          "sg_name": "（L不限）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "艺术类本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 5,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "120801",
+              "sp_name": "电子商务",
+              "spname": "电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 5,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "427287",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 601,
+          "min_rank": 5558,
+          "majors": [
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在临港校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在临港校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427306",
+          "sg_name": "（04）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 598,
+          "min_rank": 36724,
+          "majors": [
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 7,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（在临港校区学习）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 7,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（在临港校区学习）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程（在临港校区学习）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在临港校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（在临港校区学习）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427307",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 603,
+          "min_rank": 32190,
+          "majors": [
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在临港校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（在临港校区学习）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（在临港校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（在临港校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "455759",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": 593,
+          "min_rank": 41599,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（以下专业在临港校区学习,报考该专业组有视力、色觉等要求,具体请查阅院校招生章程）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": "236650",
+          "sg_name": "（物化）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类提前批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 12,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 12,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类提前批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（临港校区。学校提醒:不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 12,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区。学校提醒:不适宜女生报考）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（临港校区。学校提醒:不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区。学校提醒:不适宜女生报考）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（临港校区学校提醒:不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区学校提醒:不适宜女生报考）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（临港校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程（临港校区）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程（临港校区）",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（临港校区。含经济学（海运与物流经济）、金融学（海运金融）专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 6,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区。含经济学（海运与物流经济）、金融学（海运金融）专业）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（临港校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）（临港校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）（临港校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（临港校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）（临港校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）（临港校区）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（临港校区）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（临港校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（临港校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（临港校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程（临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器（临港校区）",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（临港校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程（临港校区）",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（临港校区。含数学与应用数学、信息与计算科学专业）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（临港校区。含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理（临港校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            },
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理（临港校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（临港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394703",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 587,
+          "min_rank": 2749,
+          "majors": [
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            }
+          ]
+        },
+        {
+          "group_id": "394723",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 583,
+          "min_rank": 19062,
+          "majors": [
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（辨色力正常（无色盲、无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考。）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 14,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲、无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 12,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（辨色力正常（无色盲、无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考。）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 14,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲、无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考。）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 12,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲、无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）"
+            }
+          ]
+        },
+        {
+          "group_id": "394725",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 587,
+          "min_rank": 17424,
+          "majors": [
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "艺术类本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130402",
+              "sp_name": "绘画",
+              "spname": "绘画",
+              "level2": "艺术学",
+              "level3": "美术学类",
+              "num": 5,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 6,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "两年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 3,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上；此专业由于工作性质特殊，不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上；此专业由于工作性质特殊，不适宜女生报考）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上；此专业由于工作性质特殊，不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 18,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上；此专业由于工作性质特殊，不适宜女生报考）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上；此专业由于工作性质特殊，不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上；此专业由于工作性质特殊，不适宜女生报考）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369975",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学（海运与物流经济）、金融学（海运金融））",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（包含专业：经济学（海运与物流经济）、金融学（海运金融））"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学（海运与物流经济）、金融学（海运金融））",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（包含专业：经济学（海运与物流经济）、金融学（海运金融））"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120604T",
+              "sp_name": "供应链管理",
+              "spname": "供应链管理",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369976",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业；数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（包含专业；数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "spname": "管理科学",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业；数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（包含专业；数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "spname": "管理科学",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369990",
+          "sg_name": "（302）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_id": "370002",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学（海运与物流经济）金融学（海运金融））",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（包含专业：经济学（海运与物流经济）金融学（海运金融））"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：翻译、商务英语、英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（包含专业：翻译、商务英语、英语）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学（海运与物流经济）金融学（海运金融））",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（包含专业：经济学（海运与物流经济）金融学（海运金融））"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（包含专业：翻译、商务英语、英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（包含专业：翻译、商务英语、英语）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（辨色力正常（无色盲无色弱）,无复视；身高160cm及以上；双眼裸视力均能达到4.7（0.5）及以上,或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊,不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 50,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲无色弱）,无复视；身高160cm及以上；双眼裸视力均能达到4.7（0.5）及以上,或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊,不适宜女生报考）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（辨色力正常（无色盲无色弱）,无复视；身高155cm及以上；双眼裸视力均能达到4.6（0.4）及以上,或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊,不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 31,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲无色弱）,无复视；身高155cm及以上；双眼裸视力均能达到4.6（0.4）及以上,或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊,不适宜女生报考）"
+            },
+            {
+              "spcode": "081808TK",
+              "sp_name": "船舶电子电气工程",
+              "spname": "船舶电子电气工程（辨色力正常（无色盲无色弱）,无复视；身高155cm及以上；双眼裸视力均能达到4.6（0.4）及以上,或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊,不适宜女生报考）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 7,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（辨色力正常（无色盲无色弱）,无复视；身高155cm及以上；双眼裸视力均能达到4.6（0.4）及以上,或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊,不适宜女生报考）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "236669",
+          "sg_name": "（L不限）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": "（国航）"
+            }
+          ]
+        },
+        {
+          "group_id": "236670",
+          "sg_name": "（W不限）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（大类招生）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": "（大类招生）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（大类招生）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": "（大类招生）"
+            }
+          ]
+        },
+        {
+          "group_id": "236668",
+          "sg_name": "（W化）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080301",
+              "sp_name": "测控技术与仪器",
+              "spname": "测控技术与仪器",
+              "level2": "工学",
+              "level3": "仪器类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": null,
+              "length": "4",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "456292",
+          "sg_name": "（01）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "航海类",
+          "min_score": 576,
+          "min_rank": 26551,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.60米及以上;双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）（航海类）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "-",
+              "info": "（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.60米及以上;双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.55米及以上;双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）（航海类）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "-",
+              "info": "（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.55米及以上;双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.60米及以上;双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）（航海类）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "-",
+              "info": "（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.60米及以上;双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.55米及以上;双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）（航海类）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "-",
+              "info": "（航海类;辨色力正常（无色盲无色弱）,无复视;身高1.55米及以上;双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考;办学地点:临港校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319282",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 27385,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120602",
+              "sp_name": "物流工程",
+              "spname": "物流工程",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319281",
+          "sg_name": "（802）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 561,
+          "min_rank": 37146,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 3,
+              "tuition": "6500",
+              "length": "一年",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 3,
+              "tuition": "6500",
+              "length": "一年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319283",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 580,
+          "min_rank": 25720,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            }
+          ]
+        },
+        {
+          "group_id": "319298",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 594,
+          "min_rank": 2998,
+          "majors": [
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）"
+            }
+          ]
+        },
+        {
+          "group_id": "319297",
+          "sg_name": "（801）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "少数民族预科班",
+          "min_score": 573,
+          "min_rank": 6113,
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "6500",
+              "length": "一年",
+              "info": ""
+            },
+            {
+              "spcode": "0",
+              "sp_name": "本科预科班",
+              "spname": "本科预科班（少数民族预科班）",
+              "level2": "",
+              "level3": "",
+              "num": 2,
+              "tuition": "6500",
+              "length": "一年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考。）（不口试）（外语要求：不限）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.60米及以上；双眼裸视力均能达到4.7（0.5）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.8（0.6）及以上。此专业由于工作性质特殊，不适宜女生报考。）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）（不口试）（外语要求：不限）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（航海类）（辨色力正常（无色盲无色弱），无复视；身高1.55米及以上；双眼裸视力均能达到4.6（0.4）及以上，或双眼裸视力均能达到4.0（0.1）及以上且矫正视力均能达到4.6（0.4）及以上。此专业由于工作性质特殊，不适宜女生报考。）（不口试）（外语要求：不限）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "433363",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 576,
+          "min_rank": 12607,
+          "majors": [
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（办学地点：临港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（含翻译、商务英语、英语专业；办学地点：临港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含翻译、商务英语、英语专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）（办学地点：临港校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语（办学地点：临港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120905TK",
+              "sp_name": "国际邮轮管理",
+              "spname": "国际邮轮管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语（办学地点：临港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "0502",
+              "sp_name": "外国语言文学类",
+              "spname": "外国语言文学类（含翻译、商务英语、英语专业；办学地点：临港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含翻译、商务英语、英语专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）（办学地点：临港校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "050204",
+              "sp_name": "法语",
+              "spname": "法语（办学地点：临港校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433374",
+          "sg_name": "（206）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 68053,
+          "majors": [
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 10,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学专业；办学地点：临港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "spname": "管理科学（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081103",
+              "sp_name": "港口航道与海岸工程",
+              "spname": "港口航道与海岸工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "水利类",
+              "num": 10,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081801",
+              "sp_name": "交通运输",
+              "spname": "交通运输（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081901",
+              "sp_name": "船舶与海洋工程",
+              "spname": "船舶与海洋工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "海洋工程类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120108T",
+              "sp_name": "大数据管理与应用",
+              "spname": "大数据管理与应用（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学专业；办学地点：临港校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "081802",
+              "sp_name": "交通工程",
+              "spname": "交通工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120101",
+              "sp_name": "管理科学",
+              "spname": "管理科学（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080501",
+              "sp_name": "能源与动力工程",
+              "spname": "能源与动力工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "能源动力类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：临港校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "433375",
+          "sg_name": "（205）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 57725,
+          "majors": [
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）（办学地点：临港校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120601",
+              "sp_name": "物流管理",
+              "spname": "物流管理（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "物流管理与工程类",
+              "num": 4,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（办学地点：临港校区）"
+            },
+            {
+              "spcode": "120407T",
+              "sp_name": "交通管理",
+              "spname": "交通管理（国航）（办学地点：临港校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（国航）（办学地点：临港校区）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（含经济学（海运与物流经济）、金融学（海运金融）专业；办学地点：临港校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（海商法）（办学地点：临港校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "6500",
+              "length": "四年",
+              "info": "（海商法）（办学地点：临港校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "258225",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": 570,
+          "min_rank": 55229,
+          "majors": [
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥155CM,女身高≥155CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.6，或双眼裸视力≥4.0且矫正视力≥4.6；其他要求详见学校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥155CM,女身高≥155CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.6，或双眼裸视力≥4.0且矫正视力≥4.6；其他要求详见学校招生章程）"
+            },
+            {
+              "spcode": "081804K",
+              "sp_name": "轮机工程",
+              "spname": "轮机工程（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥155CM,女身高≥155CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.6，或双眼裸视力≥4.0且矫正视力≥4.6；其他要求详见学校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥155CM,女身高≥155CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.6，或双眼裸视力≥4.0且矫正视力≥4.6；其他要求详见学校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_id": "258226",
+          "sg_name": "（104）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": 573,
+          "min_rank": 51995,
+          "majors": [
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥160CM,女身高≥160CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.7，或双眼裸视力≥4.0且矫正视力≥4.8；其他要求详见学校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥160CM,女身高≥160CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.7，或双眼裸视力≥4.0且矫正视力≥4.8；其他要求详见学校招生章程）"
+            },
+            {
+              "spcode": "081803K",
+              "sp_name": "航海技术",
+              "spname": "航海技术（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥160CM,女身高≥160CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.7，或双眼裸视力≥4.0且矫正视力≥4.8；其他要求详见学校招生章程）",
+              "level2": "工学",
+              "level3": "交通运输类",
+              "num": 8,
+              "tuition": "7000",
+              "length": "四年",
+              "info": "（非军检院校）（住宿费：待定）（办学地点：临港校区）（男身高≥160CM,女身高≥160CM,不招色盲色弱）（因行业性质特殊，不适宜女生报考；体检特殊要求如下：无复视，双眼裸视力≥4.7，或双眼裸视力≥4.0且矫正视力≥4.8；其他要求详见学校招生章程）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

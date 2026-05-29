@@ -1,0 +1,5600 @@
+{
+  "_kind": "成都大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "成都大学",
+  "code": 2491,
+  "zs_code": "11079",
+  "school_id_gaokao_cn": 2491,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/2491/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/2491/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=2491; zs_code=11079.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425751",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 535,
+          "min_rank": 28056,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（四川）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（四川）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（四川）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（四川）"
+            }
+          ]
+        },
+        {
+          "group_id": "425752",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "思想政治必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 547,
+          "min_rank": 24864,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（四川）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（四川）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川）"
+            }
+          ]
+        },
+        {
+          "group_id": "425753",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 546,
+          "min_rank": 25137,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（四川）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（四川）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（四川）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（单科成绩要求：外语>=90；采用中英双语教学，非英语类考生慎重报考）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（单科成绩要求：外语>=90；采用中英双语教学，非英语类考生慎重报考）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "101006",
+              "sp_name": "口腔医学技术",
+              "spname": "口腔医学技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 1,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "424337",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 478,
+          "min_rank": 30490,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "424340",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "历史必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 491,
+          "min_rank": 26773,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "424339",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 478,
+          "min_rank": 30490,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "424342",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 470,
+          "min_rank": 32768,
+          "majors": [
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "430768",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 561,
+          "min_rank": 18813,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 1,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "430769",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 548,
+          "min_rank": 24649,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "430770",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 557,
+          "min_rank": 20493,
+          "majors": [
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120902",
+              "sp_name": "酒店管理",
+              "spname": "酒店管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120902",
+              "sp_name": "酒店管理",
+              "spname": "酒店管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "430780",
+          "sg_name": "（06）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 551,
+          "min_rank": 91583,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "430782",
+          "sg_name": "（04）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 539,
+          "min_rank": 108073,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（该校要求报考该专业外语成绩不低于90分，具体请查阅院校招生章程）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "430781",
+          "sg_name": "（05）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 77093,
+          "majors": [
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "440501",
+              "sp_name": "工程造价",
+              "spname": "工程造价（中外合作办学）",
+              "level2": "土木建筑大类",
+              "level3": "建设工程管理类",
+              "num": 20,
+              "tuition": "22000",
+              "length": "三年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向该校缴付学费。第三、四学年赴澳大利亚阿德莱德大学学习，其间须按照国外高校收费标准缴纳学费和生活费）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向该校缴付学费。第三、四学年赴澳大利亚阿德莱德大学学习，其间须按照国外高校收费标准缴纳学费和生活费）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外高水平大学学生交流计划）（四年均须向该校缴付学费。第三、四学年赴澳大利亚阿德莱德大学学习，其间按照国外高校收费标准缴纳学费和生活费）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向该校缴付学费。第三、四学年赴澳大利亚阿德莱德大学学习，其间按照国外高校收费标准缴纳学费和生活费）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（中外合作办学）（要求高考外语成绩不低于90分。中英双语教学）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（要求高考外语成绩不低于90分。中英双语教学）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（要求高考外语成绩不低于90分。中英双语教学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（要求高考外语成绩不低于90分。中英双语教学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "400774",
+          "sg_name": "（700）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 578,
+          "min_rank": 3597,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "400773",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学（1）",
+          "min_score": 515,
+          "min_rank": 12078,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（1）（中外合作办学）（要求考生外语单科成绩达到90分及以上，采用中英双语教学，非英语语种考生慎重报考）（中外合作办学（1））",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（1）（中外合作办学）（要求考生外语单科成绩达到90分及以上，采用中英双语教学，非英语语种考生慎重报考）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（1）（中外合作办学）（要求考生外语单科成绩达到90分及以上，采用中英双语教学，非英语语种考生慎重报考）（中外合作办学（1））",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（1）（中外合作办学）（要求考生外语单科成绩达到90分及以上，采用中英双语教学，非英语语种考生慎重报考）"
+            }
+          ]
+        },
+        {
+          "group_id": "400775",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 558,
+          "min_rank": 5720,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、第四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、第四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、第四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、第四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（语种：英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "400794",
+          "sg_name": "（700）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 573,
+          "min_rank": 23443,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "400792",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学（1）",
+          "min_score": 542,
+          "min_rank": 39897,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）（中外合作办学（1））",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）（中外合作办学（1））",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）"
+            }
+          ]
+        },
+        {
+          "group_id": "400793",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学（1）",
+          "min_score": 531,
+          "min_rank": 46854,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）（中外合作办学（1））",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）（中外合作办学（1））",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（1）（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）"
+            }
+          ]
+        },
+        {
+          "group_id": "400791",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学（2）",
+          "min_score": 553,
+          "min_rank": 33405,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（2）（中外合作办学）（中外合作办学（2））",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 5,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（2）（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（2）（中外合作办学）（中外合作办学（2））",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 5,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（2）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "400795",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 560,
+          "min_rank": 29717,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "400796",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 33956,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利阿德莱德大学学习，期间须按照国外高的收费标准缴纳学费和生活费，具体费年参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利阿德莱德大学学习，期间须按照国外高的收费标准缴纳学费和生活费，具体费年参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利阿德莱德大学学习，期间须按照国外高的收费标准缴纳学费和生活费，具体费年参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利阿德莱德大学学习，期间须按照国外高的收费标准缴纳学费和生活费，具体费年参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（外语单科成绩不低于90分，采用中英双语教学，非英语类考生慎重报考，与英国斯特灵大学合作）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（外语单科成绩不低于90分，采用中英双语教学，非英语类考生慎重报考，与英国斯特灵大学合作）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "376171",
+          "sg_name": "（602）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "联合培养项目",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）（联合培养项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）（联合培养项目）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            }
+          ]
+        },
+        {
+          "group_id": "376176",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082902T",
+              "sp_name": "应急技术与管理",
+              "spname": "应急技术与管理",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081001",
+              "sp_name": "土木工程",
+              "spname": "土木工程",
+              "level2": "工学",
+              "level3": "土木类",
+              "num": 6,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082701",
+              "sp_name": "食品科学与工程",
+              "spname": "食品科学与工程",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081302",
+              "sp_name": "制药工程",
+              "spname": "制药工程",
+              "level2": "工学",
+              "level3": "化工与制药类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082702",
+              "sp_name": "食品质量与安全",
+              "spname": "食品质量与安全",
+              "level2": "工学",
+              "level3": "食品科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "081201",
+              "sp_name": "测绘工程",
+              "spname": "测绘工程",
+              "level2": "工学",
+              "level3": "测绘类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082902T",
+              "sp_name": "应急技术与管理",
+              "spname": "应急技术与管理",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "376172",
+          "sg_name": "（601）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "联合培养项目",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）（联合培养项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）（联合培养项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            }
+          ]
+        },
+        {
+          "group_id": "376175",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120105",
+              "sp_name": "工程造价",
+              "spname": "工程造价",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "050302",
+              "sp_name": "广播电视学",
+              "spname": "广播电视学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "376174",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "376173",
+          "sg_name": "（104）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "376190",
+          "sg_name": "（601）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（中外高水平大学学生交流计划）（四年均须向成都大学缴付相应普通类专业本科生学费，第三、四学年须赴澳大利亚阿德莱德大学学习，期间须按照国外高校的收费标准缴纳学费和生活费，具体费用参考《成都大学2025年中外高水平大学学生交流计划一学分互认联合培养项目招生简章》）"
+            }
+          ]
+        },
+        {
+          "group_id": "376193",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050220",
+              "sp_name": "泰语",
+              "spname": "泰语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050220",
+              "sp_name": "泰语",
+              "spname": "泰语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "376191",
+          "sg_name": "（103）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "376192",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "296209",
+          "sg_name": "（08）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 544,
+          "min_rank": 49170,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "296210",
+          "sg_name": "（07）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 561,
+          "min_rank": 36276,
+          "majors": [
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082902T",
+              "sp_name": "应急技术与管理",
+              "spname": "应急技术与管理",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 3,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082902T",
+              "sp_name": "应急技术与管理",
+              "spname": "应急技术与管理",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "296211",
+          "sg_name": "（06）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 555,
+          "min_rank": 40597,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082801",
+              "sp_name": "建筑学",
+              "spname": "建筑学",
+              "level2": "工学",
+              "level3": "建筑类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "296218",
+          "sg_name": "（05）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 584,
+          "min_rank": 5746,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "296219",
+          "sg_name": "（04）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 574,
+          "min_rank": 7759,
+          "majors": [
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（外语语种：英语）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "120210",
+              "sp_name": "文化产业管理",
+              "spname": "文化产业管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（外语语种：英语）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范类）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "324299",
+          "sg_name": "（212）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 511,
+          "min_rank": 78999,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（要求考生外语单科成绩达到90分（含90分）以上，采用中英双语教学，非英语类考生慎重报考）"
+            }
+          ]
+        },
+        {
+          "group_id": "324302",
+          "sg_name": "（110）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 544,
+          "min_rank": 49388,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "324300",
+          "sg_name": "（211）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 543,
+          "min_rank": 50163,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 4,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "324301",
+          "sg_name": "（113）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 40654,
+          "majors": [
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "083001",
+              "sp_name": "生物工程",
+              "spname": "生物工程",
+              "level2": "工学",
+              "level3": "生物工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080703",
+              "sp_name": "通信工程",
+              "spname": "通信工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080203",
+              "sp_name": "材料成型及控制工程",
+              "spname": "材料成型及控制工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082901",
+              "sp_name": "安全工程",
+              "spname": "安全工程",
+              "level2": "工学",
+              "level3": "安全科学与工程类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080204",
+              "sp_name": "机械电子工程",
+              "spname": "机械电子工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "324311",
+          "sg_name": "（105）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 565,
+          "min_rank": 7586,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120903",
+              "sp_name": "会展经济与管理",
+              "spname": "会展经济与管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120901K",
+              "sp_name": "旅游管理",
+              "spname": "旅游管理",
+              "level2": "管理学",
+              "level3": "旅游管理类",
+              "num": 1,
+              "tuition": "5520",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "324310",
+          "sg_name": "（Y07）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "艺术专业",
+          "min_score": 537,
+          "min_rank": 14238,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "10000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "437992",
+          "sg_name": "（228）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 556,
+          "min_rank": 21195,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（办学地点：校本部）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "10000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "437994",
+          "sg_name": "（219）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 542,
+          "min_rank": 28649,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "437993",
+          "sg_name": "（220）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 568,
+          "min_rank": 15530,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "437995",
+          "sg_name": "（218）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 17767,
+          "majors": [
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）（办学地点：校本部）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（师范）（办学地点：校本部）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（师范）（办学地点：校本部）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "438008",
+          "sg_name": "（227）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 564,
+          "min_rank": 62682,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "438010",
+          "sg_name": "（225）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 543,
+          "min_rank": 91992,
+          "majors": [
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 8,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "438012",
+          "sg_name": "（223）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 77711,
+          "majors": [
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 6,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（办学地点：校本部）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 6,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080910T",
+              "sp_name": "数据科学与大数据技术",
+              "spname": "数据科学与大数据技术（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080803T",
+              "sp_name": "机器人工程",
+              "spname": "机器人工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "100702",
+              "sp_name": "药物制剂",
+              "spname": "药物制剂（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（办学地点：校本部）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 2,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6670",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080905",
+              "sp_name": "物联网工程",
+              "spname": "物联网工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 1,
+              "tuition": "5980",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "438011",
+          "sg_name": "（224）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 549,
+          "min_rank": 82713,
+          "majors": [
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（与韩国嘉泉大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 6,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国嘉泉大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（中外合作办学）（与韩国嘉泉大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 6,
+              "tuition": "32000",
+              "length": "四年",
+              "info": "（中外合作办学）（与韩国嘉泉大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "438013",
+          "sg_name": "（222）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 537,
+          "min_rank": 100773,
+          "majors": [
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 6,
+              "tuition": "60000",
+              "length": "四年",
+              "info": "（中外合作办学）（与英国斯特灵大学中外合作办学项目，具体培养模式和学习费用请查看学校网站；中英双语教学，请非英语语种的考生慎重报考；成绩要求：外语≥90分；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "438009",
+          "sg_name": "（226）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 564,
+          "min_rank": 62968,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "五年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：校本部）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "6670",
+              "length": "五年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "438014",
+          "sg_name": "（221）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 552,
+          "min_rank": 77895,
+          "majors": [
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技（办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "020310T",
+              "sp_name": "金融科技",
+              "spname": "金融科技（办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120103",
+              "sp_name": "工程管理",
+              "spname": "工程管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5520",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

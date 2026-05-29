@@ -1,0 +1,1831 @@
+{
+  "_kind": "西华师范大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "西华师范大学",
+  "code": 266,
+  "zs_code": "10638",
+  "school_id_gaokao_cn": 266,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/266/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/266/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=266; zs_code=10638.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424944",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 481,
+          "min_rank": 42535,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（四川南充）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（四川南充）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（四川南充）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 2,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（四川南充）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（南充市）（师范）（师范类；不招收色盲考生）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（南充市）（师范）（师范类；不招收色盲考生）"
+            },
+            {
+              "spcode": "040107",
+              "sp_name": "小学教育",
+              "spname": "小学教育（南充市）（师范）（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（南充市）（师范）（师范类）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（南充市）（师范）（师范类；不招收色盲色弱考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（南充市）（师范）（师范类；不招收色盲色弱考生）"
+            },
+            {
+              "spcode": "080402",
+              "sp_name": "材料物理",
+              "spname": "材料物理（南充市）（不招收色盲考生）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（南充市）（不招收色盲考生）"
+            },
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学（南充市）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（南充市）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（南充市）（不招收色弱色盲考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（南充市）（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程（南充市）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（南充市）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（南充市）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（南充市）"
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050107T",
+              "sp_name": "秘书学",
+              "spname": "秘书学（南充市）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 7,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（南充市）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（南充市）（师范）（师范类）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（南充市）（师范）（师范类）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学（南充市）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（南充市）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（南充市）（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（南充市）（只招英语语种考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423451",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 435,
+          "min_rank": 41932,
+          "majors": [
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427149",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 549,
+          "min_rank": 24175,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "040101",
+              "sp_name": "教育学",
+              "spname": "教育学（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "040101",
+              "sp_name": "教育学",
+              "spname": "教育学（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "427166",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 530,
+          "min_rank": 120767,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "394380",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 497,
+          "min_rank": 15286,
+          "majors": [
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050207",
+              "sp_name": "日语",
+              "spname": "日语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "394399",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 522,
+          "min_rank": 53007,
+          "majors": [
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（师范类）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（师范类）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（师范类）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（师范类）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）（师范类）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（师范类）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）（师范类）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（师范类）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "082503",
+              "sp_name": "环境科学",
+              "spname": "环境科学",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "040101",
+              "sp_name": "教育学",
+              "spname": "教育学（师范类）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范类）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种为英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种为英语）"
+            },
+            {
+              "spcode": "090202",
+              "sp_name": "野生动物与自然保护区管理",
+              "spname": "野生动物与自然保护区管理（不招色弱、色盲考生）",
+              "level2": "农学",
+              "level3": "自然保护与环境生态类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（不招色弱、色盲考生）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369706",
+          "sg_name": "（105）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学、生物(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "071002",
+              "sp_name": "生物技术",
+              "spname": "生物技术（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "369708",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 8,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 6,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（不招收色弱色盲考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "070201",
+              "sp_name": "物理学",
+              "spname": "物理学（师范）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 8,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 6,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "070301",
+              "sp_name": "化学",
+              "spname": "化学（师范）（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（不招收色弱色盲考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "369707",
+          "sg_name": "（104）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 7,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 7,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369743",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "369744",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 10,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 8,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）（不招收色弱色盲考生）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "spname": "汉语言文学（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 10,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 8,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "060101",
+              "sp_name": "历史学",
+              "spname": "历史学（师范）",
+              "level2": "历史学",
+              "level3": "历史学类",
+              "num": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050103",
+              "sp_name": "汉语国际教育",
+              "spname": "汉语国际教育（师范）",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "040106",
+              "sp_name": "学前教育",
+              "spname": "学前教育（师范）（不招收色弱色盲考生）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291826",
+          "sg_name": "（04）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 526,
+          "min_rank": 64110,
+          "majors": [
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070302",
+              "sp_name": "应用化学",
+              "spname": "应用化学（不招收色弱色盲考生）",
+              "level2": "理学",
+              "level3": "化学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "080701",
+              "sp_name": "电子信息工程",
+              "spname": "电子信息工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "291827",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 519,
+          "min_rank": 70210,
+          "majors": [
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（外语语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种：英语）"
+            },
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（外语语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种：英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "291853",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 558,
+          "min_rank": 11565,
+          "majors": [
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类；师范）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 3,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范类；师范）"
+            },
+            {
+              "spcode": "030503",
+              "sp_name": "思想政治教育",
+              "spname": "思想政治教育（师范类；师范）",
+              "level2": "法学",
+              "level3": "马克思主义理论类",
+              "num": 3,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范类；师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "291854",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 549,
+          "min_rank": 13920,
+          "majors": [
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319031",
+          "sg_name": "（107）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 492,
+          "min_rank": 99960,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（不招收色盲考生）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 6,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（不招收色盲考生）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（不招收色盲考生）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 6,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（不招收色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "319032",
+          "sg_name": "（106）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 474,
+          "min_rank": 121969,
+          "majors": [
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（不招收色弱色盲考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 8,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "082504",
+              "sp_name": "环境生态工程",
+              "spname": "环境生态工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 6,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070401",
+              "sp_name": "天文学",
+              "spname": "天文学（不招收色盲考生）",
+              "level2": "理学",
+              "level3": "天文学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色盲考生）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（不招收色弱色盲考生）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 8,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色弱色盲考生）"
+            },
+            {
+              "spcode": "082504",
+              "sp_name": "环境生态工程",
+              "spname": "环境生态工程",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 6,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070101",
+              "sp_name": "数学与应用数学",
+              "spname": "数学与应用数学（师范）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070401",
+              "sp_name": "天文学",
+              "spname": "天文学（不招收色盲考生）",
+              "level2": "理学",
+              "level3": "天文学类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（不招收色盲考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "319033",
+          "sg_name": "（105）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 501,
+          "min_rank": 89625,
+          "majors": [
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            },
+            {
+              "spcode": "040104",
+              "sp_name": "教育技术学",
+              "spname": "教育技术学（师范）",
+              "level2": "教育学",
+              "level3": "教育学类",
+              "num": 3,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（师范）"
+            }
+          ]
+        },
+        {
+          "group_id": "319066",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 517,
+          "min_rank": 20592,
+          "majors": [
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050107T",
+              "sp_name": "秘书学",
+              "spname": "秘书学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050107T",
+              "sp_name": "秘书学",
+              "spname": "秘书学",
+              "level2": "文学",
+              "level3": "中国语言文学类",
+              "num": 3,
+              "tuition": "5760",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432719",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 538,
+          "min_rank": 31085,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "432720",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 535,
+          "min_rank": 32671,
+          "majors": [
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（外语语种：英语；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：校本部）"
+            },
+            {
+              "spcode": "050261",
+              "sp_name": "翻译",
+              "spname": "翻译（外语语种：英语；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "432745",
+          "sg_name": "（212）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 529,
+          "min_rank": 114550,
+          "majors": [
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（特征要求：不招色盲；办学地点：校本部）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（特征要求：不招色盲；办学地点：校本部）"
+            },
+            {
+              "spcode": "070501",
+              "sp_name": "地理科学",
+              "spname": "地理科学（师范）（特征要求：不招色盲；办学地点：校本部）",
+              "level2": "理学",
+              "level3": "地理科学类",
+              "num": 4,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（师范）（特征要求：不招色盲；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "432748",
+          "sg_name": "（209）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 524,
+          "min_rank": 121728,
+          "majors": [
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种：英语；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：校本部）"
+            },
+            {
+              "spcode": "050262",
+              "sp_name": "商务英语",
+              "spname": "商务英语（外语语种：英语；办学地点：校本部）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "432747",
+          "sg_name": "（210）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 516,
+          "min_rank": 136822,
+          "majors": [
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "020401",
+              "sp_name": "国际经济与贸易",
+              "spname": "国际经济与贸易（办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "经济与贸易类",
+              "num": 5,
+              "tuition": "5760",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "432746",
+          "sg_name": "（211）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 109101,
+          "majors": [
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "082008T",
+              "sp_name": "飞行器控制与信息工程",
+              "spname": "飞行器控制与信息工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "082008T",
+              "sp_name": "飞行器控制与信息工程",
+              "spname": "飞行器控制与信息工程（办学地点：校本部）",
+              "level2": "工学",
+              "level3": "航空航天类",
+              "num": 3,
+              "tuition": "6240",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3430 @@
+{
+  "_kind": "西北政法大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "西北政法大学",
+  "code": 376,
+  "zs_code": "10726",
+  "school_id_gaokao_cn": 376,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/376/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/376/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=376; zs_code=10726.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "425063",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 618,
+          "min_rank": 8158,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（经济法）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（陕西西安）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（陕西西安）（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）（经济法）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（陕西西安）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（陕西西安）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（西安市）（含经济学、金融学、国际经济与贸易专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（含经济学、金融学、国际经济与贸易专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（行政法）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（西安市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（西安市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "030602K",
+              "sp_name": "侦查学",
+              "spname": "侦查学（西安市）（公安（武警）类；只招男生；身体条件基本要求为裸眼视力任何一眼不低于4.7，男生身高应在1.70米（含）以上，无色盲、色弱，无口吃，未婚，年龄在22周岁以下；学校不再单独组织且不采用公安类院校的政审、体检和面试，以普通高考体检结果为准。详见院校招生章程）",
+              "level2": "法学",
+              "level3": "公安学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（公安（武警）类；只招男生；身体条件基本要求为裸眼视力任何一眼不低于4.7，男生身高应在1.70米（含）以上，无色盲、色弱，无口吃，未婚，年龄在22周岁以下；学校不再单独组织且不采用公安类院校的政审、体检和面试，以普通高考体检结果为准。详见院校招生章程）"
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（经济法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（西安市）（含经济学、金融学、国际经济与贸易专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（含经济学、金融学、国际经济与贸易专业）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（公共安全法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（行政法）"
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学（西安市）",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 3,
+              "tuition": "4250",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障（西安市）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（西安市）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（西安市）（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（反恐怖主义法）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律（西安市）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（西安市）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "spname": "政治学与行政学（西安市）",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（西安市）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理（西安市）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）"
+            },
+            {
+              "spcode": "030602K",
+              "sp_name": "侦查学",
+              "spname": "侦查学（西安市）（公安（武警）类；只招男生；身体条件基本要求为裸眼视力任何一眼不低于4.7，男生身高应在1.70米（含）以上，无色盲、色弱，无口吃，未婚，年龄在22周岁以下；学校不再单独组织且不采用公安类院校的政审、体检和面试，以普通高考体检结果为准。详见院校招生章程）",
+              "level2": "法学",
+              "level3": "公安学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（西安市）（公安（武警）类；只招男生；身体条件基本要求为裸眼视力任何一眼不低于4.7，男生身高应在1.70米（含）以上，无色盲、色弱，无口吃，未婚，年龄在22周岁以下；学校不再单独组织且不采用公安类院校的政审、体检和面试，以普通高考体检结果为准。详见院校招生章程）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423664",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 538,
+          "min_rank": 13615,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "427513",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 612,
+          "min_rank": 3431,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）（在长安校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "427535",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 614,
+          "min_rank": 23214,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（在长安校区学习）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（在长安校区学习）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（在长安校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易专业）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易专业）"
+            },
+            {
+              "spcode": "120803T",
+              "sp_name": "跨境电子商务",
+              "spname": "跨境电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "395067",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 579,
+          "min_rank": 3501,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 2,
+              "tuition": "4250",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050305",
+              "sp_name": "编辑出版学",
+              "spname": "编辑出版学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公共安全法）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120803T",
+              "sp_name": "跨境电子商务",
+              "spname": "跨境电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 2,
+              "tuition": "4250",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050305",
+              "sp_name": "编辑出版学",
+              "spname": "编辑出版学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公共安全法）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120803T",
+              "sp_name": "跨境电子商务",
+              "spname": "跨境电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "395079",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 17831,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "120803T",
+              "sp_name": "跨境电子商务",
+              "spname": "跨境电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "120803T",
+              "sp_name": "跨境电子商务",
+              "spname": "跨境电子商务",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 8,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 7,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 6,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公共安全法）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120206",
+              "sp_name": "人力资源管理",
+              "spname": "人力资源管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "15120",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030302",
+              "sp_name": "社会工作",
+              "spname": "社会工作",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "spname": "政治学与行政学",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 2,
+              "tuition": "4250",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030602K",
+              "sp_name": "侦查学",
+              "spname": "侦查学（公安政法类）（执行普通类一段线；只招收男生；身体条件基本要求为裸眼视力任何一眼不低于4.7，男生身高不低于1.70米；不单独组织面试和体测，以普通高考体检结果为准。详见招生章程）",
+              "level2": "法学",
+              "level3": "公安学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公安政法类）（执行普通类一段线；只招收男生；身体条件基本要求为裸眼视力任何一眼不低于4.7，男生身高不低于1.70米；不单独组织面试和体测，以普通高考体检结果为准。详见招生章程）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "370320",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业：经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "020302",
+              "sp_name": "金融工程",
+              "spname": "金融工程",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业：经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            }
+          ]
+        },
+        {
+          "group_id": "370363",
+          "sg_name": "（501）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（只调剂填报戏剧影视文学、广播电视编导的考生）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "15120",
+              "length": "四年",
+              "info": "（只调剂填报戏剧影视文学、广播电视编导的考生）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（只调剂填报戏剧影视文学、广播电视编导的考生）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（只调剂填报戏剧影视文学、广播电视编导的考生）"
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（只调剂填报戏剧影视文学、广播电视编导的考生）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 3,
+              "tuition": "15120",
+              "length": "四年",
+              "info": "（只调剂填报戏剧影视文学、广播电视编导的考生）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（只调剂填报戏剧影视文学、广播电视编导的考生）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "11000",
+              "length": "四年",
+              "info": "（只调剂填报戏剧影视文学、广播电视编导的考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "370364",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业：经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公共安全法）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 2,
+              "tuition": "4250",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业：经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业：经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公共安全法）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "010101",
+              "sp_name": "哲学",
+              "spname": "哲学",
+              "level2": "哲学",
+              "level3": "哲学类",
+              "num": 2,
+              "tuition": "4250",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "spname": "新闻学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120403",
+              "sp_name": "劳动与社会保障",
+              "spname": "劳动与社会保障",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "120402",
+              "sp_name": "行政管理",
+              "spname": "行政管理",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "司法类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "083101K",
+              "sp_name": "刑事科学技术",
+              "spname": "刑事科学技术（身体条件基本要求为裸眼视力任何一眼不低于4.7,男生身高不低于170cm；不单独组织面试和体测,以普通高考体检结果为准。详见招生章程；只招男生,要求考生成绩达到本科批录取控制分数线）（司法类）",
+              "level2": "工学",
+              "level3": "公安技术类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（身体条件基本要求为裸眼视力任何一眼不低于4.7,男生身高不低于170cm；不单独组织面试和体测,以普通高考体检结果为准。详见招生章程；只招男生,要求考生成绩达到本科批录取控制分数线）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "292265",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 586,
+          "min_rank": 20901,
+          "majors": [
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            }
+          ]
+        },
+        {
+          "group_id": "292298",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 599,
+          "min_rank": 3324,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公共安全法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（公共安全法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（公共安全法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "319539",
+          "sg_name": "（105）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 589,
+          "min_rank": 20981,
+          "majors": [
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业:经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业:经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业:经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业:经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            }
+          ]
+        },
+        {
+          "group_id": "319586",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选思想政治",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 584,
+          "min_rank": 4303,
+          "majors": [
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "spname": "政治学与行政学",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030202",
+              "sp_name": "国际政治",
+              "spname": "国际政治",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030201",
+              "sp_name": "政治学与行政学",
+              "spname": "政治学与行政学",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030202",
+              "sp_name": "国际政治",
+              "spname": "国际政治",
+              "level2": "法学",
+              "level3": "政治学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319587",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 593,
+          "min_rank": 3126,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业:经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业:经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（包含专业:经济学、金融学、国际经济与贸易）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 3,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（包含专业:经济学、金融学、国际经济与贸易）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "319585",
+          "sg_name": "（Y03）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "艺术专业",
+          "min_score": 531,
+          "min_rank": 15969,
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "15120",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "spname": "戏剧影视文学（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "11000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "130305",
+              "sp_name": "广播电视编导",
+              "spname": "广播电视编导（艺术专业）",
+              "level2": "艺术学",
+              "level3": "戏剧与影视学类",
+              "num": 2,
+              "tuition": "15120",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "433557",
+          "sg_name": "（203）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 601,
+          "min_rank": 4875,
+          "majors": [
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "050305",
+              "sp_name": "编辑出版学",
+              "spname": "编辑出版学（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（刑事法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（刑事法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（反恐怖主义法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（反恐怖主义法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（民商法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（民商法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（行政法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（行政法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "050306T",
+              "sp_name": "网络与新媒体",
+              "spname": "网络与新媒体（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5000",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "050305",
+              "sp_name": "编辑出版学",
+              "spname": "编辑出版学（办学地点：校本部）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            }
+          ]
+        },
+        {
+          "group_id": "433580",
+          "sg_name": "（204）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 587,
+          "min_rank": 37511,
+          "majors": [
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（涉外法治）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（涉外法治）（办学地点：校本部）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（经济法）（办学地点：校本部）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 2,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（经济法）（办学地点：校本部）"
+            },
+            {
+              "spcode": "120802T",
+              "sp_name": "电子商务及法律",
+              "spname": "电子商务及法律（办学地点：校本部）",
+              "level2": "管理学",
+              "level3": "电子商务类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（办学地点：校本部）"
+            },
+            {
+              "spcode": "0201",
+              "sp_name": "经济学类",
+              "spname": "经济学类（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 1,
+              "tuition": "5400",
+              "length": "四年",
+              "info": "（含经济学、金融学、国际经济与贸易专业具体专业分流情况请查看学校网站；办学地点：校本部）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -58,6 +58,7 @@ import {
 } from "./datasets.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk } from "./groups.js";
 import { paths as pathsFn } from "./paths.js";
+import { dossier as dossierFn } from "./dossier.js";
 import { VERSION } from "./version.js";
 
 const SERVER_INFO = { name: "gaokao-pro", version: VERSION };
@@ -505,6 +506,18 @@ const TOOLS = [
     }
   },
   {
+    name: "dossier",
+    description: "院校 dossier — one-call aggregation across 7 datasets for a single school: 招生网 adapter (URL+contact+program flags) + 院校专业组 summary + 强基/综评 校测 detail (xiaoce) + 综评 by-school (zongping) + 高水平运动队 (gaoshui) + 提前批 programs catalog hits + 涉及该校的滑档历史 (huadang). Each section is independently nullable with a `_status: \"not_in_dataset\"` marker so parents can see 'we tried, no data' instead of guessing. Replaces 6-7 separate verb calls.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        school: { type: "string", description: "中文校名 substring (e.g. '清华', '浙江大学'). Substring match across all datasets." }
+      },
+      required: ["school"],
+      additionalProperties: false
+    }
+  },
+  {
     name: "huadang",
     description: "滑档/退档 历史案例 (2022-2025, 45 cases) — by-province or by-category. Concrete past stories (real or composite-flagged) that teach parents *why* the abstract rules in slip-risk matter. Categories include 不勾服从, 选科不符, 单科分数, 体检不符, 身高体能, 外语语种, 国家专项资格, 政审不过, 无调剂兜底, 梯度过密, 小年大年误判, 组内冷热门差大, 新高考首届, 内蒙古旧动态投档. Use list_categories=true to enumerate.",
     inputSchema: {
@@ -887,6 +900,10 @@ async function dispatch(name: string, args: Record<string, unknown>): Promise<un
       const detail = findXiaoceDetailBySchool(school);
       if (!detail) return { ok: false, error: `no xiaoce detail for "${school}". Try '清华' or '浙江大学'.` };
       return { ok: true, ...detail };
+    }
+    case "dossier": {
+      const school = getStr(args, "school");
+      return { ok: true, ...dossierFn(school) };
     }
     case "huadang": {
       if (args.list_categories === true) {

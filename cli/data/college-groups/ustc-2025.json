@@ -12,7 +12,7 @@
     "https://zsb.ustc.edu.cn/"
   ],
   "fetched_at": "2026-05-25",
-  "notes": "院校专业组 (group_id != '0') applies to 3+1+2 新高考 provinces. 山东 (3+3) and 河北 (group_id='0' here) list majors directly under batches without a group code. first_subject/reselect_requirement reflect 选科要求 at the 院校专业组 level. sg_xuanke is the raw machine-readable choose-subjects expression (^=OR, _=AND between subject codes 70000=物理 70001=化学 70002=生物 70003=政治 70004=地理 70005=思想政治 70008=历史). min_scores_2025 captured where 掌上高考 published outcome data; for 河南/江苏/广东/湖北/福建 the score endpoint returned NoSuchKey at fetch time.",
+  "notes": "院校专业组 (group_id != '0') applies to 3+1+2 新高考 provinces. 山东 (3+3) and 河北 (group_id='0' here) list majors directly under batches without a group code. first_subject/reselect_requirement reflect 选科要求 at the 院校专业组 level. sg_xuanke is the raw machine-readable choose-subjects expression (^=OR, _=AND between subject codes 70000=物理 70001=化学 70002=生物 70003=政治 70004=地理 70005=思想政治 70008=历史). min_scores_2025 captured where 掌上高考 published outcome data; for 河南/江苏/广东/湖北/福建 the score endpoint returned NoSuchKey at fetch time.  |  round-6 added provinces: 浙江/安徽/江西/湖南/广西/海南/四川/重庆/云南/贵州/陕西/甘肃 (gaokao.cn schoolspecialplan+schoolprovincescore 2025, school_id=66)",
   "provinces": [
     {
       "province_id": 41,
@@ -3687,6 +3687,3953 @@
           "min_rank": "443",
           "admitted_count": "-",
           "diff_vs_batch_line": 216
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "province_pinyin": "zhejiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "3",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 24,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息智能方向）（含计算机类、计算机类（华夏计算机科技英才班）、电子信息类、电子信息类（信息科技英才班）、人工智能、集成电路设计与集成系统、网络空间安全专业）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 19,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（物理及应用物理）（含量子信息科学（未来技术学院）、物理学类、物理学类（严济慈物理科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班）、空间科学与技术专业）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 13,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（数学及大数据技术）（含数学类、数学类（华罗庚数学科技英才班）、统计学（统计与大数据技术试验班）、大数据管理与应用（统计与大数据技术试验班）专业）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能化学及生命科技）（含化学类（卢嘉锡化学科技英才班）、化学类、生物科学类、生物科学类（贝时璋生命科技英才班）专业）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含力学类（钱学森力学科技英才班）、机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程专业）"
+            }
+          ],
+          "track_name": "综合改革",
+          "min_score": "675",
+          "min_rank": "2418"
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "310462",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含环境科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（统计与大数据技术试验班）（含统计学(统计与大数据技术)、大数据管理与应用、金融学(智慧金融)、管理科学(商务智能)、工商管理(创新创业)）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含大气科学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含生物科学、生物技术、临床医学(5年)）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含环境科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（统计与大数据技术试验班）（含统计学(统计与大数据技术)、大数据管理与应用、金融学(智慧金融)、管理科学(商务智能)、工商管理(创新创业)）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含大气科学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含生物科学、生物技术、临床医学(5年)）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "671",
+          "min_rank": "788"
+        },
+        {
+          "special_group": "310111",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "batch": "高校专项计划批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含赵九章现代地球和空间科技英才班）（高校专项计划）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含环境科学与工程）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（高校专项计划）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含材料物理、材料化学、高分子材料与工程）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（统计与大数据技术试验班）（含统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（高校专项计划）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含工程物理、核工程与核技术、应用物理学）（高校专项计划）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含化学）（高校专项计划）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含生物科学、生物技术、临床医学（5年））（高校专项计划）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含赵九章现代地球和空间科技英才班）（高校专项计划）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含环境科学与工程）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（高校专项计划）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含材料物理、材料化学、高分子材料与工程）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（统计与大数据技术试验班）（含统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（高校专项计划）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含工程物理、核工程与核技术、应用物理学）（高校专项计划）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含化学）（高校专项计划）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "4",
+              "info_short": "（含生物科学、生物技术、临床医学（5年））（高校专项计划）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "341413",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（含统计学（统计与大数据技术）大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 12,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含化学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含生物科学、生物技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "070802",
+              "sp_name": "空间科学与技术",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含环境科学与工程）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（含统计学（统计与大数据技术）大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 12,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含化学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含生物科学、生物技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "070802",
+              "sp_name": "空间科学与技术",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含环境科学与工程）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "673",
+          "min_rank": "634"
+        },
+        {
+          "special_group": "341412",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含机器人工程理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（含电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（含力学类（钱学森力学科技英才班））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含计算机科学与技术）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含工程物理/核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（含计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（含电子科学与技术、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 20,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含机器人工程理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（含电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（含力学类（钱学森力学科技英才班））"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含计算机科学与技术）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含工程物理/核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（含计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（含电子科学与技术、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "675",
+          "min_rank": "500"
+        },
+        {
+          "special_group": "341411",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 15,
+              "tuition": "4800",
+              "length": "五年",
+              "info_short": "（临床医学英才班）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 15,
+              "tuition": "4800",
+              "length": "五年",
+              "info_short": "（临床医学英才班）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "673",
+          "min_rank": "686"
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "402646",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "656",
+          "min_rank": "365"
+        },
+        {
+          "special_group": "402645",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 11,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（（力学类（钱学森力学科技英才班）、机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（电子信息）（电子信息类、电子信息类（信息科技英才班）、人工智能、电子信息类（集成电路科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（物理）（物理学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（计算机）（计算机类、计算机类（华夏计算机科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（数学）（数学类、数学类（华罗庚数学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（网络空间）（网络空间安全、网络空间安全（王小谟网络空间科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（化学类、化学类（卢嘉锡化学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（空间科学技术）空间科学与技术（赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点，含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 11,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（（力学类（钱学森力学科技英才班）、机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 10,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（电子信息）（电子信息类、电子信息类（信息科技英才班）、人工智能、电子信息类（集成电路科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（物理）（物理学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（计算机）（计算机类、计算机类（华夏计算机科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（数学）（数学类、数学类（华罗庚数学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（网络空间）（网络空间安全、网络空间安全（王小谟网络空间科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（化学类、化学类（卢嘉锡化学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（空间科学技术）空间科学与技术（赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点，含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "653",
+          "min_rank": "473"
+        },
+        {
+          "special_group": "402644",
+          "group_code": "（503）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "五年",
+              "info_short": "（临床医学英才班、依托中国科学院临床研究医院开展本研贯通培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "五年",
+              "info_short": "（临床医学英才班、依托中国科学院临床研究医院开展本研贯通培养）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "652",
+          "min_rank": "517"
+        },
+        {
+          "special_group": "467912",
+          "group_code": "（504）",
+          "track_code": "2073",
+          "batch": "高校专项计划批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）教育部基础学科拔尖学生培养基地,中国科学院基础和前沿交叉学科贯通培养工程实施基地,国家一流本科 专业建设点。含：钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流。（高"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）中国科学院基础和前沿交叉学科贯通培养工程实施基地,国家级一流本科 专业建设点。含：师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含：哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））国家级一流本科 专业建设点。含：中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办）,经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办）。（高校专项）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地,中国科学院基础和前沿交叉学科贯通培养工程实施基地,国家级一流本科 专业建设点。含：赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求,培养拔尖学科人才。优秀本科生由公费资助,赴国际一流高校和科研机构进行交流学习。（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）教育部基础学科拔尖学生培养基地,中国科学院基础和前沿交叉学科贯通培养工程实施基地,国家一流本科 专业建设点。含：钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流。（高"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）中国科学院基础和前沿交叉学科贯通培养工程实施基地,国家级一流本科 专业建设点。含：师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含：哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））国家级一流本科 专业建设点。含：中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办）,经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办）。（高校专项）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地,中国科学院基础和前沿交叉学科贯通培养工程实施基地,国家级一流本科 专业建设点。含：赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求,培养拔尖学科人才。优秀本科生由公费资助,赴国际一流高校和科研机构进行交流学习。（高校专项）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "402652",
+          "group_code": "（561）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（大气科学）（国家一流本科建设专业，教育部基础学科拔尖学生培养计划2.0基地（含赵九章现代地球和空间科技英才班）。依托深空探测国家重点实验室、风云卫星遥感联合实验室等平台，面向国家重大战略，服务社会需求，与国际接轨，秉持“精英教育”理念，培养高精尖人才）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（工程物理、核工程与核技术、应用物理学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（环境科学与工程）（依托先进环境装备与污染防治技术全国重点实验室等国家级平台，瞄准“双碳”战略与全球气候变化等重大战略方向，通过与人工智能的深度融合，构建“AI+环境”交叉培养模式。优秀本科生可获公费资助，赴哈佛大学、耶鲁大学、剑桥大学等进行交流学习）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（大气科学）（国家一流本科建设专业，教育部基础学科拔尖学生培养计划2.0基地（含赵九章现代地球和空间科技英才班）。依托深空探测国家重点实验室、风云卫星遥感联合实验室等平台，面向国家重大战略，服务社会需求，与国际接轨，秉持“精英教育”理念，培养高精尖人才）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（工程物理、核工程与核技术、应用物理学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（环境科学与工程）（依托先进环境装备与污染防治技术全国重点实验室等国家级平台，瞄准“双碳”战略与全球气候变化等重大战略方向，通过与人工智能的深度融合，构建“AI+环境”交叉培养模式。优秀本科生可获公费资助，赴哈佛大学、耶鲁大学、剑桥大学等进行交流学习）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "640",
+          "min_rank": "1231"
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "province_pinyin": "hunan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科批（特殊类型）",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划）（航空航天、人形机器人、低碳能源技术及安全）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含:钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流。含:理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含:师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含:哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。含:材料物理、材料化学、高分子材料与工程。）（高校专项计划）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才。含:工程物理、核工程与核技术、应用物理学。）（高校专项计划）（不口试）（外语要求：不限）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "317891",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班；依托合肥国家实验室等多个国家级科研平台；含哈佛大学等多个海外交流项目资助。包含专业:物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流。包含专业:机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业:化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（国家级一流本科专业建设点。含信息科技英才、王大珩科技英才班。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目。包含专业:电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，国家一流本科专业建设点。依托认知智能全国重点实验室、国家高性能计算中心（合肥）等多个国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目。包含专业:计算机科学与技术）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业:数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含华罗庚数学科技英才班、中法数学英才班；含学校资助斯坦福大学、耶鲁大学、牛津大学、剑桥大学、巴黎高等师范学校等交流项目。包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（包含专业:力学类（钱学森力学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（包含专业:计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家级一流本科专业建设点，含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办）,经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办）。包含专业:统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            },
+            {
+              "spcode": "070802",
+              "sp_name": "空间科学与技术",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家级一流本科专业建设点。含王小谟网络空间科技英才班（与中国电子科技集团合办）；依托合肥国家实验室、未来网络国家基础设施合肥中心等国家级科研平台，以及国家级实验教学平台，开展网络空间安全学科建设和人才培养）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含中微集成电路科技英才班（与中微半导体设备股份有限公司合办）、中国科大—微软教育部创新人才培养实验班。依托合肥微尺度物质科学国家研究中心等国家级科研平台进行培养。包含专业:电子科学与技术、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才。包含专业:工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地。含人工智能科技英才班（与科大讯飞股份有限公司合办）。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班；依托合肥国家实验室等多个国家级科研平台；含哈佛大学等多个海外交流项目资助。包含专业:物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流。包含专业:机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业:化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（国家级一流本科专业建设点。含信息科技英才、王大珩科技英才班。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目。包含专业:电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，国家一流本科专业建设点。依托认知智能全国重点实验室、国家高性能计算中心（合肥）等多个国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目。包含专业:计算机科学与技术）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业:数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含华罗庚数学科技英才班、中法数学英才班；含学校资助斯坦福大学、耶鲁大学、牛津大学、剑桥大学、巴黎高等师范学校等交流项目。包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（包含专业:力学类（钱学森力学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（包含专业:计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家级一流本科专业建设点，含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办）,经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办）。包含专业:统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            },
+            {
+              "spcode": "070802",
+              "sp_name": "空间科学与技术",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家级一流本科专业建设点。含王小谟网络空间科技英才班（与中国电子科技集团合办）；依托合肥国家实验室、未来网络国家基础设施合肥中心等国家级科研平台，以及国家级实验教学平台，开展网络空间安全学科建设和人才培养）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含中微集成电路科技英才班（与中微半导体设备股份有限公司合办）、中国科大—微软教育部创新人才培养实验班。依托合肥微尺度物质科学国家研究中心等国家级科研平台进行培养。包含专业:电子科学与技术、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才。包含专业:工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地。含人工智能科技英才班（与科大讯飞股份有限公司合办）。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "668",
+          "min_rank": "637"
+        },
+        {
+          "special_group": "317890",
+          "group_code": "（302）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流。包含专业:理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（依托先进环境装备与污染防治技术全国重点实验室等国家级平台，瞄准“双碳”战略与全球气候变化等重大战略方向，通过与人工智能的深度融合，构建“AI+环境”交叉培养模式。优秀本科生可获公费资助，赴哈佛大学、耶鲁大学、剑桥大学等进行交流学习。包含专业:环境科学与工程）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:化学）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家一流本科建设专业，教育部基础学科拔尖学生培养计划2.0基地（含赵九章现代地球和空间科技英才班）。依托深空探测国家重点实验室、风云卫星遥感联合实验室等平台，面向国家重大战略，服务社会需求，与国际接轨，秉持“精英教育”理念，培养高精尖人才。包含专业:大气科学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办）,经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办）包含专业:统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才。包含专业:工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流。包含专业:理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（依托先进环境装备与污染防治技术全国重点实验室等国家级平台，瞄准“双碳”战略与全球气候变化等重大战略方向，通过与人工智能的深度融合，构建“AI+环境”交叉培养模式。优秀本科生可获公费资助，赴哈佛大学、耶鲁大学、剑桥大学等进行交流学习。包含专业:环境科学与工程）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:化学）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家一流本科建设专业，教育部基础学科拔尖学生培养计划2.0基地（含赵九章现代地球和空间科技英才班）。依托深空探测国家重点实验室、风云卫星遥感联合实验室等平台，面向国家重大战略，服务社会需求，与国际接轨，秉持“精英教育”理念，培养高精尖人才。包含专业:大气科学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助。包含专业:材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办）,经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办）包含专业:统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才。包含专业:工程物理、核工程与核技术、应用物理学）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "655",
+          "min_rank": "1665"
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "457780",
+          "group_code": "（100）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（包含专业：电子信息工程、自动化，含信息科技英才、王大珩科技英才班）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：物理学、应用物理学、天文学、光电信息科学与工程，含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（包含专业：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程，含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业：化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：数学与应用数学、信息与计算科学，含华罗庚数学科技英才班、中法数学英才班）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（包含专业：计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业：数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（包含专业：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业），含中美合作3+X金融与商务英才班，经济类、统计类3+X项目）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（包含专业：电子科学与技术、集成电路设计与集成系统，含中微集成电路科技英才班）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含人工智能科技英才班）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含王小谟网络空间科技英才班）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（包含专业：电子信息工程、自动化，含信息科技英才、王大珩科技英才班）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：物理学、应用物理学、天文学、光电信息科学与工程，含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（包含专业：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程，含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业：化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：数学与应用数学、信息与计算科学，含华罗庚数学科技英才班、中法数学英才班）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（包含专业：计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（包含专业：数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（包含专业：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业），含中美合作3+X金融与商务英才班，经济类、统计类3+X项目）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（包含专业：电子科学与技术、集成电路设计与集成系统，含中微集成电路科技英才班）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含人工智能科技英才班）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含王小谟网络空间科技英才班）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "656",
+          "min_rank": "306"
+        },
+        {
+          "special_group": "457779",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（国家专项计划，包含专业：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程，含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：化学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：材料物理、材料化学、高分子材料与工程，含师昌绪材料科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家专项计划，包含专业：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业），含中美合作3+X金融与商务英才班，经济类、统计类3+X项目）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：环境科学与工程）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，含赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（国家专项计划，包含专业：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程，含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：化学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：材料物理、材料化学、高分子材料与工程，含师昌绪材料科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家专项计划，包含专业：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业），含中美合作3+X金融与商务英才班，经济类、统计类3+X项目）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：环境科学与工程）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划，含赵九章现代地球和空间科技英才班）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "627",
+          "min_rank": "2029"
+        },
+        {
+          "special_group": "465636",
+          "group_code": "（601）",
+          "track_code": "2073",
+          "batch": "特殊类型批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划,4年,4800元/年,包含专业:工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划,4年,4800元/年,包含专业:工程物理、核工程与核技术、应用物理学）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "350126",
+          "group_code": "（01）",
+          "track_code": "3",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（包含专业：电子信息工程、自动化；国家级一流本科专业建设点；含信息科技英才、王大珩科技英才班；依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（包含专业：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程；教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：物理学、应用物理学、天文学、光电信息科学与工程；教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点；含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术；教育部基础学科拔尖学生培养基地，国家一流本科专业建设点；依托认知智能全国重点实验室、国家高性能计算中心（合肥）等多个国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（包含专业：电子信息工程、自动化；国家级一流本科专业建设点；含信息科技英才、王大珩科技英才班；依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（包含专业：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程；教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：物理学、应用物理学、天文学、光电信息科学与工程；教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点；含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术；教育部基础学科拔尖学生培养基地，国家一流本科专业建设点；依托认知智能全国重点实验室、国家高性能计算中心（合肥）等多个国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            }
+          ],
+          "track_name": "综合改革",
+          "min_score": "799",
+          "min_rank": "110"
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "439203",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批A段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：大气科学）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（航空航天、人形机器人、低碳能源技术及安全）（含：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（国家专项）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：化学）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（统计与大数据技术试验班）（含：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业）（国家专项）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：大气科学）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（航空航天、人形机器人、低碳能源技术及安全）（含：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（国家专项）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：化学）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（统计与大数据技术试验班）（含：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业）（国家专项）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "439203",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（含：计算机类）（华夏计算机科技英才班）、电子信息类（信息科技英才班）、网络空间安全（王小谟网络空间科技英才班）、人工智能（科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含：数学类）（华罗庚数学科技英才班）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含：物理学类）（严济慈物理科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（含：计算机类）（华夏计算机科技英才班）、电子信息类（信息科技英才班）、网络空间安全（王小谟网络空间科技英才班）、人工智能（科技英才班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含：数学类）（华罗庚数学科技英才班）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含：物理学类）（严济慈物理科技英才班）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "439203",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（航空航天、人形机器人、低碳能源技术及安全）（含：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（高校专项）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：工程物理、核工程与核技术、应用物理学）（高校专项）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（航空航天、人形机器人、低碳能源技术及安全）（含：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（高校专项）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：工程物理、核工程与核技术、应用物理学）（高校专项）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "439202",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含：化学类）（卢嘉锡化学科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 7,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（含：电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：计算机科学与技术）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（含：统计学）（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：生物科学、生物技术、临床医学）（5年）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（含：电子科学与技术、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 8,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（含：化学类）（卢嘉锡化学科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 7,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（含：电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（含：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：计算机科学与技术）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（含：统计学）（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：生物科学、生物技术、临床医学）（5年）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）（含：电子科学与技术、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含：工程物理、核工程与核技术、应用物理学）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科提前批B段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（国家专项）（包含专业：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。）（办学地点：校本部）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项）（包含专业：化学）（办学地点：校本部）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项）（包含专业：大气科学）（办学地点：校本部）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项）（包含专业：材料物理、材料化学、高分子材料与工程）（含师昌绪材料科技英才班。）（办学地点：校本部）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家专项）（包含专业：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（办学地点：校本部）"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项）（包含专业：工程物理、核工程与核技术、应用物理学）（办学地点：校本部）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项）（包含专业：环境科学与工程）（办学地点：校本部）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项）（含赵九章现代地球和空间科技英才班）（办学地点：校本部）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "653",
+          "min_rank": "1454"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 5,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班；包含专业：物理学、应用物理学、天文学、光电信息科学与工程；办学地点：校本部）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含专业：计算机科学与技术；办学地点：校本部）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（含华罗庚数学科技英才班、中法数学英才班；包含专业：数学与应用数学、信息与计算科学；办学地点：校本部）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（包含专业：电子信息工程、自动化；办学地点：校本部）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（办学地点：校本部）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "653",
+          "min_rank": "1454"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科提前批B段",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（高校专项）（包含专业：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。执行特殊类型资格线。）（办学地点：校本部）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "653",
+          "min_rank": "1454"
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "361221",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（校本部；包含专业：电子信息类（信息科技英才班）、人工智能（科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（校本部；包含专业：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（校本部；包含专业：电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：计算机科学与技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（校本部；包含专业：物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（校本部）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：物理学、应用物理学、天文学、光电信息科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（校本部；包含专业：电子信息类（信息科技英才班）、人工智能（科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（校本部；包含专业：机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（校本部；包含专业：电子信息工程、自动化）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（校本部；包含专业：计算机科学与技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（校本部；包含专业：物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（校本部）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "361220",
+          "group_code": "（02）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（智能（科技英才班）；国家专项计划，包含专业：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：化学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（智能（科技英才班）；国家专项计划，包含专业：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：环境科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（智能（科技英才班）；国家专项计划，包含专业：理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：化学）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：材料物理、材料化学、高分子材料与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（智能（科技英才班）；国家专项计划，包含专业：统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：工程物理、核工程与核技术、应用物理学）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（智能（科技英才班）；国家专项计划，包含专业：环境科学与工程）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "471701",
+          "group_code": "（99）",
+          "track_code": "2073",
+          "batch": "本科批A段",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "-",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（高校专项计划,包含专业:理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "-",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（高校专项计划,包含专业:理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（包含电子信息工程、自动化;国家级一流本科专业建设点。含信息科技英才、王大珩科技英才班。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含物理学、应用物理学、天文学、光电信息科学与工程;教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班；依托合肥国家实验室等多个国家级科研平台；含哈佛大学等多个海外交流项目资助）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含计算机科学与技术;教育部基础学科拔尖学生培养基地，国家一流本科专业建设点。依托认知智能全国重点实验室、国家高性能计算中心（合肥）等多个国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（国家专项计划）（包含理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程;教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含环境科学与工程;依托先进环境装备与污染防治技术全国重点实验室等国家级平台，瞄准“双碳”战略与全球气候变化等重大战略方向，通过与人工智能的深度融合，构建“AI+环境”交叉培养模式。优秀本科生可获公费资助，赴哈佛大学、耶鲁大学、剑桥大学等进行交流学习）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（包含数学与应用数学、信息与计算科学;教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含华罗庚数学科技英才班、中法数学英才班；含学校资助斯坦福大学、耶鲁大学、牛津大学、剑桥大学、巴黎高等师范学校等交流项目）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含化学;教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含材料物理、材料化学、高分子材料与工程;中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（国家专项计划）（包含统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业）;国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办）,经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含工程物理、核工程与核技术、应用物理学;教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含大气科学;国家一流本科建设专业，教育部基础学科拔尖学生培养计划2.0基地（含赵九章现代地球和空间科技英才班）。依托深空探测国家重点实验室、风云卫星遥感联合实验室等平台，面向国家重大战略，服务社会需求，与国际接轨，秉持“精英教育”理念，培养高精尖人才）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含生物科学、生物技术、临床医学（5年）;教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托合肥微尺度物质科学国家研究中心等多个国家级教学科研平台，培养具有深厚理工背景和人文素养关怀的健康科技领域领军人才）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "641",
+          "min_rank": "1384"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科提前批B段",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划）（包含材料物理、材料化学、高分子材料与工程;中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）（外语语种：不限）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "641",
+          "min_rank": "1384"
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "304752",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "中美合作",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点，含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点，含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "304752",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（物理学、应用物理学、天文学、光电信息科学与工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班；依托合肥国家实验室等多个国家级科研平台；含哈佛大学等多个海外交流项目资助）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（电子信息工程、自动化）（国家级一流本科专业建设点。含信息科技英才、王大珩科技英才班。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（计算机科学与技术）（教育部基础学科拔尖学生培养基地，国家一流本科专业建设点。依托认知智能全国重点实验室、国家高性能阅拟报考院校章程!计算中心（合肥）等多个国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含华罗庚数学科技英才班、中法数学英才班；含学校资助斯坦福大学、耶鲁大学、牛津大学、剑桥大学、巴黎高等师范学校等交流项目）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（力学类（钱学森力学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家级一流本科专业建设点。含王小谟网络空间科技英才班（与中国电子科技集团合办）；依托合肥国家实验室、未来网络国家基础设施合肥中心等国家级科研平台，以及国家级实验教学平台，开展网络空间安全学科建设和人才培养）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）志愿时务必通过教育部阳光高考平台认真查（电子科学与技术、集成电路设计与集成系统）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含中微集成电路科技英才班（与中微半导体设备股份有限公司合办）、中国科大—微软教育部创新人才培养实验班。依托合肥微尺度物质科学国家研究中心等国家级科研平台进行培养）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地。含人工智能科技英才班（与科大讯飞股份有限公司合办）。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养）"
+            },
+            {
+              "spcode": "0702",
+              "sp_name": "物理学类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（物理学、应用物理学、天文学、光电信息科学与工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含严济慈物理科技英才班、王绶琯天文英才班等12个科技英才班；依托合肥国家实验室等多个国家级科研平台；含哈佛大学等多个海外交流项目资助）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（信息科技方向）（电子信息工程、自动化）（国家级一流本科专业建设点。含信息科技英才、王大珩科技英才班。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0809",
+              "sp_name": "计算机类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（计算机科学与技术）（教育部基础学科拔尖学生培养基地，国家一流本科专业建设点。依托认知智能全国重点实验室、国家高性能阅拟报考院校章程!计算中心（合肥）等多个国家级科研平台进行培养；含学校资助斯坦福大学、华盛顿大学、帝国理工学院等国际交流项目）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含华罗庚数学科技英才班、中法数学英才班；含学校资助斯坦福大学、耶鲁大学、牛津大学、剑桥大学、巴黎高等师范学校等交流项目）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（力学类（钱学森力学科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划英才班）（计算机类（华夏计算机科技英才班）、电子信息类（信息科技英才班））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（拔尖计划科技英才班）（数学类（华罗庚数学科技英才班）、物理学类（严济慈物理科技英才班））"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家级一流本科专业建设点。含王小谟网络空间科技英才班（与中国电子科技集团合办）；依托合肥国家实验室、未来网络国家基础设施合肥中心等国家级科研平台，以及国家级实验教学平台，开展网络空间安全学科建设和人才培养）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（集成电路方向）志愿时务必通过教育部阳光高考平台认真查（电子科学与技术、集成电路设计与集成系统）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含中微集成电路科技英才班（与中微半导体设备股份有限公司合办）、中国科大—微软教育部创新人才培养实验班。依托合肥微尺度物质科学国家研究中心等国家级科研平台进行培养）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "070206T",
+              "sp_name": "量子信息科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（未来技术学院）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（中国科学院基础和前沿交叉学科贯通培养工程实施基地。含人工智能科技英才班（与科大讯飞股份有限公司合办）。依托类脑智能技术及应用国家工程实验室、语音及语言信息处理国家工程研究中心等国家级科研平台进行培养）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "304752",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "高校专项计划批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划）（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（高校专项计划）（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "304751",
+          "group_code": "（201）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（航空航天、人形机器人、低碳能源技术及安全）（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "304751",
+          "group_code": "（201）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划,中美合作",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计与大数据技术试验班）（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "416451",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 11,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（计算机类、计算机类（华夏计算机科技英才班）电子信息类、电子信息类（信息科技英才班）、人工智能、集成电路设计与集成系统、网络空间安全）（信息智能方向）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（量子信息科学（未来技术学院）物理学类、物理学类（严济慈物理科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））（物理及应用物理）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（数学类、数学类（华罗庚数学科技英才班）大数据管理与应用、统计学）（数学及大数据技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）（航空航天、人形机器人、低碳能源技术及安全）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班））（智能化学及生命科技）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 11,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（计算机类、计算机类（华夏计算机科技英才班）电子信息类、电子信息类（信息科技英才班）、人工智能、集成电路设计与集成系统、网络空间安全）（信息智能方向）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 6,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（量子信息科学（未来技术学院）物理学类、物理学类（严济慈物理科技英才班）、空间科学与技术（赵九章现代地球和空间科技英才班））（物理及应用物理）（教育部首批未来技术学院，中国科学院基础和前沿交叉学科贯通培养工程实施基地。含量子信息科技英才班，依托合肥国家实验室、合肥微尺度物质科学国家研究中心、量子信息与量子科技前沿协同创新中心等国家与省部级科研平台，创新培养未来科技创新领军人才）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 4,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（数学类、数学类（华罗庚数学科技英才班）大数据管理与应用、统计学）（数学及大数据技术）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（机器人工程、理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程）（航空航天、人形机器人、低碳能源技术及安全）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展国际交流）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学类（卢嘉锡化学科技英才班）、生物科学类（贝时璋生命科技英才班））（智能化学及生命科技）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "650",
+          "min_rank": "265"
+        },
+        {
+          "special_group": "416443",
+          "group_code": "（005）",
+          "track_code": "2073",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（航空航天、人形机器人、低碳能源技术及安全）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（环境科学与工程）（国家专项计划）（依托先进环境装备与污染防治技术全国重点实验室等国家级平台，瞄准“双碳”战略与全球气候变化等重大战略方向，通过与人工智能的深度融合，构建“AI+环境”交叉培养模式。优秀本科生可获公费资助，赴哈佛大学、耶鲁大学、剑桥大学等进行交流学习）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）（国家专项计划）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（统计与大数据技术试验班）（国家专项计划）（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（工程物理、核工程与核技术、应用物理学）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（大气科学）（国家专项计划）（国家一流本科建设专业，教育部基础学科拔尖学生培养计划2.0基地（含赵九章现代地球和空间科技英才班）。依托深空探测国家重点实验室、风云卫星遥感联合实验室等平台，面向国家重大战略，服务社会需求，与国际接轨，秉持“精英教育”理念，培养高精尖人才）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（生物科学、生物技术、临床医学（5年）月）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托合肥微尺度物质科学国家研究中心等多个国家级教学科研平台，培养具有深厚理工背景和人文素养关怀的健康科技领域领军人才）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（理论与应用力学、机械设计制造及其自动化、测控技术与仪器、能源与动力工程、安全工程、机器人工程）（航空航天、人形机器人、低碳能源技术及安全）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。含钱学森力学科技英才班、吴仲华工程热物理英才班、新能源英才班、精密光机电与环境科技英才班。学校资助学生前往斯坦福大学、加州大学等高校开展"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 3,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（环境科学与工程）（国家专项计划）（依托先进环境装备与污染防治技术全国重点实验室等国家级平台，瞄准“双碳”战略与全球气候变化等重大战略方向，通过与人工智能的深度融合，构建“AI+环境”交叉培养模式。优秀本科生可获公费资助，赴哈佛大学、耶鲁大学、剑桥大学等进行交流学习）"
+            },
+            {
+              "spcode": "0703",
+              "sp_name": "化学类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（化学）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。依托国家级科研平台及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0804",
+              "sp_name": "材料类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（材料物理、材料化学、高分子材料与工程）（国家专项计划）（中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含师昌绪材料科技英才班；依托国家级科研平台以及中国科学院各科教融合单位开展合作培养；含哈佛大学、加州大学伯克利分校、麻省理工学院、普林斯顿大学、耶鲁大学等海外交流项目资助）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（统计学（统计与大数据技术）、大数据管理与应用、金融学（智慧金融）、管理科学（商务智能）、工商管理（创新创业））（统计与大数据技术试验班）（国家专项计划）（国家级一流本科专业建设点。含中美合作3+X金融与商务英才班（与哥伦比亚大学商学院、西雅图华盛顿大学FOSTER商学院、圣路易斯华盛顿大学Olin商学院等合办），经济类、统计类3+X项目（与威斯康星大学麦迪逊分校合办））"
+            },
+            {
+              "spcode": "0822",
+              "sp_name": "核工程类",
+              "plan": 2,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（工程物理、核工程与核技术、应用物理学）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托国家实验室（国家同步辐射实验室）和国家级大科学装置（合肥光源、东方超环），培养“懂理论、能动手、会计算、敢创新”的高端复合型人才）"
+            },
+            {
+              "spcode": "0708",
+              "sp_name": "地球物理学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（大气科学）（国家专项计划）（国家一流本科建设专业，教育部基础学科拔尖学生培养计划2.0基地（含赵九章现代地球和空间科技英才班）。依托深空探测国家重点实验室、风云卫星遥感联合实验室等平台，面向国家重大战略，服务社会需求，与国际接轨，秉持“精英教育”理念，培养高精尖人才）"
+            },
+            {
+              "spcode": "0710",
+              "sp_name": "生物科学类",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（生物科学、生物技术、临床医学（5年）月）（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家一流本科专业建设点。依托合肥微尺度物质科学国家研究中心等多个国家级教学科研平台，培养具有深厚理工背景和人文素养关怀的健康科技领域领军人才）"
+            },
+            {
+              "spcode": "070804TK",
+              "sp_name": "行星科学",
+              "plan": 1,
+              "tuition": "4800",
+              "length": "四年",
+              "info_short": "（国家专项计划）（教育部基础学科拔尖学生培养基地，中国科学院基础和前沿交叉学科贯通培养工程实施基地，国家级一流本科专业建设点。含赵九章现代地球和空间科技英才班；面向国家深空探测重大战略需求，培养拔尖学科人才。优秀本科生由公费资助，赴国际一流高校和科研机构进行交流学习）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "631",
+          "min_rank": "889"
         }
       ]
     }

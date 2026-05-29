@@ -45,6 +45,7 @@ import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
 import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk, provinceTiaojiInfo } from "./groups.js";
 import { paths as pathsFn, type ProfileLite } from "./paths.js";
+import { dossier as dossierFn } from "./dossier.js";
 import { VERSION } from "./version.js";
 
 type Verb = (args: string[]) => Promise<void>;
@@ -274,6 +275,14 @@ Usage:
       对家长决定 "投入强基/综评备考性价比" 极有用。
       e.g. gaokao-pro xiaoce 清华
            gaokao-pro xiaoce 浙江大学 --json
+
+  gaokao-pro dossier <学校名> [--json]
+      院校 dossier 一站式聚合：招生网+contact+program flags + 院校专业组
+      summary + 强基/综评 校测 detail + 综评 by-school + 高水平运动队 +
+      提前批 programs + 涉及该校的滑档历史. 替代 6-7 个独立 verb 调用。
+      每个 section 独立 nullable (\"not_in_dataset\" 状态明示)，避免猜测。
+      e.g. gaokao-pro dossier 清华大学
+           gaokao-pro dossier 浙江大学 --json
 
   gaokao-pro huadang [<省份>] [--category <类>] [--list-categories] [--json]
       滑档/退档 历史案例 (2022-2025, 45 个): 真实/综合案例双标记，每条带
@@ -1013,6 +1022,128 @@ const VERBS: Record<string, Verb> = {
     }
     if (!schools.length) lines.push("(该省无 2026 综评数据)");
     process.stdout.write(lines.join("\n"));
+  },
+
+  async dossier(args) {
+    const { positional, flags } = parseFlags(args);
+    const school = positional[0] ?? (typeof flags.school === "string" ? flags.school : null);
+    if (!school) throw new Error("usage: gaokao-pro dossier <学校名> [--json]");
+    const result = dossierFn(school);
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, ...result });
+      return;
+    }
+    const lines: string[] = [];
+    lines.push(`院校 dossier — ${result.school}${result.zs_code ? ` (${result.zs_code})` : ""}`);
+    lines.push(`数据覆盖: ${result.totals.sections_with_data} / ${result.totals.sections_with_data + result.totals.sections_missing} 个 section`);
+    lines.push("");
+
+    // 1) Adapter
+    if (result.adapter && "_status" in result.adapter) {
+      lines.push("【招生网 + program flags】(无数据)");
+    } else {
+      const a = result.adapter;
+      lines.push("【招生网 + program flags】");
+      if (a.zsw_url) lines.push(`  招生网: ${a.zsw_url}`);
+      if (a.contact?.phone) lines.push(`  电话:   ${a.contact.phone}`);
+      if (a.contact?.email) lines.push(`  邮箱:   ${a.contact.email}`);
+      const flagMap: [string, string][] = [
+        ["qiangji", "强基"],
+        ["zonghepingjia", "综评"],
+        ["zhongwai_hezuo", "中外合作"],
+        ["guojia_zhuanxiang", "国家专项"],
+        ["gaoxiao_zhuanxiang", "高校专项"],
+        ["minzu_ban", "民族班"],
+        ["yuke_ban", "预科班"],
+        ["gao_shui_yundong", "高水平运动队"],
+        ["high_art", "艺术类"],
+      ];
+      const open: string[] = [];
+      for (const [k, label] of flagMap) {
+        const v = (a.programs as Record<string, unknown>)[k];
+        if (v === true || (typeof v === "object" && v !== null && "offers" in v && (v as { offers?: boolean }).offers === true)) {
+          open.push(label);
+        }
+      }
+      if (open.length) lines.push(`  开设项目: ${open.join("、")}`);
+    }
+    lines.push("");
+
+    // 2) Groups summary
+    if (result.groups_summary && "_status" in result.groups_summary) {
+      lines.push("【院校专业组】(无数据)");
+    } else {
+      const g = result.groups_summary;
+      lines.push("【院校专业组】");
+      lines.push(`  ${g.year}: ${g.provinces_count} 省 / ${g.groups_count} 组 / ${g.majors_total} 专业`);
+      lines.push(`  覆盖省份: ${g.province_names.join("、")}`);
+    }
+    lines.push("");
+
+    // 3) Xiaoce
+    if (result.xiaoce && "_status" in result.xiaoce) {
+      lines.push("【强基/综评 校测 detail】(无数据)");
+    } else {
+      const x = result.xiaoce;
+      lines.push("【强基/综评 校测 detail】");
+      if (x.qiangji) {
+        lines.push(`  强基: 笔试=${x.qiangji.校测_笔试 ?? "?"} · 面试=${x.qiangji.校测_面试 ?? "?"} · 分配=${x.qiangji.录取分配 ?? "?"}`);
+      }
+      if (x.zongping) {
+        lines.push(`  综评: 覆盖省=${(x.zongping.省份 || []).join("、")} · 校测=${x.zongping.校测_面试 ?? x.zongping.校测_笔试 ?? "?"} · 分配=${x.zongping.录取分配 ?? "?"}`);
+      }
+    }
+    lines.push("");
+
+    // 4) Zongping
+    if (result.zongping && "_status" in result.zongping) {
+      lines.push("【综评 by-school】(无数据)");
+    } else {
+      const z = result.zongping;
+      lines.push("【综评 by-school】");
+      lines.push(`  覆盖省份: ${z.provinces.join("、")}`);
+      if (z.entry.ratio) lines.push(`  分配比: ${z.entry.ratio}`);
+      if (z.entry.seats !== null && z.entry.seats !== undefined) lines.push(`  计划: ${z.entry.seats}`);
+    }
+    lines.push("");
+
+    // 5) Gaoshui
+    if (result.gaoshui && "_status" in result.gaoshui) {
+      lines.push("【高水平运动队】(无数据)");
+    } else {
+      const g = result.gaoshui;
+      lines.push(`【高水平运动队】 (${g.sports_count} 项目)`);
+      for (const sp of g.school.sports) {
+        const detail = [sp.tier_required, sp.score_path].filter(Boolean).join(" · ");
+        lines.push(`  - ${sp.name}${detail ? ` (${detail})` : ""}`);
+      }
+    }
+    lines.push("");
+
+    // 6) Tiqian programs
+    if (result.tiqian_programs.length === 0) {
+      lines.push("【提前批 programs】(无数据)");
+    } else {
+      lines.push(`【提前批 programs】 (${result.tiqian_programs.length} 项)`);
+      for (const p of result.tiqian_programs) {
+        const epLabel = (p.eligible_provinces || []).slice(0, 5).join("、") + ((p.eligible_provinces || []).length > 5 ? "…" : "");
+        lines.push(`  [${p.program_type}] · 覆盖: ${epLabel}`);
+      }
+    }
+    lines.push("");
+
+    // 7) Huadang cases
+    if (result.huadang_cases.length === 0) {
+      lines.push("【涉及该校的滑档历史案例】(无数据)");
+    } else {
+      lines.push(`【涉及该校的滑档历史案例】 (${result.huadang_cases.length} 条)`);
+      for (const c of result.huadang_cases) {
+        const stamp = c.is_composite ? "📌" : "📍";
+        lines.push(`  ${stamp} ${c.case_id} · ${c.year} ${c.province} · ${c.category}`);
+        lines.push(`     ${c.what_happened.length > 100 ? c.what_happened.slice(0, 100) + "…" : c.what_happened}`);
+      }
+    }
+    process.stdout.write(lines.join("\n") + "\n");
   },
 
   async huadang(args) {

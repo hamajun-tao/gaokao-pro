@@ -9,7 +9,7 @@
     "https://bkzs.nju.edu.cn/"
   ],
   "fetched_at": "2026-05-25",
-  "notes": "院校专业组以 special_group_id 区分；河北/山东 在此数据源未提供专业组编号，按选考要求合并展示，group_code 为 '—'。",
+  "notes": "院校专业组以 special_group_id 区分；河北/山东 在此数据源未提供专业组编号，按选考要求合并展示，group_code 为 '—'。  |  round-6 added provinces: 浙江/安徽/江西/湖南/广西/海南/四川/重庆/云南/贵州/陕西/甘肃 (gaokao.cn schoolspecialplan+schoolprovincescore 2025, school_id=111)",
   "provinces": [
     {
       "province_id": "13",
@@ -3150,6 +3150,5902 @@
           "major_count": 4,
           "min_score": 644,
           "min_rank": 4950
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "province_pinyin": "zhejiang",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "3",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 13,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区十苏州校区。含智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）专业）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 9,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（鼓楼校区十仙林校区。含数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学专业）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 6,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（鼓楼校区十仙林校区。含双学士学位）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 6,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区十仙林校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区十仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 6,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（鼓楼校区十仙林校区。含数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向）专业）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（鼓楼校区十仙林校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 5,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（鼓楼校区十苏州校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区十仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（鼓楼校区十仙林校区。含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区十仙林校区。含法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学专业）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（至诚班）（鼓楼校区十仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（鼓楼校区十仙林校区。含生物科学、生物技术、生态学、化学、应用化学专业）"
+            }
+          ],
+          "track_name": "综合改革",
+          "min_score": "656",
+          "min_rank": "8445"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "3",
+          "batch": "普通类提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "030504T",
+              "sp_name": "马克思主义理论",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区十仙林校区）"
+            }
+          ],
+          "track_name": "综合改革",
+          "min_score": "656",
+          "min_rank": "8445"
+        }
+      ]
+    },
+    {
+      "province_id": 34,
+      "province": "安徽",
+      "province_pinyin": "anhui",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "310361",
+          "group_code": "（001）",
+          "track_code": "2073",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（地球科学与资源环境类）（含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（化学与生命科学类）（含生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "5",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（含智能科学与技术、集成电路设计与集成系统、数字经济、自动化(机器人方向)）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（数理科学类）（含数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（智慧人居实验班）（含建筑学、城乡规划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（地球科学与资源环境类）（含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（化学与生命科学类）（含生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "5",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（含智能科学与技术、集成电路设计与集成系统、数字经济、自动化(机器人方向)）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（数理科学类）（含数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（智慧人居实验班）（含建筑学、城乡规划）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "667",
+          "min_rank": "1162"
+        },
+        {
+          "special_group": "310065",
+          "group_code": "（002）",
+          "track_code": "2073",
+          "batch": "高校专项计划批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（地球科学与资源环境类）（含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（高校专项计划）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "5",
+              "info_short": "（卓越医师班）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（化学与生命科学类）（含生物科学、生物技术、生态学、化学、应用化学）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（含智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（含光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（地球科学与资源环境类）（含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（高校专项计划）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "5",
+              "info_short": "（卓越医师班）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "4",
+              "info_short": "（化学与生命科学类）（含生物科学、生物技术、生态学、化学、应用化学）（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（含智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（高校专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "4",
+              "info_short": "（含光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（高校专项计划）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "341726",
+          "group_code": "（003）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 17,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 9,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（含数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（至诚班）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（含数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（含生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（含环境工程、环境科学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 17,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 9,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（含数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 6,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（至诚班）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（含数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（含生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（含环境工程、环境科学）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "672",
+          "min_rank": "749"
+        },
+        {
+          "special_group": "341725",
+          "group_code": "（004）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 6,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 6,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "649",
+          "min_rank": "4329"
+        },
+        {
+          "special_group": "341744",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "plan": 6,
+              "tuition": "7480",
+              "length": "四年",
+              "info_short": "（不得转专业）"
+            },
+            {
+              "spcode": "130304",
+              "sp_name": "戏剧影视文学",
+              "plan": 6,
+              "tuition": "7480",
+              "length": "四年",
+              "info_short": "（不得转专业）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "636",
+          "min_rank": "502"
+        },
+        {
+          "special_group": "456684",
+          "group_code": "（001）",
+          "track_code": "2074",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050202",
+              "sp_name": "俄语",
+              "plan": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info_short": null
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "642",
+          "min_rank": "342"
+        },
+        {
+          "special_group": "310566",
+          "group_code": "（002）",
+          "track_code": "2074",
+          "batch": "国家专项计划批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": "（含法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学；专业分流方向详见学校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": "（数智经济与管理）（含经济学、金融学、保险学、经济学(产业经济学方向)、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": "（含汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学(文物鉴定方向)）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": "（含法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学；专业分流方向详见学校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": "（数智经济与管理）（含经济学、金融学、保险学、经济学(产业经济学方向)、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": "（含汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学(文物鉴定方向)）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "4",
+              "info_short": null
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "641",
+          "min_rank": "360"
+        },
+        {
+          "special_group": "341745",
+          "group_code": "（003）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 8,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学；专业分流方向详见学校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 7,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（含经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（德语法学实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 8,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学；专业分流方向详见学校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 7,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（含经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（德语法学实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "649",
+          "min_rank": "177"
+        }
+      ]
+    },
+    {
+      "province_id": 36,
+      "province": "江西",
+      "province_pinyin": "jiangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "402943",
+          "group_code": "（501）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 14,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 12,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 7,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（环境工程、环境科学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 14,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 12,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 7,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（环境工程、环境科学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": null
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "646",
+          "min_rank": "830"
+        },
+        {
+          "special_group": "467892",
+          "group_code": "（502）",
+          "track_code": "2073",
+          "batch": "高校专项计划批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）（高校专项）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）（高校专项）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）（高校专项）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "402965",
+          "group_code": "（561）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化）（机器人方向）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化）（机器人方向）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "636",
+          "min_rank": "1563"
+        },
+        {
+          "special_group": "402979",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 11,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 11,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "642",
+          "min_rank": "161"
+        },
+        {
+          "special_group": "402920",
+          "group_code": "（161）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "627",
+          "min_rank": "482"
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "province_pinyin": "hunan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科批（特殊类型）",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（高校专项计划）（地球科学与资源环境类）（含:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类。）（高校专项计划）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（高校专项计划）（卓越医师班）（高校专项计划）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（高校专项计划）（化学与生命科学类）（含:生物科学、生物技术、生态学、化学、应用化学。）（高校专项计划）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划）（含:光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程。）（高校专项计划）（不口试）（外语要求：不限）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划）（含:智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）。）（高校专项计划）（不口试）（外语要求：不限）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "318203",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 15,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 9,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业:数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 7,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业:生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含专业:数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（包含专业:环境工程、环境科学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 15,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 9,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业:数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 7,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业:生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含专业:数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": null
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（包含专业:环境工程、环境科学）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "666",
+          "min_rank": "741"
+        },
+        {
+          "special_group": "318202",
+          "group_code": "（304）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业:生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业:数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（包含专业:建筑学、城乡规划）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业:生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业:智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业:数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（包含专业:建筑学、城乡规划）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "646",
+          "min_rank": "2766"
+        },
+        {
+          "special_group": "318222",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 8,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（专业分流方向详见我校招生章程包含专业:法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（包含专业:经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（包含专业:汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（德语法学实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 8,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（专业分流方向详见我校招生章程包含专业:法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（包含专业:经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（包含专业:汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（德语法学实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "644",
+          "min_rank": "187"
+        },
+        {
+          "special_group": "318221",
+          "group_code": "（303）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（包含专业:经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（专业分流方向详见我校招生章程包含专业:法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（包含专业:汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（包含专业:经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（专业分流方向详见我校招生章程包含专业:法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（包含专业:汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "625",
+          "min_rank": "651"
+        }
+      ]
+    },
+    {
+      "province_id": 45,
+      "province": "广西",
+      "province_pinyin": "guangxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "458094",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 13,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+苏州校区办学，包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（在鼓楼校区+仙林校区办学，包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（在鼓楼校区+仙林校区办学，包含专业：生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（在鼓楼校区+仙林校区办学，包含专业：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（在鼓楼校区+仙林校区办学，包含专业：建筑学、城乡规划）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（在鼓楼校区+仙林校区办学，包含专业：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（在鼓楼校区+仙林校区办学，包含专业：环境工程、环境科学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 13,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+苏州校区办学，包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（在鼓楼校区+仙林校区办学，包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（在鼓楼校区+仙林校区办学，包含专业：生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（在鼓楼校区+仙林校区办学，包含专业：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（在鼓楼校区+仙林校区办学，包含专业：建筑学、城乡规划）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（在鼓楼校区+仙林校区办学，包含专业：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（在鼓楼校区+仙林校区办学，包含专业：环境工程、环境科学）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "650",
+          "min_rank": "493"
+        },
+        {
+          "special_group": "465619",
+          "group_code": "（601）",
+          "track_code": "2073",
+          "batch": "特殊类型批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（高校专项计划,4年,6050元/年,在鼓楼校区+仙林校区办学,包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划,4年,6380元/年,在鼓楼校区+仙林校区办学,包含专业:光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（高校专项计划,4年,6050元/年,在鼓楼校区+仙林校区办学,包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划,4年,6380元/年,在鼓楼校区+仙林校区办学,包含专业:光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "458112",
+          "group_code": "（100）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学，专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（在鼓楼校区+仙林校区办学，包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学，专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（在鼓楼校区+仙林校区办学，包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学，包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（在鼓楼校区+仙林校区办学）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（在鼓楼校区+仙林校区办学，含双学士学位）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "640",
+          "min_rank": "121"
+        }
+      ]
+    },
+    {
+      "province_id": 46,
+      "province": "海南",
+      "province_pinyin": "hainan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "350263",
+          "group_code": "（01）",
+          "track_code": "3",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70004^70000_70001_70003^70000_70001_70005^70000_70001_70006",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业：生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含专业：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业：生物科学、生物技术、生态学、化学、应用化学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含专业：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            }
+          ],
+          "track_name": "综合改革",
+          "min_score": "789",
+          "min_rank": "153"
+        }
+      ]
+    },
+    {
+      "province_id": 51,
+      "province": "四川",
+      "province_pinyin": "sichuan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "439551",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批A段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（卓越医师班）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（化学与生命科学类）（含：生物科学、生物技术、生态学、化学、应用化学）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（地球科学与资源环境类）（含：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）（鼓楼校区/苏州校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（数理科学类）（含：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（智慧人居实验班）（含：建筑学、城乡规划）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（卓越医师班）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（化学与生命科学类）（含：生物科学、生物技术、生态学、化学、应用化学）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（地球科学与资源环境类）（含：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）（鼓楼校区/苏州校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（数理科学类）（含：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（鼓楼校区/仙林校区）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（智慧人居实验班）（含：建筑学、城乡规划）（鼓楼校区/仙林校区）（国家专项）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "439551",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 16,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区/苏州校区）（含：智能科学与技术、集成电路设计与集成系统、数字经济、自动化）（机器人方向）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 11,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（含：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 7,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（含：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学）（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（鼓楼校区/仙林校区）（含：双学士学位）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（鼓楼校区/仙林校区）（含：双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（含：生物科学、生物技术、生态学、化学、应用化学）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（鼓楼校区/仙林校区）（含：双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（含：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 16,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区/苏州校区）（含：智能科学与技术、集成电路设计与集成系统、数字经济、自动化）（机器人方向）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 11,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（含：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 7,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（含：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（含：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学）（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工经济创新班）（鼓楼校区/仙林校区）（含：双学士学位）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（鼓楼校区/仙林校区）（含：双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（含：生物科学、生物技术、生态学、化学、应用化学）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（鼓楼校区/仙林校区）（含：双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（含：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（鼓楼校区/仙林校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "439551",
+          "group_code": "（101）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（地球科学与资源环境类）（含：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（鼓楼校区/仙林校区）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（化学与生命科学类）（含：生物科学、生物技术、生态学、化学、应用化学）（鼓楼校区/仙林校区）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）（鼓楼校区/苏州校区）（高校专项）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（卓越医师班）（鼓楼校区/仙林校区）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（鼓楼校区/仙林校区）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（地球科学与资源环境类）（含：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（鼓楼校区/仙林校区）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（化学与生命科学类）（含：生物科学、生物技术、生态学、化学、应用化学）（鼓楼校区/仙林校区）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）（鼓楼校区/苏州校区）（高校专项）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（卓越医师班）（鼓楼校区/仙林校区）（高校专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（含：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（鼓楼校区/仙林校区）（高校专项）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "439550",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "中外合作",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 6,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（鼓楼校区/苏州校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 6,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（鼓楼校区/苏州校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "439518",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 9,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见学校招生章程））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 7,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（含：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学）（文物鉴定方向））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（德语法学实验班）（含：双学士学位））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含：双学士学位））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 9,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见学校招生章程））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 7,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（含：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（含：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学）（文物鉴定方向））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（德语法学实验班）（含：双学士学位））鼓楼校区/仙林校区就读。）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含：双学士学位））鼓楼校区/仙林校区就读。）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "453355",
+          "group_code": "（L不限）",
+          "track_code": "2074",
+          "batch": "本科批A段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（数智经济与管理）（含：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（含：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（含：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向）（国家专项）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（数智经济与管理）（含：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（含：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）（国家专项）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（含：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向）（国家专项）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。鼓楼校区/仙林校区就读。）（国家专项）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "454099",
+          "group_code": "（L政）",
+          "track_code": "2074",
+          "batch": "本科提前批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70003_70004^70002_70003_70004^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "030504T",
+              "sp_name": "马克思主义理论",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（鼓楼校区/仙林校区）"
+            },
+            {
+              "spcode": "030504T",
+              "sp_name": "马克思主义理论",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（执行部委属和外省属高校少数民族地区加分办法1。）（鼓楼校区/仙林校区）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": null,
+          "min_rank": null
+        }
+      ]
+    },
+    {
+      "province_id": 50,
+      "province": "重庆",
+      "province_pinyin": "chongqing",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科提前批B段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（国家专项）（包含专业：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（办学地点：鼓楼校区+仙林校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "643",
+          "min_rank": "2472"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 10,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学；办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 9,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）；办学地点：鼓楼校区+苏州校区）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 7,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（中外合作办学；办学地点：鼓楼校区+苏州校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统；办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含专业：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化李与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向）；办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程；办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（至诚班）（办学地点：鼓楼校区+苏州校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "643",
+          "min_rank": "2472"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科提前批B段",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（高校专项）（包含专业：大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（要求特殊类型资格线上100分。办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项）（包含专业：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（要求特殊类型资格线上100分。办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项）（包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（要求特殊类型资格线上100分。办学地点：鼓楼校区+苏州校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "643",
+          "min_rank": "2472"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "batch": "本科提前批B段",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（国家专项）（包含专业：法学（、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程。包含专业：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（国家专项）（包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（办学地点：鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（国家专项）（包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））（办学地点：鼓楼校区+仙林校区）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "635",
+          "min_rank": "255"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学；办学地点：鼓楼校区+仙林）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（专业分流方向详见我校招生章程；包含专业；法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学；办学地点：鼓楼校区+仙林）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向）；办学地点：鼓楼校区+仙林）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（办学地点：鼓楼校区+仙林）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "635",
+          "min_rank": "255"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "batch": "本科提前批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "030504T",
+              "sp_name": "马克思主义理论",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（办学地点：鼓楼校区+仙林校区）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "635",
+          "min_rank": "255"
+        }
+      ]
+    },
+    {
+      "province_id": 53,
+      "province": "云南",
+      "province_pinyin": "yunnan",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "361551",
+          "group_code": "（01）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 8,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向），鼓楼校区、苏州校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（含双学士学位，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（含双学士学位，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含专业：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向），鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业：生物科学、生物技术、生态学、化学、应用化学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 8,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向），鼓楼校区、苏州校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 3,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（含双学士学位，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（含双学士学位，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含专业：光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含专业：数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向），鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（包含专业：生物科学、生物技术、生态学、化学、应用化学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "361550",
+          "group_code": "（02）",
+          "track_code": "2073",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（国家专项计划，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（国家专项计划，包含专业：生物科学、生物技术、生态学、化学、应用化学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（国家专项计划，包含专业：大气科学、应用气录学、环境科学与工程类、地理科学类、地质点类，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向），鼓楼校区、苏州校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（国家专项计划，包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（国家专项计划，包含专业：建筑学、城乡规划，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（国家专项计划，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（国家专项计划，包含专业：生物科学、生物技术、生态学、化学、应用化学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（国家专项计划，包含专业：大气科学、应用气录学、环境科学与工程类、地理科学类、地质点类，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（国家专项计划，包含专业：智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向），鼓楼校区、苏州校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（国家专项计划，包含专业：数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学，鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（国家专项计划，包含专业：建筑学、城乡规划，鼓楼校区、仙林校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "471687",
+          "group_code": "（99）",
+          "track_code": "2073",
+          "batch": "本科批A段",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "-",
+              "info_short": "（卓越医师班）（高校专项计划,学制五年,鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "-",
+              "info_short": "（化学与生命科学类）（高校专项计划,包含专业:生物科学、生物技术、生态学、化学、应用化学,鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "-",
+              "info_short": "（地球科学与资源环境类）（高校专项计划,包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类,鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "-",
+              "info_short": "（高校专项计划,包含专业:智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）,鼓楼校区、苏州校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "-",
+              "info_short": "（高校专项计划,包含专业:光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程,鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "-",
+              "info_short": "（卓越医师班）（高校专项计划,学制五年,鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "-",
+              "info_short": "（化学与生命科学类）（高校专项计划,包含专业:生物科学、生物技术、生态学、化学、应用化学,鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "-",
+              "info_short": "（地球科学与资源环境类）（高校专项计划,包含专业:大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类,鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "-",
+              "info_short": "（高校专项计划,包含专业:智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）,鼓楼校区、苏州校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "-",
+              "info_short": "（高校专项计划,包含专业:光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程,鼓楼校区、仙林校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "361506",
+          "group_code": "（01）",
+          "track_code": "2074",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；包含专业：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学，专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（鼓楼校区、仙林校区；包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（鼓楼校区、仙林校区；含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；包含专业：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学，专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（鼓楼校区、仙林校区；包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（鼓楼校区、仙林校区；含双学士学位）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "361505",
+          "group_code": "（02）",
+          "track_code": "2074",
+          "batch": "本科批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（鼓楼校区、仙林校区；国家专项计划，包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；家专项计划，包含专业：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学，专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；国家专项计划，包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（鼓楼校区、仙林校区；国家专项计划，包含专业：经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；家专项计划，包含专业：法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学，专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（鼓楼校区、仙林校区；国家专项计划，包含专业：汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": null,
+          "min_rank": null
+        }
+      ]
+    },
+    {
+      "province_id": 52,
+      "province": "贵州",
+      "province_pinyin": "guizhou",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 12,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）;办学地点:鼓楼校区+苏州校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 10,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（包含数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 5,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（包含数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向）;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（含双学士学位;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（包含光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（国家专项计划）（包含生物科学、生物技术、生态学、化学、应用化学;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（至诚班）（办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（国家专项计划）（包含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（国家专项计划）（包含数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（至诚班）（办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向）;办学地点:鼓楼校区+苏州校区）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "610",
+          "min_rank": "5119"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2073",
+          "batch": "本科提前批B段",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（高校专项计划）（化学与生命科学类）（包含生物科学、生物技术、生态学、化学、应用化学;办学地点:鼓楼校区+仙林校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（高校专项计划）（地球科学与资源环境类）（包含大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类;办学地点:鼓楼校区+仙林校区）（外语语种：不限）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划）（包含智能科学与技术、集成电路设计与集成系统、数字经济、自动化(机器人方向);办学地点:鼓楼校区+苏州校区）（外语语种：不限）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "610",
+          "min_rank": "5119"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 7,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（包含经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 6,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（包含法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学;专业分流方向详见我校招生章程;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学;专业分流方向详见我校招生章程;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（包含汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向）;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（国家专项计划）（包含汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向）;办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（办学地点:鼓楼校区+仙林校区）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（国家专项计划）（包含经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学;办学地点:鼓楼校区+仙林校区）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "648",
+          "min_rank": "220"
+        },
+        {
+          "special_group": null,
+          "group_code": null,
+          "track_code": "2074",
+          "batch": "本科提前批B段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "030504T",
+              "sp_name": "马克思主义理论",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（办学地点:鼓楼校区+仙林校区）（外语语种：不限）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "648",
+          "min_rank": "220"
+        }
+      ]
+    },
+    {
+      "province_id": 61,
+      "province": "陕西",
+      "province_pinyin": "shaanxi",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "305041",
+          "group_code": "（102）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 12,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（教学地点：江苏省南京市鼓楼区汉口路22号+苏州市虎丘区高新区太湖大道1520号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（含双学士学位；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（环境工程、环境科学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 12,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（教学地点：江苏省南京市鼓楼区汉口路22号+苏州市虎丘区高新区太湖大道1520号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 4,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能系统集成实验班）（含双学士学位；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 2,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（匡亚明学院大理科班）（数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）、计算机科学与技术、计算机科学与技术（脑科学与AI方向））（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "plan": 1,
+              "tuition": "6800",
+              "length": "五年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境与健康实验班）（环境工程、环境科学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "469678",
+          "group_code": "（108）",
+          "track_code": "2073",
+          "batch": "高校专项计划批",
+          "zslx_name": "高校专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（高校专项计划）（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划）（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划）（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（高校专项计划）（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划）（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（高校专项计划）（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "305040",
+          "group_code": "（202）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（教学地点：江苏省南京市鼓楼区汉口路22号+苏州市虎丘区高新区太湖大道1520号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（化学与生命科学类）（生物科学、生物技术、生态学、化学、应用化学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（地球科学与资源环境类）（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（教学地点：江苏省南京市鼓楼区汉口路22号+苏州市虎丘区高新区太湖大道1520号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数理科学类）（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智慧人居实验班）（建筑学、城乡规划）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "305039",
+          "group_code": "（509）",
+          "track_code": "2073",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 5,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（教学地点：江苏省南京市鼓楼区汉口路22号+苏州市虎丘区高新区太湖大道1520号）"
+            },
+            {
+              "spcode": "070601",
+              "sp_name": "大气科学",
+              "plan": 5,
+              "tuition": "75000",
+              "length": "四年",
+              "info_short": "（中外合作办学）（教学地点：江苏省南京市鼓楼区汉口路22号+苏州市虎丘区高新区太湖大道1520号）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "304993",
+          "group_code": "（101）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": null,
+          "min_rank": null
+        },
+        {
+          "special_group": "304992",
+          "group_code": "（201）",
+          "track_code": "2074",
+          "batch": "本科批",
+          "zslx_name": "国家专项计划",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程；教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（数智经济与管理）（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））（教学地点：江苏省南京市鼓楼区汉口路22号+栖霞区仙林大道163号）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": null,
+          "min_rank": null
+        }
+      ]
+    },
+    {
+      "province_id": 62,
+      "province": "甘肃",
+      "province_pinyin": "gansu",
+      "_source": "gaokao.cn schoolspecialplan + schoolprovincescore 2025",
+      "groups": [
+        {
+          "special_group": "416786",
+          "group_code": "（006）",
+          "track_code": "2073",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 9,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（数理科学类）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）计算机科学与技术、计算机科学与技术（脑科学与AI方向））（匡亚明学院大理科班）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境工程、环境科学）（环境与健康实验班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 9,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 7,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（数理科学类）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "plan": 5,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（电子信息科学与技术、通信工程、微电子科学与工程、集成电路设计与集成系统）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 4,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（软工商业创新班）（含双学士学位）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（光电信息科学与工程、生物医学工程、工业工程类、材料物理、材料化学、新能源科学与工程）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（计算机金融实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 1,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学、物理学、化学、天文学、生物科学、生物科学（生物化学与分子生物学方向）计算机科学与技术、计算机科学与技术（脑科学与AI方向））（匡亚明学院大理科班）"
+            },
+            {
+              "spcode": "0825",
+              "sp_name": "环境科学与工程类",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（环境工程、环境科学）（环境与健康实验班）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "649",
+          "min_rank": "283"
+        },
+        {
+          "special_group": "416748",
+          "group_code": "（007）",
+          "track_code": "2073",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70000_70001_70002^70000_70001_70003^70000_70001_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（地球科学与资源环境类）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（生物科学、生物技术、生态学、化学、应用化学）（化学与生命科学类）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（数理科学类）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（建筑学、城乡规划）（智慧人居实验班）（国家专项计划）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "plan": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info_short": "（卓越医师班）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（大气科学、应用气象学、环境科学与工程类、地理科学类、地质学类）（地球科学与资源环境类）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 3,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（生物科学、生物技术、生态学、化学、应用化学）（化学与生命科学类）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "技术科学试验班",
+              "plan": 2,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（智能科学与技术、集成电路设计与集成系统、数字经济、自动化（机器人方向））（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "理科试验班类",
+              "plan": 1,
+              "tuition": "6050",
+              "length": "四年",
+              "info_short": "（数学与应用数学、信息与计算科学、统计学、物理学、应用物理学、声学、天文学、大气科学、应用气象学）（数理科学类）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "工科试验班",
+              "plan": 1,
+              "tuition": "6380",
+              "length": "四年",
+              "info_short": "（建筑学、城乡规划）（智慧人居实验班）（国家专项计划）"
+            }
+          ],
+          "track_name": "物理类",
+          "min_score": "623",
+          "min_rank": "1340"
+        },
+        {
+          "special_group": "416732",
+          "group_code": "（004）",
+          "track_code": "2074",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（数智经济与管理）（院校、专业组及专业名称学费/学制/人数）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（数智经济与管理）（院校、专业组及专业名称学费/学制/人数）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 4,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））"
+            },
+            {
+              "spcode": "050301",
+              "sp_name": "新闻学",
+              "plan": 2,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（大数据传播实验班）（含双学士学位）"
+            },
+            {
+              "spcode": "050101",
+              "sp_name": "汉语言文学",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": null
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "635",
+          "min_rank": "107"
+        },
+        {
+          "special_group": "416737",
+          "group_code": "（005）",
+          "track_code": "2074",
+          "batch": "本科批C段",
+          "zslx_name": "普通类",
+          "sg_xuanke": "70001_70002_70004^70001_70003_70004^70001_70004_70005^70002_70003_70004^70002_70004_70005^70003_70004_70005",
+          "first_subject": "",
+          "reselect_raw": "",
+          "majors": [
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（国家专项计划）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（数智经济与管理）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））（国家专项计划）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "社会科学试验班",
+              "plan": 5,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（法学、社会学类、公共管理类、图书馆学、档案学、编辑出版学）（国家专项计划）（专业分流方向详见我校招生章程）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "经济管理试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（经济学、金融学、保险学、经济学（产业经济学方向）、工商管理类、国际经济与贸易、财政学）（数智经济与管理）（国家专项计划）"
+            },
+            {
+              "spcode": "0",
+              "sp_name": "人文科学试验班",
+              "plan": 3,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（汉语言文学、哲学、汉语国际教育、新闻学、广播电视学、广告学、历史学、考古学、考古学（文物鉴定方向））（国家专项计划）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "plan": 1,
+              "tuition": "5720",
+              "length": "四年",
+              "info_short": "（国家专项计划）"
+            }
+          ],
+          "track_name": "历史类",
+          "min_score": "625",
+          "min_rank": "199"
         }
       ]
     }
