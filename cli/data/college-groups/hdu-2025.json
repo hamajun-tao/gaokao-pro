@@ -1,0 +1,5220 @@
+{
+  "_kind": "杭州电子科技大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "杭州电子科技大学",
+  "code": 336,
+  "zs_code": "10336",
+  "school_id_gaokao_cn": 159,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/159/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/159/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=159; zs_code=10336.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424797",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 606,
+          "min_rank": 10538,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（浙江）（电子信息学院）（含电子信息工程、电子科学与技术；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（浙江）（电子信息学院）（含电子信息工程、电子科学与技术；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（浙江）（电子信息学院）（含电子信息工程、电子科学与技术；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（浙江）（电子信息学院）（含电子信息工程、电子科学与技术；办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "424799",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 554,
+          "min_rank": 23002,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（浙江）（只招英语考生；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（浙江）（只招英语考生；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（浙江）（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（浙江）（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（浙江）（只招英语考生；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（浙江）（只招英语考生；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（浙江）（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（浙江）（办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "424798",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 596,
+          "min_rank": 12777,
+          "majors": [
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（浙江）（办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（浙江）（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（浙江）（办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（浙江）（办学地点：下沙校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（含通信工程、信息对抗技术专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（含通信工程、信息对抗技术专业）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含信息管理与信息系统、保密管理专业）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含信息管理与信息系统、保密管理专业）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学专业）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（含电子信息工程、电子科学与技术专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（含电子信息工程、电子科学与技术专业）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学、计算机双学士学位）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（金融学、计算机双学士学位）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语语种考生）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 3,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423192",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 494,
+          "min_rank": 25917,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423195",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 550,
+          "min_rank": 10506,
+          "majors": [
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（含通信工程、信息对抗技术专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（含通信工程、信息对抗技术专业）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（含通信工程、信息对抗技术专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（含通信工程、信息对抗技术专业）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423198",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理必选",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 544,
+          "min_rank": 12020,
+          "majors": [
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "426502",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 608,
+          "min_rank": 27965,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（下沙校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（下沙校区）（中外合作办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（下沙校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（下沙校区）（中外合作办学）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（下沙校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（下沙校区）（中外合作办学）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（下沙校区）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（下沙校区）（中外合作办学）"
+            }
+          ]
+        },
+        {
+          "group_id": "426503",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 609,
+          "min_rank": 27150,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（在下沙校区学习）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（在下沙校区学习）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（在下沙校区学习）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（在下沙校区学习）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（在下沙校区学习）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（在下沙校区学习）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（在下沙校区学习）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            }
+          ]
+        },
+        {
+          "group_id": "426504",
+          "sg_name": "（01）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 585,
+          "min_rank": 49806,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（在下沙校区学习）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在下沙校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在下沙校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（在下沙校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语考生）（在下沙校区学习）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（在下沙校区学习）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（在下沙校区学习）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（在下沙校区学习）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（在下沙校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（在下沙校区学习）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）（在下沙校区学习）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语考生）（在下沙校区学习）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（在下沙校区学习）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（在下沙校区学习）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（在下沙校区学习）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（下沙校区。含电子信息工程、电子科学与技术专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 281,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（下沙校区。含电子信息工程、电子科学与技术专业）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 241,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（下沙校区。含通信工程、信息对抗技术专业）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 201,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（下沙校区。含通信工程、信息对抗技术专业）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 167,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 140,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 116,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（下沙校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 101,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 100,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080911TK",
+              "sp_name": "网络空间安全",
+              "spname": "网络空间安全（下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 88,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（下沙校区。与俄罗斯圣光机大学合作办学，中英文授课）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 80,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（下沙校区。与俄罗斯圣光机大学合作办学，中英文授课）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 77,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 72,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（下沙校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 68,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（下沙校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 66,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 60,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（下沙校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 50,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 40,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（下沙校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 35,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 34,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 33,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 30,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（下沙校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（下沙校区。与俄罗斯圣光机大学合作办学，中英文授课）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 30,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（下沙校区。与俄罗斯圣光机大学合作办学，中英文授课）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（下沙校区。含信息管理与信息系统、保密管理专业）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 26,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（下沙校区。含信息管理与信息系统、保密管理专业）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（卓越学院）（下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 20,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（卓越学院）（下沙校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（卓越学院）（下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（卓越学院）（下沙校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（卓越学院）（下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（卓越学院）（下沙校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（下沙校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 15,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类提前批",
+          "zslx_name": "综合评价",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含通信工程、信息对抗技术专业）（综合评价）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 35,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含通信工程、信息对抗技术专业）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 35,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含电子信息工程、电子科学与技术专业）（综合评价）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 30,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含电子信息工程、电子科学与技术专业）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含数学与应用数学、信息与计算科学专业）（综合评价）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 30,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含数学与应用数学、信息与计算科学专业）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含信息管理与信息系统、保密管理专业）（综合评价）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 30,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区。含信息管理与信息系统、保密管理专业）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 25,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 20,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 20,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 15,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 15,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 15,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统（只招已参加该校“三位一体”综合评价招生考试并获得人围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得人围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招已参加该校“三位一体”综合评价招生考试并获得人围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得人围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 10,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080907T",
+              "sp_name": "智能科学与技术",
+              "spname": "智能科学与技术（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080906",
+              "sp_name": "数字媒体技术",
+              "spname": "数字媒体技术（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "120204",
+              "sp_name": "财务管理",
+              "spname": "财务管理（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "120207",
+              "sp_name": "审计学",
+              "spname": "审计学（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）（综合评价）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（只招已参加该校“三位一体”综合评价招生考试并获得入围资格的考生。具体规则详见该校招生章程。下沙校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "393601",
+          "sg_name": "（999）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 565,
+          "min_rank": 4888,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（语种：英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "393637",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 598,
+          "min_rank": 13403,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 7,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 7,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            }
+          ]
+        },
+        {
+          "group_id": "393639",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 602,
+          "min_rank": 12115,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（含电子信息工程、电子科学与技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 9,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（含电子信息工程、电子科学与技术）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（含通信工程、信息对抗技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（含通信工程、信息对抗技术）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（含电子信息工程、电子科学与技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 9,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（含电子信息工程、电子科学与技术）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（含通信工程、信息对抗技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（含通信工程、信息对抗技术）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080710T",
+              "sp_name": "集成电路设计与集成系统",
+              "spname": "集成电路设计与集成系统",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（含数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "393641",
+          "sg_name": "（999）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 19495,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 7,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含信息管理与信息系统、保密管理）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含信息管理与信息系统、保密管理）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学、计算机双学士学位）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（金融学、计算机双学士学位）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 7,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含信息管理与信息系统、保密管理）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含信息管理与信息系统、保密管理）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（金融学、计算机双学士学位）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（金融学、计算机双学士学位）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（语种：英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（语种：英语）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（电子信息工程、电子科学与技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 10,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（电子信息工程、电子科学与技术）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种为英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 10,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种为英语）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（通信工程、信息对抗技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（通信工程、信息对抗技术）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 6,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（信息管理与信息系统、保密管理）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（信息管理与信息系统、保密管理）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080903",
+              "sp_name": "网络工程",
+              "spname": "网络工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "中外合作办学",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作办学）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 6,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作办学）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369021",
+          "sg_name": "（201）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（合作方：俄罗斯圣光机大学；中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 6,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作方：俄罗斯圣光机大学；中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（合作方：俄罗斯圣光机大学；中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 6,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（合作方：俄罗斯圣光机大学；中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            }
+          ]
+        },
+        {
+          "group_id": "369022",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（包含专业：电子信息工程、电子科学与技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 11,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（包含专业：电子信息工程、电子科学与技术）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（包含专业：通信工程、信息对抗技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（包含专业：通信工程、信息对抗技术）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业：数学与应用数学，信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（包含专业：数学与应用数学，信息与计算科学）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（包含专业：电子信息工程、电子科学与技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 11,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（包含专业：电子信息工程、电子科学与技术）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 8,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（包含专业：通信工程、信息对抗技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（包含专业：通信工程、信息对抗技术）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业：数学与应用数学，信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（包含专业：数学与应用数学，信息与计算科学）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080213T",
+              "sp_name": "智能制造工程",
+              "spname": "智能制造工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369024",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 7,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 7,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "369028",
+          "sg_name": "（303）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（国家专项）（国家专项）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（国家专项）（国家专项）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（国家专项）"
+            },
+            {
+              "spcode": "070202",
+              "sp_name": "应用物理学",
+              "spname": "应用物理学（国家专项）（国家专项）",
+              "level2": "理学",
+              "level3": "物理学类",
+              "num": 1,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（国家专项）"
+            }
+          ]
+        },
+        {
+          "group_id": "369023",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120106TK",
+              "sp_name": "保密管理",
+              "spname": "保密管理（保密、信安双学士学位）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（保密、信安双学士学位）"
+            },
+            {
+              "spcode": "120701",
+              "sp_name": "工业工程",
+              "spname": "工业工程",
+              "level2": "管理学",
+              "level3": "工业工程类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120106TK",
+              "sp_name": "保密管理",
+              "spname": "保密管理（保密、信安双学士学位）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（保密、信安双学士学位）"
+            }
+          ]
+        },
+        {
+          "group_id": "369029",
+          "sg_name": "（302）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "国家专项",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（国家专项）（包含专业：信息管理与信息系统、保密管理）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：信息管理与信息系统、保密管理）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（国家专项）（包含专业：信息管理与信息系统、保密管理）（国家专项）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（国家专项）（包含专业：信息管理与信息系统、保密管理）"
+            }
+          ]
+        },
+        {
+          "group_id": "369042",
+          "sg_name": "（104）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语语种的考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（只招英语语种的考生）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 42,
+      "province": "湖北",
+      "groups": [
+        {
+          "group_id": "291360",
+          "sg_name": "（05）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作",
+          "min_score": 597,
+          "min_rank": 15562,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书；办学地点：下沙校区）（中外合作）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书；办学地点：下沙校区）（中外合作）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 4,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书；办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291361",
+          "sg_name": "（04）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 601,
+          "min_rank": 13848,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院；电子信息工程、电子科学与技术；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院；电子信息工程、电子科学与技术；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：下沙校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学、信息与计算科学；办学地点：下沙校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（数学与应用数学、信息与计算科学；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院；电子信息工程、电子科学与技术；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院；电子信息工程、电子科学与技术；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：下沙校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（数学与应用数学、信息与计算科学；办学地点：下沙校区）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（数学与应用数学、信息与计算科学；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080717T",
+              "sp_name": "人工智能",
+              "spname": "人工智能（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291363",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 25989,
+          "majors": [
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目；办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目；办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291362",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 590,
+          "min_rank": 18888,
+          "majors": [
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（信息管理与信息系统、保密管理；办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（信息管理与信息系统、保密管理；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（信息管理与信息系统、保密管理；办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（信息管理与信息系统、保密管理；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020109T",
+              "sp_name": "数字经济",
+              "spname": "数字经济（办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "经济学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "291376",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 579,
+          "min_rank": 6717,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语（外语语种：不限；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：不限；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：下沙校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：下沙校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学（办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语（外语语种：不限；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：不限；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：下沙校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学（办学地点：下沙校区）",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学（办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318420",
+          "sg_name": "（206）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "中外合作办学或国际项目",
+          "min_score": 601,
+          "min_rank": 15422,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 5,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 5,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）（中外合作办学或国际项目）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学合作办学，中英文授课，学生在中方完成4年学业后，可获中俄双方证书）"
+            }
+          ]
+        },
+        {
+          "group_id": "318421",
+          "sg_name": "（105）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 607,
+          "min_rank": 13036,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（包含专业:电子信息工程、电子科学与技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（包含专业:电子信息工程、电子科学与技术）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（包含专业:通信工程、信息对抗技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（包含专业:通信工程、信息对抗技术）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（包含专业:电子信息工程、电子科学与技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（包含专业:电子信息工程、电子科学与技术）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（包含专业:通信工程、信息对抗技术）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 6,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（包含专业:通信工程、信息对抗技术）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 4,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "0701",
+              "sp_name": "数学类",
+              "spname": "数学类（包含专业:数学与应用数学、信息与计算科学）",
+              "level2": "理学",
+              "level3": "数学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（包含专业:数学与应用数学、信息与计算科学）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 2,
+              "tuition": "6000",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318423",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 32093,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（可参加学校“金融学CFA方向班”项目）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（可参加学校“金融学CFA方向班”项目）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 4,
+              "tuition": "6095",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            }
+          ]
+        },
+        {
+          "group_id": "318422",
+          "sg_name": "（104）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 602,
+          "min_rank": 15016,
+          "majors": [
+            {
+              "spcode": "120106TK",
+              "sp_name": "保密管理",
+              "spname": "保密管理（保密、信安双学士学位）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（保密、信安双学士学位）"
+            },
+            {
+              "spcode": "120106TK",
+              "sp_name": "保密管理",
+              "spname": "保密管理（保密、信安双学士学位）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（保密、信安双学士学位）"
+            }
+          ]
+        },
+        {
+          "group_id": "318437",
+          "sg_name": "（102）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 565,
+          "min_rank": 7586,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语要求:英语）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语要求:英语）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "030301",
+              "sp_name": "社会学",
+              "spname": "社会学",
+              "level2": "法学",
+              "level3": "社会学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050304",
+              "sp_name": "传播学",
+              "spname": "传播学",
+              "level2": "文学",
+              "level3": "新闻传播学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432186",
+          "sg_name": "（208）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 561,
+          "min_rank": 18880,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：下沙校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语（办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 8,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "030101K",
+              "sp_name": "法学",
+              "spname": "法学（办学地点：下沙校区）",
+              "level2": "法学",
+              "level3": "法学类",
+              "num": 4,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050203",
+              "sp_name": "德语",
+              "spname": "德语（办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432187",
+          "sg_name": "（207）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 562,
+          "min_rank": 18035,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 5,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432205",
+          "sg_name": "（212）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 598,
+          "min_rank": 28232,
+          "majors": [
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080801",
+              "sp_name": "自动化",
+              "spname": "自动化（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "自动化类",
+              "num": 8,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "28000",
+              "length": "四年",
+              "info": "（中外合作办学）（与俄罗斯圣光机大学中外合作办学项目；办学地点：下沙校区；备注：具体培养模式和学习费用请查看学校网站）"
+            }
+          ]
+        },
+        {
+          "group_id": "432207",
+          "sg_name": "（210）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 565,
+          "min_rank": 61175,
+          "majors": [
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 9,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（含金融学CFA班；办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（含金融学CFA班；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120106TK",
+              "sp_name": "保密管理",
+              "spname": "保密管理（“保密+信安”双学位；办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（“保密+信安”双学位；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（“金融学+计算机”双学位；办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（“金融学+计算机”双学位；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含信息管理与信息系统、保密管理专业；办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含信息管理与信息系统、保密管理专业；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120201K",
+              "sp_name": "工商管理",
+              "spname": "工商管理（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 9,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120203K",
+              "sp_name": "会计学",
+              "spname": "会计学（办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "工商管理类",
+              "num": 6,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（含金融学CFA班；办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 5,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（含金融学CFA班；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "120106TK",
+              "sp_name": "保密管理",
+              "spname": "保密管理（“保密+信安”双学位；办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（“保密+信安”双学位；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "020301K",
+              "sp_name": "金融学",
+              "spname": "金融学（“金融学+计算机”双学位；办学地点：下沙校区）",
+              "level2": "经济学",
+              "level3": "金融学类",
+              "num": 2,
+              "tuition": "6095",
+              "length": "四年",
+              "info": "（“金融学+计算机”双学位；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "1201",
+              "sp_name": "管理科学与工程类",
+              "spname": "管理科学与工程类（含信息管理与信息系统、保密管理专业；办学地点：下沙校区）",
+              "level2": "管理学",
+              "level3": "管理科学与工程类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（含信息管理与信息系统、保密管理专业；办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432206",
+          "sg_name": "（211）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 595,
+          "min_rank": 30446,
+          "majors": [
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（含通信工程、信息对抗技术专业；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 9,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（含通信工程、信息对抗技术专业；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（含电子信息工程、电子科学与技术专业；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（含电子信息工程、电子科学与技术专业；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：下沙校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（通信学院）（含通信工程、信息对抗技术专业；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 9,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（通信学院）（含通信工程、信息对抗技术专业；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "0807",
+              "sp_name": "电子信息类",
+              "spname": "电子信息类（电子信息学院）（含电子信息工程、电子科学与技术专业；办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（电子信息学院）（含电子信息工程、电子科学与技术专业；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080601",
+              "sp_name": "电气工程及其自动化",
+              "spname": "电气工程及其自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电气类",
+              "num": 7,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080202",
+              "sp_name": "机械设计制造及其自动化",
+              "spname": "机械设计制造及其自动化（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080207",
+              "sp_name": "车辆工程",
+              "spname": "车辆工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "082502",
+              "sp_name": "环境工程",
+              "spname": "环境工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "环境科学与工程类",
+              "num": 5,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080401",
+              "sp_name": "材料科学与工程",
+              "spname": "材料科学与工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "材料类",
+              "num": 4,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080901",
+              "sp_name": "计算机科学与技术",
+              "spname": "计算机科学与技术（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "071201",
+              "sp_name": "统计学",
+              "spname": "统计学（办学地点：下沙校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080705",
+              "sp_name": "光电信息科学与工程",
+              "spname": "光电信息科学与工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "电子信息类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080205",
+              "sp_name": "工业设计",
+              "spname": "工业设计（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "机械类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080904K",
+              "sp_name": "信息安全",
+              "spname": "信息安全（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 3,
+              "tuition": "6000",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            },
+            {
+              "spcode": "080902",
+              "sp_name": "软件工程",
+              "spname": "软件工程（办学地点：下沙校区）",
+              "level2": "工学",
+              "level3": "计算机类",
+              "num": 2,
+              "tuition": "6900",
+              "length": "四年",
+              "info": "（办学地点：下沙校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432208",
+          "sg_name": "（209）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 579,
+          "min_rank": 45447,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（外语语种：英语；办学地点：下沙校区）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 2,
+              "tuition": "5300",
+              "length": "四年",
+              "info": "（外语语种：英语；办学地点：下沙校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

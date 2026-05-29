@@ -1,6 +1,7 @@
 // Terminal table formatter — used when stdout is a TTY (interactive run).
 // Pipe-target runs still get JSON for jq / Claude Code.
 import type { RecommendOutput, RecommendCandidate } from "./recommend.js";
+import { provinceTiaojiInfo } from "./groups.js";
 
 export function isTty(): boolean {
   return Boolean(process.stdout.isTTY);
@@ -97,7 +98,36 @@ export function formatRecommend(out: RecommendOutput, opts: { explain?: boolean 
       }
     }
   }
+
+  // Append province-specific 滑档 warning. The candidates this powers are
+  // parents who don't always realize 浙江/山东/重庆/河北/辽宁/贵州/青海 don't
+  // offer 服从调剂 — so a 冲 miss in those provinces = full slip, not soft-land.
+  const slip = renderSlipFooter(out.query.province.name, out.query.province.reform);
+  if (slip) {
+    lines.push("");
+    lines.push(slip);
+  }
+
   return lines.join("\n");
+}
+
+// Format a multi-line province 滑档 warning footer for recommend/top output.
+// Reads zhiyuan-rules-2026.json via provinceTiaojiInfo(); returns null if no
+// rules are on file for the province (no warning, don't fake one).
+function renderSlipFooter(provinceName: string, reform: string): string | null {
+  let info;
+  try { info = provinceTiaojiInfo(provinceName); } catch { return null; }
+  if (!info) return null;
+  const out: string[] = [];
+  out.push(`【${provinceName} (${reform}) 滑档提示】`);
+  out.push(`  录取单位:    ${info.unit ?? "-"}    服从调剂: ${info.has_tiaoji === null ? "未知" : (info.has_tiaoji ? "有 (可勾兜底)" : "⚠️ 无 (一旦掉档无补)")}`);
+  if (info.slip_warning) out.push(`  风险提示:    ${info.slip_warning}`);
+  if (info.strategy) out.push(`  推荐策略:    ${info.strategy}`);
+  if (info.has_tiaoji === false) {
+    out.push(`  ⚠️ 该省份本科批无 服从调剂 兜底。任何 [冲] 档掉档 = 直接进 [出范围] / 征集志愿。`);
+    out.push(`     务必用足志愿位数 + 严控梯度 (相邻 ≤2 分) + 选科严匹配。`);
+  }
+  return out.join("\n");
 }
 
 export function formatTop(rows: Array<{

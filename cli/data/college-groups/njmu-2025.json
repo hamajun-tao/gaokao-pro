@@ -1,0 +1,3097 @@
+{
+  "_kind": "南京医科大学 2025 院校专业组（按省）",
+  "_year": 2025,
+  "uni": "南京医科大学",
+  "code": 312,
+  "zs_code": "10312",
+  "school_id_gaokao_cn": 168,
+  "_source": [
+    "https://static-data.gaokao.cn/www/2.0/schoolspecialplan/168/2025/{prov}.json",
+    "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/168/2025/{prov}.json (新高考省份组级最低分)"
+  ],
+  "_notes": [
+    "school_id_gaokao_cn=168; zs_code=10312.",
+    "院校专业组、专业明细来自 schoolspecialplan; 组级最低分/最低位次来自 schoolprovincescore（按 special_group 连接）。",
+    "仅包含上游有数据返回的省份（部分省份不开放接口或学校不在该省招生）。",
+    "缺失字段保留为 null，未编造任何分数/位次。"
+  ],
+  "provinces": [
+    {
+      "province_id": 11,
+      "province": "北京",
+      "groups": [
+        {
+          "group_id": "424818",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 585,
+          "min_rank": 15321,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学（江苏）（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江苏）（办学地点：江宁校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "424819",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 581,
+          "min_rank": 16237,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（江苏）（卫生事业管理）（办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（江苏）（卫生事业管理）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（江苏）（卫生事业管理）（办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（江苏）（卫生事业管理）（办学地点：江宁校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 13,
+      "province": "河北",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": "物理",
+          "reselect_requirement": "",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（色盲、色弱不予录取，不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（色盲、色弱不予录取，不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学（色盲、色弱不予录取，不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取）",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 5,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（色盲、色弱不予录取，不能准确识别红、黄、绿、蓝、紫各种颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 31,
+      "province": "上海",
+      "groups": [
+        {
+          "group_id": "423206",
+          "sg_name": "（02）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 518,
+          "min_rank": 19117,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "spname": "卫生检验与检疫",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "spname": "卫生检验与检疫",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423223",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "物理、化学(2科必选)",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 558,
+          "min_rank": 8579,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "423216",
+          "sg_name": "（03）",
+          "first_subject": null,
+          "reselect_requirement": "不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 532,
+          "min_rank": 15236,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 32,
+      "province": "江苏",
+      "groups": [
+        {
+          "group_id": "426593",
+          "sg_name": "（01）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 12628,
+          "majors": [
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 50,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 30,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 50,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 30,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 10,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426664",
+          "sg_name": "（07）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 582,
+          "min_rank": 52996,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 396,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 81,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 80,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 77,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 70,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 61,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 36,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100206TK",
+              "sp_name": "放射医学",
+              "spname": "放射医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 36,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 32,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 26,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 9,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 396,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 81,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 80,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 77,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 70,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 61,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100205TK",
+              "sp_name": "精神医学",
+              "spname": "精神医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 36,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100206TK",
+              "sp_name": "放射医学",
+              "spname": "放射医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 36,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 32,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 26,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 9,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426666",
+          "sg_name": "（05）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 561,
+          "min_rank": 78396,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 260,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 93,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 77,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 72,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "spname": "医学影像技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 67,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 66,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 64,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 62,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 36,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 32,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "spname": "卫生检验与检疫",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 30,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 260,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 93,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 77,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 72,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101003",
+              "sp_name": "医学影像技术",
+              "spname": "医学影像技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 67,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 66,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 64,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 62,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 36,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 32,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "spname": "卫生检验与检疫",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 30,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "426667",
+          "sg_name": "（04）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 575,
+          "min_rank": 61029,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 52,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 26,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 52,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            },
+            {
+              "spcode": "120413T",
+              "sp_name": "医疗保险",
+              "spname": "医疗保险",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 26,
+              "tuition": "5200",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "050201",
+              "sp_name": "英语",
+              "spname": "英语（只招英语考生）",
+              "level2": "文学",
+              "level3": "外国语言文学类",
+              "num": 6,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（只招英语考生）"
+            }
+          ]
+        },
+        {
+          "group_id": "426665",
+          "sg_name": "（06）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 639,
+          "min_rank": 8362,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 48,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（天元卓越班）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 35,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（天元卓越班）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 34,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化，儿科学）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 13,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化，儿科学）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（天元创新班）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 10,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（天元创新班）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（天元创新班）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 10,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（天元创新班）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 48,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（天元卓越班）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 35,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（天元卓越班）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 34,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化，儿科学）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 13,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化，儿科学）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（天元创新班）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 10,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（天元创新班）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（天元创新班）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 10,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（天元创新班）"
+            }
+          ]
+        },
+        {
+          "group_id": "455694",
+          "sg_name": "（02）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": 620,
+          "min_rank": 19004,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 40,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 9,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 40,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 9,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100204TK",
+              "sp_name": "眼视光医学",
+              "spname": "眼视光医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "455578",
+          "sg_name": "（03）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科提前批",
+          "zslx_name": "普通类",
+          "min_score": 620,
+          "min_rank": 19004,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市溧阳市定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 15,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市溧阳市定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市江宁区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 10,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市江宁区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市武进区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 8,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市武进区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市溧水区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市溧水区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市栖霞区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市栖霞区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市浦口区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市浦口区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市六合区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市六合区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市钟楼区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市钟楼区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市天宁区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市天宁区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市溧阳市定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 15,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市溧阳市定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市江宁区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 10,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市江宁区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市武进区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 8,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市武进区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市溧水区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市溧水区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市栖霞区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市栖霞区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市浦口区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市浦口区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为南京市六合区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为南京市六合区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市钟楼区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市钟楼区定向培养）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（为常州市天宁区定向培养）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 1,
+              "tuition": "",
+              "length": "五年",
+              "info": "（为常州市天宁区定向培养）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 33,
+      "province": "浙江",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类平行录取",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）（江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）（江宁校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（江宁校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学（江宁校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（江宁校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（江宁校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化，儿科学）（江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化，儿科学）（江宁校区）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学（江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学（江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（5+3一体化）（江宁校区）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）（江宁校区）"
+            },
+            {
+              "spcode": "101001",
+              "sp_name": "医学检验技术",
+              "spname": "医学检验技术（江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "spname": "卫生检验与检疫（江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学（江宁校区）",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学（江宁校区）",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学（江宁校区）",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（江宁校区）"
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学（江宁校区）",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 2,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（江宁校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 35,
+      "province": "福建",
+      "groups": [
+        {
+          "group_id": "393707",
+          "sg_name": "（500）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 559,
+          "min_rank": 30293,
+          "majors": [
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 8,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5十3一体化，儿科学）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5十3一体化，儿科学）"
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "spname": "卫生检验与检疫",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100206TK",
+              "sp_name": "放射医学",
+              "spname": "放射医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 8,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 7,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5十3一体化，儿科学）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5十3一体化，儿科学）"
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 3,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "101007",
+              "sp_name": "卫生检验与检疫",
+              "spname": "卫生检验与检疫",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100206TK",
+              "sp_name": "放射医学",
+              "spname": "放射医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100101K",
+              "sp_name": "基础医学",
+              "spname": "基础医学",
+              "level2": "医学",
+              "level3": "基础医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 37,
+      "province": "山东",
+      "groups": [
+        {
+          "group_id": null,
+          "sg_name": "",
+          "first_subject": null,
+          "reselect_requirement": "",
+          "batch": "普通类一段",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 6,
+              "tuition": "5800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 5,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 4,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化，儿科学）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化，儿科学）"
+            },
+            {
+              "spcode": "100203TK",
+              "sp_name": "医学影像学",
+              "spname": "医学影像学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100301K",
+              "sp_name": "口腔医学",
+              "spname": "口腔医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "口腔医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101011T",
+              "sp_name": "智能医学工程",
+              "spname": "智能医学工程",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 41,
+      "province": "河南",
+      "groups": [
+        {
+          "group_id": "369058",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）（办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）（办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 3,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）（办学地点：江宁校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "369059",
+          "sg_name": "（101）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": null,
+          "min_rank": null,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学（办学地点：江宁校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学（办学地点：江宁校区）",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": "（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学（办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": "（办学地点：江宁校区）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 43,
+      "province": "湖南",
+      "groups": [
+        {
+          "group_id": "318448",
+          "sg_name": "（104）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 563,
+          "min_rank": 35850,
+          "majors": [
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101101K",
+              "sp_name": "护理学",
+              "spname": "护理学",
+              "level2": "医学",
+              "level3": "护理学类",
+              "num": 6,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071003",
+              "sp_name": "生物信息学",
+              "spname": "生物信息学",
+              "level2": "理学",
+              "level3": "生物科学类",
+              "num": 4,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "100701",
+              "sp_name": "药学",
+              "spname": "药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "071204T",
+              "sp_name": "生物统计学",
+              "spname": "生物统计学",
+              "level2": "理学",
+              "level3": "统计学类",
+              "num": 3,
+              "tuition": "5500",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            },
+            {
+              "spcode": "101004",
+              "sp_name": "眼视光学",
+              "spname": "眼视光学",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318449",
+          "sg_name": "（103）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 606,
+          "min_rank": 13439,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 6,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100901K",
+              "sp_name": "法医学",
+              "spname": "法医学",
+              "level2": "医学",
+              "level3": "法医学类",
+              "num": 4,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（5+3一体化）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 3,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（5+3一体化）"
+            },
+            {
+              "spcode": "100703TK",
+              "sp_name": "临床药学",
+              "spname": "临床药学",
+              "level2": "医学",
+              "level3": "药学类",
+              "num": 3,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100207TK",
+              "sp_name": "儿科学",
+              "spname": "儿科学",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": ""
+            },
+            {
+              "spcode": "100401K",
+              "sp_name": "预防医学",
+              "spname": "预防医学",
+              "level2": "医学",
+              "level3": "公共卫生与预防医学类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "五年",
+              "info": ""
+            }
+          ]
+        },
+        {
+          "group_id": "318450",
+          "sg_name": "（102）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 32093,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            }
+          ]
+        },
+        {
+          "group_id": "318477",
+          "sg_name": "（101）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 573,
+          "min_rank": 6113,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（卫生事业管理）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（卫生事业管理）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "province_id": 44,
+      "province": "广东",
+      "groups": [
+        {
+          "group_id": "432224",
+          "sg_name": "（204）",
+          "first_subject": null,
+          "reselect_requirement": "首选历史，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 577,
+          "min_rank": 11946,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432248",
+          "sg_name": "（206）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选化学",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 593,
+          "min_rank": 32459,
+          "majors": [
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 4,
+              "tuition": "5800",
+              "length": "四年",
+              "info": "（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（“5+3”一体化）（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（“5+3”一体化）（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 5,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "082601",
+              "sp_name": "生物医学工程",
+              "spname": "生物医学工程（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "工学",
+              "level3": "生物医学工程类",
+              "num": 4,
+              "tuition": "5800",
+              "length": "四年",
+              "info": "（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "100201K",
+              "sp_name": "临床医学",
+              "spname": "临床医学（“5+3”一体化）（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "临床医学类",
+              "num": 2,
+              "tuition": "7480",
+              "length": "五年",
+              "info": "（“5+3”一体化）（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "101005",
+              "sp_name": "康复治疗学",
+              "spname": "康复治疗学（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "医学",
+              "level3": "医学技术类",
+              "num": 2,
+              "tuition": "6800",
+              "length": "四年",
+              "info": "（特征要求；不招色盲色弱，不招单色识别不全者；办学地点：江宁校区）"
+            }
+          ]
+        },
+        {
+          "group_id": "432249",
+          "sg_name": "（205）",
+          "first_subject": "物理",
+          "reselect_requirement": "首选物理，再选不限",
+          "batch": "本科批",
+          "zslx_name": "普通类",
+          "min_score": 569,
+          "min_rank": 56845,
+          "majors": [
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）"
+            },
+            {
+              "spcode": "120401",
+              "sp_name": "公共事业管理",
+              "spname": "公共事业管理（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）",
+              "level2": "管理学",
+              "level3": "公共管理类",
+              "num": 2,
+              "tuition": "5200",
+              "length": "四年",
+              "info": "（培养卫生事业管理人才；特征要求：不招单色识别不全者；办学地点：江宁校区）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

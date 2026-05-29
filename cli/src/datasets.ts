@@ -101,10 +101,82 @@ export type ProvincesSpecialtyFile = {
   cross_province_special_programs: CrossProvincePrograms;
 };
 
+// 高水平运动队 (high-level sports team) per-school per-sport detail.
+// 2024 file is a flat sports[] list (string[]); 2025+ is per-sport object detail.
+export type GaoshuiSport2024 = string;
+export type GaoshuiSport2025 = {
+  name: string;
+  tier_required: string | null;
+  exam_window: string | null;
+  score_path: string | null;
+  plan_count: number | null;
+  notes: string | null;
+};
+export type GaoshuiSchool2024 = {
+  school: string;
+  zs_code: string;
+  sports: GaoshuiSport2024[];
+};
+export type GaoshuiSchool2025 = {
+  school: string;
+  zs_code: string | null;
+  sports: GaoshuiSport2025[];
+};
+export type GaoshuiYundongduiFile2024 = {
+  _kind: string;
+  _year: number;
+  _source: string[];
+  schools: GaoshuiSchool2024[];
+};
+export type GaoshuiYundongduiFile2025 = {
+  _kind: string;
+  _year: number;
+  _source: string[];
+  _notes?: string[];
+  schools: GaoshuiSchool2025[];
+};
+
+// 综合评价 (comprehensive evaluation).
+// 2024 file is region-grouped (regions: {shanghai|jiangsu|...: [...]}); 2026+ is school-grouped.
+export type ZongheRegionSchool2024 = {
+  school: string;
+  zs_code: string;
+  ratio?: string;
+  seats?: number;
+  note?: string;
+};
+export type ZongheRegionsFile2024 = {
+  _kind: string;
+  _year: number;
+  _source: string[];
+  regions: Record<string, ZongheRegionSchool2024[]>;
+};
+export type ZongheSchool2026 = {
+  school: string;
+  zs_code: string | null;
+  provinces: string[];
+  ratio: string | null;
+  校测含?: string | null;
+  seats: number | null;
+  tiqian_pi: boolean | null;
+  notes: string | null;
+};
+export type ZongheBySchoolFile2026 = {
+  _kind: string;
+  _year: number;
+  _source: string[];
+  _notes?: string[];
+  schools: ZongheSchool2026[];
+};
+
 // ---- Caches ----
 
 let schoolsCache: SchoolsAdaptersFile | null = null;
 let provincesCache: ProvincesSpecialtyFile | null = null;
+let gaoshui2024Cache: GaoshuiYundongduiFile2024 | null = null;
+let gaoshui2025Cache: GaoshuiYundongduiFile2025 | null = null;
+let zonghe2024Cache: ZongheRegionsFile2024 | null = null;
+let zonghe2026Cache: ZongheBySchoolFile2026 | null = null;
 
 export function loadSchoolsAdapters(): SchoolsAdaptersFile {
   if (schoolsCache) return schoolsCache;
@@ -163,4 +235,153 @@ export function listProvinceKeys(): string[] {
 
 export function getCrossProvincePrograms(): CrossProvincePrograms {
   return loadProvincesSpecialty().cross_province_special_programs;
+}
+
+// ---- 高水平运动队 loaders ----
+
+// Loads the 2024 (flat sports list) snapshot.
+export function loadGaoshuiYundongdui2024(): GaoshuiYundongduiFile2024 {
+  if (gaoshui2024Cache) return gaoshui2024Cache;
+  const data = load<GaoshuiYundongduiFile2024>("gaoshui-yundongdui-2024.json");
+  if (!data) throw missingDataset("gaoshui-yundongdui-2024.json");
+  if (!Array.isArray(data.schools)) {
+    throw new Error("gaoshui-yundongdui-2024.json is missing its `schools` array — file is malformed.");
+  }
+  gaoshui2024Cache = data;
+  return data;
+}
+
+// Loads the 2025 per-sport detail snapshot (post-reform, single-exam path metadata).
+export function loadGaoshuiYundongdui2025(): GaoshuiYundongduiFile2025 {
+  if (gaoshui2025Cache) return gaoshui2025Cache;
+  const data = load<GaoshuiYundongduiFile2025>("gaoshui-yundongdui-2025.json");
+  if (!data) throw missingDataset("gaoshui-yundongdui-2025.json");
+  if (!Array.isArray(data.schools)) {
+    throw new Error("gaoshui-yundongdui-2025.json is missing its `schools` array — file is malformed.");
+  }
+  gaoshui2025Cache = data;
+  return data;
+}
+
+// Year-aware accessor — defaults to latest (2025).
+export function loadGaoshuiYundongdui(year?: 2024 | 2025): GaoshuiYundongduiFile2024 | GaoshuiYundongduiFile2025 {
+  return year === 2024 ? loadGaoshuiYundongdui2024() : loadGaoshuiYundongdui2025();
+}
+
+// Lists 2025 schools that recruit a given sport (substring match against sport name).
+export function listGaoshuiSchoolsBySport(sport: string): GaoshuiSchool2025[] {
+  const file = loadGaoshuiYundongdui2025();
+  return file.schools.filter((s) => s.sports.some((sp) => sp.name.includes(sport)));
+}
+
+// ---- 综合评价 loaders ----
+
+// Loads the original 5-region snapshot (kept for back-compat).
+export function loadZonghepingjia2024(): ZongheRegionsFile2024 {
+  if (zonghe2024Cache) return zonghe2024Cache;
+  const data = load<ZongheRegionsFile2024>("zonghepingjia-2024.json");
+  if (!data) throw missingDataset("zonghepingjia-2024.json");
+  if (!data.regions || typeof data.regions !== "object") {
+    throw new Error("zonghepingjia-2024.json is missing its `regions` map — file is malformed.");
+  }
+  zonghe2024Cache = data;
+  return data;
+}
+
+// Loads the 2026 by-school snapshot (cross-province schools like UCAS/SUSTech/ShanghaiTech).
+export function loadZonghepingjia2026(): ZongheBySchoolFile2026 {
+  if (zonghe2026Cache) return zonghe2026Cache;
+  const data = load<ZongheBySchoolFile2026>("zonghepingjia-2026.json");
+  if (!data) throw missingDataset("zonghepingjia-2026.json");
+  if (!Array.isArray(data.schools)) {
+    throw new Error("zonghepingjia-2026.json is missing its `schools` array — file is malformed.");
+  }
+  zonghe2026Cache = data;
+  return data;
+}
+
+// Year-aware accessor — defaults to latest (2026).
+export function loadZonghepingjia(year?: 2024 | 2026): ZongheRegionsFile2024 | ZongheBySchoolFile2026 {
+  return year === 2024 ? loadZonghepingjia2024() : loadZonghepingjia2026();
+}
+
+// Lists 2026 综评 schools open to a given province.
+export function listZongheSchoolsByProvince(province: string): ZongheSchool2026[] {
+  const file = loadZonghepingjia2026();
+  return file.schools.filter((s) => s.provinces.includes(province));
+}
+
+// ---- 提前批 special-program catalog ----
+// Combines 公费师范生 / 优师 / 综评 / 三位一体 / 中外合作综评 / 国家专项 / 高校专项 /
+// 公安院校 / 军校 / 农村订单医学 / 航海类 / 小语种 / 民族班 / 预科班 into one cross-axis
+// catalog. The verbs/recommend code can ask "for province X, what 提前批 programs apply?"
+// without scanning multiple files.
+export type TiqianProgramType =
+  | "公费师范生" | "优师计划" | "国家专项" | "高校专项" | "地方专项"
+  | "公安院校" | "军校" | "农村订单医学" | "航海类" | "小语种提前批"
+  | "民族班" | "预科班" | "综评提前批" | "三位一体" | "中外合作综评" | "其他";
+export type TiqianProgram = {
+  program_type: TiqianProgramType | string;
+  school: string;
+  zs_code: string | null;
+  eligible_provinces: string[];
+  scope_note: string | null;
+  majors: string[];
+  plan_count_2025: number | null;
+  eligibility: string | null;
+  commitment: string | null;
+  exam_window: string | null;
+  ratio: string | null;
+  url: string | null;
+};
+export type TiqianProgramsFile = {
+  _kind: string;
+  _year: number;
+  _compiled: string;
+  _source: string[];
+  _notes?: string[];
+  programs: TiqianProgram[];
+  province_index?: Record<string, number[]>;
+};
+
+let tiqianCache: TiqianProgramsFile | null = null;
+
+export function loadTiqianPrograms(): TiqianProgramsFile {
+  if (tiqianCache) return tiqianCache;
+  const data = load<TiqianProgramsFile>("tiqian-pi-programs-2025.json");
+  if (!data) throw missingDataset("tiqian-pi-programs-2025.json");
+  if (!Array.isArray(data.programs)) {
+    throw new Error("tiqian-pi-programs-2025.json is missing its `programs` array — file is malformed.");
+  }
+  tiqianCache = data;
+  return data;
+}
+
+// Lists 提前批 programs eligible for a given province. Matches both exact
+// "全国 31 省"/"全国"/"全国 30+ 省" sentinels AND specific province names.
+export function listTiqianProgramsByProvince(province: string): TiqianProgram[] {
+  const file = loadTiqianPrograms();
+  const NATIONAL_SENTINELS = new Set([
+    "全国", "全国 31 省", "全国 30+ 省", "全国 832 县",
+    "全国 832 县 (国家级脱贫县名单)", "全国少数民族集中省"
+  ]);
+  return file.programs.filter((p) => {
+    const ep = p.eligible_provinces || [];
+    if (ep.includes(province)) return true;
+    return ep.some((e) => NATIONAL_SENTINELS.has(e));
+  });
+}
+
+// Lists 提前批 programs of a given type (e.g. "公费师范生", "综评提前批").
+export function listTiqianProgramsByType(programType: string): TiqianProgram[] {
+  const file = loadTiqianPrograms();
+  return file.programs.filter((p) => p.program_type === programType);
+}
+
+// Lists distinct program_type values present in the dataset.
+export function listTiqianProgramTypes(): string[] {
+  const file = loadTiqianPrograms();
+  const set = new Set<string>();
+  for (const p of file.programs) set.add(p.program_type);
+  return Array.from(set);
 }

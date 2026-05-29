@@ -1,0 +1,1371 @@
+{
+  "_kind": "提前批 special-program catalog by (province × school × program-type), 2025-2026",
+  "_year": 2025,
+  "_compiled": "2026-05-28",
+  "_source": [
+    "https://gaokao.chsi.com.cn (阳光高考平台 — 国家专项/高校专项/优师计划/强基/综评 名单)",
+    "各省教育考试院 2025-2026 招生工作通知",
+    "各高校本科招生网 2025 年招生章程",
+    "cli/data/datasets/zhiyuan-rules-2026.json (per-province 提前批 unit/count rules)"
+  ],
+  "_notes": [
+    "提前批 = 在普通批 (本科批) 之前投档的批次。一次性投档，不被录取可正常进入普通批，不算滑档。",
+    "但若 提前批 设有调剂条款且勾选服从，被录取 = 锁定，无法回普通批。家长务必看清章程。",
+    "本数据按 program_type × school × eligible_provinces 三轴组织，便于按省份反查。",
+    "字段 eligibility = 资格条件（户籍/学籍/分数/政审/体检/选科）。",
+    "字段 commitment = 履约条款（服务期/违约金/可否考研等）。"
+  ],
+  "_schema": {
+    "program_type": "公费师范生 | 优师计划 | 国家专项 | 高校专项 | 地方专项 | 公安院校 | 军校 | 农村订单医学 | 航海类 | 小语种提前批 | 民族班 | 预科班 | 综评提前批 | 三位一体 | 中外合作综评 | 其他",
+    "school": "中文校名",
+    "zs_code": "5-digit 教育部代码",
+    "eligible_provinces": [
+      "省份名"
+    ],
+    "scope_note": "覆盖范围说明",
+    "majors": [
+      "专业名"
+    ],
+    "plan_count_2025": "招生计划 (整数 | per-province dict | null)",
+    "eligibility": "资格条件简述",
+    "commitment": "履约条款简述",
+    "exam_window": "校测 / 资格审核窗口",
+    "ratio": "录取分配比 e.g. 85:15 高考:校测",
+    "url": "官方招生页"
+  },
+  "programs": [
+    {
+      "program_type": "公费师范生",
+      "school": "北京师范大学",
+      "zs_code": "10027",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "教育部直属 6 大公费师范之一；签三方协议、毕业回生源省中小学任教 ≥6 年",
+      "majors": [
+        "教育学",
+        "汉语言文学",
+        "数学与应用数学",
+        "英语",
+        "物理学",
+        "化学",
+        "生物科学",
+        "历史学",
+        "地理科学",
+        "思想政治教育",
+        "体育教育"
+      ],
+      "plan_count_2025": 850,
+      "eligibility": "热爱教育事业 + 体检合格 + 户籍/生源在中国大陆 + 承诺履约",
+      "commitment": "服务期 ≥6 年；前 2 年在城镇学校工作期间需到农村义务教育学校任教 1 年；违约赔偿学费+生活费及 50% 违约金",
+      "exam_window": "高考志愿 提前批 填报",
+      "ratio": "按高考分录取",
+      "url": "https://www.bnu.edu.cn/zsb/"
+    },
+    {
+      "program_type": "公费师范生",
+      "school": "华东师范大学",
+      "zs_code": "10269",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "教育部直属 6 大公费师范之一",
+      "majors": [
+        "教育学类",
+        "汉语言文学",
+        "数学与应用数学",
+        "物理学",
+        "化学",
+        "生物科学",
+        "英语",
+        "思想政治教育",
+        "历史学",
+        "地理科学",
+        "心理学"
+      ],
+      "plan_count_2025": 600,
+      "eligibility": "同上 (与生源省签三方)",
+      "commitment": "服务 ≥6 年；保研读教育硕士有特别通道",
+      "exam_window": "提前批",
+      "ratio": null,
+      "url": "https://www.admission.ecnu.edu.cn/"
+    },
+    {
+      "program_type": "公费师范生",
+      "school": "东北师范大学",
+      "zs_code": "10200",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "教育部直属 6 大公费师范之一；东北/西部生源占比高",
+      "majors": [
+        "汉语言文学",
+        "数学与应用数学",
+        "英语",
+        "物理学",
+        "化学",
+        "生物科学",
+        "历史学",
+        "地理科学",
+        "思想政治教育",
+        "教育学",
+        "学前教育",
+        "特殊教育"
+      ],
+      "plan_count_2025": 1300,
+      "eligibility": "户籍非省会考生有优待；体检合格",
+      "commitment": "服务 ≥6 年；中西部就业有专项激励",
+      "exam_window": "提前批",
+      "ratio": null,
+      "url": "https://zsb.nenu.edu.cn/"
+    },
+    {
+      "program_type": "公费师范生",
+      "school": "华中师范大学",
+      "zs_code": "10511",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "教育部直属 6 大公费师范之一",
+      "majors": [
+        "教育学",
+        "汉语言文学",
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "英语",
+        "政治",
+        "历史",
+        "地理"
+      ],
+      "plan_count_2025": 1100,
+      "eligibility": "同标准公费师范条款",
+      "commitment": "服务 ≥6 年；可申请保研",
+      "exam_window": "提前批",
+      "ratio": null,
+      "url": "http://zs.ccnu.edu.cn/"
+    },
+    {
+      "program_type": "公费师范生",
+      "school": "西南大学",
+      "zs_code": "10635",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "教育部直属 6 大公费师范之一；西部计划倾斜",
+      "majors": [
+        "教育学",
+        "汉语言文学",
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "英语",
+        "政治",
+        "历史",
+        "地理",
+        "心理学",
+        "学前教育"
+      ],
+      "plan_count_2025": 1500,
+      "eligibility": "西部生源 + 农村户籍有专项",
+      "commitment": "服务 ≥6 年；可在重庆/四川/云贵地区任教获津贴",
+      "exam_window": "提前批",
+      "ratio": null,
+      "url": "https://zsb.swu.edu.cn/"
+    },
+    {
+      "program_type": "公费师范生",
+      "school": "陕西师范大学",
+      "zs_code": "10718",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "教育部直属 6 大公费师范之一；西部师范龙头",
+      "majors": [
+        "汉语言文学",
+        "数学与应用数学",
+        "英语",
+        "物理学",
+        "化学",
+        "生物科学",
+        "历史学",
+        "地理科学",
+        "思想政治教育",
+        "教育学"
+      ],
+      "plan_count_2025": 800,
+      "eligibility": "西部生源优先",
+      "commitment": "服务 ≥6 年；西部任教 6 年后可享教育硕士免试推免",
+      "exam_window": "提前批",
+      "ratio": null,
+      "url": "http://zsb.snnu.edu.cn/"
+    },
+    {
+      "program_type": "优师计划",
+      "school": "教育部直属师范 + 51 校",
+      "zs_code": null,
+      "eligible_provinces": [
+        "832 个原贫困县所在省份"
+      ],
+      "scope_note": "面向中西部欠发达地区培养中小学教师，定向就业到原贫困县",
+      "majors": [
+        "师范类各专业"
+      ],
+      "plan_count_2025": 10500,
+      "eligibility": "户籍在欠发达县或愿意定向到欠发达县；体检合格",
+      "commitment": "服务 ≥6 年到原贫困县中小学；学费、住宿费、生活补助全免",
+      "exam_window": "提前批",
+      "ratio": null,
+      "url": "https://gaokao.chsi.com.cn/gkxx/news/202204/20220425/2178693082.html"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "中国科学院大学",
+      "zs_code": "14430",
+      "eligible_provinces": [
+        "北京",
+        "江苏",
+        "浙江",
+        "山东",
+        "陕西",
+        "河南",
+        "四川",
+        "湖南",
+        "湖北",
+        "福建",
+        "辽宁",
+        "广东"
+      ],
+      "scope_note": "12 省综评招生；以基础学科为主；中科院全院导师配置",
+      "majors": [
+        "数学与应用数学",
+        "物理学",
+        "化学",
+        "生物科学",
+        "材料科学与工程",
+        "计算机科学与技术",
+        "电子信息工程",
+        "人工智能",
+        "大气科学",
+        "天文学",
+        "理论与应用力学",
+        "环境科学"
+      ],
+      "plan_count_2025": 392,
+      "eligibility": "高考成绩 ≥ 一本线 (or 特控线)；通过初审；校测 (笔试+面试+体测)",
+      "commitment": "无服务期；保研率 80%+；进入中科院系统读硕博",
+      "exam_window": "6 月下旬校测",
+      "ratio": "60:30:10 高考:校测:学业水平",
+      "url": "https://ucas.ac.cn/zsxx"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "上海科技大学",
+      "zs_code": "16402",
+      "eligible_provinces": [
+        "上海",
+        "江苏",
+        "浙江",
+        "山东",
+        "河南",
+        "湖北",
+        "湖南",
+        "广东",
+        "四川",
+        "陕西",
+        "辽宁",
+        "福建",
+        "安徽",
+        "江西",
+        "天津",
+        "北京",
+        "河北",
+        "重庆"
+      ],
+      "scope_note": "18 省综评；研究型小规模本科 (年招约 440)",
+      "majors": [
+        "物理学类",
+        "数学类",
+        "化学类",
+        "生命科学类",
+        "材料科学与工程",
+        "计算机科学与技术",
+        "电子信息工程",
+        "信息工程",
+        "金融学"
+      ],
+      "plan_count_2025": 440,
+      "eligibility": "高考 ≥ 一本线；通过初审 (含个人陈述)；校园开放日 + 校测",
+      "commitment": "无服务期；保研/出国比例高",
+      "exam_window": "6 月校园开放日 + 7 月初校测",
+      "ratio": "60:30:10 高考:校测:学业水平",
+      "url": "https://www.shanghaitech.edu.cn/zsb/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "南方科技大学",
+      "zs_code": "14625",
+      "eligible_provinces": [
+        "广东",
+        "北京",
+        "天津",
+        "河北",
+        "山西",
+        "辽宁",
+        "黑龙江",
+        "上海",
+        "江苏",
+        "浙江",
+        "安徽",
+        "福建",
+        "江西",
+        "山东",
+        "河南",
+        "湖北",
+        "湖南",
+        "重庆",
+        "四川",
+        "陕西",
+        "甘肃",
+        "新疆",
+        "宁夏"
+      ],
+      "scope_note": "23 省综评；以理工科为主；本博贯通培养",
+      "majors": [
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "材料",
+        "计算机",
+        "电子",
+        "金融",
+        "环境",
+        "海洋",
+        "地球",
+        "医学"
+      ],
+      "plan_count_2025": 1300,
+      "eligibility": "高考 ≥ 一本线/特控线；机考能力测试 + 面试",
+      "commitment": "无服务期",
+      "exam_window": "6 月校测",
+      "ratio": "60:30:10 高考:校测:学业水平",
+      "url": "https://zs.sustech.edu.cn/"
+    },
+    {
+      "program_type": "中外合作综评",
+      "school": "香港中文大学（深圳）",
+      "zs_code": "16407",
+      "eligible_provinces": [
+        "广东",
+        "江苏",
+        "浙江",
+        "上海",
+        "北京",
+        "山东",
+        "福建",
+        "湖北",
+        "湖南",
+        "陕西",
+        "河南",
+        "辽宁",
+        "四川",
+        "黑龙江",
+        "吉林",
+        "内蒙古",
+        "广西",
+        "云南",
+        "贵州",
+        "甘肃",
+        "江西",
+        "安徽",
+        "天津",
+        "河北"
+      ],
+      "scope_note": "24 省综评招生（部分省份纳入提前批，部分入本科批综评）；港中大学位 + 内地学籍",
+      "majors": [
+        "经管类",
+        "理工类",
+        "人文社科类",
+        "医学类",
+        "数据科学与AI",
+        "金融工程"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考成绩 + 英语单科要求 (一般 130+/150)；面试（部分省综评必考）",
+      "commitment": "无服务期；学费 ~12.8 万/年",
+      "exam_window": "6 月下旬面试",
+      "ratio": "60:30:10 高考:校测:学业水平 (综评省份)",
+      "url": "https://www.cuhk.edu.cn/zh-hans/admissions"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "复旦大学",
+      "zs_code": "10246",
+      "eligible_provinces": [
+        "上海",
+        "浙江",
+        "江苏"
+      ],
+      "scope_note": "沪综评 + 浙江三位一体 + 江苏综评 三种模式",
+      "majors": [
+        "所有本科专业 (按大类)"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考 ≥ 特控线；通过初审；6 月校测 (面试为主)",
+      "commitment": "无服务期",
+      "exam_window": "6 月 13-15 日 (沪) / 浙三位一体 6 月下旬",
+      "ratio": "85:15 高考:校测 (沪) / 60:30:10 (浙)",
+      "url": "https://ao.fudan.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "上海交通大学",
+      "zs_code": "10248",
+      "eligible_provinces": [
+        "上海",
+        "浙江",
+        "江苏"
+      ],
+      "scope_note": "沪综评含 致远学院 / 工科试验班 / 自然科学试验班",
+      "majors": [
+        "全部本科专业"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考 ≥ 特控线；初审通过；校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月 13-15 日 (沪)",
+      "ratio": "85:15 高考:校测",
+      "url": "https://admissions.sjtu.edu.cn/"
+    },
+    {
+      "program_type": "三位一体",
+      "school": "浙江大学",
+      "zs_code": "10335",
+      "eligible_provinces": [
+        "浙江"
+      ],
+      "scope_note": "浙江独有三位一体综合评价；招生计划 980 (浙江省内最大)",
+      "majors": [
+        "所有大类 + 工科试验班(竺可桢学院) + 医学试验班"
+      ],
+      "plan_count_2025": 980,
+      "eligibility": "高考 ≥ 一段线；通过初审 (含学考)；6 月校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "50:30:20 高考:校测:学考",
+      "url": "https://zdzsc.zju.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "中山大学",
+      "zs_code": "10558",
+      "eligible_provinces": [
+        "广东"
+      ],
+      "scope_note": "粤综评广东省内 495 名；含医学本博贯通",
+      "majors": [
+        "数学类",
+        "物理学类",
+        "化学类",
+        "生物科学类",
+        "计算机",
+        "临床医学",
+        "口腔医学",
+        "经济学",
+        "管理学",
+        "法学",
+        "马克思主义理论"
+      ],
+      "plan_count_2025": 495,
+      "eligibility": "广东户籍 + 高考 ≥ 特控线；通过初审；校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "http://admission.sysu.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "华南理工大学",
+      "zs_code": "10561",
+      "eligible_provinces": [
+        "广东"
+      ],
+      "scope_note": "粤综评广东省内 300 名；侧重广州国际校区拔尖班",
+      "majors": [
+        "未来技术学院(机器人/AI/集成电路)",
+        "数学拔尖",
+        "物理拔尖",
+        "化学拔尖",
+        "生物科学拔尖"
+      ],
+      "plan_count_2025": 300,
+      "eligibility": "广东户籍 + 高考 ≥ 特控线；初审 + 校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "https://admission.scut.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "南京大学",
+      "zs_code": "10284",
+      "eligible_provinces": [
+        "江苏",
+        "上海",
+        "浙江"
+      ],
+      "scope_note": "苏综评 + 沪综评 + 浙三位一体 三省综评",
+      "majors": [
+        "所有专业类"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考 ≥ 特控线；通过初审；校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "https://bkzs.nju.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "东南大学",
+      "zs_code": "10286",
+      "eligible_provinces": [
+        "江苏"
+      ],
+      "scope_note": "苏综评江苏省内 180 名；含吴健雄学院",
+      "majors": [
+        "土木类",
+        "电子信息类",
+        "建筑类",
+        "计算机类",
+        "自动化类",
+        "电气类"
+      ],
+      "plan_count_2025": 180,
+      "eligibility": "江苏户籍 + 高考 ≥ 特控线；初审 + 校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "https://zsb.seu.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "山东大学",
+      "zs_code": "10422",
+      "eligible_provinces": [
+        "山东"
+      ],
+      "scope_note": "鲁综评山东省内 300 名；以泰山学堂 (拔尖班) 为主",
+      "majors": [
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "计算机",
+        "中国语言文学",
+        "历史学"
+      ],
+      "plan_count_2025": 300,
+      "eligibility": "山东户籍 + 高考 ≥ 特控线；初审 + 校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "https://www.bkzs.sdu.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "中国海洋大学",
+      "zs_code": "10423",
+      "eligible_provinces": [
+        "山东"
+      ],
+      "scope_note": "鲁综评山东省内 50 名",
+      "majors": [
+        "海洋科学",
+        "海洋技术",
+        "水产养殖学",
+        "海洋资源与环境"
+      ],
+      "plan_count_2025": 50,
+      "eligibility": "山东户籍 + 高考 ≥ 特控线；校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "https://bkzs.ouc.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "哈尔滨工业大学（威海）",
+      "zs_code": "19025",
+      "eligible_provinces": [
+        "山东"
+      ],
+      "scope_note": "鲁综评山东省内",
+      "majors": [
+        "计算机",
+        "电子信息",
+        "船舶与海洋工程"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "山东户籍 + 高考 ≥ 特控线；校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "http://zsb.hitwh.edu.cn/"
+    },
+    {
+      "program_type": "中外合作综评",
+      "school": "上海纽约大学",
+      "zs_code": "16403",
+      "eligible_provinces": [
+        "全国 30+ 省"
+      ],
+      "scope_note": "通过校园日活动 (campus day) + 高考 综评录取；中美双学位",
+      "majors": [
+        "所有本科专业 (大一不分专业)"
+      ],
+      "plan_count_2025": 226,
+      "eligibility": "高三上学期 11 月前提交申请；校园日 3 天；高考 ≥ 一本线/特控线",
+      "commitment": "无服务期；学费 ~20 万/年",
+      "exam_window": "校园日 11-3 月；高考 6 月",
+      "ratio": "30:30:30:10 高考:学业:校园日:综合素质",
+      "url": "https://shanghai.nyu.edu/"
+    },
+    {
+      "program_type": "中外合作综评",
+      "school": "昆山杜克大学",
+      "zs_code": "16429",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "校园日 (Campus Day) + 高考综评；中美双学位",
+      "majors": [
+        "所有本科专业 (大一不分专业，第二年定方向)"
+      ],
+      "plan_count_2025": 235,
+      "eligibility": "高三上学期 1 月前申请；校园日；高考 ≥ 一本线",
+      "commitment": "无服务期；学费 ~16 万/年",
+      "exam_window": "1-3 月申请；3-4 月校园日；6 月高考",
+      "ratio": "50:40:10 高考:校园日:学考",
+      "url": "https://dukekunshan.edu.cn/"
+    },
+    {
+      "program_type": "中外合作综评",
+      "school": "西交利物浦大学",
+      "zs_code": "16404",
+      "eligible_provinces": [
+        "江苏",
+        "广东",
+        "浙江",
+        "上海",
+        "山东",
+        "河南",
+        "湖北",
+        "湖南",
+        "陕西"
+      ],
+      "scope_note": "苏粤浙综评 + 普通批；中英双学位",
+      "majors": [
+        "计算机",
+        "金融",
+        "建筑",
+        "国际商务",
+        "信息工程"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考 ≥ 一本线 + 英语 100+/150",
+      "commitment": "无服务期；学费 ~9 万/年",
+      "exam_window": "6 月下旬综评",
+      "ratio": null,
+      "url": "https://www.xjtlu.edu.cn/"
+    },
+    {
+      "program_type": "高校专项",
+      "school": "清华大学",
+      "zs_code": "10003",
+      "eligible_provinces": [
+        "全国 832 县 (国家级脱贫县名单)"
+      ],
+      "scope_note": "自强计划；面向农村及原贫困地区学生；最高降至一本线",
+      "majors": [
+        "除特殊专业外大部分专业"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "本人及父母户籍在原贫困县连续 3 年 + 学籍连续 3 年 + 在户籍县中学就读",
+      "commitment": "无服务期；可申请少数民族班/民族预科班",
+      "exam_window": "4-5 月报名审核；6 月校测",
+      "ratio": null,
+      "url": "https://join-tsinghua.edu.cn/info/1010/1003.htm"
+    },
+    {
+      "program_type": "高校专项",
+      "school": "北京大学",
+      "zs_code": "10001",
+      "eligible_provinces": [
+        "全国 832 县"
+      ],
+      "scope_note": "筑梦计划",
+      "majors": [
+        "大部分专业"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "户籍/学籍 3+3 年",
+      "commitment": "无服务期",
+      "exam_window": "4-5 月报名；6 月校测",
+      "ratio": null,
+      "url": "https://bkzs.pku.edu.cn/zslb/gxzxjh/index.htm"
+    },
+    {
+      "program_type": "高校专项",
+      "school": "复旦大学",
+      "zs_code": "10246",
+      "eligible_provinces": [
+        "全国 832 县"
+      ],
+      "scope_note": "腾飞计划",
+      "majors": [
+        "大部分专业"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "户籍/学籍 3+3 年",
+      "commitment": "无服务期",
+      "exam_window": "4-5 月",
+      "ratio": null,
+      "url": "https://ao.fudan.edu.cn/gxzxjh/list.htm"
+    },
+    {
+      "program_type": "高校专项",
+      "school": "上海交通大学",
+      "zs_code": "10248",
+      "eligible_provinces": [
+        "全国 832 县"
+      ],
+      "scope_note": "思源计划",
+      "majors": [
+        "大部分专业"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "户籍/学籍 3+3 年",
+      "commitment": "无服务期",
+      "exam_window": "4-5 月",
+      "ratio": null,
+      "url": "https://admissions.sjtu.edu.cn/"
+    },
+    {
+      "program_type": "高校专项",
+      "school": "南京大学",
+      "zs_code": "10284",
+      "eligible_provinces": [
+        "全国 832 县"
+      ],
+      "scope_note": "励学计划",
+      "majors": [
+        "大部分专业"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "户籍/学籍 3+3 年",
+      "commitment": "无服务期",
+      "exam_window": "4-5 月",
+      "ratio": null,
+      "url": "https://bkzs.nju.edu.cn/"
+    },
+    {
+      "program_type": "国家专项",
+      "school": "全国 95 所重点高校",
+      "zs_code": null,
+      "eligible_provinces": [
+        "832 个原贫困县所在省份"
+      ],
+      "scope_note": "原 农村贫困地区定向招生计划；面向中西部和东部边远贫困农村",
+      "majors": [
+        "各校开放专业"
+      ],
+      "plan_count_2025": 60000,
+      "eligibility": "户籍/学籍在实施区域；体检合格；高考报名时勾选 国家专项",
+      "commitment": "陕西 2026 起合并入本科批；其他省份仍在 本科批 之前的国家专项批",
+      "exam_window": "高考志愿填报时勾选",
+      "ratio": "按高考分录取",
+      "url": "https://gaokao.chsi.com.cn/zt/2024gjzxjh/"
+    },
+    {
+      "program_type": "公安院校",
+      "school": "中国人民公安大学",
+      "zs_code": "10041",
+      "eligible_provinces": [
+        "全国 31 省"
+      ],
+      "scope_note": "公安部直属；提前批；入警率高",
+      "majors": [
+        "治安学",
+        "侦查学",
+        "刑事科学技术",
+        "网络安全与执法",
+        "经济犯罪侦查"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "政审 + 体检 + 体测 + 面试；男生 ≥170cm 女生 ≥160cm；裸眼视力或矫正后 ≥4.8",
+      "commitment": "无强制服务期；毕业后参加公安联考入警率 80%+",
+      "exam_window": "高考前 1 周省内政审/体检/面试",
+      "ratio": null,
+      "url": "https://zs.ppsuc.edu.cn/"
+    },
+    {
+      "program_type": "公安院校",
+      "school": "中国刑事警察学院",
+      "zs_code": "10172",
+      "eligible_provinces": [
+        "全国"
+      ],
+      "scope_note": "公安部直属",
+      "majors": [
+        "侦查学",
+        "刑事科学技术",
+        "网络犯罪侦查",
+        "经济犯罪侦查"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "同上",
+      "commitment": "公安联考入警率高",
+      "exam_window": "高考前体测/面试",
+      "ratio": null,
+      "url": "https://zs.cipuc.edu.cn/"
+    },
+    {
+      "program_type": "军校",
+      "school": "国防科技大学",
+      "zs_code": "90002",
+      "eligible_provinces": [
+        "全国"
+      ],
+      "scope_note": "军委直属；分指挥/非指挥岗；提前批",
+      "majors": [
+        "计算机科学与技术",
+        "电子信息工程",
+        "通信工程",
+        "信息工程",
+        "软件工程",
+        "导航工程",
+        "气象海洋",
+        "管理"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "政审 + 军检 (体检+心理) + 面试；年龄 ≤20 周岁；视力 ≥4.5 (指挥) / ≥4.7 (非指挥)",
+      "commitment": "服役至少 8 年；学费/食宿全免 + 每月津贴",
+      "exam_window": "6 月下旬军检",
+      "ratio": "按高考分",
+      "url": "https://www.nudt.edu.cn/"
+    },
+    {
+      "program_type": "农村订单医学",
+      "school": "重庆医科大学 / 川北医学院 / 安徽医科大学 / 等",
+      "zs_code": null,
+      "eligible_provinces": [
+        "重庆",
+        "四川",
+        "云南",
+        "贵州",
+        "湖南",
+        "江西",
+        "安徽",
+        "河南",
+        "河北",
+        "山西",
+        "陕西",
+        "甘肃",
+        "宁夏",
+        "青海",
+        "新疆",
+        "广西"
+      ],
+      "scope_note": "面向中西部农村；定向到县级及以下医院",
+      "majors": [
+        "临床医学",
+        "中医学"
+      ],
+      "plan_count_2025": 6800,
+      "eligibility": "户籍在乡镇农村；体检合格；签订定向就业协议",
+      "commitment": "服务 ≥6 年到县级以下基层医疗卫生机构；学费/住宿费/生活补助全免",
+      "exam_window": "高考志愿填报 提前批",
+      "ratio": null,
+      "url": "https://www.nhc.gov.cn/"
+    },
+    {
+      "program_type": "航海类",
+      "school": "大连海事大学",
+      "zs_code": "10151",
+      "eligible_provinces": [
+        "全国"
+      ],
+      "scope_note": "提前批；交通运输部直属",
+      "majors": [
+        "航海技术",
+        "轮机工程",
+        "船舶电子电气工程"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "裸眼视力航海 ≥4.8 / 轮机 ≥4.6；身高男 ≥160cm；色觉正常",
+      "commitment": "无强制服务期；可不上船选择陆上岗位",
+      "exam_window": "高考志愿填报 提前批",
+      "ratio": null,
+      "url": "https://zs.dlmu.edu.cn/"
+    },
+    {
+      "program_type": "航海类",
+      "school": "上海海事大学",
+      "zs_code": "10254",
+      "eligible_provinces": [
+        "全国"
+      ],
+      "scope_note": "提前批",
+      "majors": [
+        "航海技术",
+        "轮机工程"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "同上视力/身高要求",
+      "commitment": "无服务期",
+      "exam_window": "提前批",
+      "ratio": null,
+      "url": "https://zhaosheng.shmtu.edu.cn/"
+    },
+    {
+      "program_type": "小语种提前批",
+      "school": "北京外国语大学",
+      "zs_code": "10030",
+      "eligible_provinces": [
+        "北京",
+        "天津",
+        "河北",
+        "山西",
+        "辽宁",
+        "黑龙江",
+        "上海",
+        "江苏",
+        "浙江",
+        "安徽",
+        "福建",
+        "江西",
+        "山东",
+        "河南",
+        "湖北",
+        "湖南",
+        "广东",
+        "重庆",
+        "四川",
+        "贵州",
+        "陕西",
+        "甘肃"
+      ],
+      "scope_note": "保送生 (中学外语保送) + 提前批小语种综评",
+      "majors": [
+        "阿拉伯语",
+        "葡萄牙语",
+        "西班牙语",
+        "泰语",
+        "希伯来语",
+        "马来语",
+        "斯瓦希里语",
+        "豪萨语",
+        "祖鲁语",
+        "塞尔维亚语",
+        "波兰语",
+        "捷克语",
+        "等 100+ 语种"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考英语 ≥130/150 (部分); 通过口试; 部分语种限定第一外语",
+      "commitment": "无服务期",
+      "exam_window": "校测 6 月中旬",
+      "ratio": "85:15 高考:校测 (综评省份)",
+      "url": "https://joinus.bfsu.edu.cn/"
+    },
+    {
+      "program_type": "民族班",
+      "school": "中央民族大学 / 西南民族大学 / 中南民族大学 / 西北民族大学 / 北方民族大学 / 大连民族大学 / 等",
+      "zs_code": null,
+      "eligible_provinces": [
+        "全国少数民族集中省"
+      ],
+      "scope_note": "民族学院通过提前批/本科批招收少数民族考生；部分校在民族班基础上加办预科",
+      "majors": [
+        "民族学",
+        "中国少数民族语言文学",
+        "民族传统体育",
+        "工商管理",
+        "经济学",
+        "等"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "少数民族身份；部分校优先西部生源",
+      "commitment": "毕业证与普通班一致；预科生需先读 1 年预科",
+      "exam_window": "高考志愿填报",
+      "ratio": null,
+      "url": "http://zs.muc.edu.cn/"
+    },
+    {
+      "program_type": "预科班",
+      "school": "教育部直属高校 (大部分 985)",
+      "zs_code": null,
+      "eligible_provinces": [
+        "新疆",
+        "西藏",
+        "内蒙古",
+        "云南",
+        "贵州",
+        "广西",
+        "宁夏",
+        "青海",
+        "甘肃"
+      ],
+      "scope_note": "针对民族地区考生设 1 年预科 + 4 年本科；分数线低于普通批 80 分内",
+      "majors": [
+        "与录取学校大类一致"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "少数民族 + 边疆/民族地区户籍；体检合格",
+      "commitment": "1 年预科结束后按成绩分流到学校各专业；毕业证与普通班一致",
+      "exam_window": "提前批后置",
+      "ratio": null,
+      "url": null
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "北京外国语大学",
+      "zs_code": "10030",
+      "eligible_provinces": [
+        "北京",
+        "天津",
+        "河北",
+        "山东",
+        "江苏",
+        "上海",
+        "湖南"
+      ],
+      "scope_note": "北外综评（限语种导向）",
+      "majors": [
+        "小语种 + 国际新闻 + 法学 + 翻译"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考 ≥ 一本线/特控线；通过初审；口试",
+      "commitment": "无服务期",
+      "exam_window": "6 月中旬口试",
+      "ratio": "85:15 高考:校测",
+      "url": "https://joinus.bfsu.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "中国农业大学",
+      "zs_code": "10019",
+      "eligible_provinces": [
+        "北京",
+        "山东",
+        "河南",
+        "黑龙江"
+      ],
+      "scope_note": "农大综评（限农林相关专业）",
+      "majors": [
+        "农学",
+        "园艺",
+        "植物保护",
+        "动物科学",
+        "动物医学",
+        "草业科学",
+        "食品科学与工程"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考 ≥ 一本线；通过初审；校测",
+      "commitment": "无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "https://zsb.cau.edu.cn/"
+    },
+    {
+      "program_type": "综评提前批",
+      "school": "北京师范大学",
+      "zs_code": "10027",
+      "eligible_provinces": [
+        "珠海校区面向广东/全国"
+      ],
+      "scope_note": "珠海校区综评（粤）+ 北师本部师范综评（限部分省）",
+      "majors": [
+        "教育学",
+        "心理学",
+        "汉语言文学",
+        "数学与应用数学",
+        "物理学",
+        "化学",
+        "生物科学"
+      ],
+      "plan_count_2025": null,
+      "eligibility": "高考 ≥ 特控线；通过初审；校测",
+      "commitment": "公费师范有 6 年服务期；珠海校区无服务期",
+      "exam_window": "6 月下旬",
+      "ratio": "85:15 高考:校测",
+      "url": "https://www.bnu.edu.cn/zsb/"
+    }
+  ],
+  "province_index": {
+    "_note": "快速反查：某省份家长能报哪些提前批/综评？keys = 省份名, values = 该省可报 program 索引列表 (programs 数组下标)",
+    "832 个原贫困县所在省份": [
+      6,
+      29
+    ],
+    "上海": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      16,
+      23,
+      36,
+      39
+    ],
+    "云南": [
+      10,
+      33,
+      38
+    ],
+    "全国": [
+      31,
+      32,
+      34,
+      35
+    ],
+    "全国 30+ 省": [
+      21
+    ],
+    "全国 31 省": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      22,
+      30
+    ],
+    "全国 832 县": [
+      25,
+      26,
+      27,
+      28
+    ],
+    "全国 832 县 (国家级脱贫县名单)": [
+      24
+    ],
+    "全国少数民族集中省": [
+      37
+    ],
+    "内蒙古": [
+      10,
+      38
+    ],
+    "北京": [
+      7,
+      8,
+      9,
+      10,
+      36,
+      39,
+      40
+    ],
+    "吉林": [
+      10
+    ],
+    "四川": [
+      7,
+      8,
+      9,
+      10,
+      33,
+      36
+    ],
+    "天津": [
+      8,
+      9,
+      10,
+      36,
+      39
+    ],
+    "宁夏": [
+      9,
+      33,
+      38
+    ],
+    "安徽": [
+      8,
+      9,
+      10,
+      33,
+      36
+    ],
+    "山东": [
+      7,
+      8,
+      9,
+      10,
+      18,
+      19,
+      20,
+      23,
+      36,
+      39,
+      40
+    ],
+    "山西": [
+      9,
+      33,
+      36
+    ],
+    "广东": [
+      7,
+      8,
+      9,
+      10,
+      14,
+      15,
+      23,
+      36
+    ],
+    "广西": [
+      10,
+      33,
+      38
+    ],
+    "新疆": [
+      9,
+      33,
+      38
+    ],
+    "江苏": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      16,
+      17,
+      23,
+      36,
+      39
+    ],
+    "江西": [
+      8,
+      9,
+      10,
+      33,
+      36
+    ],
+    "河北": [
+      8,
+      9,
+      10,
+      33,
+      36,
+      39
+    ],
+    "河南": [
+      7,
+      8,
+      9,
+      10,
+      23,
+      33,
+      36,
+      40
+    ],
+    "浙江": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      23,
+      36
+    ],
+    "湖北": [
+      7,
+      8,
+      9,
+      10,
+      23,
+      36
+    ],
+    "湖南": [
+      7,
+      8,
+      9,
+      10,
+      23,
+      33,
+      36,
+      39
+    ],
+    "珠海校区面向广东/全国": [
+      41
+    ],
+    "甘肃": [
+      9,
+      10,
+      33,
+      36,
+      38
+    ],
+    "福建": [
+      7,
+      8,
+      9,
+      10,
+      36
+    ],
+    "西藏": [
+      38
+    ],
+    "贵州": [
+      10,
+      33,
+      36,
+      38
+    ],
+    "辽宁": [
+      7,
+      8,
+      9,
+      10,
+      36
+    ],
+    "重庆": [
+      8,
+      9,
+      33,
+      36
+    ],
+    "陕西": [
+      7,
+      8,
+      9,
+      10,
+      23,
+      33,
+      36
+    ],
+    "青海": [
+      33,
+      38
+    ],
+    "黑龙江": [
+      9,
+      10,
+      36,
+      40
+    ]
+  }
+}

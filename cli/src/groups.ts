@@ -315,6 +315,306 @@ export function safetyScore(group: Group, prefs: {
   return { score, verdict, has_must, matched_majors: matched, rejected_majors: rejected };
 }
 
+// ---------------------------------------------------------------------------
+// 滑档 (slip-grade) risk evaluation.
+//
+// Combines:
+//   - score gap vs the group's historical 投档最低分
+//   - rank gap vs 最低位次 (when both candidate and group expose it)
+//   - province-level 调剂 availability (read from zhiyuan-rules-2026.json)
+//   - optional safetyScore against caller's major preferences
+//   - within-group major-score gradient (大热门 vs 冷门 spread)
+//
+// Deterministic / pure: same inputs ⇒ same verdict. Conservative by design —
+// when in doubt we elevate the warning, because parents will read this and
+// make a real decision off it.
+// ---------------------------------------------------------------------------
+
+const RULES_PATH = resolve(__dirname, "../data/datasets/zhiyuan-rules-2026.json");
+
+type ProvinceRule = {
+  province: string;
+  reform?: string;
+  本科批?: any;
+  本科段?: any;
+  常规批?: any;
+  本科批B?: any;
+  本科C段?: any;
+  滑档风险?: string;
+  策略?: string;
+  [k: string]: any;
+};
+
+let rulesCache: { provinces: ProvinceRule[] } | null = null;
+
+function loadRules(): { provinces: ProvinceRule[] } {
+  if (rulesCache) return rulesCache;
+  if (!existsSync(RULES_PATH)) {
+    rulesCache = { provinces: [] };
+    return rulesCache;
+  }
+  try {
+    const raw = JSON.parse(readFileSync(RULES_PATH, "utf-8"));
+    rulesCache = { provinces: Array.isArray(raw?.provinces) ? raw.provinces : [] };
+  } catch {
+    rulesCache = { provinces: [] };
+  }
+  return rulesCache;
+}
+
+// Locate a province's 本科批 (or moral-equivalent) rules block. Some entries
+// store the candidate-relevant fields under different keys (本科批 / 本科段 /
+// 常规批 / 本科C段). Walk a small allow-list, returning the first non-empty
+// block. Returns null when the province has no parsable structured block —
+// caller must NOT invent fallback values; only the textual fields are still
+// available on the outer rule object.
+function pickBatchBlock(rule: ProvinceRule): { block: any; key: string } | null {
+  const CANDIDATES = ["本科批", "本科段", "常规批", "本科批B", "本科C段"];
+  for (const k of CANDIDATES) {
+    const v = rule[k];
+    if (v && typeof v === "object" && !("-" in v)) return { block: v, key: k };
+  }
+  return null;
+}
+
+// Resolve `调剂` boolean from a batch block. Returns null when not present —
+// callers treat null as "unknown" (and warn conservatively).
+function readTiaoji(block: any): boolean | null {
+  if (!block || typeof block !== "object") return null;
+  if (typeof block["调剂"] === "boolean") return block["调剂"];
+  // Some provinces nest 调剂 inside sub-段 (e.g. 天津 A段/B段). Probe one
+  // level deep before giving up.
+  for (const v of Object.values(block)) {
+    if (v && typeof v === "object" && typeof (v as any)["调剂"] === "boolean") {
+      return (v as any)["调剂"] as boolean;
+    }
+  }
+  return null;
+}
+
+function readUnit(block: any): string | null {
+  if (!block || typeof block !== "object") return null;
+  if (typeof block.unit === "string") return block.unit;
+  for (const v of Object.values(block)) {
+    if (v && typeof v === "object" && typeof (v as any).unit === "string") {
+      return (v as any).unit as string;
+    }
+  }
+  return null;
+}
+
+export type ProvinceTiaojiInfo = {
+  has_tiaoji: boolean | null; // null = unknown (province rules don't expose it)
+  unit: string | null;
+  slip_warning: string;
+  strategy: string | null;
+  reform: string | null;
+};
+
+export function provinceTiaojiInfo(provinceName: string): ProvinceTiaojiInfo {
+  const rules = loadRules();
+  // Some entries appear twice (e.g. 浙江 / 山东 cross-referenced with "见上").
+  // Prefer the first entry that has a structured batch block.
+  let chosen: ProvinceRule | null = null;
+  for (const p of rules.provinces) {
+    if (p.province !== provinceName) continue;
+    if (pickBatchBlock(p)) { chosen = p; break; }
+    if (!chosen) chosen = p; // fallback to first match even if blockless
+  }
+  if (!chosen) {
+    return { has_tiaoji: null, unit: null, slip_warning: "", strategy: null, reform: null };
+  }
+  const picked = pickBatchBlock(chosen);
+  const block = picked?.block ?? null;
+  return {
+    has_tiaoji: readTiaoji(block),
+    unit: readUnit(block),
+    slip_warning: typeof chosen["滑档风险"] === "string" ? chosen["滑档风险"] : "",
+    strategy: typeof chosen["策略"] === "string" ? chosen["策略"] : null,
+    reform: typeof chosen.reform === "string" ? chosen.reform : null,
+  };
+}
+
+export type SlipRiskVerdict = "high_risk" | "moderate_risk" | "low_risk" | "comfortable";
+
+export type SlipRiskResult = {
+  university: string;
+  province: string;
+  group_code: string;
+  group_min_score: number | null;
+  group_min_rank: number | null;
+  candidate_score: number;
+  candidate_rank: number | null;
+  score_gap: number | null;        // candidate - group_min_score; positive = above
+  rank_gap: number | null;         // group_min_rank - candidate_rank; positive = ahead
+  province_rules: {
+    has_tiaoji: boolean | null;
+    unit: string | null;
+    slip_warning: string;
+    strategy: string | null;
+    reform: string | null;
+  };
+  safety: ReturnType<typeof safetyScore> | null;
+  major_gradient: {
+    min: number | null;
+    max: number | null;
+    spread: number | null;   // max - min; large spread = 大热门/冷门 mix
+    sampled: number;
+  };
+  verdict: SlipRiskVerdict;
+  reasons: string[];
+};
+
+export type SlipRiskInput = {
+  uniName: string;
+  provinceName: string;
+  groupCode: string;
+  candidateScore: number;
+  candidateRank?: number | null;
+  year?: number;
+  prefs?: { must_have: string[]; acceptable: string[]; reject: string[] };
+};
+
+export function slipRisk(input: SlipRiskInput): SlipRiskResult {
+  const { uniName, provinceName, groupCode, candidateScore, candidateRank, year, prefs } = input;
+
+  const uni = findUniversity(uniName, year);
+  if (!uni) throw new Error(`university not found in dataset: ${uniName}`);
+  const province = uni.provinces.find(p => p.province === provinceName);
+  if (!province) throw new Error(`province not found for ${uni.university}: ${provinceName}`);
+  // Tolerant code match: dataset uses bare "01", caller may pass "01" or "1".
+  const trimmedCode = String(groupCode).trim();
+  const group = province.groups.find(g => g.group_code === trimmedCode)
+    ?? province.groups.find(g => g.group_code.replace(/^0+/, "") === trimmedCode.replace(/^0+/, ""));
+  if (!group) {
+    const known = province.groups.map(g => g.group_code).join(", ") || "(none)";
+    throw new Error(`group not found for ${uni.university}/${provinceName}: ${groupCode} (known: ${known})`);
+  }
+
+  const score_gap = group.group_min_score === null ? null : candidateScore - group.group_min_score;
+  const rank_gap = (group.group_min_rank === null || candidateRank == null) ? null : group.group_min_rank - candidateRank;
+
+  const provInfo = provinceTiaojiInfo(provinceName);
+  const safety = prefs ? safetyScore(group, prefs) : null;
+
+  // Major-gradient: the spread of historical min_score across named majors in
+  // the group. Large spread + candidate near the floor = even with 调剂 they
+  // may land in 冷门.
+  const majorScores = group.majors.map(m => m.min_score).filter((x): x is number => typeof x === "number");
+  const gMin = majorScores.length ? Math.min(...majorScores) : null;
+  const gMax = majorScores.length ? Math.max(...majorScores) : null;
+  const gSpread = (gMin !== null && gMax !== null) ? gMax - gMin : null;
+
+  // ----- verdict synthesis (conservative thresholds) -----
+  const reasons: string[] = [];
+  // 0=comfortable, 1=low_risk, 2=moderate_risk, 3=high_risk
+  // Typed as plain `number` so subsequent `Math.max(level, N)` reassignments
+  // don't run afoul of TS literal-type narrowing.
+  let level = 0;
+
+  if (group.group_min_score === null) {
+    reasons.push(`该组无历史投档分数据 (${uni.university}/${provinceName} 组${group.group_code})，无法精确比对，按谨慎口径上调风险。`);
+    level = Math.max(level, 2);
+  } else if (score_gap !== null) {
+    if (score_gap < 0) {
+      reasons.push(`考生分 ${candidateScore} < 该组投档线 ${group.group_min_score}，差 ${Math.abs(score_gap)} 分 → 直接滑档高风险。`);
+      level = 3;
+    } else if (score_gap < 3) {
+      reasons.push(`考生分 ${candidateScore} 仅高于投档线 ${group.group_min_score} 共 ${score_gap} 分，处于压线带，年度波动随时打穿。`);
+      level = Math.max(level, 2);
+    } else if (score_gap < 8) {
+      reasons.push(`考生分 ${candidateScore} 高于投档线 ${group.group_min_score} 共 ${score_gap} 分，安全垫薄，仍属中等风险。`);
+      level = Math.max(level, 1);
+    } else if (score_gap < 15) {
+      reasons.push(`考生分 ${candidateScore} 高于投档线 ${group.group_min_score} 共 ${score_gap} 分，垫子合理，低风险。`);
+      level = Math.max(level, 1);
+    } else {
+      reasons.push(`考生分 ${candidateScore} 远高于投档线 ${group.group_min_score} (差 ${score_gap} 分)，可视为保底。`);
+      // leave level at 0 unless other signals raise it
+    }
+  }
+
+  if (rank_gap !== null) {
+    // 位次更小=排名更靠前。group_min_rank - candidate_rank > 0 ⇒ 考生位次更优。
+    if (rank_gap < 0) {
+      reasons.push(`考生位次 ${candidateRank} 落后于该组历史最低位次 ${group.group_min_rank}，位次维度高风险。`);
+      level = 3;
+    } else if (rank_gap === 0) {
+      reasons.push(`考生位次与历史最低位次同一档，压线。`);
+      level = Math.max(level, 2);
+    } else if (group.group_min_rank !== null && rank_gap < group.group_min_rank * 0.05) {
+      // 5% 安全带：位次浮动常态在 5% 以内
+      reasons.push(`考生位次仅领先 ${rank_gap}，不足 5% 安全带，位次浮动易打穿。`);
+      level = Math.max(level, 2);
+    }
+  } else if (candidateRank == null) {
+    reasons.push("未提供 candidateRank，无法做位次维度交叉验证；新高考省份建议补齐 (gaokao-pro rank 可查)。");
+  }
+
+  // Province 调剂 layer.
+  if (provInfo.has_tiaoji === false) {
+    reasons.push(`${provinceName} 本科批为专业平行模式 (调剂=false)，无服从调剂兜底，未投中即落征集/下批。${provInfo.slip_warning ? "省考试院滑档提示：" + provInfo.slip_warning : ""}`);
+    // 无调剂时压线/压线下=直接 high_risk
+    if (score_gap !== null && score_gap < 3) level = 3;
+    else level = Math.max(level, 2);
+  } else if (provInfo.has_tiaoji === true) {
+    if (safety && safety.verdict === "risky" && safety.rejected_majors.length > 0) {
+      reasons.push(`勾服从调剂会落到您 reject 的专业 (${safety.rejected_majors.slice(0, 3).join("、")}${safety.rejected_majors.length > 3 ? "…" : ""})；不勾则压线即退档。两难，建议换组。`);
+      level = Math.max(level, 2);
+    } else if (safety && safety.verdict === "moderate") {
+      reasons.push(`服从调剂落到非首选专业的概率非可忽略 (safety=${safety.score.toFixed(2)}, 已匹配 ${safety.matched_majors.length}/${group.majors.length})。`);
+      level = Math.max(level, 1);
+    } else if (safety && safety.verdict === "safe") {
+      reasons.push(`组内可接受专业占比高 (safety=${safety.score.toFixed(2)})，勾服从调剂相对放心。`);
+    }
+  } else {
+    reasons.push(`${provinceName} 调剂规则未在 rules 表中明确，按谨慎口径处理。`);
+    level = Math.max(level, 1);
+  }
+
+  // Major-gradient layer: large spread = 大热门/冷门 mix; candidate near the
+  // floor will likely land in 冷门 even with 调剂.
+  if (gSpread !== null && gSpread >= 15 && score_gap !== null && score_gap < 10) {
+    reasons.push(`组内专业最高/最低分差 ${gSpread} 分 (${gMin}–${gMax})，热门冷门梯度大；考生分接近组底，调剂大概率落入冷门专业。`);
+    level = Math.max(level, 2);
+  } else if (gSpread !== null && gSpread >= 15) {
+    reasons.push(`组内专业最高/最低分差 ${gSpread} 分 (${gMin}–${gMax})，可接受的专业请按对应分位审查。`);
+  }
+
+  if (provInfo.strategy) {
+    reasons.push(`参考策略（${provinceName}）：${provInfo.strategy}`);
+  }
+
+  const verdict: SlipRiskVerdict =
+    level === 3 ? "high_risk" :
+    level === 2 ? "moderate_risk" :
+    level === 1 ? "low_risk" :
+    "comfortable";
+
+  return {
+    university: uni.university,
+    province: provinceName,
+    group_code: group.group_code,
+    group_min_score: group.group_min_score,
+    group_min_rank: group.group_min_rank,
+    candidate_score: candidateScore,
+    candidate_rank: candidateRank ?? null,
+    score_gap,
+    rank_gap,
+    province_rules: {
+      has_tiaoji: provInfo.has_tiaoji,
+      unit: provInfo.unit,
+      slip_warning: provInfo.slip_warning,
+      strategy: provInfo.strategy,
+      reform: provInfo.reform,
+    },
+    safety,
+    major_gradient: { min: gMin, max: gMax, spread: gSpread, sampled: majorScores.length },
+    verdict,
+    reasons,
+  };
+}
+
 export function listAllUniversities(year?: number): string[] {
   return load(year).universities.map(u => u.university).filter(Boolean);
 }

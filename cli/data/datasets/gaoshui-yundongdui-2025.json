@@ -1,0 +1,535 @@
+{
+  "_kind": "高水平运动队招生院校 per-sport detail (2025)",
+  "_year": 2025,
+  "_source": [
+    "https://gaokao.eol.cn/ystc/tytcs/",
+    "https://www.gaokzx.com/c/202311/84627.html",
+    "http://www.moe.gov.cn/srcsite/A15/moe_776/202109/t20210924_566373.html (教育部 2021 改革通知)",
+    "各校 2024/2025 高水平运动队招生简章 (招生网)"
+  ],
+  "_notes": [
+    "2024 起教育部全面改革：取消'本科线下65%降分录取'路径。考生必须取得运动员等级证书 (二级以上)，绝大多数 985/211 直接要求 一级运动员 或 运动健将。",
+    "录取通道二选一：(A) 文化课考试达到生源省份普通类本科录取控制分数线 + 校测合格；(B) 仅限运动健将 / 国际级运动健将 等极少数顶尖选手，参加'文化单考'(国家体育总局组织) — 通过后可降至本科线 80% 录取，但仅限不超过本年度该校招生计划 50% 的名额。",
+    "招生项目限定：教育部要求各校原则上只招本校已建队、参加全国大学生联赛的项目 (篮球 CUBAL、足球 CUFL、排球 CUVA、田径、游泳、武术、乒乓球、网球、羽毛球、棋类、射击、定向越野 等)。",
+    "2027 起所有项目均要求'国家二级及以上 + 参加全国大学生体育协会主办的对应项目最高级别联赛'，证书核验门槛进一步收紧。",
+    "本数据集主要服务'游泳'方向 — 标注哪些校在 2025 仍开放游泳招生、对应等级/校测/分数路径。",
+    "字段说明：tier_required = 等级要求；exam_window = 校测时间窗口；score_path = 文化课录取标准；plan_count = 当年该项目计划人数 (null = 学校简章未公布单项明细)。"
+  ],
+  "schools": [
+    {
+      "school": "清华大学",
+      "zs_code": "10003",
+      "sports": [
+        {
+          "name": "田径",
+          "tier_required": "运动健将 (优先) / 一级运动员",
+          "exam_window": "每年 3-4 月校测 (北京)",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (限健将+)",
+          "plan_count": null,
+          "notes": "清华田径队为传统强队 (CUBA/CUAA 多届冠军)，2024 起单考通道仍开放给国家级运动健将。"
+        },
+        {
+          "name": "篮球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "男女队均招。CUBA 一级联赛参赛资格要求。"
+        },
+        {
+          "name": "射击",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员 (常规) / 运动健将 (单考通道)",
+          "exam_window": "每年 3-4 月校测，含 50/100/200 米项目测试",
+          "score_path": "A 通道: 本科线 + 校测合格；B 通道 (健将+): 文化单考通过即可，按本科线 80% 录取",
+          "plan_count": null,
+          "notes": "游泳为清华重点项目；近年录取门槛抬升明显，男子 50 自一级标 24.50 秒、女子 27.20 秒附近 (具体以当年简章为准)。"
+        },
+        {
+          "name": "排球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "男排为主。"
+        }
+      ]
+    },
+    {
+      "school": "北京大学",
+      "zs_code": "10001",
+      "sports": [
+        {
+          "name": "田径",
+          "tier_required": "一级运动员 (含) 以上",
+          "exam_window": "3-4 月校测 (北京)",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "男子篮球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "女子篮球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "乒乓球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "羽毛球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员 (常规) / 运动健将 (单考通道)",
+          "exam_window": "3-4 月校测，含计时与技术评估",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)，按本科线 80% 录取",
+          "plan_count": null,
+          "notes": "北大游泳队在全国大学生游泳锦标赛长期前列；招生项目稳定。"
+        },
+        {
+          "name": "男子足球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "school": "复旦大学",
+      "zs_code": "10246",
+      "sports": [
+        {
+          "name": "男子排球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测 (上海)",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "女子排球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "女子足球",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "武术套路",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "田径",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": null
+        },
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员 (常规) / 运动健将 (单考通道)",
+          "exam_window": "3-4 月校测 (校本部游泳馆)",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)",
+          "plan_count": null,
+          "notes": "复旦游泳队近年招生稳定；上海生源比例较高，外省考生需关注省内是否设点。"
+        }
+      ]
+    },
+    {
+      "school": "上海交通大学",
+      "zs_code": "10248",
+      "sports": [
+        {"name":"乒乓球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"网球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"羽毛球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "浙江大学",
+      "zs_code": "10335",
+      "sports": [
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测 (杭州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员 (常规) / 运动健将 (单考通道)",
+          "exam_window": "3-4 月校测",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)",
+          "plan_count": null,
+          "notes": "浙大游泳队为全国大学生联赛常客；招生人数较稳定，浙江省内招生竞争激烈。"
+        },
+        {"name":"射击","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "南京大学",
+      "zs_code": "10284",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"网球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "华东师范大学",
+      "zs_code": "10269",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (上海)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"男子篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "华东师大体院传统强校，游泳项目近年简章中开放招生 (具体年度以官方为准)；师范类毕业生有体育教育路径。"
+        }
+      ]
+    },
+    {
+      "school": "山东大学",
+      "zs_code": "10422",
+      "sports": [
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测 (济南)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "河海大学",
+      "zs_code": "10294",
+      "sports": [
+        {"name":"乒乓球","tier_required":"一级运动员","exam_window":"3-4 月校测 (南京)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "暨南大学",
+      "zs_code": "10559",
+      "sports": [
+        {"name":"武术套路","tier_required":"一级运动员","exam_window":"3-4 月校测 (广州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "重庆大学",
+      "zs_code": "10611",
+      "sports": [
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "北京航空航天大学",
+      "zs_code": "10006",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "zs_code": "10486",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (武汉)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员 (常规) / 运动健将 (单考通道)",
+          "exam_window": "3-4 月校测",
+          "score_path": "A 通道: 本科线 + 校测合格 / B 通道: 文化单考 (健将+)",
+          "plan_count": null,
+          "notes": "武大 2024-2025 简章中新增游泳项目 (传统校队基础)；招生规模较小，关注当年简章。"
+        }
+      ]
+    },
+    {
+      "school": "中山大学",
+      "zs_code": "10558",
+      "sports": [
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "四川大学",
+      "zs_code": "10610",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (成都)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "西安交通大学",
+      "zs_code": "10698",
+      "sports": [
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"网球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "厦门大学",
+      "zs_code": "10384",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "中国科学技术大学",
+      "zs_code": "10358",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (合肥)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "华中科技大学",
+      "zs_code": "10487",
+      "sports": [
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测 (武汉)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "华科游泳项目在 2024 起新建/恢复 (具体以当年简章为准)；湖北省内招生为主。"
+        }
+      ]
+    },
+    {
+      "school": "天津大学",
+      "zs_code": "10056",
+      "sports": [
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"排球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "苏州大学",
+      "zs_code": "10285",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (苏州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"乒乓球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "北京理工大学",
+      "zs_code": "10007",
+      "sports": [
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "南开大学",
+      "zs_code": "10055",
+      "sports": [
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测 (天津)",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "南开 2024-2025 简章中保留游泳项目；招生计划较小 (约 3-5 人)。具体以当年简章为准。"
+        },
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"乒乓球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "同济大学",
+      "zs_code": "10247",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (上海)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "同济 2024 高水平运动队招生项目含游泳 (校游泳馆)；近年招生人数有波动。注意 schools-adapters 中 gao_shui_yundong 标 false — 以当年简章实际为准，建议查 https://bkzs.tongji.edu.cn/"
+        }
+      ]
+    },
+    {
+      "school": "东南大学",
+      "zs_code": "10286",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (南京)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "中国人民大学",
+      "zs_code": "10002",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"男子篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "北京师范大学",
+      "zs_code": "10027",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "中央财经大学",
+      "zs_code": "10034",
+      "sports": [
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"乒乓球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "对外经济贸易大学",
+      "zs_code": "10036",
+      "sports": [
+        {"name":"网球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"乒乓球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "西北工业大学",
+      "zs_code": "10699",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (西安)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "中南大学",
+      "zs_code": "10533",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (长沙)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "湖南大学",
+      "zs_code": "10532",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "兰州大学",
+      "zs_code": "10730",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (兰州)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "中国海洋大学",
+      "zs_code": "10423",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (青岛)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {
+          "name": "游泳",
+          "tier_required": "一级运动员",
+          "exam_window": "3-4 月校测",
+          "score_path": "本科线 + 校测合格",
+          "plan_count": null,
+          "notes": "海大紧邻浮山湾，水上项目优势；游泳近年在简章中开放，山东省内招生为主。"
+        }
+      ]
+    },
+    {
+      "school": "电子科技大学",
+      "zs_code": "10614",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "大连理工大学",
+      "zs_code": "10141",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (大连)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"足球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "哈尔滨工业大学",
+      "zs_code": "10213",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测 (哈尔滨)","score_path":"本科线 + 校测合格","plan_count":null,"notes":null},
+        {"name":"篮球","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "西北农林科技大学",
+      "zs_code": "10712",
+      "sports": [
+        {"name":"田径","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":null}
+      ]
+    },
+    {
+      "school": "上海交通大学医学院",
+      "zs_code": "10248",
+      "sports": [
+        {"name":"游泳","tier_required":"一级运动员","exam_window":"3-4 月校测","score_path":"本科线 + 校测合格","plan_count":null,"notes":"挂靠 上海交大 本部招生；上海交大本部 schools-adapters 中显示 gao_shui_yundong=true；游泳是否在 2025 列表内需查当年简章。"}
+      ]
+    }
+  ]
+}

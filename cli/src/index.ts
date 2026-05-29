@@ -27,13 +27,18 @@ import {
   listSchoolsOfferingProgram,
   findProvinceSpecialty,
   listProvinceKeys,
-  getCrossProvincePrograms
+  getCrossProvincePrograms,
+  listGaoshuiSchoolsBySport,
+  listZongheSchoolsByProvince,
+  listTiqianProgramsByProvince,
+  listTiqianProgramsByType,
+  listTiqianProgramTypes
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
 import { findEmployment, listEmploymentCoverage } from "./employment.js";
 import { findManifest, listManifestProvinces, manifestStats } from "./manifest.js";
-import { findUniversity, listGroups, safetyScore, datasetStats } from "./groups.js";
+import { findUniversity, listGroups, safetyScore, datasetStats, slipRisk, provinceTiaojiInfo } from "./groups.js";
 import { VERSION } from "./version.js";
 
 type Verb = (args: string[]) => Promise<void>;
@@ -173,6 +178,16 @@ Usage:
   gaokao-pro groups-stats
       Coverage stats for the 专业组 dataset (schools / provinces / groups).
 
+  gaokao-pro slip-risk <university> <province> <groupCode>
+                       --score <n> [--rank <n>] [--year <year>]
+                       [--must <list>] [--ok <list>] [--reject <list>]
+                       [--json]
+      滑档风险评估：给定考生分/位次/省份和目标 (学校, 专业组)，结合
+      历史投档线、省级调剂规则、组内专业梯度、可选 must/ok/reject 偏好，
+      给出 high_risk / moderate_risk / low_risk / comfortable 判定 + 中文
+      reasons 列表。默认表格输出，--json 输出结构化数据。
+      e.g. gaokao-pro slip-risk 清华大学 河南 02 --score 685 --rank 100
+
   gaokao-pro compare <A> <B> [--province <name|id>]
       Side-by-side: labels (985/211/双一流), 隶属, recent province min scores,
       招生网 URL, special-program flags, contact. Offline.
@@ -220,6 +235,30 @@ Usage:
       Per-province 提前批 + 强基/综评 in-province implementing schools.
       Available: tianjin · zhejiang · hunan · shandong · guangdong (verified).
       Pass 'all' to list cross-province programs (国家/高校/地方专项 + 港澳台联招).
+
+  gaokao-pro tiqian-pi <province> [--type <program_type>] [--json]
+  gaokao-pro tiqian-pi --list-types
+      提前批 special-program catalog (42 programs × 16+ provinces). Cross-axis
+      query: 公费师范生 / 优师 / 综评 / 三位一体 / 中外合作综评 / 国家专项 /
+      高校专项 / 公安院校 / 军校 / 农村订单医学 / 航海类 / 小语种 /
+      民族班 / 预科班. Each entry carries eligibility + commitment +
+      ratio + url for parent-facing 履约条款 review.
+      e.g. gaokao-pro tiqian-pi 山东 --type 综评提前批
+           gaokao-pro tiqian-pi --list-types
+
+  gaokao-pro zongping <province>
+      综合评价招生 2026 — by-school view (UCAS, SUSTech, ShanghaiTech,
+      CUHKSZ, 北外, XJTLU, NYU Shanghai, DKU, 沪综评校, 浙三位一体, 苏粤鲁
+      综评校, etc). Lists ratio / 校测 / seats / notes per school open
+      to that province.
+      e.g. gaokao-pro zongping 广东
+
+  gaokao-pro gaoshui-sport <运动名> [--json]
+      高水平运动队招生 (post-2024 reform) — schools recruiting a given
+      sport, with tier_required / exam_window / score_path / plan_count /
+      notes. Useful for 游泳/田径/篮球 etc. specialists.
+      e.g. gaokao-pro gaoshui-sport 游泳
+           gaokao-pro gaoshui-sport 田径 --json
 
   gaokao-pro xuanke <raw>
       Decode a gaokao.cn selected-subject string (e.g. "70001_70002^70001_70003").
@@ -685,7 +724,18 @@ const VERBS: Record<string, Verb> = {
         belong: r.belong
       }));
       const header = `gaokao-pro top  score=${score}  province=${PROVINCES[provinceId].name}  subjects=${subjects.join("/")}  limit=${limit}\n`;
-      process.stdout.write(header + formatTop(rows) + "\n");
+      const slipFooter = (() => {
+        try {
+          const info = provinceTiaojiInfo(PROVINCES[provinceId].name);
+          if (!info) return "";
+          const lines = [`\n【${PROVINCES[provinceId].name} 滑档提示】`];
+          lines.push(`  单位 ${info.unit ?? "-"} · 调剂 ${info.has_tiaoji === null ? "?" : (info.has_tiaoji ? "有" : "⚠️无")}`);
+          if (info.slip_warning) lines.push(`  ${info.slip_warning}`);
+          if (info.strategy) lines.push(`  策略: ${info.strategy}`);
+          return lines.join("\n");
+        } catch { return ""; }
+      })();
+      process.stdout.write(header + formatTop(rows) + slipFooter + "\n");
     } else {
       printJson({ ok: true, ...out });
     }
@@ -771,6 +821,173 @@ const VERBS: Record<string, Verb> = {
 
   async "groups-stats"() {
     printJson({ ok: true, stats: datasetStats() });
+  },
+
+  async "slip-risk"(args) {
+    const { positional, flags } = parseFlags(args);
+    const uni = positional[0] ?? (typeof flags.university === "string" ? flags.university : null);
+    const province = positional[1] ?? (typeof flags.province === "string" ? flags.province : null);
+    const groupCode = positional[2] ?? (typeof flags.group === "string" ? flags.group : null);
+    if (!uni || !province || !groupCode) {
+      throw new Error("usage: gaokao-pro slip-risk <university> <province> <groupCode> --score <n> [--rank <n>] [--year <year>] [--must …] [--ok …] [--reject …] [--json]");
+    }
+    const scoreRaw = flags.score;
+    if (typeof scoreRaw !== "string" && typeof scoreRaw !== "number") {
+      throw new Error("--score <n> is required");
+    }
+    const score = Number(scoreRaw);
+    if (!Number.isFinite(score)) throw new Error(`--score must be a number, got: ${String(scoreRaw)}`);
+    const rank = (typeof flags.rank === "string" || typeof flags.rank === "number")
+      ? Number(flags.rank) : null;
+    if (rank !== null && !Number.isFinite(rank)) throw new Error(`--rank must be a number, got: ${String(flags.rank)}`);
+    const year = (typeof flags.year === "string" || typeof flags.year === "number")
+      ? Number(flags.year) : undefined;
+
+    const must = typeof flags["must"] === "string" ? (flags["must"] as string).split(",").map(s => s.trim()).filter(Boolean) : [];
+    const ok = typeof flags["ok"] === "string" ? (flags["ok"] as string).split(",").map(s => s.trim()).filter(Boolean) : [];
+    const reject = typeof flags["reject"] === "string" ? (flags["reject"] as string).split(",").map(s => s.trim()).filter(Boolean) : [];
+    const prefs = (must.length || ok.length || reject.length)
+      ? { must_have: must, acceptable: ok, reject } : undefined;
+
+    const result = slipRisk({
+      uniName: uni,
+      provinceName: province,
+      groupCode,
+      candidateScore: score,
+      candidateRank: rank,
+      year,
+      prefs,
+    });
+
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, result });
+      return;
+    }
+
+    // Tabular human-readable output.
+    const VERDICT_LABEL: Record<string, string> = {
+      high_risk: "[HIGH RISK] 高滑档风险",
+      moderate_risk: "[MODERATE] 中等风险",
+      low_risk: "[LOW] 低风险",
+      comfortable: "[OK] 较稳",
+    };
+    const lines: string[] = [];
+    lines.push(`滑档风险评估 — ${result.university} / ${result.province} / 专业组 ${result.group_code}`);
+    lines.push("");
+    lines.push(`  判定:           ${VERDICT_LABEL[result.verdict] ?? result.verdict}`);
+    lines.push(`  考生分/位次:    ${result.candidate_score}${result.candidate_rank !== null ? ` (位次 ${result.candidate_rank})` : ""}`);
+    lines.push(`  组投档线/位次:  ${result.group_min_score ?? "(无数据)"}${result.group_min_rank !== null ? ` (位次 ${result.group_min_rank})` : ""}`);
+    lines.push(`  分差 score_gap: ${result.score_gap === null ? "n/a" : (result.score_gap >= 0 ? `+${result.score_gap}` : String(result.score_gap))}`);
+    lines.push(`  位次差 rank_gap:${result.rank_gap === null ? " n/a" : (result.rank_gap >= 0 ? ` +${result.rank_gap}` : ` ${result.rank_gap}`)}`);
+    lines.push(`  省调剂规则:     调剂=${result.province_rules.has_tiaoji === null ? "未知" : (result.province_rules.has_tiaoji ? "有" : "无")}  单位=${result.province_rules.unit ?? "-"}  改革=${result.province_rules.reform ?? "-"}`);
+    if (result.province_rules.slip_warning) {
+      lines.push(`  省滑档提示:     ${result.province_rules.slip_warning}`);
+    }
+    if (result.safety) {
+      lines.push(`  组内安全分:     ${result.safety.score.toFixed(2)} (${result.safety.verdict})  匹配${result.safety.matched_majors.length} / 拒绝${result.safety.rejected_majors.length}`);
+    }
+    if (result.major_gradient.sampled > 0 && result.major_gradient.spread !== null) {
+      lines.push(`  组内专业分梯度: ${result.major_gradient.min}–${result.major_gradient.max} (差 ${result.major_gradient.spread}，采样 ${result.major_gradient.sampled} 个专业)`);
+    }
+    lines.push("");
+    lines.push("理由 (reasons):");
+    for (const r of result.reasons) {
+      lines.push(`  - ${r}`);
+    }
+    process.stdout.write(lines.join("\n") + "\n");
+  },
+
+  async "tiqian-pi"(args) {
+    const { positional, flags } = parseFlags(args);
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!province && !flags.type && !flags["list-types"]) {
+      throw new Error("usage: gaokao-pro tiqian-pi <省份> [--type <program_type>] [--json]  |  gaokao-pro tiqian-pi --list-types");
+    }
+    if (flags["list-types"] === true) {
+      const types = listTiqianProgramTypes();
+      if (flags.json === true || flags.format === "json") { printJson({ ok: true, types }); return; }
+      process.stdout.write("提前批 program_type 列表:\n" + types.map(t => `  - ${t}`).join("\n") + "\n");
+      return;
+    }
+    let programs;
+    if (province) {
+      programs = listTiqianProgramsByProvince(province);
+      if (typeof flags.type === "string") {
+        programs = programs.filter(p => p.program_type === flags.type);
+      }
+    } else {
+      programs = listTiqianProgramsByType(flags.type as string);
+    }
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, query: { province, type: flags.type ?? null }, count: programs.length, programs });
+      return;
+    }
+    const header = province
+      ? `提前批可选项目 — ${province}${flags.type ? ` (类型: ${flags.type})` : ""}`
+      : `提前批 ${flags.type} 项目`;
+    const lines = [header, ""];
+    for (const p of programs) {
+      lines.push(`▸ ${p.program_type} · ${p.school}${p.zs_code ? ` (${p.zs_code})` : ""}`);
+      if (p.scope_note) lines.push(`  覆盖: ${p.scope_note}`);
+      if (p.majors && p.majors.length) lines.push(`  专业: ${p.majors.slice(0, 8).join("、")}${p.majors.length > 8 ? `…+${p.majors.length - 8}` : ""}`);
+      if (p.plan_count_2025 !== null) lines.push(`  计划: ${p.plan_count_2025}`);
+      if (p.eligibility) lines.push(`  资格: ${p.eligibility}`);
+      if (p.commitment) lines.push(`  履约: ${p.commitment}`);
+      if (p.exam_window) lines.push(`  时间: ${p.exam_window}`);
+      if (p.ratio) lines.push(`  分配: ${p.ratio}`);
+      if (p.url) lines.push(`  链接: ${p.url}`);
+      lines.push("");
+    }
+    if (!programs.length) lines.push("(无匹配项目)");
+    process.stdout.write(lines.join("\n"));
+  },
+
+  async zongping(args) {
+    const { positional, flags } = parseFlags(args);
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!province) throw new Error("usage: gaokao-pro zongping <省份> [--json]");
+    const schools = listZongheSchoolsByProvince(province);
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, query: { province }, count: schools.length, schools });
+      return;
+    }
+    const lines = [`综合评价招生 — ${province}`, ""];
+    for (const s of schools) {
+      lines.push(`▸ ${s.school}${s.zs_code ? ` (${s.zs_code})` : ""}`);
+      if (s.ratio) lines.push(`  分配比: ${s.ratio}`);
+      if (s.seats !== null) lines.push(`  计划: ${s.seats}`);
+      if (s["校测含"]) lines.push(`  校测: ${s["校测含"]}`);
+      if (s.notes) lines.push(`  备注: ${s.notes}`);
+      lines.push("");
+    }
+    if (!schools.length) lines.push("(该省无 2026 综评数据)");
+    process.stdout.write(lines.join("\n"));
+  },
+
+  async "gaoshui-sport"(args) {
+    const { positional, flags } = parseFlags(args);
+    const sport = positional[0] ?? (typeof flags.sport === "string" ? flags.sport : null);
+    if (!sport) throw new Error("usage: gaokao-pro gaoshui-sport <运动名> [--json]  例: gaokao-pro gaoshui-sport 游泳");
+    const schools = listGaoshuiSchoolsBySport(sport);
+    if (flags.json === true || flags.format === "json") {
+      printJson({ ok: true, query: { sport }, count: schools.length, schools });
+      return;
+    }
+    const lines = [`高水平运动队招生 — ${sport}`, ""];
+    for (const s of schools) {
+      lines.push(`▸ ${s.school}${s.zs_code ? ` (${s.zs_code})` : ""}`);
+      const matched = s.sports.filter((sp) => sp.name.includes(sport));
+      for (const sp of matched) {
+        if (sp.tier_required) lines.push(`  等级: ${sp.tier_required}`);
+        if (sp.exam_window) lines.push(`  时间: ${sp.exam_window}`);
+        if (sp.score_path) lines.push(`  分数路径: ${sp.score_path}`);
+        if (sp.plan_count !== null) lines.push(`  计划: ${sp.plan_count}`);
+        if (sp.notes) lines.push(`  备注: ${sp.notes}`);
+      }
+      lines.push("");
+    }
+    if (!schools.length) lines.push(`(没有招收 ${sport} 的院校)`);
+    process.stdout.write(lines.join("\n"));
   },
 
   async scores(args) {

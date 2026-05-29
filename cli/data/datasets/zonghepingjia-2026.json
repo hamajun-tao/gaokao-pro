@@ -1,0 +1,428 @@
+{
+  "_kind": "综合评价招生 by school, 2026",
+  "_year": 2026,
+  "_source": [
+    "https://gaokao.chsi.com.cn/ — 阳光高考综合评价专题",
+    "https://admission.ucas.ac.cn/ — 中国科学院大学本科招生网",
+    "https://zsb.sustech.edu.cn/ — 南方科技大学招生办",
+    "https://www.shanghaitech.edu.cn/zsb/ — 上海科技大学招生办",
+    "https://admissions.cuhk.edu.cn/ — 香港中文大学(深圳)",
+    "https://joinus.bfsu.edu.cn/tslzs/zhpj.htm — 北京外国语大学综评",
+    "https://admissions.xjtlu.edu.cn/ — 西交利物浦大学",
+    "https://admissions.dukekunshan.edu.cn/ — 昆山杜克大学",
+    "https://shanghai.nyu.edu/cn/admissions — 上海纽约大学",
+    "https://zdzsc.zju.edu.cn/ — 浙江大学三位一体",
+    "各 985/211 本科招生网 2024-2025 综评简章"
+  ],
+  "_notes": [
+    "按 school 分组而非 region — UCAS / SUSTech / ShanghaiTech 等综评招生跨多省，按 region 分会丢失信息。",
+    "ratio 字段：通常为 '高考:校测' 或 '高考:校测:学业水平'(631 模式)。null = 学校未公开统一权重 / 因省而异。",
+    "校测含：列出笔试 / 面试 / 体测 等环节。",
+    "seats：当年招生总计划 (跨省合计)。null = 简章未明列总数 (常见，多按省单列)。",
+    "tiqian_pi：是否在 提前批 投档 (true) 还是 综合评价单独批次 (false)。多数综评走提前批 / 单独录取批次。",
+    "本数据集与旧 zonghepingjia-2024.json (5-region) 并存 — 旧文件保留向后兼容。",
+    "2026 数据基于 2024-2025 年简章趋势 + 政策延续性预判 — 各省名额、校测时间以教育部 / 省考试院 / 各校 2026 年度官方简章为准。"
+  ],
+  "schools": [
+    {
+      "school": "中国科学院大学",
+      "zs_code": "14430",
+      "provinces": ["北京", "江苏", "浙江", "山东", "陕西", "河南", "四川", "湖南", "湖北", "福建", "辽宁", "广东"],
+      "ratio": "60:30:10 高考:校测:学业水平 (631 模式)",
+      "校测含": "笔试 (数理基础) + 面试 (科学素养与学科兴趣) + 体测",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "UCAS 综评是其本科招生主通道 (相对统招占比高)；考核难度对标顶尖理工类。各省名额通常 5-30 人/省，理科偏重。"
+    },
+    {
+      "school": "南方科技大学",
+      "zs_code": "14325",
+      "provinces": ["北京", "天津", "河北", "山西", "辽宁", "黑龙江", "上海", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南", "湖北", "湖南", "广东", "广西", "海南", "四川", "陕西", "甘肃", "重庆"],
+      "ratio": "60:30:10 高考:校测:学业水平 (631 模式)",
+      "校测含": "机试 (数学/物理/化学) + 面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "SUSTech 综评是唯一招生通道 (无统招)；2024 招生覆盖 23 省 (主要工科省份)。文化课要求高 (一般要求高考省排名前 5% 内)。"
+    },
+    {
+      "school": "上海科技大学",
+      "zs_code": "16402",
+      "provinces": ["北京", "天津", "河北", "山西", "辽宁", "上海", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南", "湖北", "湖南", "四川", "陕西", "广东"],
+      "ratio": "60:30:10 高考:校测:学业水平 (631 模式)",
+      "校测含": "校园开放日 + 综合面试 (含英语口试) + 实验体验",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "ShanghaiTech 综评是其唯一本科招生通道；2024 综评覆盖 18 省。小班教学，理工科顶尖生源池。"
+    },
+    {
+      "school": "香港中文大学(深圳)",
+      "zs_code": null,
+      "provinces": ["北京", "上海", "广东", "浙江", "江苏", "山东", "福建", "辽宁", "湖北", "湖南", "四川", "河南", "河北", "陕西"],
+      "ratio": "50:30:20 高考:校测:学业水平 (部分省按 60:30:10)",
+      "校测含": "英文笔试 + 中英文面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "CUHKSZ 在广东等省综评单独批次；其他省份多走统招本科批次。学费 11.5 万/年；港校体系全英教学。zs_code 因省而异 (通常省内编 5 位代码)。"
+    },
+    {
+      "school": "北京外国语大学",
+      "zs_code": "10030",
+      "provinces": ["北京", "天津", "河北", "辽宁", "上海", "江苏", "浙江", "福建", "山东", "湖北", "湖南", "广东", "重庆", "四川"],
+      "ratio": "60:30:10 高考:校测:学业水平 (部分省 85:15)",
+      "校测含": "外语口试 + 综合面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "北外综评主要覆盖小语种 (德/法/俄/西/日/阿/朝鲜语 等 20+ 语种)；提前批次外语类。考生需在阳光高考报名系统单独报名。"
+    },
+    {
+      "school": "西交利物浦大学",
+      "zs_code": "16403",
+      "provinces": ["江苏", "广东", "浙江", "上海", "山东", "辽宁", "湖南", "湖北", "福建", "河南", "四川", "天津", "北京", "河北", "重庆"],
+      "ratio": "高考成绩为主 + 部分省综评 (50:30:20 / 60:30:10)",
+      "校测含": "面试 (英文为主) + 部分专业加机试",
+      "seats": null,
+      "tiqian_pi": false,
+      "notes": "XJTLU 综评在江苏/广东/浙江/上海等省单独批次；其余省走普通批。中外合作大学，全英教学，2+2 模式可转利物浦。"
+    },
+    {
+      "school": "昆山杜克大学",
+      "zs_code": "16412",
+      "provinces": ["北京", "上海", "广东", "江苏", "浙江", "山东", "湖北", "湖南", "四川", "福建", "辽宁", "河南", "河北", "陕西", "重庆", "天津", "安徽", "江西"],
+      "ratio": "海外申请材料 (50%) + 高考 (40%) + 校园日活动评价 (10%) — 综合录取",
+      "校测含": "Common App 申请材料 + 校园日 (Open House) 评估",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "DKU 采用 Common App + 高考综合录取模式；秋季开始网申 (CA 11/15 ED, 1/3 RD)；高考次年 6 月底前提交分数。学费 ~16 万/年。"
+    },
+    {
+      "school": "上海纽约大学",
+      "zs_code": "16404",
+      "provinces": ["北京", "天津", "河北", "山西", "辽宁", "上海", "江苏", "浙江", "安徽", "福建", "江西", "山东", "河南", "湖北", "湖南", "广东", "广西", "海南", "重庆", "四川", "贵州", "云南", "陕西"],
+      "ratio": "海外申请材料 (50%) + 高考 (30%) + 校园日 Candidate Weekend (20%)",
+      "校测含": "Common App + 校园日活动 (面试/小组讨论/写作)",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "NYU Shanghai 综合评价录取：1/1 截止申请 (Common App)，2-3 月发面试邀请，4 月底前出录取结果，需达高考省一本线/特殊类型招生控制线。学费 ~20 万/年。"
+    },
+    {
+      "school": "浙江大学",
+      "zs_code": "10335",
+      "provinces": ["浙江"],
+      "ratio": "高考 50% + 校测 30% + 高中学业水平 20% (三位一体)",
+      "校测含": "笔试 + 面试",
+      "seats": 980,
+      "tiqian_pi": true,
+      "notes": "浙大三位一体仅面向浙江省，2024 招生 980 人 (含医学院/海洋学院)；2026 计划数预计稳定。报名时间 3 月底-4 月初，校测 6 月下旬高考后。"
+    },
+    {
+      "school": "复旦大学",
+      "zs_code": "10246",
+      "provinces": ["上海", "浙江"],
+      "ratio": "85:15 高考:校测 (上海) / 三位一体 50:30:20 (浙江)",
+      "校测含": "面试 (上海) / 笔试+面试 (浙江)",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "上海 综评走提前批；浙江 三位一体单独批次。"
+    },
+    {
+      "school": "上海交通大学",
+      "zs_code": "10248",
+      "provinces": ["上海", "浙江", "江苏"],
+      "ratio": "85:15 高考:校测 (上海/江苏) / 三位一体 50:30:20 (浙江)",
+      "校测含": "面试 (含学科特长考察)",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "同济大学",
+      "zs_code": "10247",
+      "provinces": ["上海", "浙江"],
+      "ratio": "85:15 高考:校测 (上海) / 三位一体 (浙江)",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "华东师范大学",
+      "zs_code": "10269",
+      "provinces": ["上海", "浙江"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "华东理工大学",
+      "zs_code": "10251",
+      "provinces": ["上海"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "上海财经大学",
+      "zs_code": "10272",
+      "provinces": ["上海"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "上海外国语大学",
+      "zs_code": "10271",
+      "provinces": ["上海"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "外语口试 + 综合面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "东华大学",
+      "zs_code": "10255",
+      "provinces": ["上海"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "上海大学",
+      "zs_code": "11903",
+      "provinces": ["上海"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "南京大学",
+      "zs_code": "10284",
+      "provinces": ["江苏"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试 (学科特长)",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "东南大学",
+      "zs_code": "10286",
+      "provinces": ["江苏"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": 180,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "南京师范大学",
+      "zs_code": "10319",
+      "provinces": ["江苏"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "山东大学",
+      "zs_code": "10422",
+      "provinces": ["山东"],
+      "ratio": "70:30 高考:校测 (部分专业 60:30:10)",
+      "校测含": "笔试 + 面试",
+      "seats": 300,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "中国海洋大学",
+      "zs_code": "10423",
+      "provinces": ["山东"],
+      "ratio": "70:30 高考:校测",
+      "校测含": "笔试 + 面试",
+      "seats": 50,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "中国石油大学(华东)",
+      "zs_code": "10425",
+      "provinces": ["山东"],
+      "ratio": "70:30 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "哈尔滨工业大学(威海)",
+      "zs_code": "10213",
+      "provinces": ["山东"],
+      "ratio": "70:30 高考:校测",
+      "校测含": "面试 + 体测",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "招生代码 10213 (本部) 在山东综评单列。"
+    },
+    {
+      "school": "中山大学",
+      "zs_code": "10558",
+      "provinces": ["广东"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": 495,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "华南理工大学",
+      "zs_code": "10561",
+      "provinces": ["广东"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": 300,
+      "tiqian_pi": true,
+      "notes": "本部 10561 (传统综评)；广州国际校区另设 631 综评 (zs_code 19561)。"
+    },
+    {
+      "school": "华南理工大学广州国际校区",
+      "zs_code": "19561",
+      "provinces": ["广东"],
+      "ratio": "60:30:10 高考:校测:学业水平 (631)",
+      "校测含": "笔试 + 面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "广州国际校区 631 综评模式 — 与本部独立招生。"
+    },
+    {
+      "school": "暨南大学",
+      "zs_code": "10559",
+      "provinces": ["广东"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "深圳大学",
+      "zs_code": "10590",
+      "provinces": ["广东"],
+      "ratio": "70:30 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "中国矿业大学(北京)",
+      "zs_code": "11413",
+      "provinces": ["江苏", "山东"],
+      "ratio": "70:30 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "北京化工大学",
+      "zs_code": "10010",
+      "provinces": ["北京"],
+      "ratio": "70:30 高考:校测",
+      "校测含": "笔试 + 面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "西南大学",
+      "zs_code": "10635",
+      "provinces": ["重庆"],
+      "ratio": "70:30 高考:校测",
+      "校测含": "笔试 + 面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "天津大学",
+      "zs_code": "10056",
+      "provinces": ["天津"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "东北大学",
+      "zs_code": "10145",
+      "provinces": ["辽宁"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "中南大学",
+      "zs_code": "10533",
+      "provinces": ["湖南"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "西北工业大学",
+      "zs_code": "10699",
+      "provinces": ["陕西"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "中国科学技术大学",
+      "zs_code": "10358",
+      "provinces": ["安徽"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "笔试 + 面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    },
+    {
+      "school": "中国美术学院",
+      "zs_code": "10355",
+      "provinces": ["浙江"],
+      "ratio": "高考+专业校考 综合分录取",
+      "校测含": "专业校考 (素描/速写/色彩) + 面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": "艺术类综评/校考独立批次。"
+    },
+    {
+      "school": "哈尔滨工业大学",
+      "zs_code": "10213",
+      "provinces": ["黑龙江"],
+      "ratio": "85:15 高考:校测",
+      "校测含": "面试",
+      "seats": null,
+      "tiqian_pi": true,
+      "notes": null
+    }
+  ]
+}
