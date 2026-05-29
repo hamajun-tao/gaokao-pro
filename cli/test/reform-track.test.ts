@@ -43,9 +43,12 @@ function flaggedReformYear(id: number): number | null {
   });
   const w = out.query.reform_warning;
   if (!w) return null;
-  const m = w.match(/在\s*(\d{4})\s*年/);
+  // Accept either the old wording "在 <yyyy> 年首次进入" or the newer
+  // "<yyyy> 年首届新高考 ...; <yyyy> 是第 N 届" form. Both encode the
+  // first-reform year as the first 4-digit token in the string.
+  const m = w.match(/(\d{4})\s*年首届|在\s*(\d{4})\s*年/);
   assert(m !== null, `reform_warning present but year not parseable: ${w}`);
-  return Number(m![1]);
+  return Number(m![1] ?? m![2]);
 }
 
 // ── 新疆 (Xinjiang) — the headline regression ───────────────────────────────

@@ -253,7 +253,15 @@ export function recommend(input: RecommendInput): RecommendOutput {
 
   const firstReformYear = NEW_REFORM_FIRST_YEAR[input.provinceId];
   const reform_warning = firstReformYear !== undefined
-    ? `${province.name} 在 ${firstReformYear} 年首次进入新高考 (${province.reform})。历年位次跨改革前后不可直接对比；推荐结果按最近一年最低分粗估，请结合 2024/2025 真实录取数据校正。`
+    ? (() => {
+        // 当前申报年: 高考填报截至 ~6/30, 之后转向下一届. 2026 view → 第N届.
+        const currentApplyYear = (() => {
+          const now = new Date();
+          return now.getMonth() >= 6 ? now.getFullYear() + 1 : now.getFullYear();
+        })();
+        const cohortIdx = Math.max(1, currentApplyYear - firstReformYear + 1);
+        return `${province.name} ${firstReformYear} 年首届新高考 (${province.reform}); ${currentApplyYear} 是第 ${cohortIdx} 届。历年位次跨改革前后不可直接对比；推荐按 2025 baseline 粗估，请用 2024/2025 真实录取数据校正。`;
+      })()
     : undefined;
 
   return {

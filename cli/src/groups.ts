@@ -269,6 +269,15 @@ function load(year?: number): Dataset {
   return loadDataset(year).dataset;
 }
 
+// Normalize parens for school-name matching. Users (and Chinese IMEs) flip
+// between （威海） and (威海) freely; the dataset usually carries the fullwidth
+// form. Without this, `compare 山东大学(威海)` fails but `山东大学（威海）` works.
+function normalizeSchoolName(s: string): string {
+  return s.trim()
+    .replace(/\(/g, "（")
+    .replace(/\)/g, "）");
+}
+
 export function findUniversity(name: string, year?: number): University | null {
   const ds = load(year);
   // 1) If `name` is a registered alias (北邮/华师/中大 etc.), use the canonical
@@ -280,7 +289,11 @@ export function findUniversity(name: string, year?: number): University | null {
     if (aliased) return aliased;
   }
   // 2) Fall back to substring match for full names ("清华大学", "北京邮电大学")
-  return ds.universities.find(u => typeof u.university === "string" && u.university.includes(name)) || null;
+  //    Try exact form first, then paren-normalized form (compare 山东大学(威海) vs （威海）).
+  const direct = ds.universities.find(u => typeof u.university === "string" && u.university.includes(name));
+  if (direct) return direct;
+  const normName = normalizeSchoolName(name);
+  return ds.universities.find(u => typeof u.university === "string" && normalizeSchoolName(u.university).includes(normName)) || null;
 }
 
 /**
@@ -603,11 +616,38 @@ export type SlipRiskInput = {
   candidateScore: number;
   candidateRank?: number | null;
   year?: number;
+  // Optional track hint for auto-group picking on 3+1+2 provinces where the
+  // same school has both 物理类 and 历史类 普通组 — without this, auto picks
+  // the first group with min_score, which can cross-track-baseline a
+  // 物化生 candidate against a 历史类 baseline. Accepts "physics" / "history" /
+  // "综合改革" / "物理" / "历史" — normalized internally.
+  track?: string | null;
   prefs?: { must_have: string[]; acceptable: string[]; reject: string[] };
 };
 
+// Normalize a track-hint to one of the bucket strings actually used in
+// per-group `track` / `category` fields across the college-groups dataset.
+// Returns null when no useful filter can be applied.
+function canonicalTrack(t: string | null | undefined): "物理" | "历史" | "综合" | null {
+  if (!t) return null;
+  const s = String(t).trim().toLowerCase();
+  if (s === "physics" || s.includes("物理") || s.includes("物")) return "物理";
+  if (s === "history" || s.includes("历史") || s.includes("文") ) return "历史";
+  if (s === "综合改革" || s.includes("综合") || s === "combined") return "综合";
+  return null;
+}
+
+function groupTrack(g: Group): "物理" | "历史" | "综合" | null {
+  const fields = [g.track, g.category, g.subject_require];
+  for (const f of fields) {
+    const t = canonicalTrack(f);
+    if (t) return t;
+  }
+  return null;
+}
+
 export function slipRisk(input: SlipRiskInput): SlipRiskResult {
-  const { uniName, provinceName, groupCode, candidateScore, candidateRank, year, prefs } = input;
+  const { uniName, provinceName, groupCode, candidateScore, candidateRank, year, track: trackHint, prefs } = input;
 
   const uni = findUniversity(uniName, year);
   if (!uni) {
@@ -616,7 +656,10 @@ export function slipRisk(input: SlipRiskInput): SlipRiskResult {
     throw new Error(`数据集里没找到「${uniName}」${hint}`);
   }
   const province = uni.provinces.find(p => p.province === provinceName);
-  if (!province) throw new Error(`province not found for ${uni.university}: ${provinceName}`);
+  if (!province) {
+    const known = uni.provinces.map(p => p.province).slice(0, 10).join(" / ") || "(无)";
+    throw new Error(`${uni.university} 在 ${provinceName} 的招生组数据暂未 ingest；已覆盖省份: ${known}${uni.provinces.length > 10 ? "..." : ""}。可改用 slip-risk 参考非本省同档作 fallback`);
+  }
   // Tolerant code match — five forms:
   //   1) exact
   //   2) leading-zero strip ("01" == "1")
@@ -635,7 +678,20 @@ export function slipRisk(input: SlipRiskInput): SlipRiskResult {
   if (wantCode === "" || wantCode === "auto" || wantCode === "default" || wantCode === "_") {
     // No-group-concept provinces (山东/浙江 普通批 专业平行): use the group with
     // group_min_score if any, else the first group. Surface a hint in reasons.
-    group = province.groups.find(g => typeof g.group_min_score === "number") ?? province.groups[0];
+    //
+    // 3+1+2 multi-track schools (e.g. 重庆 西南大学 has both 物理类 + 历史类
+    // 普通组): when a track hint is provided, filter groups to matching track
+    // first, otherwise the auto-picker can cross-baseline a 物化生 candidate
+    // against the 历史类 group's investment-line and produce wrong verdicts.
+    const wantedTrack = canonicalTrack(trackHint);
+    const trackFiltered = wantedTrack
+      ? province.groups.filter(g => {
+          const t = groupTrack(g);
+          return !t || t === wantedTrack || t === "综合";
+        })
+      : province.groups;
+    const pool = trackFiltered.length > 0 ? trackFiltered : province.groups;
+    group = pool.find(g => typeof g.group_min_score === "number") ?? pool[0];
   } else {
     group = province.groups.find(g => g.group_code === wantCode)
       ?? province.groups.find(g => normalize(g.group_code) === wantNorm)
@@ -681,7 +737,7 @@ export function slipRisk(input: SlipRiskInput): SlipRiskResult {
       reasons.push(`考生分 ${candidateScore} 仅高于投档线 ${group.group_min_score} 共 ${score_gap} 分，处于压线带，年度波动随时打穿。`);
       level = Math.max(level, 2);
     } else if (score_gap < 8) {
-      reasons.push(`考生分 ${candidateScore} 高于投档线 ${group.group_min_score} 共 ${score_gap} 分，安全垫薄，仍属中等风险。`);
+      reasons.push(`考生分 ${candidateScore} 高于投档线 ${group.group_min_score} 共 ${score_gap} 分，安全垫薄，低偏中风险。`);
       level = Math.max(level, 1);
     } else if (score_gap < 15) {
       reasons.push(`考生分 ${candidateScore} 高于投档线 ${group.group_min_score} 共 ${score_gap} 分，垫子合理，低风险。`);

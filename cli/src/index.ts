@@ -563,6 +563,13 @@ const VERBS: Record<string, Verb> = {
     };
     if (hasScore) {
       const score = Number(flags.score);
+      // Province-specific score-scale guard: 海南 900满分, 上海 660满分, 其他 750满分.
+      // Without this, callers can pass 700 to 上海 (max 660) or 800 to 750-scale
+      // provinces and silently saturate at the top of the table.
+      const maxScore = provinceId === 46 ? 900 : provinceId === 31 ? 660 : 750;
+      if (score < 0 || score > maxScore) {
+        throw new Error(`score ${score} out of ${PROVINCES[provinceId].name} range [0, ${maxScore}]${provinceId === 46 ? "（海南标准分制 900 满分）" : provinceId === 31 ? "（上海 3+3 满分 660）" : ""}`);
+      }
       const rank = scoreToRank(table, score);
       result.score = score;
       result.rank = rank;
@@ -1139,6 +1146,15 @@ const VERBS: Record<string, Verb> = {
     const prefs = (must.length || ok.length || reject.length)
       ? { must_have: must, acceptable: ok, reject } : undefined;
 
+    // Track hint: --track physics|history|combined OR derive from --subjects
+    let trackHint: string | null = null;
+    if (typeof flags.track === "string") trackHint = flags.track;
+    else if (typeof flags.subjects === "string") {
+      const subs = flags.subjects;
+      if (subs.includes("物理") || subs.includes("物")) trackHint = "物理";
+      else if (subs.includes("历史") || subs.includes("史")) trackHint = "历史";
+    }
+
     const result = slipRisk({
       uniName: uni,
       provinceName: province,
@@ -1146,6 +1162,7 @@ const VERBS: Record<string, Verb> = {
       candidateScore: score,
       candidateRank: rank,
       year,
+      track: trackHint,
       prefs,
     });
 
@@ -1215,18 +1232,31 @@ const VERBS: Record<string, Verb> = {
       process.stdout.write("提前批 program_type 列表:\n" + types.map(t => `  - ${t}`).join("\n") + "\n");
       return;
     }
+    // type-match: substring + alias (公费师范 → 公费师范生; 港校 → 港校综评; 中外 → 中外合作综评)
+    const matchType = (catalog: string, want: string): boolean => {
+      const c = catalog.trim();
+      const w = want.trim();
+      if (!w) return true;
+      if (c === w) return true;
+      if (c.includes(w) || w.includes(c)) return true;
+      return false;
+    };
     let programs;
     if (typeof flags.school === "string") {
       programs = listTiqianProgramsBySchool(flags.school);
       if (province) programs = programs.filter(p => (p.eligible_provinces || []).some(e => e === province || e.startsWith("全国")));
-      if (typeof flags.type === "string") programs = programs.filter(p => p.program_type === flags.type);
+      if (typeof flags.type === "string") programs = programs.filter(p => matchType(p.program_type, flags.type as string));
     } else if (province) {
       programs = listTiqianProgramsByProvince(province);
       if (typeof flags.type === "string") {
-        programs = programs.filter(p => p.program_type === flags.type);
+        programs = programs.filter(p => matchType(p.program_type, flags.type as string));
       }
     } else {
-      programs = listTiqianProgramsByType(flags.type as string);
+      // listTiqianProgramsByType uses exact match; widen to substring at this layer
+      const types = listTiqianProgramTypes();
+      const want = flags.type as string;
+      const matched = types.filter(t => matchType(t, want));
+      programs = matched.flatMap(t => listTiqianProgramsByType(t));
     }
     if (flags.json === true || flags.format === "json") {
       printJson({ ok: true, query: { province, type: flags.type ?? null }, count: programs.length, programs });
