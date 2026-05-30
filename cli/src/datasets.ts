@@ -735,6 +735,28 @@ export function findBudgetTier(tierName: string): any {
   return (f.tiers || []).find((t: any) => t.tier === q || q.includes(t.tier)) ?? null;
 }
 
+// ---- 0.3.7 score system (赋分制 vs 原始分) ----
+
+let scoreSystemCache: any = null;
+
+export function loadScoreSystem(): any {
+  if (scoreSystemCache) return scoreSystemCache;
+  const data = load<any>("score-system-2025.json");
+  if (!data) throw missingDataset("score-system-2025.json");
+  scoreSystemCache = data;
+  return data;
+}
+
+export function findScoreSystemByProvince(provinceName: string): any {
+  const f = loadScoreSystem();
+  const q = provinceName.trim();
+  return (f.provinces || []).find((p: any) => {
+    // Province key may be "河北" or "甘肃|安徽|江西|..." (group form)
+    if (typeof p.province !== "string") return false;
+    return p.province === q || p.province.split("|").includes(q);
+  }) ?? null;
+}
+
 // ---- 0.3.7 employment-outcomes (5 维就业出口) ----
 
 let employmentOutcomesCache: any = null;

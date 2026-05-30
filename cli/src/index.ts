@@ -57,7 +57,9 @@ import {
   findBudgetTier,
   loadEmploymentOutcomes,
   findEmploymentOutcomeBySchool,
-  employmentCoverageByProvince
+  employmentCoverageByProvince,
+  loadScoreSystem,
+  findScoreSystemByProvince
 } from "./datasets.js";
 import { compare } from "./compare.js";
 import { paiming } from "./paiming.js";
@@ -2321,6 +2323,30 @@ const VERBS: Record<string, Verb> = {
       throw new Error(`${school} 暂未在 employment-outcomes 数据集; 已覆盖 ${(f.schools || []).length} 校, 示例: ${sample} (扩展中, 每省一本批次推进)`);
     }
     printJson({ ok: true, school_outcome: s });
+  },
+
+  async "score-system"(args) {
+    const { positional, flags } = parseFlags(args);
+    const f = loadScoreSystem();
+    if (flags["common-misunderstandings"] === true || flags["common-misunderstandings"] === "" || flags["common-misunderstandings"] === "true") {
+      printJson({ ok: true, common_misunderstandings: f._common_misunderstandings, key_takeaway: f._key_takeaway });
+      return;
+    }
+    const province = positional[0] ?? (typeof flags.province === "string" ? flags.province : null);
+    if (!province) {
+      printJson({
+        ok: true,
+        usage: "gaokao-pro score-system <省份>  |  --common-misunderstandings",
+        key_takeaway: f._key_takeaway,
+        covered_provinces: (f.provinces || []).map((p: any) => p.province)
+      });
+      return;
+    }
+    const rec = findScoreSystemByProvince(province);
+    if (!rec) {
+      throw new Error(`${province} 不在 score-system 数据集; 检查省名拼写或用 --common-misunderstandings 看通用建议`);
+    }
+    printJson({ ok: true, score_system: rec });
   }
 };
 
