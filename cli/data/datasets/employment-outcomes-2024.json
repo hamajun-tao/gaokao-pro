@@ -2721,6 +2721,236 @@
       "specialty_strength": "民用航空 (国内唯一民航类公办本科 中国民航局直属); 国航/南航/东航 直供",
       "notable_employers": ["中国国航", "南方航空", "东方航空", "海南航空", "厦门航空", "深圳航空", "民航局", "中国商飞"],
       "confidence_level": "high"
+    },
+    {
+      "school": "南昌航空大学",
+      "zs_code": "11097",
+      "tier_label": "省重点",
+      "city": "南昌",
+      "rates": {"baoyan_rate_pct": 7, "domestic_grad_school_pct": 28, "abroad_pct": 4, "direct_employment_pct": 61, "big_tech_hire_rate_est": 6, "civil_service_rate_est": 22},
+      "specialty_strength": "航空航天/机电 (江西航空类公办二本头部); 中航工业 + 江西飞机",
+      "notable_employers": ["中航工业", "中国航天", "中国商飞", "国家电网", "华为", "字节跳动", "中国电科", "江西体制内"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "东华理工大学",
+      "zs_code": "10405",
+      "tier_label": "省重点",
+      "city": "南昌",
+      "rates": {"baoyan_rate_pct": 7, "domestic_grad_school_pct": 28, "abroad_pct": 4, "direct_employment_pct": 61, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 22},
+      "specialty_strength": "核工程/地质 (国内核技术类二本头部 国防七子之外); 中核 + 中国核动力研究院",
+      "notable_employers": ["中核集团", "中国核动力研究院", "中国地质调查局", "国家电网", "字节跳动", "华为", "江西体制内", "中国电建"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "景德镇陶瓷大学",
+      "zs_code": "10408",
+      "tier_label": "省重点",
+      "city": "景德镇",
+      "rates": {"baoyan_rate_pct": 5, "domestic_grad_school_pct": 22, "abroad_pct": 8, "direct_employment_pct": 65, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 16},
+      "specialty_strength": "陶瓷设计 (国内唯一陶瓷命名大学 国家级特色); 景德镇陶瓷集团 + 国内陶瓷产业",
+      "notable_employers": ["景德镇陶瓷集团", "中国陶瓷工业协会", "唯品会", "字节跳动 (设计)", "华为", "江西体制内", "苏富比 (陶瓷)", "故宫文创"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "福建师范大学协和学院",
+      "zs_code": "13772",
+      "tier_label": "民办",
+      "city": "福州",
+      "rates": {"baoyan_rate_pct": 0, "domestic_grad_school_pct": 16, "abroad_pct": 8, "direct_employment_pct": 76, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 14},
+      "specialty_strength": "应用型 (福建民办头部 福师大独立学院转设); 学费 ~3-3.5 万/年",
+      "notable_employers": ["福建民营企业", "字节跳动", "宁德时代", "招商银行", "美团", "华为", "腾讯", "中国移动"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "厦门理工学院",
+      "zs_code": "11062",
+      "tier_label": "省重点",
+      "city": "厦门",
+      "rates": {"baoyan_rate_pct": 6, "domestic_grad_school_pct": 26, "abroad_pct": 8, "direct_employment_pct": 60, "big_tech_hire_rate_est": 8, "civil_service_rate_est": 18},
+      "specialty_strength": "工科/IT/机电 (厦门工科公办二本头部); 厦门工业基础 + 宁德时代 + 华为厦门",
+      "notable_employers": ["华为", "宁德时代", "字节跳动", "腾讯", "美团", "厦门航空", "金蝶", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "桂林理工大学",
+      "zs_code": "10596",
+      "tier_label": "省重点",
+      "city": "桂林",
+      "rates": {"baoyan_rate_pct": 6, "domestic_grad_school_pct": 26, "abroad_pct": 4, "direct_employment_pct": 64, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 24},
+      "specialty_strength": "地质/有色金属 (广西工科公办二本头部); 中铝/中国地调 + 广西体制内",
+      "notable_employers": ["中铝集团", "中国地质调查局", "广西体制内", "华为", "字节跳动", "中国电建", "中国电信", "国家电网"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "北部湾大学",
+      "zs_code": "11607",
+      "tier_label": "省重点",
+      "city": "钦州",
+      "rates": {"baoyan_rate_pct": 5, "domestic_grad_school_pct": 22, "abroad_pct": 5, "direct_employment_pct": 68, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 22},
+      "specialty_strength": "海洋/物流/东南亚语种 (北部湾经济区 + 一带一路 东盟); 广西体制内 + 北部湾港",
+      "notable_employers": ["广西北部湾港务集团", "广西体制内", "海外华人企业 (东盟)", "字节跳动", "华为", "中国电信", "中国移动", "招商银行"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "凯里学院",
+      "zs_code": "10669",
+      "tier_label": "省重点",
+      "city": "凯里",
+      "rates": {"baoyan_rate_pct": 3, "domestic_grad_school_pct": 18, "abroad_pct": 2, "direct_employment_pct": 77, "big_tech_hire_rate_est": 2, "civil_service_rate_est": 30},
+      "specialty_strength": "民族学 (黔东南苗族侗族自治州 中心); 苗/侗 民族文化研究 + 贵州体制内",
+      "notable_employers": ["贵州体制内", "黔东南州政府", "国家民委", "字节跳动", "凯里市教育局", "贵州民族学院", "中国电信", "中国移动"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "西华师范大学",
+      "zs_code": "10638",
+      "tier_label": "省重点",
+      "city": "南充",
+      "rates": {"baoyan_rate_pct": 7, "domestic_grad_school_pct": 28, "abroad_pct": 4, "direct_employment_pct": 61, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 38},
+      "specialty_strength": "教师教育 (四川师范类公办二本头部 南充市); 四川各重点中学 + 教师编",
+      "notable_employers": ["四川各重点中学", "南充市教育局", "字节跳动 (教育)", "新东方", "四川体制内", "学而思", "华为", "腾讯"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "四川师范大学",
+      "zs_code": "10636",
+      "tier_label": "省重点",
+      "city": "成都",
+      "rates": {"baoyan_rate_pct": 9, "domestic_grad_school_pct": 30, "abroad_pct": 8, "direct_employment_pct": 53, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 40},
+      "specialty_strength": "教师教育/汉语言 (四川师范类二本头部 成都市); 四川各重点中学 + 教师编",
+      "notable_employers": ["四川各重点中学", "成都市教育局", "字节跳动 (教育)", "新东方", "四川体制内", "学而思", "中国教科院", "腾讯"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "西安外国语大学",
+      "zs_code": "10724",
+      "tier_label": "省重点",
+      "city": "西安",
+      "rates": {"baoyan_rate_pct": 7, "domestic_grad_school_pct": 26, "abroad_pct": 20, "direct_employment_pct": 47, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 20},
+      "specialty_strength": "外语 (西北外语类公办二本头部 仅次北外/上外); 海关/外事办 + 华为海外",
+      "notable_employers": ["商务部", "海关总署", "字节跳动", "华为", "中兴", "招商银行", "中国银行", "毕马威"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "西北政法大学",
+      "zs_code": "11075",
+      "tier_label": "省重点",
+      "city": "西安",
+      "rates": {"baoyan_rate_pct": 7, "domestic_grad_school_pct": 28, "abroad_pct": 8, "direct_employment_pct": 57, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 50},
+      "specialty_strength": "法学 (西北法学头部公办二本 与中政法/西政齐名); 西北公检法直供",
+      "notable_employers": ["陕西体制内", "西北各省公检法", "最高法", "司法部", "中信律所", "字节跳动", "招商银行", "中央政法委"],
+      "confidence_level": "high"
+    },
+    {
+      "school": "兰州财经大学",
+      "zs_code": "10741",
+      "tier_label": "省重点",
+      "city": "兰州",
+      "rates": {"baoyan_rate_pct": 6, "domestic_grad_school_pct": 26, "abroad_pct": 6, "direct_employment_pct": 62, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 26},
+      "specialty_strength": "财经/会计/审计 (西北财经类公办二本头部); 工行甘肃 + 西北体制内",
+      "notable_employers": ["工商银行甘肃", "招商银行", "甘肃体制内", "字节跳动", "毕马威", "中国银行", "西北体制内", "华为"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "西藏大学农牧学院",
+      "zs_code": "10694",
+      "tier_label": "省重点",
+      "city": "林芝",
+      "rates": {"baoyan_rate_pct": 4, "domestic_grad_school_pct": 18, "abroad_pct": 2, "direct_employment_pct": 76, "big_tech_hire_rate_est": 1, "civil_service_rate_est": 50},
+      "specialty_strength": "高寒农牧/林学 (合并入西藏农牧学院, 但仍 高寒生态研究 头部); 西藏体制内 + 三江源生态",
+      "notable_employers": ["西藏体制内", "三江源国家公园", "国家林草局", "西藏自治区农牧厅", "援藏工作组", "国家民委", "中国电信", "中国移动"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "青海财经职业学院",
+      "zs_code": "13959",
+      "tier_label": "省重点",
+      "city": "西宁",
+      "rates": {"baoyan_rate_pct": 0, "domestic_grad_school_pct": 12, "abroad_pct": 1, "direct_employment_pct": 87, "big_tech_hire_rate_est": 2, "civil_service_rate_est": 28},
+      "specialty_strength": "财经职业/会计 (青海唯一财经职业本科)",
+      "notable_employers": ["青海体制内", "西宁市政府", "工商银行青海", "招商银行", "字节跳动", "美团", "中国移动", "中国电信"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "宁夏大学新华学院",
+      "zs_code": "10749B",
+      "tier_label": "民办",
+      "city": "银川",
+      "rates": {"baoyan_rate_pct": 0, "domestic_grad_school_pct": 14, "abroad_pct": 2, "direct_employment_pct": 84, "big_tech_hire_rate_est": 1, "civil_service_rate_est": 18},
+      "specialty_strength": "应用型本科 (宁夏唯一独立学院转设状态; 转设进行中); 学费 ~2.8 万/年",
+      "notable_employers": ["宁夏体制内", "宁夏民营企业", "银川市政府", "字节跳动", "中国移动", "工商银行宁夏", "国家电网", "中国电信"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "新疆财经大学",
+      "zs_code": "10765",
+      "tier_label": "省重点",
+      "city": "乌鲁木齐",
+      "rates": {"baoyan_rate_pct": 5, "domestic_grad_school_pct": 22, "abroad_pct": 4, "direct_employment_pct": 69, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 28},
+      "specialty_strength": "财经/会计 (新疆财经类公办二本头部); 工行新疆 + 新疆体制内 + 新疆兵团",
+      "notable_employers": ["工商银行新疆", "新疆体制内", "新疆生产建设兵团", "招商银行", "字节跳动", "中国移动", "毕马威", "中国电信"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "塔里木大学",
+      "zs_code": "10757",
+      "tier_label": "省重点",
+      "city": "阿拉尔",
+      "rates": {"baoyan_rate_pct": 4, "domestic_grad_school_pct": 22, "abroad_pct": 2, "direct_employment_pct": 72, "big_tech_hire_rate_est": 2, "civil_service_rate_est": 35},
+      "specialty_strength": "南疆农学 (新疆生产建设兵团兵团直属 公办本科); 兵团 + 南疆农牧 主输送",
+      "notable_employers": ["新疆生产建设兵团", "南疆兵团师团", "新疆体制内", "中粮集团", "国家电网", "字节跳动", "援疆工作组", "国家林草局"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "新疆理工学院",
+      "zs_code": "13558",
+      "tier_label": "省重点",
+      "city": "阿克苏",
+      "rates": {"baoyan_rate_pct": 3, "domestic_grad_school_pct": 16, "abroad_pct": 2, "direct_employment_pct": 79, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 30},
+      "specialty_strength": "应用型理工 (南疆 阿克苏 独立学院 已转公办); 南疆+兵团 主输送",
+      "notable_employers": ["新疆体制内", "新疆生产建设兵团", "阿克苏市政府", "援疆工作组", "字节跳动", "中国移动", "中国电信", "中国石油"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "天津师范大学津沽学院",
+      "zs_code": "13654",
+      "tier_label": "民办",
+      "city": "天津",
+      "rates": {"baoyan_rate_pct": 0, "domestic_grad_school_pct": 16, "abroad_pct": 10, "direct_employment_pct": 74, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 16},
+      "specialty_strength": "应用型 (天津民办头部 天师独立学院 转民办状态); 学费 ~3-4 万/年",
+      "notable_employers": ["天津民营企业", "字节跳动", "美团", "华为", "招商银行", "京东", "天津体制内", "中国移动"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "天津商业大学宝德学院",
+      "zs_code": "13665",
+      "tier_label": "民办",
+      "city": "天津",
+      "rates": {"baoyan_rate_pct": 0, "domestic_grad_school_pct": 14, "abroad_pct": 12, "direct_employment_pct": 74, "big_tech_hire_rate_est": 4, "civil_service_rate_est": 14},
+      "specialty_strength": "应用型 (天津民办商科类 独立学院); 学费 ~3.5-4 万/年",
+      "notable_employers": ["天津民营企业", "字节跳动", "招商银行", "美团", "华为", "京东", "天津体制内", "中国移动"],
+      "confidence_level": "low"
+    },
+    {
+      "school": "三江学院",
+      "zs_code": "11122",
+      "tier_label": "民办",
+      "city": "南京",
+      "rates": {"baoyan_rate_pct": 0, "domestic_grad_school_pct": 18, "abroad_pct": 8, "direct_employment_pct": 74, "big_tech_hire_rate_est": 5, "civil_service_rate_est": 12},
+      "specialty_strength": "应用型 (江苏民办头部, 国内首批本科民办 1992); 学费 ~3 万/年",
+      "notable_employers": ["江苏民营企业", "字节跳动", "京东", "美团", "华为", "腾讯", "招商银行", "中国移动"],
+      "confidence_level": "medium"
+    },
+    {
+      "school": "齐齐哈尔大学",
+      "zs_code": "10232",
+      "tier_label": "省重点",
+      "city": "齐齐哈尔",
+      "rates": {"baoyan_rate_pct": 4, "domestic_grad_school_pct": 22, "abroad_pct": 3, "direct_employment_pct": 71, "big_tech_hire_rate_est": 3, "civil_service_rate_est": 32},
+      "specialty_strength": "综合 (黑龙江公办二本 齐齐哈尔市); 黑龙江体制内 + 北方工业",
+      "notable_employers": ["黑龙江体制内", "字节跳动", "中国一重", "中铁集团", "华为", "中国电信", "齐齐哈尔市政府", "中国移动"],
+      "confidence_level": "low"
     }
   ],
   "tier_summary": {
@@ -2760,6 +2990,27 @@
       "abroad_pct": 75,
       "big_tech_hire_rate_est": 12,
       "civil_service_rate_est": 2
+    },
+    "省重点 公办二本 (主流)": {
+      "baoyan_rate_pct": 6,
+      "abroad_pct": 5,
+      "big_tech_hire_rate_est": 5,
+      "civil_service_rate_est": 24,
+      "_note": "全国公办二本中位; 寒门/中产主战场; 单校行业头部 (中国民航/河南工业粮食工程/西华大学等) 大厂率 可达 8-10%"
+    },
+    "民办本科 行业头部 (大连东软/吉林动画/黄河科技/三亚学院)": {
+      "baoyan_rate_pct": 0,
+      "abroad_pct": 8,
+      "big_tech_hire_rate_est": 12,
+      "civil_service_rate_est": 8,
+      "_note": "行业头部民办 (IT/动画/旅游) 大厂率高于普通公办二本; 学费 2.5-4 万/年; 富裕/中产 行业兴趣强 例外路径"
+    },
+    "民办本科 普通 (北京城市/上海建桥/燕京理工等)": {
+      "baoyan_rate_pct": 0,
+      "abroad_pct": 8,
+      "big_tech_hire_rate_est": 4,
+      "civil_service_rate_est": 12,
+      "_note": "国内大多数民办本科; 学费 3-5 万/年 (北上沿海 4-5, 中西部 2.5-3.5); 寒门 强烈避; 中产 慎选; 考研 985/考公央机关 系统性歧视"
     }
   },
   "_notes": [
