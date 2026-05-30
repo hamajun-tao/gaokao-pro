@@ -19,6 +19,7 @@ import {
   listZongheSchoolsByProvince,
   loadGaoshuiYundongdui2025,
   findXiaoceDetailBySchool,
+  loadEmploymentOutcomes,
   type TiqianProgram,
   type ZongheSchool2026,
   type GaoshuiSchool2025
@@ -219,7 +220,55 @@ export function paths(profile: ProfileLite): PathsResult {
   // by-school per-school. Surface top-tier in summary only.
   // (Intentional: paths is a province-filtered view; 强基 is national.)
 
-  // 4) 高水平运动队 if sport tier provided
+  // 4) 本科批 lane — surface 二本/民办 candidates from employment-outcomes
+  // for personas in 380-510 score band. Personas above 540 typically aim
+  // at 985/211 (already covered by recommend/roadmap); 本科批 lane is meant
+  // to make 寒门/中产 二本/民办 decisions visible. We include all schools
+  // tagged 省重点 / 双一流 (非 985/211) / 民办 — these are the "lower-tier
+  // alternative" path. Caveat distinguishes 民办 学费 / 公办二本 / 二本 行业头部.
+  //
+  // Score-floor logic: 二本 lane shows only when score < 540 (above that
+  // recommend already covers 985/211); also 民办 only surfaces when
+  // explicitly opted in (score ≤ 450) to avoid steering 中产 toward 民办.
+  if (profile.score !== null && profile.score < 540) {
+    const employment = loadEmploymentOutcomes();
+    const showMinban = profile.score < 460;
+    for (const s of (employment.schools || []) as Array<any>) {
+      const tier = s.tier_label || "";
+      // include 省重点 + 双一流 non-985/211 + 民办 (民办 gated by score)
+      const isErben = tier === "省重点" || tier === "双一流";
+      const isMinban = tier === "民办";
+      if (!isErben && !isMinban) continue;
+      if (isMinban && !showMinban) continue;
+      if (!schoolMatch(s.school)) continue;
+      let caveat: string | null = null;
+      if (isMinban) {
+        caveat = "民办本科 学费 2.5-5 万/年 (中西部 2.5-3.5 / 北上沿海 3.5-5) + 住宿 1.5-2.5 万/年; 4 年总投入 20-35 万; 推免 ≈ 0; 寒门强烈避; 行业头部例外 (大连东软/吉林动画/黄河科技/三亚学院)";
+      } else if (tier === "双一流") {
+        caveat = "双一流非 985/211; 学费 ~6 千/年; 中产主力";
+      } else {
+        caveat = "省重点公办二本; 学费 ~5-6 千/年; 寒门/中产 主战场";
+      }
+      pathways.push({
+        category: "本科批",
+        program_type: tier,
+        school: s.school,
+        zs_code: s.zs_code,
+        eligible: true,
+        caveat,
+        details: {
+          city: s.city,
+          tier_label: tier,
+          specialty_strength: s.specialty_strength,
+          rates: s.rates,
+          notable_employers: (s.notable_employers || []).slice(0, 5),
+          confidence_level: s.confidence_level
+        }
+      });
+    }
+  }
+
+  // 5) 高水平运动队 if sport tier provided
   if (profile.sport_tier) {
     const gaoshui = loadGaoshuiYundongdui2025();
     for (const s of gaoshui.schools) {
