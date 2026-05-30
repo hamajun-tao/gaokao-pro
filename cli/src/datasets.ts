@@ -779,7 +779,14 @@ const CITY_TO_PROVINCE_FALLBACK: Record<string, string> = {
   "芜湖": "安徽",
   "泰安": "山东",
   "临汾": "山西",
-  "咸阳": "陕西"
+  "咸阳": "陕西",
+  "包头": "内蒙古",
+  "林芝": "西藏",
+  "昌都": "西藏",
+  "固原": "宁夏",
+  "太谷": "山西",
+  "杨凌": "陕西",
+  "吉林": "吉林"
 };
 
 // School-name overrides for schools whose physical city ≠ administrative province
