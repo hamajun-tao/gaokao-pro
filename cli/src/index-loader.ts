@@ -1,6 +1,7 @@
 // Loads cli/data/school-index.json.gz — the local school corpus built by `probe`.
 // Exposes filters by province / labels / level / type / belong.
 import { readFileSync, existsSync } from "node:fs";
+import { resolveAlias } from "./aliases.js";
 import { gunzipSync } from "node:zlib";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -106,4 +107,45 @@ export function filterIndex(index: SchoolIndex, f: IndexFilter): SchoolRow[] {
     if (f.dualClass === true && r.dual_class !== "双一流") return false;
     return true;
   });
+}
+
+export type ResolveResult =
+  | { ok: true; row: SchoolRow; matchedBy: "zs_code" | "id" | "name" | "substring" }
+  | { ok: false; reason: "empty" | "notfound" | "ambiguous"; query: string; candidates?: SchoolRow[] };
+
+// The ONE place that turns a user-typed school argument
+// (name | 简称 | 5-digit 院校代码 | gaokao.cn id) into a concrete index row.
+// Refuses unknown / ambiguous input instead of guessing — this is what makes
+// the id-based verbs (school/plan/actual/scores) impossible to 搞错.
+export function resolveSchool(query: string | undefined): ResolveResult {
+  const q = (query ?? "").trim();
+  if (!q) return { ok: false, reason: "empty", query: "" };
+  const { rows } = loadIndex();
+
+  // 1) exact 5-digit 院校代码
+  const byZs = rows.find((r) => r.zs_code === q);
+  if (byZs) return { ok: true, row: byZs, matchedBy: "zs_code" };
+
+  // 2) pure-numeric → gaokao.cn internal id; must exist in the index, otherwise
+  //    it is almost certainly a wrong guess — refuse rather than query blind.
+  if (/^\d+$/.test(q)) {
+    const byId = rows.find((r) => r.gaokao_cn_id === Number(q));
+    return byId
+      ? { ok: true, row: byId, matchedBy: "id" }
+      : { ok: false, reason: "notfound", query: q };
+  }
+
+  // 3) alias (简称) → canonical, then exact name
+  const canonical = resolveAlias(q);
+  const exact = rows.filter((r) => r.name === canonical);
+  if (exact.length === 1) return { ok: true, row: exact[0], matchedBy: "name" };
+
+  // 4) substring — accept only when unambiguous; otherwise surface candidates
+  const subs = rows.filter((r) => r.name.includes(canonical));
+  if (subs.length === 1) return { ok: true, row: subs[0], matchedBy: "substring" };
+  if (subs.length > 1) {
+    subs.sort((a, b) => a.name.length - b.name.length);
+    return { ok: false, reason: "ambiguous", query: q, candidates: subs.slice(0, 8) };
+  }
+  return { ok: false, reason: "notfound", query: q };
 }

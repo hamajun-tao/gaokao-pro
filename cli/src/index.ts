@@ -23,6 +23,7 @@ import { recommendMajor } from "./recommend-major.js";
 import { chartCheck } from "./chart-check.js";
 import { readFileSync, existsSync } from "node:fs";
 import type { ProvinceId } from "./codes.js";
+import { resolveSchool } from "./index-loader.js";
 import {
   findSchoolAdapter,
   listSchoolsOfferingProgram,
@@ -870,9 +871,18 @@ const VERBS: Record<string, Verb> = {
 
   async school(args) {
     const { positional } = parseFlags(args);
-    const id = positional[0];
-    if (!id) throw new Error("missing schoolId. e.g. `gaokao-pro school 31`");
+    const r = resolveSchool(positional[0]);
+    if (!r.ok) {
+      if (r.reason === "ambiguous") throw new Error(`"${r.query}" 不唯一：${(r.candidates ?? []).map((c) => `${c.name}(id=${c.gaokao_cn_id})`).join("; ")}。请用全名或 id 以免搞错。`);
+      if (r.reason === "empty") throw new Error("缺少学校 — 例如 `gaokao-pro school 暨南大学`（或 id 106）");
+      throw new Error(`无法解析学校 "${r.query}"。请用全名(暨南大学)/简称(暨大)/院校代码(10559)/id(106)。`);
+    }
+    const id = r.row.gaokao_cn_id;
+    process.stderr.write(`↳ ${positional[0]} → ${r.row.name} (id=${id}, zs=${r.row.zs_code}, by=${r.matchedBy})\n`);
     const info = await getSchoolInfo(id);
+    if (info?.name && info.name.trim() !== r.row.name.trim()) {
+      throw new Error(`wrong-school guard: 索引 id ${id}="${r.row.name}" 但接口返回 "${info.name}"，拒绝展示不一致数据（本地索引可能过期，跑 \`pnpm probe\` 刷新）。`);
+    }
     printJson({
       ok: true,
       school: {
@@ -899,8 +909,14 @@ const VERBS: Record<string, Verb> = {
 
   async plan(args) {
     const { positional, flags } = parseFlags(args);
-    const id = positional[0];
-    if (!id) throw new Error("missing schoolId. e.g. `gaokao-pro plan 31 --year 2024 --province henan`");
+    const r = resolveSchool(positional[0]);
+    if (!r.ok) {
+      if (r.reason === "ambiguous") throw new Error(`"${r.query}" 不唯一：${(r.candidates ?? []).map((c) => `${c.name}(id=${c.gaokao_cn_id})`).join("; ")}。请用全名或 id 以免搞错。`);
+      if (r.reason === "empty") throw new Error("缺少学校 — 例如 `gaokao-pro plan 暨南大学 --year 2024 --province henan`");
+      throw new Error(`无法解析学校 "${r.query}"。请用全名(暨南大学)/简称(暨大)/院校代码(10559)/id(106)。`);
+    }
+    const id = r.row.gaokao_cn_id;
+    process.stderr.write(`↳ ${positional[0]} → ${r.row.name} (id=${id}, zs=${r.row.zs_code}, by=${r.matchedBy})\n`);
     const year = Number(flags.year ?? new Date().getFullYear() - 1);
     if (!Number.isFinite(year)) throw new Error("--year must be a number");
     const provinceArg = flags.province;
@@ -1004,8 +1020,14 @@ const VERBS: Record<string, Verb> = {
 
   async actual(args) {
     const { positional, flags } = parseFlags(args);
-    const id = positional[0];
-    if (!id) throw new Error("missing schoolId. e.g. `gaokao-pro actual 31 --year 2024 --province henan`");
+    const r = resolveSchool(positional[0]);
+    if (!r.ok) {
+      if (r.reason === "ambiguous") throw new Error(`"${r.query}" 不唯一：${(r.candidates ?? []).map((c) => `${c.name}(id=${c.gaokao_cn_id})`).join("; ")}。请用全名或 id 以免搞错。`);
+      if (r.reason === "empty") throw new Error("缺少学校 — 例如 `gaokao-pro actual 暨南大学 --year 2024 --province henan`");
+      throw new Error(`无法解析学校 "${r.query}"。请用全名(暨南大学)/简称(暨大)/院校代码(10559)/id(106)。`);
+    }
+    const id = r.row.gaokao_cn_id;
+    process.stderr.write(`↳ ${positional[0]} → ${r.row.name} (id=${id}, zs=${r.row.zs_code}, by=${r.matchedBy})\n`);
     const year = Number(flags.year);
     if (!Number.isFinite(year)) throw new Error("--year <year> is required");
     if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
@@ -2001,8 +2023,14 @@ const VERBS: Record<string, Verb> = {
 
   async scores(args) {
     const { positional, flags } = parseFlags(args);
-    const id = positional[0];
-    if (!id) throw new Error("missing schoolId. e.g. `gaokao-pro scores 31 --province henan`");
+    const r = resolveSchool(positional[0]);
+    if (!r.ok) {
+      if (r.reason === "ambiguous") throw new Error(`"${r.query}" 不唯一：${(r.candidates ?? []).map((c) => `${c.name}(id=${c.gaokao_cn_id})`).join("; ")}。请用全名或 id 以免搞错。`);
+      if (r.reason === "empty") throw new Error("缺少学校 — 例如 `gaokao-pro scores 暨南大学 --province henan`");
+      throw new Error(`无法解析学校 "${r.query}"。请用全名(暨南大学)/简称(暨大)/院校代码(10559)/id(106)。`);
+    }
+    const id = r.row.gaokao_cn_id;
+    process.stderr.write(`↳ ${positional[0]} → ${r.row.name} (id=${id}, zs=${r.row.zs_code}, by=${r.matchedBy})\n`);
     const provinceArg = flags.province;
     if (typeof provinceArg !== "string") throw new Error("--province <name|id> is required");
     const provinceId = resolveProvince(provinceArg);

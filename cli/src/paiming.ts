@@ -3,7 +3,7 @@
 // 22 of the 100 candidate-validator agents asked "this school's overall rank" —
 // this verb gives Claude a single call that pulls all five into one view.
 import { getSchoolInfo } from "./gaokao-cn.js";
-import { loadIndex } from "./index-loader.js";
+import { resolveSchool } from "./index-loader.js";
 import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -63,11 +63,15 @@ export type PaimingOutput = {
 
 export async function paiming(schoolQuery: string): Promise<PaimingOutput> {
   if (!xuekeCache) xuekeCache = loadXuekePinggu();
-  const index = loadIndex();
-  const row = index.rows.find((r) => r.zs_code === schoolQuery)
-    ?? index.rows.find((r) => r.gaokao_cn_id === Number(schoolQuery))
-    ?? index.rows.find((r) => r.name.includes(schoolQuery));
-  if (!row) throw new Error(`no school matched "${schoolQuery}"`);
+  const res = resolveSchool(schoolQuery);
+  if (!res.ok) {
+    if (res.reason === "ambiguous") {
+      const opts = (res.candidates ?? []).map((c) => `${c.name}(id=${c.gaokao_cn_id})`).join("; ");
+      throw new Error(`"${res.query}" 不唯一：${opts}。请用全名或 id 以免搞错。`);
+    }
+    throw new Error(`no school matched "${schoolQuery}"`);
+  }
+  const row = res.row;
 
   const info = await getSchoolInfo(row.gaokao_cn_id);
   const rank = (info.rank ?? {}) as Record<string, string | undefined>;
