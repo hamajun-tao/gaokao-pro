@@ -7,6 +7,11 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { getSchoolInfo, GaokaoTimeoutError } from "./gaokao-cn.js";
 
+// probe rebuilds the school corpus — it must hit the live source, never the
+// response cache (cacheDisabled() is read lazily, so setting this before the
+// first getSchoolInfo() call takes effect).
+process.env.GAOKAO_CN_NO_CACHE = "1";
+
 const __filename = fileURLToPath(import.meta.url);
 // cli/src/probe.ts → repo root is two levels up, cli/data is one level up.
 const CLI_ROOT = resolve(dirname(__filename), "..");

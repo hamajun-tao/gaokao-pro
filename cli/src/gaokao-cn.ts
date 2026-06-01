@@ -1,5 +1,9 @@
 // Client for static-data.gaokao.cn — the 中国教育在线 "掌上高考" static JSON tier.
 // No auth, no sign, no rate limit observed. Treat it like a public CDN.
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, renameSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { resolve } from "node:path";
+import { tmpdir, homedir } from "node:os";
 
 const BASE = "https://static-data.gaokao.cn/www/2.0";
 const UA = "gaokao-pro/0.0.1 (+https://github.com/HA7CH/gaokao-pro)";
@@ -28,9 +32,118 @@ export class GaokaoTimeoutError extends Error {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+// ---------------------------------------------------------------------------
+// Response cache. static-data.gaokao.cn serves immutable historical admission
+// data (no auth, no rate limit) — the same path always returns the same bytes.
+// The network round-trip (1-3s) dominates every school/plan/actual/scores call,
+// so we cache responses by path: in-memory for the lifetime of a warm process
+// (MCP / server / probe), and on disk so separate CLI invocations share hits.
+// A planning session re-queries the same/related resources many times; with the
+// cache the second+ hit is ~2ms instead of ~2s. TTL bounds staleness for the
+// rare current-year in-season update; past-year data never changes.
+//
+//   GAOKAO_CN_NO_CACHE=1        disable entirely (probe + smoke set this)
+//   GAOKAO_CN_CACHE_TTL_MS=0    same as disabling; >0 sets the TTL (default 24h)
+//   GAOKAO_CN_CACHE_DIR=<path>  override the on-disk location
+// Checked lazily (not a load-time const) so an entry point like probe.ts can set
+// process.env.GAOKAO_CN_NO_CACHE before its first request and force a fresh fetch.
+function cacheDisabled(): boolean {
+  return process.env.GAOKAO_CN_NO_CACHE === "1" || process.env.GAOKAO_CN_CACHE_TTL_MS === "0";
+}
+const CACHE_TTL_MS = (() => {
+  const env = Number(process.env.GAOKAO_CN_CACHE_TTL_MS);
+  return Number.isFinite(env) && env > 0 ? env : 24 * 60 * 60 * 1000; // 24h
+})();
+export const CACHE_DIR = (() => {
+  if (process.env.GAOKAO_CN_CACHE_DIR) return process.env.GAOKAO_CN_CACHE_DIR;
+  const home = homedir();
+  const base = process.env.XDG_CACHE_HOME || (home ? resolve(home, ".cache") : tmpdir());
+  return resolve(base, "gaokao-pro", "http");
+})();
+
+const memCache = new Map<string, unknown>(); // path -> data, per-process
+
+function cacheFileFor(path: string): string {
+  return resolve(CACHE_DIR, `${createHash("sha1").update(path).digest("hex")}.json`);
+}
+
+function readCache(path: string): unknown | undefined {
+  if (cacheDisabled()) return undefined;
+  if (memCache.has(path)) return memCache.get(path);
+  try {
+    const entry = JSON.parse(readFileSync(cacheFileFor(path), "utf8")) as { ts: number; data: unknown };
+    if (Date.now() - entry.ts > CACHE_TTL_MS) return undefined; // stale → refetch
+    memCache.set(path, entry.data);
+    return entry.data;
+  } catch {
+    return undefined; // miss / unreadable / corrupt — just refetch
+  }
+}
+
+function writeCache(path: string, data: unknown): void {
+  memCache.set(path, data); // memory cache is useful even when disk is disabled
+  if (cacheDisabled()) return;
+  try {
+    mkdirSync(CACHE_DIR, { recursive: true });
+    const file = cacheFileFor(path);
+    const tmp = `${file}.${process.pid}.tmp`;
+    writeFileSync(tmp, JSON.stringify({ url: `${BASE}${path}`, ts: Date.now(), data }));
+    // Atomic rename so a concurrent reader (probe runs 25-wide) never sees a half-written file.
+    renameSync(tmp, file);
+  } catch {
+    /* cache is best-effort; a write failure must never break a real request */
+  }
+}
+
+/** Clear the on-disk + in-memory response cache. Returns files removed + bytes freed. */
+export function clearHttpCache(): { files: number; bytes: number } {
+  memCache.clear();
+  let files = 0;
+  let bytes = 0;
+  try {
+    for (const name of readdirSync(CACHE_DIR)) {
+      if (!name.endsWith(".json")) continue;
+      const p = resolve(CACHE_DIR, name);
+      try {
+        bytes += statSync(p).size;
+        rmSync(p);
+        files++;
+      } catch {
+        /* skip files we can't stat/remove */
+      }
+    }
+  } catch {
+    /* cache dir may not exist yet — nothing to clear */
+  }
+  return { files, bytes };
+}
+
+/** Inspect the on-disk cache without mutating it. */
+export function httpCacheInfo(): { dir: string; files: number; bytes: number; disabled: boolean; ttlMs: number } {
+  let files = 0;
+  let bytes = 0;
+  try {
+    for (const name of readdirSync(CACHE_DIR)) {
+      if (!name.endsWith(".json")) continue;
+      try {
+        bytes += statSync(resolve(CACHE_DIR, name)).size;
+        files++;
+      } catch {
+        /* skip */
+      }
+    }
+  } catch {
+    /* no dir yet */
+  }
+  return { dir: CACHE_DIR, files, bytes, disabled: cacheDisabled(), ttlMs: CACHE_TTL_MS };
+}
+
 type FetchJsonOpts = { timeoutMs?: number; retries?: number };
 
 async function fetchJson<T>(path: string, opts: FetchJsonOpts = {}): Promise<T> {
+  const hit = readCache(path);
+  if (hit !== undefined) return hit as T;
+
   const url = `${BASE}${path}`;
   const timeoutMs = opts.timeoutMs ?? DEFAULT_TIMEOUT_MS;
   const retries = opts.retries ?? DEFAULT_RETRIES;
@@ -86,6 +199,7 @@ async function fetchJson<T>(path: string, opts: FetchJsonOpts = {}): Promise<T> 
       if (body.data == null) {
         throw new Error(`gaokao.cn response missing 'data' (code=${body.code}) for ${url}`);
       }
+      writeCache(path, body.data);
       return body.data;
     } catch (err) {
       // AbortError → our timeout fired.

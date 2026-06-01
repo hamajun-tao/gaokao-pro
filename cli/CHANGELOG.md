@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.14 — 2026-05-31
+
+### perf — 查询提速 (网络是唯一瓶颈)
+profiling 显示离线 verb 全部 <0.15s, 慢的只有打 gaokao.cn 的网络调用 (1-3s/次)。
+
+- **响应缓存** (`gaokao-cn.ts` `fetchJson` 唯一入口): 按 path 缓存到内存(暖进程) + 磁盘(`~/.cache/gaokao-pro/http`, 跨 CLI 调用共享)。gaokao.cn 是免鉴权静态历史数据, 同 path 永远同结果 → 重复 `school/plan/actual/scores` 调用从 ~1-2s 降到 **~0.11s (≈9×)**。默认 TTL 24h (当季数据隔天刷新), `GAOKAO_CN_NO_CACHE=1` / `GAOKAO_CN_CACHE_TTL_MS=0` 旁路, `GAOKAO_CN_CACHE_DIR` 改位置。probe 与 smoke 测试强制旁路 (拿活数据)。
+- **`batch` verb**: 一次并行拉多校真实录取数据 (替代对候选名单逐校串行调 `actual`)。5 校冷启 **1.28s** (vs 串行 ~6.5s+), 命中缓存 **0.11s**。返回每校 min/max/最低位次/专业数 紧凑摘要, 供快速冲稳保分流。
+- **`cache` verb**: `cache info` / `cache clear` 查看与清空缓存。
+- help + README 提示 AI 优先 `recommend`/`top`(离线筛) → `batch`(并行拉真数据), 别逐校反复 `actual`。
+
+真实性: 缓存的是接口原样返回的字节(无转换), 过去年份数据不可变; 当季数据由 24h TTL + `cache clear` 兜底。
+
 ## 0.3.13 — 2026-05-31
 
 ### 31-省真实性校验 (93-agent 分省核查) + 数据修复

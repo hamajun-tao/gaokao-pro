@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { getSchoolInfo, getAdmissionPlan, getAdmissionScores, extractHistoricalScores } from "./gaokao-cn.js";
+import { getSchoolInfo, getAdmissionPlan, getAdmissionScores, extractHistoricalScores, clearHttpCache, httpCacheInfo } from "./gaokao-cn.js";
 import { PROVINCES, TRACK_NAMES, resolveProvince, ALL_SUBJECTS, type Subject } from "./codes.js";
 import { recommend } from "./recommend.js";
 import { find } from "./find.js";
@@ -220,6 +220,12 @@ Usage:
   gaokao-pro actual <schoolId> --year <year> --province <name|id>
       Per-major actual admission outcomes (vs forward-looking 'plan'):
       max/min/avg score, 录取人数, 最低位次. Use this for rank-based reasoning.
+
+  gaokao-pro batch <s1,s2,...> --year <year> --province <name|id>
+      Scan many schools' actual data in ONE parallel call — compact per-school
+      summary (min/max/最低位次/专业数). PREFER THIS over many 'actual' calls
+      when triaging a candidate list; drill into one school with 'actual' after.
+      e.g. gaokao-pro batch 暨南大学,深圳大学,中山大学 --year 2024 --province henan
 
   gaokao-pro find <keyword> --province <name|id> --year <year>
                   [--985] [--211] [--dual-class] [--belong <name>] [--limit <n>]
@@ -444,6 +450,12 @@ Usage:
 
   gaokao-pro provinces
       List supported provinces with their ids and 新高考 reform mode.
+
+  gaokao-pro cache [info|clear]
+      Inspect/clear the gaokao.cn response cache. Network responses are cached
+      (default 24h TTL) so repeat school/plan/actual/scores/batch calls are
+      ~instant. Bypass with GAOKAO_CN_NO_CACHE=1 (or GAOKAO_CN_CACHE_TTL_MS=0);
+      run \`cache clear\` after a season's data updates.
 
   gaokao-pro mcp
       Start an MCP server over stdio. Plug into Claude Code with:
@@ -869,6 +881,26 @@ const VERBS: Record<string, Verb> = {
     printJson({ ok: true, count: rows.length, provinces: rows });
   },
 
+  // Manage the gaokao.cn response cache (the thing that makes repeat
+  // school/plan/actual/scores calls ~instant). `cache` / `cache info` reports
+  // it; `cache clear` empties it (use after a season's data updates, or set
+  // GAOKAO_CN_NO_CACHE=1 / GAOKAO_CN_CACHE_TTL_MS=0 to bypass).
+  async cache(args) {
+    const { positional } = parseFlags(args);
+    const sub = (positional[0] ?? "info").toLowerCase();
+    if (sub === "clear" || sub === "clean" || sub === "purge") {
+      const { files, bytes } = clearHttpCache();
+      printJson({ ok: true, action: "clear", files_removed: files, bytes_freed: bytes });
+      return;
+    }
+    if (sub === "info" || sub === "status" || sub === "stat") {
+      const info = httpCacheInfo();
+      printJson({ ok: true, action: "info", ...info, mb: +(info.bytes / 1048576).toFixed(2), ttl_hours: +(info.ttlMs / 3600000).toFixed(1) });
+      return;
+    }
+    throw new Error(`unknown cache subcommand "${sub}". use: gaokao-pro cache [info|clear]`);
+  },
+
   async school(args) {
     const { positional } = parseFlags(args);
     const r = resolveSchool(positional[0]);
@@ -1059,6 +1091,67 @@ const VERBS: Record<string, Verb> = {
         },
         info: it.info || it.remark || null
       }))
+    });
+  },
+
+  // batch — scan many schools' actual admission data in ONE parallel call.
+  // Replaces N sequential `actual` invocations (N cold starts + N serial
+  // round-trips) with a single fan-out; combined with the response cache the
+  // whole scan is usually <2s. Returns a compact per-school summary (min/max/
+  // 最低位次 by batch) for fast 冲稳保 triage — drill into a chosen school with
+  // `actual` for the full per-major breakdown. e.g.
+  //   gaokao-pro batch 暨南大学,深圳大学,广州大学 --year 2024 --province henan
+  async batch(args) {
+    const { positional, flags } = parseFlags(args);
+    const raw = (positional[0] ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+    if (raw.length === 0) throw new Error("缺少学校列表 — 例如 `gaokao-pro batch 暨南大学,深圳大学 --year 2024 --province henan`");
+    const year = Number(flags.year);
+    if (!Number.isFinite(year)) throw new Error("--year <year> is required");
+    if (typeof flags.province !== "string") throw new Error("--province <name|id> is required");
+    const provinceId = resolveProvince(flags.province);
+    if (!provinceId) throw new Error(`unknown province: ${flags.province}`);
+
+    const schools = await Promise.all(
+      raw.map(async (q) => {
+        const r = resolveSchool(q);
+        if (!r.ok) {
+          const hint = r.reason === "ambiguous"
+            ? `不唯一：${(r.candidates ?? []).map((c) => `${c.name}(id=${c.gaokao_cn_id})`).join("; ")}`
+            : "无法解析（用全名/简称/院校代码/id）";
+          return { query: q, ok: false as const, error: hint };
+        }
+        try {
+          const items = await getAdmissionScores(r.row.gaokao_cn_id, year, provinceId);
+          const nums = (xs: (string | number | null | undefined)[]) =>
+            xs.map((x) => (x != null && x !== "-" ? Number(x) : NaN)).filter((n) => Number.isFinite(n));
+          const mins = nums(items.map((it) => it.min));
+          const maxs = nums(items.map((it) => it.max));
+          const ranks = nums(items.map((it) => it.min_section));
+          const batches = [...new Set(items.map((it) => it.local_batch_name).filter(Boolean))];
+          return {
+            query: q,
+            ok: true as const,
+            name: r.row.name,
+            id: r.row.gaokao_cn_id,
+            zs_code: r.row.zs_code,
+            majors: items.length,
+            min: mins.length ? Math.min(...mins) : null,
+            max: maxs.length ? Math.max(...maxs) : null,
+            best_rank: ranks.length ? Math.min(...ranks) : null, // 最好(最小)位次
+            worst_rank: ranks.length ? Math.max(...ranks) : null,
+            batches
+          };
+        } catch (e) {
+          return { query: q, ok: false as const, name: r.row.name, id: r.row.gaokao_cn_id, error: e instanceof Error ? e.message : String(e) };
+        }
+      })
+    );
+    printJson({
+      ok: true,
+      query: { year, province: { id: provinceId, name: PROVINCES[provinceId].name } },
+      count: schools.length,
+      resolved: schools.filter((s) => s.ok).length,
+      schools
     });
   },
 

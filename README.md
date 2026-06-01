@@ -11,6 +11,8 @@
 先问我：分数（估分 / 模考分 / 高考分都行，标清楚是哪种）、省份、选科组合、目标专业方向或职业兴趣、偏好（目标城市 / 是否限定 985/211 / 学费预算）。如果给的是估分或模考分，参考 2023-2025 历年一分一段做粗估位次；等高考真实分数出来再用 2026 当年一分一段精算。
 
 每条推荐都用 CLI 拉真实数据支撑——查历年最低分、跨校搜专业、把分数换算成位次区间。
+
+要快：先用 `recommend` / `top`（离线）筛出候选名单，再用 `batch 校1,校2,...` 一次并行拉多校真实录取数据，不要对每所学校单独反复调 `actual`。同一查询会被缓存，重复查近乎瞬时。
 ```
 
 ## Install
@@ -44,9 +46,11 @@ Tools Claude can call (via Bash or MCP):
 | `school`    | University metadata: 985 / 211 / 双一流 / 学科评估 / 排名                    |
 | `plan`      | Forward-looking admission plan (year × province × school)                 |
 | `actual`    | Backward-looking actual admissions: 最高/最低/平均分 + 最低位次              |
+| `batch`     | Scan many schools' actual data in one parallel call (fast 冲稳保 triage)    |
 | `scores`    | Historical min-score time series for a (school, province) pair            |
 | `rank`      | score ↔ 全省位次 via official 一分一段表 (beijing 2023-2025 ingested)        |
 | `provinces` | List 31 provinces with their 新高考 reform mode                            |
+| `cache`     | Inspect/clear the gaokao.cn response cache (24h TTL; repeat calls instant) |
 | `mcp`       | Run as MCP server — `claude mcp add gaokao-pro -- npx -y gaokao-pro mcp`  |
 
 Data sources:
