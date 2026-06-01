@@ -360,12 +360,19 @@
     {
       "region_id": 46,
       "year": 2025,
-      "bonus_tiers": [],
+      "bonus_tiers": [
+        {
+          "scope": "少数民族聚居市县少民(黎/苗/三亚回等)",
+          "bonus": 10,
+          "requirements": "本人及监护人户籍、本人高中学籍与实际就读、报考地 三统一于聚居市县(三亚/东方/五指山/乐东/陵水/昌江/保亭/琼中/白沙 及部分聚居乡镇)",
+          "scope_universities": "national"
+        }
+      ],
       "data_source": [
         "docs/special-admissions-3year/"
       ],
       "confidence": "high",
-      "notes": "海南本地少民(黎/苗/三亚回)加分已并入新高考过渡,以省考试局当年公告为准;2025 文件未单列硬加分。"
+      "notes": "海南少民加分: 户籍+学籍+报考地 三统一于聚居市县者 +10; 属投档加分(高校录取是否认可自定); 多项不累加取最高。来源: 海南省考试局 2025 招生实施办法 / haikou.bendibao.com。"
     },
     {
       "region_id": 50,
