@@ -28,7 +28,7 @@ export const PROVINCES = {
   54: { name: "西藏", pinyin: "xizang", reform: "old" },
   61: { name: "陕西", pinyin: "shaanxi", reform: "3+1+2" },
   62: { name: "甘肃", pinyin: "gansu", reform: "3+1+2" },
-  63: { name: "青海", pinyin: "qinghai", reform: "3+1+2" },
+  63: { name: "青海", pinyin: "qinghai", reform: "3+1+2" },   // 批5: first new-gaokao exam 2025 (was 文/理 through 2024)
   64: { name: "宁夏", pinyin: "ningxia", reform: "3+1+2" },
   65: { name: "新疆", pinyin: "xinjiang", reform: "old" },  // 2025 仍是老高考；3+1+2 改革将在 2027 首届实施
   // GB/T 2260 港澳台 — 不在普通高考体系内，走全国联招 / 居住证高考 / 港澳台高校通道

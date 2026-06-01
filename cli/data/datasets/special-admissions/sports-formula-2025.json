@@ -211,9 +211,9 @@
       "kind": "weighted",
       "formula": {
         "culture_pct": 0.7,
-        "pro_factor": 2.5,
+        "pro_factor": 5,
         "pro_pct": 0.3,
-        "extras": "江苏 投档 = [文化/750×0.7 + 专业/300×0.3] × 750;专业满分 300"
+        "extras": "江苏 投档 = [文化/750×0.7 + 专业/150×0.3] × 750;专业满分 150"
       },
       "professional_qualifying": {
         "benke": 90
@@ -349,7 +349,7 @@
         "culture_pct": 0.5,
         "pro_factor": 2.5,
         "pro_pct": 0.5,
-        "extras": "河南 2025 本科 4 选 1 公式(院校自选): ① 文 100%; ② 文 70%+专 30%; ③ 文 50%+专 50%(常用,此处取常用作主公式); ④ 文 30%+专 70%。专科固定 文 30%+专 70%。术科 3 项(每项 100): 100m+原地推铅球+立定跳远"
+        "extras": "河南 2025 本科 4 选 1 公式(院校自选): ① 文 100%; ② 文 70%+专 30%; ③ 文 50%+专 50%(常用,此处取常用作主公式); ④ 文 30%+专 70%。专科固定 文 30%+专 70%。术科 3 项(每项 50, 总 150): 100m+原地推铅球+立定跳远"
       },
       "professional_qualifying": {
         "benke": 106
@@ -375,10 +375,13 @@
         "pro_pct": 0.75,
         "extras": "湖北 综合 = 文化×50% + 专业×75%(总系数 1.25,全国独有)"
       },
-      "professional_qualifying": {},
+      "professional_qualifying": {
+        "benke": 350,
+        "zhuanke": 300
+      },
       "culture_control_line": {
         "benke": 390,
-        "zhuanke": 350
+        "zhuanke": 120
       },
       "notes": "湖北 1.25 系数 全国独有。",
       "data_source": [
@@ -392,7 +395,7 @@
       "reform": "3+1+2",
       "kind": "additive",
       "professional_qualifying": {
-        "benke": 155
+        "benke": 261
       },
       "culture_control_line": {},
       "notes": "湖南独特'直接相加': 投档分 = 高考文化(含政策加分) + 专业统考成绩,不加权、不折算;文化 750 + 体育术科 300 = 理论上限 1050。2025 本科首次投档: 文体须分别上控制线,按和值平行志愿排序。155 为三年统一合格线。",

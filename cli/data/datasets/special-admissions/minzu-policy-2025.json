@@ -210,7 +210,7 @@
       "year": 2025,
       "bonus_tiers": [
         {
-          "scope": "少数民族(2025 起完全取消)",
+          "scope": "少数民族(2023 起完全取消)",
           "bonus": 0,
           "scope_universities": "all"
         }
@@ -497,17 +497,17 @@
           "scope": "边疆县及边疆政策县少民/汉族",
           "bonus": 10,
           "requirements": "边疆县;异地高中就读 +5;高寒贫困山区少民 +10",
-          "scope_universities": "provincial_only"
+          "scope_universities": "national"
         },
         {
           "scope": "内地 19 个世居少民(哈尼/傣/苗/傈僳/拉祜/佤/景颇/瑶/布朗/怒/阿昌/普米/德昂/独龙/藏/蒙/基诺/水/布依)",
           "bonus": 5,
-          "scope_universities": "provincial_only"
+          "scope_universities": "national"
         },
         {
           "scope": "内地农业户口彝族/壮族",
           "bonus": 5,
-          "scope_universities": "provincial_only"
+          "scope_universities": "national"
         },
         {
           "scope": "应届农业人口独生子女(报省内本科;2024-2026 过渡末年)",
@@ -563,7 +563,7 @@
         {
           "scope": "进藏干部职工子女按在藏工龄(全国独家,≤30)",
           "bonus": null,
-          "requirements": "+1/年,≤30;双方在藏取较长一方;民大及驻内地办事处除外",
+          "requirements": "+1/年,≤30;双方在藏取较长一方;民大及驻内地办事处（格尔木办事处除外）除外",
           "scope_universities": "all"
         }
       ],
@@ -681,7 +681,7 @@
           "scope": "川区少民(兴庆/西夏/金凤/永宁/贺兰/灵武/大武口/惠农/平罗/利通/青铜峡/沙坡头/中宁)",
           "bonus": 5,
           "requirements": "三统一;2024 起由 10 降至 5,2027 取消",
-          "scope_universities": "all",
+          "scope_universities": "provincial_only",
           "rollback_schedule": {
             "2027": 0
           }
