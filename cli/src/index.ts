@@ -3,7 +3,7 @@ import { getSchoolInfo, getAdmissionPlan, getAdmissionScores, extractHistoricalS
 import { PROVINCES, TRACK_NAMES, resolveProvince, ALL_SUBJECTS, type Subject } from "./codes.js";
 import { recommend } from "./recommend.js";
 import { find } from "./find.js";
-import { top } from "./top.js";
+import { top, type TopRow } from "./top.js";
 import { isTty, formatRecommend, formatTop } from "./format.js";
 import { runMcpServer } from "./mcp.js";
 import { runHttpServer } from "./http-server.js";
@@ -212,10 +212,14 @@ Usage:
 
   gaokao-pro top --score <n> --province <name|id> --subjects <list>
                  [--985] [--211] [--dual-class] [--limit <n>]
-                 [--format table|json]
+                 [--enrich --year <year>] [--format table|json]
       Best schools within reach of this score in this province, ranked by
       historical baseline desc. Like recommend, but flat top-N list.
+      --enrich --year <y> attaches each school's real 录取 min/最低位次 by
+      fetching them in ONE parallel pass (implies JSON) — the fast way to get a
+      ranked candidate list WITH real admission data in a single call.
       e.g. gaokao-pro top --score 650 --province henan --subjects 物理 --limit 15
+           gaokao-pro top --score 650 --province henan --subjects 物理 --enrich --year 2024
 
   gaokao-pro actual <schoolId> --year <year> --province <name|id>
       Per-major actual admission outcomes (vs forward-looking 'plan'):
@@ -1022,7 +1026,34 @@ const VERBS: Record<string, Verb> = {
     const limit = flags.limit !== undefined ? Number(flags.limit) : 20;
     const filter = buildLabelFilter(flags);
     const out = top({ score, provinceId, subjects, limit, filter });
-    if (shouldTable(flags)) {
+    // --enrich: fetch each top school's real admission data in ONE parallel pass
+    // (offline rank + live 录取min/最低位次 in a single call). Implies JSON output.
+    const enrich = flags.enrich !== undefined;
+    if (enrich) {
+      const year = Number(flags.year ?? new Date().getFullYear() - 1);
+      if (!Number.isFinite(year)) throw new Error("--enrich needs a valid --year <year>");
+      const nums = (xs: (string | number | null | undefined)[]) =>
+        xs.map((x) => (x != null && x !== "-" ? Number(x) : NaN)).filter((n) => Number.isFinite(n));
+      await Promise.all(
+        (out.rows as Array<TopRow & { actual?: unknown }>).map(async (r) => {
+          try {
+            const items = await getAdmissionScores(r.schoolId, year, provinceId);
+            const mins = nums(items.map((it) => it.min));
+            const ranks = nums(items.map((it) => it.min_section));
+            r.actual = {
+              year,
+              majors: items.length,
+              min: mins.length ? Math.min(...mins) : null,
+              max: (() => { const m = nums(items.map((it) => it.max)); return m.length ? Math.max(...m) : null; })(),
+              best_rank: ranks.length ? Math.min(...ranks) : null
+            };
+          } catch (e) {
+            r.actual = { year, error: e instanceof Error ? e.message : String(e) };
+          }
+        })
+      );
+    }
+    if (shouldTable(flags) && !enrich) {
       const rows = out.rows.map((r) => ({
         schoolName: r.name,
         baselineMinScore: r.baselineMinScore,
@@ -1046,7 +1077,7 @@ const VERBS: Record<string, Verb> = {
       })();
       process.stdout.write(header + formatTop(rows) + slipFooter + "\n");
     } else {
-      printJson({ ok: true, ...out });
+      printJson({ ok: true, enriched: enrich, ...out });
     }
   },
 
