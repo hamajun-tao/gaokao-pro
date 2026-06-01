@@ -641,7 +641,26 @@
     {
       "region_id": 63,
       "year": 2025,
-      "bonus_tiers": [],
+      "bonus_tiers": [
+        {
+          "scope": "A区(玉树6县/果洛6县/黄南河南·泽库/海南兴海/海北刚察/海西天峻) 少数民族",
+          "bonus": 20,
+          "requirements": "户籍+学籍在A区; 汉族同区 +10",
+          "scope_universities": "provincial_only"
+        },
+        {
+          "scope": "B区(黄南同仁·尖扎/海南共和·贵德·贵南·同德/海北海晏·门源·祁连/海西部分) 少数民族",
+          "bonus": 15,
+          "requirements": "户籍+学籍在B区; 汉族同区 +5",
+          "scope_universities": "provincial_only"
+        },
+        {
+          "scope": "C区(海东6县区 + 西宁部分县) 少数民族",
+          "bonus": 5,
+          "requirements": "户籍+学籍在C区",
+          "scope_universities": "provincial_only"
+        }
+      ],
       "minzu_ban_discount": -40,
       "minzu_yuke_discount": -80,
       "host_schools": [
@@ -663,7 +682,8 @@
         "qhjyks.com",
         "gaokao.chsi.com.cn"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "notes": "青海民族地区加分按 A/B/C/D 四区: A区少民+20(汉+10)/B区少民+15(汉+5)/C区少民+5/D区(西宁城区+油田)无; 属地方性加分(仅省内高校)。来源: 青海省2025招生录取实施细则。"
     },
     {
       "region_id": 64,
